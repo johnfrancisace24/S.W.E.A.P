@@ -175,7 +175,7 @@ Partial Class AdminDashboard
         bttnFund.ImageAlign = HorizontalAlignment.Left
         bttnFund.ImageOffset = New Point(20, 0)
         bttnFund.ImageSize = New Size(30, 30)
-        bttnFund.Location = New Point(0, 405)
+        bttnFund.Location = New Point(-4, 440)
         bttnFund.Margin = New Padding(4, 3, 4, 3)
         bttnFund.Name = "bttnFund"
         bttnFund.Padding = New Padding(40, 0, 0, 0)
