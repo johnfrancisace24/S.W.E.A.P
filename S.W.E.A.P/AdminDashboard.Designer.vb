@@ -168,14 +168,14 @@ Partial Class AdminDashboard
         bttnFund.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
         bttnFund.ForeColor = Color.White
         bttnFund.HoverState.BorderColor = Color.Black
-        bttnFund.HoverState.FillColor = Color.FromArgb(CByte(255), CByte(218), CByte(0))
+        bttnFund.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
         bttnFund.HoverState.ForeColor = Color.Black
         bttnFund.HoverState.Image = My.Resources.Resources.fund__1_
         bttnFund.Image = My.Resources.Resources.transfer
         bttnFund.ImageAlign = HorizontalAlignment.Left
         bttnFund.ImageOffset = New Point(20, 0)
         bttnFund.ImageSize = New Size(30, 30)
-        bttnFund.Location = New Point(-4, 440)
+        bttnFund.Location = New Point(0, 406)
         bttnFund.Margin = New Padding(4, 3, 4, 3)
         bttnFund.Name = "bttnFund"
         bttnFund.Padding = New Padding(40, 0, 0, 0)
@@ -198,7 +198,7 @@ Partial Class AdminDashboard
         bttnEmpl.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
         bttnEmpl.ForeColor = Color.White
         bttnEmpl.HoverState.BorderColor = Color.Black
-        bttnEmpl.HoverState.FillColor = Color.FromArgb(CByte(255), CByte(218), CByte(0))
+        bttnEmpl.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
         bttnEmpl.HoverState.ForeColor = Color.Black
         bttnEmpl.HoverState.Image = My.Resources.Resources.company
         bttnEmpl.Image = My.Resources.Resources.employees
@@ -243,7 +243,7 @@ Partial Class AdminDashboard
         bttnDash.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
         bttnDash.ForeColor = Color.White
         bttnDash.HoverState.BorderColor = Color.Black
-        bttnDash.HoverState.FillColor = Color.FromArgb(CByte(255), CByte(218), CByte(0))
+        bttnDash.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
         bttnDash.HoverState.ForeColor = Color.Black
         bttnDash.HoverState.Image = My.Resources.Resources.dashboard__1_
         bttnDash.Image = My.Resources.Resources.dash
