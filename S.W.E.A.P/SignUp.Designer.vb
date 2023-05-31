@@ -92,6 +92,8 @@ Partial Class SignUp
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges69 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges70 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
@@ -158,6 +160,7 @@ Partial Class SignUp
         rdiobttnPer = New RadioButton()
         bttnNext = New Guna.UI2.WinForms.Guna2Button()
         bttnBck = New Guna.UI2.WinForms.Guna2Button()
+        btnSubmit = New Guna.UI2.WinForms.Guna2Button()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         pnlWork.SuspendLayout()
         pnlBen.SuspendLayout()
@@ -1202,13 +1205,13 @@ Partial Class SignUp
         Guna2DateTimePickerBdate.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2DateTimePickerBdate.Format = DateTimePickerFormat.Long
         Guna2DateTimePickerBdate.Location = New Point(27, 295)
-        Guna2DateTimePickerBdate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
-        Guna2DateTimePickerBdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        Guna2DateTimePickerBdate.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
+        Guna2DateTimePickerBdate.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
         Guna2DateTimePickerBdate.Name = "Guna2DateTimePickerBdate"
         Guna2DateTimePickerBdate.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         Guna2DateTimePickerBdate.Size = New Size(280, 36)
         Guna2DateTimePickerBdate.TabIndex = 68
-        Guna2DateTimePickerBdate.Value = New Date(2023, 5, 30, 13, 6, 0, 439)
+        Guna2DateTimePickerBdate.Value = New DateTime(2023, 5, 30, 13, 6, 0, 439)
         ' 
         ' Label3
         ' 
@@ -1319,6 +1322,25 @@ Partial Class SignUp
         bttnBck.TabIndex = 77
         bttnBck.Text = "BACK"
         ' 
+        ' btnSubmit
+        ' 
+        btnSubmit.Anchor = AnchorStyles.Bottom
+        btnSubmit.BorderRadius = 10
+        btnSubmit.CustomizableEdges = CustomizableEdges69
+        btnSubmit.DisabledState.BorderColor = Color.DarkGray
+        btnSubmit.DisabledState.CustomBorderColor = Color.DarkGray
+        btnSubmit.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnSubmit.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnSubmit.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        btnSubmit.ForeColor = Color.White
+        btnSubmit.ImageAlign = HorizontalAlignment.Right
+        btnSubmit.Location = New Point(676, 489)
+        btnSubmit.Name = "btnSubmit"
+        btnSubmit.ShadowDecoration.CustomizableEdges = CustomizableEdges70
+        btnSubmit.Size = New Size(133, 37)
+        btnSubmit.TabIndex = 78
+        btnSubmit.Text = "SUBMIT"
+        ' 
         ' SignUp
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -1336,6 +1358,7 @@ Partial Class SignUp
         Controls.Add(pnlWork)
         Controls.Add(pnlBen)
         Controls.Add(pnlAcc)
+        Controls.Add(btnSubmit)
         FormBorderStyle = FormBorderStyle.None
         Name = "SignUp"
         StartPosition = FormStartPosition.CenterScreen
@@ -1420,4 +1443,5 @@ Partial Class SignUp
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents btnSubmit As Guna.UI2.WinForms.Guna2Button
 End Class
