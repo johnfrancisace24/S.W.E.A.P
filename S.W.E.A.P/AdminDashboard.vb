@@ -13,7 +13,7 @@ Public Class AdminDashboard
         pnlFundTransfer.Visible = False
 
         'For button Dashboard design
-        bttnDash.FillColor = Color.FromArgb(255, 218, 0)
+        bttnDash.FillColor = Color.FromArgb(251, 197, 49)
         bttnDash.ForeColor = Color.Black
         bttnDash.Image = My.Resources.dashboard__1_
         bttnDash.BorderColor = Color.Black
@@ -50,7 +50,7 @@ Public Class AdminDashboard
 
 
         'For button Employee design
-        bttnEmpl.FillColor = Color.FromArgb(255, 218, 0)
+        bttnEmpl.FillColor = Color.FromArgb(251, 197, 49)
         bttnEmpl.ForeColor = Color.Black
         bttnEmpl.Image = My.Resources.company
         bttnEmpl.BorderColor = Color.Black
@@ -88,7 +88,7 @@ Public Class AdminDashboard
 
 
         'For button Fund Transfer design
-        bttnFund.FillColor = Color.FromArgb(255, 218, 0)
+        bttnFund.FillColor = Color.FromArgb(251, 197, 49)
         bttnFund.ForeColor = Color.Black
         bttnFund.Image = My.Resources.fund__1_
         bttnFund.BorderColor = Color.Black
