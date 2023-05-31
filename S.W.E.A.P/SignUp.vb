@@ -1,4 +1,7 @@
-﻿Public Class SignUp
+﻿Imports MySql.Data.MySqlClient
+Public Class SignUp
+    Dim conn As New MySqlConnection("server=172.30.206.156;port=3306;username=sweapp;password=druguser;database=sweap")
+    Dim rid As MySqlDataReader
     Private Sub SignUp_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         rdiobttnPer.Checked = True
     End Sub
@@ -25,6 +28,7 @@
             rdiobttnBene.Checked = True
             rdiobttnAccnt.Checked = False
 
+
         ElseIf rdiobttnBene.Checked = True Then
             pnlPer.Visible = False
             pnlWork.Visible = False
@@ -35,9 +39,13 @@
             rdiobttnPer.Checked = False
             rdiobttnBene.Checked = False
             rdiobttnAccnt.Checked = True
-
+            btnSubmit.Show()
+            bttnNext.Hide()
             'ElseIf (For Saving Account)
         End If
+    End Sub
+    Private Sub bttnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
+
     End Sub
 
     Private Sub bttnBck_Click(sender As Object, e As EventArgs) Handles bttnBck.Click
@@ -67,6 +75,7 @@
             rdiobttnBene.Checked = False
             rdiobttnAccnt.Checked = False
 
+
         ElseIf rdiobttnAccnt.Checked = True Then
             pnlPer.Visible = False
             pnlWork.Visible = False
@@ -77,6 +86,8 @@
             rdiobttnPer.Checked = False
             rdiobttnBene.Checked = True
             rdiobttnAccnt.Checked = False
+            bttnNext.Show()
+            btnSubmit.Hide()
         End If
     End Sub
 End Class
