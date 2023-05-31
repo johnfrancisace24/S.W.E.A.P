@@ -59,6 +59,9 @@ Public Class SignUp
             'ElseIf (For Saving Account)
         End If
     End Sub
+    Private Sub bttnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
+
+    End Sub
 
     Private Sub bttnBck_Click(sender As Object, e As EventArgs) Handles bttnBck.Click
         If rdiobttnPer.Checked = True Then
