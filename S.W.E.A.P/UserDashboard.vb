@@ -29,11 +29,13 @@ Public Class UserDashboard
     Private Sub bttnEmpl_Click(sender As Object, e As EventArgs) Handles bttnEmpl.Click
         Guna2CustomGradientPanel1.Visible = True
         Guna2Panel1.Visible = False
+        Guna2Panel2.Visible = False
     End Sub
 
     Private Sub bttnDash_Click(sender As Object, e As EventArgs) Handles bttnDash.Click
         Guna2Panel1.Visible = True
         Guna2CustomGradientPanel1.Visible = False
+        Guna2Panel2.Visible = False
     End Sub
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
@@ -81,5 +83,36 @@ Public Class UserDashboard
         Finally
             conn.Close()
         End Try
+    End Sub
+
+    Public Sub Update()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("UPDATE users " &
+                            "INNER JOIN user_info ON users.id = user_info.user_id " &
+                            "SET users.first_name = @fname, user_info.address = @address " &
+                            "WHERE users.id = @ID", conn)
+            cmd.Parameters.Clear()
+            cmd.Parameters.AddWithValue("@ID", Form1.log_id)
+            cmd.Parameters.AddWithValue("@fname", txtbxfname.Text)
+            cmd.Parameters.AddWithValue("@address", txtbxadds.Text)
+
+            cmd.ExecuteNonQuery()
+            MessageBox.Show("Updated successfully!", "ALERT", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Catch ex As Exception
+            MsgBox("not working")
+        Finally
+            conn.Close()
+        End Try
+    End Sub
+
+    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
+        Update()
+    End Sub
+
+    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
+        Guna2CustomGradientPanel1.Visible = False
+        Guna2Panel1.Visible = False
+        Guna2Panel2.Visible = True
     End Sub
 End Class

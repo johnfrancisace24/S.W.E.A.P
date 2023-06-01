@@ -121,13 +121,13 @@
     <value>17, 17</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>95</value>
+    <value>47</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="resource.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAZQSURBVHhe5ZtH
+        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAZQSURBVHhe5ZtH
         qCVFFIbHnBOKeWPEHEAxoBtRMWcxrHRljqgbUVQwuzIrZjci5hwWihEDIuaALtyZM+bwffLuY+55p0P1
         7efY4w8fM3On6txzbldXn1NVPWeWtSAcCy/B9/BXS2z7IhwNC8EgtQg8DlmAJTwKC8PgdBFkAXXhAhiU
         FoUvIAumC9pyRA1GO0IM4s/ksxJ2gMHIySsGcAe0lW1jf20ORldADOAsaKuzIfa/HAajpyEGcCC0lW1j
@@ -161,7 +161,7 @@
   <data name="Guna2Button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAfzSURBVHhe5VtJ
+        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAfzSURBVHhe5VtJ
         rBRVFH3OOGs0zhvHoKhgInEIbgwYBechiitdiYoghs+GSJREQHTliEYcN4aogIoILDCgEpEQZPo9CERN
         TOQjCGgQUMpzX53+3f3era5X1YX8hpOc9P99z711b9Wrqje12Z+IInN4VDWPRRXzHbgTjAIp2mXgKMQ4
         guE6C9EKcxQKWMCC8rNs5keLzZEM2zlA8tO8YvKyaqYwbGcgWmeORuJbvELyc4u0KIbv+0CzvUEpYp/y
