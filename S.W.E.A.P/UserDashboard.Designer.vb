@@ -25,6 +25,9 @@ Partial Class UserDashboard
         components = New ComponentModel.Container()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(UserDashboard))
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -41,12 +44,10 @@ Partial Class UserDashboard
         Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(UserDashboard))
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
+        Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         pnlDas = New Guna.UI2.WinForms.Guna2Panel()
         pnlEm = New Guna.UI2.WinForms.Guna2Panel()
@@ -79,7 +80,6 @@ Partial Class UserDashboard
         Label5 = New Label()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         lblFirst = New Label()
-        Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Guna2GradientPanel1.SuspendLayout()
         Panel1.SuspendLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
@@ -117,6 +117,38 @@ Partial Class UserDashboard
         Guna2GradientPanel1.Size = New Size(254, 655)
         Guna2GradientPanel1.TabIndex = 3
         ' 
+        ' Guna2Button2
+        ' 
+        Guna2Button2.Animated = True
+        Guna2Button2.BorderColor = Color.White
+        Guna2Button2.CustomizableEdges = CustomizableEdges1
+        Guna2Button2.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button2.Dock = DockStyle.Bottom
+        Guna2Button2.FillColor = Color.Transparent
+        Guna2Button2.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Guna2Button2.ForeColor = Color.White
+        Guna2Button2.HoverState.BorderColor = Color.Black
+        Guna2Button2.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
+        Guna2Button2.HoverState.ForeColor = Color.Black
+        Guna2Button2.HoverState.Image = CType(resources.GetObject("resource.Image"), Image)
+        Guna2Button2.Image = CType(resources.GetObject("Guna2Button2.Image"), Image)
+        Guna2Button2.ImageAlign = HorizontalAlignment.Left
+        Guna2Button2.ImageOffset = New Point(12, 0)
+        Guna2Button2.ImageSize = New Size(30, 30)
+        Guna2Button2.Location = New Point(0, 557)
+        Guna2Button2.Margin = New Padding(4, 3, 4, 3)
+        Guna2Button2.Name = "Guna2Button2"
+        Guna2Button2.Padding = New Padding(33, 0, 0, 0)
+        Guna2Button2.PressedColor = Color.Yellow
+        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2Button2.Size = New Size(254, 49)
+        Guna2Button2.TabIndex = 10
+        Guna2Button2.Text = "Account setting"
+        Guna2Button2.TextAlign = HorizontalAlignment.Left
+        ' 
         ' Guna2Button1
         ' 
         Guna2Button1.Animated = True
@@ -131,20 +163,20 @@ Partial Class UserDashboard
         Guna2Button1.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button1.ForeColor = Color.White
         Guna2Button1.HoverState.BorderColor = Color.Black
-        Guna2Button1.HoverState.FillColor = Color.FromArgb(CByte(255), CByte(218), CByte(0))
+        Guna2Button1.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
         Guna2Button1.HoverState.ForeColor = Color.Black
         Guna2Button1.HoverState.Image = My.Resources.Resources.company
         Guna2Button1.Image = My.Resources.Resources.exit__1_
         Guna2Button1.ImageAlign = HorizontalAlignment.Left
         Guna2Button1.ImageOffset = New Point(17, 0)
         Guna2Button1.ImageSize = New Size(30, 30)
-        Guna2Button1.Location = New Point(0, 607)
+        Guna2Button1.Location = New Point(0, 606)
         Guna2Button1.Margin = New Padding(4, 3, 4, 3)
         Guna2Button1.Name = "Guna2Button1"
         Guna2Button1.Padding = New Padding(33, 0, 0, 0)
         Guna2Button1.PressedColor = Color.Yellow
         Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2Button1.Size = New Size(254, 48)
+        Guna2Button1.Size = New Size(254, 49)
         Guna2Button1.TabIndex = 9
         Guna2Button1.Text = "LOGOUT"
         Guna2Button1.TextAlign = HorizontalAlignment.Left
@@ -178,23 +210,23 @@ Partial Class UserDashboard
         bttnEmpl.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         bttnEmpl.Dock = DockStyle.Top
         bttnEmpl.FillColor = Color.Transparent
-        bttnEmpl.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        bttnEmpl.Font = New Font("Cambria", 13F, FontStyle.Bold, GraphicsUnit.Point)
         bttnEmpl.ForeColor = Color.White
         bttnEmpl.HoverState.BorderColor = Color.Black
-        bttnEmpl.HoverState.FillColor = Color.FromArgb(CByte(255), CByte(218), CByte(0))
+        bttnEmpl.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
         bttnEmpl.HoverState.ForeColor = Color.Black
         bttnEmpl.HoverState.Image = My.Resources.Resources.company
         bttnEmpl.Image = My.Resources.Resources.employees
         bttnEmpl.ImageAlign = HorizontalAlignment.Left
         bttnEmpl.ImageOffset = New Point(12, 0)
         bttnEmpl.ImageSize = New Size(30, 30)
-        bttnEmpl.Location = New Point(0, 305)
+        bttnEmpl.Location = New Point(0, 306)
         bttnEmpl.Margin = New Padding(4, 3, 4, 3)
         bttnEmpl.Name = "bttnEmpl"
         bttnEmpl.Padding = New Padding(30, 0, 0, 0)
         bttnEmpl.PressedColor = Color.Yellow
         bttnEmpl.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        bttnEmpl.Size = New Size(254, 48)
+        bttnEmpl.Size = New Size(254, 49)
         bttnEmpl.TabIndex = 2
         bttnEmpl.Text = "Profile"
         bttnEmpl.TextAlign = HorizontalAlignment.Left
@@ -210,10 +242,10 @@ Partial Class UserDashboard
         bttnDash.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         bttnDash.Dock = DockStyle.Top
         bttnDash.FillColor = Color.Transparent
-        bttnDash.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        bttnDash.Font = New Font("Cambria", 13F, FontStyle.Bold, GraphicsUnit.Point)
         bttnDash.ForeColor = Color.White
         bttnDash.HoverState.BorderColor = Color.Black
-        bttnDash.HoverState.FillColor = Color.FromArgb(CByte(255), CByte(218), CByte(0))
+        bttnDash.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
         bttnDash.HoverState.ForeColor = Color.Black
         bttnDash.HoverState.Image = My.Resources.Resources.dashboard__1_
         bttnDash.Image = My.Resources.Resources.dash
@@ -226,7 +258,7 @@ Partial Class UserDashboard
         bttnDash.Padding = New Padding(30, 0, 0, 0)
         bttnDash.PressedColor = Color.Yellow
         bttnDash.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        bttnDash.Size = New Size(254, 48)
+        bttnDash.Size = New Size(254, 49)
         bttnDash.TabIndex = 0
         bttnDash.Text = "Dashboard"
         bttnDash.TextAlign = HorizontalAlignment.Left
@@ -599,38 +631,6 @@ Partial Class UserDashboard
         lblFirst.Tag = ""
         lblFirst.Text = "___________________________________"
         lblFirst.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Guna2Button2
-        ' 
-        Guna2Button2.Animated = True
-        Guna2Button2.BorderColor = Color.White
-        Guna2Button2.CustomizableEdges = CustomizableEdges1
-        Guna2Button2.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button2.Dock = DockStyle.Bottom
-        Guna2Button2.FillColor = Color.Transparent
-        Guna2Button2.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2Button2.ForeColor = Color.White
-        Guna2Button2.HoverState.BorderColor = Color.Black
-        Guna2Button2.HoverState.FillColor = Color.FromArgb(CByte(255), CByte(218), CByte(0))
-        Guna2Button2.HoverState.ForeColor = Color.Black
-        Guna2Button2.HoverState.Image = CType(resources.GetObject("resource.Image"), Image)
-        Guna2Button2.Image = CType(resources.GetObject("Guna2Button2.Image"), Image)
-        Guna2Button2.ImageAlign = HorizontalAlignment.Left
-        Guna2Button2.ImageOffset = New Point(12, 0)
-        Guna2Button2.ImageSize = New Size(30, 30)
-        Guna2Button2.Location = New Point(0, 559)
-        Guna2Button2.Margin = New Padding(4, 3, 4, 3)
-        Guna2Button2.Name = "Guna2Button2"
-        Guna2Button2.Padding = New Padding(30, 0, 0, 0)
-        Guna2Button2.PressedColor = Color.Yellow
-        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2Button2.Size = New Size(254, 48)
-        Guna2Button2.TabIndex = 10
-        Guna2Button2.Text = "Account setting"
-        Guna2Button2.TextAlign = HorizontalAlignment.Left
         ' 
         ' UserDashboard
         ' 
