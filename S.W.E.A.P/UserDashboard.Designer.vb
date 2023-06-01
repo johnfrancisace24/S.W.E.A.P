@@ -37,14 +37,10 @@ Partial Class UserDashboard
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
@@ -54,20 +50,35 @@ Partial Class UserDashboard
         bttnEmpl = New Guna.UI2.WinForms.Guna2Button()
         bttnDash = New Guna.UI2.WinForms.Guna2Button()
         Panel1 = New Panel()
-        Label4 = New Label()
-        Label3 = New Label()
+        lblPosition = New Label()
+        lblFname = New Label()
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Panel2 = New Panel()
         Label1 = New Label()
         Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
-        Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
+        lnkcomm = New LinkLabel()
+        Label9 = New Label()
+        lnkbdate = New LinkLabel()
+        Label8 = New Label()
+        lnkemply = New LinkLabel()
+        Label7 = New Label()
+        lnkoffice = New LinkLabel()
+        Label4 = New Label()
+        lnkeduc = New LinkLabel()
+        Label3 = New Label()
+        lnkemail = New LinkLabel()
+        Label2 = New Label()
+        lnkaddress = New LinkLabel()
+        lnkFname = New LinkLabel()
         Label6 = New Label()
-        Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Label5 = New Label()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        lblFirst = New Label()
         Guna2GradientPanel1.SuspendLayout()
         Panel1.SuspendLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Guna2CustomGradientPanel1.SuspendLayout()
+        Guna2Panel1.SuspendLayout()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -215,40 +226,41 @@ Partial Class UserDashboard
         ' 
         ' Panel1
         ' 
-        Panel1.Controls.Add(Label4)
-        Panel1.Controls.Add(Label3)
+        Panel1.Controls.Add(lblPosition)
+        Panel1.Controls.Add(lblFname)
         Panel1.Controls.Add(Guna2PictureBox1)
+        Panel1.Controls.Add(Panel2)
         Panel1.Dock = DockStyle.Top
         Panel1.Location = New Point(0, 0)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(254, 257)
         Panel1.TabIndex = 8
         ' 
-        ' Label4
+        ' lblPosition
         ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 7F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.ForeColor = SystemColors.ButtonFace
-        Label4.Location = New Point(54, 225)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(145, 12)
-        Label4.TabIndex = 3
-        Label4.Tag = ""
-        Label4.Text = "___________________________________"
-        Label4.TextAlign = ContentAlignment.MiddleCenter
+        lblPosition.Dock = DockStyle.Top
+        lblPosition.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPosition.ForeColor = SystemColors.ButtonFace
+        lblPosition.Location = New Point(0, 212)
+        lblPosition.Name = "lblPosition"
+        lblPosition.Size = New Size(254, 20)
+        lblPosition.TabIndex = 3
+        lblPosition.Tag = ""
+        lblPosition.Text = "___________________________________"
+        lblPosition.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' Label3
+        ' lblFname
         ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point)
-        Label3.ForeColor = SystemColors.ButtonFace
-        Label3.Location = New Point(35, 190)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(183, 17)
-        Label3.TabIndex = 2
-        Label3.Tag = ""
-        Label3.Text = "___________________________________"
-        Label3.TextAlign = ContentAlignment.MiddleCenter
+        lblFname.Dock = DockStyle.Top
+        lblFname.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point)
+        lblFname.ForeColor = SystemColors.ButtonFace
+        lblFname.Location = New Point(0, 187)
+        lblFname.Name = "lblFname"
+        lblFname.Size = New Size(254, 25)
+        lblFname.TabIndex = 2
+        lblFname.Tag = ""
+        lblFname.Text = "___________________________________"
+        lblFname.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Guna2PictureBox1
         ' 
@@ -264,6 +276,14 @@ Partial Class UserDashboard
         Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox1.TabIndex = 1
         Guna2PictureBox1.TabStop = False
+        ' 
+        ' Panel2
+        ' 
+        Panel2.Dock = DockStyle.Top
+        Panel2.Location = New Point(0, 0)
+        Panel2.Name = "Panel2"
+        Panel2.Size = New Size(254, 187)
+        Panel2.TabIndex = 4
         ' 
         ' Label1
         ' 
@@ -281,87 +301,260 @@ Partial Class UserDashboard
         ' 
         ' Guna2CustomGradientPanel1
         ' 
-        Guna2CustomGradientPanel1.Controls.Add(Guna2TextBox2)
+        Guna2CustomGradientPanel1.Controls.Add(lnkcomm)
+        Guna2CustomGradientPanel1.Controls.Add(Label9)
+        Guna2CustomGradientPanel1.Controls.Add(lnkbdate)
+        Guna2CustomGradientPanel1.Controls.Add(Label8)
+        Guna2CustomGradientPanel1.Controls.Add(lnkemply)
+        Guna2CustomGradientPanel1.Controls.Add(Label7)
+        Guna2CustomGradientPanel1.Controls.Add(lnkoffice)
+        Guna2CustomGradientPanel1.Controls.Add(Label4)
+        Guna2CustomGradientPanel1.Controls.Add(lnkeduc)
+        Guna2CustomGradientPanel1.Controls.Add(Label3)
+        Guna2CustomGradientPanel1.Controls.Add(lnkemail)
+        Guna2CustomGradientPanel1.Controls.Add(Label2)
+        Guna2CustomGradientPanel1.Controls.Add(lnkaddress)
+        Guna2CustomGradientPanel1.Controls.Add(lnkFname)
         Guna2CustomGradientPanel1.Controls.Add(Label6)
-        Guna2CustomGradientPanel1.Controls.Add(Guna2TextBox1)
         Guna2CustomGradientPanel1.Controls.Add(Label5)
-        Guna2CustomGradientPanel1.CustomizableEdges = CustomizableEdges21
-        Guna2CustomGradientPanel1.Location = New Point(261, 53)
+        Guna2CustomGradientPanel1.CustomizableEdges = CustomizableEdges15
+        Guna2CustomGradientPanel1.Location = New Point(254, 53)
         Guna2CustomGradientPanel1.Name = "Guna2CustomGradientPanel1"
-        Guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges22
-        Guna2CustomGradientPanel1.Size = New Size(863, 602)
+        Guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        Guna2CustomGradientPanel1.Size = New Size(870, 602)
         Guna2CustomGradientPanel1.TabIndex = 6
         ' 
-        ' Guna2TextBox2
+        ' lnkcomm
         ' 
-        Guna2TextBox2.CustomizableEdges = CustomizableEdges17
-        Guna2TextBox2.DefaultText = ""
-        Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(106, 164)
-        Guna2TextBox2.Name = "Guna2TextBox2"
-        Guna2TextBox2.PasswordChar = ChrW(0)
-        Guna2TextBox2.PlaceholderText = ""
-        Guna2TextBox2.SelectedText = ""
-        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        Guna2TextBox2.Size = New Size(200, 24)
-        Guna2TextBox2.TabIndex = 3
+        lnkcomm.AutoSize = True
+        lnkcomm.BackColor = Color.Transparent
+        lnkcomm.DisabledLinkColor = Color.Transparent
+        lnkcomm.Enabled = False
+        lnkcomm.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkcomm.LinkColor = Color.Black
+        lnkcomm.Location = New Point(595, 260)
+        lnkcomm.Name = "lnkcomm"
+        lnkcomm.Size = New Size(237, 20)
+        lnkcomm.TabIndex = 16
+        lnkcomm.TabStop = True
+        lnkcomm.Text = "______________________________________"
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.BackColor = Color.Transparent
+        Label9.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label9.Location = New Point(480, 256)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(109, 25)
+        Label9.TabIndex = 15
+        Label9.Text = "Committee:"
+        ' 
+        ' lnkbdate
+        ' 
+        lnkbdate.AutoSize = True
+        lnkbdate.BackColor = Color.Transparent
+        lnkbdate.DisabledLinkColor = Color.Transparent
+        lnkbdate.Enabled = False
+        lnkbdate.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkbdate.LinkColor = Color.Black
+        lnkbdate.Location = New Point(135, 258)
+        lnkbdate.Name = "lnkbdate"
+        lnkbdate.Size = New Size(237, 20)
+        lnkbdate.TabIndex = 14
+        lnkbdate.TabStop = True
+        lnkbdate.Text = "______________________________________"
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.BackColor = Color.Transparent
+        Label8.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label8.Location = New Point(35, 253)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(94, 25)
+        Label8.TabIndex = 13
+        Label8.Text = "Birthdate:"
+        ' 
+        ' lnkemply
+        ' 
+        lnkemply.AutoSize = True
+        lnkemply.BackColor = Color.Transparent
+        lnkemply.DisabledLinkColor = Color.Transparent
+        lnkemply.Enabled = False
+        lnkemply.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkemply.LinkColor = Color.Black
+        lnkemply.Location = New Point(595, 178)
+        lnkemply.Name = "lnkemply"
+        lnkemply.Size = New Size(237, 20)
+        lnkemply.TabIndex = 12
+        lnkemply.TabStop = True
+        lnkemply.Text = "______________________________________"
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.BackColor = Color.Transparent
+        Label7.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label7.Location = New Point(413, 176)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(176, 25)
+        Label7.TabIndex = 11
+        Label7.Text = "Employment status:"
+        ' 
+        ' lnkoffice
+        ' 
+        lnkoffice.AutoSize = True
+        lnkoffice.BackColor = Color.Transparent
+        lnkoffice.DisabledLinkColor = Color.Transparent
+        lnkoffice.Enabled = False
+        lnkoffice.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkoffice.LinkColor = Color.Black
+        lnkoffice.Location = New Point(595, 219)
+        lnkoffice.Name = "lnkoffice"
+        lnkoffice.Size = New Size(237, 20)
+        lnkoffice.TabIndex = 10
+        lnkoffice.TabStop = True
+        lnkoffice.Text = "______________________________________"
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.BackColor = Color.Transparent
+        Label4.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label4.Location = New Point(524, 217)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(65, 25)
+        Label4.TabIndex = 9
+        Label4.Text = "Office:"
+        ' 
+        ' lnkeduc
+        ' 
+        lnkeduc.AutoSize = True
+        lnkeduc.BackColor = Color.Transparent
+        lnkeduc.DisabledLinkColor = Color.Transparent
+        lnkeduc.Enabled = False
+        lnkeduc.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkeduc.LinkColor = Color.Black
+        lnkeduc.Location = New Point(595, 142)
+        lnkeduc.Name = "lnkeduc"
+        lnkeduc.Size = New Size(237, 20)
+        lnkeduc.TabIndex = 8
+        lnkeduc.TabStop = True
+        lnkeduc.Text = "______________________________________"
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.BackColor = Color.Transparent
+        Label3.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label3.Location = New Point(380, 140)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(209, 25)
+        Label3.TabIndex = 7
+        Label3.Text = "Educational attainment:"
+        ' 
+        ' lnkemail
+        ' 
+        lnkemail.AutoSize = True
+        lnkemail.BackColor = Color.Transparent
+        lnkemail.DisabledLinkColor = Color.Transparent
+        lnkemail.Enabled = False
+        lnkemail.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkemail.LinkColor = Color.Black
+        lnkemail.Location = New Point(135, 221)
+        lnkemail.Name = "lnkemail"
+        lnkemail.Size = New Size(237, 20)
+        lnkemail.TabIndex = 6
+        lnkemail.TabStop = True
+        lnkemail.Text = "______________________________________"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.BackColor = Color.Transparent
+        Label2.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label2.Location = New Point(69, 219)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(60, 25)
+        Label2.TabIndex = 5
+        Label2.Text = "Email:"
+        ' 
+        ' lnkaddress
+        ' 
+        lnkaddress.AutoSize = True
+        lnkaddress.BackColor = Color.Transparent
+        lnkaddress.DisabledLinkColor = Color.Transparent
+        lnkaddress.Enabled = False
+        lnkaddress.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkaddress.LinkColor = Color.Black
+        lnkaddress.Location = New Point(135, 180)
+        lnkaddress.Name = "lnkaddress"
+        lnkaddress.Size = New Size(237, 20)
+        lnkaddress.TabIndex = 4
+        lnkaddress.TabStop = True
+        lnkaddress.Text = "______________________________________"
+        ' 
+        ' lnkFname
+        ' 
+        lnkFname.AutoSize = True
+        lnkFname.BackColor = Color.Transparent
+        lnkFname.DisabledLinkColor = Color.Transparent
+        lnkFname.Enabled = False
+        lnkFname.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkFname.LinkColor = Color.Black
+        lnkFname.Location = New Point(135, 144)
+        lnkFname.Name = "lnkFname"
+        lnkFname.Size = New Size(237, 20)
+        lnkFname.TabIndex = 3
+        lnkFname.TabStop = True
+        lnkFname.Text = "______________________________________"
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
         Label6.BackColor = Color.Transparent
-        Label6.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point)
-        Label6.Location = New Point(53, 167)
+        Label6.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label6.Location = New Point(46, 178)
         Label6.Name = "Label6"
-        Label6.Size = New Size(47, 17)
+        Label6.Size = New Size(83, 25)
         Label6.TabIndex = 2
-        Label6.Text = "Name:"
-        ' 
-        ' Guna2TextBox1
-        ' 
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges19
-        Guna2TextBox1.DefaultText = ""
-        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(106, 130)
-        Guna2TextBox1.Name = "Guna2TextBox1"
-        Guna2TextBox1.PasswordChar = ChrW(0)
-        Guna2TextBox1.PlaceholderText = ""
-        Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        Guna2TextBox1.Size = New Size(200, 24)
-        Guna2TextBox1.TabIndex = 1
+        Label6.Text = "Address:"
         ' 
         ' Label5
         ' 
         Label5.AutoSize = True
         Label5.BackColor = Color.Transparent
-        Label5.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point)
-        Label5.Location = New Point(53, 133)
+        Label5.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label5.Location = New Point(64, 142)
         Label5.Name = "Label5"
-        Label5.Size = New Size(47, 17)
+        Label5.Size = New Size(65, 25)
         Label5.TabIndex = 0
         Label5.Text = "Name:"
         ' 
         ' Guna2Panel1
         ' 
-        Guna2Panel1.CustomizableEdges = CustomizableEdges15
-        Guna2Panel1.Location = New Point(254, 53)
+        Guna2Panel1.Controls.Add(lblFirst)
+        Guna2Panel1.CustomizableEdges = CustomizableEdges17
+        Guna2Panel1.Location = New Point(252, 53)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        Guna2Panel1.Size = New Size(870, 602)
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        Guna2Panel1.Size = New Size(872, 602)
         Guna2Panel1.TabIndex = 4
+        ' 
+        ' lblFirst
+        ' 
+        lblFirst.AutoSize = True
+        lblFirst.BackColor = Color.Transparent
+        lblFirst.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
+        lblFirst.ForeColor = SystemColors.ActiveCaptionText
+        lblFirst.Location = New Point(37, 50)
+        lblFirst.Name = "lblFirst"
+        lblFirst.Size = New Size(292, 25)
+        lblFirst.TabIndex = 4
+        lblFirst.Tag = ""
+        lblFirst.Text = "___________________________________"
+        lblFirst.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' UserDashboard
         ' 
@@ -370,17 +563,19 @@ Partial Class UserDashboard
         ClientSize = New Size(1124, 655)
         Controls.Add(Label1)
         Controls.Add(Guna2GradientPanel1)
-        Controls.Add(Guna2Panel1)
         Controls.Add(Guna2CustomGradientPanel1)
+        Controls.Add(Guna2Panel1)
         FormBorderStyle = FormBorderStyle.None
         Name = "UserDashboard"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "UserDashboard"
         Guna2GradientPanel1.ResumeLayout(False)
         Panel1.ResumeLayout(False)
-        Panel1.PerformLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         Guna2CustomGradientPanel1.ResumeLayout(False)
         Guna2CustomGradientPanel1.PerformLayout()
+        Guna2Panel1.ResumeLayout(False)
+        Guna2Panel1.PerformLayout()
         ResumeLayout(False)
     End Sub
 
@@ -395,12 +590,26 @@ Partial Class UserDashboard
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label1 As Label
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
+    Friend WithEvents lblFname As Label
+    Friend WithEvents lblPosition As Label
     Friend WithEvents Guna2CustomGradientPanel1 As Guna.UI2.WinForms.Guna2CustomGradientPanel
-    Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents lblFirst As Label
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents lnkeduc As LinkLabel
+    Friend WithEvents Label3 As Label
+    Friend WithEvents lnkemail As LinkLabel
+    Friend WithEvents Label2 As Label
+    Friend WithEvents lnkaddress As LinkLabel
+    Friend WithEvents lnkFname As LinkLabel
+    Friend WithEvents lnkcomm As LinkLabel
+    Friend WithEvents Label9 As Label
+    Friend WithEvents lnkbdate As LinkLabel
+    Friend WithEvents Label8 As Label
+    Friend WithEvents lnkemply As LinkLabel
+    Friend WithEvents Label7 As Label
+    Friend WithEvents lnkoffice As LinkLabel
+    Friend WithEvents Label4 As Label
 End Class
