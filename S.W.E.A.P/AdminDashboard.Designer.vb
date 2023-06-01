@@ -373,7 +373,7 @@ Partial Class AdminDashboard
         Guna2DateTimePicker2.FillColor = Color.LightGray
         Guna2DateTimePicker2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2DateTimePicker2.Format = DateTimePickerFormat.Long
-        Guna2DateTimePicker2.Location = New Point(789, 77)
+        Guna2DateTimePicker2.Location = New Point(798, 74)
         Guna2DateTimePicker2.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
         Guna2DateTimePicker2.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
         Guna2DateTimePicker2.Name = "Guna2DateTimePicker2"
@@ -387,7 +387,7 @@ Partial Class AdminDashboard
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI", 18.75F, FontStyle.Regular, GraphicsUnit.Point)
         Label4.ForeColor = Color.DimGray
-        Label4.Location = New Point(71, 113)
+        Label4.Location = New Point(80, 110)
         Label4.Name = "Label4"
         Label4.Size = New Size(312, 35)
         Label4.TabIndex = 4
@@ -398,7 +398,7 @@ Partial Class AdminDashboard
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI", 32.25F, FontStyle.Regular, GraphicsUnit.Point)
         Label5.ForeColor = Color.Black
-        Label5.Location = New Point(25, 54)
+        Label5.Location = New Point(34, 51)
         Label5.Name = "Label5"
         Label5.Size = New Size(403, 59)
         Label5.TabIndex = 3
