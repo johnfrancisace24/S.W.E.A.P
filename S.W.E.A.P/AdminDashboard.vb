@@ -93,4 +93,12 @@ Public Class AdminDashboard
         bttnFund.Image = My.Resources.fund__1_
         bttnFund.BorderColor = Color.Black
     End Sub
+
+    Private Sub pnlFundTransfer_Paint(sender As Object, e As PaintEventArgs) Handles pnlFundTransfer.Paint
+
+    End Sub
+
+    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
+
+    End Sub
 End Class
