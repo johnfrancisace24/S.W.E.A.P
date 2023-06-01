@@ -53,7 +53,12 @@ Public Class UserDashboard
     End Sub
 
     Private Sub Guna2GradientPanel1_Paint(sender As Object, e As PaintEventArgs) Handles Guna2GradientPanel1.Paint
+        Dim locateProject As String = My.Application.Info.DirectoryPath
+        Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
+        Dim location As String = locateProject.Substring(0, indext)
+        Dim destinationPath As String = location & "\Resources\user_profile"
         Try
+
             conn.Open()
             Dim cmd As New MySqlCommand("SELECT users.*, CONCAT(users.first_name, ' ', users.middle_name, ' ', users.last_name) AS fullName, user_info.*" &
                             "FROM users " &
@@ -63,7 +68,10 @@ Public Class UserDashboard
             cmd.Parameters.AddWithValue("@ID", Form1.log_id)
             dr = cmd.ExecuteReader
             If dr.Read() Then
+                Dim imagePath As String = dr.GetString("image")
+                Dim imagePathInResources As String = (destinationPath + imagePath)
                 Dim Gooday As String = "Good day, " + dr.GetString("first_name")
+                imgProfile.Image = Image.FromFile(imagePathInResources)
                 lblFname.Text = dr.GetString("fullName")
                 lblPosition.Text = dr.GetString("position")
                 lblFirst.Text = Gooday
@@ -76,6 +84,8 @@ Public Class UserDashboard
                 lnkoffice.Text = dr.GetString("office")
                 lnkcomm.Text = dr.GetString("committee")
                 lnkcontact.Text = dr.GetString("contact")
+                MsgBox(destinationPath)
+                MsgBox(imagePath)
                 ' Dito mo ilalagay ang logic para gamitin ang retrieved data
             End If
         Catch ex As Exception
