@@ -23,7 +23,7 @@ Public Class UserDashboard
                 lnkFname.Text = dr.GetString("fullName")
                 lnkaddress.Text = dr.GetString("address")
                 lnkemail.Text = dr.GetString("email")
-                'lnkbdate.Text = dr.GetString("birthdate")
+                lnkbdate.Text = dr.GetDateTime("birthdate")
                 lnkeduc.Text = dr.GetString("educational")
                 lnkemply.Text = dr.GetString("employment_status")
                 lnkoffice.Text = dr.GetString("office")
@@ -37,11 +37,22 @@ Public Class UserDashboard
             conn.Close()
         End Try
 
-
     End Sub
 
-    Private Sub UserDashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Get_info()
+    Public Sub Clear()
+        lblFirst.Text = ""
+        lblFname.Text = ""
+        lblPosition.Text = ""
+        lnkFname.Text = ""
+        lnkaddress.Text = ""
+        lnkemail.Text = ""
+        lnkbdate.Text = ""
+        lnkeduc.Text = ""
+        lnkemply.Text = ""
+        lnkoffice.Text = ""
+        lnkcomm.Text = ""
+        lnkcontact.Text = ""
+
     End Sub
 
     Private Sub bttnEmpl_Click(sender As Object, e As EventArgs) Handles bttnEmpl.Click
@@ -62,5 +73,9 @@ Public Class UserDashboard
             Form1.Show()
             Me.Hide()
         End If
+    End Sub
+
+    Private Sub UserDashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Get_info()
     End Sub
 End Class
