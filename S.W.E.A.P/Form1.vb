@@ -45,6 +45,8 @@ Public Class Form1
                 Me.Hide()
             ElseIf (status = 0) Then
                 UserDashboard.Show()
+                txtbxUsername.Clear()
+                txtbxPassword.Clear()
                 Me.Hide()
             Else
                 MsgBox("Invalid username or passowrd.")
