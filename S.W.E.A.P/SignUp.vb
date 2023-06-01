@@ -2,14 +2,16 @@
 Public Class SignUp
     Dim conn As New MySqlConnection("server=172.30.206.156;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
-    Dim error_msg(13) As String
+    Dim error_msg(0) As String
     Dim random As Integer = 0
+    Dim i As Integer = 0
     Dim message As String
     '-------FUNCTIONS--------------------------------------------------------
-    Public Sub valid_clear(field, name)
+    Public Sub valid_blank(field, name)
         If field = "" Then
             error_msg(random) = name & " can't be blank." & vbNewLine
             random = random + 1
+            ReDim Preserve error_msg(random)
         End If
     End Sub
     '------------------------------------------------------------------------
@@ -18,9 +20,17 @@ Public Class SignUp
     End Sub
 
     Private Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
-        valid_clear(txtbxUser.Text, "Name")
-        valid_clear(txtbxPass.Text, "Password")
-        If error_msg.Length = 0 Then
+        valid_blank(txtbxUser.Text, "Username")
+        valid_blank(txtbxPass.Text, "Password")
+        valid_blank(txtbxFname.Text, "First name")
+        valid_blank(txtbxMname.Text, "Middle name")
+        valid_blank(txtbxLname.Text, "Last name")
+        valid_blank(comboPos.SelectedItem, "Position")
+        While i < error_msg.Length
+            message = message & error_msg(i)
+            i = i + 1
+        End While
+        If message = "" Then
             Try
                 conn.Open()
                 Dim cmd As New MySqlCommand("insert into users(username, password, first_name, middle_name, last_name, position, image, is_admin, created_at, updated_at)values(@UNAME, @PW, @FNAME, @MNAME, @LNAME, @POS, @IMG, 0, now(), now());
@@ -53,12 +63,14 @@ Public Class SignUp
                 conn.Close()
             End Try
         Else
-            For i As Integer = 0 To error_msg.Length Step 1
-                message = message & error_msg(i)
-            Next
+
+
+
 
             MsgBox(message)
-
+            i = 0
+            message = ""
+            Array.Clear(error_msg, 0, error_msg.Length)
 
         End If
 
