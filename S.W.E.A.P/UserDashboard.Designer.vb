@@ -56,6 +56,8 @@ Partial Class UserDashboard
         Panel2 = New Panel()
         Label1 = New Label()
         Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        lnkcontact = New LinkLabel()
+        Label10 = New Label()
         lnkcomm = New LinkLabel()
         Label9 = New Label()
         lnkbdate = New LinkLabel()
@@ -74,8 +76,6 @@ Partial Class UserDashboard
         Label5 = New Label()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         lblFirst = New Label()
-        lnkcontact = New LinkLabel()
-        Label10 = New Label()
         Guna2GradientPanel1.SuspendLayout()
         Panel1.SuspendLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
@@ -322,11 +322,36 @@ Partial Class UserDashboard
         Guna2CustomGradientPanel1.Controls.Add(Label6)
         Guna2CustomGradientPanel1.Controls.Add(Label5)
         Guna2CustomGradientPanel1.CustomizableEdges = CustomizableEdges15
-        Guna2CustomGradientPanel1.Location = New Point(254, 53)
+        Guna2CustomGradientPanel1.Location = New Point(252, 53)
         Guna2CustomGradientPanel1.Name = "Guna2CustomGradientPanel1"
         Guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        Guna2CustomGradientPanel1.Size = New Size(870, 602)
+        Guna2CustomGradientPanel1.Size = New Size(872, 602)
         Guna2CustomGradientPanel1.TabIndex = 6
+        ' 
+        ' lnkcontact
+        ' 
+        lnkcontact.AutoSize = True
+        lnkcontact.BackColor = Color.Transparent
+        lnkcontact.DisabledLinkColor = Color.Transparent
+        lnkcontact.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkcontact.LinkColor = Color.Black
+        lnkcontact.Location = New Point(135, 296)
+        lnkcontact.Name = "lnkcontact"
+        lnkcontact.Size = New Size(237, 20)
+        lnkcontact.TabIndex = 18
+        lnkcontact.TabStop = True
+        lnkcontact.Text = "______________________________________"
+        ' 
+        ' Label10
+        ' 
+        Label10.AutoSize = True
+        Label10.BackColor = Color.Transparent
+        Label10.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label10.Location = New Point(49, 291)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(80, 25)
+        Label10.TabIndex = 17
+        Label10.Text = "Contact:"
         ' 
         ' lnkcomm
         ' 
@@ -532,10 +557,10 @@ Partial Class UserDashboard
         ' 
         Guna2Panel1.Controls.Add(lblFirst)
         Guna2Panel1.CustomizableEdges = CustomizableEdges17
-        Guna2Panel1.Location = New Point(252, 53)
+        Guna2Panel1.Location = New Point(254, 53)
         Guna2Panel1.Name = "Guna2Panel1"
         Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        Guna2Panel1.Size = New Size(872, 602)
+        Guna2Panel1.Size = New Size(870, 602)
         Guna2Panel1.TabIndex = 4
         ' 
         ' lblFirst
@@ -551,31 +576,6 @@ Partial Class UserDashboard
         lblFirst.Tag = ""
         lblFirst.Text = "___________________________________"
         lblFirst.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' lnkcontact
-        ' 
-        lnkcontact.AutoSize = True
-        lnkcontact.BackColor = Color.Transparent
-        lnkcontact.DisabledLinkColor = Color.Transparent
-        lnkcontact.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
-        lnkcontact.LinkColor = Color.Black
-        lnkcontact.Location = New Point(135, 296)
-        lnkcontact.Name = "lnkcontact"
-        lnkcontact.Size = New Size(237, 20)
-        lnkcontact.TabIndex = 18
-        lnkcontact.TabStop = True
-        lnkcontact.Text = "______________________________________"
-        ' 
-        ' Label10
-        ' 
-        Label10.AutoSize = True
-        Label10.BackColor = Color.Transparent
-        Label10.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label10.Location = New Point(49, 291)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(80, 25)
-        Label10.TabIndex = 17
-        Label10.Text = "Contact:"
         ' 
         ' UserDashboard
         ' 
