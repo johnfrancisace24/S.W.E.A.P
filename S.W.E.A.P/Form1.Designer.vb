@@ -158,11 +158,11 @@ Partial Class Form1
         CheckBoxShowPass.CheckedState.BorderThickness = 0
         CheckBoxShowPass.CheckedState.FillColor = SystemColors.ControlLight
         CheckBoxShowPass.CheckMarkColor = SystemColors.Highlight
-        CheckBoxShowPass.Font = New Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
+        CheckBoxShowPass.Font = New Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         CheckBoxShowPass.ForeColor = Color.White
         CheckBoxShowPass.Location = New Point(66, 197)
         CheckBoxShowPass.Name = "CheckBoxShowPass"
-        CheckBoxShowPass.Size = New Size(167, 21)
+        CheckBoxShowPass.Size = New Size(167, 22)
         CheckBoxShowPass.TabIndex = 7
         CheckBoxShowPass.Text = "SHOW PASSWORD"
         CheckBoxShowPass.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
