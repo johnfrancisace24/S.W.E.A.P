@@ -67,7 +67,6 @@ Partial Class AdminDashboard
         Guna2DateTimePicker2 = New Guna.UI2.WinForms.Guna2DateTimePicker()
         Label4 = New Label()
         Label5 = New Label()
-        Guna2CheckBox1 = New Guna.UI2.WinForms.Guna2CheckBox()
         Guna2GradientPanel1.SuspendLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         pnlFundTransfer.SuspendLayout()
@@ -306,7 +305,6 @@ Partial Class AdminDashboard
         ' pnlFundTransfer
         ' 
         pnlFundTransfer.BackColor = Color.MistyRose
-        pnlFundTransfer.Controls.Add(Guna2CheckBox1)
         pnlFundTransfer.Controls.Add(Guna2DateTimePicker2)
         pnlFundTransfer.Controls.Add(Label4)
         pnlFundTransfer.Controls.Add(Label5)
@@ -357,23 +355,6 @@ Partial Class AdminDashboard
         Label5.TabIndex = 3
         Label5.Text = "Contribution Report"
         ' 
-        ' Guna2CheckBox1
-        ' 
-        Guna2CheckBox1.AutoSize = True
-        Guna2CheckBox1.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2CheckBox1.CheckedState.BorderRadius = 0
-        Guna2CheckBox1.CheckedState.BorderThickness = 0
-        Guna2CheckBox1.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2CheckBox1.Location = New Point(516, 197)
-        Guna2CheckBox1.Name = "Guna2CheckBox1"
-        Guna2CheckBox1.Size = New Size(119, 19)
-        Guna2CheckBox1.TabIndex = 6
-        Guna2CheckBox1.Text = "Guna2CheckBox1"
-        Guna2CheckBox1.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        Guna2CheckBox1.UncheckedState.BorderRadius = 0
-        Guna2CheckBox1.UncheckedState.BorderThickness = 0
-        Guna2CheckBox1.UncheckedState.FillColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
-        ' 
         ' AdminDashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -413,5 +394,4 @@ Partial Class AdminDashboard
     Friend WithEvents Guna2DateTimePicker2 As Guna.UI2.WinForms.Guna2DateTimePicker
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Guna2CheckBox1 As Guna.UI2.WinForms.Guna2CheckBox
 End Class
