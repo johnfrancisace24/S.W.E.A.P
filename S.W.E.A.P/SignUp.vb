@@ -6,6 +6,17 @@ Public Class SignUp
         rdiobttnPer.Checked = True
     End Sub
 
+    Private Sub bttnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
+
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("")
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+
     Private Sub bttnNext_Click(sender As Object, e As EventArgs) Handles bttnNext.Click
         If rdiobttnPer.Checked = True Then
             pnlPer.Visible = False
@@ -13,9 +24,13 @@ Public Class SignUp
             pnlBen.Visible = False
             pnlAcc.Visible = False
 
+            If txtbxFname.Text = "" Then
+                MsgBox("Fields can't be blank")
+            Else
+                rdiobttnWork.Checked = True
+                rdiobttnPer.Checked = False
+            End If
 
-            rdiobttnWork.Checked = True
-            rdiobttnPer.Checked = False
 
         ElseIf rdiobttnWork.Checked = True Then
             pnlPer.Visible = False
@@ -43,9 +58,6 @@ Public Class SignUp
             bttnNext.Hide()
             'ElseIf (For Saving Account)
         End If
-    End Sub
-    Private Sub bttnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
-
     End Sub
 
     Private Sub bttnBck_Click(sender As Object, e As EventArgs) Handles bttnBck.Click
