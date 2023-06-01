@@ -18,7 +18,7 @@ Public Class Form1
         End If
     End Sub
 
-    Public Sub Login()
+    Private Sub bttLogin_Click(sender As Object, e As EventArgs) Handles bttLogin.Click
         If (txtbxUsername.Text = "") Then
             MsgBox("Username can't be blank.")
         ElseIf (txtbxPassword.Text = "") Then
@@ -52,8 +52,6 @@ Public Class Form1
                 MsgBox("Invalid username or passowrd.")
             End If
         End If
-    End Sub
-    Private Sub bttLogin_Click(sender As Object, e As EventArgs) Handles bttLogin.Click
-        Login()
+
     End Sub
 End Class
