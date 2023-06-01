@@ -8,7 +8,11 @@ Public Class UserDashboard
     Public Sub Get_info()
         Try
             conn.Open()
-            Dim cmd As New MySqlCommand("Select *, CONCAT(first_name, ' ', middle_name, ' ', last_name) AS fullName FROM users WHERE id=@ID", conn)
+            Dim cmd As New MySqlCommand("SELECT users.*, CONCAT(users.first_name, ' ', users.middle_name, ' ', users.last_name) AS fullName, user_info.*" &
+                            "FROM users " &
+                            "INNER JOIN user_info ON users.id = user_info.user_id " &
+                            "WHERE users.id = @ID", conn)
+
             cmd.Parameters.AddWithValue("@ID", Form1.log_id)
             dr = cmd.ExecuteReader
             If dr.Read() Then
@@ -16,12 +20,24 @@ Public Class UserDashboard
                 lblFname.Text = dr.GetString("fullName")
                 lblPosition.Text = dr.GetString("position")
                 lblFirst.Text = Gooday
+                lnkFname.Text = dr.GetString("fullName")
+                lnkaddress.Text = dr.GetString("address")
+                lnkemail.Text = dr.GetString("email")
+                'lnkbdate.Text = dr.GetString("birthdate")
+                lnkeduc.Text = dr.GetString("educational")
+                lnkemply.Text = dr.GetString("employment_status")
+                lnkoffice.Text = dr.GetString("office")
+                lnkcomm.Text = dr.GetString("committee")
+                lnkcontact.Text = dr.GetString("contact")
+                ' Dito mo ilalagay ang logic para gamitin ang retrieved data
             End If
         Catch ex As Exception
-            MsgBox("doesn't wokr lmao2")
+            MsgBox("Doesn't work. LOL!")
         Finally
             conn.Close()
         End Try
+
+
     End Sub
 
     Private Sub UserDashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
