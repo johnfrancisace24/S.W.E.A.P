@@ -7,8 +7,10 @@ Public Class SignUp
     Dim i As Integer = 0
     Dim message As String
     '-------FUNCTIONS--------------------------------------------------------
-    Public Sub valid_blank(field, name)
+    Public Sub valid_blank(field, name, fieldname)
         If field = "" Then
+            fieldname.bordercolor = Color.FromArgb(255, 0, 0)
+            fieldname.borderthickness = 1.5
             error_msg(random) = name & " can't be blank." & vbNewLine
             random = random + 1
             ReDim Preserve error_msg(random)
@@ -20,12 +22,22 @@ Public Class SignUp
     End Sub
 
     Private Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
-        valid_blank(txtbxUser.Text, "Username")
-        valid_blank(txtbxPass.Text, "Password")
-        valid_blank(txtbxFname.Text, "First name")
-        valid_blank(txtbxMname.Text, "Middle name")
-        valid_blank(txtbxLname.Text, "Last name")
-        valid_blank(comboPos.SelectedItem, "Position")
+        valid_blank(txtbxUser.Text, "Username", txtbxUser)
+        valid_blank(txtbxPass.Text, "Password", txtbxPass)
+        valid_blank(txtbxFname.Text, "First name", txtbxFname)
+        valid_blank(txtbxMname.Text, "Middle name", txtbxMname)
+        valid_blank(txtbxLname.Text, "Last name", txtbxLname)
+        valid_blank(comboPos.SelectedItem, "Position", comboPos)
+        valid_blank(txtbxAddrs.Text, "Address", txtbxAddrs)
+        valid_blank(txtbxCntct.Text, "Contact", txtbxCntct)
+        valid_blank(txtbxEmail.Text, "Email", txtbxEmail)
+        valid_blank(txtbxEducAt.Text, "Educational Attainment", txtbxEducAt)
+        valid_blank(comboOffice.SelectedItem, "Office", comboOffice)
+        valid_blank(comboEmployStat.SelectedItem, "Employment type", comboEmployStat)
+        valid_blank(comboCommit.SelectedItem, "Committee", comboCommit)
+        valid_blank(txtbxBF1.Text, "Beneficiarie's name", txtbxBF1)
+        valid_blank(txtbxBR1.Text, "Beneficiarie's relationship", txtbxBR1)
+        valid_blank(txtbxBA1.Text, "Beneficiarie's age", txtbxBA1)
         While i < error_msg.Length
             message = message & error_msg(i)
             i = i + 1
