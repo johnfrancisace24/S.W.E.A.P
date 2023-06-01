@@ -4,10 +4,11 @@ Public Class SignUp
     Dim rid As MySqlDataReader
     Dim error_msg(13) As String
     Dim random As Integer = 0
+    Dim message As String
     '-------FUNCTIONS--------------------------------------------------------
     Public Sub valid_clear(field, name)
         If field = "" Then
-            error_msg(random) = name & " can't be blank."
+            error_msg(random) = name & " can't be blank." & vbNewLine
             random = random + 1
         End If
     End Sub
@@ -18,6 +19,7 @@ Public Class SignUp
 
     Private Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
         valid_clear(txtbxUser.Text, "Name")
+        valid_clear(txtbxPass.Text, "Password")
         If error_msg.Length = 0 Then
             Try
                 conn.Open()
@@ -51,7 +53,11 @@ Public Class SignUp
                 conn.Close()
             End Try
         Else
-            MsgBox(error_msg(0))
+            For i As Integer = 0 To error_msg.Length Step 1
+                message = message & error_msg(i)
+            Next
+
+            MsgBox(message)
 
 
         End If
