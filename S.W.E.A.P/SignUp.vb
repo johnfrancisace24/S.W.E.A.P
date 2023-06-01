@@ -38,9 +38,9 @@ Public Class SignUp
 
     Public Sub invalid_reset(fieldname)
         fieldname.bordercolor = Color.Gray
-        fieldname.borderthickness = 1   
+        fieldname.borderthickness = 1
     End Sub
-    Public sub reset_all()
+    Public Sub reset_all()
         invalid_reset(txtbxUser)
         invalid_reset(txtbxPass)
         invalid_reset(txtbxFname)
@@ -57,7 +57,7 @@ Public Class SignUp
         invalid_reset(txtbxBF1)
         invalid_reset(txtbxBR1)
         invalid_reset(txtbxBA1)
-    End sub
+    End Sub
     '-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
     '----------------------------------------------------------------BODY-----------------------------------------------------------------------------------------
