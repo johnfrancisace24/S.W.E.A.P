@@ -6,36 +6,7 @@ Public Class UserDashboard
     Dim dr As MySqlDataReader
 
     Public Sub Get_info()
-        Try
-            conn.Open()
-            Dim cmd As New MySqlCommand("SELECT users.*, CONCAT(users.first_name, ' ', users.middle_name, ' ', users.last_name) AS fullName, user_info.*" &
-                            "FROM users " &
-                            "INNER JOIN user_info ON users.id = user_info.user_id " &
-                            "WHERE users.id = @ID", conn)
 
-            cmd.Parameters.AddWithValue("@ID", Form1.log_id)
-            dr = cmd.ExecuteReader
-            If dr.Read() Then
-                Dim Gooday As String = "Good day, " + dr.GetString("first_name")
-                lblFname.Text = dr.GetString("fullName")
-                lblPosition.Text = dr.GetString("position")
-                lblFirst.Text = Gooday
-                lnkFname.Text = dr.GetString("fullName")
-                lnkaddress.Text = dr.GetString("address")
-                lnkemail.Text = dr.GetString("email")
-                lnkbdate.Text = dr.GetDateTime("birthdate")
-                lnkeduc.Text = dr.GetString("educational")
-                lnkemply.Text = dr.GetString("employment_status")
-                lnkoffice.Text = dr.GetString("office")
-                lnkcomm.Text = dr.GetString("committee")
-                lnkcontact.Text = dr.GetString("contact")
-                ' Dito mo ilalagay ang logic para gamitin ang retrieved data
-            End If
-        Catch ex As Exception
-            MsgBox("Doesn't work. LOL!")
-        Finally
-            conn.Close()
-        End Try
 
     End Sub
 
@@ -77,5 +48,38 @@ Public Class UserDashboard
 
     Private Sub UserDashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Get_info()
+    End Sub
+
+    Private Sub Guna2GradientPanel1_Paint(sender As Object, e As PaintEventArgs) Handles Guna2GradientPanel1.Paint
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("SELECT users.*, CONCAT(users.first_name, ' ', users.middle_name, ' ', users.last_name) AS fullName, user_info.*" &
+                            "FROM users " &
+                            "INNER JOIN user_info ON users.id = user_info.user_id " &
+                            "WHERE users.id = @ID", conn)
+
+            cmd.Parameters.AddWithValue("@ID", Form1.log_id)
+            dr = cmd.ExecuteReader
+            If dr.Read() Then
+                Dim Gooday As String = "Good day, " + dr.GetString("first_name")
+                lblFname.Text = dr.GetString("fullName")
+                lblPosition.Text = dr.GetString("position")
+                lblFirst.Text = Gooday
+                lnkFname.Text = dr.GetString("fullName")
+                lnkaddress.Text = dr.GetString("address")
+                lnkemail.Text = dr.GetString("email")
+                lnkbdate.Text = dr.GetDateTime("birthdate")
+                lnkeduc.Text = dr.GetString("educational")
+                lnkemply.Text = dr.GetString("employment_status")
+                lnkoffice.Text = dr.GetString("office")
+                lnkcomm.Text = dr.GetString("committee")
+                lnkcontact.Text = dr.GetString("contact")
+                ' Dito mo ilalagay ang logic para gamitin ang retrieved data
+            End If
+        Catch ex As Exception
+            MsgBox("Doesn't work. LOL!")
+        Finally
+            conn.Close()
+        End Try
     End Sub
 End Class
