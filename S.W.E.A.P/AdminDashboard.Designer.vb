@@ -41,14 +41,16 @@ Partial Class AdminDashboard
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
@@ -67,9 +69,13 @@ Partial Class AdminDashboard
         Label1 = New Label()
         pnlDashboard = New Guna.UI2.WinForms.Guna2Panel()
         pnlFundTransfer = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2DateTimePicker2 = New Guna.UI2.WinForms.Guna2DateTimePicker()
+        Label4 = New Label()
+        Label5 = New Label()
         Guna2GradientPanel1.SuspendLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         pnlEmployees.SuspendLayout()
+        pnlFundTransfer.SuspendLayout()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -274,10 +280,10 @@ Partial Class AdminDashboard
         pnlEmployees.Controls.Add(Guna2DateTimePicker1)
         pnlEmployees.Controls.Add(Label3)
         pnlEmployees.Controls.Add(Label2)
-        pnlEmployees.CustomizableEdges = CustomizableEdges21
+        pnlEmployees.CustomizableEdges = CustomizableEdges27
         pnlEmployees.Location = New Point(249, 62)
         pnlEmployees.Name = "pnlEmployees"
-        pnlEmployees.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        pnlEmployees.ShadowDecoration.CustomizableEdges = CustomizableEdges28
         pnlEmployees.Size = New Size(1039, 702)
         pnlEmployees.TabIndex = 5
         ' 
@@ -286,17 +292,17 @@ Partial Class AdminDashboard
         Guna2DateTimePicker1.Animated = True
         Guna2DateTimePicker1.BorderThickness = 1
         Guna2DateTimePicker1.Checked = True
-        Guna2DateTimePicker1.CustomizableEdges = CustomizableEdges19
+        Guna2DateTimePicker1.CustomizableEdges = CustomizableEdges25
         Guna2DateTimePicker1.FillColor = Color.LightGray
         Guna2DateTimePicker1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2DateTimePicker1.Format = DateTimePickerFormat.Long
-        Guna2DateTimePicker1.Location = New Point(805, 71)
+        Guna2DateTimePicker1.Location = New Point(801, 327)
         Guna2DateTimePicker1.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
         Guna2DateTimePicker1.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
         Guna2DateTimePicker1.Name = "Guna2DateTimePicker1"
-        Guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        Guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         Guna2DateTimePicker1.Size = New Size(200, 36)
-        Guna2DateTimePicker1.TabIndex = 2
+        Guna2DateTimePicker1.TabIndex = 5
         Guna2DateTimePicker1.Value = New DateTime(2023, 6, 1, 9, 45, 27, 446)
         ' 
         ' Label3
@@ -304,10 +310,10 @@ Partial Class AdminDashboard
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI", 18.75F, FontStyle.Regular, GraphicsUnit.Point)
         Label3.ForeColor = Color.FromArgb(CByte(224), CByte(224), CByte(224))
-        Label3.Location = New Point(87, 107)
+        Label3.Location = New Point(83, 363)
         Label3.Name = "Label3"
         Label3.Size = New Size(312, 35)
-        Label3.TabIndex = 1
+        Label3.TabIndex = 4
         Label3.Text = "OVERVIEW of Contribution"
         ' 
         ' Label2
@@ -315,10 +321,10 @@ Partial Class AdminDashboard
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 32.25F, FontStyle.Regular, GraphicsUnit.Point)
         Label2.ForeColor = Color.White
-        Label2.Location = New Point(41, 48)
+        Label2.Location = New Point(37, 304)
         Label2.Name = "Label2"
         Label2.Size = New Size(403, 59)
-        Label2.TabIndex = 0
+        Label2.TabIndex = 3
         Label2.Text = "Contribution Report"
         ' 
         ' Label1
@@ -338,22 +344,65 @@ Partial Class AdminDashboard
         ' pnlDashboard
         ' 
         pnlDashboard.BackColor = SystemColors.ActiveCaption
-        pnlDashboard.CustomizableEdges = CustomizableEdges25
+        pnlDashboard.CustomizableEdges = CustomizableEdges23
         pnlDashboard.Location = New Point(261, 72)
         pnlDashboard.Name = "pnlDashboard"
-        pnlDashboard.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        pnlDashboard.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         pnlDashboard.Size = New Size(1015, 680)
         pnlDashboard.TabIndex = 4
         ' 
         ' pnlFundTransfer
         ' 
         pnlFundTransfer.BackColor = Color.MistyRose
-        pnlFundTransfer.CustomizableEdges = CustomizableEdges23
-        pnlFundTransfer.Location = New Point(261, 72)
+        pnlFundTransfer.Controls.Add(Guna2DateTimePicker2)
+        pnlFundTransfer.Controls.Add(Label4)
+        pnlFundTransfer.Controls.Add(Label5)
+        pnlFundTransfer.CustomizableEdges = CustomizableEdges21
+        pnlFundTransfer.Location = New Point(252, 65)
         pnlFundTransfer.Name = "pnlFundTransfer"
-        pnlFundTransfer.ShadowDecoration.CustomizableEdges = CustomizableEdges24
-        pnlFundTransfer.Size = New Size(1015, 680)
+        pnlFundTransfer.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        pnlFundTransfer.Size = New Size(1033, 699)
         pnlFundTransfer.TabIndex = 5
+        ' 
+        ' Guna2DateTimePicker2
+        ' 
+        Guna2DateTimePicker2.Animated = True
+        Guna2DateTimePicker2.BorderThickness = 1
+        Guna2DateTimePicker2.Checked = True
+        Guna2DateTimePicker2.CustomizableEdges = CustomizableEdges19
+        Guna2DateTimePicker2.FillColor = Color.LightGray
+        Guna2DateTimePicker2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2DateTimePicker2.Format = DateTimePickerFormat.Long
+        Guna2DateTimePicker2.Location = New Point(789, 77)
+        Guna2DateTimePicker2.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
+        Guna2DateTimePicker2.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
+        Guna2DateTimePicker2.Name = "Guna2DateTimePicker2"
+        Guna2DateTimePicker2.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        Guna2DateTimePicker2.Size = New Size(200, 36)
+        Guna2DateTimePicker2.TabIndex = 5
+        Guna2DateTimePicker2.Value = New DateTime(2023, 6, 1, 9, 45, 27, 446)
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Font = New Font("Segoe UI", 18.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.ForeColor = Color.DimGray
+        Label4.Location = New Point(71, 113)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(312, 35)
+        Label4.TabIndex = 4
+        Label4.Text = "OVERVIEW of Contribution"
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Segoe UI", 32.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label5.ForeColor = Color.Black
+        Label5.Location = New Point(25, 54)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(403, 59)
+        Label5.TabIndex = 3
+        Label5.Text = "Contribution Report"
         ' 
         ' AdminDashboard
         ' 
@@ -362,9 +411,9 @@ Partial Class AdminDashboard
         ClientSize = New Size(1288, 764)
         Controls.Add(Label1)
         Controls.Add(Guna2GradientPanel1)
-        Controls.Add(pnlEmployees)
         Controls.Add(pnlFundTransfer)
         Controls.Add(pnlDashboard)
+        Controls.Add(pnlEmployees)
         FormBorderStyle = FormBorderStyle.None
         Name = "AdminDashboard"
         StartPosition = FormStartPosition.CenterScreen
@@ -373,6 +422,8 @@ Partial Class AdminDashboard
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         pnlEmployees.ResumeLayout(False)
         pnlEmployees.PerformLayout()
+        pnlFundTransfer.ResumeLayout(False)
+        pnlFundTransfer.PerformLayout()
         ResumeLayout(False)
     End Sub
 
@@ -391,6 +442,9 @@ Partial Class AdminDashboard
     Friend WithEvents pnlFundTransfer As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents pnlDashboard As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents pnlEmployees As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2DateTimePicker2 As Guna.UI2.WinForms.Guna2DateTimePicker
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
     Friend WithEvents Guna2DateTimePicker1 As Guna.UI2.WinForms.Guna2DateTimePicker
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
