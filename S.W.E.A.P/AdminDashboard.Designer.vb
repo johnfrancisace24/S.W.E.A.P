@@ -47,7 +47,7 @@ Partial Class AdminDashboard
         Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
 
 
-  
+
         Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -188,7 +188,7 @@ Partial Class AdminDashboard
         bttnLogout.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         bttnLogout.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         bttnLogout.FillColor = Color.Transparent
-        bttnLogout.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        bttnLogout.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         bttnLogout.ForeColor = Color.White
         bttnLogout.HoverState.BorderColor = Color.Black
         bttnLogout.HoverState.FillColor = Color.Red
@@ -329,7 +329,7 @@ Partial Class AdminDashboard
         ' 
         Label1.BackColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
         Label1.Dock = DockStyle.Top
-        Label1.Font = New Font("Georgia", 18F, FontStyle.Bold, GraphicsUnit.Point)
+        Label1.Font = New Font("Georgia", 18.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label1.ForeColor = Color.Black
         Label1.Location = New Point(254, 0)
         Label1.Margin = New Padding(4, 0, 4, 0)
@@ -360,7 +360,7 @@ Partial Class AdminDashboard
         ' lblId
         ' 
         lblId.AutoSize = True
-        lblId.Font = New Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point)
+        lblId.Font = New Font("Segoe UI", 14.0F, FontStyle.Regular, GraphicsUnit.Point)
         lblId.Location = New Point(559, 124)
         lblId.Name = "lblId"
         lblId.Size = New Size(24, 25)
@@ -370,7 +370,7 @@ Partial Class AdminDashboard
         ' Label6
         ' 
         Label6.AutoSize = True
-        Label6.Font = New Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point)
+        Label6.Font = New Font("Segoe UI", 14.0F, FontStyle.Regular, GraphicsUnit.Point)
         Label6.Location = New Point(453, 124)
         Label6.Name = "Label6"
         Label6.Size = New Size(110, 25)
@@ -381,7 +381,7 @@ Partial Class AdminDashboard
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Font = New Font("Segoe UI", 14.0F, FontStyle.Regular, GraphicsUnit.Point)
         Label3.Location = New Point(13, 124)
         Label3.Name = "Label3"
         Label3.Size = New Size(69, 25)
@@ -397,7 +397,7 @@ Partial Class AdminDashboard
         txtSearch.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtSearch.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtSearch.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtSearch.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSearch.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         txtSearch.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtSearch.Location = New Point(85, 120)
         txtSearch.Name = "txtSearch"
@@ -409,7 +409,7 @@ Partial Class AdminDashboard
         txtSearch.TabIndex = 2
         txtSearch.TextAlign = HorizontalAlignment.Center
         ' 
-<
+
         ' btnViewMember
         ' 
         btnViewMember.BackColor = SystemColors.HotTrack
@@ -420,7 +420,7 @@ Partial Class AdminDashboard
         btnViewMember.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnViewMember.Enabled = False
         btnViewMember.FillColor = Color.RoyalBlue
-        btnViewMember.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnViewMember.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         btnViewMember.ForeColor = Color.White
         btnViewMember.Location = New Point(598, 120)
         btnViewMember.Name = "btnViewMember"
