@@ -2,7 +2,7 @@
 
 Public Class UserDashboard
 
-    Dim conn As New MySqlConnection("server=172.30.206.156;port=3306;username=sweapp;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.192.29;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim dr As MySqlDataReader
 
     Public Sub Get_info()
@@ -75,6 +75,7 @@ Public Class UserDashboard
                 lblFname.Text = dr.GetString("fullName")
                 lblPosition.Text = dr.GetString("position")
                 lblFirst.Text = Gooday
+
                 lnkFname.Text = dr.GetString("fullName")
                 lnkaddress.Text = dr.GetString("address")
                 lnkemail.Text = dr.GetString("email")
@@ -84,8 +85,21 @@ Public Class UserDashboard
                 lnkoffice.Text = dr.GetString("office")
                 lnkcomm.Text = dr.GetString("committee")
                 lnkcontact.Text = dr.GetString("contact")
-                MsgBox(destinationPath)
-                MsgBox(imagePath)
+
+                txtbxusername.Text = dr.GetString("username")
+                txtbxpassword.Text = dr.GetString("password")
+                txtbxfname.Text = dr.GetString("first_name")
+                txtbxmname.Text = dr.GetString("middle_name")
+                txtbxlname.Text = dr.GetString("last_name")
+                txtbxposition.Text = dr.GetString("position")
+                cmbxemply.Text = dr.GetString("employment_status")
+                txtbxadds.Text = dr.GetString("address")
+                txtbxcontact.Text = dr.GetString("contact")
+                txtbxemail.Text = dr.GetString("email")
+                txtbxeduc.Text = dr.GetString("educational")
+                txtbxbdate.Value = dr.GetString("birthdate")
+                cmbxoffice.Text = dr.GetString("office")
+                cmbxcomittee.Text = dr.GetString("committee")
                 ' Dito mo ilalagay ang logic para gamitin ang retrieved data
             End If
         Catch ex As Exception
@@ -100,12 +114,24 @@ Public Class UserDashboard
             conn.Open()
             Dim cmd As New MySqlCommand("UPDATE users " &
                             "INNER JOIN user_info ON users.id = user_info.user_id " &
-                            "SET users.first_name = @fname, user_info.address = @address " &
+                            "SET users.username = @uname, users.password = @pword, users.first_name = @fname, users.middle_name = @mname, users.last_name = @lname, users.position = @pos, user_info.address = @adds, user_info.contact = @contact, user_info.email = @email, user_info.educational = @educ, user_info.birthdate = @bdate, user_info.office = @office, user_info.employment_status = @employ, user_info.committee = @comm" &
                             "WHERE users.id = @ID", conn)
             cmd.Parameters.Clear()
             cmd.Parameters.AddWithValue("@ID", Form1.log_id)
+            cmd.Parameters.AddWithValue("@uname", txtbxusername.Text)
+            cmd.Parameters.AddWithValue("@pword", txtbxpassword.Text)
             cmd.Parameters.AddWithValue("@fname", txtbxfname.Text)
-            cmd.Parameters.AddWithValue("@address", txtbxadds.Text)
+            cmd.Parameters.AddWithValue("@mname", txtbxmname.Text)
+            cmd.Parameters.AddWithValue("@lname", txtbxlname.Text)
+            cmd.Parameters.AddWithValue("@pos", txtbxposition.Text)
+            cmd.Parameters.AddWithValue("@employ", cmbxemply.Text)
+            cmd.Parameters.AddWithValue("@adds", txtbxadds.Text)
+            cmd.Parameters.AddWithValue("@contact", txtbxcontact.Text)
+            cmd.Parameters.AddWithValue("@email", txtbxemail.Text)
+            cmd.Parameters.AddWithValue("@educ", txtbxeduc.Text)
+            cmd.Parameters.AddWithValue("@bdate", txtbxbdate.Value)
+            cmd.Parameters.AddWithValue("@office", cmbxoffice.Text)
+            cmd.Parameters.AddWithValue("@committee", cmbxcomittee.Text)
 
             cmd.ExecuteNonQuery()
             MessageBox.Show("Updated successfully!", "ALERT", MessageBoxButtons.OK, MessageBoxIcon.Information)
