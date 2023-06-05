@@ -1,8 +1,25 @@
 ﻿Imports TheArtOfDevHtmlRenderer.Adapters.Entities
-
+Imports MySql.Data.MySqlClient
 Public Class AdminDashboard
+    Dim conn As New MySqlConnection("server=172.30.192.29;port=3306;username=sweapp;password=druguser;database=sweap")
+    Dim rid As MySqlDataReader
+    '-------------------------------FUNCTIONSS--------------------------------------------------------------------------------------
+    Public Sub viewMembers(query)
+        dgMembers.Rows.Clear()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand(query, conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                dgMembers.Rows.Add(rid.Item("id"), rid.Item("full_name"), rid.Item("office"), rid.Item("position"), rid.Item("employment_status"), rid.Item("email"))
+            End While
+        Catch ex As Exception
+        Finally
+            conn.Close()
+        End Try
+    End Sub
 
-
+    '-------------------------------------------------------------------------------------------------------------------------------
     Private Sub bttnDash_Click(sender As Object, e As EventArgs) Handles bttnDash.Click
         pnlDas.BackColor = Color.DarkRed
         pnlEm.BackColor = Color.Transparent
@@ -100,5 +117,23 @@ Public Class AdminDashboard
 
     Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
 
+    End Sub
+
+    Private Sub AdminDashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
+                                            email from users left join user_info on users.id = user_info.user_id")
+    End Sub
+
+    Private Sub dgMembers_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgMembers.CellContentClick
+        btnEditMember.Enabled = True
+    End Sub
+
+    Private Sub txtSearch_TextChanged(sender As Object, e As EventArgs) Handles txtSearch.TextChanged
+
+        viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
+                                            email from users left join user_info on users.id = user_info.user_id where first_name like '%" & txtSearch.Text & "%' or
+                                            middle_name like '%" & txtSearch.Text & "%' or last_name like '%" & txtSearch.Text & "%' or office like '%" & txtSearch.Text &
+                                            "%' or position like '%" & txtSearch.Text & "%' or employment_status like '%" & txtSearch.Text & "%' or email like '%" &
+                                             txtSearch.Text & "%'")
     End Sub
 End Class
