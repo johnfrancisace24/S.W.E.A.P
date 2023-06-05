@@ -45,6 +45,9 @@ Partial Class AdminDashboard
         Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+
+
+  
         Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -64,8 +67,10 @@ Partial Class AdminDashboard
         Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+
         Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
@@ -80,11 +85,13 @@ Partial Class AdminDashboard
         pnlEmployees = New Guna.UI2.WinForms.Guna2Panel()
         Label1 = New Label()
         pnlDashboard = New Guna.UI2.WinForms.Guna2Panel()
+
         lblId = New Label()
         Label6 = New Label()
         Label3 = New Label()
         txtSearch = New Guna.UI2.WinForms.Guna2TextBox()
         btnViewMember = New Guna.UI2.WinForms.Guna2Button()
+
         btnEditMember = New Guna.UI2.WinForms.Guna2Button()
         dgMembers = New Guna.UI2.WinForms.Guna2DataGridView()
         Column7 = New DataGridViewTextBoxColumn()
@@ -349,6 +356,7 @@ Partial Class AdminDashboard
         pnlDashboard.Size = New Size(1015, 680)
         pnlDashboard.TabIndex = 4
         ' 
+
         ' lblId
         ' 
         lblId.AutoSize = True
@@ -369,6 +377,7 @@ Partial Class AdminDashboard
         Label6.TabIndex = 3
         Label6.Text = "Selected ID:"
         ' 
+
         ' Label3
         ' 
         Label3.AutoSize = True
@@ -400,6 +409,7 @@ Partial Class AdminDashboard
         txtSearch.TabIndex = 2
         txtSearch.TextAlign = HorizontalAlignment.Center
         ' 
+<
         ' btnViewMember
         ' 
         btnViewMember.BackColor = SystemColors.HotTrack
@@ -419,6 +429,7 @@ Partial Class AdminDashboard
         btnViewMember.TabIndex = 1
         btnViewMember.Text = "VIEW"
         ' 
+
         ' btnEditMember
         ' 
         btnEditMember.BackColor = SystemColors.HotTrack

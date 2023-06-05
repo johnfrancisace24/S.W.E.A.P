@@ -43,6 +43,8 @@ Public Class Form1
                 conn.Close()
             End Try
             If (status = 1) Then
+                txtbxUsername.Clear()
+                txtbxPassword.Clear()
                 AdminDashboard.Show()
                 Me.Hide()
             ElseIf (status = 0) Then
