@@ -41,22 +41,29 @@ Partial Class AdminDashboard
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
@@ -71,6 +78,15 @@ Partial Class AdminDashboard
         pnlEmployees = New Guna.UI2.WinForms.Guna2Panel()
         Label1 = New Label()
         pnlDashboard = New Guna.UI2.WinForms.Guna2Panel()
+        btnEditMember = New Guna.UI2.WinForms.Guna2Button()
+        dgMembers = New Guna.UI2.WinForms.Guna2DataGridView()
+        Column7 = New DataGridViewTextBoxColumn()
+        Column1 = New DataGridViewTextBoxColumn()
+        Column2 = New DataGridViewTextBoxColumn()
+        Column3 = New DataGridViewTextBoxColumn()
+        Column4 = New DataGridViewTextBoxColumn()
+        Column5 = New DataGridViewTextBoxColumn()
+        Column6 = New DataGridViewTextBoxColumn()
         pnlFundTransfer = New Guna.UI2.WinForms.Guna2Panel()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Label2 = New Label()
@@ -80,8 +96,12 @@ Partial Class AdminDashboard
         Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Label4 = New Label()
         Label5 = New Label()
+        txtSearch = New Guna.UI2.WinForms.Guna2TextBox()
+        Label3 = New Label()
         Guna2GradientPanel1.SuspendLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        pnlDashboard.SuspendLayout()
+        CType(dgMembers, ComponentModel.ISupportInitialize).BeginInit()
         pnlFundTransfer.SuspendLayout()
         Guna2Panel1.SuspendLayout()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -286,10 +306,10 @@ Partial Class AdminDashboard
         pnlEmployees.BackColor = SystemColors.Highlight
         pnlEmployees.BorderStyle = Drawing2D.DashStyle.Dash
         pnlEmployees.BorderThickness = 1
-        pnlEmployees.CustomizableEdges = CustomizableEdges33
+        pnlEmployees.CustomizableEdges = CustomizableEdges25
         pnlEmployees.Location = New Point(260, 72)
         pnlEmployees.Name = "pnlEmployees"
-        pnlEmployees.ShadowDecoration.CustomizableEdges = CustomizableEdges34
+        pnlEmployees.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         pnlEmployees.Size = New Size(1016, 680)
         pnlEmployees.TabIndex = 5
         ' 
@@ -309,13 +329,131 @@ Partial Class AdminDashboard
         ' 
         ' pnlDashboard
         ' 
-        pnlDashboard.BackColor = SystemColors.ActiveCaption
-        pnlDashboard.CustomizableEdges = CustomizableEdges31
+        pnlDashboard.BackColor = Color.FromArgb(CByte(247), CByte(233), CByte(233))
+        pnlDashboard.Controls.Add(Label3)
+        pnlDashboard.Controls.Add(txtSearch)
+        pnlDashboard.Controls.Add(btnEditMember)
+        pnlDashboard.Controls.Add(dgMembers)
+        pnlDashboard.CustomizableEdges = CustomizableEdges23
         pnlDashboard.Location = New Point(261, 72)
         pnlDashboard.Name = "pnlDashboard"
-        pnlDashboard.ShadowDecoration.CustomizableEdges = CustomizableEdges32
+        pnlDashboard.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         pnlDashboard.Size = New Size(1015, 680)
         pnlDashboard.TabIndex = 4
+        ' 
+        ' btnEditMember
+        ' 
+        btnEditMember.BackColor = SystemColors.HotTrack
+        btnEditMember.CustomizableEdges = CustomizableEdges21
+        btnEditMember.DisabledState.BorderColor = Color.DarkGray
+        btnEditMember.DisabledState.CustomBorderColor = Color.DarkGray
+        btnEditMember.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnEditMember.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnEditMember.Enabled = False
+        btnEditMember.FillColor = Color.RoyalBlue
+        btnEditMember.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnEditMember.ForeColor = Color.White
+        btnEditMember.Location = New Point(802, 120)
+        btnEditMember.Name = "btnEditMember"
+        btnEditMember.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        btnEditMember.Size = New Size(198, 34)
+        btnEditMember.TabIndex = 1
+        btnEditMember.Text = "EDIT"
+        ' 
+        ' dgMembers
+        ' 
+        DataGridViewCellStyle1.BackColor = Color.White
+        dgMembers.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle2.ForeColor = Color.White
+        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
+        dgMembers.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        dgMembers.ColumnHeadersHeight = 17
+        dgMembers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        dgMembers.Columns.AddRange(New DataGridViewColumn() {Column7, Column1, Column2, Column3, Column4, Column5, Column6})
+        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = Color.White
+        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
+        dgMembers.DefaultCellStyle = DataGridViewCellStyle3
+        dgMembers.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        dgMembers.Location = New Point(14, 162)
+        dgMembers.Name = "dgMembers"
+        dgMembers.RowHeadersVisible = False
+        dgMembers.RowTemplate.Height = 25
+        dgMembers.Size = New Size(986, 505)
+        dgMembers.TabIndex = 0
+        dgMembers.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
+        dgMembers.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        dgMembers.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
+        dgMembers.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
+        dgMembers.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
+        dgMembers.ThemeStyle.BackColor = Color.White
+        dgMembers.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        dgMembers.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        dgMembers.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
+        dgMembers.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        dgMembers.ThemeStyle.HeaderStyle.ForeColor = Color.White
+        dgMembers.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        dgMembers.ThemeStyle.HeaderStyle.Height = 17
+        dgMembers.ThemeStyle.ReadOnly = False
+        dgMembers.ThemeStyle.RowsStyle.BackColor = Color.White
+        dgMembers.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
+        dgMembers.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        dgMembers.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        dgMembers.ThemeStyle.RowsStyle.Height = 25
+        dgMembers.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        dgMembers.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        ' 
+        ' Column7
+        ' 
+        Column7.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column7.HeaderText = "ID"
+        Column7.Name = "Column7"
+        Column7.Width = 41
+        ' 
+        ' Column1
+        ' 
+        Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column1.HeaderText = "Full name"
+        Column1.Name = "Column1"
+        ' 
+        ' Column2
+        ' 
+        Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column2.HeaderText = "Office"
+        Column2.Name = "Column2"
+        ' 
+        ' Column3
+        ' 
+        Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column3.HeaderText = "Position"
+        Column3.Name = "Column3"
+        ' 
+        ' Column4
+        ' 
+        Column4.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column4.HeaderText = "Employment status"
+        Column4.Name = "Column4"
+        ' 
+        ' Column5
+        ' 
+        Column5.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column5.HeaderText = "Email"
+        Column5.Name = "Column5"
+        ' 
+        ' Column6
+        ' 
+        Column6.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column6.HeaderText = "Contribution"
+        Column6.Name = "Column6"
         ' 
         ' pnlFundTransfer
         ' 
@@ -327,11 +465,11 @@ Partial Class AdminDashboard
         pnlFundTransfer.Controls.Add(Guna2Button3)
         pnlFundTransfer.Controls.Add(Label4)
         pnlFundTransfer.Controls.Add(Label5)
-        pnlFundTransfer.CustomizableEdges = CustomizableEdges29
+        pnlFundTransfer.CustomizableEdges = CustomizableEdges37
         pnlFundTransfer.Location = New Point(260, 72)
         pnlFundTransfer.Margin = New Padding(33, 3, 3, 3)
         pnlFundTransfer.Name = "pnlFundTransfer"
-        pnlFundTransfer.ShadowDecoration.CustomizableEdges = CustomizableEdges30
+        pnlFundTransfer.ShadowDecoration.CustomizableEdges = CustomizableEdges38
         pnlFundTransfer.Size = New Size(1016, 680)
         pnlFundTransfer.TabIndex = 5
         ' 
@@ -342,10 +480,10 @@ Partial Class AdminDashboard
         Guna2Panel1.BorderThickness = 1
         Guna2Panel1.Controls.Add(Label2)
         Guna2Panel1.Controls.Add(Guna2PictureBox2)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges21
+        Guna2Panel1.CustomizableEdges = CustomizableEdges29
         Guna2Panel1.Location = New Point(80, 231)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges30
         Guna2Panel1.Size = New Size(305, 179)
         Guna2Panel1.TabIndex = 9
         ' 
@@ -364,12 +502,12 @@ Partial Class AdminDashboard
         ' 
         Guna2PictureBox2.BackgroundImage = My.Resources.Resources.image_removebg_preview__1_1
         Guna2PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges19
+        Guna2PictureBox2.CustomizableEdges = CustomizableEdges27
         Guna2PictureBox2.FillColor = Color.Transparent
         Guna2PictureBox2.ImageRotate = 0F
         Guna2PictureBox2.Location = New Point(155, 79)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges28
         Guna2PictureBox2.Size = New Size(150, 100)
         Guna2PictureBox2.TabIndex = 10
         Guna2PictureBox2.TabStop = False
@@ -379,7 +517,7 @@ Partial Class AdminDashboard
         Guna2Button1.Animated = True
         Guna2Button1.BackColor = Color.Transparent
         Guna2Button1.BorderRadius = 10
-        Guna2Button1.CustomizableEdges = CustomizableEdges23
+        Guna2Button1.CustomizableEdges = CustomizableEdges31
         Guna2Button1.DisabledState.BorderColor = Color.DarkGray
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -389,7 +527,7 @@ Partial Class AdminDashboard
         Guna2Button1.ForeColor = Color.White
         Guna2Button1.Location = New Point(877, 93)
         Guna2Button1.Name = "Guna2Button1"
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges32
         Guna2Button1.Size = New Size(93, 41)
         Guna2Button1.TabIndex = 6
         Guna2Button1.Text = "MONTH"
@@ -399,7 +537,7 @@ Partial Class AdminDashboard
         Guna2Button2.Animated = True
         Guna2Button2.BackColor = Color.Transparent
         Guna2Button2.BorderRadius = 10
-        Guna2Button2.CustomizableEdges = CustomizableEdges25
+        Guna2Button2.CustomizableEdges = CustomizableEdges33
         Guna2Button2.DisabledState.BorderColor = Color.DarkGray
         Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -409,7 +547,7 @@ Partial Class AdminDashboard
         Guna2Button2.ForeColor = Color.White
         Guna2Button2.Location = New Point(778, 93)
         Guna2Button2.Name = "Guna2Button2"
-        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges34
         Guna2Button2.Size = New Size(93, 41)
         Guna2Button2.TabIndex = 7
         Guna2Button2.Text = "WEEK"
@@ -419,7 +557,7 @@ Partial Class AdminDashboard
         Guna2Button3.Animated = True
         Guna2Button3.BackColor = Color.Transparent
         Guna2Button3.BorderRadius = 10
-        Guna2Button3.CustomizableEdges = CustomizableEdges27
+        Guna2Button3.CustomizableEdges = CustomizableEdges35
         Guna2Button3.DisabledState.BorderColor = Color.DarkGray
         Guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -429,7 +567,7 @@ Partial Class AdminDashboard
         Guna2Button3.ForeColor = Color.White
         Guna2Button3.Location = New Point(679, 93)
         Guna2Button3.Name = "Guna2Button3"
-        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges36
         Guna2Button3.Size = New Size(93, 41)
         Guna2Button3.TabIndex = 8
         Guna2Button3.Text = "DAY"
@@ -456,6 +594,37 @@ Partial Class AdminDashboard
         Label5.TabIndex = 3
         Label5.Text = "Contribution Report"
         ' 
+        ' txtSearch
+        ' 
+        txtSearch.CustomizableEdges = CustomizableEdges19
+        txtSearch.DefaultText = ""
+        txtSearch.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtSearch.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtSearch.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSearch.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSearch.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSearch.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSearch.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSearch.Location = New Point(85, 120)
+        txtSearch.Name = "txtSearch"
+        txtSearch.PasswordChar = ChrW(0)
+        txtSearch.PlaceholderText = ""
+        txtSearch.SelectedText = ""
+        txtSearch.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        txtSearch.Size = New Size(200, 34)
+        txtSearch.TabIndex = 2
+        txtSearch.TextAlign = HorizontalAlignment.Center
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Location = New Point(13, 124)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(69, 25)
+        Label3.TabIndex = 3
+        Label3.Text = "Search"
+        ' 
         ' AdminDashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -463,15 +632,18 @@ Partial Class AdminDashboard
         ClientSize = New Size(1288, 764)
         Controls.Add(Label1)
         Controls.Add(Guna2GradientPanel1)
-        Controls.Add(pnlFundTransfer)
         Controls.Add(pnlDashboard)
         Controls.Add(pnlEmployees)
+        Controls.Add(pnlFundTransfer)
         FormBorderStyle = FormBorderStyle.None
         Name = "AdminDashboard"
         StartPosition = FormStartPosition.CenterScreen
         Text = "AdminDashboard"
         Guna2GradientPanel1.ResumeLayout(False)
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        pnlDashboard.ResumeLayout(False)
+        pnlDashboard.PerformLayout()
+        CType(dgMembers, ComponentModel.ISupportInitialize).EndInit()
         pnlFundTransfer.ResumeLayout(False)
         pnlFundTransfer.PerformLayout()
         Guna2Panel1.ResumeLayout(False)
@@ -503,4 +675,15 @@ Partial Class AdminDashboard
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Label2 As Label
     Protected WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents dgMembers As Guna.UI2.WinForms.Guna2DataGridView
+    Friend WithEvents btnEditMember As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Column7 As DataGridViewTextBoxColumn
+    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As DataGridViewTextBoxColumn
+    Friend WithEvents Column3 As DataGridViewTextBoxColumn
+    Friend WithEvents Column4 As DataGridViewTextBoxColumn
+    Friend WithEvents Column5 As DataGridViewTextBoxColumn
+    Friend WithEvents Column6 As DataGridViewTextBoxColumn
+    Friend WithEvents Label3 As Label
+    Friend WithEvents txtSearch As Guna.UI2.WinForms.Guna2TextBox
 End Class
