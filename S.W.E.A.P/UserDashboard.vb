@@ -153,4 +153,8 @@ Public Class UserDashboard
         Guna2Panel1.Visible = False
         Guna2Panel2.Visible = True
     End Sub
+
+    Private Sub Label25_Click(sender As Object, e As EventArgs) Handles Label25.Click
+
+    End Sub
 End Class
