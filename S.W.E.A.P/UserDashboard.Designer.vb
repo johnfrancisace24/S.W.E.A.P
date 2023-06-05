@@ -39,21 +39,14 @@ Partial Class UserDashboard
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-
-        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-
-        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-
         Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -69,18 +62,6 @@ Partial Class UserDashboard
         Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-
-        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
@@ -118,6 +99,7 @@ Partial Class UserDashboard
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         lblFirst = New Label()
         Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Label15 = New Label()
         txtbxeduc = New Guna.UI2.WinForms.Guna2TextBox()
         Label24 = New Label()
         Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
@@ -138,7 +120,6 @@ Partial Class UserDashboard
         txtbxposition = New Guna.UI2.WinForms.Guna2TextBox()
         Label16 = New Label()
         txtbxlname = New Guna.UI2.WinForms.Guna2TextBox()
-        Label15 = New Label()
         txtbxmname = New Guna.UI2.WinForms.Guna2TextBox()
         Label14 = New Label()
         txtbxfname = New Guna.UI2.WinForms.Guna2TextBox()
@@ -147,8 +128,6 @@ Partial Class UserDashboard
         Label12 = New Label()
         txtbxusername = New Guna.UI2.WinForms.Guna2TextBox()
         Label11 = New Label()
-        Label24 = New Label()
-        txtbxeduc = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2GradientPanel1.SuspendLayout()
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
@@ -199,7 +178,7 @@ Partial Class UserDashboard
         Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Guna2Button2.Dock = DockStyle.Bottom
         Guna2Button2.FillColor = Color.Transparent
-        Guna2Button2.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Guna2Button2.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button2.ForeColor = Color.White
         Guna2Button2.HoverState.BorderColor = Color.Black
         Guna2Button2.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
@@ -231,7 +210,7 @@ Partial Class UserDashboard
         Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Guna2Button1.Dock = DockStyle.Bottom
         Guna2Button1.FillColor = Color.Transparent
-        Guna2Button1.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Guna2Button1.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button1.ForeColor = Color.White
         Guna2Button1.HoverState.BorderColor = Color.Black
         Guna2Button1.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
@@ -281,7 +260,7 @@ Partial Class UserDashboard
         bttnEmpl.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         bttnEmpl.Dock = DockStyle.Top
         bttnEmpl.FillColor = Color.Transparent
-        bttnEmpl.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        bttnEmpl.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         bttnEmpl.ForeColor = Color.White
         bttnEmpl.HoverState.BorderColor = Color.Black
         bttnEmpl.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
@@ -313,7 +292,7 @@ Partial Class UserDashboard
         bttnDash.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         bttnDash.Dock = DockStyle.Top
         bttnDash.FillColor = Color.Transparent
-        bttnDash.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        bttnDash.Font = New Font("Segoe UI Semibold", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         bttnDash.ForeColor = Color.White
         bttnDash.HoverState.BorderColor = Color.Black
         bttnDash.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
@@ -348,7 +327,7 @@ Partial Class UserDashboard
         ' lblPosition
         ' 
         lblPosition.Dock = DockStyle.Top
-        lblPosition.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        lblPosition.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         lblPosition.ForeColor = SystemColors.ButtonFace
         lblPosition.Location = New Point(0, 212)
         lblPosition.Name = "lblPosition"
@@ -361,7 +340,7 @@ Partial Class UserDashboard
         ' lblFname
         ' 
         lblFname.Dock = DockStyle.Top
-        lblFname.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point)
+        lblFname.Font = New Font("Segoe UI Semibold", 10.0F, FontStyle.Bold, GraphicsUnit.Point)
         lblFname.ForeColor = SystemColors.ButtonFace
         lblFname.Location = New Point(0, 187)
         lblFname.Name = "lblFname"
@@ -398,7 +377,7 @@ Partial Class UserDashboard
         ' 
         Label1.BackColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
         Label1.Dock = DockStyle.Top
-        Label1.Font = New Font("Georgia", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label1.Font = New Font("Georgia", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label1.ForeColor = Color.Black
         Label1.Location = New Point(254, 0)
         Label1.Margin = New Padding(4, 0, 4, 0)
@@ -428,17 +407,10 @@ Partial Class UserDashboard
         Guna2CustomGradientPanel1.Controls.Add(lnkFname)
         Guna2CustomGradientPanel1.Controls.Add(Label6)
         Guna2CustomGradientPanel1.Controls.Add(Label5)
-
-        Guna2CustomGradientPanel1.CustomizableEdges = CustomizableEdges42
+        Guna2CustomGradientPanel1.CustomizableEdges = CustomizableEdges35
         Guna2CustomGradientPanel1.Location = New Point(252, 53)
         Guna2CustomGradientPanel1.Name = "Guna2CustomGradientPanel1"
-        Guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges43
-
-        Guna2CustomGradientPanel1.CustomizableEdges = CustomizableEdges40
-        Guna2CustomGradientPanel1.Location = New Point(252, 53)
-        Guna2CustomGradientPanel1.Name = "Guna2CustomGradientPanel1"
-        Guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges41
-
+        Guna2CustomGradientPanel1.ShadowDecoration.CustomizableEdges = CustomizableEdges36
         Guna2CustomGradientPanel1.Size = New Size(872, 602)
         Guna2CustomGradientPanel1.TabIndex = 6
         ' 
@@ -448,7 +420,7 @@ Partial Class UserDashboard
         lnkcontact.AutoSize = True
         lnkcontact.BackColor = Color.Transparent
         lnkcontact.DisabledLinkColor = Color.Transparent
-        lnkcontact.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkcontact.Font = New Font("Segoe UI", 11.0F, FontStyle.Regular, GraphicsUnit.Point)
         lnkcontact.LinkColor = Color.Black
         lnkcontact.Location = New Point(136, 297)
         lnkcontact.Name = "lnkcontact"
@@ -462,7 +434,7 @@ Partial Class UserDashboard
         Label10.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label10.AutoSize = True
         Label10.BackColor = Color.Transparent
-        Label10.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label10.Font = New Font("Segoe UI Semibold", 13.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label10.Location = New Point(50, 292)
         Label10.Name = "Label10"
         Label10.Size = New Size(80, 25)
@@ -475,7 +447,7 @@ Partial Class UserDashboard
         lnkcomm.AutoSize = True
         lnkcomm.BackColor = Color.Transparent
         lnkcomm.DisabledLinkColor = Color.Transparent
-        lnkcomm.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkcomm.Font = New Font("Segoe UI", 11.0F, FontStyle.Regular, GraphicsUnit.Point)
         lnkcomm.LinkColor = Color.Black
         lnkcomm.Location = New Point(596, 261)
         lnkcomm.Name = "lnkcomm"
@@ -489,7 +461,7 @@ Partial Class UserDashboard
         Label9.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label9.AutoSize = True
         Label9.BackColor = Color.Transparent
-        Label9.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label9.Font = New Font("Segoe UI Semibold", 13.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label9.Location = New Point(481, 257)
         Label9.Name = "Label9"
         Label9.Size = New Size(109, 25)
@@ -502,7 +474,7 @@ Partial Class UserDashboard
         lnkbdate.AutoSize = True
         lnkbdate.BackColor = Color.Transparent
         lnkbdate.DisabledLinkColor = Color.Transparent
-        lnkbdate.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkbdate.Font = New Font("Segoe UI", 11.0F, FontStyle.Regular, GraphicsUnit.Point)
         lnkbdate.LinkColor = Color.Black
         lnkbdate.Location = New Point(136, 259)
         lnkbdate.Name = "lnkbdate"
@@ -516,7 +488,7 @@ Partial Class UserDashboard
         Label8.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label8.AutoSize = True
         Label8.BackColor = Color.Transparent
-        Label8.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label8.Font = New Font("Segoe UI Semibold", 13.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label8.Location = New Point(36, 254)
         Label8.Name = "Label8"
         Label8.Size = New Size(94, 25)
@@ -529,7 +501,7 @@ Partial Class UserDashboard
         lnkemply.AutoSize = True
         lnkemply.BackColor = Color.Transparent
         lnkemply.DisabledLinkColor = Color.Transparent
-        lnkemply.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkemply.Font = New Font("Segoe UI", 11.0F, FontStyle.Regular, GraphicsUnit.Point)
         lnkemply.LinkColor = Color.Black
         lnkemply.Location = New Point(596, 179)
         lnkemply.Name = "lnkemply"
@@ -543,7 +515,7 @@ Partial Class UserDashboard
         Label7.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label7.AutoSize = True
         Label7.BackColor = Color.Transparent
-        Label7.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label7.Font = New Font("Segoe UI Semibold", 13.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label7.Location = New Point(414, 177)
         Label7.Name = "Label7"
         Label7.Size = New Size(176, 25)
@@ -556,7 +528,7 @@ Partial Class UserDashboard
         lnkoffice.AutoSize = True
         lnkoffice.BackColor = Color.Transparent
         lnkoffice.DisabledLinkColor = Color.Transparent
-        lnkoffice.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkoffice.Font = New Font("Segoe UI", 11.0F, FontStyle.Regular, GraphicsUnit.Point)
         lnkoffice.LinkColor = Color.Black
         lnkoffice.Location = New Point(596, 220)
         lnkoffice.Name = "lnkoffice"
@@ -570,7 +542,7 @@ Partial Class UserDashboard
         Label4.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label4.AutoSize = True
         Label4.BackColor = Color.Transparent
-        Label4.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label4.Font = New Font("Segoe UI Semibold", 13.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label4.Location = New Point(525, 218)
         Label4.Name = "Label4"
         Label4.Size = New Size(65, 25)
@@ -583,7 +555,7 @@ Partial Class UserDashboard
         lnkeduc.AutoSize = True
         lnkeduc.BackColor = Color.Transparent
         lnkeduc.DisabledLinkColor = Color.Transparent
-        lnkeduc.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkeduc.Font = New Font("Segoe UI", 11.0F, FontStyle.Regular, GraphicsUnit.Point)
         lnkeduc.LinkColor = Color.Black
         lnkeduc.Location = New Point(596, 143)
         lnkeduc.Name = "lnkeduc"
@@ -597,7 +569,7 @@ Partial Class UserDashboard
         Label3.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label3.AutoSize = True
         Label3.BackColor = Color.Transparent
-        Label3.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label3.Font = New Font("Segoe UI Semibold", 13.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label3.Location = New Point(381, 141)
         Label3.Name = "Label3"
         Label3.Size = New Size(209, 25)
@@ -610,7 +582,7 @@ Partial Class UserDashboard
         lnkemail.AutoSize = True
         lnkemail.BackColor = Color.Transparent
         lnkemail.DisabledLinkColor = Color.Transparent
-        lnkemail.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkemail.Font = New Font("Segoe UI", 11.0F, FontStyle.Regular, GraphicsUnit.Point)
         lnkemail.LinkColor = Color.Black
         lnkemail.Location = New Point(136, 222)
         lnkemail.Name = "lnkemail"
@@ -624,7 +596,7 @@ Partial Class UserDashboard
         Label2.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label2.AutoSize = True
         Label2.BackColor = Color.Transparent
-        Label2.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label2.Font = New Font("Segoe UI Semibold", 13.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label2.Location = New Point(70, 220)
         Label2.Name = "Label2"
         Label2.Size = New Size(60, 25)
@@ -637,7 +609,7 @@ Partial Class UserDashboard
         lnkaddress.AutoSize = True
         lnkaddress.BackColor = Color.Transparent
         lnkaddress.DisabledLinkColor = Color.Transparent
-        lnkaddress.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkaddress.Font = New Font("Segoe UI", 11.0F, FontStyle.Regular, GraphicsUnit.Point)
         lnkaddress.LinkColor = Color.Black
         lnkaddress.Location = New Point(136, 181)
         lnkaddress.Name = "lnkaddress"
@@ -652,7 +624,7 @@ Partial Class UserDashboard
         lnkFname.AutoSize = True
         lnkFname.BackColor = Color.Transparent
         lnkFname.DisabledLinkColor = Color.Transparent
-        lnkFname.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        lnkFname.Font = New Font("Segoe UI", 11.0F, FontStyle.Regular, GraphicsUnit.Point)
         lnkFname.LinkColor = Color.Black
         lnkFname.Location = New Point(136, 145)
         lnkFname.Name = "lnkFname"
@@ -666,7 +638,7 @@ Partial Class UserDashboard
         Label6.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label6.AutoSize = True
         Label6.BackColor = Color.Transparent
-        Label6.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label6.Font = New Font("Segoe UI Semibold", 13.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label6.Location = New Point(47, 179)
         Label6.Name = "Label6"
         Label6.Size = New Size(83, 25)
@@ -678,7 +650,7 @@ Partial Class UserDashboard
         Label5.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label5.AutoSize = True
         Label5.BackColor = Color.Transparent
-        Label5.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label5.Font = New Font("Segoe UI Semibold", 13.0F, FontStyle.Bold, GraphicsUnit.Point)
         Label5.Location = New Point(65, 143)
         Label5.Name = "Label5"
         Label5.Size = New Size(65, 25)
@@ -688,17 +660,10 @@ Partial Class UserDashboard
         ' Guna2Panel1
         ' 
         Guna2Panel1.Controls.Add(lblFirst)
-
-        Guna2Panel1.CustomizableEdges = CustomizableEdges16
+        Guna2Panel1.CustomizableEdges = CustomizableEdges37
         Guna2Panel1.Location = New Point(254, 53)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges17
-
-        Guna2Panel1.CustomizableEdges = CustomizableEdges42
-        Guna2Panel1.Location = New Point(254, 53)
-        Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges43
-
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges38
         Guna2Panel1.Size = New Size(870, 602)
         Guna2Panel1.TabIndex = 4
         ' 
@@ -706,7 +671,7 @@ Partial Class UserDashboard
         ' 
         lblFirst.AutoSize = True
         lblFirst.BackColor = Color.Transparent
-        lblFirst.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
+        lblFirst.Font = New Font("Segoe UI Semibold", 14.0F, FontStyle.Bold, GraphicsUnit.Point)
         lblFirst.ForeColor = SystemColors.ActiveCaptionText
         lblFirst.Location = New Point(37, 50)
         lblFirst.Name = "lblFirst"
@@ -718,6 +683,7 @@ Partial Class UserDashboard
         ' 
         ' Guna2Panel2
         ' 
+        Guna2Panel2.Controls.Add(Label15)
         Guna2Panel2.Controls.Add(txtbxeduc)
         Guna2Panel2.Controls.Add(Label24)
         Guna2Panel2.Controls.Add(Guna2Button3)
@@ -738,7 +704,6 @@ Partial Class UserDashboard
         Guna2Panel2.Controls.Add(txtbxposition)
         Guna2Panel2.Controls.Add(Label16)
         Guna2Panel2.Controls.Add(txtbxlname)
-        Guna2Panel2.Controls.Add(Label15)
         Guna2Panel2.Controls.Add(txtbxmname)
         Guna2Panel2.Controls.Add(Label14)
         Guna2Panel2.Controls.Add(txtbxfname)
@@ -747,40 +712,43 @@ Partial Class UserDashboard
         Guna2Panel2.Controls.Add(Label12)
         Guna2Panel2.Controls.Add(txtbxusername)
         Guna2Panel2.Controls.Add(Label11)
-
-        Guna2Panel2.CustomizableEdges = CustomizableEdges40
+        Guna2Panel2.CustomizableEdges = CustomizableEdges33
         Guna2Panel2.Font = New Font("Segoe UI", 9.5F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2Panel2.Location = New Point(252, 53)
         Guna2Panel2.Name = "Guna2Panel2"
-        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges41
-
-        Guna2Panel2.CustomizableEdges = CustomizableEdges38
-        Guna2Panel2.Font = New Font("Segoe UI", 9.5F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2Panel2.Location = New Point(252, 53)
-        Guna2Panel2.Name = "Guna2Panel2"
-        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges39
-
+        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges34
         Guna2Panel2.Size = New Size(872, 602)
         Guna2Panel2.TabIndex = 19
+        ' 
+        ' Label15
+        ' 
+        Label15.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
+        Label15.AutoSize = True
+        Label15.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label15.Location = New Point(15, 261)
+        Label15.Name = "Label15"
+        Label15.Size = New Size(91, 21)
+        Label15.TabIndex = 29
+        Label15.Text = "Last name:"
         ' 
         ' txtbxeduc
         ' 
         txtbxeduc.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        txtbxeduc.CustomizableEdges = CustomizableEdges18
+        txtbxeduc.CustomizableEdges = CustomizableEdges16
         txtbxeduc.DefaultText = ""
         txtbxeduc.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxeduc.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxeduc.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxeduc.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxeduc.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxeduc.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxeduc.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxeduc.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxeduc.Location = New Point(619, 227)
+        txtbxeduc.Location = New Point(626, 227)
         txtbxeduc.Name = "txtbxeduc"
         txtbxeduc.PasswordChar = ChrW(0)
         txtbxeduc.PlaceholderText = ""
         txtbxeduc.SelectedText = ""
-        txtbxeduc.ShadowDecoration.CustomizableEdges = CustomizableEdges19
+        txtbxeduc.ShadowDecoration.CustomizableEdges = CustomizableEdges17
         txtbxeduc.Size = New Size(229, 24)
         txtbxeduc.TabIndex = 28
         ' 
@@ -788,8 +756,8 @@ Partial Class UserDashboard
         ' 
         Label24.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label24.AutoSize = True
-        Label24.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label24.Location = New Point(418, 229)
+        Label24.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label24.Location = New Point(425, 229)
         Label24.Name = "Label24"
         Label24.Size = New Size(194, 21)
         Label24.TabIndex = 27
@@ -799,40 +767,26 @@ Partial Class UserDashboard
         ' 
         Guna2Button3.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Guna2Button3.BorderRadius = 19
-
-        Guna2Button3.CustomizableEdges = CustomizableEdges20
-
         Guna2Button3.CustomizableEdges = CustomizableEdges18
-
         Guna2Button3.DisabledState.BorderColor = Color.DarkGray
         Guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button3.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button3.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Guna2Button3.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button3.ForeColor = Color.White
         Guna2Button3.Location = New Point(213, 382)
         Guna2Button3.Name = "Guna2Button3"
-
-        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges21
-
         Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges19
-
         Guna2Button3.Size = New Size(160, 39)
         Guna2Button3.TabIndex = 26
         Guna2Button3.Text = "Update"
         ' 
         ' cmbxemply
         ' 
-
         cmbxemply.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         cmbxemply.Font = New Font("Segoe UI", 9.3F, FontStyle.Regular, GraphicsUnit.Point)
         cmbxemply.FormattingEnabled = True
-        cmbxemply.Location = New Point(175, 320)
-
-        cmbxemply.Font = New Font("Segoe UI", 9.3F, FontStyle.Regular, GraphicsUnit.Point)
-        cmbxemply.FormattingEnabled = True
-        cmbxemply.Location = New Point(172, 320)
-
+        cmbxemply.Location = New Point(182, 320)
         cmbxemply.Name = "cmbxemply"
         cmbxemply.Size = New Size(230, 23)
         cmbxemply.TabIndex = 25
@@ -841,12 +795,8 @@ Partial Class UserDashboard
         ' 
         Label23.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label23.AutoSize = True
-        Label23.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
-
-        Label23.Location = New Point(8, 321)
-
-        Label23.Location = New Point(5, 321)
-
+        Label23.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label23.Location = New Point(15, 321)
         Label23.Name = "Label23"
         Label23.Size = New Size(161, 21)
         Label23.TabIndex = 24
@@ -854,16 +804,10 @@ Partial Class UserDashboard
         ' 
         ' cmbxcomittee
         ' 
-
         cmbxcomittee.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         cmbxcomittee.Font = New Font("Segoe UI", 9.3F, FontStyle.Regular, GraphicsUnit.Point)
         cmbxcomittee.FormattingEnabled = True
-        cmbxcomittee.Location = New Point(618, 319)
-
-        cmbxcomittee.Font = New Font("Segoe UI", 9.3F, FontStyle.Regular, GraphicsUnit.Point)
-        cmbxcomittee.FormattingEnabled = True
-        cmbxcomittee.Location = New Point(615, 319)
-
+        cmbxcomittee.Location = New Point(625, 319)
         cmbxcomittee.Name = "cmbxcomittee"
         cmbxcomittee.Size = New Size(230, 23)
         cmbxcomittee.TabIndex = 23
@@ -872,12 +816,8 @@ Partial Class UserDashboard
         ' 
         Label22.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label22.AutoSize = True
-        Label22.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
-
-        Label22.Location = New Point(515, 320)
-
-        Label22.Location = New Point(512, 320)
-
+        Label22.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label22.Location = New Point(425, 317)
         Label22.Name = "Label22"
         Label22.Size = New Size(99, 21)
         Label22.TabIndex = 22
@@ -885,16 +825,10 @@ Partial Class UserDashboard
         ' 
         ' cmbxoffice
         ' 
-
         cmbxoffice.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         cmbxoffice.Font = New Font("Segoe UI", 9.3F, FontStyle.Regular, GraphicsUnit.Point)
         cmbxoffice.FormattingEnabled = True
-        cmbxoffice.Location = New Point(618, 289)
-
-        cmbxoffice.Font = New Font("Segoe UI", 9.3F, FontStyle.Regular, GraphicsUnit.Point)
-        cmbxoffice.FormattingEnabled = True
-        cmbxoffice.Location = New Point(615, 289)
-
+        cmbxoffice.Location = New Point(625, 289)
         cmbxoffice.Name = "cmbxoffice"
         cmbxoffice.Size = New Size(230, 23)
         cmbxoffice.TabIndex = 21
@@ -903,12 +837,8 @@ Partial Class UserDashboard
         ' 
         Label21.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label21.AutoSize = True
-        Label21.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
-
-        Label21.Location = New Point(552, 290)
-
-        Label21.Location = New Point(549, 290)
-
+        Label21.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label21.Location = New Point(425, 291)
         Label21.Name = "Label21"
         Label21.Size = New Size(60, 21)
         Label21.TabIndex = 20
@@ -916,14 +846,9 @@ Partial Class UserDashboard
         ' 
         ' txtbxbdate
         ' 
-
         txtbxbdate.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         txtbxbdate.Font = New Font("Segoe UI", 9.5F, FontStyle.Regular, GraphicsUnit.Point)
-        txtbxbdate.Location = New Point(619, 256)
-
-        txtbxbdate.Font = New Font("Segoe UI", 9.5F, FontStyle.Regular, GraphicsUnit.Point)
-        txtbxbdate.Location = New Point(616, 256)
-
+        txtbxbdate.Location = New Point(626, 256)
         txtbxbdate.Name = "txtbxbdate"
         txtbxbdate.Size = New Size(229, 24)
         txtbxbdate.TabIndex = 19
@@ -932,12 +857,8 @@ Partial Class UserDashboard
         ' 
         Label20.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label20.AutoSize = True
-        Label20.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
-
-        Label20.Location = New Point(529, 257)
-
-        Label20.Location = New Point(526, 257)
-
+        Label20.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label20.Location = New Point(425, 260)
         Label20.Name = "Label20"
         Label20.Size = New Size(85, 21)
         Label20.TabIndex = 18
@@ -945,34 +866,22 @@ Partial Class UserDashboard
         ' 
         ' txtbxemail
         ' 
-
         txtbxemail.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        txtbxemail.CustomizableEdges = CustomizableEdges22
-
         txtbxemail.CustomizableEdges = CustomizableEdges20
-
         txtbxemail.DefaultText = ""
         txtbxemail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxemail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxemail.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxemail.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxemail.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxemail.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxemail.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxemail.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-
-        txtbxemail.Location = New Point(618, 197)
-
-        txtbxemail.Location = New Point(615, 197)
-
+        txtbxemail.Location = New Point(625, 197)
         txtbxemail.Name = "txtbxemail"
         txtbxemail.PasswordChar = ChrW(0)
         txtbxemail.PlaceholderText = ""
         txtbxemail.SelectedText = ""
-
-        txtbxemail.ShadowDecoration.CustomizableEdges = CustomizableEdges23
-
         txtbxemail.ShadowDecoration.CustomizableEdges = CustomizableEdges21
-
         txtbxemail.Size = New Size(229, 24)
         txtbxemail.TabIndex = 17
         ' 
@@ -980,12 +889,8 @@ Partial Class UserDashboard
         ' 
         Label19.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label19.AutoSize = True
-        Label19.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
-
-        Label19.Location = New Point(556, 200)
-
-        Label19.Location = New Point(553, 200)
-
+        Label19.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label19.Location = New Point(425, 200)
         Label19.Name = "Label19"
         Label19.Size = New Size(57, 21)
         Label19.TabIndex = 16
@@ -993,27 +898,21 @@ Partial Class UserDashboard
         ' 
         ' txtbxcontact
         ' 
-
         txtbxcontact.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        txtbxcontact.CustomizableEdges = CustomizableEdges24
-
         txtbxcontact.CustomizableEdges = CustomizableEdges22
-
         txtbxcontact.DefaultText = ""
         txtbxcontact.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxcontact.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxcontact.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxcontact.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxcontact.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxcontact.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxcontact.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxcontact.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txttbxcontact.Location = New Point(618, 166)
-        txtbxcontact.Location = New Point(615, 166)
+        txtbxcontact.Location = New Point(625, 166)
         txtbxcontact.Name = "txtbxcontact"
         txtbxcontact.PasswordChar = ChrW(0)
         txtbxcontact.PlaceholderText = ""
         txtbxcontact.SelectedText = ""
-        txtbxcontact.ShadowDecoration.CustomizableEdges = CustomizableEdges25
         txtbxcontact.ShadowDecoration.CustomizableEdges = CustomizableEdges23
         txtbxcontact.Size = New Size(229, 24)
         txtbxcontact.TabIndex = 15
@@ -1022,9 +921,8 @@ Partial Class UserDashboard
         ' 
         Label18.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label18.AutoSize = True
-        Label18.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label18.Location = New Point(540, 167)
-        Label18.Location = New Point(537, 167)
+        Label18.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label18.Location = New Point(425, 169)
         Label18.Name = "Label18"
         Label18.Size = New Size(73, 21)
         Label18.TabIndex = 14
@@ -1033,7 +931,6 @@ Partial Class UserDashboard
         ' txtbxadds
         ' 
         txtbxadds.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        txtbxadds.CustomizableEdges = CustomizableEdges26
         txtbxadds.CustomizableEdges = CustomizableEdges24
         txtbxadds.DefaultText = ""
         txtbxadds.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -1041,15 +938,13 @@ Partial Class UserDashboard
         txtbxadds.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxadds.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxadds.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxadds.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxadds.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxadds.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxadds.Location = New Point(618, 136)
-        txtbxadds.Location = New Point(615, 136)
+        txtbxadds.Location = New Point(625, 136)
         txtbxadds.Name = "txtbxadds"
         txtbxadds.PasswordChar = ChrW(0)
         txtbxadds.PlaceholderText = ""
-        txtbxadds.SelectedText = "
-        txtbxadds.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        txtbxadds.SelectedText = ""
         txtbxadds.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         txtbxadds.Size = New Size(229, 24)
         txtbxadds.TabIndex = 13
@@ -1058,18 +953,16 @@ Partial Class UserDashboard
         ' 
         Label17.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label17.AutoSize = True
-        Label17.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point
-        Label17.Location = New Point(540, 137
-        Label17.Location = New Point(537, 137
+        Label17.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label17.Location = New Point(428, 137)
         Label17.Name = "Label17"
         Label17.Size = New Size(74, 21)
         Label17.TabIndex = 12
         Label17.Text = "Address:"
         ' 
         ' txtbxposition
-        '
+        ' 
         txtbxposition.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        txtbxposition.CustomizableEdges = CustomizableEdges2
         txtbxposition.CustomizableEdges = CustomizableEdges2
         txtbxposition.DefaultText = ""
         txtbxposition.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -1077,15 +970,13 @@ Partial Class UserDashboard
         txtbxposition.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxposition.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxposition.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxposition.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtbxposition.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255)
-        txtbxposition.Location = New Point(175, 290
-        txtbxposition.Location = New Point(172, 290
+        txtbxposition.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxposition.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtbxposition.Location = New Point(182, 290)
         txtbxposition.Name = "txtbxposition"
         txtbxposition.PasswordChar = ChrW(0)
         txtbxposition.PlaceholderText = ""
-        txtbxposition.SelectedText = "
-        txtbxposition.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        txtbxposition.SelectedText = ""
         txtbxposition.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         txtbxposition.Size = New Size(229, 24)
         txtbxposition.TabIndex = 11
@@ -1094,18 +985,16 @@ Partial Class UserDashboard
         ' 
         Label16.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label16.AutoSize = True
-        Label16.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point
-        Label16.Location = New Point(91, 293
-        Label16.Location = New Point(88, 293
+        Label16.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label16.Location = New Point(15, 293)
         Label16.Name = "Label16"
         Label16.Size = New Size(77, 21)
         Label16.TabIndex = 10
         Label16.Text = "Position:"
         ' 
         ' txtbxlname
-        '
+        ' 
         txtbxlname.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        txtbxlname.CustomizableEdges = CustomizableEdges3
         txtbxlname.CustomizableEdges = CustomizableEdges2
         txtbxlname.DefaultText = ""
         txtbxlname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -1113,52 +1002,35 @@ Partial Class UserDashboard
         txtbxlname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxlname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxlname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxlname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtbxlname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255)
-        txtbxlname.Location = New Point(175, 260
-        txtbxlname.Location = New Point(172, 260
+        txtbxlname.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxlname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtbxlname.Location = New Point(182, 260)
         txtbxlname.Name = "txtbxlname"
         txtbxlname.PasswordChar = ChrW(0)
         txtbxlname.PlaceholderText = ""
-        txtbxlname.SelectedText = "
-        txtbxlname.ShadowDecoration.CustomizableEdges = CustomizableEdges3
+        txtbxlname.SelectedText = ""
         txtbxlname.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         txtbxlname.Size = New Size(229, 24)
         txtbxlname.TabIndex = 9
         ' 
-        ' Label15
-        ' 
-        Label15.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        Label15.AutoSize = True
-        Label15.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Poin
-        Label15.Location = New Point(78, 26
-        Label15.Location = New Point(75, 26
-        Label15.Name = "Label15"
-        Label15.Size = New Size(91, 21)
-        Label15.TabIndex = 8
-        Label15.Text = "Last name:"
-        ' 
         ' txtbxmname
-        
+        ' 
         txtbxmname.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        txtbxmname.CustomizableEdges = CustomizableEdges
-        txtbxmname.CustomizableEdges = CustomizableEdges
+        txtbxmname.CustomizableEdges = CustomizableEdges25
         txtbxmname.DefaultText = ""
         txtbxmname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxmname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxmname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxmname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxmname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxmname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtbxmname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255
-        txtbxmname.Location = New Point(175, 22
-        txtbxmname.Location = New Point(172, 22
+        txtbxmname.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxmname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtbxmname.Location = New Point(183, 229)
         txtbxmname.Name = "txtbxmname"
         txtbxmname.PasswordChar = ChrW(0)
         txtbxmname.PlaceholderText = ""
-        txtbxmname.SelectedText = 
-        txtbxmname.ShadowDecoration.CustomizableEdges = CustomizableEdges
-        txtbxmname.ShadowDecoration.CustomizableEdges = CustomizableEdges
+        txtbxmname.SelectedText = ""
+        txtbxmname.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         txtbxmname.Size = New Size(229, 24)
         txtbxmname.TabIndex = 7
         ' 
@@ -1166,35 +1038,31 @@ Partial Class UserDashboard
         ' 
         Label14.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label14.AutoSize = True
-        Label14.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Poin
-        Label14.Location = New Point(54, 23
-        Label14.Location = New Point(51, 23
+        Label14.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label14.Location = New Point(15, 230)
         Label14.Name = "Label14"
         Label14.Size = New Size(115, 21)
         Label14.TabIndex = 6
         Label14.Text = "Middle name:"
         ' 
         ' txtbxfname
-        
+        ' 
         txtbxfname.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        txtbxfname.CustomizableEdges = CustomizableEdges
-        txtbxfname.CustomizableEdges = CustomizableEdges
+        txtbxfname.CustomizableEdges = CustomizableEdges27
         txtbxfname.DefaultText = ""
         txtbxfname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxfname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxfname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxfname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxfname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxfname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtbxfname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255
-        txtbxfname.Location = New Point(175, 19
-        txtbxfname.Location = New Point(172, 19
+        txtbxfname.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxfname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtbxfname.Location = New Point(182, 199)
         txtbxfname.Name = "txtbxfname"
         txtbxfname.PasswordChar = ChrW(0)
         txtbxfname.PlaceholderText = ""
-        txtbxfname.SelectedText = 
-        txtbxfname.ShadowDecoration.CustomizableEdges = CustomizableEdges
-        txtbxfname.ShadowDecoration.CustomizableEdges = CustomizableEdges
+        txtbxfname.SelectedText = ""
+        txtbxfname.ShadowDecoration.CustomizableEdges = CustomizableEdges28
         txtbxfname.Size = New Size(229, 24)
         txtbxfname.TabIndex = 5
         ' 
@@ -1202,9 +1070,8 @@ Partial Class UserDashboard
         ' 
         Label13.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label13.AutoSize = True
-        Label13.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label13.Location = New Point(76, 199)
-        Label13.Location = New Point(73, 199)
+        Label13.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label13.Location = New Point(15, 200)
         Label13.Name = "Label13"
         Label13.Size = New Size(93, 21)
         Label13.TabIndex = 4
@@ -1213,24 +1080,21 @@ Partial Class UserDashboard
         ' txtbxpassword
         ' 
         txtbxpassword.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        txtbxpassword.CustomizableEdges = CustomizableEdges36
-        txtbxpassword.CustomizableEdges = CustomizableEdges34
+        txtbxpassword.CustomizableEdges = CustomizableEdges29
         txtbxpassword.DefaultText = ""
         txtbxpassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxpassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxpassword.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxpassword.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxpassword.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxpassword.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxpassword.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxpassword.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxpassword.Location = New Point(175, 167)
-        txtbxpassword.Location = New Point(172, 167)
+        txtbxpassword.Location = New Point(182, 167)
         txtbxpassword.Name = "txtbxpassword"
         txtbxpassword.PasswordChar = ChrW(0)
         txtbxpassword.PlaceholderText = ""
         txtbxpassword.SelectedText = ""
-        txtbxpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges37
-        txtbxpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges35
+        txtbxpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges30
         txtbxpassword.Size = New Size(229, 24)
         txtbxpassword.TabIndex = 3
         ' 
@@ -1238,9 +1102,8 @@ Partial Class UserDashboard
         ' 
         Label12.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label12.AutoSize = True
-        Label12.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label12.Location = New Point(83, 170)
-        Label12.Location = New Point(80, 170)
+        Label12.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label12.Location = New Point(15, 170)
         Label12.Name = "Label12"
         Label12.Size = New Size(86, 21)
         Label12.TabIndex = 2
@@ -1249,27 +1112,21 @@ Partial Class UserDashboard
         ' txtbxusername
         ' 
         txtbxusername.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        txtbxusername.CustomizableEdges = CustomizableEdges38
-        txtbxusername.CustomizableEdges = CustomizableEdges36
+        txtbxusername.CustomizableEdges = CustomizableEdges31
         txtbxusername.DefaultText = ""
         txtbxusername.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxusername.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxusername.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxusername.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxusername.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxusername.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxusername.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxusername.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxusername.Location = New Point(175, 137)
-        txtbxusername.Location = New Point(172, 137)
+        txtbxusername.Location = New Point(182, 137)
         txtbxusername.Name = "txtbxusername"
         txtbxusername.PasswordChar = ChrW(0)
         txtbxusername.PlaceholderText = ""
         txtbxusername.SelectedText = ""
-
-        txtbxusername.ShadowDecoration.CustomizableEdges = CustomizableEdges39
-
-        txtbxusername.ShadowDecoration.CustomizableEdges = CustomizableEdges37
-
+        txtbxusername.ShadowDecoration.CustomizableEdges = CustomizableEdges32
         txtbxusername.Size = New Size(229, 24)
         txtbxusername.TabIndex = 1
         ' 
@@ -1277,50 +1134,16 @@ Partial Class UserDashboard
         ' 
         Label11.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Label11.AutoSize = True
-        Label11.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
-
-        Label11.Location = New Point(78, 139)
-
-        Label11.Location = New Point(75, 139)
-
+        Label11.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold, GraphicsUnit.Point)
+        Label11.Location = New Point(17, 141)
         Label11.Name = "Label11"
         Label11.Size = New Size(91, 21)
         Label11.TabIndex = 0
         Label11.Text = "Username:"
         ' 
-        ' Label24
-        ' 
-        Label24.AutoSize = True
-        Label24.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label24.Location = New Point(415, 229)
-        Label24.Name = "Label24"
-        Label24.Size = New Size(194, 21)
-        Label24.TabIndex = 27
-        Label24.Text = "Educational attainment:"
-        ' 
-        ' txtbxeduc
-        ' 
-        txtbxeduc.CustomizableEdges = CustomizableEdges16
-        txtbxeduc.DefaultText = ""
-        txtbxeduc.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtbxeduc.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtbxeduc.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtbxeduc.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtbxeduc.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxeduc.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtbxeduc.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxeduc.Location = New Point(616, 227)
-        txtbxeduc.Name = "txtbxeduc"
-        txtbxeduc.PasswordChar = ChrW(0)
-        txtbxeduc.PlaceholderText = ""
-        txtbxeduc.SelectedText = ""
-        txtbxeduc.ShadowDecoration.CustomizableEdges = CustomizableEdges17
-        txtbxeduc.Size = New Size(229, 24)
-        txtbxeduc.TabIndex = 28
-        ' 
         ' UserDashboard
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1124, 655)
         Controls.Add(Label1)
@@ -1390,7 +1213,6 @@ Partial Class UserDashboard
     Friend WithEvents txtbxusername As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label11 As Label
     Friend WithEvents txtbxlname As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Label15 As Label
     Friend WithEvents txtbxadds As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label17 As Label
     Friend WithEvents txtbxposition As Guna.UI2.WinForms.Guna2TextBox
@@ -1411,4 +1233,5 @@ Partial Class UserDashboard
     Friend WithEvents imgProfile As Guna.UI2.WinForms.Guna2CirclePictureBox
     Friend WithEvents Label24 As Label
     Friend WithEvents txtbxeduc As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label15 As Label
 End Class
