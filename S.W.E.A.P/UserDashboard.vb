@@ -123,7 +123,6 @@ Public Class UserDashboard
             cmd.Parameters.AddWithValue("@fname", txtbxfname.Text)
             cmd.Parameters.AddWithValue("@mname", txtbxmname.Text)
             cmd.Parameters.AddWithValue("@lname", txtbxlname.Text)
-            cmd.Parameters.AddWithValue("@lname", txtbxlname.Text)
             cmd.Parameters.AddWithValue("@pos", txtbxposition.Text)
             cmd.Parameters.AddWithValue("@employ", cmbxemply.Text)
             cmd.Parameters.AddWithValue("@adds", txtbxadds.Text)
