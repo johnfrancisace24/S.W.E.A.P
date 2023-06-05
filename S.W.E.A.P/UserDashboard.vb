@@ -1,4 +1,5 @@
 ﻿Imports System.IO
+Imports System.Net.Sockets
 Imports MySql.Data.MySqlClient
 
 Public Class UserDashboard
@@ -15,15 +16,8 @@ Public Class UserDashboard
         lblFirst.Text = ""
         lblFname.Text = ""
         lblPosition.Text = ""
-        lnkFname.Text = ""
-        lnkaddress.Text = ""
-        lnkemail.Text = ""
-        lnkbdate.Text = ""
-        lnkeduc.Text = ""
-        lnkemply.Text = ""
-        lnkoffice.Text = ""
-        lnkcomm.Text = ""
-        lnkcontact.Text = ""
+        Pfname.Text = ""
+
 
     End Sub
 
@@ -78,15 +72,16 @@ Public Class UserDashboard
                 lblPosition.Text = dr.GetString("position")
                 lblFirst.Text = Gooday
 
-                lnkFname.Text = dr.GetString("fullName")
-                lnkaddress.Text = dr.GetString("address")
-                lnkemail.Text = dr.GetString("email")
-                lnkbdate.Text = dr.GetDateTime("birthdate")
-                lnkeduc.Text = dr.GetString("educational")
-                lnkemply.Text = dr.GetString("employment_status")
-                lnkoffice.Text = dr.GetString("office")
-                lnkcomm.Text = dr.GetString("committee")
-                lnkcontact.Text = dr.GetString("contact")
+                Pfname.Text = dr.GetString("fullName")
+                Padd.Text = dr.GetString("address")
+                Pemail.Text = dr.GetString("email")
+                Pbdate.Text = dr.GetDateTime("birthdate")
+                Pcntact.Text = dr.GetString("contact")
+                Peducational.Text = dr.GetString("educational")
+                Pemployment.Text = dr.GetString("employment_status")
+                Poffice.Text = dr.GetString("office")
+                Pcommittee.Text = dr.GetString("committee")
+                Pposition.Text = dr.GetString("position")
 
                 txtbxusername.Text = dr.GetString("username")
                 txtbxpassword.Text = dr.GetString("password")
