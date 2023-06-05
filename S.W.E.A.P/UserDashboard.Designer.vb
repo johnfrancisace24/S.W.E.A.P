@@ -108,6 +108,7 @@ Partial Class UserDashboard
         imgProfile = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Label1 = New Label()
         Guna2CustomGradientPanel1 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        Label29 = New Label()
         lnkcontact = New LinkLabel()
         Label10 = New Label()
         lnkcomm = New LinkLabel()
@@ -127,6 +128,7 @@ Partial Class UserDashboard
         Label6 = New Label()
         Label5 = New Label()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Label27 = New Label()
         Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
         Guna2ProgressBar10 = New Guna.UI2.WinForms.Guna2ProgressBar()
         Guna2ProgressBar13 = New Guna.UI2.WinForms.Guna2ProgressBar()
@@ -146,6 +148,7 @@ Partial Class UserDashboard
         Guna2ProgressBar1 = New Guna.UI2.WinForms.Guna2ProgressBar()
         lblFirst = New Label()
         Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Label28 = New Label()
         Label15 = New Label()
         txtbxeduc = New Guna.UI2.WinForms.Guna2TextBox()
         Label24 = New Label()
@@ -175,9 +178,6 @@ Partial Class UserDashboard
         Label12 = New Label()
         txtbxusername = New Guna.UI2.WinForms.Guna2TextBox()
         Label11 = New Label()
-        Label27 = New Label()
-        Label28 = New Label()
-        Label29 = New Label()
         Guna2GradientPanel1.SuspendLayout()
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
@@ -473,6 +473,16 @@ Partial Class UserDashboard
         Guna2CustomGradientPanel1.Size = New Size(872, 745)
         Guna2CustomGradientPanel1.TabIndex = 6
         ' 
+        ' Label29
+        ' 
+        Label29.AutoSize = True
+        Label29.Font = New Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label29.Location = New Point(36, 42)
+        Label29.Name = "Label29"
+        Label29.Size = New Size(237, 20)
+        Label29.TabIndex = 31
+        Label29.Text = "Profile| Sweap monitoring system"
+        ' 
         ' lnkcontact
         ' 
         lnkcontact.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
@@ -731,6 +741,16 @@ Partial Class UserDashboard
         Guna2Panel1.Size = New Size(870, 745)
         Guna2Panel1.TabIndex = 4
         ' 
+        ' Label27
+        ' 
+        Label27.AutoSize = True
+        Label27.Font = New Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label27.Location = New Point(13, 10)
+        Label27.Name = "Label27"
+        Label27.Size = New Size(271, 20)
+        Label27.TabIndex = 16
+        Label27.Text = "Dashboard | Sweap monitoring system"
+        ' 
         ' Guna2Panel4
         ' 
         Guna2Panel4.Controls.Add(Guna2ProgressBar10)
@@ -980,6 +1000,16 @@ Partial Class UserDashboard
         Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges66
         Guna2Panel2.Size = New Size(872, 745)
         Guna2Panel2.TabIndex = 19
+        ' 
+        ' Label28
+        ' 
+        Label28.AutoSize = True
+        Label28.Font = New Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Label28.Location = New Point(17, 22)
+        Label28.Name = "Label28"
+        Label28.Size = New Size(302, 20)
+        Label28.TabIndex = 30
+        Label28.Text = "Account setting | Sweap monitoring system"
         ' 
         ' Label15
         ' 
@@ -1401,36 +1431,6 @@ Partial Class UserDashboard
         Label11.Size = New Size(91, 21)
         Label11.TabIndex = 0
         Label11.Text = "Username:"
-        ' 
-        ' Label27
-        ' 
-        Label27.AutoSize = True
-        Label27.Font = New Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label27.Location = New Point(13, 10)
-        Label27.Name = "Label27"
-        Label27.Size = New Size(271, 20)
-        Label27.TabIndex = 16
-        Label27.Text = "Dashboard | Sweap monitoring system"
-        ' 
-        ' Label28
-        ' 
-        Label28.AutoSize = True
-        Label28.Font = New Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label28.Location = New Point(17, 22)
-        Label28.Name = "Label28"
-        Label28.Size = New Size(302, 20)
-        Label28.TabIndex = 30
-        Label28.Text = "Account setting | Sweap monitoring system"
-        ' 
-        ' Label29
-        ' 
-        Label29.AutoSize = True
-        Label29.Font = New Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label29.Location = New Point(36, 42)
-        Label29.Name = "Label29"
-        Label29.Size = New Size(237, 20)
-        Label29.TabIndex = 31
-        Label29.Text = "Profile| Sweap monitoring system"
         ' 
         ' UserDashboard
         ' 
