@@ -1,4 +1,5 @@
-﻿Imports MySql.Data.MySqlClient
+﻿Imports System.IO
+Imports MySql.Data.MySqlClient
 
 Public Class UserDashboard
 
@@ -60,7 +61,7 @@ Public Class UserDashboard
         Try
 
             conn.Open()
-            Dim cmd As New MySqlCommand("SELECT users.*, CONCAT(users.first_name, ' ', users.middle_name, ' ', users.last_name) AS fullName, user_info.*" &
+            Dim cmd As New MySqlCommand("SELECT users.*, CONCAT(users.first_name, ' ', users.middle_name, ' ', users.last_name) AS fullName, user_info.* " &
                             "FROM users " &
                             "INNER JOIN user_info ON users.id = user_info.user_id " &
                             "WHERE users.id = @ID", conn)
@@ -70,8 +71,9 @@ Public Class UserDashboard
             If dr.Read() Then
                 Dim imagePath As String = dr.GetString("image")
                 Dim imagePathInResources As String = (destinationPath + imagePath)
-                Dim Gooday As String = "Good day, " + dr.GetString("first_name")
-                imgProfile.Image = Image.FromFile(imagePathInResources)
+                Dim Gooday As String = "Good day, Ma'am/Sir" + dr.GetString("first_name")
+
+
                 lblFname.Text = dr.GetString("fullName")
                 lblPosition.Text = dr.GetString("position")
                 lblFirst.Text = Gooday
@@ -100,7 +102,13 @@ Public Class UserDashboard
                 txtbxbdate.Value = dr.GetString("birthdate")
                 cmbxoffice.Text = dr.GetString("office")
                 cmbxcomittee.Text = dr.GetString("committee")
-                ' Dito mo ilalagay ang logic para gamitin ang retrieved data
+
+                If File.Exists(imagePathInResources) Then
+
+                    imgProfile.Image = Image.FromFile(imagePathInResources)
+                Else
+                    imgProfile.Image = Nothing
+                End If
             End If
         Catch ex As Exception
             MsgBox("Doesn't work. LOL!")
