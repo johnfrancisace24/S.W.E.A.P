@@ -113,33 +113,36 @@ Public Class UserDashboard
         Try
             conn.Open()
             Dim cmd As New MySqlCommand("UPDATE users " &
-                            "INNER JOIN user_info ON users.id = user_info.user_id " &
-                            "SET users.username = @uname, users.password = @pword, users.first_name = @fname, users.middle_name = @mname, users.last_name = @lname, users.position = @pos, user_info.address = @adds, user_info.contact = @contact, user_info.email = @email, user_info.educational = @educ, user_info.birthdate = @bdate, user_info.office = @office, user_info.employment_status = @employ, user_info.committee = @comm" &
-                            "WHERE users.id = @ID", conn)
+                                        "INNER JOIN user_info ON users.id = user_info.user_id " &
+                                        "SET users.username = @username, users.password = @password, users.first_name = @first, users.middle_name = @mid, users.last_name = @last, users.position = @pos, user_info.address = @adds, user_info.contact = @contact, user_info.email = @email, user_info.educational = @educ, user_info.birthdate = @birthdate, user_info.office = @office, user_info.employment_status = @employ, user_info.committee = @comm " &
+                                        "WHERE users.id = @ID", conn)
             cmd.Parameters.Clear()
             cmd.Parameters.AddWithValue("@ID", Form1.log_id)
-            cmd.Parameters.AddWithValue("@uname", txtbxusername.Text)
-            cmd.Parameters.AddWithValue("@pword", txtbxpassword.Text)
-            cmd.Parameters.AddWithValue("@fname", txtbxfname.Text)
-            cmd.Parameters.AddWithValue("@mname", txtbxmname.Text)
-            cmd.Parameters.AddWithValue("@lname", txtbxlname.Text)
+            cmd.Parameters.AddWithValue("@username", txtbxusername.Text)
+            cmd.Parameters.AddWithValue("@password", txtbxpassword.Text)
+            cmd.Parameters.AddWithValue("@first", txtbxfname.Text)
+            cmd.Parameters.AddWithValue("@mid", txtbxmname.Text)
+            cmd.Parameters.AddWithValue("@last", txtbxlname.Text)
             cmd.Parameters.AddWithValue("@pos", txtbxposition.Text)
-            cmd.Parameters.AddWithValue("@employ", cmbxemply.Text)
+
+
             cmd.Parameters.AddWithValue("@adds", txtbxadds.Text)
             cmd.Parameters.AddWithValue("@contact", txtbxcontact.Text)
             cmd.Parameters.AddWithValue("@email", txtbxemail.Text)
             cmd.Parameters.AddWithValue("@educ", txtbxeduc.Text)
-            cmd.Parameters.AddWithValue("@bdate", txtbxbdate.Value)
+            cmd.Parameters.AddWithValue("@birthdate", txtbxbdate.Value)
             cmd.Parameters.AddWithValue("@office", cmbxoffice.Text)
-            cmd.Parameters.AddWithValue("@committee", cmbxcomittee.Text)
+            cmd.Parameters.AddWithValue("@employ", cmbxemply.Text)
+            cmd.Parameters.AddWithValue("@comm", cmbxcomittee.Text)
 
             cmd.ExecuteNonQuery()
             MessageBox.Show("Updated successfully!", "ALERT", MessageBoxButtons.OK, MessageBoxIcon.Information)
         Catch ex As Exception
-            MsgBox("not working")
+            MsgBox("Error: " & ex.Message)
         Finally
             conn.Close()
         End Try
+
     End Sub
 
     Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
