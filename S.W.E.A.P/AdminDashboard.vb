@@ -136,4 +136,14 @@ Public Class AdminDashboard
                                             "%' or position like '%" & txtSearch.Text & "%' or employment_status like '%" & txtSearch.Text & "%' or email like '%" &
                                              txtSearch.Text & "%'")
     End Sub
+
+    Private Sub bttnLogout_Click(sender As Object, e As EventArgs) Handles bttnLogout.Click
+        Dim AnswerYes As String
+        AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "User Repsonse")
+
+        If AnswerYes = vbYes Then
+            Form1.Show()
+            Me.Hide()
+        End If
+    End Sub
 End Class

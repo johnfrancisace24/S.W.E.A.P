@@ -45,6 +45,8 @@ Partial Class AdminDashboard
         Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
@@ -62,8 +64,6 @@ Partial Class AdminDashboard
         Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
@@ -78,6 +78,8 @@ Partial Class AdminDashboard
         pnlEmployees = New Guna.UI2.WinForms.Guna2Panel()
         Label1 = New Label()
         pnlDashboard = New Guna.UI2.WinForms.Guna2Panel()
+        Label3 = New Label()
+        txtSearch = New Guna.UI2.WinForms.Guna2TextBox()
         btnEditMember = New Guna.UI2.WinForms.Guna2Button()
         dgMembers = New Guna.UI2.WinForms.Guna2DataGridView()
         Column7 = New DataGridViewTextBoxColumn()
@@ -96,8 +98,6 @@ Partial Class AdminDashboard
         Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Label4 = New Label()
         Label5 = New Label()
-        txtSearch = New Guna.UI2.WinForms.Guna2TextBox()
-        Label3 = New Label()
         Guna2GradientPanel1.SuspendLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         pnlDashboard.SuspendLayout()
@@ -340,6 +340,37 @@ Partial Class AdminDashboard
         pnlDashboard.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         pnlDashboard.Size = New Size(1015, 680)
         pnlDashboard.TabIndex = 4
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Location = New Point(13, 124)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(69, 25)
+        Label3.TabIndex = 3
+        Label3.Text = "Search"
+        ' 
+        ' txtSearch
+        ' 
+        txtSearch.CustomizableEdges = CustomizableEdges19
+        txtSearch.DefaultText = ""
+        txtSearch.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtSearch.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtSearch.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSearch.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSearch.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSearch.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSearch.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSearch.Location = New Point(85, 120)
+        txtSearch.Name = "txtSearch"
+        txtSearch.PasswordChar = ChrW(0)
+        txtSearch.PlaceholderText = ""
+        txtSearch.SelectedText = ""
+        txtSearch.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        txtSearch.Size = New Size(200, 34)
+        txtSearch.TabIndex = 2
+        txtSearch.TextAlign = HorizontalAlignment.Center
         ' 
         ' btnEditMember
         ' 
@@ -593,37 +624,6 @@ Partial Class AdminDashboard
         Label5.Size = New Size(403, 59)
         Label5.TabIndex = 3
         Label5.Text = "Contribution Report"
-        ' 
-        ' txtSearch
-        ' 
-        txtSearch.CustomizableEdges = CustomizableEdges19
-        txtSearch.DefaultText = ""
-        txtSearch.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtSearch.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtSearch.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtSearch.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtSearch.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtSearch.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtSearch.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtSearch.Location = New Point(85, 120)
-        txtSearch.Name = "txtSearch"
-        txtSearch.PasswordChar = ChrW(0)
-        txtSearch.PlaceholderText = ""
-        txtSearch.SelectedText = ""
-        txtSearch.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        txtSearch.Size = New Size(200, 34)
-        txtSearch.TabIndex = 2
-        txtSearch.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(13, 124)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(69, 25)
-        Label3.TabIndex = 3
-        Label3.Text = "Search"
         ' 
         ' AdminDashboard
         ' 
