@@ -79,15 +79,15 @@ Public Class UserDashboard
                 txtbxfname.Text = dr.GetString("first_name")
                 txtbxmname.Text = dr.GetString("middle_name")
                 txtbxlname.Text = dr.GetString("last_name")
-                cmbxposition.Text = dr.GetString("position")
-                cmbxemployment.Text = dr.GetString("employment_status")
                 txtbxadds.Text = dr.GetString("address")
                 txtbxcontact.Text = dr.GetString("contact")
                 txtbxemail.Text = dr.GetString("email")
                 txtbxeduc.Text = dr.GetString("educational")
                 txtbxbdate.Value = dr.GetString("birthdate")
-                cmbxoffice.Text = dr.GetString("office")
-                cmbxcomm.Text = dr.GetString("committee")
+                cmbxposition.SelectedItem = dr.GetString("position")
+                cmbxemployment.SelectedItem = dr.GetString("employment_status")
+                cmbxoffice.SelectedItem = dr.GetString("office")
+                cmbxcomm.SelectedItem = dr.GetString("committee")
 
                 If File.Exists(imagePathInResources) Then
 
