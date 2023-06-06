@@ -1100,7 +1100,7 @@ Partial Class SignUp
         Label6.AutoSize = True
         Label6.FlatStyle = FlatStyle.Flat
         Label6.Font = New Font("Century Gothic", 11.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label6.Location = New Point(37, 274)
+        Label6.Location = New Point(37, 270)
         Label6.Name = "Label6"
         Label6.Size = New Size(82, 18)
         Label6.TabIndex = 94
@@ -1208,13 +1208,13 @@ Partial Class SignUp
         pickBday.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         pickBday.Format = DateTimePickerFormat.Long
         pickBday.Location = New Point(27, 295)
-        pickBday.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
-        pickBday.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
+        pickBday.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        pickBday.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         pickBday.Name = "pickBday"
         pickBday.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         pickBday.Size = New Size(280, 36)
         pickBday.TabIndex = 68
-        pickBday.Value = New DateTime(2023, 5, 30, 13, 6, 0, 439)
+        pickBday.Value = New Date(2023, 5, 30, 13, 6, 0, 439)
         ' 
         ' Label3
         ' 
