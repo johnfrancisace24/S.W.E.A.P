@@ -54,4 +54,8 @@ Public Class Form1
     Private Sub bttLogin_Click(sender As Object, e As EventArgs) Handles bttLogin.Click
         Login()
     End Sub
+
+    Private Sub bttnClose_Click(sender As Object, e As EventArgs) Handles bttnClose.Click
+        Me.Close()
+    End Sub
 End Class
