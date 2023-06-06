@@ -33,7 +33,7 @@ Public Class AdminDashboard
         pnlEmployees.Visible = pnlEm
         pnlFundTransfer.Visible = pnlf
     End Sub
-    '-------------------------------------------------------------------------------------------------------------------------------
+    '---------------------------------------------------END OF FUNCTIONS----------------------------------------------------------------------------
     Private Sub bttnDash_Click(sender As Object, e As EventArgs) Handles bttnDash.Click
         pnlDas.BackColor = Color.DarkRed
         pnlEm.BackColor = Color.Transparent
@@ -173,4 +173,9 @@ Public Class AdminDashboard
             Me.Hide()
         End If
     End Sub
+
+    Private Sub btnEditMember_Click(sender As Object, e As EventArgs) Handles btnEditMember.Click
+
+    End Sub
+
 End Class
