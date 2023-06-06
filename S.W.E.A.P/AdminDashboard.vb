@@ -134,6 +134,8 @@ Public Class AdminDashboard
     End Sub
 
     Private Sub btnEditMember_Click(sender As Object, e As EventArgs) Handles btnEditMember.Click
+        tabEditMember.Show()
+        pnlEmployee.Hide()
 
     End Sub
 
@@ -141,5 +143,9 @@ Public Class AdminDashboard
         btnEditMember.Enabled = True
         selectedId = dgMembers.CurrentRow.Cells(0).Value.ToString()
         lblId.Text = selectedId
+    End Sub
+
+    Private Sub btnEditNext_Click(sender As Object, e As EventArgs) Handles btnEditNext.Click
+        tabEditMember.SelectedIndex = 1
     End Sub
 End Class

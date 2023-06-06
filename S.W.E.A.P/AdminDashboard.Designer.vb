@@ -41,23 +41,18 @@ Partial Class AdminDashboard
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges71 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges72 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges69 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges70 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -78,23 +73,51 @@ Partial Class AdminDashboard
         Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges67 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges68 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(AdminDashboard))
-        Dim CustomizableEdges59 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges60 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges59 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges60 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges67 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges68 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim CustomizableEdges61 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges62 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges63 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges64 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges65 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges66 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges87 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges88 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges75 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges73 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges74 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(AdminDashboard))
+        Dim CustomizableEdges79 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges80 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges77 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges78 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges81 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges82 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges83 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges84 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges85 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges86 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
@@ -109,6 +132,55 @@ Partial Class AdminDashboard
         pnlEmployees = New Guna.UI2.WinForms.Guna2Panel()
         Label1 = New Label()
         pnlDashboard = New Guna.UI2.WinForms.Guna2Panel()
+        tabEditMember = New Guna.UI2.WinForms.Guna2TabControl()
+        personal = New TabPage()
+        btnEditNext = New Guna.UI2.WinForms.Guna2Button()
+        Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
+        Guna2DateTimePicker1 = New Guna.UI2.WinForms.Guna2DateTimePicker()
+        PictureBox1 = New PictureBox()
+        Guna2TextBox4 = New Guna.UI2.WinForms.Guna2TextBox()
+        Label12 = New Label()
+        Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
+        Label15 = New Label()
+        Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
+        Label10 = New Label()
+        Guna2TextBox5 = New Guna.UI2.WinForms.Guna2TextBox()
+        Label13 = New Label()
+        Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
+        Label16 = New Label()
+        Guna2TextBox7 = New Guna.UI2.WinForms.Guna2TextBox()
+        Label14 = New Label()
+        Guna2TextBox8 = New Guna.UI2.WinForms.Guna2TextBox()
+        Label8 = New Label()
+        Guna2TextBox9 = New Guna.UI2.WinForms.Guna2TextBox()
+        Label11 = New Label()
+        Guna2TextBox6 = New Guna.UI2.WinForms.Guna2TextBox()
+        Label9 = New Label()
+        Label7 = New Label()
+        other = New TabPage()
+        Guna2Button8 = New Guna.UI2.WinForms.Guna2Button()
+        Guna2Button7 = New Guna.UI2.WinForms.Guna2Button()
+        Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
+        Column8 = New DataGridViewTextBoxColumn()
+        Column9 = New DataGridViewTextBoxColumn()
+        Column10 = New DataGridViewTextBoxColumn()
+        Column11 = New DataGridViewTextBoxColumn()
+        Guna2TextBox12 = New Guna.UI2.WinForms.Guna2TextBox()
+        Guna2TextBox11 = New Guna.UI2.WinForms.Guna2TextBox()
+        Guna2TextBox10 = New Guna.UI2.WinForms.Guna2TextBox()
+        Guna2ComboBox4 = New Guna.UI2.WinForms.Guna2ComboBox()
+        Guna2ComboBox3 = New Guna.UI2.WinForms.Guna2ComboBox()
+        Guna2ComboBox2 = New Guna.UI2.WinForms.Guna2ComboBox()
+        Label22 = New Label()
+        Guna2ComboBox1 = New Guna.UI2.WinForms.Guna2ComboBox()
+        Label25 = New Label()
+        Label24 = New Label()
+        Label23 = New Label()
+        Label26 = New Label()
+        Label21 = New Label()
+        Label20 = New Label()
+        Label19 = New Label()
+        pnlEmployee = New Guna.UI2.WinForms.Guna2Panel()
         dgMembers = New Guna.UI2.WinForms.Guna2DataGridView()
         Column7 = New DataGridViewTextBoxColumn()
         Column1 = New DataGridViewTextBoxColumn()
@@ -117,35 +189,12 @@ Partial Class AdminDashboard
         Column4 = New DataGridViewTextBoxColumn()
         Column5 = New DataGridViewTextBoxColumn()
         Column6 = New DataGridViewTextBoxColumn()
-        pnlEmployee = New Guna.UI2.WinForms.Guna2Panel()
         btnEditMember = New Guna.UI2.WinForms.Guna2Button()
         btnViewMember = New Guna.UI2.WinForms.Guna2Button()
         txtSearch = New Guna.UI2.WinForms.Guna2TextBox()
         lblId = New Label()
         Label3 = New Label()
         Label6 = New Label()
-        pnlEditEmp = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2DateTimePicker1 = New Guna.UI2.WinForms.Guna2DateTimePicker()
-        Label12 = New Label()
-        Label15 = New Label()
-        Label10 = New Label()
-        Label13 = New Label()
-        Label16 = New Label()
-        Label14 = New Label()
-        Label8 = New Label()
-        Label11 = New Label()
-        Label9 = New Label()
-        Label7 = New Label()
-        Guna2TextBox6 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox9 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox4 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox8 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox7 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox5 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
-        PictureBox1 = New PictureBox()
         pnlFundTransfer = New Guna.UI2.WinForms.Guna2Panel()
         Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
@@ -166,10 +215,13 @@ Partial Class AdminDashboard
         Guna2GradientPanel1.SuspendLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         pnlDashboard.SuspendLayout()
-        CType(dgMembers, ComponentModel.ISupportInitialize).BeginInit()
-        pnlEmployee.SuspendLayout()
-        pnlEditEmp.SuspendLayout()
+        tabEditMember.SuspendLayout()
+        personal.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        other.SuspendLayout()
+        CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
+        pnlEmployee.SuspendLayout()
+        CType(dgMembers, ComponentModel.ISupportInitialize).BeginInit()
         pnlFundTransfer.SuspendLayout()
         Guna2Panel2.SuspendLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -376,10 +428,10 @@ Partial Class AdminDashboard
         pnlEmployees.BackColor = SystemColors.Highlight
         pnlEmployees.BorderStyle = Drawing2D.DashStyle.Dash
         pnlEmployees.BorderThickness = 1
-        pnlEmployees.CustomizableEdges = CustomizableEdges51
+        pnlEmployees.CustomizableEdges = CustomizableEdges71
         pnlEmployees.Location = New Point(260, 72)
         pnlEmployees.Name = "pnlEmployees"
-        pnlEmployees.ShadowDecoration.CustomizableEdges = CustomizableEdges52
+        pnlEmployees.ShadowDecoration.CustomizableEdges = CustomizableEdges72
         pnlEmployees.Size = New Size(1016, 680)
         pnlEmployees.TabIndex = 5
         ' 
@@ -400,20 +452,480 @@ Partial Class AdminDashboard
         ' pnlDashboard
         ' 
         pnlDashboard.BackColor = Color.FromArgb(CByte(247), CByte(233), CByte(233))
-        pnlDashboard.Controls.Add(dgMembers)
+        pnlDashboard.Controls.Add(tabEditMember)
         pnlDashboard.Controls.Add(pnlEmployee)
-        pnlDashboard.Controls.Add(pnlEditEmp)
-        pnlDashboard.CustomizableEdges = CustomizableEdges49
+        pnlDashboard.CustomizableEdges = CustomizableEdges69
         pnlDashboard.Location = New Point(252, 67)
         pnlDashboard.Name = "pnlDashboard"
-        pnlDashboard.ShadowDecoration.CustomizableEdges = CustomizableEdges50
+        pnlDashboard.ShadowDecoration.CustomizableEdges = CustomizableEdges70
         pnlDashboard.Size = New Size(1036, 697)
         pnlDashboard.TabIndex = 4
         ' 
-        ' dgMembers
+        ' tabEditMember
+        ' 
+        tabEditMember.Alignment = TabAlignment.Left
+        tabEditMember.Controls.Add(personal)
+        tabEditMember.Controls.Add(other)
+        tabEditMember.ItemSize = New Size(180, 40)
+        tabEditMember.Location = New Point(23, 21)
+        tabEditMember.Name = "tabEditMember"
+        tabEditMember.SelectedIndex = 0
+        tabEditMember.Size = New Size(986, 654)
+        tabEditMember.TabButtonHoverState.BorderColor = Color.Empty
+        tabEditMember.TabButtonHoverState.FillColor = Color.FromArgb(CByte(40), CByte(52), CByte(70))
+        tabEditMember.TabButtonHoverState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        tabEditMember.TabButtonHoverState.ForeColor = Color.White
+        tabEditMember.TabButtonHoverState.InnerColor = Color.FromArgb(CByte(40), CByte(52), CByte(70))
+        tabEditMember.TabButtonIdleState.BorderColor = Color.Empty
+        tabEditMember.TabButtonIdleState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
+        tabEditMember.TabButtonIdleState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        tabEditMember.TabButtonIdleState.ForeColor = Color.Black
+        tabEditMember.TabButtonIdleState.InnerColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
+        tabEditMember.TabButtonSelectedState.BorderColor = Color.Empty
+        tabEditMember.TabButtonSelectedState.FillColor = Color.DarkRed
+        tabEditMember.TabButtonSelectedState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        tabEditMember.TabButtonSelectedState.ForeColor = Color.White
+        tabEditMember.TabButtonSelectedState.InnerColor = Color.FromArgb(CByte(76), CByte(132), CByte(255))
+        tabEditMember.TabButtonSize = New Size(180, 40)
+        tabEditMember.TabIndex = 4
+        tabEditMember.TabMenuBackColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
+        ' 
+        ' personal
+        ' 
+        personal.BackColor = Color.FromArgb(CByte(255), CByte(224), CByte(192))
+        personal.Controls.Add(btnEditNext)
+        personal.Controls.Add(Guna2Button5)
+        personal.Controls.Add(Guna2DateTimePicker1)
+        personal.Controls.Add(PictureBox1)
+        personal.Controls.Add(Guna2TextBox4)
+        personal.Controls.Add(Label12)
+        personal.Controls.Add(Guna2TextBox1)
+        personal.Controls.Add(Label15)
+        personal.Controls.Add(Guna2TextBox3)
+        personal.Controls.Add(Label10)
+        personal.Controls.Add(Guna2TextBox5)
+        personal.Controls.Add(Label13)
+        personal.Controls.Add(Guna2TextBox2)
+        personal.Controls.Add(Label16)
+        personal.Controls.Add(Guna2TextBox7)
+        personal.Controls.Add(Label14)
+        personal.Controls.Add(Guna2TextBox8)
+        personal.Controls.Add(Label8)
+        personal.Controls.Add(Guna2TextBox9)
+        personal.Controls.Add(Label11)
+        personal.Controls.Add(Guna2TextBox6)
+        personal.Controls.Add(Label9)
+        personal.Controls.Add(Label7)
+        personal.Location = New Point(184, 4)
+        personal.Name = "personal"
+        personal.Padding = New Padding(3)
+        personal.Size = New Size(798, 646)
+        personal.TabIndex = 0
+        personal.Text = "Personal information"
+        ' 
+        ' btnEditNext
+        ' 
+        btnEditNext.CustomizableEdges = CustomizableEdges19
+        btnEditNext.DisabledState.BorderColor = Color.DarkGray
+        btnEditNext.DisabledState.CustomBorderColor = Color.DarkGray
+        btnEditNext.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnEditNext.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnEditNext.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnEditNext.ForeColor = Color.White
+        btnEditNext.Location = New Point(529, 590)
+        btnEditNext.Name = "btnEditNext"
+        btnEditNext.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        btnEditNext.Size = New Size(233, 34)
+        btnEditNext.TabIndex = 4
+        btnEditNext.Text = "Next"
+        ' 
+        ' Guna2Button5
+        ' 
+        Guna2Button5.CustomizableEdges = CustomizableEdges21
+        Guna2Button5.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button5.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button5.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button5.ForeColor = Color.White
+        Guna2Button5.Location = New Point(317, 163)
+        Guna2Button5.Name = "Guna2Button5"
+        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        Guna2Button5.Size = New Size(164, 28)
+        Guna2Button5.TabIndex = 4
+        Guna2Button5.Text = "Upload Image"
+        ' 
+        ' Guna2DateTimePicker1
+        ' 
+        Guna2DateTimePicker1.Checked = True
+        Guna2DateTimePicker1.CustomizableEdges = CustomizableEdges23
+        Guna2DateTimePicker1.FillColor = Color.White
+        Guna2DateTimePicker1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2DateTimePicker1.Format = DateTimePickerFormat.Long
+        Guna2DateTimePicker1.Location = New Point(529, 514)
+        Guna2DateTimePicker1.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
+        Guna2DateTimePicker1.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
+        Guna2DateTimePicker1.Name = "Guna2DateTimePicker1"
+        Guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        Guna2DateTimePicker1.Size = New Size(233, 36)
+        Guna2DateTimePicker1.TabIndex = 3
+        Guna2DateTimePicker1.Value = New DateTime(2023, 6, 6, 9, 2, 45, 794)
+        ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox1.BorderStyle = BorderStyle.Fixed3D
+        PictureBox1.Location = New Point(317, 21)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(164, 142)
+        PictureBox1.TabIndex = 0
+        PictureBox1.TabStop = False
+        ' 
+        ' Guna2TextBox4
+        ' 
+        Guna2TextBox4.CustomizableEdges = CustomizableEdges25
+        Guna2TextBox4.DefaultText = ""
+        Guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox4.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox4.Location = New Point(286, 333)
+        Guna2TextBox4.Name = "Guna2TextBox4"
+        Guna2TextBox4.PasswordChar = ChrW(0)
+        Guna2TextBox4.PlaceholderText = ""
+        Guna2TextBox4.SelectedText = ""
+        Guna2TextBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        Guna2TextBox4.Size = New Size(233, 36)
+        Guna2TextBox4.TabIndex = 1
+        ' 
+        ' Label12
+        ' 
+        Label12.AutoSize = True
+        Label12.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label12.Location = New Point(615, 309)
+        Label12.Name = "Label12"
+        Label12.Size = New Size(48, 21)
+        Label12.TabIndex = 2
+        Label12.Text = "Email"
+        ' 
+        ' Guna2TextBox1
+        ' 
+        Guna2TextBox1.CustomizableEdges = CustomizableEdges27
+        Guna2TextBox1.DefaultText = ""
+        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox1.Location = New Point(43, 244)
+        Guna2TextBox1.Name = "Guna2TextBox1"
+        Guna2TextBox1.PasswordChar = ChrW(0)
+        Guna2TextBox1.PlaceholderText = ""
+        Guna2TextBox1.SelectedText = ""
+        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        Guna2TextBox1.Size = New Size(233, 36)
+        Guna2TextBox1.TabIndex = 1
+        ' 
+        ' Label15
+        ' 
+        Label15.AutoSize = True
+        Label15.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label15.Location = New Point(315, 490)
+        Label15.Name = "Label15"
+        Label15.Size = New Size(169, 21)
+        Label15.TabIndex = 2
+        Label15.Text = "Educational attainment"
+        ' 
+        ' Guna2TextBox3
+        ' 
+        Guna2TextBox3.CustomizableEdges = CustomizableEdges29
+        Guna2TextBox3.DefaultText = ""
+        Guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox3.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox3.Location = New Point(286, 244)
+        Guna2TextBox3.Name = "Guna2TextBox3"
+        Guna2TextBox3.PasswordChar = ChrW(0)
+        Guna2TextBox3.PlaceholderText = ""
+        Guna2TextBox3.SelectedText = ""
+        Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges30
+        Guna2TextBox3.Size = New Size(233, 36)
+        Guna2TextBox3.TabIndex = 1
+        ' 
+        ' Label10
+        ' 
+        Label10.AutoSize = True
+        Label10.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label10.Location = New Point(348, 309)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(101, 21)
+        Label10.TabIndex = 2
+        Label10.Text = "Middle name"
+        ' 
+        ' Guna2TextBox5
+        ' 
+        Guna2TextBox5.CustomizableEdges = CustomizableEdges31
+        Guna2TextBox5.DefaultText = ""
+        Guna2TextBox5.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox5.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox5.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox5.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox5.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox5.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox5.Location = New Point(530, 244)
+        Guna2TextBox5.Name = "Guna2TextBox5"
+        Guna2TextBox5.PasswordChar = ChrW(0)
+        Guna2TextBox5.PlaceholderText = ""
+        Guna2TextBox5.SelectedText = ""
+        Guna2TextBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges32
+        Guna2TextBox5.Size = New Size(233, 36)
+        Guna2TextBox5.TabIndex = 1
+        ' 
+        ' Label13
+        ' 
+        Label13.AutoSize = True
+        Label13.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label13.Location = New Point(363, 400)
+        Label13.Name = "Label13"
+        Label13.Size = New Size(66, 21)
+        Label13.TabIndex = 2
+        Label13.Text = "Address"
+        ' 
+        ' Guna2TextBox2
+        ' 
+        Guna2TextBox2.CustomizableEdges = CustomizableEdges33
+        Guna2TextBox2.DefaultText = ""
+        Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox2.Location = New Point(43, 333)
+        Guna2TextBox2.Name = "Guna2TextBox2"
+        Guna2TextBox2.PasswordChar = ChrW(0)
+        Guna2TextBox2.PlaceholderText = ""
+        Guna2TextBox2.SelectedText = ""
+        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges34
+        Guna2TextBox2.Size = New Size(233, 36)
+        Guna2TextBox2.TabIndex = 1
+        ' 
+        ' Label16
+        ' 
+        Label16.AutoSize = True
+        Label16.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label16.Location = New Point(606, 490)
+        Label16.Name = "Label16"
+        Label16.Size = New Size(73, 21)
+        Label16.TabIndex = 2
+        Label16.Text = "Birthdate"
+        ' 
+        ' Guna2TextBox7
+        ' 
+        Guna2TextBox7.CustomizableEdges = CustomizableEdges35
+        Guna2TextBox7.DefaultText = ""
+        Guna2TextBox7.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox7.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox7.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox7.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox7.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox7.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox7.Location = New Point(43, 424)
+        Guna2TextBox7.Name = "Guna2TextBox7"
+        Guna2TextBox7.PasswordChar = ChrW(0)
+        Guna2TextBox7.PlaceholderText = ""
+        Guna2TextBox7.SelectedText = ""
+        Guna2TextBox7.ShadowDecoration.CustomizableEdges = CustomizableEdges36
+        Guna2TextBox7.Size = New Size(719, 36)
+        Guna2TextBox7.TabIndex = 1
+        ' 
+        ' Label14
+        ' 
+        Label14.AutoSize = True
+        Label14.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label14.Location = New Point(117, 490)
+        Label14.Name = "Label14"
+        Label14.Size = New Size(88, 21)
+        Label14.TabIndex = 2
+        Label14.Text = "Contact no."
+        ' 
+        ' Guna2TextBox8
+        ' 
+        Guna2TextBox8.CustomizableEdges = CustomizableEdges37
+        Guna2TextBox8.DefaultText = ""
+        Guna2TextBox8.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox8.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox8.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox8.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox8.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox8.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox8.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox8.Location = New Point(43, 514)
+        Guna2TextBox8.Name = "Guna2TextBox8"
+        Guna2TextBox8.PasswordChar = ChrW(0)
+        Guna2TextBox8.PlaceholderText = ""
+        Guna2TextBox8.SelectedText = ""
+        Guna2TextBox8.ShadowDecoration.CustomizableEdges = CustomizableEdges38
+        Guna2TextBox8.Size = New Size(233, 36)
+        Guna2TextBox8.TabIndex = 1
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label8.Location = New Point(117, 309)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(76, 21)
+        Label8.TabIndex = 2
+        Label8.Text = "Password"
+        ' 
+        ' Guna2TextBox9
+        ' 
+        Guna2TextBox9.CustomizableEdges = CustomizableEdges39
+        Guna2TextBox9.DefaultText = ""
+        Guna2TextBox9.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox9.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox9.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox9.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox9.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox9.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox9.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox9.Location = New Point(286, 514)
+        Guna2TextBox9.Name = "Guna2TextBox9"
+        Guna2TextBox9.PasswordChar = ChrW(0)
+        Guna2TextBox9.PlaceholderText = ""
+        Guna2TextBox9.SelectedText = ""
+        Guna2TextBox9.ShadowDecoration.CustomizableEdges = CustomizableEdges40
+        Guna2TextBox9.Size = New Size(233, 36)
+        Guna2TextBox9.TabIndex = 1
+        ' 
+        ' Label11
+        ' 
+        Label11.AutoSize = True
+        Label11.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label11.Location = New Point(601, 220)
+        Label11.Name = "Label11"
+        Label11.Size = New Size(81, 21)
+        Label11.TabIndex = 2
+        Label11.Text = "Last name"
+        ' 
+        ' Guna2TextBox6
+        ' 
+        Guna2TextBox6.CustomizableEdges = CustomizableEdges41
+        Guna2TextBox6.DefaultText = ""
+        Guna2TextBox6.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox6.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox6.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox6.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox6.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox6.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox6.Location = New Point(530, 333)
+        Guna2TextBox6.Name = "Guna2TextBox6"
+        Guna2TextBox6.PasswordChar = ChrW(0)
+        Guna2TextBox6.PlaceholderText = ""
+        Guna2TextBox6.SelectedText = ""
+        Guna2TextBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges42
+        Guna2TextBox6.Size = New Size(233, 36)
+        Guna2TextBox6.TabIndex = 1
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label9.Location = New Point(357, 220)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(83, 21)
+        Label9.TabIndex = 2
+        Label9.Text = "First name"
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label7.Location = New Point(114, 220)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(81, 21)
+        Label7.TabIndex = 2
+        Label7.Text = "Username"
+        ' 
+        ' other
+        ' 
+        other.BackColor = Color.FromArgb(CByte(255), CByte(224), CByte(192))
+        other.Controls.Add(Guna2Button8)
+        other.Controls.Add(Guna2Button7)
+        other.Controls.Add(Guna2DataGridView1)
+        other.Controls.Add(Guna2TextBox12)
+        other.Controls.Add(Guna2TextBox11)
+        other.Controls.Add(Guna2TextBox10)
+        other.Controls.Add(Guna2ComboBox4)
+        other.Controls.Add(Guna2ComboBox3)
+        other.Controls.Add(Guna2ComboBox2)
+        other.Controls.Add(Label22)
+        other.Controls.Add(Guna2ComboBox1)
+        other.Controls.Add(Label25)
+        other.Controls.Add(Label24)
+        other.Controls.Add(Label23)
+        other.Controls.Add(Label26)
+        other.Controls.Add(Label21)
+        other.Controls.Add(Label20)
+        other.Controls.Add(Label19)
+        other.Location = New Point(184, 4)
+        other.Name = "other"
+        other.Padding = New Padding(3)
+        other.Size = New Size(798, 646)
+        other.TabIndex = 1
+        other.Text = "Other information"
+        ' 
+        ' Guna2Button8
+        ' 
+        Guna2Button8.CustomizableEdges = CustomizableEdges43
+        Guna2Button8.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button8.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button8.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button8.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button8.FillColor = Color.FromArgb(CByte(0), CByte(192), CByte(0))
+        Guna2Button8.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button8.ForeColor = Color.White
+        Guna2Button8.Location = New Point(500, 585)
+        Guna2Button8.Name = "Guna2Button8"
+        Guna2Button8.ShadowDecoration.CustomizableEdges = CustomizableEdges44
+        Guna2Button8.Size = New Size(239, 34)
+        Guna2Button8.TabIndex = 4
+        Guna2Button8.Text = "UPDATE"
+        ' 
+        ' Guna2Button7
+        ' 
+        Guna2Button7.CustomizableEdges = CustomizableEdges45
+        Guna2Button7.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button7.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button7.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button7.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button7.ForeColor = Color.White
+        Guna2Button7.Location = New Point(53, 506)
+        Guna2Button7.Name = "Guna2Button7"
+        Guna2Button7.ShadowDecoration.CustomizableEdges = CustomizableEdges46
+        Guna2Button7.Size = New Size(151, 34)
+        Guna2Button7.TabIndex = 4
+        Guna2Button7.Text = "ADD"
+        ' 
+        ' Guna2DataGridView1
         ' 
         DataGridViewCellStyle1.BackColor = Color.White
-        dgMembers.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
         DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
@@ -421,10 +933,10 @@ Partial Class AdminDashboard
         DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
         DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
         DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
-        dgMembers.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        dgMembers.ColumnHeadersHeight = 17
-        dgMembers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgMembers.Columns.AddRange(New DataGridViewColumn() {Column7, Column1, Column2, Column3, Column4, Column5, Column6})
+        Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        Guna2DataGridView1.ColumnHeadersHeight = 17
+        Guna2DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Guna2DataGridView1.Columns.AddRange(New DataGridViewColumn() {Column8, Column9, Column10, Column11})
         DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = Color.White
         DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
@@ -432,9 +944,313 @@ Partial Class AdminDashboard
         DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
         DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
-        dgMembers.DefaultCellStyle = DataGridViewCellStyle3
+        Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
+        Guna2DataGridView1.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        Guna2DataGridView1.Location = New Point(53, 269)
+        Guna2DataGridView1.Name = "Guna2DataGridView1"
+        Guna2DataGridView1.RowHeadersVisible = False
+        Guna2DataGridView1.RowTemplate.Height = 25
+        Guna2DataGridView1.Size = New Size(687, 145)
+        Guna2DataGridView1.TabIndex = 9
+        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
+        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
+        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
+        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
+        Guna2DataGridView1.ThemeStyle.BackColor = Color.White
+        Guna2DataGridView1.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        Guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        Guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
+        Guna2DataGridView1.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = Color.White
+        Guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 17
+        Guna2DataGridView1.ThemeStyle.ReadOnly = False
+        Guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = Color.White
+        Guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
+        Guna2DataGridView1.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        Guna2DataGridView1.ThemeStyle.RowsStyle.Height = 25
+        Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        ' 
+        ' Column8
+        ' 
+        Column8.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column8.HeaderText = "ID"
+        Column8.Name = "Column8"
+        Column8.Width = 41
+        ' 
+        ' Column9
+        ' 
+        Column9.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column9.HeaderText = "Full name"
+        Column9.Name = "Column9"
+        ' 
+        ' Column10
+        ' 
+        Column10.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column10.HeaderText = "Relationship"
+        Column10.Name = "Column10"
+        Column10.Width = 95
+        ' 
+        ' Column11
+        ' 
+        Column11.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column11.HeaderText = "Age"
+        Column11.Name = "Column11"
+        Column11.Width = 51
+        ' 
+        ' Guna2TextBox12
+        ' 
+        Guna2TextBox12.CustomizableEdges = CustomizableEdges47
+        Guna2TextBox12.DefaultText = ""
+        Guna2TextBox12.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox12.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox12.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox12.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox12.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox12.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox12.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox12.Location = New Point(647, 464)
+        Guna2TextBox12.Name = "Guna2TextBox12"
+        Guna2TextBox12.PasswordChar = ChrW(0)
+        Guna2TextBox12.PlaceholderText = ""
+        Guna2TextBox12.SelectedText = ""
+        Guna2TextBox12.ShadowDecoration.CustomizableEdges = CustomizableEdges48
+        Guna2TextBox12.Size = New Size(93, 36)
+        Guna2TextBox12.TabIndex = 8
+        ' 
+        ' Guna2TextBox11
+        ' 
+        Guna2TextBox11.CustomizableEdges = CustomizableEdges49
+        Guna2TextBox11.DefaultText = ""
+        Guna2TextBox11.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox11.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox11.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox11.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox11.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox11.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox11.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox11.Location = New Point(500, 464)
+        Guna2TextBox11.Name = "Guna2TextBox11"
+        Guna2TextBox11.PasswordChar = ChrW(0)
+        Guna2TextBox11.PlaceholderText = ""
+        Guna2TextBox11.SelectedText = ""
+        Guna2TextBox11.ShadowDecoration.CustomizableEdges = CustomizableEdges50
+        Guna2TextBox11.Size = New Size(141, 36)
+        Guna2TextBox11.TabIndex = 8
+        ' 
+        ' Guna2TextBox10
+        ' 
+        Guna2TextBox10.CustomizableEdges = CustomizableEdges51
+        Guna2TextBox10.DefaultText = ""
+        Guna2TextBox10.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox10.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox10.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox10.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox10.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox10.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox10.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox10.Location = New Point(53, 464)
+        Guna2TextBox10.Name = "Guna2TextBox10"
+        Guna2TextBox10.PasswordChar = ChrW(0)
+        Guna2TextBox10.PlaceholderText = ""
+        Guna2TextBox10.SelectedText = ""
+        Guna2TextBox10.ShadowDecoration.CustomizableEdges = CustomizableEdges52
+        Guna2TextBox10.Size = New Size(442, 36)
+        Guna2TextBox10.TabIndex = 8
+        ' 
+        ' Guna2ComboBox4
+        ' 
+        Guna2ComboBox4.BackColor = Color.Transparent
+        Guna2ComboBox4.CustomizableEdges = CustomizableEdges53
+        Guna2ComboBox4.DrawMode = DrawMode.OwnerDrawFixed
+        Guna2ComboBox4.DropDownStyle = ComboBoxStyle.DropDownList
+        Guna2ComboBox4.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2ComboBox4.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2ComboBox4.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2ComboBox4.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        Guna2ComboBox4.ItemHeight = 30
+        Guna2ComboBox4.Location = New Point(437, 164)
+        Guna2ComboBox4.Name = "Guna2ComboBox4"
+        Guna2ComboBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges54
+        Guna2ComboBox4.Size = New Size(303, 36)
+        Guna2ComboBox4.TabIndex = 7
+        ' 
+        ' Guna2ComboBox3
+        ' 
+        Guna2ComboBox3.BackColor = Color.Transparent
+        Guna2ComboBox3.CustomizableEdges = CustomizableEdges55
+        Guna2ComboBox3.DrawMode = DrawMode.OwnerDrawFixed
+        Guna2ComboBox3.DropDownStyle = ComboBoxStyle.DropDownList
+        Guna2ComboBox3.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2ComboBox3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2ComboBox3.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2ComboBox3.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        Guna2ComboBox3.ItemHeight = 30
+        Guna2ComboBox3.Location = New Point(53, 164)
+        Guna2ComboBox3.Name = "Guna2ComboBox3"
+        Guna2ComboBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges56
+        Guna2ComboBox3.Size = New Size(303, 36)
+        Guna2ComboBox3.TabIndex = 7
+        ' 
+        ' Guna2ComboBox2
+        ' 
+        Guna2ComboBox2.BackColor = Color.Transparent
+        Guna2ComboBox2.CustomizableEdges = CustomizableEdges57
+        Guna2ComboBox2.DrawMode = DrawMode.OwnerDrawFixed
+        Guna2ComboBox2.DropDownStyle = ComboBoxStyle.DropDownList
+        Guna2ComboBox2.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2ComboBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2ComboBox2.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2ComboBox2.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        Guna2ComboBox2.ItemHeight = 30
+        Guna2ComboBox2.Location = New Point(437, 81)
+        Guna2ComboBox2.Name = "Guna2ComboBox2"
+        Guna2ComboBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges58
+        Guna2ComboBox2.Size = New Size(303, 36)
+        Guna2ComboBox2.TabIndex = 7
+        ' 
+        ' Label22
+        ' 
+        Label22.AutoSize = True
+        Label22.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label22.Location = New Point(543, 140)
+        Label22.Name = "Label22"
+        Label22.Size = New Size(87, 21)
+        Label22.TabIndex = 6
+        Label22.Text = "Committee"
+        ' 
+        ' Guna2ComboBox1
+        ' 
+        Guna2ComboBox1.BackColor = Color.Transparent
+        Guna2ComboBox1.CustomizableEdges = CustomizableEdges59
+        Guna2ComboBox1.DrawMode = DrawMode.OwnerDrawFixed
+        Guna2ComboBox1.DropDownStyle = ComboBoxStyle.DropDownList
+        Guna2ComboBox1.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2ComboBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2ComboBox1.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2ComboBox1.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        Guna2ComboBox1.ItemHeight = 30
+        Guna2ComboBox1.Location = New Point(53, 81)
+        Guna2ComboBox1.Name = "Guna2ComboBox1"
+        Guna2ComboBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges60
+        Guna2ComboBox1.Size = New Size(303, 36)
+        Guna2ComboBox1.TabIndex = 7
+        ' 
+        ' Label25
+        ' 
+        Label25.AutoSize = True
+        Label25.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label25.Location = New Point(672, 440)
+        Label25.Name = "Label25"
+        Label25.Size = New Size(37, 21)
+        Label25.TabIndex = 6
+        Label25.Text = "Age"
+        ' 
+        ' Label24
+        ' 
+        Label24.AutoSize = True
+        Label24.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label24.Location = New Point(521, 440)
+        Label24.Name = "Label24"
+        Label24.Size = New Size(96, 21)
+        Label24.TabIndex = 6
+        Label24.Text = "Relationship"
+        ' 
+        ' Label23
+        ' 
+        Label23.AutoSize = True
+        Label23.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label23.Location = New Point(233, 440)
+        Label23.Name = "Label23"
+        Label23.Size = New Size(78, 21)
+        Label23.TabIndex = 6
+        Label23.Text = "Full name"
+        ' 
+        ' Label26
+        ' 
+        Label26.AutoSize = True
+        Label26.Font = New Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point)
+        Label26.Location = New Point(315, 231)
+        Label26.Name = "Label26"
+        Label26.Size = New Size(152, 28)
+        Label26.TabIndex = 6
+        Label26.Text = "BENEFICIARIES"
+        ' 
+        ' Label21
+        ' 
+        Label21.AutoSize = True
+        Label21.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label21.Location = New Point(125, 140)
+        Label21.Name = "Label21"
+        Label21.Size = New Size(144, 21)
+        Label21.TabIndex = 6
+        Label21.Text = "Employment Status"
+        ' 
+        ' Label20
+        ' 
+        Label20.AutoSize = True
+        Label20.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label20.Location = New Point(554, 57)
+        Label20.Name = "Label20"
+        Label20.Size = New Size(65, 21)
+        Label20.TabIndex = 6
+        Label20.Text = "Position"
+        ' 
+        ' Label19
+        ' 
+        Label19.AutoSize = True
+        Label19.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label19.Location = New Point(174, 57)
+        Label19.Name = "Label19"
+        Label19.Size = New Size(51, 21)
+        Label19.TabIndex = 6
+        Label19.Text = "Office"
+        ' 
+        ' pnlEmployee
+        ' 
+        pnlEmployee.BackColor = Color.FromArgb(CByte(255), CByte(248), CByte(232))
+        pnlEmployee.Controls.Add(dgMembers)
+        pnlEmployee.Controls.Add(btnEditMember)
+        pnlEmployee.Controls.Add(btnViewMember)
+        pnlEmployee.Controls.Add(txtSearch)
+        pnlEmployee.Controls.Add(lblId)
+        pnlEmployee.Controls.Add(Label3)
+        pnlEmployee.Controls.Add(Label6)
+        pnlEmployee.CustomizableEdges = CustomizableEdges67
+        pnlEmployee.Location = New Point(23, 21)
+        pnlEmployee.Name = "pnlEmployee"
+        pnlEmployee.ShadowDecoration.CustomizableEdges = CustomizableEdges68
+        pnlEmployee.Size = New Size(989, 654)
+        pnlEmployee.TabIndex = 4
+        ' 
+        ' dgMembers
+        ' 
+        DataGridViewCellStyle4.BackColor = Color.White
+        dgMembers.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        DataGridViewCellStyle5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle5.ForeColor = Color.White
+        DataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = DataGridViewTriState.True
+        dgMembers.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
+        dgMembers.ColumnHeadersHeight = 17
+        dgMembers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        dgMembers.Columns.AddRange(New DataGridViewColumn() {Column7, Column1, Column2, Column3, Column4, Column5, Column6})
+        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = Color.White
+        DataGridViewCellStyle6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle6.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        DataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle6.WrapMode = DataGridViewTriState.False
+        dgMembers.DefaultCellStyle = DataGridViewCellStyle6
         dgMembers.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgMembers.Location = New Point(45, 170)
+        dgMembers.Location = New Point(22, 149)
         dgMembers.Name = "dgMembers"
         dgMembers.RowHeadersVisible = False
         dgMembers.RowTemplate.Height = 25
@@ -505,26 +1321,10 @@ Partial Class AdminDashboard
         Column6.HeaderText = "Contribution"
         Column6.Name = "Column6"
         ' 
-        ' pnlEmployee
-        ' 
-        pnlEmployee.BackColor = Color.FromArgb(CByte(255), CByte(248), CByte(232))
-        pnlEmployee.Controls.Add(btnEditMember)
-        pnlEmployee.Controls.Add(btnViewMember)
-        pnlEmployee.Controls.Add(txtSearch)
-        pnlEmployee.Controls.Add(lblId)
-        pnlEmployee.Controls.Add(Label3)
-        pnlEmployee.Controls.Add(Label6)
-        pnlEmployee.CustomizableEdges = CustomizableEdges25
-        pnlEmployee.Location = New Point(23, 21)
-        pnlEmployee.Name = "pnlEmployee"
-        pnlEmployee.ShadowDecoration.CustomizableEdges = CustomizableEdges26
-        pnlEmployee.Size = New Size(989, 654)
-        pnlEmployee.TabIndex = 4
-        ' 
         ' btnEditMember
         ' 
         btnEditMember.BackColor = SystemColors.HotTrack
-        btnEditMember.CustomizableEdges = CustomizableEdges19
+        btnEditMember.CustomizableEdges = CustomizableEdges61
         btnEditMember.DisabledState.BorderColor = Color.DarkGray
         btnEditMember.DisabledState.CustomBorderColor = Color.DarkGray
         btnEditMember.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -535,7 +1335,7 @@ Partial Class AdminDashboard
         btnEditMember.ForeColor = Color.White
         btnEditMember.Location = New Point(769, 109)
         btnEditMember.Name = "btnEditMember"
-        btnEditMember.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        btnEditMember.ShadowDecoration.CustomizableEdges = CustomizableEdges62
         btnEditMember.Size = New Size(198, 34)
         btnEditMember.TabIndex = 1
         btnEditMember.Text = "EDIT"
@@ -543,7 +1343,7 @@ Partial Class AdminDashboard
         ' btnViewMember
         ' 
         btnViewMember.BackColor = SystemColors.HotTrack
-        btnViewMember.CustomizableEdges = CustomizableEdges21
+        btnViewMember.CustomizableEdges = CustomizableEdges63
         btnViewMember.DisabledState.BorderColor = Color.DarkGray
         btnViewMember.DisabledState.CustomBorderColor = Color.DarkGray
         btnViewMember.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -554,14 +1354,14 @@ Partial Class AdminDashboard
         btnViewMember.ForeColor = Color.White
         btnViewMember.Location = New Point(562, 109)
         btnViewMember.Name = "btnViewMember"
-        btnViewMember.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        btnViewMember.ShadowDecoration.CustomizableEdges = CustomizableEdges64
         btnViewMember.Size = New Size(198, 34)
         btnViewMember.TabIndex = 1
         btnViewMember.Text = "VIEW"
         ' 
         ' txtSearch
         ' 
-        txtSearch.CustomizableEdges = CustomizableEdges23
+        txtSearch.CustomizableEdges = CustomizableEdges65
         txtSearch.DefaultText = ""
         txtSearch.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtSearch.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -575,7 +1375,7 @@ Partial Class AdminDashboard
         txtSearch.PasswordChar = ChrW(0)
         txtSearch.PlaceholderText = ""
         txtSearch.SelectedText = ""
-        txtSearch.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        txtSearch.ShadowDecoration.CustomizableEdges = CustomizableEdges66
         txtSearch.Size = New Size(200, 34)
         txtSearch.TabIndex = 2
         txtSearch.TextAlign = HorizontalAlignment.Center
@@ -611,341 +1411,6 @@ Partial Class AdminDashboard
         Label6.TabIndex = 3
         Label6.Text = "Selected ID:"
         ' 
-        ' pnlEditEmp
-        ' 
-        pnlEditEmp.BackColor = Color.FromArgb(CByte(255), CByte(248), CByte(232))
-        pnlEditEmp.Controls.Add(Guna2DateTimePicker1)
-        pnlEditEmp.Controls.Add(Label12)
-        pnlEditEmp.Controls.Add(Label15)
-        pnlEditEmp.Controls.Add(Label10)
-        pnlEditEmp.Controls.Add(Label13)
-        pnlEditEmp.Controls.Add(Label16)
-        pnlEditEmp.Controls.Add(Label14)
-        pnlEditEmp.Controls.Add(Label8)
-        pnlEditEmp.Controls.Add(Label11)
-        pnlEditEmp.Controls.Add(Label9)
-        pnlEditEmp.Controls.Add(Label7)
-        pnlEditEmp.Controls.Add(Guna2TextBox6)
-        pnlEditEmp.Controls.Add(Guna2TextBox9)
-        pnlEditEmp.Controls.Add(Guna2TextBox4)
-        pnlEditEmp.Controls.Add(Guna2TextBox8)
-        pnlEditEmp.Controls.Add(Guna2TextBox7)
-        pnlEditEmp.Controls.Add(Guna2TextBox2)
-        pnlEditEmp.Controls.Add(Guna2TextBox5)
-        pnlEditEmp.Controls.Add(Guna2TextBox3)
-        pnlEditEmp.Controls.Add(Guna2TextBox1)
-        pnlEditEmp.Controls.Add(PictureBox1)
-        pnlEditEmp.CustomizableEdges = CustomizableEdges47
-        pnlEditEmp.Location = New Point(23, 21)
-        pnlEditEmp.Name = "pnlEditEmp"
-        pnlEditEmp.ShadowDecoration.CustomizableEdges = CustomizableEdges48
-        pnlEditEmp.Size = New Size(989, 654)
-        pnlEditEmp.TabIndex = 5
-        ' 
-        ' Guna2DateTimePicker1
-        ' 
-        Guna2DateTimePicker1.Checked = True
-        Guna2DateTimePicker1.CustomizableEdges = CustomizableEdges27
-        Guna2DateTimePicker1.FillColor = Color.White
-        Guna2DateTimePicker1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2DateTimePicker1.Format = DateTimePickerFormat.Long
-        Guna2DateTimePicker1.Location = New Point(734, 265)
-        Guna2DateTimePicker1.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
-        Guna2DateTimePicker1.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
-        Guna2DateTimePicker1.Name = "Guna2DateTimePicker1"
-        Guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = CustomizableEdges28
-        Guna2DateTimePicker1.Size = New Size(233, 36)
-        Guna2DateTimePicker1.TabIndex = 3
-        Guna2DateTimePicker1.Value = New DateTime(2023, 6, 6, 9, 2, 45, 794)
-        ' 
-        ' Label12
-        ' 
-        Label12.AutoSize = True
-        Label12.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label12.Location = New Point(819, 101)
-        Label12.Name = "Label12"
-        Label12.Size = New Size(48, 21)
-        Label12.TabIndex = 2
-        Label12.Text = "Email"
-        ' 
-        ' Label15
-        ' 
-        Label15.AutoSize = True
-        Label15.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label15.Location = New Point(506, 241)
-        Label15.Name = "Label15"
-        Label15.Size = New Size(169, 21)
-        Label15.TabIndex = 2
-        Label15.Text = "Educational attainment"
-        ' 
-        ' Label10
-        ' 
-        Label10.AutoSize = True
-        Label10.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label10.Location = New Point(539, 101)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(101, 21)
-        Label10.TabIndex = 2
-        Label10.Text = "Middle name"
-        ' 
-        ' Label13
-        ' 
-        Label13.AutoSize = True
-        Label13.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label13.Location = New Point(556, 171)
-        Label13.Name = "Label13"
-        Label13.Size = New Size(66, 21)
-        Label13.TabIndex = 2
-        Label13.Text = "Address"
-        ' 
-        ' Label16
-        ' 
-        Label16.AutoSize = True
-        Label16.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label16.Location = New Point(811, 241)
-        Label16.Name = "Label16"
-        Label16.Size = New Size(73, 21)
-        Label16.TabIndex = 2
-        Label16.Text = "Birthdate"
-        ' 
-        ' Label14
-        ' 
-        Label14.AutoSize = True
-        Label14.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label14.Location = New Point(294, 241)
-        Label14.Name = "Label14"
-        Label14.Size = New Size(88, 21)
-        Label14.TabIndex = 2
-        Label14.Text = "Contact no."
-        ' 
-        ' Label8
-        ' 
-        Label8.AutoSize = True
-        Label8.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label8.Location = New Point(294, 101)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(76, 21)
-        Label8.TabIndex = 2
-        Label8.Text = "Password"
-        ' 
-        ' Label11
-        ' 
-        Label11.AutoSize = True
-        Label11.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label11.Location = New Point(805, 34)
-        Label11.Name = "Label11"
-        Label11.Size = New Size(81, 21)
-        Label11.TabIndex = 2
-        Label11.Text = "Last name"
-        ' 
-        ' Label9
-        ' 
-        Label9.AutoSize = True
-        Label9.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label9.Location = New Point(548, 34)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(83, 21)
-        Label9.TabIndex = 2
-        Label9.Text = "First name"
-        ' 
-        ' Label7
-        ' 
-        Label7.AutoSize = True
-        Label7.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label7.Location = New Point(291, 34)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(81, 21)
-        Label7.TabIndex = 2
-        Label7.Text = "Username"
-        ' 
-        ' Guna2TextBox6
-        ' 
-        Guna2TextBox6.CustomizableEdges = CustomizableEdges29
-        Guna2TextBox6.DefaultText = ""
-        Guna2TextBox6.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox6.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox6.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox6.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox6.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox6.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox6.Location = New Point(734, 125)
-        Guna2TextBox6.Name = "Guna2TextBox6"
-        Guna2TextBox6.PasswordChar = ChrW(0)
-        Guna2TextBox6.PlaceholderText = ""
-        Guna2TextBox6.SelectedText = ""
-        Guna2TextBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges30
-        Guna2TextBox6.Size = New Size(233, 36)
-        Guna2TextBox6.TabIndex = 1
-        ' 
-        ' Guna2TextBox9
-        ' 
-        Guna2TextBox9.CustomizableEdges = CustomizableEdges31
-        Guna2TextBox9.DefaultText = ""
-        Guna2TextBox9.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox9.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox9.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox9.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox9.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox9.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox9.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox9.Location = New Point(477, 265)
-        Guna2TextBox9.Name = "Guna2TextBox9"
-        Guna2TextBox9.PasswordChar = ChrW(0)
-        Guna2TextBox9.PlaceholderText = ""
-        Guna2TextBox9.SelectedText = ""
-        Guna2TextBox9.ShadowDecoration.CustomizableEdges = CustomizableEdges32
-        Guna2TextBox9.Size = New Size(233, 36)
-        Guna2TextBox9.TabIndex = 1
-        ' 
-        ' Guna2TextBox4
-        ' 
-        Guna2TextBox4.CustomizableEdges = CustomizableEdges33
-        Guna2TextBox4.DefaultText = ""
-        Guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox4.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox4.Location = New Point(477, 125)
-        Guna2TextBox4.Name = "Guna2TextBox4"
-        Guna2TextBox4.PasswordChar = ChrW(0)
-        Guna2TextBox4.PlaceholderText = ""
-        Guna2TextBox4.SelectedText = ""
-        Guna2TextBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges34
-        Guna2TextBox4.Size = New Size(233, 36)
-        Guna2TextBox4.TabIndex = 1
-        ' 
-        ' Guna2TextBox8
-        ' 
-        Guna2TextBox8.CustomizableEdges = CustomizableEdges35
-        Guna2TextBox8.DefaultText = ""
-        Guna2TextBox8.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox8.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox8.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox8.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox8.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox8.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox8.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox8.Location = New Point(220, 265)
-        Guna2TextBox8.Name = "Guna2TextBox8"
-        Guna2TextBox8.PasswordChar = ChrW(0)
-        Guna2TextBox8.PlaceholderText = ""
-        Guna2TextBox8.SelectedText = ""
-        Guna2TextBox8.ShadowDecoration.CustomizableEdges = CustomizableEdges36
-        Guna2TextBox8.Size = New Size(233, 36)
-        Guna2TextBox8.TabIndex = 1
-        ' 
-        ' Guna2TextBox7
-        ' 
-        Guna2TextBox7.CustomizableEdges = CustomizableEdges37
-        Guna2TextBox7.DefaultText = ""
-        Guna2TextBox7.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox7.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox7.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox7.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox7.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox7.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox7.Location = New Point(220, 195)
-        Guna2TextBox7.Name = "Guna2TextBox7"
-        Guna2TextBox7.PasswordChar = ChrW(0)
-        Guna2TextBox7.PlaceholderText = ""
-        Guna2TextBox7.SelectedText = ""
-        Guna2TextBox7.ShadowDecoration.CustomizableEdges = CustomizableEdges38
-        Guna2TextBox7.Size = New Size(747, 36)
-        Guna2TextBox7.TabIndex = 1
-        ' 
-        ' Guna2TextBox2
-        ' 
-        Guna2TextBox2.CustomizableEdges = CustomizableEdges39
-        Guna2TextBox2.DefaultText = ""
-        Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(220, 125)
-        Guna2TextBox2.Name = "Guna2TextBox2"
-        Guna2TextBox2.PasswordChar = ChrW(0)
-        Guna2TextBox2.PlaceholderText = ""
-        Guna2TextBox2.SelectedText = ""
-        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges40
-        Guna2TextBox2.Size = New Size(233, 36)
-        Guna2TextBox2.TabIndex = 1
-        ' 
-        ' Guna2TextBox5
-        ' 
-        Guna2TextBox5.CustomizableEdges = CustomizableEdges41
-        Guna2TextBox5.DefaultText = ""
-        Guna2TextBox5.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox5.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox5.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox5.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox5.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox5.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox5.Location = New Point(734, 58)
-        Guna2TextBox5.Name = "Guna2TextBox5"
-        Guna2TextBox5.PasswordChar = ChrW(0)
-        Guna2TextBox5.PlaceholderText = ""
-        Guna2TextBox5.SelectedText = ""
-        Guna2TextBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges42
-        Guna2TextBox5.Size = New Size(233, 36)
-        Guna2TextBox5.TabIndex = 1
-        ' 
-        ' Guna2TextBox3
-        ' 
-        Guna2TextBox3.CustomizableEdges = CustomizableEdges43
-        Guna2TextBox3.DefaultText = ""
-        Guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox3.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Location = New Point(477, 58)
-        Guna2TextBox3.Name = "Guna2TextBox3"
-        Guna2TextBox3.PasswordChar = ChrW(0)
-        Guna2TextBox3.PlaceholderText = ""
-        Guna2TextBox3.SelectedText = ""
-        Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges44
-        Guna2TextBox3.Size = New Size(233, 36)
-        Guna2TextBox3.TabIndex = 1
-        ' 
-        ' Guna2TextBox1
-        ' 
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges45
-        Guna2TextBox1.DefaultText = ""
-        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(220, 58)
-        Guna2TextBox1.Name = "Guna2TextBox1"
-        Guna2TextBox1.PasswordChar = ChrW(0)
-        Guna2TextBox1.PlaceholderText = ""
-        Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges46
-        Guna2TextBox1.Size = New Size(233, 36)
-        Guna2TextBox1.TabIndex = 1
-        ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.Location = New Point(22, 19)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(164, 142)
-        PictureBox1.TabIndex = 0
-        PictureBox1.TabStop = False
-        ' 
         ' pnlFundTransfer
         ' 
         pnlFundTransfer.BackColor = Color.MistyRose
@@ -957,11 +1422,11 @@ Partial Class AdminDashboard
         pnlFundTransfer.Controls.Add(Guna2Button3)
         pnlFundTransfer.Controls.Add(Label4)
         pnlFundTransfer.Controls.Add(Label5)
-        pnlFundTransfer.CustomizableEdges = CustomizableEdges67
+        pnlFundTransfer.CustomizableEdges = CustomizableEdges87
         pnlFundTransfer.Location = New Point(260, 72)
         pnlFundTransfer.Margin = New Padding(33, 3, 3, 3)
         pnlFundTransfer.Name = "pnlFundTransfer"
-        pnlFundTransfer.ShadowDecoration.CustomizableEdges = CustomizableEdges68
+        pnlFundTransfer.ShadowDecoration.CustomizableEdges = CustomizableEdges88
         pnlFundTransfer.Size = New Size(1016, 680)
         pnlFundTransfer.TabIndex = 5
         ' 
@@ -974,10 +1439,10 @@ Partial Class AdminDashboard
         Guna2Panel2.Controls.Add(Guna2HtmlLabel2)
         Guna2Panel2.Controls.Add(PictureBox2)
         Guna2Panel2.Controls.Add(Label2)
-        Guna2Panel2.CustomizableEdges = CustomizableEdges55
+        Guna2Panel2.CustomizableEdges = CustomizableEdges75
         Guna2Panel2.Location = New Point(28, 251)
         Guna2Panel2.Name = "Guna2Panel2"
-        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges56
+        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges76
         Guna2Panel2.Size = New Size(364, 179)
         Guna2Panel2.TabIndex = 12
         ' 
@@ -986,7 +1451,7 @@ Partial Class AdminDashboard
         Guna2Button4.Animated = True
         Guna2Button4.BackColor = Color.Transparent
         Guna2Button4.BorderRadius = 10
-        Guna2Button4.CustomizableEdges = CustomizableEdges53
+        Guna2Button4.CustomizableEdges = CustomizableEdges73
         Guna2Button4.DisabledState.BorderColor = Color.DarkGray
         Guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button4.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -996,7 +1461,7 @@ Partial Class AdminDashboard
         Guna2Button4.ForeColor = Color.White
         Guna2Button4.Location = New Point(50, 136)
         Guna2Button4.Name = "Guna2Button4"
-        Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges54
+        Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges74
         Guna2Button4.Size = New Size(75, 31)
         Guna2Button4.TabIndex = 11
         Guna2Button4.Text = "View"
@@ -1043,10 +1508,10 @@ Partial Class AdminDashboard
         Guna2Panel1.Controls.Add(Guna2HtmlLabel1)
         Guna2Panel1.Controls.Add(Label18)
         Guna2Panel1.Controls.Add(Guna2PictureBox2)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges59
+        Guna2Panel1.CustomizableEdges = CustomizableEdges79
         Guna2Panel1.Location = New Point(432, 251)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges60
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges80
         Guna2Panel1.Size = New Size(557, 179)
         Guna2Panel1.TabIndex = 11
         ' 
@@ -1095,12 +1560,12 @@ Partial Class AdminDashboard
         ' 
         Guna2PictureBox2.BackgroundImage = My.Resources.Resources.image_removebg_preview__1_1
         Guna2PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges57
+        Guna2PictureBox2.CustomizableEdges = CustomizableEdges77
         Guna2PictureBox2.FillColor = Color.Transparent
         Guna2PictureBox2.ImageRotate = 0F
         Guna2PictureBox2.Location = New Point(391, 48)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges58
+        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges78
         Guna2PictureBox2.Size = New Size(166, 131)
         Guna2PictureBox2.TabIndex = 10
         Guna2PictureBox2.TabStop = False
@@ -1110,7 +1575,7 @@ Partial Class AdminDashboard
         Guna2Button1.Animated = True
         Guna2Button1.BackColor = Color.Transparent
         Guna2Button1.BorderRadius = 10
-        Guna2Button1.CustomizableEdges = CustomizableEdges61
+        Guna2Button1.CustomizableEdges = CustomizableEdges81
         Guna2Button1.DisabledState.BorderColor = Color.DarkGray
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1120,7 +1585,7 @@ Partial Class AdminDashboard
         Guna2Button1.ForeColor = Color.White
         Guna2Button1.Location = New Point(877, 93)
         Guna2Button1.Name = "Guna2Button1"
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges62
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges82
         Guna2Button1.Size = New Size(93, 41)
         Guna2Button1.TabIndex = 6
         Guna2Button1.Text = "MONTH"
@@ -1130,7 +1595,7 @@ Partial Class AdminDashboard
         Guna2Button2.Animated = True
         Guna2Button2.BackColor = Color.Transparent
         Guna2Button2.BorderRadius = 10
-        Guna2Button2.CustomizableEdges = CustomizableEdges63
+        Guna2Button2.CustomizableEdges = CustomizableEdges83
         Guna2Button2.DisabledState.BorderColor = Color.DarkGray
         Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1140,7 +1605,7 @@ Partial Class AdminDashboard
         Guna2Button2.ForeColor = Color.White
         Guna2Button2.Location = New Point(778, 93)
         Guna2Button2.Name = "Guna2Button2"
-        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges64
+        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges84
         Guna2Button2.Size = New Size(93, 41)
         Guna2Button2.TabIndex = 7
         Guna2Button2.Text = "WEEK"
@@ -1150,7 +1615,7 @@ Partial Class AdminDashboard
         Guna2Button3.Animated = True
         Guna2Button3.BackColor = Color.Transparent
         Guna2Button3.BorderRadius = 10
-        Guna2Button3.CustomizableEdges = CustomizableEdges65
+        Guna2Button3.CustomizableEdges = CustomizableEdges85
         Guna2Button3.DisabledState.BorderColor = Color.DarkGray
         Guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1160,7 +1625,7 @@ Partial Class AdminDashboard
         Guna2Button3.ForeColor = Color.White
         Guna2Button3.Location = New Point(679, 93)
         Guna2Button3.Name = "Guna2Button3"
-        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges66
+        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges86
         Guna2Button3.Size = New Size(93, 41)
         Guna2Button3.TabIndex = 8
         Guna2Button3.Text = "DAY"
@@ -1204,12 +1669,16 @@ Partial Class AdminDashboard
         Guna2GradientPanel1.ResumeLayout(False)
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         pnlDashboard.ResumeLayout(False)
-        CType(dgMembers, ComponentModel.ISupportInitialize).EndInit()
+        tabEditMember.ResumeLayout(False)
+        personal.ResumeLayout(False)
+        personal.PerformLayout()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        other.ResumeLayout(False)
+        other.PerformLayout()
+        CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         pnlEmployee.ResumeLayout(False)
         pnlEmployee.PerformLayout()
-        pnlEditEmp.ResumeLayout(False)
-        pnlEditEmp.PerformLayout()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        CType(dgMembers, ComponentModel.ISupportInitialize).EndInit()
         pnlFundTransfer.ResumeLayout(False)
         pnlFundTransfer.PerformLayout()
         Guna2Panel2.ResumeLayout(False)
@@ -1256,28 +1725,6 @@ Partial Class AdminDashboard
     Friend WithEvents btnViewMember As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents lblId As Label
     Friend WithEvents pnlEmployee As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents pnlEditEmp As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Guna2TextBox6 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox4 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox5 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox3 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Guna2TextBox7 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Label15 As Label
-    Friend WithEvents Label14 As Label
-    Friend WithEvents Guna2TextBox9 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2TextBox8 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2DateTimePicker1 As Guna.UI2.WinForms.Guna2DateTimePicker
-    Friend WithEvents Label16 As Label
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
@@ -1289,4 +1736,52 @@ Partial Class AdminDashboard
     Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Label18 As Label
     Protected WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents tabEditMember As Guna.UI2.WinForms.Guna2TabControl
+    Friend WithEvents personal As TabPage
+    Friend WithEvents btnEditNext As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2DateTimePicker1 As Guna.UI2.WinForms.Guna2DateTimePicker
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Guna2TextBox4 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Guna2TextBox3 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Guna2TextBox5 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Guna2TextBox7 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Guna2TextBox8 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Guna2TextBox9 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Guna2TextBox6 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents other As TabPage
+    Friend WithEvents Label19 As Label
+    Friend WithEvents Guna2ComboBox4 As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents Guna2ComboBox3 As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents Guna2ComboBox2 As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Guna2ComboBox1 As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents Guna2Button8 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Button7 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2DataGridView1 As Guna.UI2.WinForms.Guna2DataGridView
+    Friend WithEvents Column8 As DataGridViewTextBoxColumn
+    Friend WithEvents Column9 As DataGridViewTextBoxColumn
+    Friend WithEvents Column10 As DataGridViewTextBoxColumn
+    Friend WithEvents Column11 As DataGridViewTextBoxColumn
+    Friend WithEvents Guna2TextBox12 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2TextBox11 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2TextBox10 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label26 As Label
 End Class
