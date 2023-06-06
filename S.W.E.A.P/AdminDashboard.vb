@@ -3,6 +3,7 @@ Imports MySql.Data.MySqlClient
 Public Class AdminDashboard
     Dim conn As New MySqlConnection("server=172.30.192.29;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
+    Dim selectedId As Integer = 0
     '-------------------------------FUNCTIONSS--------------------------------------------------------------------------------------
     Public Sub viewMembers(query) '-----------------PARA SA EMPLOYEES TABLE
         dgMembers.Rows.Clear()
@@ -39,31 +40,14 @@ Public Class AdminDashboard
         pnlEm.BackColor = Color.Transparent
         pnlFundT.BackColor = Color.Transparent
 
-        'pnlDashboard.Visible = True
-        'pnlEmployees.Visible = False
-        'pnlFundTransfer.Visible = False
         panelVisible(True, False, False)
-        'For button Dashboard design
-        ' bttnDash.FillColor = Color.FromArgb(251, 197, 49)
-        'bttnDash.ForeColor = Color.Black
-        ' bttnDash.Image = My.Resources.dashboard__1_
-        ' bttnDash.BorderColor = Color.Black
+
         btnFx1(bttnDash)
         bttnDash.Image = My.Resources.dashboard__1_
 
-        'For button Employee design
-        'bttnEmpl.FillColor = Color.DarkRed
-        ' bttnEmpl.ForeColor = Color.White
-        'bttnEmpl.Image = My.Resources.employees
-        'bttnEmpl.BorderColor = Color.White
         btnFx2(bttnEmpl)
         bttnEmpl.Image = My.Resources.employees
 
-        'For button Fund Transfer design
-        'bttnFund.FillColor = Color.DarkRed
-        'bttnFund.ForeColor = Color.White
-        'bttnFund.Image = My.Resources.transfer
-        'bttnFund.BorderColor = Color.White
         btnFx2(bttnFund)
         bttnFund.Image = My.Resources.transfer
     End Sub
@@ -73,9 +57,6 @@ Public Class AdminDashboard
         pnlEm.BackColor = Color.DarkRed
         pnlFundT.BackColor = Color.Transparent
 
-        'pnlDashboard.Visible = False
-        'pnlEmployees.Visible = True
-        'pnlFundTransfer.Visible = False
         panelVisible(False, True, False)
 
         'For button Dashboard design
@@ -85,19 +66,9 @@ Public Class AdminDashboard
         bttnDash.BorderColor = Color.White
 
 
-        'For button Employee design
-        ' bttnEmpl.FillColor = Color.FromArgb(251, 197, 49)
-        'bttnEmpl.ForeColor = Color.Black
-        ' bttnEmpl.Image = My.Resources.company
-        'bttnEmpl.BorderColor = Color.Black
         btnFx1(bttnEmpl)
         bttnEmpl.Image = My.Resources.company
 
-        'For button Fund Transfer design
-        'bttnFund.FillColor = Color.DarkRed
-        'bttnFund.ForeColor = Color.White
-        'bttnFund.Image = My.Resources.transfer
-        'bttnFund.BorderColor = Color.White
         btnFx2(bttnFund)
         bttnFund.Image = My.Resources.transfer
 
@@ -108,9 +79,6 @@ Public Class AdminDashboard
         pnlEm.BackColor = Color.Transparent
         pnlFundT.BackColor = Color.DarkRed
 
-        'pnlDashboard.Visible = False
-        'pnlEmployees.Visible = False
-        'pnlFundTransfer.Visible = True
         panelVisible(False, False, True)
 
         'For button Dashboard design
@@ -126,12 +94,6 @@ Public Class AdminDashboard
         bttnEmpl.Image = My.Resources.company
         bttnEmpl.BorderColor = Color.Black
 
-
-        'For button Fund Transfer design
-        ' bttnFund.FillColor = Color.FromArgb(251, 197, 49)
-        ' bttnFund.ForeColor = Color.Black
-        ' bttnFund.Image = My.Resources.fund__1_
-        ' bttnFund.BorderColor = Color.Black
         btnFx1(bttnFund)
         bttnFund.Image = My.Resources.fund__1_
     End Sub
@@ -150,10 +112,7 @@ Public Class AdminDashboard
         dgMembers.ReadOnly = True
     End Sub
 
-    Private Sub dgMembers_CellMouseEnter(sender As Object, e As DataGridViewCellEventArgs) Handles dgMembers.CellMouseEnter
-        btnEditMember.Enabled = True
-        lblId.Text = dgMembers.CurrentRow.Cells(0).Value
-    End Sub
+
 
     Private Sub txtSearch_TextChanged(sender As Object, e As EventArgs) Handles txtSearch.TextChanged
 
@@ -178,4 +137,9 @@ Public Class AdminDashboard
 
     End Sub
 
+    Private Sub dgMembers_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgMembers.CellContentClick
+        btnEditMember.Enabled = True
+        selectedId = dgMembers.CurrentRow.Cells(0).Value.ToString()
+        lblId.Text = selectedId
+    End Sub
 End Class
