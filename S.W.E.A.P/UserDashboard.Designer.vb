@@ -83,6 +83,10 @@ Partial Class UserDashboard
         Dim CustomizableEdges107 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -131,10 +135,6 @@ Partial Class UserDashboard
         Dim CustomizableEdges65 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges66 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges67 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
@@ -177,6 +177,8 @@ Partial Class UserDashboard
         Guna2ProgressBar1 = New Guna.UI2.WinForms.Guna2ProgressBar()
         lblFirst = New Label()
         Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        cmbxoffice = New Guna.UI2.WinForms.Guna2ComboBox()
+        cmbxposition = New Guna.UI2.WinForms.Guna2ComboBox()
         txtbxbdate = New Guna.UI2.WinForms.Guna2DateTimePicker()
         Label18 = New Label()
         cmbxcomm = New Guna.UI2.WinForms.Guna2ComboBox()
@@ -227,8 +229,6 @@ Partial Class UserDashboard
         Pfname = New Guna.UI2.WinForms.Guna2TextBox()
         Label3 = New Label()
         Label2 = New Label()
-        cmbxposition = New Guna.UI2.WinForms.Guna2ComboBox()
-        cmbxoffice = New Guna.UI2.WinForms.Guna2ComboBox()
         Guna2GradientPanel1.SuspendLayout()
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
@@ -838,6 +838,44 @@ Partial Class UserDashboard
         Guna2Panel2.Size = New Size(1007, 711)
         Guna2Panel2.TabIndex = 19
         ' 
+        ' cmbxoffice
+        ' 
+        cmbxoffice.BackColor = Color.Transparent
+        cmbxoffice.BorderRadius = 16
+        cmbxoffice.CustomizableEdges = CustomizableEdges16
+        cmbxoffice.DrawMode = DrawMode.OwnerDrawFixed
+        cmbxoffice.DropDownStyle = ComboBoxStyle.DropDownList
+        cmbxoffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cmbxoffice.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cmbxoffice.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        cmbxoffice.ForeColor = Color.Black
+        cmbxoffice.ItemHeight = 30
+        cmbxoffice.Items.AddRange(New Object() {"4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
+        cmbxoffice.Location = New Point(521, 341)
+        cmbxoffice.Name = "cmbxoffice"
+        cmbxoffice.ShadowDecoration.CustomizableEdges = CustomizableEdges17
+        cmbxoffice.Size = New Size(408, 36)
+        cmbxoffice.TabIndex = 65
+        ' 
+        ' cmbxposition
+        ' 
+        cmbxposition.BackColor = Color.Transparent
+        cmbxposition.BorderRadius = 16
+        cmbxposition.CustomizableEdges = CustomizableEdges18
+        cmbxposition.DrawMode = DrawMode.OwnerDrawFixed
+        cmbxposition.DropDownStyle = ComboBoxStyle.DropDownList
+        cmbxposition.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cmbxposition.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cmbxposition.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        cmbxposition.ForeColor = Color.Black
+        cmbxposition.ItemHeight = 30
+        cmbxposition.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
+        cmbxposition.Location = New Point(521, 414)
+        cmbxposition.Name = "cmbxposition"
+        cmbxposition.ShadowDecoration.CustomizableEdges = CustomizableEdges19
+        cmbxposition.Size = New Size(408, 36)
+        cmbxposition.TabIndex = 64
+        ' 
         ' txtbxbdate
         ' 
         txtbxbdate.BorderRadius = 16
@@ -845,12 +883,12 @@ Partial Class UserDashboard
         txtbxbdate.CustomizableEdges = CustomizableEdges20
         txtbxbdate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxbdate.Format = DateTimePickerFormat.Long
-        txtbxbdate.Location = New Point(495, 138)
+        txtbxbdate.Location = New Point(521, 138)
         txtbxbdate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         txtbxbdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         txtbxbdate.Name = "txtbxbdate"
         txtbxbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges21
-        txtbxbdate.Size = New Size(315, 36)
+        txtbxbdate.Size = New Size(408, 36)
         txtbxbdate.TabIndex = 62
         txtbxbdate.Value = New Date(2023, 6, 6, 13, 54, 41, 766)
         ' 
@@ -858,7 +896,7 @@ Partial Class UserDashboard
         ' 
         Label18.AutoSize = True
         Label18.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label18.Location = New Point(495, 313)
+        Label18.Location = New Point(521, 313)
         Label18.Name = "Label18"
         Label18.Size = New Size(61, 25)
         Label18.TabIndex = 60
@@ -877,17 +915,17 @@ Partial Class UserDashboard
         cmbxcomm.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         cmbxcomm.ItemHeight = 30
         cmbxcomm.Items.AddRange(New Object() {"Education, Information & Research", "Organizing & Membership", "Grievances", "Welfare", "Finance", "Sports & Culture"})
-        cmbxcomm.Location = New Point(495, 553)
+        cmbxcomm.Location = New Point(521, 553)
         cmbxcomm.Name = "cmbxcomm"
         cmbxcomm.ShadowDecoration.CustomizableEdges = CustomizableEdges23
-        cmbxcomm.Size = New Size(315, 36)
+        cmbxcomm.Size = New Size(408, 36)
         cmbxcomm.TabIndex = 59
         ' 
         ' Label19
         ' 
         Label19.AutoSize = True
         Label19.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label19.Location = New Point(495, 525)
+        Label19.Location = New Point(521, 525)
         Label19.Name = "Label19"
         Label19.Size = New Size(105, 25)
         Label19.TabIndex = 57
@@ -897,7 +935,7 @@ Partial Class UserDashboard
         ' 
         Label20.AutoSize = True
         Label20.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label20.Location = New Point(495, 110)
+        Label20.Location = New Point(521, 110)
         Label20.Name = "Label20"
         Label20.Size = New Size(90, 25)
         Label20.TabIndex = 55
@@ -916,20 +954,20 @@ Partial Class UserDashboard
         txtbxeduc.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxeduc.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxeduc.HoverState.ForeColor = Color.FromArgb(CByte(128), CByte(255), CByte(255))
-        txtbxeduc.Location = New Point(495, 274)
+        txtbxeduc.Location = New Point(521, 274)
         txtbxeduc.Name = "txtbxeduc"
         txtbxeduc.PasswordChar = ChrW(0)
         txtbxeduc.PlaceholderText = ""
         txtbxeduc.SelectedText = ""
         txtbxeduc.ShadowDecoration.CustomizableEdges = CustomizableEdges25
-        txtbxeduc.Size = New Size(315, 36)
+        txtbxeduc.Size = New Size(408, 36)
         txtbxeduc.TabIndex = 54
         ' 
         ' Label21
         ' 
         Label21.AutoSize = True
         Label21.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label21.Location = New Point(495, 246)
+        Label21.Location = New Point(521, 246)
         Label21.Name = "Label21"
         Label21.Size = New Size(208, 25)
         Label21.TabIndex = 53
@@ -948,20 +986,20 @@ Partial Class UserDashboard
         txtbxemail.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxemail.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxemail.HoverState.ForeColor = Color.FromArgb(CByte(128), CByte(255), CByte(255))
-        txtbxemail.Location = New Point(495, 207)
+        txtbxemail.Location = New Point(521, 207)
         txtbxemail.Name = "txtbxemail"
         txtbxemail.PasswordChar = ChrW(0)
         txtbxemail.PlaceholderText = ""
         txtbxemail.SelectedText = ""
         txtbxemail.ShadowDecoration.CustomizableEdges = CustomizableEdges27
-        txtbxemail.Size = New Size(315, 36)
+        txtbxemail.Size = New Size(408, 36)
         txtbxemail.TabIndex = 52
         ' 
         ' Label22
         ' 
         Label22.AutoSize = True
         Label22.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label22.Location = New Point(495, 178)
+        Label22.Location = New Point(521, 178)
         Label22.Name = "Label22"
         Label22.Size = New Size(125, 25)
         Label22.TabIndex = 51
@@ -980,20 +1018,20 @@ Partial Class UserDashboard
         txtbxcontact.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxcontact.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxcontact.HoverState.ForeColor = Color.FromArgb(CByte(128), CByte(255), CByte(255))
-        txtbxcontact.Location = New Point(60, 550)
+        txtbxcontact.Location = New Point(86, 550)
         txtbxcontact.Name = "txtbxcontact"
         txtbxcontact.PasswordChar = ChrW(0)
         txtbxcontact.PlaceholderText = ""
         txtbxcontact.SelectedText = ""
         txtbxcontact.ShadowDecoration.CustomizableEdges = CustomizableEdges29
-        txtbxcontact.Size = New Size(315, 36)
+        txtbxcontact.Size = New Size(408, 36)
         txtbxcontact.TabIndex = 50
         ' 
         ' Label23
         ' 
         Label23.AutoSize = True
         Label23.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label23.Location = New Point(60, 521)
+        Label23.Location = New Point(86, 521)
         Label23.Name = "Label23"
         Label23.Size = New Size(76, 25)
         Label23.TabIndex = 49
@@ -1012,20 +1050,20 @@ Partial Class UserDashboard
         txtbxadds.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxadds.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxadds.HoverState.ForeColor = Color.FromArgb(CByte(128), CByte(255), CByte(255))
-        txtbxadds.Location = New Point(60, 482)
+        txtbxadds.Location = New Point(86, 482)
         txtbxadds.Name = "txtbxadds"
         txtbxadds.PasswordChar = ChrW(0)
         txtbxadds.PlaceholderText = ""
         txtbxadds.SelectedText = ""
         txtbxadds.ShadowDecoration.CustomizableEdges = CustomizableEdges31
-        txtbxadds.Size = New Size(315, 36)
+        txtbxadds.Size = New Size(408, 36)
         txtbxadds.TabIndex = 48
         ' 
         ' Label24
         ' 
         Label24.AutoSize = True
         Label24.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label24.Location = New Point(60, 453)
+        Label24.Location = New Point(86, 453)
         Label24.Name = "Label24"
         Label24.Size = New Size(79, 25)
         Label24.TabIndex = 47
@@ -1044,17 +1082,17 @@ Partial Class UserDashboard
         cmbxemployment.ForeColor = Color.Black
         cmbxemployment.ItemHeight = 30
         cmbxemployment.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
-        cmbxemployment.Location = New Point(495, 481)
+        cmbxemployment.Location = New Point(521, 481)
         cmbxemployment.Name = "cmbxemployment"
         cmbxemployment.ShadowDecoration.CustomizableEdges = CustomizableEdges33
-        cmbxemployment.Size = New Size(315, 36)
+        cmbxemployment.Size = New Size(408, 36)
         cmbxemployment.TabIndex = 46
         ' 
         ' Label17
         ' 
         Label17.AutoSize = True
         Label17.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label17.Location = New Point(495, 453)
+        Label17.Location = New Point(521, 453)
         Label17.Name = "Label17"
         Label17.Size = New Size(172, 25)
         Label17.TabIndex = 43
@@ -1064,7 +1102,7 @@ Partial Class UserDashboard
         ' 
         Label16.AutoSize = True
         Label16.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label16.Location = New Point(495, 385)
+        Label16.Location = New Point(521, 385)
         Label16.Name = "Label16"
         Label16.Size = New Size(80, 25)
         Label16.TabIndex = 41
@@ -1083,20 +1121,20 @@ Partial Class UserDashboard
         txtbxlname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxlname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxlname.HoverState.ForeColor = Color.FromArgb(CByte(128), CByte(255), CByte(255))
-        txtbxlname.Location = New Point(60, 414)
+        txtbxlname.Location = New Point(86, 414)
         txtbxlname.Name = "txtbxlname"
         txtbxlname.PasswordChar = ChrW(0)
         txtbxlname.PlaceholderText = ""
         txtbxlname.SelectedText = ""
         txtbxlname.ShadowDecoration.CustomizableEdges = CustomizableEdges35
-        txtbxlname.Size = New Size(315, 36)
+        txtbxlname.Size = New Size(408, 36)
         txtbxlname.TabIndex = 40
         ' 
         ' Label15
         ' 
         Label15.AutoSize = True
         Label15.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label15.Location = New Point(60, 385)
+        Label15.Location = New Point(86, 385)
         Label15.Name = "Label15"
         Label15.Size = New Size(99, 25)
         Label15.TabIndex = 39
@@ -1115,20 +1153,20 @@ Partial Class UserDashboard
         txtbxmname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxmname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxmname.HoverState.ForeColor = Color.FromArgb(CByte(128), CByte(255), CByte(255))
-        txtbxmname.Location = New Point(60, 346)
+        txtbxmname.Location = New Point(86, 346)
         txtbxmname.Name = "txtbxmname"
         txtbxmname.PasswordChar = ChrW(0)
         txtbxmname.PlaceholderText = ""
         txtbxmname.SelectedText = ""
         txtbxmname.ShadowDecoration.CustomizableEdges = CustomizableEdges37
-        txtbxmname.Size = New Size(315, 36)
+        txtbxmname.Size = New Size(408, 36)
         txtbxmname.TabIndex = 38
         ' 
         ' Label14
         ' 
         Label14.AutoSize = True
         Label14.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label14.Location = New Point(60, 317)
+        Label14.Location = New Point(86, 317)
         Label14.Name = "Label14"
         Label14.Size = New Size(125, 25)
         Label14.TabIndex = 37
@@ -1147,20 +1185,20 @@ Partial Class UserDashboard
         txtbxfname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxfname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxfname.HoverState.ForeColor = Color.FromArgb(CByte(128), CByte(255), CByte(255))
-        txtbxfname.Location = New Point(60, 278)
+        txtbxfname.Location = New Point(86, 278)
         txtbxfname.Name = "txtbxfname"
         txtbxfname.PasswordChar = ChrW(0)
         txtbxfname.PlaceholderText = ""
         txtbxfname.SelectedText = ""
         txtbxfname.ShadowDecoration.CustomizableEdges = CustomizableEdges39
-        txtbxfname.Size = New Size(315, 36)
+        txtbxfname.Size = New Size(408, 36)
         txtbxfname.TabIndex = 36
         ' 
         ' Label13
         ' 
         Label13.AutoSize = True
         Label13.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label13.Location = New Point(60, 249)
+        Label13.Location = New Point(86, 249)
         Label13.Name = "Label13"
         Label13.Size = New Size(102, 25)
         Label13.TabIndex = 35
@@ -1179,20 +1217,20 @@ Partial Class UserDashboard
         txtbxpassword.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxpassword.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxpassword.HoverState.ForeColor = Color.FromArgb(CByte(128), CByte(255), CByte(255))
-        txtbxpassword.Location = New Point(60, 210)
+        txtbxpassword.Location = New Point(86, 210)
         txtbxpassword.Name = "txtbxpassword"
         txtbxpassword.PasswordChar = ChrW(0)
         txtbxpassword.PlaceholderText = ""
         txtbxpassword.SelectedText = ""
         txtbxpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges41
-        txtbxpassword.Size = New Size(315, 36)
+        txtbxpassword.Size = New Size(408, 36)
         txtbxpassword.TabIndex = 34
         ' 
         ' Label12
         ' 
         Label12.AutoSize = True
         Label12.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label12.Location = New Point(60, 181)
+        Label12.Location = New Point(86, 181)
         Label12.Name = "Label12"
         Label12.Size = New Size(90, 25)
         Label12.TabIndex = 33
@@ -1211,20 +1249,20 @@ Partial Class UserDashboard
         txtbxusername.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxusername.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxusername.HoverState.ForeColor = Color.FromArgb(CByte(128), CByte(255), CByte(255))
-        txtbxusername.Location = New Point(60, 142)
+        txtbxusername.Location = New Point(86, 142)
         txtbxusername.Name = "txtbxusername"
         txtbxusername.PasswordChar = ChrW(0)
         txtbxusername.PlaceholderText = ""
         txtbxusername.SelectedText = ""
         txtbxusername.ShadowDecoration.CustomizableEdges = CustomizableEdges43
-        txtbxusername.Size = New Size(315, 36)
+        txtbxusername.Size = New Size(408, 36)
         txtbxusername.TabIndex = 32
         ' 
         ' Label11
         ' 
         Label11.AutoSize = True
         Label11.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label11.Location = New Point(60, 113)
+        Label11.Location = New Point(86, 113)
         Label11.Name = "Label11"
         Label11.Size = New Size(96, 25)
         Label11.TabIndex = 31
@@ -1251,10 +1289,10 @@ Partial Class UserDashboard
         Guna2Button3.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Guna2Button3.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button3.ForeColor = Color.White
-        Guna2Button3.Location = New Point(61, 633)
+        Guna2Button3.Location = New Point(87, 613)
         Guna2Button3.Name = "Guna2Button3"
         Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges45
-        Guna2Button3.Size = New Size(145, 38)
+        Guna2Button3.Size = New Size(169, 49)
         Guna2Button3.TabIndex = 26
         Guna2Button3.Text = "Update"
         ' 
@@ -1301,7 +1339,7 @@ Partial Class UserDashboard
         Pcommittee.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Pcommittee.ForeColor = Color.Black
         Pcommittee.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pcommittee.Location = New Point(547, 443)
+        Pcommittee.Location = New Point(543, 443)
         Pcommittee.Name = "Pcommittee"
         Pcommittee.PasswordChar = ChrW(0)
         Pcommittee.PlaceholderText = ""
@@ -1334,7 +1372,7 @@ Partial Class UserDashboard
         Pposition.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Pposition.ForeColor = Color.Black
         Pposition.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pposition.Location = New Point(547, 384)
+        Pposition.Location = New Point(543, 384)
         Pposition.Name = "Pposition"
         Pposition.PasswordChar = ChrW(0)
         Pposition.PlaceholderText = ""
@@ -1367,7 +1405,7 @@ Partial Class UserDashboard
         Poffice.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Poffice.ForeColor = Color.Black
         Poffice.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Poffice.Location = New Point(546, 325)
+        Poffice.Location = New Point(543, 325)
         Poffice.Name = "Poffice"
         Poffice.PasswordChar = ChrW(0)
         Poffice.PlaceholderText = ""
@@ -1433,7 +1471,7 @@ Partial Class UserDashboard
         Pemail.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Pemail.ForeColor = Color.Black
         Pemail.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pemail.Location = New Point(102, 384)
+        Pemail.Location = New Point(100, 384)
         Pemail.Name = "Pemail"
         Pemail.PasswordChar = ChrW(0)
         Pemail.PlaceholderText = ""
@@ -1447,7 +1485,7 @@ Partial Class UserDashboard
         ' 
         Label8.AutoSize = True
         Label8.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label8.Location = New Point(102, 360)
+        Label8.Location = New Point(100, 360)
         Label8.Name = "Label8"
         Label8.Size = New Size(130, 21)
         Label8.TabIndex = 28
@@ -1499,7 +1537,7 @@ Partial Class UserDashboard
         Pbdate.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Pbdate.ForeColor = Color.Black
         Pbdate.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pbdate.Location = New Point(104, 443)
+        Pbdate.Location = New Point(100, 443)
         Pbdate.Name = "Pbdate"
         Pbdate.PasswordChar = ChrW(0)
         Pbdate.PlaceholderText = ""
@@ -1513,7 +1551,7 @@ Partial Class UserDashboard
         ' 
         Label6.AutoSize = True
         Label6.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label6.Location = New Point(104, 419)
+        Label6.Location = New Point(100, 419)
         Label6.Name = "Label6"
         Label6.Size = New Size(94, 21)
         Label6.TabIndex = 24
@@ -1627,44 +1665,6 @@ Partial Class UserDashboard
         Label2.Size = New Size(241, 20)
         Label2.TabIndex = 17
         Label2.Text = "Profile | Sweap monitoring system"
-        ' 
-        ' cmbxposition
-        ' 
-        cmbxposition.BackColor = Color.Transparent
-        cmbxposition.BorderRadius = 16
-        cmbxposition.CustomizableEdges = CustomizableEdges18
-        cmbxposition.DrawMode = DrawMode.OwnerDrawFixed
-        cmbxposition.DropDownStyle = ComboBoxStyle.DropDownList
-        cmbxposition.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        cmbxposition.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        cmbxposition.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        cmbxposition.ForeColor = Color.Black
-        cmbxposition.ItemHeight = 30
-        cmbxposition.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
-        cmbxposition.Location = New Point(495, 414)
-        cmbxposition.Name = "cmbxposition"
-        cmbxposition.ShadowDecoration.CustomizableEdges = CustomizableEdges19
-        cmbxposition.Size = New Size(315, 36)
-        cmbxposition.TabIndex = 64
-        ' 
-        ' cmbxoffice
-        ' 
-        cmbxoffice.BackColor = Color.Transparent
-        cmbxoffice.BorderRadius = 16
-        cmbxoffice.CustomizableEdges = CustomizableEdges16
-        cmbxoffice.DrawMode = DrawMode.OwnerDrawFixed
-        cmbxoffice.DropDownStyle = ComboBoxStyle.DropDownList
-        cmbxoffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        cmbxoffice.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        cmbxoffice.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        cmbxoffice.ForeColor = Color.Black
-        cmbxoffice.ItemHeight = 30
-        cmbxoffice.Items.AddRange(New Object() {"4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
-        cmbxoffice.Location = New Point(495, 341)
-        cmbxoffice.Name = "cmbxoffice"
-        cmbxoffice.ShadowDecoration.CustomizableEdges = CustomizableEdges17
-        cmbxoffice.Size = New Size(315, 36)
-        cmbxoffice.TabIndex = 65
         ' 
         ' UserDashboard
         ' 
