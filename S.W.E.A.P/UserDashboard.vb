@@ -16,20 +16,17 @@ Public Class UserDashboard
         lblFirst.Text = ""
         lblFname.Text = ""
         lblPosition.Text = ""
-        Pfname.Text = ""
-
-
     End Sub
 
     Private Sub bttnEmpl_Click(sender As Object, e As EventArgs) Handles bttnEmpl.Click
-        Guna2CustomGradientPanel1.Visible = True
+
         Guna2Panel1.Visible = False
         Guna2Panel2.Visible = False
     End Sub
 
     Private Sub bttnDash_Click(sender As Object, e As EventArgs) Handles bttnDash.Click
         Guna2Panel1.Visible = True
-        Guna2CustomGradientPanel1.Visible = False
+
         Guna2Panel2.Visible = False
     End Sub
 
@@ -41,6 +38,12 @@ Public Class UserDashboard
             Form1.Show()
             Me.Hide()
         End If
+    End Sub
+
+    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
+
+        Guna2Panel1.Visible = False
+        Guna2Panel2.Visible = True
     End Sub
 
     Private Sub UserDashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -74,14 +77,16 @@ Public Class UserDashboard
 
                 Pfname.Text = dr.GetString("fullName")
                 Padd.Text = dr.GetString("address")
+                Pcntact.Text = dr.GetString("contact")
                 Pemail.Text = dr.GetString("email")
                 Pbdate.Text = dr.GetDateTime("birthdate")
-                Pcntact.Text = dr.GetString("contact")
+
                 Peducational.Text = dr.GetString("educational")
                 Pemployment.Text = dr.GetString("employment_status")
                 Poffice.Text = dr.GetString("office")
-                Pcommittee.Text = dr.GetString("committee")
                 Pposition.Text = dr.GetString("position")
+                Pcommittee.Text = dr.GetString("committee")
+
 
                 txtbxusername.Text = dr.GetString("username")
                 txtbxpassword.Text = dr.GetString("password")
@@ -151,11 +156,7 @@ Public Class UserDashboard
         Update()
     End Sub
 
-    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
-        Guna2CustomGradientPanel1.Visible = False
-        Guna2Panel1.Visible = False
-        Guna2Panel2.Visible = True
-    End Sub
+
 
     Private Sub Label25_Click(sender As Object, e As EventArgs) Handles Label25.Click
 
