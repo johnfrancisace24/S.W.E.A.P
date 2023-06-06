@@ -83,10 +83,6 @@ Partial Class UserDashboard
         Dim CustomizableEdges107 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -135,6 +131,10 @@ Partial Class UserDashboard
         Dim CustomizableEdges65 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges66 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges67 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
@@ -178,7 +178,6 @@ Partial Class UserDashboard
         lblFirst = New Label()
         Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         txtbxbdate = New Guna.UI2.WinForms.Guna2DateTimePicker()
-        cmbxoffice = New Guna.UI2.WinForms.Guna2ComboBox()
         Label18 = New Label()
         cmbxcomm = New Guna.UI2.WinForms.Guna2ComboBox()
         Label19 = New Label()
@@ -192,7 +191,6 @@ Partial Class UserDashboard
         txtbxadds = New Guna.UI2.WinForms.Guna2TextBox()
         Label24 = New Label()
         cmbxemployment = New Guna.UI2.WinForms.Guna2ComboBox()
-        cmbxposition = New Guna.UI2.WinForms.Guna2ComboBox()
         Label17 = New Label()
         Label16 = New Label()
         txtbxlname = New Guna.UI2.WinForms.Guna2TextBox()
@@ -229,6 +227,8 @@ Partial Class UserDashboard
         Pfname = New Guna.UI2.WinForms.Guna2TextBox()
         Label3 = New Label()
         Label2 = New Label()
+        cmbxposition = New Guna.UI2.WinForms.Guna2ComboBox()
+        cmbxoffice = New Guna.UI2.WinForms.Guna2ComboBox()
         Guna2GradientPanel1.SuspendLayout()
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
@@ -468,7 +468,7 @@ Partial Class UserDashboard
         imgProfile.BackgroundImageLayout = ImageLayout.None
         imgProfile.Image = My.Resources.Resources.profile__3_
         imgProfile.ImageRotate = 0F
-        imgProfile.Location = New Point(33, 4)
+        imgProfile.Location = New Point(46, 4)
         imgProfile.Name = "imgProfile"
         imgProfile.ShadowDecoration.Color = Color.WhiteSmoke
         imgProfile.ShadowDecoration.CustomizableEdges = CustomizableEdges13
@@ -800,8 +800,9 @@ Partial Class UserDashboard
         ' 
         ' Guna2Panel2
         ' 
-        Guna2Panel2.Controls.Add(txtbxbdate)
         Guna2Panel2.Controls.Add(cmbxoffice)
+        Guna2Panel2.Controls.Add(cmbxposition)
+        Guna2Panel2.Controls.Add(txtbxbdate)
         Guna2Panel2.Controls.Add(Label18)
         Guna2Panel2.Controls.Add(cmbxcomm)
         Guna2Panel2.Controls.Add(Label19)
@@ -815,7 +816,6 @@ Partial Class UserDashboard
         Guna2Panel2.Controls.Add(txtbxadds)
         Guna2Panel2.Controls.Add(Label24)
         Guna2Panel2.Controls.Add(cmbxemployment)
-        Guna2Panel2.Controls.Add(cmbxposition)
         Guna2Panel2.Controls.Add(Label17)
         Guna2Panel2.Controls.Add(Label16)
         Guna2Panel2.Controls.Add(txtbxlname)
@@ -842,35 +842,17 @@ Partial Class UserDashboard
         ' 
         txtbxbdate.BorderRadius = 16
         txtbxbdate.Checked = True
-        txtbxbdate.CustomizableEdges = CustomizableEdges16
+        txtbxbdate.CustomizableEdges = CustomizableEdges20
         txtbxbdate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxbdate.Format = DateTimePickerFormat.Long
         txtbxbdate.Location = New Point(495, 138)
         txtbxbdate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         txtbxbdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         txtbxbdate.Name = "txtbxbdate"
-        txtbxbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges17
+        txtbxbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges21
         txtbxbdate.Size = New Size(315, 36)
         txtbxbdate.TabIndex = 62
         txtbxbdate.Value = New Date(2023, 6, 6, 13, 54, 41, 766)
-        ' 
-        ' cmbxoffice
-        ' 
-        cmbxoffice.BackColor = Color.Transparent
-        cmbxoffice.BorderRadius = 16
-        cmbxoffice.CustomizableEdges = CustomizableEdges18
-        cmbxoffice.DrawMode = DrawMode.OwnerDrawFixed
-        cmbxoffice.DropDownStyle = ComboBoxStyle.DropDownList
-        cmbxoffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        cmbxoffice.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        cmbxoffice.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        cmbxoffice.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        cmbxoffice.ItemHeight = 30
-        cmbxoffice.Location = New Point(495, 341)
-        cmbxoffice.Name = "cmbxoffice"
-        cmbxoffice.ShadowDecoration.CustomizableEdges = CustomizableEdges19
-        cmbxoffice.Size = New Size(315, 36)
-        cmbxoffice.TabIndex = 61
         ' 
         ' Label18
         ' 
@@ -886,7 +868,7 @@ Partial Class UserDashboard
         ' 
         cmbxcomm.BackColor = Color.Transparent
         cmbxcomm.BorderRadius = 16
-        cmbxcomm.CustomizableEdges = CustomizableEdges20
+        cmbxcomm.CustomizableEdges = CustomizableEdges22
         cmbxcomm.DrawMode = DrawMode.OwnerDrawFixed
         cmbxcomm.DropDownStyle = ComboBoxStyle.DropDownList
         cmbxcomm.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -894,9 +876,10 @@ Partial Class UserDashboard
         cmbxcomm.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
         cmbxcomm.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         cmbxcomm.ItemHeight = 30
+        cmbxcomm.Items.AddRange(New Object() {"Education, Information & Research", "Organizing & Membership", "Grievances", "Welfare", "Finance", "Sports & Culture"})
         cmbxcomm.Location = New Point(495, 553)
         cmbxcomm.Name = "cmbxcomm"
-        cmbxcomm.ShadowDecoration.CustomizableEdges = CustomizableEdges21
+        cmbxcomm.ShadowDecoration.CustomizableEdges = CustomizableEdges23
         cmbxcomm.Size = New Size(315, 36)
         cmbxcomm.TabIndex = 59
         ' 
@@ -923,7 +906,7 @@ Partial Class UserDashboard
         ' txtbxeduc
         ' 
         txtbxeduc.BorderRadius = 16
-        txtbxeduc.CustomizableEdges = CustomizableEdges22
+        txtbxeduc.CustomizableEdges = CustomizableEdges24
         txtbxeduc.DefaultText = ""
         txtbxeduc.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxeduc.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -938,7 +921,7 @@ Partial Class UserDashboard
         txtbxeduc.PasswordChar = ChrW(0)
         txtbxeduc.PlaceholderText = ""
         txtbxeduc.SelectedText = ""
-        txtbxeduc.ShadowDecoration.CustomizableEdges = CustomizableEdges23
+        txtbxeduc.ShadowDecoration.CustomizableEdges = CustomizableEdges25
         txtbxeduc.Size = New Size(315, 36)
         txtbxeduc.TabIndex = 54
         ' 
@@ -955,7 +938,7 @@ Partial Class UserDashboard
         ' txtbxemail
         ' 
         txtbxemail.BorderRadius = 16
-        txtbxemail.CustomizableEdges = CustomizableEdges24
+        txtbxemail.CustomizableEdges = CustomizableEdges26
         txtbxemail.DefaultText = ""
         txtbxemail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxemail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -970,7 +953,7 @@ Partial Class UserDashboard
         txtbxemail.PasswordChar = ChrW(0)
         txtbxemail.PlaceholderText = ""
         txtbxemail.SelectedText = ""
-        txtbxemail.ShadowDecoration.CustomizableEdges = CustomizableEdges25
+        txtbxemail.ShadowDecoration.CustomizableEdges = CustomizableEdges27
         txtbxemail.Size = New Size(315, 36)
         txtbxemail.TabIndex = 52
         ' 
@@ -987,7 +970,7 @@ Partial Class UserDashboard
         ' txtbxcontact
         ' 
         txtbxcontact.BorderRadius = 16
-        txtbxcontact.CustomizableEdges = CustomizableEdges26
+        txtbxcontact.CustomizableEdges = CustomizableEdges28
         txtbxcontact.DefaultText = ""
         txtbxcontact.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxcontact.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1002,7 +985,7 @@ Partial Class UserDashboard
         txtbxcontact.PasswordChar = ChrW(0)
         txtbxcontact.PlaceholderText = ""
         txtbxcontact.SelectedText = ""
-        txtbxcontact.ShadowDecoration.CustomizableEdges = CustomizableEdges27
+        txtbxcontact.ShadowDecoration.CustomizableEdges = CustomizableEdges29
         txtbxcontact.Size = New Size(315, 36)
         txtbxcontact.TabIndex = 50
         ' 
@@ -1019,7 +1002,7 @@ Partial Class UserDashboard
         ' txtbxadds
         ' 
         txtbxadds.BorderRadius = 16
-        txtbxadds.CustomizableEdges = CustomizableEdges28
+        txtbxadds.CustomizableEdges = CustomizableEdges30
         txtbxadds.DefaultText = ""
         txtbxadds.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxadds.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1034,7 +1017,7 @@ Partial Class UserDashboard
         txtbxadds.PasswordChar = ChrW(0)
         txtbxadds.PlaceholderText = ""
         txtbxadds.SelectedText = ""
-        txtbxadds.ShadowDecoration.CustomizableEdges = CustomizableEdges29
+        txtbxadds.ShadowDecoration.CustomizableEdges = CustomizableEdges31
         txtbxadds.Size = New Size(315, 36)
         txtbxadds.TabIndex = 48
         ' 
@@ -1052,37 +1035,20 @@ Partial Class UserDashboard
         ' 
         cmbxemployment.BackColor = Color.Transparent
         cmbxemployment.BorderRadius = 16
-        cmbxemployment.CustomizableEdges = CustomizableEdges30
+        cmbxemployment.CustomizableEdges = CustomizableEdges32
         cmbxemployment.DrawMode = DrawMode.OwnerDrawFixed
         cmbxemployment.DropDownStyle = ComboBoxStyle.DropDownList
         cmbxemployment.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         cmbxemployment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         cmbxemployment.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        cmbxemployment.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        cmbxemployment.ForeColor = Color.Black
         cmbxemployment.ItemHeight = 30
+        cmbxemployment.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
         cmbxemployment.Location = New Point(495, 481)
         cmbxemployment.Name = "cmbxemployment"
-        cmbxemployment.ShadowDecoration.CustomizableEdges = CustomizableEdges31
+        cmbxemployment.ShadowDecoration.CustomizableEdges = CustomizableEdges33
         cmbxemployment.Size = New Size(315, 36)
         cmbxemployment.TabIndex = 46
-        ' 
-        ' cmbxposition
-        ' 
-        cmbxposition.BackColor = Color.Transparent
-        cmbxposition.BorderRadius = 16
-        cmbxposition.CustomizableEdges = CustomizableEdges32
-        cmbxposition.DrawMode = DrawMode.OwnerDrawFixed
-        cmbxposition.DropDownStyle = ComboBoxStyle.DropDownList
-        cmbxposition.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        cmbxposition.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        cmbxposition.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        cmbxposition.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        cmbxposition.ItemHeight = 30
-        cmbxposition.Location = New Point(495, 413)
-        cmbxposition.Name = "cmbxposition"
-        cmbxposition.ShadowDecoration.CustomizableEdges = CustomizableEdges33
-        cmbxposition.Size = New Size(315, 36)
-        cmbxposition.TabIndex = 45
         ' 
         ' Label17
         ' 
@@ -1662,6 +1628,44 @@ Partial Class UserDashboard
         Label2.TabIndex = 17
         Label2.Text = "Profile | Sweap monitoring system"
         ' 
+        ' cmbxposition
+        ' 
+        cmbxposition.BackColor = Color.Transparent
+        cmbxposition.BorderRadius = 16
+        cmbxposition.CustomizableEdges = CustomizableEdges18
+        cmbxposition.DrawMode = DrawMode.OwnerDrawFixed
+        cmbxposition.DropDownStyle = ComboBoxStyle.DropDownList
+        cmbxposition.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cmbxposition.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cmbxposition.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        cmbxposition.ForeColor = Color.Black
+        cmbxposition.ItemHeight = 30
+        cmbxposition.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
+        cmbxposition.Location = New Point(495, 414)
+        cmbxposition.Name = "cmbxposition"
+        cmbxposition.ShadowDecoration.CustomizableEdges = CustomizableEdges19
+        cmbxposition.Size = New Size(315, 36)
+        cmbxposition.TabIndex = 64
+        ' 
+        ' cmbxoffice
+        ' 
+        cmbxoffice.BackColor = Color.Transparent
+        cmbxoffice.BorderRadius = 16
+        cmbxoffice.CustomizableEdges = CustomizableEdges16
+        cmbxoffice.DrawMode = DrawMode.OwnerDrawFixed
+        cmbxoffice.DropDownStyle = ComboBoxStyle.DropDownList
+        cmbxoffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cmbxoffice.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cmbxoffice.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        cmbxoffice.ForeColor = Color.Black
+        cmbxoffice.ItemHeight = 30
+        cmbxoffice.Items.AddRange(New Object() {"4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
+        cmbxoffice.Location = New Point(495, 341)
+        cmbxoffice.Name = "cmbxoffice"
+        cmbxoffice.ShadowDecoration.CustomizableEdges = CustomizableEdges17
+        cmbxoffice.Size = New Size(315, 36)
+        cmbxoffice.TabIndex = 65
+        ' 
         ' UserDashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -1760,7 +1764,6 @@ Partial Class UserDashboard
     Friend WithEvents Label31 As Label
     Friend WithEvents txtbxusername As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label11 As Label
-    Friend WithEvents cmbxposition As Guna.UI2.WinForms.Guna2ComboBox
     Friend WithEvents Label17 As Label
     Friend WithEvents Label16 As Label
     Friend WithEvents txtbxlname As Guna.UI2.WinForms.Guna2TextBox
@@ -1783,7 +1786,8 @@ Partial Class UserDashboard
     Friend WithEvents txtbxadds As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label24 As Label
     Friend WithEvents cmbxemployment As Guna.UI2.WinForms.Guna2ComboBox
-    Friend WithEvents cmbxoffice As Guna.UI2.WinForms.Guna2ComboBox
     Friend WithEvents Label18 As Label
     Friend WithEvents txtbxbdate As Guna.UI2.WinForms.Guna2DateTimePicker
+    Friend WithEvents cmbxposition As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents cmbxoffice As Guna.UI2.WinForms.Guna2ComboBox
 End Class
