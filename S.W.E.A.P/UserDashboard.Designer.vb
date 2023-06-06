@@ -39,32 +39,10 @@ Partial Class UserDashboard
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges78 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges79 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -73,16 +51,18 @@ Partial Class UserDashboard
         Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges79 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges80 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges77 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges59 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges60 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -101,11 +81,9 @@ Partial Class UserDashboard
         Dim CustomizableEdges73 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges74 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges75 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges77 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges78 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges101 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges102 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges80 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges81 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges82 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges83 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -126,14 +104,36 @@ Partial Class UserDashboard
         Dim CustomizableEdges98 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges99 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges100 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
-        Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
+        bttnAcc = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         pnlDas = New Guna.UI2.WinForms.Guna2Panel()
         pnlEm = New Guna.UI2.WinForms.Guna2Panel()
-        bttnEmpl = New Guna.UI2.WinForms.Guna2Button()
+        bttnProf = New Guna.UI2.WinForms.Guna2Button()
         bttnDash = New Guna.UI2.WinForms.Guna2Button()
         Panel1 = New Panel()
         lblPosition = New Label()
@@ -244,11 +244,11 @@ Partial Class UserDashboard
         ' 
         Guna2GradientPanel1.BackColor = Color.DarkRed
         Guna2GradientPanel1.BackgroundImageLayout = ImageLayout.Stretch
-        Guna2GradientPanel1.Controls.Add(Guna2Button2)
+        Guna2GradientPanel1.Controls.Add(bttnAcc)
         Guna2GradientPanel1.Controls.Add(Guna2Button1)
         Guna2GradientPanel1.Controls.Add(pnlDas)
         Guna2GradientPanel1.Controls.Add(pnlEm)
-        Guna2GradientPanel1.Controls.Add(bttnEmpl)
+        Guna2GradientPanel1.Controls.Add(bttnProf)
         Guna2GradientPanel1.Controls.Add(bttnDash)
         Guna2GradientPanel1.Controls.Add(Panel1)
         Guna2GradientPanel1.CustomizableEdges = CustomizableEdges14
@@ -262,37 +262,37 @@ Partial Class UserDashboard
         Guna2GradientPanel1.Size = New Size(254, 798)
         Guna2GradientPanel1.TabIndex = 3
         ' 
-        ' Guna2Button2
+        ' bttnAcc
         ' 
-        Guna2Button2.Animated = True
-        Guna2Button2.BorderColor = Color.White
-        Guna2Button2.CustomizableEdges = CustomizableEdges1
-        Guna2Button2.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button2.Dock = DockStyle.Bottom
-        Guna2Button2.FillColor = Color.Transparent
-        Guna2Button2.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2Button2.ForeColor = Color.White
-        Guna2Button2.HoverState.BorderColor = Color.Black
-        Guna2Button2.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
-        Guna2Button2.HoverState.ForeColor = Color.Black
-        Guna2Button2.HoverState.Image = CType(resources.GetObject("resource.Image"), Image)
-        Guna2Button2.Image = CType(resources.GetObject("Guna2Button2.Image"), Image)
-        Guna2Button2.ImageAlign = HorizontalAlignment.Left
-        Guna2Button2.ImageOffset = New Point(12, 0)
-        Guna2Button2.ImageSize = New Size(30, 30)
-        Guna2Button2.Location = New Point(0, 700)
-        Guna2Button2.Margin = New Padding(4, 3, 4, 3)
-        Guna2Button2.Name = "Guna2Button2"
-        Guna2Button2.Padding = New Padding(33, 0, 0, 0)
-        Guna2Button2.PressedColor = Color.Yellow
-        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2Button2.Size = New Size(254, 49)
-        Guna2Button2.TabIndex = 10
-        Guna2Button2.Text = "Account setting"
-        Guna2Button2.TextAlign = HorizontalAlignment.Left
+        bttnAcc.Animated = True
+        bttnAcc.BorderColor = Color.White
+        bttnAcc.CustomizableEdges = CustomizableEdges1
+        bttnAcc.DisabledState.BorderColor = Color.DarkGray
+        bttnAcc.DisabledState.CustomBorderColor = Color.DarkGray
+        bttnAcc.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        bttnAcc.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        bttnAcc.Dock = DockStyle.Bottom
+        bttnAcc.FillColor = Color.Transparent
+        bttnAcc.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        bttnAcc.ForeColor = Color.White
+        bttnAcc.HoverState.BorderColor = Color.Black
+        bttnAcc.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
+        bttnAcc.HoverState.ForeColor = Color.Black
+        bttnAcc.HoverState.Image = CType(resources.GetObject("resource.Image"), Image)
+        bttnAcc.Image = CType(resources.GetObject("bttnAcc.Image"), Image)
+        bttnAcc.ImageAlign = HorizontalAlignment.Left
+        bttnAcc.ImageOffset = New Point(12, 0)
+        bttnAcc.ImageSize = New Size(30, 30)
+        bttnAcc.Location = New Point(0, 700)
+        bttnAcc.Margin = New Padding(4, 3, 4, 3)
+        bttnAcc.Name = "bttnAcc"
+        bttnAcc.Padding = New Padding(33, 0, 0, 0)
+        bttnAcc.PressedColor = Color.Yellow
+        bttnAcc.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        bttnAcc.Size = New Size(254, 49)
+        bttnAcc.TabIndex = 10
+        bttnAcc.Text = "Account setting"
+        bttnAcc.TextAlign = HorizontalAlignment.Left
         ' 
         ' Guna2Button1
         ' 
@@ -310,7 +310,7 @@ Partial Class UserDashboard
         Guna2Button1.HoverState.BorderColor = Color.Black
         Guna2Button1.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
         Guna2Button1.HoverState.ForeColor = Color.Black
-        Guna2Button1.HoverState.Image = My.Resources.Resources.company
+        Guna2Button1.HoverState.Image = My.Resources.Resources._exit
         Guna2Button1.Image = My.Resources.Resources.exit__1_
         Guna2Button1.ImageAlign = HorizontalAlignment.Left
         Guna2Button1.ImageOffset = New Point(17, 0)
@@ -344,37 +344,37 @@ Partial Class UserDashboard
         pnlEm.Size = New Size(5, 40)
         pnlEm.TabIndex = 6
         ' 
-        ' bttnEmpl
+        ' bttnProf
         ' 
-        bttnEmpl.Animated = True
-        bttnEmpl.BorderColor = Color.White
-        bttnEmpl.CustomizableEdges = CustomizableEdges9
-        bttnEmpl.DisabledState.BorderColor = Color.DarkGray
-        bttnEmpl.DisabledState.CustomBorderColor = Color.DarkGray
-        bttnEmpl.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        bttnEmpl.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        bttnEmpl.Dock = DockStyle.Top
-        bttnEmpl.FillColor = Color.Transparent
-        bttnEmpl.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        bttnEmpl.ForeColor = Color.White
-        bttnEmpl.HoverState.BorderColor = Color.Black
-        bttnEmpl.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
-        bttnEmpl.HoverState.ForeColor = Color.Black
-        bttnEmpl.HoverState.Image = My.Resources.Resources.company
-        bttnEmpl.Image = My.Resources.Resources.employees
-        bttnEmpl.ImageAlign = HorizontalAlignment.Left
-        bttnEmpl.ImageOffset = New Point(12, 0)
-        bttnEmpl.ImageSize = New Size(30, 30)
-        bttnEmpl.Location = New Point(0, 306)
-        bttnEmpl.Margin = New Padding(4, 3, 4, 3)
-        bttnEmpl.Name = "bttnEmpl"
-        bttnEmpl.Padding = New Padding(30, 0, 0, 0)
-        bttnEmpl.PressedColor = Color.Yellow
-        bttnEmpl.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        bttnEmpl.Size = New Size(254, 49)
-        bttnEmpl.TabIndex = 2
-        bttnEmpl.Text = "Profile"
-        bttnEmpl.TextAlign = HorizontalAlignment.Left
+        bttnProf.Animated = True
+        bttnProf.BorderColor = Color.White
+        bttnProf.CustomizableEdges = CustomizableEdges9
+        bttnProf.DisabledState.BorderColor = Color.DarkGray
+        bttnProf.DisabledState.CustomBorderColor = Color.DarkGray
+        bttnProf.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        bttnProf.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        bttnProf.Dock = DockStyle.Top
+        bttnProf.FillColor = Color.Transparent
+        bttnProf.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        bttnProf.ForeColor = Color.White
+        bttnProf.HoverState.BorderColor = Color.Black
+        bttnProf.HoverState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
+        bttnProf.HoverState.ForeColor = Color.Black
+        bttnProf.HoverState.Image = My.Resources.Resources.company
+        bttnProf.Image = My.Resources.Resources.employees
+        bttnProf.ImageAlign = HorizontalAlignment.Left
+        bttnProf.ImageOffset = New Point(12, 0)
+        bttnProf.ImageSize = New Size(30, 30)
+        bttnProf.Location = New Point(0, 306)
+        bttnProf.Margin = New Padding(4, 3, 4, 3)
+        bttnProf.Name = "bttnProf"
+        bttnProf.Padding = New Padding(30, 0, 0, 0)
+        bttnProf.PressedColor = Color.Yellow
+        bttnProf.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        bttnProf.Size = New Size(254, 49)
+        bttnProf.TabIndex = 2
+        bttnProf.Text = "Profile"
+        bttnProf.TextAlign = HorizontalAlignment.Left
         ' 
         ' bttnDash
         ' 
@@ -493,10 +493,10 @@ Partial Class UserDashboard
         Guna2Panel1.Controls.Add(Label25)
         Guna2Panel1.Controls.Add(Guna2Panel3)
         Guna2Panel1.Controls.Add(lblFirst)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges56
+        Guna2Panel1.CustomizableEdges = CustomizableEdges78
         Guna2Panel1.Location = New Point(254, 53)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges57
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges79
         Guna2Panel1.Size = New Size(870, 745)
         Guna2Panel1.TabIndex = 4
         ' 
@@ -506,20 +506,20 @@ Partial Class UserDashboard
         Guna2Panel6.Controls.Add(Guna2ProgressBar15)
         Guna2Panel6.Controls.Add(Guna2ProgressBar16)
         Guna2Panel6.Controls.Add(Guna2ProgressBar17)
-        Guna2Panel6.CustomizableEdges = CustomizableEdges24
+        Guna2Panel6.CustomizableEdges = CustomizableEdges46
         Guna2Panel6.FillColor = Color.FromArgb(CByte(252), CByte(155), CByte(0))
         Guna2Panel6.Location = New Point(460, 503)
         Guna2Panel6.Name = "Guna2Panel6"
-        Guna2Panel6.ShadowDecoration.CustomizableEdges = CustomizableEdges25
+        Guna2Panel6.ShadowDecoration.CustomizableEdges = CustomizableEdges47
         Guna2Panel6.Size = New Size(375, 184)
         Guna2Panel6.TabIndex = 18
         ' 
         ' Guna2ProgressBar14
         ' 
-        Guna2ProgressBar14.CustomizableEdges = CustomizableEdges16
+        Guna2ProgressBar14.CustomizableEdges = CustomizableEdges38
         Guna2ProgressBar14.Location = New Point(173, 90)
         Guna2ProgressBar14.Name = "Guna2ProgressBar14"
-        Guna2ProgressBar14.ShadowDecoration.CustomizableEdges = CustomizableEdges17
+        Guna2ProgressBar14.ShadowDecoration.CustomizableEdges = CustomizableEdges39
         Guna2ProgressBar14.Size = New Size(23, 82)
         Guna2ProgressBar14.TabIndex = 18
         Guna2ProgressBar14.Text = "Guna2ProgressBar14"
@@ -527,10 +527,10 @@ Partial Class UserDashboard
         ' 
         ' Guna2ProgressBar15
         ' 
-        Guna2ProgressBar15.CustomizableEdges = CustomizableEdges18
+        Guna2ProgressBar15.CustomizableEdges = CustomizableEdges40
         Guna2ProgressBar15.Location = New Point(34, 90)
         Guna2ProgressBar15.Name = "Guna2ProgressBar15"
-        Guna2ProgressBar15.ShadowDecoration.CustomizableEdges = CustomizableEdges19
+        Guna2ProgressBar15.ShadowDecoration.CustomizableEdges = CustomizableEdges41
         Guna2ProgressBar15.Size = New Size(23, 82)
         Guna2ProgressBar15.TabIndex = 15
         Guna2ProgressBar15.Text = "Guna2ProgressBar15"
@@ -538,10 +538,10 @@ Partial Class UserDashboard
         ' 
         ' Guna2ProgressBar16
         ' 
-        Guna2ProgressBar16.CustomizableEdges = CustomizableEdges20
+        Guna2ProgressBar16.CustomizableEdges = CustomizableEdges42
         Guna2ProgressBar16.Location = New Point(131, 125)
         Guna2ProgressBar16.Name = "Guna2ProgressBar16"
-        Guna2ProgressBar16.ShadowDecoration.CustomizableEdges = CustomizableEdges21
+        Guna2ProgressBar16.ShadowDecoration.CustomizableEdges = CustomizableEdges43
         Guna2ProgressBar16.Size = New Size(23, 47)
         Guna2ProgressBar16.TabIndex = 17
         Guna2ProgressBar16.Text = "Guna2ProgressBar16"
@@ -549,10 +549,10 @@ Partial Class UserDashboard
         ' 
         ' Guna2ProgressBar17
         ' 
-        Guna2ProgressBar17.CustomizableEdges = CustomizableEdges22
+        Guna2ProgressBar17.CustomizableEdges = CustomizableEdges44
         Guna2ProgressBar17.Location = New Point(81, 152)
         Guna2ProgressBar17.Name = "Guna2ProgressBar17"
-        Guna2ProgressBar17.ShadowDecoration.CustomizableEdges = CustomizableEdges23
+        Guna2ProgressBar17.ShadowDecoration.CustomizableEdges = CustomizableEdges45
         Guna2ProgressBar17.Size = New Size(23, 21)
         Guna2ProgressBar17.TabIndex = 16
         Guna2ProgressBar17.Text = "Guna2ProgressBar17"
@@ -584,20 +584,20 @@ Partial Class UserDashboard
         Guna2Panel4.Controls.Add(Guna2ProgressBar13)
         Guna2Panel4.Controls.Add(Guna2ProgressBar11)
         Guna2Panel4.Controls.Add(Guna2ProgressBar12)
-        Guna2Panel4.CustomizableEdges = CustomizableEdges34
+        Guna2Panel4.CustomizableEdges = CustomizableEdges56
         Guna2Panel4.FillColor = Color.FromArgb(CByte(252), CByte(155), CByte(0))
         Guna2Panel4.Location = New Point(34, 501)
         Guna2Panel4.Name = "Guna2Panel4"
-        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges35
+        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges57
         Guna2Panel4.Size = New Size(375, 184)
         Guna2Panel4.TabIndex = 15
         ' 
         ' Guna2ProgressBar10
         ' 
-        Guna2ProgressBar10.CustomizableEdges = CustomizableEdges26
+        Guna2ProgressBar10.CustomizableEdges = CustomizableEdges48
         Guna2ProgressBar10.Location = New Point(173, 90)
         Guna2ProgressBar10.Name = "Guna2ProgressBar10"
-        Guna2ProgressBar10.ShadowDecoration.CustomizableEdges = CustomizableEdges27
+        Guna2ProgressBar10.ShadowDecoration.CustomizableEdges = CustomizableEdges49
         Guna2ProgressBar10.Size = New Size(23, 82)
         Guna2ProgressBar10.TabIndex = 18
         Guna2ProgressBar10.Text = "Guna2ProgressBar10"
@@ -605,10 +605,10 @@ Partial Class UserDashboard
         ' 
         ' Guna2ProgressBar13
         ' 
-        Guna2ProgressBar13.CustomizableEdges = CustomizableEdges28
+        Guna2ProgressBar13.CustomizableEdges = CustomizableEdges50
         Guna2ProgressBar13.Location = New Point(34, 90)
         Guna2ProgressBar13.Name = "Guna2ProgressBar13"
-        Guna2ProgressBar13.ShadowDecoration.CustomizableEdges = CustomizableEdges29
+        Guna2ProgressBar13.ShadowDecoration.CustomizableEdges = CustomizableEdges51
         Guna2ProgressBar13.Size = New Size(23, 82)
         Guna2ProgressBar13.TabIndex = 15
         Guna2ProgressBar13.Text = "Guna2ProgressBar13"
@@ -616,10 +616,10 @@ Partial Class UserDashboard
         ' 
         ' Guna2ProgressBar11
         ' 
-        Guna2ProgressBar11.CustomizableEdges = CustomizableEdges30
+        Guna2ProgressBar11.CustomizableEdges = CustomizableEdges52
         Guna2ProgressBar11.Location = New Point(131, 125)
         Guna2ProgressBar11.Name = "Guna2ProgressBar11"
-        Guna2ProgressBar11.ShadowDecoration.CustomizableEdges = CustomizableEdges31
+        Guna2ProgressBar11.ShadowDecoration.CustomizableEdges = CustomizableEdges53
         Guna2ProgressBar11.Size = New Size(23, 47)
         Guna2ProgressBar11.TabIndex = 17
         Guna2ProgressBar11.Text = "Guna2ProgressBar11"
@@ -627,10 +627,10 @@ Partial Class UserDashboard
         ' 
         ' Guna2ProgressBar12
         ' 
-        Guna2ProgressBar12.CustomizableEdges = CustomizableEdges32
+        Guna2ProgressBar12.CustomizableEdges = CustomizableEdges54
         Guna2ProgressBar12.Location = New Point(81, 152)
         Guna2ProgressBar12.Name = "Guna2ProgressBar12"
-        Guna2ProgressBar12.ShadowDecoration.CustomizableEdges = CustomizableEdges33
+        Guna2ProgressBar12.ShadowDecoration.CustomizableEdges = CustomizableEdges55
         Guna2ProgressBar12.Size = New Size(23, 21)
         Guna2ProgressBar12.TabIndex = 16
         Guna2ProgressBar12.Text = "Guna2ProgressBar12"
@@ -668,20 +668,20 @@ Partial Class UserDashboard
         Guna2Panel3.Controls.Add(Guna2ProgressBar3)
         Guna2Panel3.Controls.Add(Guna2ProgressBar2)
         Guna2Panel3.Controls.Add(Guna2ProgressBar1)
-        Guna2Panel3.CustomizableEdges = CustomizableEdges54
+        Guna2Panel3.CustomizableEdges = CustomizableEdges76
         Guna2Panel3.FillColor = Color.FromArgb(CByte(82), CByte(175), CByte(85))
         Guna2Panel3.Location = New Point(35, 141)
         Guna2Panel3.Name = "Guna2Panel3"
-        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges55
+        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges77
         Guna2Panel3.Size = New Size(797, 307)
         Guna2Panel3.TabIndex = 8
         ' 
         ' Guna2ProgressBar9
         ' 
-        Guna2ProgressBar9.CustomizableEdges = CustomizableEdges36
+        Guna2ProgressBar9.CustomizableEdges = CustomizableEdges58
         Guna2ProgressBar9.Location = New Point(517, 127)
         Guna2ProgressBar9.Name = "Guna2ProgressBar9"
-        Guna2ProgressBar9.ShadowDecoration.CustomizableEdges = CustomizableEdges37
+        Guna2ProgressBar9.ShadowDecoration.CustomizableEdges = CustomizableEdges59
         Guna2ProgressBar9.Size = New Size(23, 158)
         Guna2ProgressBar9.TabIndex = 14
         Guna2ProgressBar9.Text = "Guna2ProgressBar9"
@@ -689,10 +689,10 @@ Partial Class UserDashboard
         ' 
         ' Guna2ProgressBar8
         ' 
-        Guna2ProgressBar8.CustomizableEdges = CustomizableEdges38
+        Guna2ProgressBar8.CustomizableEdges = CustomizableEdges60
         Guna2ProgressBar8.Location = New Point(475, 155)
         Guna2ProgressBar8.Name = "Guna2ProgressBar8"
-        Guna2ProgressBar8.ShadowDecoration.CustomizableEdges = CustomizableEdges39
+        Guna2ProgressBar8.ShadowDecoration.CustomizableEdges = CustomizableEdges61
         Guna2ProgressBar8.Size = New Size(23, 130)
         Guna2ProgressBar8.TabIndex = 13
         Guna2ProgressBar8.Text = "Guna2ProgressBar8"
@@ -700,10 +700,10 @@ Partial Class UserDashboard
         ' 
         ' Guna2ProgressBar7
         ' 
-        Guna2ProgressBar7.CustomizableEdges = CustomizableEdges40
+        Guna2ProgressBar7.CustomizableEdges = CustomizableEdges62
         Guna2ProgressBar7.Location = New Point(425, 265)
         Guna2ProgressBar7.Name = "Guna2ProgressBar7"
-        Guna2ProgressBar7.ShadowDecoration.CustomizableEdges = CustomizableEdges41
+        Guna2ProgressBar7.ShadowDecoration.CustomizableEdges = CustomizableEdges63
         Guna2ProgressBar7.Size = New Size(23, 21)
         Guna2ProgressBar7.TabIndex = 12
         Guna2ProgressBar7.Text = "Guna2ProgressBar7"
@@ -711,10 +711,10 @@ Partial Class UserDashboard
         ' 
         ' Guna2ProgressBar6
         ' 
-        Guna2ProgressBar6.CustomizableEdges = CustomizableEdges42
+        Guna2ProgressBar6.CustomizableEdges = CustomizableEdges64
         Guna2ProgressBar6.Location = New Point(378, 139)
         Guna2ProgressBar6.Name = "Guna2ProgressBar6"
-        Guna2ProgressBar6.ShadowDecoration.CustomizableEdges = CustomizableEdges43
+        Guna2ProgressBar6.ShadowDecoration.CustomizableEdges = CustomizableEdges65
         Guna2ProgressBar6.Size = New Size(23, 146)
         Guna2ProgressBar6.TabIndex = 11
         Guna2ProgressBar6.Text = "Guna2ProgressBar6"
@@ -722,10 +722,10 @@ Partial Class UserDashboard
         ' 
         ' Guna2ProgressBar5
         ' 
-        Guna2ProgressBar5.CustomizableEdges = CustomizableEdges44
+        Guna2ProgressBar5.CustomizableEdges = CustomizableEdges66
         Guna2ProgressBar5.Location = New Point(236, 75)
         Guna2ProgressBar5.Name = "Guna2ProgressBar5"
-        Guna2ProgressBar5.ShadowDecoration.CustomizableEdges = CustomizableEdges45
+        Guna2ProgressBar5.ShadowDecoration.CustomizableEdges = CustomizableEdges67
         Guna2ProgressBar5.Size = New Size(23, 210)
         Guna2ProgressBar5.TabIndex = 10
         Guna2ProgressBar5.Text = "Guna2ProgressBar5"
@@ -733,10 +733,10 @@ Partial Class UserDashboard
         ' 
         ' Guna2ProgressBar4
         ' 
-        Guna2ProgressBar4.CustomizableEdges = CustomizableEdges46
+        Guna2ProgressBar4.CustomizableEdges = CustomizableEdges68
         Guna2ProgressBar4.Location = New Point(185, 68)
         Guna2ProgressBar4.Name = "Guna2ProgressBar4"
-        Guna2ProgressBar4.ShadowDecoration.CustomizableEdges = CustomizableEdges47
+        Guna2ProgressBar4.ShadowDecoration.CustomizableEdges = CustomizableEdges69
         Guna2ProgressBar4.Size = New Size(23, 217)
         Guna2ProgressBar4.TabIndex = 9
         Guna2ProgressBar4.Text = "Guna2ProgressBar4"
@@ -744,10 +744,10 @@ Partial Class UserDashboard
         ' 
         ' Guna2ProgressBar3
         ' 
-        Guna2ProgressBar3.CustomizableEdges = CustomizableEdges48
+        Guna2ProgressBar3.CustomizableEdges = CustomizableEdges70
         Guna2ProgressBar3.Location = New Point(143, 187)
         Guna2ProgressBar3.Name = "Guna2ProgressBar3"
-        Guna2ProgressBar3.ShadowDecoration.CustomizableEdges = CustomizableEdges49
+        Guna2ProgressBar3.ShadowDecoration.CustomizableEdges = CustomizableEdges71
         Guna2ProgressBar3.Size = New Size(23, 99)
         Guna2ProgressBar3.TabIndex = 8
         Guna2ProgressBar3.Text = "Guna2ProgressBar3"
@@ -755,10 +755,10 @@ Partial Class UserDashboard
         ' 
         ' Guna2ProgressBar2
         ' 
-        Guna2ProgressBar2.CustomizableEdges = CustomizableEdges50
+        Guna2ProgressBar2.CustomizableEdges = CustomizableEdges72
         Guna2ProgressBar2.Location = New Point(104, 123)
         Guna2ProgressBar2.Name = "Guna2ProgressBar2"
-        Guna2ProgressBar2.ShadowDecoration.CustomizableEdges = CustomizableEdges51
+        Guna2ProgressBar2.ShadowDecoration.CustomizableEdges = CustomizableEdges73
         Guna2ProgressBar2.Size = New Size(23, 163)
         Guna2ProgressBar2.TabIndex = 7
         Guna2ProgressBar2.Text = "Guna2ProgressBar2"
@@ -766,10 +766,10 @@ Partial Class UserDashboard
         ' 
         ' Guna2ProgressBar1
         ' 
-        Guna2ProgressBar1.CustomizableEdges = CustomizableEdges52
+        Guna2ProgressBar1.CustomizableEdges = CustomizableEdges74
         Guna2ProgressBar1.Location = New Point(65, 164)
         Guna2ProgressBar1.Name = "Guna2ProgressBar1"
-        Guna2ProgressBar1.ShadowDecoration.CustomizableEdges = CustomizableEdges53
+        Guna2ProgressBar1.ShadowDecoration.CustomizableEdges = CustomizableEdges75
         Guna2ProgressBar1.Size = New Size(23, 122)
         Guna2ProgressBar1.TabIndex = 6
         Guna2ProgressBar1.Text = "Guna2ProgressBar1"
@@ -821,11 +821,11 @@ Partial Class UserDashboard
         Guna2Panel2.Controls.Add(Label12)
         Guna2Panel2.Controls.Add(txtbxusername)
         Guna2Panel2.Controls.Add(Label11)
-        Guna2Panel2.CustomizableEdges = CustomizableEdges79
+        Guna2Panel2.CustomizableEdges = CustomizableEdges101
         Guna2Panel2.Font = New Font("Segoe UI", 9.5F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2Panel2.Location = New Point(252, 53)
         Guna2Panel2.Name = "Guna2Panel2"
-        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges80
+        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges102
         Guna2Panel2.Size = New Size(872, 745)
         Guna2Panel2.TabIndex = 19
         ' 
@@ -853,21 +853,22 @@ Partial Class UserDashboard
         ' txtbxeduc
         ' 
         txtbxeduc.Anchor = AnchorStyles.Left Or AnchorStyles.Right
-        txtbxeduc.CustomizableEdges = CustomizableEdges58
+        txtbxeduc.CustomizableEdges = CustomizableEdges80
         txtbxeduc.DefaultText = ""
         txtbxeduc.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxeduc.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxeduc.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxeduc.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxeduc.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxeduc.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxeduc.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        txtbxeduc.ForeColor = SystemColors.ActiveCaptionText
         txtbxeduc.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxeduc.Location = New Point(626, 238)
         txtbxeduc.Name = "txtbxeduc"
         txtbxeduc.PasswordChar = ChrW(0)
         txtbxeduc.PlaceholderText = ""
         txtbxeduc.SelectedText = ""
-        txtbxeduc.ShadowDecoration.CustomizableEdges = CustomizableEdges59
+        txtbxeduc.ShadowDecoration.CustomizableEdges = CustomizableEdges81
         txtbxeduc.Size = New Size(229, 24)
         txtbxeduc.TabIndex = 28
         ' 
@@ -886,7 +887,7 @@ Partial Class UserDashboard
         ' 
         Guna2Button3.Anchor = AnchorStyles.Left Or AnchorStyles.Right
         Guna2Button3.BorderRadius = 19
-        Guna2Button3.CustomizableEdges = CustomizableEdges60
+        Guna2Button3.CustomizableEdges = CustomizableEdges82
         Guna2Button3.DisabledState.BorderColor = Color.DarkGray
         Guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -895,7 +896,7 @@ Partial Class UserDashboard
         Guna2Button3.ForeColor = Color.White
         Guna2Button3.Location = New Point(70, 403)
         Guna2Button3.Name = "Guna2Button3"
-        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges61
+        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges83
         Guna2Button3.Size = New Size(160, 49)
         Guna2Button3.TabIndex = 26
         Guna2Button3.Text = "Update"
@@ -903,9 +904,11 @@ Partial Class UserDashboard
         ' cmbxemply
         ' 
         cmbxemply.Anchor = AnchorStyles.Left Or AnchorStyles.Right
-        cmbxemply.Font = New Font("Segoe UI", 9.3F, FontStyle.Regular, GraphicsUnit.Point)
+        cmbxemply.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        cmbxemply.ForeColor = SystemColors.ActiveCaptionText
         cmbxemply.FormattingEnabled = True
         cmbxemply.Location = New Point(182, 303)
+        cmbxemply.Margin = New Padding(0)
         cmbxemply.Name = "cmbxemply"
         cmbxemply.Size = New Size(229, 23)
         cmbxemply.TabIndex = 25
@@ -924,7 +927,8 @@ Partial Class UserDashboard
         ' cmbxcomittee
         ' 
         cmbxcomittee.Anchor = AnchorStyles.Left Or AnchorStyles.Right
-        cmbxcomittee.Font = New Font("Segoe UI", 9.3F, FontStyle.Regular, GraphicsUnit.Point)
+        cmbxcomittee.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        cmbxcomittee.ForeColor = SystemColors.ActiveCaptionText
         cmbxcomittee.FormattingEnabled = True
         cmbxcomittee.Location = New Point(625, 330)
         cmbxcomittee.Name = "cmbxcomittee"
@@ -945,7 +949,8 @@ Partial Class UserDashboard
         ' cmbxoffice
         ' 
         cmbxoffice.Anchor = AnchorStyles.Left Or AnchorStyles.Right
-        cmbxoffice.Font = New Font("Segoe UI", 9.3F, FontStyle.Regular, GraphicsUnit.Point)
+        cmbxoffice.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        cmbxoffice.ForeColor = SystemColors.ActiveCaptionText
         cmbxoffice.FormattingEnabled = True
         cmbxoffice.Location = New Point(625, 300)
         cmbxoffice.Name = "cmbxoffice"
@@ -986,21 +991,22 @@ Partial Class UserDashboard
         ' txtbxemail
         ' 
         txtbxemail.Anchor = AnchorStyles.Left Or AnchorStyles.Right
-        txtbxemail.CustomizableEdges = CustomizableEdges62
+        txtbxemail.CustomizableEdges = CustomizableEdges84
         txtbxemail.DefaultText = ""
         txtbxemail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxemail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxemail.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxemail.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxemail.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxemail.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxemail.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        txtbxemail.ForeColor = SystemColors.ActiveCaptionText
         txtbxemail.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxemail.Location = New Point(625, 208)
         txtbxemail.Name = "txtbxemail"
         txtbxemail.PasswordChar = ChrW(0)
         txtbxemail.PlaceholderText = ""
         txtbxemail.SelectedText = ""
-        txtbxemail.ShadowDecoration.CustomizableEdges = CustomizableEdges63
+        txtbxemail.ShadowDecoration.CustomizableEdges = CustomizableEdges85
         txtbxemail.Size = New Size(229, 24)
         txtbxemail.TabIndex = 17
         ' 
@@ -1018,21 +1024,22 @@ Partial Class UserDashboard
         ' txtbxcontact
         ' 
         txtbxcontact.Anchor = AnchorStyles.Left Or AnchorStyles.Right
-        txtbxcontact.CustomizableEdges = CustomizableEdges64
+        txtbxcontact.CustomizableEdges = CustomizableEdges86
         txtbxcontact.DefaultText = ""
         txtbxcontact.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxcontact.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxcontact.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxcontact.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxcontact.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxcontact.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxcontact.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        txtbxcontact.ForeColor = SystemColors.ActiveCaptionText
         txtbxcontact.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxcontact.Location = New Point(625, 177)
         txtbxcontact.Name = "txtbxcontact"
         txtbxcontact.PasswordChar = ChrW(0)
         txtbxcontact.PlaceholderText = ""
         txtbxcontact.SelectedText = ""
-        txtbxcontact.ShadowDecoration.CustomizableEdges = CustomizableEdges65
+        txtbxcontact.ShadowDecoration.CustomizableEdges = CustomizableEdges87
         txtbxcontact.Size = New Size(229, 24)
         txtbxcontact.TabIndex = 15
         ' 
@@ -1050,14 +1057,15 @@ Partial Class UserDashboard
         ' txtbxadds
         ' 
         txtbxadds.Anchor = AnchorStyles.Left Or AnchorStyles.Right
-        txtbxadds.CustomizableEdges = CustomizableEdges66
+        txtbxadds.CustomizableEdges = CustomizableEdges88
         txtbxadds.DefaultText = ""
         txtbxadds.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxadds.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxadds.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxadds.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxadds.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxadds.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxadds.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        txtbxadds.ForeColor = SystemColors.ActiveCaptionText
         txtbxadds.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxadds.Location = New Point(625, 147)
         txtbxadds.Name = "txtbxadds"
@@ -1082,21 +1090,22 @@ Partial Class UserDashboard
         ' txtbxposition
         ' 
         txtbxposition.Anchor = AnchorStyles.Left Or AnchorStyles.Right
-        txtbxposition.CustomizableEdges = CustomizableEdges67
+        txtbxposition.CustomizableEdges = CustomizableEdges89
         txtbxposition.DefaultText = ""
         txtbxposition.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxposition.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxposition.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxposition.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxposition.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxposition.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxposition.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        txtbxposition.ForeColor = SystemColors.ActiveCaptionText
         txtbxposition.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxposition.Location = New Point(183, 332)
         txtbxposition.Name = "txtbxposition"
         txtbxposition.PasswordChar = ChrW(0)
         txtbxposition.PlaceholderText = ""
         txtbxposition.SelectedText = ""
-        txtbxposition.ShadowDecoration.CustomizableEdges = CustomizableEdges68
+        txtbxposition.ShadowDecoration.CustomizableEdges = CustomizableEdges90
         txtbxposition.Size = New Size(229, 24)
         txtbxposition.TabIndex = 11
         ' 
@@ -1114,42 +1123,44 @@ Partial Class UserDashboard
         ' txtbxlname
         ' 
         txtbxlname.Anchor = AnchorStyles.Left Or AnchorStyles.Right
-        txtbxlname.CustomizableEdges = CustomizableEdges69
+        txtbxlname.CustomizableEdges = CustomizableEdges91
         txtbxlname.DefaultText = ""
         txtbxlname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxlname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxlname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxlname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxlname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxlname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxlname.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        txtbxlname.ForeColor = SystemColors.ActiveCaptionText
         txtbxlname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxlname.Location = New Point(182, 271)
         txtbxlname.Name = "txtbxlname"
         txtbxlname.PasswordChar = ChrW(0)
         txtbxlname.PlaceholderText = ""
         txtbxlname.SelectedText = ""
-        txtbxlname.ShadowDecoration.CustomizableEdges = CustomizableEdges70
+        txtbxlname.ShadowDecoration.CustomizableEdges = CustomizableEdges92
         txtbxlname.Size = New Size(229, 24)
         txtbxlname.TabIndex = 9
         ' 
         ' txtbxmname
         ' 
         txtbxmname.Anchor = AnchorStyles.Left Or AnchorStyles.Right
-        txtbxmname.CustomizableEdges = CustomizableEdges71
+        txtbxmname.CustomizableEdges = CustomizableEdges93
         txtbxmname.DefaultText = ""
         txtbxmname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxmname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxmname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxmname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxmname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxmname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxmname.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        txtbxmname.ForeColor = SystemColors.ActiveCaptionText
         txtbxmname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxmname.Location = New Point(183, 240)
         txtbxmname.Name = "txtbxmname"
         txtbxmname.PasswordChar = ChrW(0)
         txtbxmname.PlaceholderText = ""
         txtbxmname.SelectedText = ""
-        txtbxmname.ShadowDecoration.CustomizableEdges = CustomizableEdges72
+        txtbxmname.ShadowDecoration.CustomizableEdges = CustomizableEdges94
         txtbxmname.Size = New Size(229, 24)
         txtbxmname.TabIndex = 7
         ' 
@@ -1167,21 +1178,22 @@ Partial Class UserDashboard
         ' txtbxfname
         ' 
         txtbxfname.Anchor = AnchorStyles.Left Or AnchorStyles.Right
-        txtbxfname.CustomizableEdges = CustomizableEdges73
+        txtbxfname.CustomizableEdges = CustomizableEdges95
         txtbxfname.DefaultText = ""
         txtbxfname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxfname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxfname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxfname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxfname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxfname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxfname.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        txtbxfname.ForeColor = SystemColors.ActiveCaptionText
         txtbxfname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxfname.Location = New Point(182, 210)
         txtbxfname.Name = "txtbxfname"
         txtbxfname.PasswordChar = ChrW(0)
         txtbxfname.PlaceholderText = ""
         txtbxfname.SelectedText = ""
-        txtbxfname.ShadowDecoration.CustomizableEdges = CustomizableEdges74
+        txtbxfname.ShadowDecoration.CustomizableEdges = CustomizableEdges96
         txtbxfname.Size = New Size(229, 24)
         txtbxfname.TabIndex = 5
         ' 
@@ -1199,21 +1211,22 @@ Partial Class UserDashboard
         ' txtbxpassword
         ' 
         txtbxpassword.Anchor = AnchorStyles.Left Or AnchorStyles.Right
-        txtbxpassword.CustomizableEdges = CustomizableEdges75
+        txtbxpassword.CustomizableEdges = CustomizableEdges97
         txtbxpassword.DefaultText = ""
         txtbxpassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxpassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxpassword.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxpassword.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxpassword.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxpassword.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxpassword.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        txtbxpassword.ForeColor = SystemColors.ActiveCaptionText
         txtbxpassword.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxpassword.Location = New Point(182, 178)
         txtbxpassword.Name = "txtbxpassword"
         txtbxpassword.PasswordChar = ChrW(0)
         txtbxpassword.PlaceholderText = ""
         txtbxpassword.SelectedText = ""
-        txtbxpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges76
+        txtbxpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges98
         txtbxpassword.Size = New Size(229, 24)
         txtbxpassword.TabIndex = 3
         ' 
@@ -1231,21 +1244,22 @@ Partial Class UserDashboard
         ' txtbxusername
         ' 
         txtbxusername.Anchor = AnchorStyles.Left Or AnchorStyles.Right
-        txtbxusername.CustomizableEdges = CustomizableEdges77
+        txtbxusername.CustomizableEdges = CustomizableEdges99
         txtbxusername.DefaultText = ""
         txtbxusername.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxusername.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtbxusername.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxusername.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxusername.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxusername.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxusername.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        txtbxusername.ForeColor = SystemColors.ActiveCaptionText
         txtbxusername.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxusername.Location = New Point(181, 149)
         txtbxusername.Name = "txtbxusername"
         txtbxusername.PasswordChar = ChrW(0)
         txtbxusername.PlaceholderText = ""
         txtbxusername.SelectedText = ""
-        txtbxusername.ShadowDecoration.CustomizableEdges = CustomizableEdges78
+        txtbxusername.ShadowDecoration.CustomizableEdges = CustomizableEdges100
         txtbxusername.Size = New Size(229, 24)
         txtbxusername.TabIndex = 1
         ' 
@@ -1283,31 +1297,33 @@ Partial Class UserDashboard
         Guna2Panel5.Controls.Add(Pfname)
         Guna2Panel5.Controls.Add(Label3)
         Guna2Panel5.Controls.Add(Label2)
-        Guna2Panel5.CustomizableEdges = CustomizableEdges101
+        Guna2Panel5.CustomizableEdges = CustomizableEdges36
         Guna2Panel5.Location = New Point(254, 53)
         Guna2Panel5.Name = "Guna2Panel5"
-        Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges102
+        Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges37
         Guna2Panel5.Size = New Size(872, 745)
         Guna2Panel5.TabIndex = 17
         ' 
         ' Pcommittee
         ' 
         Pcommittee.BorderRadius = 8
-        Pcommittee.CustomizableEdges = CustomizableEdges81
+        Pcommittee.CustomizableEdges = CustomizableEdges16
         Pcommittee.DefaultText = ""
         Pcommittee.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pcommittee.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         Pcommittee.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Pcommittee.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Pcommittee.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pcommittee.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Pcommittee.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Pcommittee.ForeColor = Color.Black
         Pcommittee.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Pcommittee.Location = New Point(455, 440)
         Pcommittee.Name = "Pcommittee"
         Pcommittee.PasswordChar = ChrW(0)
         Pcommittee.PlaceholderText = ""
+        Pcommittee.ReadOnly = True
         Pcommittee.SelectedText = ""
-        Pcommittee.ShadowDecoration.CustomizableEdges = CustomizableEdges82
+        Pcommittee.ShadowDecoration.CustomizableEdges = CustomizableEdges17
         Pcommittee.Size = New Size(309, 32)
         Pcommittee.TabIndex = 37
         ' 
@@ -1324,21 +1340,23 @@ Partial Class UserDashboard
         ' Pposition
         ' 
         Pposition.BorderRadius = 8
-        Pposition.CustomizableEdges = CustomizableEdges83
+        Pposition.CustomizableEdges = CustomizableEdges18
         Pposition.DefaultText = ""
         Pposition.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pposition.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         Pposition.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Pposition.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Pposition.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pposition.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Pposition.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Pposition.ForeColor = Color.Black
         Pposition.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Pposition.Location = New Point(455, 381)
         Pposition.Name = "Pposition"
         Pposition.PasswordChar = ChrW(0)
         Pposition.PlaceholderText = ""
+        Pposition.ReadOnly = True
         Pposition.SelectedText = ""
-        Pposition.ShadowDecoration.CustomizableEdges = CustomizableEdges84
+        Pposition.ShadowDecoration.CustomizableEdges = CustomizableEdges19
         Pposition.Size = New Size(309, 32)
         Pposition.TabIndex = 35
         ' 
@@ -1355,21 +1373,23 @@ Partial Class UserDashboard
         ' Poffice
         ' 
         Poffice.BorderRadius = 8
-        Poffice.CustomizableEdges = CustomizableEdges85
+        Poffice.CustomizableEdges = CustomizableEdges20
         Poffice.DefaultText = ""
         Poffice.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Poffice.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         Poffice.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Poffice.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Poffice.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Poffice.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Poffice.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Poffice.ForeColor = Color.Black
         Poffice.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Poffice.Location = New Point(454, 322)
         Poffice.Name = "Poffice"
         Poffice.PasswordChar = ChrW(0)
         Poffice.PlaceholderText = ""
+        Poffice.ReadOnly = True
         Poffice.SelectedText = ""
-        Poffice.ShadowDecoration.CustomizableEdges = CustomizableEdges86
+        Poffice.ShadowDecoration.CustomizableEdges = CustomizableEdges21
         Poffice.Size = New Size(309, 32)
         Poffice.TabIndex = 33
         ' 
@@ -1386,21 +1406,23 @@ Partial Class UserDashboard
         ' Pemployment
         ' 
         Pemployment.BorderRadius = 8
-        Pemployment.CustomizableEdges = CustomizableEdges87
+        Pemployment.CustomizableEdges = CustomizableEdges22
         Pemployment.DefaultText = ""
         Pemployment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pemployment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         Pemployment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Pemployment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Pemployment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pemployment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Pemployment.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Pemployment.ForeColor = Color.Black
         Pemployment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Pemployment.Location = New Point(451, 263)
         Pemployment.Name = "Pemployment"
         Pemployment.PasswordChar = ChrW(0)
         Pemployment.PlaceholderText = ""
+        Pemployment.ReadOnly = True
         Pemployment.SelectedText = ""
-        Pemployment.ShadowDecoration.CustomizableEdges = CustomizableEdges88
+        Pemployment.ShadowDecoration.CustomizableEdges = CustomizableEdges23
         Pemployment.Size = New Size(309, 32)
         Pemployment.TabIndex = 31
         ' 
@@ -1417,21 +1439,23 @@ Partial Class UserDashboard
         ' Pemail
         ' 
         Pemail.BorderRadius = 8
-        Pemail.CustomizableEdges = CustomizableEdges89
+        Pemail.CustomizableEdges = CustomizableEdges24
         Pemail.DefaultText = ""
         Pemail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pemail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         Pemail.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Pemail.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Pemail.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pemail.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Pemail.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Pemail.ForeColor = Color.Black
         Pemail.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Pemail.Location = New Point(82, 381)
         Pemail.Name = "Pemail"
         Pemail.PasswordChar = ChrW(0)
         Pemail.PlaceholderText = ""
+        Pemail.ReadOnly = True
         Pemail.SelectedText = ""
-        Pemail.ShadowDecoration.CustomizableEdges = CustomizableEdges90
+        Pemail.ShadowDecoration.CustomizableEdges = CustomizableEdges25
         Pemail.Size = New Size(309, 32)
         Pemail.TabIndex = 29
         ' 
@@ -1448,21 +1472,23 @@ Partial Class UserDashboard
         ' Peducational
         ' 
         Peducational.BorderRadius = 8
-        Peducational.CustomizableEdges = CustomizableEdges91
+        Peducational.CustomizableEdges = CustomizableEdges26
         Peducational.DefaultText = ""
         Peducational.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Peducational.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         Peducational.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Peducational.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Peducational.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Peducational.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Peducational.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Peducational.ForeColor = Color.Black
         Peducational.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Peducational.Location = New Point(451, 204)
         Peducational.Name = "Peducational"
         Peducational.PasswordChar = ChrW(0)
         Peducational.PlaceholderText = ""
+        Peducational.ReadOnly = True
         Peducational.SelectedText = ""
-        Peducational.ShadowDecoration.CustomizableEdges = CustomizableEdges92
+        Peducational.ShadowDecoration.CustomizableEdges = CustomizableEdges27
         Peducational.Size = New Size(309, 32)
         Peducational.TabIndex = 27
         ' 
@@ -1479,21 +1505,23 @@ Partial Class UserDashboard
         ' Pbdate
         ' 
         Pbdate.BorderRadius = 8
-        Pbdate.CustomizableEdges = CustomizableEdges93
+        Pbdate.CustomizableEdges = CustomizableEdges28
         Pbdate.DefaultText = ""
         Pbdate.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pbdate.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         Pbdate.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Pbdate.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Pbdate.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pbdate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Pbdate.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Pbdate.ForeColor = Color.Black
         Pbdate.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Pbdate.Location = New Point(84, 440)
         Pbdate.Name = "Pbdate"
         Pbdate.PasswordChar = ChrW(0)
         Pbdate.PlaceholderText = ""
+        Pbdate.ReadOnly = True
         Pbdate.SelectedText = ""
-        Pbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges94
+        Pbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges29
         Pbdate.Size = New Size(309, 32)
         Pbdate.TabIndex = 25
         ' 
@@ -1510,21 +1538,23 @@ Partial Class UserDashboard
         ' Pcntact
         ' 
         Pcntact.BorderRadius = 8
-        Pcntact.CustomizableEdges = CustomizableEdges95
+        Pcntact.CustomizableEdges = CustomizableEdges30
         Pcntact.DefaultText = ""
         Pcntact.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pcntact.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         Pcntact.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Pcntact.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Pcntact.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pcntact.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Pcntact.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Pcntact.ForeColor = Color.Black
         Pcntact.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Pcntact.Location = New Point(80, 322)
         Pcntact.Name = "Pcntact"
         Pcntact.PasswordChar = ChrW(0)
         Pcntact.PlaceholderText = ""
+        Pcntact.ReadOnly = True
         Pcntact.SelectedText = ""
-        Pcntact.ShadowDecoration.CustomizableEdges = CustomizableEdges96
+        Pcntact.ShadowDecoration.CustomizableEdges = CustomizableEdges31
         Pcntact.Size = New Size(309, 32)
         Pcntact.TabIndex = 23
         ' 
@@ -1541,21 +1571,23 @@ Partial Class UserDashboard
         ' Padd
         ' 
         Padd.BorderRadius = 8
-        Padd.CustomizableEdges = CustomizableEdges97
+        Padd.CustomizableEdges = CustomizableEdges32
         Padd.DefaultText = ""
         Padd.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Padd.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         Padd.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Padd.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Padd.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Padd.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Padd.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Padd.ForeColor = Color.Black
         Padd.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Padd.Location = New Point(80, 263)
         Padd.Name = "Padd"
         Padd.PasswordChar = ChrW(0)
         Padd.PlaceholderText = ""
+        Padd.ReadOnly = True
         Padd.SelectedText = ""
-        Padd.ShadowDecoration.CustomizableEdges = CustomizableEdges98
+        Padd.ShadowDecoration.CustomizableEdges = CustomizableEdges33
         Padd.Size = New Size(309, 32)
         Padd.TabIndex = 21
         ' 
@@ -1572,21 +1604,23 @@ Partial Class UserDashboard
         ' Pfname
         ' 
         Pfname.BorderRadius = 8
-        Pfname.CustomizableEdges = CustomizableEdges99
+        Pfname.CustomizableEdges = CustomizableEdges34
         Pfname.DefaultText = ""
         Pfname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pfname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         Pfname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Pfname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         Pfname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pfname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Pfname.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Pfname.ForeColor = Color.Black
         Pfname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Pfname.Location = New Point(80, 204)
         Pfname.Name = "Pfname"
         Pfname.PasswordChar = ChrW(0)
         Pfname.PlaceholderText = ""
+        Pfname.ReadOnly = True
         Pfname.SelectedText = ""
-        Pfname.ShadowDecoration.CustomizableEdges = CustomizableEdges100
+        Pfname.ShadowDecoration.CustomizableEdges = CustomizableEdges35
         Pfname.Size = New Size(309, 32)
         Pfname.TabIndex = 19
         ' 
@@ -1617,9 +1651,9 @@ Partial Class UserDashboard
         ClientSize = New Size(1124, 798)
         Controls.Add(Label1)
         Controls.Add(Guna2GradientPanel1)
+        Controls.Add(Guna2Panel5)
         Controls.Add(Guna2Panel1)
         Controls.Add(Guna2Panel2)
-        Controls.Add(Guna2Panel5)
         FormBorderStyle = FormBorderStyle.None
         Name = "UserDashboard"
         StartPosition = FormStartPosition.CenterScreen
@@ -1645,7 +1679,7 @@ Partial Class UserDashboard
     Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
     Friend WithEvents pnlDas As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents pnlEm As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents bttnEmpl As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents bttnProf As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents bttnDash As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label1 As Label
@@ -1655,7 +1689,7 @@ Partial Class UserDashboard
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents lblFirst As Label
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents bttnAcc As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents txtbxmname As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label14 As Label
