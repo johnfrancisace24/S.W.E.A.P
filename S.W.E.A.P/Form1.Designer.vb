@@ -95,8 +95,10 @@ Partial Class Form1
         ' 
         LinkLabelSignUp.AutoSize = True
         LinkLabelSignUp.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+
         LinkLabelSignUp.LinkColor = Color.MediumBlue
         LinkLabelSignUp.Location = New Point(285, 437)
+
         LinkLabelSignUp.Name = "LinkLabelSignUp"
         LinkLabelSignUp.Size = New Size(82, 28)
         LinkLabelSignUp.TabIndex = 8

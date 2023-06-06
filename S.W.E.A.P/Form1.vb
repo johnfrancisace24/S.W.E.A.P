@@ -2,7 +2,9 @@
 Imports System.Security.Cryptography
 
 Public Class Form1
-    Dim conn As New MySqlConnection("server=172.30.206.156;port=3306;username=sweapp;password=druguser;database=sweap")
+
+
+    Dim conn As New MySqlConnection("server=172.30.192.29;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
 
     Public Shared log_id As Integer
@@ -18,7 +20,7 @@ Public Class Form1
         End If
     End Sub
 
-    Public Sub Login()
+    Private Sub bttLogin_Click(sender As Object, e As EventArgs) Handles bttLogin.Click
         If (txtbxUsername.Text = "") Then
             MsgBox("Username can't be blank.")
         ElseIf (txtbxPassword.Text = "") Then
@@ -41,18 +43,20 @@ Public Class Form1
                 conn.Close()
             End Try
             If (status = 1) Then
+                txtbxUsername.Clear()
+                txtbxPassword.Clear()
                 AdminDashboard.Show()
                 Me.Hide()
             ElseIf (status = 0) Then
                 UserDashboard.Show()
+                txtbxUsername.Clear()
+                txtbxPassword.Clear()
                 Me.Hide()
             Else
                 MsgBox("Invalid username or passowrd.")
             End If
         End If
-    End Sub
-    Private Sub bttLogin_Click(sender As Object, e As EventArgs) Handles bttLogin.Click
-        Login()
+
     End Sub
 
     Private Sub bttnClose_Click(sender As Object, e As EventArgs) Handles bttnClose.Click

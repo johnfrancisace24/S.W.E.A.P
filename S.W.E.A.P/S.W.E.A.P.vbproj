@@ -6,9 +6,12 @@
     <StartupObject>S.W.E.A.P.Form1</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
+    <ImportedNamespaces>LiveCharts.Charts=False,LiveCharts.WinForms=False,System.Data=False,System.Drawing=False,System.Windows.Forms=False,Microsoft.VisualBasic=True,System=True,System.Collections=True,System.Collections.Generic=True,System.Diagnostics=True,System.Linq=True,System.Xml.Linq=True,System.Threading.Tasks=True,S.W.E.A.P=True</ImportedNamespaces>
   </PropertyGroup>
 
   <ItemGroup>
+    <Import Include="LiveCharts.Charts" />
+    <Import Include="LiveCharts.WinForms" />
     <Import Include="System.Data" />
     <Import Include="System.Drawing" />
     <Import Include="System.Windows.Forms" />
@@ -16,6 +19,7 @@
 
   <ItemGroup>
     <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.4" />
+    <PackageReference Include="LiveCharts.WinForms" Version="0.9.7.1" />
   </ItemGroup>
 
   <ItemGroup>
