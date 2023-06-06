@@ -23,16 +23,18 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2ShadowPanel1 = New Guna.UI2.WinForms.Guna2ShadowPanel()
@@ -45,6 +47,7 @@ Partial Class Form1
         Label1 = New Label()
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
+        bttnClose = New Guna.UI2.WinForms.Guna2Button()
         Guna2ShadowPanel1.SuspendLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
@@ -69,11 +72,12 @@ Partial Class Form1
         Guna2ShadowPanel1.Controls.Add(CheckBoxShowPass)
         Guna2ShadowPanel1.Controls.Add(txtbxPassword)
         Guna2ShadowPanel1.FillColor = Color.DarkRed
-        Guna2ShadowPanel1.Location = New Point(329, 12)
+        Guna2ShadowPanel1.Location = New Point(382, 42)
+        Guna2ShadowPanel1.Margin = New Padding(3, 4, 3, 4)
         Guna2ShadowPanel1.Name = "Guna2ShadowPanel1"
         Guna2ShadowPanel1.Radius = 15
         Guna2ShadowPanel1.ShadowColor = Color.White
-        Guna2ShadowPanel1.Size = New Size(394, 418)
+        Guna2ShadowPanel1.Size = New Size(450, 557)
         Guna2ShadowPanel1.TabIndex = 11
         ' 
         ' Label2
@@ -81,9 +85,9 @@ Partial Class Form1
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         Label2.ForeColor = SystemColors.ButtonFace
-        Label2.Location = New Point(84, 329)
+        Label2.Location = New Point(96, 439)
         Label2.Name = "Label2"
-        Label2.Size = New Size(163, 20)
+        Label2.Size = New Size(209, 25)
         Label2.TabIndex = 9
         Label2.Text = "Don't have an account?"
         ' 
@@ -91,10 +95,12 @@ Partial Class Form1
         ' 
         LinkLabelSignUp.AutoSize = True
         LinkLabelSignUp.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        LinkLabelSignUp.LinkColor = Color.Cyan
-        LinkLabelSignUp.Location = New Point(247, 327)
+
+        LinkLabelSignUp.LinkColor = Color.MediumBlue
+        LinkLabelSignUp.Location = New Point(285, 437)
+
         LinkLabelSignUp.Name = "LinkLabelSignUp"
-        LinkLabelSignUp.Size = New Size(65, 21)
+        LinkLabelSignUp.Size = New Size(82, 28)
         LinkLabelSignUp.TabIndex = 8
         LinkLabelSignUp.TabStop = True
         LinkLabelSignUp.Text = "Sign Up"
@@ -105,8 +111,8 @@ Partial Class Form1
         txtbxUsername.AutoRoundedCorners = True
         txtbxUsername.BackColor = Color.Transparent
         txtbxUsername.BorderColor = Color.White
-        txtbxUsername.BorderRadius = 21
-        txtbxUsername.CustomizableEdges = CustomizableEdges1
+        txtbxUsername.BorderRadius = 29
+        txtbxUsername.CustomizableEdges = CustomizableEdges3
         txtbxUsername.DefaultText = ""
         txtbxUsername.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxUsername.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -120,33 +126,34 @@ Partial Class Form1
         txtbxUsername.IconLeft = My.Resources.Resources.user__1_
         txtbxUsername.IconLeftOffset = New Point(10, 0)
         txtbxUsername.IconRightOffset = New Point(10, 0)
-        txtbxUsername.Location = New Point(52, 70)
-        txtbxUsername.Margin = New Padding(4, 4, 4, 4)
+        txtbxUsername.Location = New Point(59, 93)
+        txtbxUsername.Margin = New Padding(5)
         txtbxUsername.Name = "txtbxUsername"
-        txtbxUsername.Padding = New Padding(64, 0, 0, 0)
+        txtbxUsername.Padding = New Padding(73, 0, 0, 0)
         txtbxUsername.PasswordChar = ChrW(0)
         txtbxUsername.PlaceholderForeColor = Color.DimGray
         txtbxUsername.PlaceholderText = "USERNAME"
         txtbxUsername.SelectedText = ""
-        txtbxUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        txtbxUsername.Size = New Size(291, 45)
+        txtbxUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        txtbxUsername.Size = New Size(333, 60)
         txtbxUsername.TabIndex = 1
         ' 
         ' bttLogin
         ' 
         bttLogin.AutoRoundedCorners = True
-        bttLogin.BorderRadius = 20
-        bttLogin.CustomizableEdges = CustomizableEdges3
+        bttLogin.BorderRadius = 29
+        bttLogin.CustomizableEdges = CustomizableEdges5
         bttLogin.DisabledState.BorderColor = Color.DarkGray
         bttLogin.DisabledState.CustomBorderColor = Color.DarkGray
         bttLogin.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         bttLogin.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         bttLogin.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
         bttLogin.ForeColor = Color.White
-        bttLogin.Location = New Point(107, 250)
+        bttLogin.Location = New Point(122, 333)
+        bttLogin.Margin = New Padding(3, 4, 3, 4)
         bttLogin.Name = "bttLogin"
-        bttLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        bttLogin.Size = New Size(180, 45)
+        bttLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        bttLogin.Size = New Size(206, 60)
         bttLogin.TabIndex = 6
         bttLogin.Text = "LOGIN"
         ' 
@@ -160,9 +167,10 @@ Partial Class Form1
         CheckBoxShowPass.CheckMarkColor = SystemColors.Highlight
         CheckBoxShowPass.Font = New Font("Microsoft Sans Serif", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         CheckBoxShowPass.ForeColor = Color.White
-        CheckBoxShowPass.Location = New Point(66, 197)
+        CheckBoxShowPass.Location = New Point(75, 263)
+        CheckBoxShowPass.Margin = New Padding(3, 4, 3, 4)
         CheckBoxShowPass.Name = "CheckBoxShowPass"
-        CheckBoxShowPass.Size = New Size(167, 22)
+        CheckBoxShowPass.Size = New Size(204, 28)
         CheckBoxShowPass.TabIndex = 7
         CheckBoxShowPass.Text = "SHOW PASSWORD"
         CheckBoxShowPass.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
@@ -176,8 +184,8 @@ Partial Class Form1
         txtbxPassword.AutoRoundedCorners = True
         txtbxPassword.BackColor = Color.Transparent
         txtbxPassword.BorderColor = Color.White
-        txtbxPassword.BorderRadius = 21
-        txtbxPassword.CustomizableEdges = CustomizableEdges5
+        txtbxPassword.BorderRadius = 29
+        txtbxPassword.CustomizableEdges = CustomizableEdges7
         txtbxPassword.DefaultText = ""
         txtbxPassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxPassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -190,16 +198,16 @@ Partial Class Form1
         txtbxPassword.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxPassword.IconLeft = My.Resources.Resources.padlock
         txtbxPassword.IconLeftOffset = New Point(10, 0)
-        txtbxPassword.Location = New Point(52, 143)
-        txtbxPassword.Margin = New Padding(4, 4, 4, 4)
+        txtbxPassword.Location = New Point(59, 191)
+        txtbxPassword.Margin = New Padding(5)
         txtbxPassword.Name = "txtbxPassword"
-        txtbxPassword.Padding = New Padding(64, 0, 0, 0)
+        txtbxPassword.Padding = New Padding(73, 0, 0, 0)
         txtbxPassword.PasswordChar = "*"c
         txtbxPassword.PlaceholderForeColor = Color.DimGray
         txtbxPassword.PlaceholderText = "PASSWORD"
         txtbxPassword.SelectedText = ""
-        txtbxPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        txtbxPassword.Size = New Size(291, 45)
+        txtbxPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txtbxPassword.Size = New Size(333, 60)
         txtbxPassword.TabIndex = 5
         ' 
         ' Label1
@@ -207,9 +215,9 @@ Partial Class Form1
         Label1.AutoSize = True
         Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Sitka Small", 14.25F, FontStyle.Italic, GraphicsUnit.Point)
-        Label1.Location = New Point(150, 155)
+        Label1.Location = New Point(171, 207)
         Label1.Name = "Label1"
-        Label1.Size = New Size(160, 56)
+        Label1.Size = New Size(198, 70)
         Label1.TabIndex = 12
         Label1.Text = "Para sa Kawani" & vbCrLf & "Para sa Bayan"
         ' 
@@ -217,42 +225,64 @@ Partial Class Form1
         ' 
         Guna2PictureBox1.BackColor = Color.Transparent
         Guna2PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
-        Guna2PictureBox1.CustomizableEdges = CustomizableEdges9
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges11
         Guna2PictureBox1.FillColor = Color.Transparent
         Guna2PictureBox1.Image = My.Resources.Resources.curve
         Guna2PictureBox1.ImageRotate = 0F
-        Guna2PictureBox1.Location = New Point(-4, -5)
+        Guna2PictureBox1.Location = New Point(-5, -7)
+        Guna2PictureBox1.Margin = New Padding(3, 4, 3, 4)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2PictureBox1.Size = New Size(158, 453)
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Guna2PictureBox1.Size = New Size(181, 604)
         Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox1.TabIndex = 13
         Guna2PictureBox1.TabStop = False
         ' 
         ' Guna2PictureBox2
         ' 
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges7
+        Guna2PictureBox2.CustomizableEdges = CustomizableEdges9
         Guna2PictureBox2.FillColor = Color.Transparent
         Guna2PictureBox2.Image = My.Resources.Resources.image_removebg_preview__1_
         Guna2PictureBox2.ImageRotate = 0F
-        Guna2PictureBox2.Location = New Point(122, 8)
+        Guna2PictureBox2.Location = New Point(139, 11)
+        Guna2PictureBox2.Margin = New Padding(3, 4, 3, 4)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2PictureBox2.Size = New Size(197, 158)
+        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Guna2PictureBox2.Size = New Size(225, 211)
         Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox2.TabIndex = 14
         Guna2PictureBox2.TabStop = False
         ' 
+        ' bttnClose
+        ' 
+        bttnClose.BackgroundImage = My.Resources.Resources.close
+        bttnClose.BackgroundImageLayout = ImageLayout.Stretch
+        bttnClose.CustomizableEdges = CustomizableEdges1
+        bttnClose.DisabledState.BorderColor = Color.DarkGray
+        bttnClose.DisabledState.CustomBorderColor = Color.DarkGray
+        bttnClose.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        bttnClose.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        bttnClose.FillColor = Color.Transparent
+        bttnClose.Font = New Font("Arial Black", 13.8F, FontStyle.Bold, GraphicsUnit.Point)
+        bttnClose.ForeColor = Color.Red
+        bttnClose.Location = New Point(800, 6)
+        bttnClose.Name = "bttnClose"
+        bttnClose.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        bttnClose.Size = New Size(31, 31)
+        bttnClose.TabIndex = 15
+        ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(749, 442)
+        ClientSize = New Size(838, 612)
+        Controls.Add(bttnClose)
         Controls.Add(Label1)
         Controls.Add(Guna2ShadowPanel1)
         Controls.Add(Guna2PictureBox2)
         Controls.Add(Guna2PictureBox1)
         FormBorderStyle = FormBorderStyle.None
+        Margin = New Padding(3, 4, 3, 4)
         Name = "Form1"
         StartPosition = FormStartPosition.CenterScreen
         Text = " "
@@ -276,4 +306,5 @@ Partial Class Form1
     Friend WithEvents txtbxPassword As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2ShadowForm1 As Guna.UI2.WinForms.Guna2ShadowForm
     Friend WithEvents Guna2PictureBox2 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents bttnClose As Guna.UI2.WinForms.Guna2Button
 End Class
