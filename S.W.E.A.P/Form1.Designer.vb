@@ -23,18 +23,18 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2ShadowPanel1 = New Guna.UI2.WinForms.Guna2ShadowPanel()
@@ -85,7 +85,7 @@ Partial Class Form1
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
         Label2.ForeColor = SystemColors.ButtonFace
-        Label2.Location = New Point(96, 439)
+        Label2.Location = New Point(73, 439)
         Label2.Name = "Label2"
         Label2.Size = New Size(209, 25)
         Label2.TabIndex = 9
@@ -95,10 +95,8 @@ Partial Class Form1
         ' 
         LinkLabelSignUp.AutoSize = True
         LinkLabelSignUp.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-
-        LinkLabelSignUp.LinkColor = Color.MediumBlue
+        LinkLabelSignUp.LinkColor = Color.DodgerBlue
         LinkLabelSignUp.Location = New Point(285, 437)
-
         LinkLabelSignUp.Name = "LinkLabelSignUp"
         LinkLabelSignUp.Size = New Size(82, 28)
         LinkLabelSignUp.TabIndex = 8
@@ -112,7 +110,7 @@ Partial Class Form1
         txtbxUsername.BackColor = Color.Transparent
         txtbxUsername.BorderColor = Color.White
         txtbxUsername.BorderRadius = 29
-        txtbxUsername.CustomizableEdges = CustomizableEdges3
+        txtbxUsername.CustomizableEdges = CustomizableEdges15
         txtbxUsername.DefaultText = ""
         txtbxUsername.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxUsername.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -134,7 +132,7 @@ Partial Class Form1
         txtbxUsername.PlaceholderForeColor = Color.DimGray
         txtbxUsername.PlaceholderText = "USERNAME"
         txtbxUsername.SelectedText = ""
-        txtbxUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        txtbxUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         txtbxUsername.Size = New Size(333, 60)
         txtbxUsername.TabIndex = 1
         ' 
@@ -142,7 +140,7 @@ Partial Class Form1
         ' 
         bttLogin.AutoRoundedCorners = True
         bttLogin.BorderRadius = 29
-        bttLogin.CustomizableEdges = CustomizableEdges5
+        bttLogin.CustomizableEdges = CustomizableEdges17
         bttLogin.DisabledState.BorderColor = Color.DarkGray
         bttLogin.DisabledState.CustomBorderColor = Color.DarkGray
         bttLogin.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -152,7 +150,7 @@ Partial Class Form1
         bttLogin.Location = New Point(122, 333)
         bttLogin.Margin = New Padding(3, 4, 3, 4)
         bttLogin.Name = "bttLogin"
-        bttLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        bttLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         bttLogin.Size = New Size(206, 60)
         bttLogin.TabIndex = 6
         bttLogin.Text = "LOGIN"
@@ -185,7 +183,7 @@ Partial Class Form1
         txtbxPassword.BackColor = Color.Transparent
         txtbxPassword.BorderColor = Color.White
         txtbxPassword.BorderRadius = 29
-        txtbxPassword.CustomizableEdges = CustomizableEdges7
+        txtbxPassword.CustomizableEdges = CustomizableEdges19
         txtbxPassword.DefaultText = ""
         txtbxPassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxPassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -206,7 +204,7 @@ Partial Class Form1
         txtbxPassword.PlaceholderForeColor = Color.DimGray
         txtbxPassword.PlaceholderText = "PASSWORD"
         txtbxPassword.SelectedText = ""
-        txtbxPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txtbxPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         txtbxPassword.Size = New Size(333, 60)
         txtbxPassword.TabIndex = 5
         ' 
@@ -225,14 +223,14 @@ Partial Class Form1
         ' 
         Guna2PictureBox1.BackColor = Color.Transparent
         Guna2PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
-        Guna2PictureBox1.CustomizableEdges = CustomizableEdges11
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges23
         Guna2PictureBox1.FillColor = Color.Transparent
         Guna2PictureBox1.Image = My.Resources.Resources.curve
         Guna2PictureBox1.ImageRotate = 0F
         Guna2PictureBox1.Location = New Point(-5, -7)
         Guna2PictureBox1.Margin = New Padding(3, 4, 3, 4)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         Guna2PictureBox1.Size = New Size(181, 604)
         Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox1.TabIndex = 13
@@ -240,14 +238,14 @@ Partial Class Form1
         ' 
         ' Guna2PictureBox2
         ' 
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges9
+        Guna2PictureBox2.CustomizableEdges = CustomizableEdges21
         Guna2PictureBox2.FillColor = Color.Transparent
         Guna2PictureBox2.Image = My.Resources.Resources.image_removebg_preview__1_
         Guna2PictureBox2.ImageRotate = 0F
         Guna2PictureBox2.Location = New Point(139, 11)
         Guna2PictureBox2.Margin = New Padding(3, 4, 3, 4)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         Guna2PictureBox2.Size = New Size(225, 211)
         Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox2.TabIndex = 14
@@ -257,7 +255,7 @@ Partial Class Form1
         ' 
         bttnClose.BackgroundImage = My.Resources.Resources.close
         bttnClose.BackgroundImageLayout = ImageLayout.Stretch
-        bttnClose.CustomizableEdges = CustomizableEdges1
+        bttnClose.CustomizableEdges = CustomizableEdges13
         bttnClose.DisabledState.BorderColor = Color.DarkGray
         bttnClose.DisabledState.CustomBorderColor = Color.DarkGray
         bttnClose.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -267,7 +265,7 @@ Partial Class Form1
         bttnClose.ForeColor = Color.Red
         bttnClose.Location = New Point(800, 6)
         bttnClose.Name = "bttnClose"
-        bttnClose.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        bttnClose.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         bttnClose.Size = New Size(31, 31)
         bttnClose.TabIndex = 15
         ' 
