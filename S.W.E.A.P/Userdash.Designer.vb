@@ -23,82 +23,82 @@ Partial Class Userdash
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges70 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges71 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges72 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges73 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges74 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges75 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges77 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges78 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges79 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges80 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges81 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges82 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Userdash))
-        Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges59 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges60 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges61 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges62 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges63 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges64 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges65 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges66 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges67 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges68 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges69 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges83 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges84 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges85 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges86 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges87 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges88 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges89 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges90 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges91 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges92 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges93 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges94 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges99 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges100 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges95 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges96 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges97 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges98 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges101 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges102 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges103 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges104 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges105 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges106 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges107 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges108 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges109 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges110 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges111 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges112 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges113 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges114 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges115 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges116 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges117 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges118 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges119 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges120 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges121 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges122 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges123 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges124 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges125 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges126 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges127 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges128 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges129 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges130 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges131 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges132 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges133 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges134 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges135 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges136 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges137 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges138 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges139 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges140 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges141 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges142 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges143 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges144 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges145 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges146 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges147 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges148 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges149 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges150 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Panel1 = New Panel()
@@ -230,13 +230,13 @@ Partial Class Userdash
         ' 
         Guna2ControlBox3.Animated = True
         Guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
-        Guna2ControlBox3.CustomizableEdges = CustomizableEdges70
+        Guna2ControlBox3.CustomizableEdges = CustomizableEdges76
         Guna2ControlBox3.Dock = DockStyle.Right
         Guna2ControlBox3.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
         Guna2ControlBox3.IconColor = Color.Black
         Guna2ControlBox3.Location = New Point(1168, 0)
         Guna2ControlBox3.Name = "Guna2ControlBox3"
-        Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges71
+        Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges77
         Guna2ControlBox3.Size = New Size(40, 35)
         Guna2ControlBox3.TabIndex = 2
         ' 
@@ -244,20 +244,20 @@ Partial Class Userdash
         ' 
         Guna2ControlBox2.Animated = True
         Guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox
-        Guna2ControlBox2.CustomizableEdges = CustomizableEdges72
+        Guna2ControlBox2.CustomizableEdges = CustomizableEdges78
         Guna2ControlBox2.Dock = DockStyle.Right
         Guna2ControlBox2.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
         Guna2ControlBox2.IconColor = Color.Black
         Guna2ControlBox2.Location = New Point(1208, 0)
         Guna2ControlBox2.Name = "Guna2ControlBox2"
-        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges73
+        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges79
         Guna2ControlBox2.Size = New Size(40, 35)
         Guna2ControlBox2.TabIndex = 1
         ' 
         ' Guna2ControlBox1
         ' 
         Guna2ControlBox1.Animated = True
-        Guna2ControlBox1.CustomizableEdges = CustomizableEdges74
+        Guna2ControlBox1.CustomizableEdges = CustomizableEdges80
         Guna2ControlBox1.Dock = DockStyle.Right
         Guna2ControlBox1.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
         Guna2ControlBox1.HoverState.FillColor = Color.FromArgb(CByte(255), CByte(128), CByte(128))
@@ -265,7 +265,7 @@ Partial Class Userdash
         Guna2ControlBox1.IconColor = Color.Black
         Guna2ControlBox1.Location = New Point(1248, 0)
         Guna2ControlBox1.Name = "Guna2ControlBox1"
-        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges75
+        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges81
         Guna2ControlBox1.Size = New Size(40, 35)
         Guna2ControlBox1.TabIndex = 0
         ' 
@@ -291,7 +291,7 @@ Partial Class Userdash
         ' 
         bttnAcc.Animated = True
         bttnAcc.BorderColor = Color.White
-        bttnAcc.CustomizableEdges = CustomizableEdges57
+        bttnAcc.CustomizableEdges = CustomizableEdges82
         bttnAcc.DisabledState.BorderColor = Color.DarkGray
         bttnAcc.DisabledState.CustomBorderColor = Color.DarkGray
         bttnAcc.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -313,7 +313,7 @@ Partial Class Userdash
         bttnAcc.Name = "bttnAcc"
         bttnAcc.Padding = New Padding(33, 0, 0, 0)
         bttnAcc.PressedColor = Color.Yellow
-        bttnAcc.ShadowDecoration.CustomizableEdges = CustomizableEdges58
+        bttnAcc.ShadowDecoration.CustomizableEdges = CustomizableEdges83
         bttnAcc.Size = New Size(276, 49)
         bttnAcc.TabIndex = 12
         bttnAcc.Text = "Account setting"
@@ -323,7 +323,7 @@ Partial Class Userdash
         ' 
         bttnLogout.Animated = True
         bttnLogout.BorderColor = Color.White
-        bttnLogout.CustomizableEdges = CustomizableEdges59
+        bttnLogout.CustomizableEdges = CustomizableEdges84
         bttnLogout.DisabledState.BorderColor = Color.DarkGray
         bttnLogout.DisabledState.CustomBorderColor = Color.DarkGray
         bttnLogout.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -345,7 +345,7 @@ Partial Class Userdash
         bttnLogout.Name = "bttnLogout"
         bttnLogout.Padding = New Padding(33, 0, 0, 0)
         bttnLogout.PressedColor = Color.Yellow
-        bttnLogout.ShadowDecoration.CustomizableEdges = CustomizableEdges60
+        bttnLogout.ShadowDecoration.CustomizableEdges = CustomizableEdges85
         bttnLogout.Size = New Size(276, 49)
         bttnLogout.TabIndex = 11
         bttnLogout.Text = "Log out"
@@ -353,10 +353,10 @@ Partial Class Userdash
         ' 
         ' pnlEm
         ' 
-        pnlEm.CustomizableEdges = CustomizableEdges61
+        pnlEm.CustomizableEdges = CustomizableEdges86
         pnlEm.Location = New Point(269, 309)
         pnlEm.Name = "pnlEm"
-        pnlEm.ShadowDecoration.CustomizableEdges = CustomizableEdges62
+        pnlEm.ShadowDecoration.CustomizableEdges = CustomizableEdges87
         pnlEm.Size = New Size(5, 40)
         pnlEm.TabIndex = 10
         ' 
@@ -364,7 +364,7 @@ Partial Class Userdash
         ' 
         bttnProf.Animated = True
         bttnProf.BorderColor = Color.White
-        bttnProf.CustomizableEdges = CustomizableEdges63
+        bttnProf.CustomizableEdges = CustomizableEdges88
         bttnProf.DisabledState.BorderColor = Color.DarkGray
         bttnProf.DisabledState.CustomBorderColor = Color.DarkGray
         bttnProf.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -386,7 +386,7 @@ Partial Class Userdash
         bttnProf.Name = "bttnProf"
         bttnProf.Padding = New Padding(30, 0, 0, 0)
         bttnProf.PressedColor = Color.Yellow
-        bttnProf.ShadowDecoration.CustomizableEdges = CustomizableEdges64
+        bttnProf.ShadowDecoration.CustomizableEdges = CustomizableEdges89
         bttnProf.Size = New Size(276, 49)
         bttnProf.TabIndex = 9
         bttnProf.Text = "Profile"
@@ -394,10 +394,10 @@ Partial Class Userdash
         ' 
         ' pnlDas
         ' 
-        pnlDas.CustomizableEdges = CustomizableEdges65
+        pnlDas.CustomizableEdges = CustomizableEdges90
         pnlDas.Location = New Point(269, 260)
         pnlDas.Name = "pnlDas"
-        pnlDas.ShadowDecoration.CustomizableEdges = CustomizableEdges66
+        pnlDas.ShadowDecoration.CustomizableEdges = CustomizableEdges91
         pnlDas.Size = New Size(5, 40)
         pnlDas.TabIndex = 8
         ' 
@@ -405,7 +405,7 @@ Partial Class Userdash
         ' 
         bttnDash.Animated = True
         bttnDash.BorderColor = Color.White
-        bttnDash.CustomizableEdges = CustomizableEdges67
+        bttnDash.CustomizableEdges = CustomizableEdges92
         bttnDash.DisabledState.BorderColor = Color.DarkGray
         bttnDash.DisabledState.CustomBorderColor = Color.DarkGray
         bttnDash.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -427,7 +427,7 @@ Partial Class Userdash
         bttnDash.Name = "bttnDash"
         bttnDash.Padding = New Padding(30, 0, 0, 0)
         bttnDash.PressedColor = Color.Yellow
-        bttnDash.ShadowDecoration.CustomizableEdges = CustomizableEdges68
+        bttnDash.ShadowDecoration.CustomizableEdges = CustomizableEdges93
         bttnDash.Size = New Size(276, 49)
         bttnDash.TabIndex = 5
         bttnDash.Text = "Dashboard"
@@ -474,7 +474,7 @@ Partial Class Userdash
         ImgProfile.ImageRotate = 0F
         ImgProfile.Location = New Point(39, 0)
         ImgProfile.Name = "ImgProfile"
-        ImgProfile.ShadowDecoration.CustomizableEdges = CustomizableEdges69
+        ImgProfile.ShadowDecoration.CustomizableEdges = CustomizableEdges94
         ImgProfile.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         ImgProfile.Size = New Size(198, 191)
         ImgProfile.SizeMode = PictureBoxSizeMode.StretchImage
@@ -513,11 +513,11 @@ Partial Class Userdash
         Guna2Panel1.Controls.Add(Label31)
         Guna2Panel1.Controls.Add(Label26)
         Guna2Panel1.Controls.Add(Guna2PictureBox2)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges5
+        Guna2Panel1.CustomizableEdges = CustomizableEdges99
         Guna2Panel1.FillColor = Color.FromArgb(CByte(255), CByte(224), CByte(192))
         Guna2Panel1.Location = New Point(88, 196)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges100
         Guna2Panel1.Size = New Size(847, 409)
         Guna2Panel1.TabIndex = 26
         ' 
@@ -534,13 +534,13 @@ Partial Class Userdash
         ' 
         ' Guna2PictureBox1
         ' 
-        Guna2PictureBox1.CustomizableEdges = CustomizableEdges1
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges95
         Guna2PictureBox1.FillColor = Color.Transparent
         Guna2PictureBox1.Image = My.Resources.Resources.bro_investeren_z
         Guna2PictureBox1.ImageRotate = 0F
         Guna2PictureBox1.Location = New Point(21, 199)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges96
         Guna2PictureBox1.Size = New Size(262, 204)
         Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox1.TabIndex = 3
@@ -570,14 +570,14 @@ Partial Class Userdash
         ' 
         ' Guna2PictureBox2
         ' 
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges3
+        Guna2PictureBox2.CustomizableEdges = CustomizableEdges97
         Guna2PictureBox2.Dock = DockStyle.Right
         Guna2PictureBox2.FillColor = Color.Transparent
         Guna2PictureBox2.Image = My.Resources.Resources.output_onlinegiftools_min
         Guna2PictureBox2.ImageRotate = 0F
         Guna2PictureBox2.Location = New Point(280, 0)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges98
         Guna2PictureBox2.Size = New Size(567, 409)
         Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox2.TabIndex = 4
@@ -641,7 +641,7 @@ Partial Class Userdash
         ' 
         Pcommittee.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Pcommittee.BorderRadius = 8
-        Pcommittee.CustomizableEdges = CustomizableEdges7
+        Pcommittee.CustomizableEdges = CustomizableEdges101
         Pcommittee.DefaultText = ""
         Pcommittee.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pcommittee.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -657,7 +657,7 @@ Partial Class Userdash
         Pcommittee.PlaceholderText = ""
         Pcommittee.ReadOnly = True
         Pcommittee.SelectedText = ""
-        Pcommittee.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        Pcommittee.ShadowDecoration.CustomizableEdges = CustomizableEdges102
         Pcommittee.Size = New Size(378, 32)
         Pcommittee.TabIndex = 58
         ' 
@@ -676,7 +676,7 @@ Partial Class Userdash
         ' 
         Pposition.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Pposition.BorderRadius = 8
-        Pposition.CustomizableEdges = CustomizableEdges9
+        Pposition.CustomizableEdges = CustomizableEdges103
         Pposition.DefaultText = ""
         Pposition.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pposition.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -692,7 +692,7 @@ Partial Class Userdash
         Pposition.PlaceholderText = ""
         Pposition.ReadOnly = True
         Pposition.SelectedText = ""
-        Pposition.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Pposition.ShadowDecoration.CustomizableEdges = CustomizableEdges104
         Pposition.Size = New Size(378, 32)
         Pposition.TabIndex = 56
         ' 
@@ -711,7 +711,7 @@ Partial Class Userdash
         ' 
         Poffice.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Poffice.BorderRadius = 8
-        Poffice.CustomizableEdges = CustomizableEdges11
+        Poffice.CustomizableEdges = CustomizableEdges105
         Poffice.DefaultText = ""
         Poffice.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Poffice.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -727,7 +727,7 @@ Partial Class Userdash
         Poffice.PlaceholderText = ""
         Poffice.ReadOnly = True
         Poffice.SelectedText = ""
-        Poffice.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Poffice.ShadowDecoration.CustomizableEdges = CustomizableEdges106
         Poffice.Size = New Size(378, 32)
         Poffice.TabIndex = 54
         ' 
@@ -746,7 +746,7 @@ Partial Class Userdash
         ' 
         Pemployment.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Pemployment.BorderRadius = 8
-        Pemployment.CustomizableEdges = CustomizableEdges13
+        Pemployment.CustomizableEdges = CustomizableEdges107
         Pemployment.DefaultText = ""
         Pemployment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pemployment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -762,7 +762,7 @@ Partial Class Userdash
         Pemployment.PlaceholderText = ""
         Pemployment.ReadOnly = True
         Pemployment.SelectedText = ""
-        Pemployment.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        Pemployment.ShadowDecoration.CustomizableEdges = CustomizableEdges108
         Pemployment.Size = New Size(378, 32)
         Pemployment.TabIndex = 52
         ' 
@@ -780,7 +780,7 @@ Partial Class Userdash
         ' Pemail
         ' 
         Pemail.BorderRadius = 8
-        Pemail.CustomizableEdges = CustomizableEdges15
+        Pemail.CustomizableEdges = CustomizableEdges109
         Pemail.DefaultText = ""
         Pemail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pemail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -796,7 +796,7 @@ Partial Class Userdash
         Pemail.PlaceholderText = ""
         Pemail.ReadOnly = True
         Pemail.SelectedText = ""
-        Pemail.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        Pemail.ShadowDecoration.CustomizableEdges = CustomizableEdges110
         Pemail.Size = New Size(378, 32)
         Pemail.TabIndex = 50
         ' 
@@ -814,7 +814,7 @@ Partial Class Userdash
         ' 
         Peducational.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Peducational.BorderRadius = 8
-        Peducational.CustomizableEdges = CustomizableEdges17
+        Peducational.CustomizableEdges = CustomizableEdges111
         Peducational.DefaultText = ""
         Peducational.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Peducational.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -830,7 +830,7 @@ Partial Class Userdash
         Peducational.PlaceholderText = ""
         Peducational.ReadOnly = True
         Peducational.SelectedText = ""
-        Peducational.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        Peducational.ShadowDecoration.CustomizableEdges = CustomizableEdges112
         Peducational.Size = New Size(378, 32)
         Peducational.TabIndex = 48
         ' 
@@ -848,7 +848,7 @@ Partial Class Userdash
         ' Pbdate
         ' 
         Pbdate.BorderRadius = 8
-        Pbdate.CustomizableEdges = CustomizableEdges19
+        Pbdate.CustomizableEdges = CustomizableEdges113
         Pbdate.DefaultText = ""
         Pbdate.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pbdate.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -864,7 +864,7 @@ Partial Class Userdash
         Pbdate.PlaceholderText = ""
         Pbdate.ReadOnly = True
         Pbdate.SelectedText = ""
-        Pbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        Pbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges114
         Pbdate.Size = New Size(378, 32)
         Pbdate.TabIndex = 46
         ' 
@@ -881,7 +881,7 @@ Partial Class Userdash
         ' Pcntact
         ' 
         Pcntact.BorderRadius = 8
-        Pcntact.CustomizableEdges = CustomizableEdges21
+        Pcntact.CustomizableEdges = CustomizableEdges115
         Pcntact.DefaultText = ""
         Pcntact.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pcntact.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -897,7 +897,7 @@ Partial Class Userdash
         Pcntact.PlaceholderText = ""
         Pcntact.ReadOnly = True
         Pcntact.SelectedText = ""
-        Pcntact.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        Pcntact.ShadowDecoration.CustomizableEdges = CustomizableEdges116
         Pcntact.Size = New Size(378, 32)
         Pcntact.TabIndex = 44
         ' 
@@ -914,7 +914,7 @@ Partial Class Userdash
         ' Padd
         ' 
         Padd.BorderRadius = 8
-        Padd.CustomizableEdges = CustomizableEdges23
+        Padd.CustomizableEdges = CustomizableEdges117
         Padd.DefaultText = ""
         Padd.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Padd.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -930,7 +930,7 @@ Partial Class Userdash
         Padd.PlaceholderText = ""
         Padd.ReadOnly = True
         Padd.SelectedText = ""
-        Padd.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        Padd.ShadowDecoration.CustomizableEdges = CustomizableEdges118
         Padd.Size = New Size(378, 32)
         Padd.TabIndex = 42
         ' 
@@ -947,7 +947,7 @@ Partial Class Userdash
         ' Pfname
         ' 
         Pfname.BorderRadius = 8
-        Pfname.CustomizableEdges = CustomizableEdges25
+        Pfname.CustomizableEdges = CustomizableEdges119
         Pfname.DefaultText = ""
         Pfname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pfname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -963,7 +963,7 @@ Partial Class Userdash
         Pfname.PlaceholderText = ""
         Pfname.ReadOnly = True
         Pfname.SelectedText = ""
-        Pfname.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        Pfname.ShadowDecoration.CustomizableEdges = CustomizableEdges120
         Pfname.Size = New Size(378, 32)
         Pfname.TabIndex = 40
         ' 
@@ -1041,7 +1041,7 @@ Partial Class Userdash
         cmbxoffice.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         cmbxoffice.BackColor = Color.Transparent
         cmbxoffice.BorderRadius = 16
-        cmbxoffice.CustomizableEdges = CustomizableEdges27
+        cmbxoffice.CustomizableEdges = CustomizableEdges121
         cmbxoffice.DrawMode = DrawMode.OwnerDrawFixed
         cmbxoffice.DropDownStyle = ComboBoxStyle.DropDownList
         cmbxoffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -1052,7 +1052,7 @@ Partial Class Userdash
         cmbxoffice.Items.AddRange(New Object() {"4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
         cmbxoffice.Location = New Point(522, 328)
         cmbxoffice.Name = "cmbxoffice"
-        cmbxoffice.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        cmbxoffice.ShadowDecoration.CustomizableEdges = CustomizableEdges122
         cmbxoffice.Size = New Size(344, 36)
         cmbxoffice.TabIndex = 94
         ' 
@@ -1061,7 +1061,7 @@ Partial Class Userdash
         cmbxposition.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         cmbxposition.BackColor = Color.Transparent
         cmbxposition.BorderRadius = 16
-        cmbxposition.CustomizableEdges = CustomizableEdges29
+        cmbxposition.CustomizableEdges = CustomizableEdges123
         cmbxposition.DrawMode = DrawMode.OwnerDrawFixed
         cmbxposition.DropDownStyle = ComboBoxStyle.DropDownList
         cmbxposition.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -1072,7 +1072,7 @@ Partial Class Userdash
         cmbxposition.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
         cmbxposition.Location = New Point(522, 401)
         cmbxposition.Name = "cmbxposition"
-        cmbxposition.ShadowDecoration.CustomizableEdges = CustomizableEdges30
+        cmbxposition.ShadowDecoration.CustomizableEdges = CustomizableEdges124
         cmbxposition.Size = New Size(344, 36)
         cmbxposition.TabIndex = 93
         ' 
@@ -1081,14 +1081,14 @@ Partial Class Userdash
         txtbxbdate.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         txtbxbdate.BorderRadius = 16
         txtbxbdate.Checked = True
-        txtbxbdate.CustomizableEdges = CustomizableEdges31
+        txtbxbdate.CustomizableEdges = CustomizableEdges125
         txtbxbdate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxbdate.Format = DateTimePickerFormat.Long
         txtbxbdate.Location = New Point(522, 125)
         txtbxbdate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         txtbxbdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         txtbxbdate.Name = "txtbxbdate"
-        txtbxbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges32
+        txtbxbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges126
         txtbxbdate.Size = New Size(344, 36)
         txtbxbdate.TabIndex = 92
         txtbxbdate.Value = New Date(2023, 6, 6, 13, 54, 41, 766)
@@ -1109,7 +1109,7 @@ Partial Class Userdash
         cmbxcomm.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         cmbxcomm.BackColor = Color.Transparent
         cmbxcomm.BorderRadius = 16
-        cmbxcomm.CustomizableEdges = CustomizableEdges33
+        cmbxcomm.CustomizableEdges = CustomizableEdges127
         cmbxcomm.DrawMode = DrawMode.OwnerDrawFixed
         cmbxcomm.DropDownStyle = ComboBoxStyle.DropDownList
         cmbxcomm.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -1120,7 +1120,7 @@ Partial Class Userdash
         cmbxcomm.Items.AddRange(New Object() {"Education, Information & Research", "Organizing & Membership", "Grievances", "Welfare", "Finance", "Sports & Culture"})
         cmbxcomm.Location = New Point(522, 540)
         cmbxcomm.Name = "cmbxcomm"
-        cmbxcomm.ShadowDecoration.CustomizableEdges = CustomizableEdges34
+        cmbxcomm.ShadowDecoration.CustomizableEdges = CustomizableEdges128
         cmbxcomm.Size = New Size(344, 36)
         cmbxcomm.TabIndex = 90
         ' 
@@ -1150,7 +1150,7 @@ Partial Class Userdash
         ' 
         txtbxeduc.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         txtbxeduc.BorderRadius = 16
-        txtbxeduc.CustomizableEdges = CustomizableEdges35
+        txtbxeduc.CustomizableEdges = CustomizableEdges129
         txtbxeduc.DefaultText = ""
         txtbxeduc.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxeduc.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1165,7 +1165,7 @@ Partial Class Userdash
         txtbxeduc.PasswordChar = ChrW(0)
         txtbxeduc.PlaceholderText = ""
         txtbxeduc.SelectedText = ""
-        txtbxeduc.ShadowDecoration.CustomizableEdges = CustomizableEdges36
+        txtbxeduc.ShadowDecoration.CustomizableEdges = CustomizableEdges130
         txtbxeduc.Size = New Size(344, 36)
         txtbxeduc.TabIndex = 87
         ' 
@@ -1184,7 +1184,7 @@ Partial Class Userdash
         ' 
         txtbxemail.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         txtbxemail.BorderRadius = 16
-        txtbxemail.CustomizableEdges = CustomizableEdges37
+        txtbxemail.CustomizableEdges = CustomizableEdges131
         txtbxemail.DefaultText = ""
         txtbxemail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxemail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1199,7 +1199,7 @@ Partial Class Userdash
         txtbxemail.PasswordChar = ChrW(0)
         txtbxemail.PlaceholderText = ""
         txtbxemail.SelectedText = ""
-        txtbxemail.ShadowDecoration.CustomizableEdges = CustomizableEdges38
+        txtbxemail.ShadowDecoration.CustomizableEdges = CustomizableEdges132
         txtbxemail.Size = New Size(344, 36)
         txtbxemail.TabIndex = 85
         ' 
@@ -1217,7 +1217,7 @@ Partial Class Userdash
         ' txtbxcontact
         ' 
         txtbxcontact.BorderRadius = 16
-        txtbxcontact.CustomizableEdges = CustomizableEdges39
+        txtbxcontact.CustomizableEdges = CustomizableEdges133
         txtbxcontact.DefaultText = ""
         txtbxcontact.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxcontact.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1232,7 +1232,7 @@ Partial Class Userdash
         txtbxcontact.PasswordChar = ChrW(0)
         txtbxcontact.PlaceholderText = ""
         txtbxcontact.SelectedText = ""
-        txtbxcontact.ShadowDecoration.CustomizableEdges = CustomizableEdges40
+        txtbxcontact.ShadowDecoration.CustomizableEdges = CustomizableEdges134
         txtbxcontact.Size = New Size(344, 36)
         txtbxcontact.TabIndex = 83
         ' 
@@ -1249,7 +1249,7 @@ Partial Class Userdash
         ' txtbxadds
         ' 
         txtbxadds.BorderRadius = 16
-        txtbxadds.CustomizableEdges = CustomizableEdges41
+        txtbxadds.CustomizableEdges = CustomizableEdges135
         txtbxadds.DefaultText = ""
         txtbxadds.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxadds.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1264,7 +1264,7 @@ Partial Class Userdash
         txtbxadds.PasswordChar = ChrW(0)
         txtbxadds.PlaceholderText = ""
         txtbxadds.SelectedText = ""
-        txtbxadds.ShadowDecoration.CustomizableEdges = CustomizableEdges42
+        txtbxadds.ShadowDecoration.CustomizableEdges = CustomizableEdges136
         txtbxadds.Size = New Size(344, 36)
         txtbxadds.TabIndex = 81
         ' 
@@ -1283,7 +1283,7 @@ Partial Class Userdash
         cmbxemployment.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         cmbxemployment.BackColor = Color.Transparent
         cmbxemployment.BorderRadius = 16
-        cmbxemployment.CustomizableEdges = CustomizableEdges43
+        cmbxemployment.CustomizableEdges = CustomizableEdges137
         cmbxemployment.DrawMode = DrawMode.OwnerDrawFixed
         cmbxemployment.DropDownStyle = ComboBoxStyle.DropDownList
         cmbxemployment.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -1294,7 +1294,7 @@ Partial Class Userdash
         cmbxemployment.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
         cmbxemployment.Location = New Point(522, 468)
         cmbxemployment.Name = "cmbxemployment"
-        cmbxemployment.ShadowDecoration.CustomizableEdges = CustomizableEdges44
+        cmbxemployment.ShadowDecoration.CustomizableEdges = CustomizableEdges138
         cmbxemployment.Size = New Size(344, 36)
         cmbxemployment.TabIndex = 79
         ' 
@@ -1323,7 +1323,7 @@ Partial Class Userdash
         ' txtbxlname
         ' 
         txtbxlname.BorderRadius = 16
-        txtbxlname.CustomizableEdges = CustomizableEdges45
+        txtbxlname.CustomizableEdges = CustomizableEdges139
         txtbxlname.DefaultText = ""
         txtbxlname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxlname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1338,7 +1338,7 @@ Partial Class Userdash
         txtbxlname.PasswordChar = ChrW(0)
         txtbxlname.PlaceholderText = ""
         txtbxlname.SelectedText = ""
-        txtbxlname.ShadowDecoration.CustomizableEdges = CustomizableEdges46
+        txtbxlname.ShadowDecoration.CustomizableEdges = CustomizableEdges140
         txtbxlname.Size = New Size(344, 36)
         txtbxlname.TabIndex = 76
         ' 
@@ -1355,7 +1355,7 @@ Partial Class Userdash
         ' txtbxmname
         ' 
         txtbxmname.BorderRadius = 16
-        txtbxmname.CustomizableEdges = CustomizableEdges47
+        txtbxmname.CustomizableEdges = CustomizableEdges141
         txtbxmname.DefaultText = ""
         txtbxmname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxmname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1370,7 +1370,7 @@ Partial Class Userdash
         txtbxmname.PasswordChar = ChrW(0)
         txtbxmname.PlaceholderText = ""
         txtbxmname.SelectedText = ""
-        txtbxmname.ShadowDecoration.CustomizableEdges = CustomizableEdges48
+        txtbxmname.ShadowDecoration.CustomizableEdges = CustomizableEdges142
         txtbxmname.Size = New Size(344, 36)
         txtbxmname.TabIndex = 74
         ' 
@@ -1387,7 +1387,7 @@ Partial Class Userdash
         ' txtbxfname
         ' 
         txtbxfname.BorderRadius = 16
-        txtbxfname.CustomizableEdges = CustomizableEdges49
+        txtbxfname.CustomizableEdges = CustomizableEdges143
         txtbxfname.DefaultText = ""
         txtbxfname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxfname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1402,7 +1402,7 @@ Partial Class Userdash
         txtbxfname.PasswordChar = ChrW(0)
         txtbxfname.PlaceholderText = ""
         txtbxfname.SelectedText = ""
-        txtbxfname.ShadowDecoration.CustomizableEdges = CustomizableEdges50
+        txtbxfname.ShadowDecoration.CustomizableEdges = CustomizableEdges144
         txtbxfname.Size = New Size(344, 36)
         txtbxfname.TabIndex = 72
         ' 
@@ -1419,7 +1419,7 @@ Partial Class Userdash
         ' txtbxpassword
         ' 
         txtbxpassword.BorderRadius = 16
-        txtbxpassword.CustomizableEdges = CustomizableEdges51
+        txtbxpassword.CustomizableEdges = CustomizableEdges145
         txtbxpassword.DefaultText = ""
         txtbxpassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxpassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1434,7 +1434,7 @@ Partial Class Userdash
         txtbxpassword.PasswordChar = ChrW(0)
         txtbxpassword.PlaceholderText = ""
         txtbxpassword.SelectedText = ""
-        txtbxpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges52
+        txtbxpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges146
         txtbxpassword.Size = New Size(344, 36)
         txtbxpassword.TabIndex = 70
         ' 
@@ -1451,7 +1451,7 @@ Partial Class Userdash
         ' txtbxusername
         ' 
         txtbxusername.BorderRadius = 16
-        txtbxusername.CustomizableEdges = CustomizableEdges53
+        txtbxusername.CustomizableEdges = CustomizableEdges147
         txtbxusername.DefaultText = ""
         txtbxusername.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxusername.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1466,7 +1466,7 @@ Partial Class Userdash
         txtbxusername.PasswordChar = ChrW(0)
         txtbxusername.PlaceholderText = ""
         txtbxusername.SelectedText = ""
-        txtbxusername.ShadowDecoration.CustomizableEdges = CustomizableEdges54
+        txtbxusername.ShadowDecoration.CustomizableEdges = CustomizableEdges148
         txtbxusername.Size = New Size(344, 36)
         txtbxusername.TabIndex = 68
         ' 
@@ -1483,7 +1483,7 @@ Partial Class Userdash
         ' Guna2Button3
         ' 
         Guna2Button3.BorderRadius = 19
-        Guna2Button3.CustomizableEdges = CustomizableEdges55
+        Guna2Button3.CustomizableEdges = CustomizableEdges149
         Guna2Button3.DisabledState.BorderColor = Color.DarkGray
         Guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1492,7 +1492,7 @@ Partial Class Userdash
         Guna2Button3.ForeColor = Color.White
         Guna2Button3.Location = New Point(142, 593)
         Guna2Button3.Name = "Guna2Button3"
-        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges56
+        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges150
         Guna2Button3.Size = New Size(210, 49)
         Guna2Button3.TabIndex = 66
         Guna2Button3.Text = "Update"
