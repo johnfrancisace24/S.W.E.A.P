@@ -148,9 +148,29 @@ Public Class AdminDashboard
     End Sub
 
     Private Sub btnEditMember_Click(sender As Object, e As EventArgs) Handles btnEditMember.Click
+        other.Enabled = False
         tabEditMember.Show()
         pnlEmployee.Hide()
-
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select users.*, user_info.* from users left join user_info on users.id = user_info.user_id where users.id=@ID", conn)
+            cmd.Parameters.AddWithValue("@ID", selectedId)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                txtEditUsername.Text = rid.GetString("username")
+                txtEditPw.Text = rid.GetString("password")
+                txtEditFname.Text = rid.GetString("first_name")
+                txtEditMname.Text = rid.GetString("middle_name")
+                txtEditLname.Text = rid.GetString("last_name")
+                txtEditNumber.Text = rid.GetString("contact")
+                txtEditAddress.Text = rid.GetString("address")
+                txtEditEducation.Text = rid.GetString("educational")
+                txtEditEmail.Text = rid.GetString("email")
+            End While
+        Catch ex As Exception
+        Finally
+            conn.Close()
+        End Try
     End Sub
 
     Private Sub dgMembers_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgMembers.CellContentClick
@@ -160,7 +180,8 @@ Public Class AdminDashboard
     End Sub
 
     Private Sub btnEditNext_Click(sender As Object, e As EventArgs) Handles btnEditNext.Click
-        tabEditMember.SelectedIndex = 1
+        tabEditMember.SelectedTab = other
+        other.Enabled = True
     End Sub
 
     Private Sub Guna2PictureBox1_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox1.Click
@@ -235,5 +256,10 @@ Public Class AdminDashboard
             End Try
         End If
 
+    End Sub
+
+    Private Sub btnEditBack_Click(sender As Object, e As EventArgs) Handles btnEditBack.Click '----------------BACK BUTTON
+        tabEditMember.Hide()
+        pnlEmployee.Show()
     End Sub
 End Class
