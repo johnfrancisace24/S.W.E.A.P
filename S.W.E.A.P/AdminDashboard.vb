@@ -41,6 +41,7 @@ Public Class AdminDashboard
         pnlFundT.BackColor = Color.Transparent
 
         'To view panel
+        pnlHome.Visible = False
         pnlDashboard.Visible = True
         pnlEmployees.Visible = False
         pnlFundTransfer.Visible = False
@@ -61,6 +62,7 @@ Public Class AdminDashboard
         pnlFundT.BackColor = Color.Transparent
 
         'To view panel
+        pnlHome.Visible = False
         pnlDashboard.Visible = False
         pnlEmployees.Visible = True
         pnlFundTransfer.Visible = False
@@ -86,6 +88,7 @@ Public Class AdminDashboard
         pnlFundT.BackColor = Color.DarkRed
 
         'To view panel
+        pnlHome.Visible = False
         pnlDashboard.Visible = False
         pnlEmployees.Visible = False
         pnlFundTransfer.Visible = True
@@ -119,6 +122,8 @@ Public Class AdminDashboard
         viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
                                             email from users left join user_info on users.id = user_info.user_id")
         dgMembers.ReadOnly = True
+
+        pnlHome.Visible = True
     End Sub
 
 
@@ -157,4 +162,44 @@ Public Class AdminDashboard
     Private Sub btnEditNext_Click(sender As Object, e As EventArgs) Handles btnEditNext.Click
         tabEditMember.SelectedIndex = 1
     End Sub
+
+    Private Sub Guna2PictureBox1_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox1.Click
+        'To view panel
+        pnlHome.Visible = True
+        pnlDashboard.Visible = False
+        pnlEmployees.Visible = False
+        pnlFundTransfer.Visible = False
+
+
+
+        pnlDas.BackColor = Color.Transparent
+        pnlEm.BackColor = Color.Transparent
+        pnlFundT.BackColor = Color.Transparent
+
+
+        'For button Dashboard design
+        bttnDash.FillColor = Color.Transparent
+        bttnDash.ForeColor = Color.White
+        bttnDash.Image = My.Resources.dash
+        bttnDash.BorderColor = Color.Black
+
+
+        'For button Employee design
+        bttnEmpl.FillColor = Color.Transparent
+        bttnEmpl.ForeColor = Color.White
+        bttnEmpl.Image = My.Resources.employees
+        bttnEmpl.BorderColor = Color.Black
+
+        'For button Fundtransfer design
+        bttnFund.FillColor = Color.Transparent
+        bttnFund.ForeColor = Color.White
+        bttnFund.Image = My.Resources.transfer
+        bttnFund.BorderColor = Color.Black
+
+
+
+
+    End Sub
+
+
 End Class
