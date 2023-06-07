@@ -536,7 +536,7 @@ Partial Class Userdash
         ' 
         Guna2PictureBox1.CustomizableEdges = CustomizableEdges95
         Guna2PictureBox1.FillColor = Color.Transparent
-        Guna2PictureBox1.Image = My.Resources.Resources.bro_investeren_z
+        'Guna2PictureBox1.Image = My.Resources.Resources.bro_investeren_z
         Guna2PictureBox1.ImageRotate = 0F
         Guna2PictureBox1.Location = New Point(21, 199)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
@@ -573,7 +573,7 @@ Partial Class Userdash
         Guna2PictureBox2.CustomizableEdges = CustomizableEdges97
         Guna2PictureBox2.Dock = DockStyle.Right
         Guna2PictureBox2.FillColor = Color.Transparent
-        Guna2PictureBox2.Image = My.Resources.Resources.output_onlinegiftools_min
+        'Guna2PictureBox2.Image = My.Resources.Resources.pie
         Guna2PictureBox2.ImageRotate = 0F
         Guna2PictureBox2.Location = New Point(280, 0)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
