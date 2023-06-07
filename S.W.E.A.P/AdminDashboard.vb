@@ -30,9 +30,9 @@ Public Class AdminDashboard
         button.BorderColor = Color.White
     End Sub
     Public Sub panelVisible(pnldash, pnlEm, pnlf) '--------------------FOR PANEL VISIBILITY
-        pnlDashboard.Visible = pnldash
-        pnlEmployees.Visible = pnlEm
-        pnlFundTransfer.Visible = pnlf
+        pnlEmployees.Visible = pnldash
+        pnlFundTransfer.Visible = pnlEm
+        pnlDashboard.Visible = pnlf
     End Sub
     '---------------------------------------------------END OF FUNCTIONS----------------------------------------------------------------------------
     Private Sub bttnDash_Click(sender As Object, e As EventArgs) Handles bttnDash.Click
@@ -40,7 +40,11 @@ Public Class AdminDashboard
         pnlEm.BackColor = Color.Transparent
         pnlFundT.BackColor = Color.Transparent
 
-        panelVisible(True, False, False)
+        'To view panel
+        pnlHome.Visible = False
+        pnlDashboard.Visible = True
+        pnlEmployees.Visible = False
+        pnlFundTransfer.Visible = False
 
         btnFx1(bttnDash)
         bttnDash.Image = My.Resources.dashboard__1_
@@ -57,7 +61,11 @@ Public Class AdminDashboard
         pnlEm.BackColor = Color.DarkRed
         pnlFundT.BackColor = Color.Transparent
 
-        panelVisible(False, True, False)
+        'To view panel
+        pnlHome.Visible = False
+        pnlDashboard.Visible = False
+        pnlEmployees.Visible = True
+        pnlFundTransfer.Visible = False
 
         'For button Dashboard design
         bttnDash.FillColor = Color.Transparent
@@ -79,7 +87,11 @@ Public Class AdminDashboard
         pnlEm.BackColor = Color.Transparent
         pnlFundT.BackColor = Color.DarkRed
 
-        panelVisible(False, False, True)
+        'To view panel
+        pnlHome.Visible = False
+        pnlDashboard.Visible = False
+        pnlEmployees.Visible = False
+        pnlFundTransfer.Visible = True
 
         'For button Dashboard design
         bttnDash.FillColor = Color.Transparent
@@ -98,7 +110,7 @@ Public Class AdminDashboard
         bttnFund.Image = My.Resources.fund__1_
     End Sub
 
-    Private Sub pnlFundTransfer_Paint(sender As Object, e As PaintEventArgs) Handles pnlFundTransfer.Paint
+    Private Sub pnlFundTransfer_Paint(sender As Object, e As PaintEventArgs) Handles pnlDashboard.Paint
 
     End Sub
 
@@ -110,6 +122,8 @@ Public Class AdminDashboard
         viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
                                             email from users left join user_info on users.id = user_info.user_id")
         dgMembers.ReadOnly = True
+
+        pnlHome.Visible = True
     End Sub
 
 
@@ -147,5 +161,53 @@ Public Class AdminDashboard
 
     Private Sub btnEditNext_Click(sender As Object, e As EventArgs) Handles btnEditNext.Click
         tabEditMember.SelectedIndex = 1
+    End Sub
+
+    Private Sub Guna2PictureBox1_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox1.Click
+        'To view panel
+        pnlHome.Visible = True
+        pnlDashboard.Visible = False
+        pnlEmployees.Visible = False
+        pnlFundTransfer.Visible = False
+
+
+
+        pnlDas.BackColor = Color.Transparent
+        pnlEm.BackColor = Color.Transparent
+        pnlFundT.BackColor = Color.Transparent
+
+
+        'For button Dashboard design
+        bttnDash.FillColor = Color.Transparent
+        bttnDash.ForeColor = Color.White
+        bttnDash.Image = My.Resources.dash
+        bttnDash.BorderColor = Color.Black
+
+
+        'For button Employee design
+        bttnEmpl.FillColor = Color.Transparent
+        bttnEmpl.ForeColor = Color.White
+        bttnEmpl.Image = My.Resources.employees
+        bttnEmpl.BorderColor = Color.Black
+
+        'For button Fundtransfer design
+        bttnFund.FillColor = Color.Transparent
+        bttnFund.ForeColor = Color.White
+        bttnFund.Image = My.Resources.transfer
+        bttnFund.BorderColor = Color.Black
+
+
+
+
+    End Sub
+
+    Private Sub Guna2CircleProgressBar2_ValueChanged(sender As Object, e As EventArgs) Handles Guna2CircleProgressBar2.ValueChanged
+
+    End Sub
+
+    Private Sub Guna2CircleProgressBar1_ValueChanged(sender As Object, e As EventArgs) Handles Guna2CircleProgressBar1.ValueChanged
+    End Sub
+
+    Private Sub Guna2Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel3.Paint
     End Sub
 End Class
