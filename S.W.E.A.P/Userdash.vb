@@ -1,31 +1,29 @@
 ﻿Imports System.IO
-Imports System.Net.Sockets
 Imports MySql.Data.MySqlClient
 
-Public Class UserDashboard
+Public Class Userdash
 
     Dim conn As New MySqlConnection("server=172.30.192.29;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim dr As MySqlDataReader
 
     Private Sub bttnDash_Click(sender As Object, e As EventArgs) Handles bttnDash.Click
         pnlDash.Visible = True
-        Guna2Panel5.Visible = False
-        Guna2Panel2.Visible = False
+        pnlProfile.Hide()
+        pnlAccount.Hide()
     End Sub
-
     Private Sub bttnProf_Click(sender As Object, e As EventArgs) Handles bttnProf.Click
-        Guna2Panel5.Visible = True
-        pnlDash.Visible = False
-        Guna2Panel2.Visible = False
+        pnlProfile.Visible = True
+        pnlAccount.Hide()
+        pnlDash.Hide()
     End Sub
 
     Private Sub bttnAcc_Click(sender As Object, e As EventArgs) Handles bttnAcc.Click
-        Guna2Panel5.Visible = False
-        pnlDash.Visible = False
-        Guna2Panel2.Visible = True
+        pnlAccount.Visible = True
+        pnlProfile.Hide()
+        pnlDash.Hide()
     End Sub
 
-    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles bttnLogout.Click
+    Private Sub bttnLogout_Click(sender As Object, e As EventArgs) Handles bttnLogout.Click
         Dim AnswerYes As String
         AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "User Repsonse")
 
@@ -35,8 +33,7 @@ Public Class UserDashboard
         End If
     End Sub
 
-
-    Private Sub Guna2GradientPanel1_Paint(sender As Object, e As PaintEventArgs) Handles Guna2GradientPanel1.Paint
+    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
         Dim locateProject As String = My.Application.Info.DirectoryPath
         Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
         Dim location As String = locateProject.Substring(0, indext)
@@ -91,9 +88,9 @@ Public Class UserDashboard
 
                 If File.Exists(imagePathInResources) Then
 
-                    imgProfile.Image = Image.FromFile(imagePathInResources)
+                    ImgProfile.Image = Image.FromFile(imagePathInResources)
                 Else
-                    imgProfile.Image = Nothing
+                    ImgProfile.Image = Nothing
                 End If
             End If
         Catch ex As Exception
@@ -135,14 +132,10 @@ Public Class UserDashboard
         Finally
             conn.Close()
         End Try
-
     End Sub
 
     Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
         Update()
     End Sub
 
-    Private Sub Guna2Panel1_Paint(sender As Object, e As PaintEventArgs) Handles pnlDash.Paint
-
-    End Sub
 End Class
