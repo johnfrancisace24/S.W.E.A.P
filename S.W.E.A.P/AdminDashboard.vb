@@ -30,9 +30,9 @@ Public Class AdminDashboard
         button.BorderColor = Color.White
     End Sub
     Public Sub panelVisible(pnldash, pnlEm, pnlf) '--------------------FOR PANEL VISIBILITY
-        pnlDashboard.Visible = pnldash
-        pnlEmployees.Visible = pnlEm
-        pnlFundTransfer.Visible = pnlf
+        pnlEmployees.Visible = pnldash
+        pnlFundTransfer.Visible = pnlEm
+        pnlDashboard.Visible = pnlf
     End Sub
     '---------------------------------------------------END OF FUNCTIONS----------------------------------------------------------------------------
     Private Sub bttnDash_Click(sender As Object, e As EventArgs) Handles bttnDash.Click
@@ -98,7 +98,7 @@ Public Class AdminDashboard
         bttnFund.Image = My.Resources.fund__1_
     End Sub
 
-    Private Sub pnlFundTransfer_Paint(sender As Object, e As PaintEventArgs) Handles pnlFundTransfer.Paint
+    Private Sub pnlFundTransfer_Paint(sender As Object, e As PaintEventArgs) Handles pnlDashboard.Paint
 
     End Sub
 
