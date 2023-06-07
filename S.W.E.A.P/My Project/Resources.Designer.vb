@@ -163,6 +163,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property image__1_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("image (1)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property image_removebg_preview__1_() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("image-removebg-preview (1)", resourceCulture)
@@ -183,9 +193,15 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+
         Friend ReadOnly Property output_onlinegiftools_min() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("output-onlinegiftools-min", resourceCulture)
+
+        Friend ReadOnly Property ka() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ka", resourceCulture)
+
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
