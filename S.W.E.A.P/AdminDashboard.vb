@@ -212,7 +212,28 @@ Public Class AdminDashboard
     End Sub
 
     Private Sub pickOffice_SelectedIndexChanged(sender As Object, e As EventArgs) Handles pickOffice.SelectedIndexChanged
-        viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
-                                            email from users left join user_info on users.id = user_info.user_id where office=" & pickOffice.SelectedItem)
+        ' viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
+        '                                    email from users left join user_info on users.id = user_info.user_id where office=" & pickOffice.SelectedItem)
+        If pickOffice.SelectedIndex = 0 Then
+            viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
+                                            email from users left join user_info on users.id = user_info.user_id")
+        Else
+            dgMembers.Rows.Clear()
+            Try
+                conn.Open()
+                Dim cmd As New MySqlCommand("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
+                                            email from users left join user_info on users.id = user_info.user_id where office=@OFC", conn)
+                cmd.Parameters.AddWithValue("@OFC", pickOffice.SelectedItem)
+                rid = cmd.ExecuteReader
+                While rid.Read
+                    dgMembers.Rows.Add(rid.Item("id"), rid.Item("full_name"), rid.Item("office"), rid.Item("position"), rid.Item("employment_status"), rid.Item("email"))
+                End While
+            Catch ex As Exception
+                MsgBox("doesn't work lmao")
+            Finally
+                conn.Close()
+            End Try
+        End If
+
     End Sub
 End Class
