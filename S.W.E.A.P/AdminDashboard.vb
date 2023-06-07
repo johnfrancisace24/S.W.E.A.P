@@ -40,7 +40,10 @@ Public Class AdminDashboard
         pnlEm.BackColor = Color.Transparent
         pnlFundT.BackColor = Color.Transparent
 
-        panelVisible(True, False, False)
+        'To view panel
+        pnlDashboard.Visible = True
+        pnlEmployees.Visible = False
+        pnlFundTransfer.Visible = False
 
         btnFx1(bttnDash)
         bttnDash.Image = My.Resources.dashboard__1_
@@ -57,7 +60,10 @@ Public Class AdminDashboard
         pnlEm.BackColor = Color.DarkRed
         pnlFundT.BackColor = Color.Transparent
 
-        panelVisible(False, True, False)
+        'To view panel
+        pnlDashboard.Visible = False
+        pnlEmployees.Visible = True
+        pnlFundTransfer.Visible = False
 
         'For button Dashboard design
         bttnDash.FillColor = Color.Transparent
@@ -79,7 +85,10 @@ Public Class AdminDashboard
         pnlEm.BackColor = Color.Transparent
         pnlFundT.BackColor = Color.DarkRed
 
-        panelVisible(False, False, True)
+        'To view panel
+        pnlDashboard.Visible = False
+        pnlEmployees.Visible = False
+        pnlFundTransfer.Visible = True
 
         'For button Dashboard design
         bttnDash.FillColor = Color.Transparent
