@@ -201,5 +201,13 @@ Public Class AdminDashboard
 
     End Sub
 
+    Private Sub Guna2CircleProgressBar2_ValueChanged(sender As Object, e As EventArgs) Handles Guna2CircleProgressBar2.ValueChanged
 
+    End Sub
+
+    Private Sub Guna2CircleProgressBar1_ValueChanged(sender As Object, e As EventArgs) Handles Guna2CircleProgressBar1.ValueChanged
+    End Sub
+
+    Private Sub Guna2Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel3.Paint
+    End Sub
 End Class
