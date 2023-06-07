@@ -25,7 +25,7 @@ Public Class UserDashboard
         Guna2Panel2.Visible = True
     End Sub
 
-    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles bttnLogout.Click
+    Private Sub bttnLogout_Click(sender As Object, e As EventArgs) Handles bttnLogout.Click
         Dim AnswerYes As String
         AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "User Repsonse")
 
