@@ -317,7 +317,7 @@ Public Class AdminDashboard
     End Sub
 
     Private Sub dgBeneficiaries_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgBeneficiaries.CellContentClick
-        selectedbenId = dgBeneficiaries.CurrentRow.Cells(0).Value.ToString()
+        selectedBenId = dgBeneficiaries.CurrentRow.Cells(0).Value.ToString()
         lblBenId.Text = "ID: " & selectedBenId
     End Sub
 
@@ -373,5 +373,37 @@ Public Class AdminDashboard
             btnEditAddBen.Enabled = False
         End If
         beneficiariesRecord()
+    End Sub
+
+    Private Sub btnEditUpdate_Click(sender As Object, e As EventArgs) Handles btnEditUpdate.Click
+        Dim adminValue As Integer
+        If pickEditUserStat.SelectedIndex = 0 Then
+            adminValue = 1
+        Else
+            adminValue = 0
+        End If
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("update users set username=@USER, password=@PW, first_name=@FNAME, middle_name=@MNAME, last_name=@LNAME, position=@POS,
+                                            is_admin=@ADMIN, updated_at=NOW() where id=@ID", conn)
+            cmd.Parameters.AddWithValue("@USER", txtEditUsername.Text)
+            cmd.Parameters.AddWithValue("@PW", txtEditPw.Text)
+            cmd.Parameters.AddWithValue("@FNAME", txtEditFname.Text)
+            cmd.Parameters.AddWithValue("@MNAME", txtEditMname.Text)
+            cmd.Parameters.AddWithValue("@LNAME", txtEditLname.Text)
+            cmd.Parameters.AddWithValue("@POS", pickEditPosition.SelectedItem)
+            cmd.Parameters.AddWithValue("@ADMIN", adminValue)
+            cmd.Parameters.AddWithValue("@ID", selectedId)
+            cmd.ExecuteNonQuery()
+            MsgBox("successfully updated.")
+            pickOffice.SelectedIndex = 0
+            tabEditMember.Hide()
+            pnlEmployee.Show()
+        Catch ex As Exception
+            MsgBox("doesnt work update")
+        Finally
+            conn.Close()
+
+        End Try
     End Sub
 End Class

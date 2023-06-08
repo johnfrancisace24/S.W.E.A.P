@@ -212,6 +212,10 @@ Partial Class AdminDashboard
         btnEditUpdate = New Guna.UI2.WinForms.Guna2Button()
         btnEditAddBen = New Guna.UI2.WinForms.Guna2Button()
         dgBeneficiaries = New Guna.UI2.WinForms.Guna2DataGridView()
+        Column8 = New DataGridViewTextBoxColumn()
+        Column9 = New DataGridViewTextBoxColumn()
+        Column10 = New DataGridViewTextBoxColumn()
+        Column11 = New DataGridViewTextBoxColumn()
         txtEditAddBenAge = New Guna.UI2.WinForms.Guna2TextBox()
         txtEditAddBenRel = New Guna.UI2.WinForms.Guna2TextBox()
         txtEditAddBen = New Guna.UI2.WinForms.Guna2TextBox()
@@ -278,10 +282,6 @@ Partial Class AdminDashboard
         Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Label4 = New Label()
         Label5 = New Label()
-        Column8 = New DataGridViewTextBoxColumn()
-        Column9 = New DataGridViewTextBoxColumn()
-        Column10 = New DataGridViewTextBoxColumn()
-        Column11 = New DataGridViewTextBoxColumn()
         Guna2GradientPanel1.SuspendLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         pnlHome.SuspendLayout()
@@ -1253,6 +1253,37 @@ Partial Class AdminDashboard
         dgBeneficiaries.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         dgBeneficiaries.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
         ' 
+        ' Column8
+        ' 
+        Column8.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column8.HeaderText = "ID"
+        Column8.Name = "Column8"
+        Column8.ReadOnly = True
+        Column8.Width = 41
+        ' 
+        ' Column9
+        ' 
+        Column9.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column9.HeaderText = "Full name"
+        Column9.Name = "Column9"
+        Column9.ReadOnly = True
+        ' 
+        ' Column10
+        ' 
+        Column10.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column10.HeaderText = "Relationship"
+        Column10.Name = "Column10"
+        Column10.ReadOnly = True
+        Column10.Width = 95
+        ' 
+        ' Column11
+        ' 
+        Column11.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column11.HeaderText = "Age"
+        Column11.Name = "Column11"
+        Column11.ReadOnly = True
+        Column11.Width = 51
+        ' 
         ' txtEditAddBenAge
         ' 
         txtEditAddBenAge.CustomizableEdges = CustomizableEdges51
@@ -2199,37 +2230,6 @@ Partial Class AdminDashboard
         Label5.Size = New Size(403, 59)
         Label5.TabIndex = 3
         Label5.Text = "Contribution Report"
-        ' 
-        ' Column8
-        ' 
-        Column8.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column8.HeaderText = "ID"
-        Column8.Name = "Column8"
-        Column8.ReadOnly = True
-        Column8.Width = 41
-        ' 
-        ' Column9
-        ' 
-        Column9.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column9.HeaderText = "Full name"
-        Column9.Name = "Column9"
-        Column9.ReadOnly = True
-        ' 
-        ' Column10
-        ' 
-        Column10.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column10.HeaderText = "Relationship"
-        Column10.Name = "Column10"
-        Column10.ReadOnly = True
-        Column10.Width = 95
-        ' 
-        ' Column11
-        ' 
-        Column11.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column11.HeaderText = "Age"
-        Column11.Name = "Column11"
-        Column11.ReadOnly = True
-        Column11.Width = 51
         ' 
         ' AdminDashboard
         ' 
