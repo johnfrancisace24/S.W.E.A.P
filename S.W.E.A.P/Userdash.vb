@@ -6,6 +6,11 @@ Public Class Userdash
     Dim conn As New MySqlConnection("server=172.30.192.29;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim dr As MySqlDataReader
 
+    Private Sub Userdash_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        pnlDash.Visible = True
+        pnlProfile.Hide()
+        pnlAccount.Hide()
+    End Sub
     Private Sub bttnDash_Click(sender As Object, e As EventArgs) Handles bttnDash.Click
         pnlDash.Visible = True
         pnlProfile.Hide()
@@ -15,12 +20,16 @@ Public Class Userdash
         pnlProfile.Visible = True
         pnlAccount.Hide()
         pnlDash.Hide()
+
+        Get_info()
     End Sub
 
     Private Sub bttnAcc_Click(sender As Object, e As EventArgs) Handles bttnAcc.Click
         pnlAccount.Visible = True
         pnlProfile.Hide()
         pnlDash.Hide()
+
+        Get_info()
     End Sub
 
     Private Sub bttnLogout_Click(sender As Object, e As EventArgs) Handles bttnLogout.Click
@@ -33,7 +42,8 @@ Public Class Userdash
         End If
     End Sub
 
-    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
+
+    Public Sub Get_info()
         Dim locateProject As String = My.Application.Info.DirectoryPath
         Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
         Dim location As String = locateProject.Substring(0, indext)
@@ -99,7 +109,6 @@ Public Class Userdash
             conn.Close()
         End Try
     End Sub
-
     Public Sub Update()
         Try
             conn.Open()
