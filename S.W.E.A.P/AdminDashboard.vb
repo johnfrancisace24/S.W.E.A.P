@@ -151,12 +151,16 @@ Public Class AdminDashboard
         other.Enabled = False
         tabEditMember.Show()
         pnlEmployee.Hide()
+        Dim locateProject As String = My.Application.Info.DirectoryPath
+        Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
+        Dim location As String = locateProject.Substring(0, indext)
         Try
             conn.Open()
             Dim cmd As New MySqlCommand("select users.*, user_info.* from users left join user_info on users.id = user_info.user_id where users.id=@ID", conn)
             cmd.Parameters.AddWithValue("@ID", selectedId)
             rid = cmd.ExecuteReader
             While rid.Read
+                pBoxEditProfile.BackgroundImage = Image.FromFile(location & "\Resources\user_profile\" & rid.GetString("image")) 'location & "\Resources\user_profile\"
                 txtEditUsername.Text = rid.GetString("username")
                 txtEditPw.Text = rid.GetString("password")
                 txtEditFname.Text = rid.GetString("first_name")
@@ -166,6 +170,15 @@ Public Class AdminDashboard
                 txtEditAddress.Text = rid.GetString("address")
                 txtEditEducation.Text = rid.GetString("educational")
                 txtEditEmail.Text = rid.GetString("email")
+                pickEditOffice.Text = rid.GetString("office")
+                pickEditStatus.Text = rid.GetString("employment_status")
+                pickEditPosition.Text = rid.GetString("position")
+                pickEditComm.Text = rid.GetString("committee")
+                If rid.GetString("is_admin") = 1 Then
+                    pickEditUserStat.Text = "Administrator"
+                Else
+                    pickEditUserStat.Text = "Default"
+                End If
             End While
         Catch ex As Exception
         Finally
@@ -182,6 +195,19 @@ Public Class AdminDashboard
     Private Sub btnEditNext_Click(sender As Object, e As EventArgs) Handles btnEditNext.Click
         tabEditMember.SelectedTab = other
         other.Enabled = True
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select * from beneficiaries where user_id = @ID", conn)
+            cmd.Parameters.AddWithValue("@ID", selectedId)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                dgBeneficiaries.Rows.Add(rid.Item("id"), rid.Item("full_name"), rid.Item("relationship"), rid.Item("age"))
+            End While
+        Catch ex As Exception
+            MsgBox("Doesnt work")
+        Finally
+            conn.Close()
+        End Try
     End Sub
 
     Private Sub Guna2PictureBox1_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox1.Click
