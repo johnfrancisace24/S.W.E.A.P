@@ -28,8 +28,6 @@ Public Class Userdash
         pnlAccount.Visible = True
         pnlProfile.Hide()
         pnlDash.Hide()
-
-        Get_info()
     End Sub
 
     Private Sub bttnLogout_Click(sender As Object, e As EventArgs) Handles bttnLogout.Click
@@ -147,4 +145,7 @@ Public Class Userdash
         Update()
     End Sub
 
+    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
+        Get_info()
+    End Sub
 End Class
