@@ -82,6 +82,8 @@ Partial Class AdminDashboard
         Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -153,8 +155,6 @@ Partial Class AdminDashboard
         Dim CustomizableEdges121 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges122 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges123 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
@@ -208,19 +208,17 @@ Partial Class AdminDashboard
         Label9 = New Label()
         Label7 = New Label()
         other = New TabPage()
+        btnBenRemove = New Guna.UI2.WinForms.Guna2Button()
         btnEditUpdate = New Guna.UI2.WinForms.Guna2Button()
         btnEditAddBen = New Guna.UI2.WinForms.Guna2Button()
         dgBeneficiaries = New Guna.UI2.WinForms.Guna2DataGridView()
-        Column8 = New DataGridViewTextBoxColumn()
-        Column9 = New DataGridViewTextBoxColumn()
-        Column10 = New DataGridViewTextBoxColumn()
-        Column11 = New DataGridViewTextBoxColumn()
         txtEditAddBenAge = New Guna.UI2.WinForms.Guna2TextBox()
         txtEditAddBenRel = New Guna.UI2.WinForms.Guna2TextBox()
         txtEditAddBen = New Guna.UI2.WinForms.Guna2TextBox()
         pickEditUserStat = New Guna.UI2.WinForms.Guna2ComboBox()
         pickEditComm = New Guna.UI2.WinForms.Guna2ComboBox()
         pickEditStatus = New Guna.UI2.WinForms.Guna2ComboBox()
+        lblBenId = New Label()
         Label35 = New Label()
         pickEditPosition = New Guna.UI2.WinForms.Guna2ComboBox()
         Label22 = New Label()
@@ -280,7 +278,10 @@ Partial Class AdminDashboard
         Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Label4 = New Label()
         Label5 = New Label()
-        btnBenRemove = New Guna.UI2.WinForms.Guna2Button()
+        Column8 = New DataGridViewTextBoxColumn()
+        Column9 = New DataGridViewTextBoxColumn()
+        Column10 = New DataGridViewTextBoxColumn()
+        Column11 = New DataGridViewTextBoxColumn()
         Guna2GradientPanel1.SuspendLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         pnlHome.SuspendLayout()
@@ -1131,6 +1132,7 @@ Partial Class AdminDashboard
         other.Controls.Add(pickEditUserStat)
         other.Controls.Add(pickEditComm)
         other.Controls.Add(pickEditStatus)
+        other.Controls.Add(lblBenId)
         other.Controls.Add(Label35)
         other.Controls.Add(pickEditPosition)
         other.Controls.Add(Label22)
@@ -1148,6 +1150,23 @@ Partial Class AdminDashboard
         other.Size = New Size(798, 646)
         other.TabIndex = 1
         other.Text = "Other information"
+        ' 
+        ' btnBenRemove
+        ' 
+        btnBenRemove.CustomizableEdges = CustomizableEdges45
+        btnBenRemove.DisabledState.BorderColor = Color.DarkGray
+        btnBenRemove.DisabledState.CustomBorderColor = Color.DarkGray
+        btnBenRemove.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnBenRemove.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnBenRemove.FillColor = Color.Firebrick
+        btnBenRemove.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnBenRemove.ForeColor = Color.White
+        btnBenRemove.Location = New Point(616, 276)
+        btnBenRemove.Name = "btnBenRemove"
+        btnBenRemove.ShadowDecoration.CustomizableEdges = CustomizableEdges46
+        btnBenRemove.Size = New Size(123, 25)
+        btnBenRemove.TabIndex = 10
+        btnBenRemove.Text = "REMOVE"
         ' 
         ' btnEditUpdate
         ' 
@@ -1233,33 +1252,6 @@ Partial Class AdminDashboard
         dgBeneficiaries.ThemeStyle.RowsStyle.Height = 25
         dgBeneficiaries.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         dgBeneficiaries.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        ' 
-        ' Column8
-        ' 
-        Column8.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column8.HeaderText = "ID"
-        Column8.Name = "Column8"
-        Column8.Width = 41
-        ' 
-        ' Column9
-        ' 
-        Column9.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column9.HeaderText = "Full name"
-        Column9.Name = "Column9"
-        ' 
-        ' Column10
-        ' 
-        Column10.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column10.HeaderText = "Relationship"
-        Column10.Name = "Column10"
-        Column10.Width = 95
-        ' 
-        ' Column11
-        ' 
-        Column11.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column11.HeaderText = "Age"
-        Column11.Name = "Column11"
-        Column11.Width = 51
         ' 
         ' txtEditAddBenAge
         ' 
@@ -1380,6 +1372,16 @@ Partial Class AdminDashboard
         pickEditStatus.Size = New Size(303, 36)
         pickEditStatus.TabIndex = 7
         pickEditStatus.TextAlign = HorizontalAlignment.Center
+        ' 
+        ' lblBenId
+        ' 
+        lblBenId.AutoSize = True
+        lblBenId.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        lblBenId.Location = New Point(575, 278)
+        lblBenId.Name = "lblBenId"
+        lblBenId.Size = New Size(28, 21)
+        lblBenId.TabIndex = 6
+        lblBenId.Text = "ID:"
         ' 
         ' Label35
         ' 
@@ -2198,22 +2200,36 @@ Partial Class AdminDashboard
         Label5.TabIndex = 3
         Label5.Text = "Contribution Report"
         ' 
-        ' btnBenRemove
+        ' Column8
         ' 
-        btnBenRemove.CustomizableEdges = CustomizableEdges45
-        btnBenRemove.DisabledState.BorderColor = Color.DarkGray
-        btnBenRemove.DisabledState.CustomBorderColor = Color.DarkGray
-        btnBenRemove.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnBenRemove.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnBenRemove.FillColor = Color.Firebrick
-        btnBenRemove.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        btnBenRemove.ForeColor = Color.White
-        btnBenRemove.Location = New Point(616, 276)
-        btnBenRemove.Name = "btnBenRemove"
-        btnBenRemove.ShadowDecoration.CustomizableEdges = CustomizableEdges46
-        btnBenRemove.Size = New Size(123, 25)
-        btnBenRemove.TabIndex = 10
-        btnBenRemove.Text = "REMOVE"
+        Column8.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column8.HeaderText = "ID"
+        Column8.Name = "Column8"
+        Column8.ReadOnly = True
+        Column8.Width = 41
+        ' 
+        ' Column9
+        ' 
+        Column9.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column9.HeaderText = "Full name"
+        Column9.Name = "Column9"
+        Column9.ReadOnly = True
+        ' 
+        ' Column10
+        ' 
+        Column10.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column10.HeaderText = "Relationship"
+        Column10.Name = "Column10"
+        Column10.ReadOnly = True
+        Column10.Width = 95
+        ' 
+        ' Column11
+        ' 
+        Column11.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column11.HeaderText = "Age"
+        Column11.Name = "Column11"
+        Column11.ReadOnly = True
+        Column11.Width = 51
         ' 
         ' AdminDashboard
         ' 
@@ -2343,10 +2359,6 @@ Partial Class AdminDashboard
     Friend WithEvents btnEditUpdate As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnEditAddBen As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents dgBeneficiaries As Guna.UI2.WinForms.Guna2DataGridView
-    Friend WithEvents Column8 As DataGridViewTextBoxColumn
-    Friend WithEvents Column9 As DataGridViewTextBoxColumn
-    Friend WithEvents Column10 As DataGridViewTextBoxColumn
-    Friend WithEvents Column11 As DataGridViewTextBoxColumn
     Friend WithEvents txtEditAddBenAge As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents txtEditAddBenRel As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents txtEditAddBen As Guna.UI2.WinForms.Guna2TextBox
@@ -2388,4 +2400,9 @@ Partial Class AdminDashboard
     Friend WithEvents Label35 As Label
     Friend WithEvents btnEditBack As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnBenRemove As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents lblBenId As Label
+    Friend WithEvents Column8 As DataGridViewTextBoxColumn
+    Friend WithEvents Column9 As DataGridViewTextBoxColumn
+    Friend WithEvents Column10 As DataGridViewTextBoxColumn
+    Friend WithEvents Column11 As DataGridViewTextBoxColumn
 End Class
