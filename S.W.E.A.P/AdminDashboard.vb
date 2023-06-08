@@ -1,10 +1,28 @@
 ﻿Imports TheArtOfDevHtmlRenderer.Adapters.Entities
 Imports MySql.Data.MySqlClient
+Imports System.IO
+
 Public Class AdminDashboard
     Dim conn As New MySqlConnection("server=172.30.192.29;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
     Dim selectedId As Integer = 0
+    Dim selectedBenId As Integer
+    Dim currentBen As Integer
     '-------------------------------FUNCTIONSS--------------------------------------------------------------------------------------
+    Public Sub countBen()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select count(id) as counted from beneficiaries where user_id=@ID", conn)
+            cmd.Parameters.AddWithValue("@ID", selectedId)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                currentBen = rid.GetInt32("counted")
+            End While
+        Catch ex As Exception
+        Finally
+            conn.Close()
+        End Try
+    End Sub
     Public Sub viewMembers(query) '-----------------PARA SA EMPLOYEES TABLE
         dgMembers.Rows.Clear()
         Try
@@ -33,6 +51,22 @@ Public Class AdminDashboard
         pnlEmployees.Visible = pnldash
         pnlFundTransfer.Visible = pnlEm
         pnlDashboard.Visible = pnlf
+    End Sub
+
+    Public Sub beneficiariesRecord() '---------------FOR BENEFICIARIES RECORD
+        dgBeneficiaries.Rows.Clear()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select * from beneficiaries where user_id = @ID", conn)
+            cmd.Parameters.AddWithValue("@ID", selectedId)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                dgBeneficiaries.Rows.Add(rid.Item("id"), rid.Item("full_name"), rid.Item("relationship"), rid.Item("age"))
+            End While
+        Catch ex As Exception
+        Finally
+            conn.Close()
+        End Try
     End Sub
     '---------------------------------------------------END OF FUNCTIONS----------------------------------------------------------------------------
     Private Sub bttnDash_Click(sender As Object, e As EventArgs) Handles bttnDash.Click
@@ -156,11 +190,15 @@ Public Class AdminDashboard
         Dim location As String = locateProject.Substring(0, indext)
         Try
             conn.Open()
-            Dim cmd As New MySqlCommand("select users.*, user_info.* from users left join user_info on users.id = user_info.user_id where users.id=@ID", conn)
+            Dim cmd As New MySqlCommand("select * from users left join user_info on users.id = user_info.user_id where users.id=@ID", conn)
             cmd.Parameters.AddWithValue("@ID", selectedId)
             rid = cmd.ExecuteReader
             While rid.Read
-                pBoxEditProfile.BackgroundImage = Image.FromFile(location & "\Resources\user_profile\" & rid.GetString("image")) 'location & "\Resources\user_profile\"
+                If File.Exists(location & "\Resources\user_profile\" & rid.GetString("image")) Then
+                    pBoxEditProfile.BackgroundImage = Image.FromFile(location & "\Resources\user_profile\" & rid.GetString("image"))
+                Else
+                    pBoxEditProfile.BackgroundImage = Nothing
+                End If
                 txtEditUsername.Text = rid.GetString("username")
                 txtEditPw.Text = rid.GetString("password")
                 txtEditFname.Text = rid.GetString("first_name")
@@ -195,19 +233,8 @@ Public Class AdminDashboard
     Private Sub btnEditNext_Click(sender As Object, e As EventArgs) Handles btnEditNext.Click
         tabEditMember.SelectedTab = other
         other.Enabled = True
-        Try
-            conn.Open()
-            Dim cmd As New MySqlCommand("select * from beneficiaries where user_id = @ID", conn)
-            cmd.Parameters.AddWithValue("@ID", selectedId)
-            rid = cmd.ExecuteReader
-            While rid.Read
-                dgBeneficiaries.Rows.Add(rid.Item("id"), rid.Item("full_name"), rid.Item("relationship"), rid.Item("age"))
-            End While
-        Catch ex As Exception
-            MsgBox("Doesnt work")
-        Finally
-            conn.Close()
-        End Try
+        beneficiariesRecord()
+        countBen()
     End Sub
 
     Private Sub Guna2PictureBox1_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox1.Click
@@ -287,5 +314,64 @@ Public Class AdminDashboard
     Private Sub btnEditBack_Click(sender As Object, e As EventArgs) Handles btnEditBack.Click '----------------BACK BUTTON
         tabEditMember.Hide()
         pnlEmployee.Show()
+    End Sub
+
+    Private Sub dgBeneficiaries_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgBeneficiaries.CellContentClick
+        selectedbenId = dgBeneficiaries.CurrentRow.Cells(0).Value.ToString()
+        lblBenId.Text = "ID: " & selectedBenId
+    End Sub
+
+    Private Sub btnBenRemove_Click(sender As Object, e As EventArgs) Handles btnBenRemove.Click
+        Dim result As DialogResult = MessageBox.Show("Are you sure you want to remove " & dgBeneficiaries.CurrentRow.Cells(1).Value.ToString() &
+                                                      " from beneficiaries?", "Confirmation", MessageBoxButtons.YesNo)
+        If result = DialogResult.Yes Then
+            Try
+                conn.Open()
+                Dim cmd As New MySqlCommand("delete from beneficiaries where id=@ID", conn)
+                cmd.Parameters.AddWithValue("@ID", selectedBenId)
+                cmd.ExecuteNonQuery()
+                MsgBox("Record has been removed.")
+                beneficiariesRecord()
+                countBen()
+            Catch ex As Exception
+                MsgBox("operation failed")
+            Finally
+                conn.Close()
+            End Try
+        End If
+        If currentBen < 5 Then
+            txtEditAddBen.Enabled = True
+            txtEditAddBenAge.Enabled = True
+            txtEditAddBenRel.Enabled = True
+            btnEditAddBen.Enabled = True
+        End If
+        beneficiariesRecord()
+    End Sub
+
+    Private Sub btnEditAddBen_Click(sender As Object, e As EventArgs) Handles btnEditAddBen.Click
+        countBen()
+        If currentBen < 5 Then
+            Try
+                conn.Open()
+                Dim cmd As New MySqlCommand("insert into beneficiaries(user_id, full_name, relationship, age) values(@ID, @FNAME, @REL, @AGE)", conn)
+                cmd.Parameters.AddWithValue("@ID", selectedId)
+                cmd.Parameters.AddWithValue("@FNAME", txtEditAddBen.Text)
+                cmd.Parameters.AddWithValue("@REL", txtEditAddBenRel.Text)
+                cmd.Parameters.AddWithValue("@AGE", txtEditAddBenAge.Text)
+                cmd.ExecuteNonQuery()
+            Catch ex As Exception
+                MsgBox("Operation field")
+            Finally
+                conn.Close()
+            End Try
+            MsgBox(currentBen)
+        Else
+            MsgBox("Limit reached.")
+            txtEditAddBen.Enabled = False
+            txtEditAddBenAge.Enabled = False
+            txtEditAddBenRel.Enabled = False
+            btnEditAddBen.Enabled = False
+        End If
+        beneficiariesRecord()
     End Sub
 End Class
