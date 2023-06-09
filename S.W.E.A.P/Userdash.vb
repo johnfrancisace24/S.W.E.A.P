@@ -52,6 +52,24 @@ Public Class Userdash
         End If
     End Sub
 
+    Private Sub search_TextChanged(sender As Object, e As EventArgs) Handles search.TextChanged
+        BeneficiariesDGV.Rows.Clear()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("SELECT * FROM beneficiaries WHERE full_name LIKE '%" & search.Text & "%' AND user_id = @ID", conn)
+            cmd.Parameters.AddWithValue("@ID", Form1.log_id)
+            dr = cmd.ExecuteReader
+
+            While dr.Read
+                BeneficiariesDGV.Rows.Add(dr.Item("user_id"), dr.Item("full_name"), dr.Item("age"), dr.Item("relationship"))
+            End While
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        Finally
+            conn.Close()
+        End Try
+    End Sub
+
     Public Sub DG_Load()
         BeneficiariesDGV.Rows.Clear()
         Try
@@ -69,7 +87,6 @@ Public Class Userdash
             MsgBox(ex.Message)
         Finally
             conn.Close()
-
         End Try
     End Sub
 
