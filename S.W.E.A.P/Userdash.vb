@@ -10,17 +10,20 @@ Public Class Userdash
         pnlDash.Visible = True
         pnlProfile.Hide()
         pnlAccount.Hide()
+        pnlContribute.Hide()
+        DG_Load()
     End Sub
     Private Sub bttnDash_Click(sender As Object, e As EventArgs) Handles bttnDash.Click
         pnlDash.Visible = True
         pnlProfile.Hide()
         pnlAccount.Hide()
+        pnlContribute.Hide()
     End Sub
     Private Sub bttnProf_Click(sender As Object, e As EventArgs) Handles bttnProf.Click
         pnlProfile.Visible = True
         pnlAccount.Hide()
         pnlDash.Hide()
-
+        pnlContribute.Hide()
         Get_info()
     End Sub
 
@@ -28,8 +31,17 @@ Public Class Userdash
         pnlAccount.Visible = True
         pnlProfile.Hide()
         pnlDash.Hide()
+        pnlContribute.Hide()
     End Sub
 
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
+        pnlContribute.Visible = True
+        pnlProfile.Hide()
+        pnlDash.Hide()
+        pnlAccount.Hide()
+
+        DG_Load()
+    End Sub
     Private Sub bttnLogout_Click(sender As Object, e As EventArgs) Handles bttnLogout.Click
         Dim AnswerYes As String
         AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "User Repsonse")
@@ -40,19 +52,41 @@ Public Class Userdash
         End If
     End Sub
 
+    Public Sub DG_Load()
+        BeneficiariesDGV.Rows.Clear()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("SELECT * FROM users 
+                            INNER JOIN beneficiaries ON users.id = beneficiaries.user_id
+                            WHERE users.id = @ID", conn)
+
+            cmd.Parameters.AddWithValue("@ID", Form1.log_id)
+            dr = cmd.ExecuteReader
+            While dr.Read
+                BeneficiariesDGV.Rows.Add(dr.Item("user_id"), dr.Item("full_name"), dr.Item("age"), dr.Item("relationship"))
+            End While
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        Finally
+            conn.Close()
+
+        End Try
+    End Sub
 
     Public Sub Get_info()
         Dim locateProject As String = My.Application.Info.DirectoryPath
         Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
         Dim location As String = locateProject.Substring(0, indext)
         Dim destinationPath As String = location & "\Resources\user_profile"
+
+
         Try
 
             conn.Open()
-            Dim cmd As New MySqlCommand("SELECT users.*, CONCAT(users.first_name, ' ', users.middle_name, ' ', users.last_name) AS fullName, user_info.* " &
-                            "FROM users " &
-                            "INNER JOIN user_info ON users.id = user_info.user_id " &
-                            "WHERE users.id = @ID", conn)
+            Dim cmd As New MySqlCommand("SELECT *, CONCAT(users.first_name, ' ', users.middle_name, ' ', users.last_name) AS fullName
+                            FROM users 
+                            INNER JOIN user_info ON users.id = user_info.user_id  
+                            WHERE users.id = @ID", conn)
 
             cmd.Parameters.AddWithValue("@ID", Form1.log_id)
             dr = cmd.ExecuteReader
@@ -93,6 +127,7 @@ Public Class Userdash
                 cmbxemployment.SelectedItem = dr.GetString("employment_status")
                 cmbxoffice.SelectedItem = dr.GetString("office")
                 cmbxcomm.SelectedItem = dr.GetString("committee")
+                cmbxcomm.SelectedItem = dr.GetString("committee")
 
                 If File.Exists(imagePathInResources) Then
 
@@ -113,7 +148,7 @@ Public Class Userdash
             Dim cmd As New MySqlCommand("UPDATE users " &
                                         "INNER JOIN user_info ON users.id = user_info.user_id " &
                                         "SET users.username = @username, users.password = @password, users.first_name = @first, users.middle_name = @mid, users.last_name = @last, users.position = @pos, user_info.address = @adds, user_info.contact = @contact, user_info.email = @email, user_info.educational = @educ, user_info.birthdate = @birthdate, user_info.office = @office, user_info.employment_status = @employ, user_info.committee = @comm " &
-                                        "WHERE users.id = @ID", conn)
+                                        "WHERE users.id     = @ID", conn)
             cmd.Parameters.Clear()
             cmd.Parameters.AddWithValue("@ID", Form1.log_id)
             cmd.Parameters.AddWithValue("@username", txtbxusername.Text)
@@ -148,4 +183,6 @@ Public Class Userdash
     Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
         Get_info()
     End Sub
+
+
 End Class
