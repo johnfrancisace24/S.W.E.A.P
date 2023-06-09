@@ -37,6 +37,30 @@ Public Class AdminDashboard
             conn.Close()
         End Try
     End Sub
+
+
+    Public Sub viewEmploye(query) '-----------------PARA SA EMPLOYEES TABLE SA FUND TRANSFER
+        dgEmploye.Rows.Clear()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand(query, conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                dgEmploye.Rows.Add(rid.Item("id"), rid.Item("full_name"), rid.Item("contact"), rid.Item("office"), rid.Item("position"), rid.Item("balance"))
+            End While
+        Catch ex As Exception
+            MsgBox("sad")
+        Finally
+            conn.Close()
+        End Try
+    End Sub
+
+
+
+
+
+
+
     Public Sub btnFx1(button) '-------------------FOR BUTTON EFFECTS
         button.FillColor = Color.FromArgb(251, 197, 49)
         button.ForeColor = Color.Black
@@ -158,6 +182,13 @@ Public Class AdminDashboard
         dgMembers.ReadOnly = True
 
         pnlHome.Visible = True
+
+
+        viewEmploye("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, contact, office, position, balance
+                                            from users left join user_info on users.id = user_info.user_id")
+
+        dgEmploye.ReadOnly = True
+
     End Sub
 
 
