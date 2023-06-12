@@ -163,14 +163,6 @@ Public Class AdminDashboard
         bttnFund.Image = My.Resources.fund__1_
     End Sub
 
-    Private Sub pnlFundTransfer_Paint(sender As Object, e As PaintEventArgs) Handles pnlDashboard.Paint
-
-    End Sub
-
-    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
-
-    End Sub
-
     Private Sub AdminDashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load '----------------------AUTOLOAD
         viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
                                             email from users left join user_info on users.id = user_info.user_id")
@@ -305,16 +297,6 @@ Public Class AdminDashboard
 
     End Sub
 
-    Private Sub Guna2CircleProgressBar2_ValueChanged(sender As Object, e As EventArgs) Handles Guna2CircleProgressBar2.ValueChanged
-
-    End Sub
-
-    Private Sub Guna2CircleProgressBar1_ValueChanged(sender As Object, e As EventArgs) Handles Guna2CircleProgressBar1.ValueChanged
-    End Sub
-
-    Private Sub Guna2Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel3.Paint
-    End Sub
-
     Private Sub pickOffice_SelectedIndexChanged(sender As Object, e As EventArgs) Handles pickOffice.SelectedIndexChanged
         ' viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
         '                                    email from users left join user_info on users.id = user_info.user_id where office=" & pickOffice.SelectedItem)
@@ -433,8 +415,9 @@ Public Class AdminDashboard
             MsgBox("doesnt work update")
         Finally
             conn.Close()
-
         End Try
+        viewEmploye("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, contact, office, position, balance
+                                            from users left join user_info on users.id = user_info.user_id")
     End Sub
 
 

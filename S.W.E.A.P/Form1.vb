@@ -8,6 +8,7 @@ Public Class Form1
     Dim rid As MySqlDataReader
 
     Public Shared log_id As Integer
+    '-----------------------------------------------------FUNCTIONS------------------------------------------------------------------------
     Private Sub LinkLabelSignUp_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabelSignUp.LinkClicked
         Me.Hide()
         SignUp.Show()
@@ -20,7 +21,10 @@ Public Class Form1
         End If
     End Sub
 
+
+    '------------------------------------------------------END OF FUNCTIONS------------------------------------------------------------------
     Private Sub bttLogin_Click(sender As Object, e As EventArgs) Handles bttLogin.Click
+
         If (txtbxUsername.Text = "") Then
             MsgBox("Username can't be blank.")
         ElseIf (txtbxPassword.Text = "") Then
