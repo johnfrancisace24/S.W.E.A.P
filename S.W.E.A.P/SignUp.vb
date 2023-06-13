@@ -58,6 +58,18 @@ Public Class SignUp
         invalid_reset(txtbxBR1)
         invalid_reset(txtbxBA1)
     End Sub
+    Public Sub pnl_visible(pnl1, pnl2, pnl3, pnl4)
+        pnlPer.Visible = pnl1
+        pnlWork.Visible = pnl2
+        pnlBen.Visible = pnl3
+        pnlAcc.Visible = pnl4
+    End Sub
+    Public Sub radio_selected(rd1, rd2, rd3, rd4)
+        rdiobttnWork.Checked = rd1
+        rdiobttnPer.Checked = rd2
+        rdiobttnBene.Checked = rd3
+        rdiobttnAccnt.Checked = rd4
+    End Sub
     '-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
