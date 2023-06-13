@@ -1320,14 +1320,14 @@ Partial Class AdminDashboard
         pickEditBdate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         pickEditBdate.Format = DateTimePickerFormat.Long
         pickEditBdate.Location = New Point(529, 514)
-        pickEditBdate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
-        pickEditBdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        pickEditBdate.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
+        pickEditBdate.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
         pickEditBdate.Name = "pickEditBdate"
         pickEditBdate.ShadowDecoration.CustomizableEdges = CustomizableEdges42
         pickEditBdate.Size = New Size(233, 36)
         pickEditBdate.TabIndex = 3
         pickEditBdate.TextAlign = HorizontalAlignment.Center
-        pickEditBdate.Value = New Date(2023, 6, 6, 9, 2, 45, 794)
+        pickEditBdate.Value = New DateTime(2023, 6, 6, 9, 2, 45, 794)
         ' 
         ' pBoxEditProfile
         ' 
