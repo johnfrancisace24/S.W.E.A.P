@@ -9,7 +9,7 @@ Public Class AdminDashboard
     Dim selectedBenId As Integer
     Dim currentBen As Integer
     '-------------------------------FUNCTIONSS--------------------------------------------------------------------------------------
-    Public Sub countBen()
+    Public Sub countBen() '------TO COUNT BENEFICIARIES OF SPECIFIC USER(FOR EDITING PURPOSES)
         Try
             conn.Open()
             Dim cmd As New MySqlCommand("select count(id) as counted from beneficiaries where user_id=@ID", conn)
@@ -23,7 +23,7 @@ Public Class AdminDashboard
             conn.Close()
         End Try
     End Sub
-    Public Sub viewMembers(query) '-----------------PARA SA EMPLOYEES TABLE
+    Public Sub viewMembers(query) '-----------------FOR EMPLOYEES TABLE
         dgMembers.Rows.Clear()
         Try
             conn.Open()
@@ -39,7 +39,7 @@ Public Class AdminDashboard
     End Sub
 
 
-    Public Sub viewEmploye(query) '-----------------PARA SA EMPLOYEES TABLE SA FUND TRANSFER
+    Public Sub viewEmploye(query) '-----------------FOR EMPLOYEES TABLE FUND TRANSFER
         dgEmploye.Rows.Clear()
         Try
             conn.Open()
@@ -66,10 +66,11 @@ Public Class AdminDashboard
         button.ForeColor = Color.White
         button.BorderColor = Color.White
     End Sub
-    Public Sub panelVisible(pnldash, pnlEm, pnlf) '--------------------FOR PANEL VISIBILITY
-        pnlEmployees.Visible = pnldash
-        pnlFundTransfer.Visible = pnlEm
-        pnlDashboard.Visible = pnlf
+    Public Sub panelVisible(pnlH, pnlD, pnlE, pnlF) '--------------------FOR PANEL VISIBILITY
+        pnlHome.Visible = pnlH
+        pnlDashboard.Visible = pnlD
+        pnlEmployees.Visible = pnlE
+        pnlFundTransfer.Visible = pnlF
     End Sub
 
     Public Sub beneficiariesRecord() '---------------FOR BENEFICIARIES RECORD
@@ -93,11 +94,8 @@ Public Class AdminDashboard
         pnlEm.BackColor = Color.Transparent
         pnlFundT.BackColor = Color.Transparent
 
-        'To view panel
-        pnlHome.Visible = False
-        pnlDashboard.Visible = True
-        pnlEmployees.Visible = False
-        pnlFundTransfer.Visible = False
+
+        panelVisible(False, True, False, False)
 
         btnFx1(bttnDash)
         bttnDash.Image = My.Resources.dashboard__1_
@@ -114,11 +112,8 @@ Public Class AdminDashboard
         pnlEm.BackColor = Color.DarkRed
         pnlFundT.BackColor = Color.Transparent
 
-        'To view panel
-        pnlHome.Visible = False
-        pnlDashboard.Visible = False
-        pnlEmployees.Visible = True
-        pnlFundTransfer.Visible = False
+
+        panelVisible(False, False, True, False)
 
         'For button Dashboard design
         bttnDash.FillColor = Color.Transparent
@@ -140,11 +135,8 @@ Public Class AdminDashboard
         pnlEm.BackColor = Color.Transparent
         pnlFundT.BackColor = Color.DarkRed
 
-        'To view panel
-        pnlHome.Visible = False
-        pnlDashboard.Visible = False
-        pnlEmployees.Visible = False
-        pnlFundTransfer.Visible = True
+
+        panelVisible(False, False, False, True)
 
         'For button Dashboard design
         bttnDash.FillColor = Color.Transparent
