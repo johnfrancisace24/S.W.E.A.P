@@ -1,6 +1,7 @@
 ﻿Imports System.IO
+Imports ClosedXML.Excel
 Imports MySql.Data.MySqlClient
-
+Imports System.Runtime.InteropServices
 Public Class Userdash
 
     Dim conn As New MySqlConnection("server=172.30.205.208;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -128,7 +129,6 @@ Public Class Userdash
                 Pposition.Text = dr.GetString("position")
                 Pcommittee.Text = dr.GetString("committee")
 
-
                 txtbxusername.Text = dr.GetString("username")
                 txtbxpassword.Text = dr.GetString("password")
                 txtbxfname.Text = dr.GetString("first_name")
@@ -158,6 +158,46 @@ Public Class Userdash
             conn.Close()
         End Try
     End Sub
+
+    Public Sub ExportToExcel(BenefeciariesDGV As DataGridView, filePath As String)
+        Using workbook As New XLWorkbook()
+            Dim worksheet = workbook.Worksheets.Add("Employees")
+
+            ' Add headers
+            For j = 0 To BenefeciariesDGV.Columns.Count - 1
+                worksheet.Cell(1, j + 1).Value = BenefeciariesDGV.Columns(j).HeaderText
+            Next
+
+            ' Add data rows
+            For i = 0 To BenefeciariesDGV.Rows.Count - 1
+                Dim rowIndex = i + 2 ' Start from row 2 (after headers)
+                Dim row = BenefeciariesDGV.Rows(i)
+
+                For j = 0 To BenefeciariesDGV.Columns.Count - 1
+                    Dim cellValue = If(row.Cells(j).Value IsNot Nothing, Convert.ToString(row.Cells(j).Value), "")
+
+                    worksheet.Cell(rowIndex, j + 1).Value = cellValue
+                Next
+            Next
+
+            ' Save the workbook
+            workbook.SaveAs(filePath)
+        End Using
+
+        ' Open the file
+        OpenFile(filePath)
+    End Sub
+    Private Sub OpenFile(filePath As String)
+        Dim fileName As String = Path.GetFileName(filePath)
+
+        Dim pStartInfo As New ProcessStartInfo()
+        pStartInfo.FileName = "explorer.exe"
+        pStartInfo.Arguments = "/open," & filePath
+
+        Dim p As Process = Process.Start(pStartInfo)
+    End Sub
+    Private Const SW_SHOWDEFAULT As Integer = 10
+
     Public Sub Update()
         Try
             conn.Open()
@@ -215,5 +255,16 @@ Public Class Userdash
     End Sub
     Private Sub txtbxlname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxlname.KeyPress
         txtbxfname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
+        Try
+            Dim filePath As String = "C:\Users\ACER TRAVELMATE\Desktop\File.xlsx"
+            ExportToExcel(BeneficiariesDGV, filePath)
+            MessageBox.Show("Export complete.", "Excell file", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+
     End Sub
 End Class
