@@ -203,53 +203,73 @@ Public Class AdminDashboard
         End If
     End Sub
 
-    Private Sub btnEditMember_Click(sender As Object, e As EventArgs) Handles btnEditMember.Click
-        other.Enabled = False
-        tabEditMember.Show()
-        pnlEmployee.Hide()
-        Dim locateProject As String = My.Application.Info.DirectoryPath
-        Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
-        Dim location As String = locateProject.Substring(0, indext)
-        Try
-            conn.Open()
-            Dim cmd As New MySqlCommand("select * from users left join user_info on users.id = user_info.user_id where users.id=@ID", conn)
-            cmd.Parameters.AddWithValue("@ID", selectedId)
-            rid = cmd.ExecuteReader
-            While rid.Read
-                If File.Exists(location & "\Resources\user_profile\" & rid.GetString("image")) Then
-                    pBoxEditProfile.BackgroundImage = Image.FromFile(location & "\Resources\user_profile\" & rid.GetString("image"))
-                Else
-                    pBoxEditProfile.BackgroundImage = Nothing
-                End If
-                txtEditUsername.Text = rid.GetString("username")
-                txtEditPw.Text = rid.GetString("password")
-                txtEditFname.Text = rid.GetString("first_name")
-                txtEditMname.Text = rid.GetString("middle_name")
-                txtEditLname.Text = rid.GetString("last_name")
-                txtEditNumber.Text = rid.GetString("contact")
-                txtEditAddress.Text = rid.GetString("address")
-                txtEditEducation.Text = rid.GetString("educational")
-                txtEditEmail.Text = rid.GetString("email")
-                pickEditOffice.Text = rid.GetString("office")
-                pickEditStatus.Text = rid.GetString("employment_status")
-                pickEditPosition.Text = rid.GetString("position")
-                pickEditComm.Text = rid.GetString("committee")
-                If rid.GetString("is_admin") = 1 Then
-                    pickEditUserStat.Text = "Administrator"
-                Else
-                    pickEditUserStat.Text = "Default"
-                End If
-            End While
-        Catch ex As Exception
-        Finally
-            conn.Close()
-        End Try
-    End Sub
-
-    Private Sub dgMembers_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgMembers.CellContentClick
-        btnEditMember.Enabled = True
+    Private Sub dgMembers_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgMembers.CellClick
         selectedId = dgMembers.CurrentRow.Cells(0).Value.ToString()
-        lblId.Text = selectedId
+        If e.ColumnIndex = 7 AndAlso e.RowIndex >= 0 Then '----------------FOR EDIT
+
+            Dim selectedId As Integer = dgMembers.CurrentRow.Cells(0).Value.ToString()
+            other.Enabled = False
+            tabEditMember.Show()
+            pnlEmployee.Hide()
+            Dim locateProject As String = My.Application.Info.DirectoryPath
+            Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
+            Dim location As String = locateProject.Substring(0, indext)
+            Try
+                conn.Open()
+                Dim cmd As New MySqlCommand("select * from users left join user_info on users.id = user_info.user_id where users.id=@ID", conn)
+                cmd.Parameters.AddWithValue("@ID", selectedId)
+                rid = cmd.ExecuteReader
+                While rid.Read
+                    If File.Exists(location & "\Resources\user_profile\" & rid.GetString("image")) Then
+                        pBoxEditProfile.BackgroundImage = Image.FromFile(location & "\Resources\user_profile\" & rid.GetString("image"))
+                    Else
+                        pBoxEditProfile.BackgroundImage = Nothing
+                    End If
+                    txtEditUsername.Text = rid.GetString("username")
+                    txtEditPw.Text = rid.GetString("password")
+                    txtEditFname.Text = rid.GetString("first_name")
+                    txtEditMname.Text = rid.GetString("middle_name")
+                    txtEditLname.Text = rid.GetString("last_name")
+                    txtEditNumber.Text = rid.GetString("contact")
+                    txtEditAddress.Text = rid.GetString("address")
+                    txtEditEducation.Text = rid.GetString("educational")
+                    txtEditEmail.Text = rid.GetString("email")
+                    pickEditOffice.Text = rid.GetString("office")
+                    pickEditStatus.Text = rid.GetString("employment_status")
+                    pickEditPosition.Text = rid.GetString("position")
+                    pickEditComm.Text = rid.GetString("committee")
+                    If rid.GetString("is_admin") = 1 Then
+                        pickEditUserStat.Text = "Administrator"
+                    Else
+                        pickEditUserStat.Text = "Default"
+                    End If
+                End While
+            Catch ex As Exception
+            Finally
+                conn.Close()
+            End Try
+        ElseIf e.ColumnIndex = 8 AndAlso e.RowIndex >= 0 Then '-------------FOR DELETE
+            Dim result As DialogResult = MessageBox.Show("Are you sure you want to delete" & dgMembers.CurrentRow.Cells(1).Value.ToString() & "?", "Confirmation", MessageBoxButtons.YesNo)
+
+            If result = DialogResult.Yes Then
+                Dim selectedId As Integer = dgMembers.CurrentRow.Cells(0).Value.ToString()
+                Try
+                    conn.Open()
+                    Dim cmd As New MySqlCommand("delete from users where id=@ID;
+                                                    delete from user_info where user_id=@ID;
+                                                        delete from beneficiaries where user_id=@ID", conn)
+                    cmd.Parameters.AddWithValue("@ID", selectedId)
+                    cmd.ExecuteNonQuery()
+                Catch ex As Exception
+                Finally
+                    conn.Close()
+                End Try
+                MessageBox.Show("Deleted Successfully!")
+            End If
+
+        End If
+        viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
+                                            email from users left join user_info on users.id = user_info.user_id")
     End Sub
 
     Private Sub btnEditNext_Click(sender As Object, e As EventArgs) Handles btnEditNext.Click
