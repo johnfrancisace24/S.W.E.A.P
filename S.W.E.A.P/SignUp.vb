@@ -229,4 +229,90 @@ Public Class SignUp
     End Sub
 
 
+
+
+
+
+    '' KEY PRESS LANG TO PRE
+    Private Shared Sub txtbxFname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxFname.KeyPress
+        If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsLetter(e.KeyChar) AndAlso Not Char.IsWhiteSpace(e.KeyChar) AndAlso Not Char.IsPunctuation(e.KeyChar) Then
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub txtbxMname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxMname.KeyPress
+        txtbxFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxLname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxLname.KeyPress
+        txtbxFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBF1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxBF1.KeyPress
+        txtbxFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBF2_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF2.KeyPress
+        txtbxFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBF3_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF3.KeyPress
+        txtbxFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBF4_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF4.KeyPress
+        txtbxFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBF5_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF5.KeyPress
+        txtbxFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBR1_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR1.KeyPress
+        txtbxFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBR2_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR2.KeyPress
+        txtbxFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBR3_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR3.KeyPress
+        txtbxFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBR4_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR4.KeyPress
+        txtbxFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBR5_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR5.KeyPress
+        txtbxFname_KeyPress(sender, e)
+    End Sub
+
+
+    Private Shared Sub txtbxCntct_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxCntct.KeyPress
+        If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsDigit(e.KeyChar) Then
+            e.Handled = True
+        End If
+
+    End Sub
+
+    Private Sub txtbxBA1_KeyPress(sender As Object, e As EventArgs) Handles txtbxBA1.KeyPress
+        txtbxCntct_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBA2_KeyPress(sender As Object, e As EventArgs) Handles txtbxBA2.KeyPress
+        txtbxCntct_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBA3_KeyPress(sender As Object, e As EventArgs) Handles txtbxBA3.KeyPress
+        txtbxCntct_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBA4_KeyPress(sender As Object, e As EventArgs) Handles txtbxBA4.KeyPress
+        txtbxCntct_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBA5_KeyPress(sender As Object, e As EventArgs) Handles txtbxBA5.KeyPress
+        txtbxCntct_KeyPress(sender, e)
+    End Sub
 End Class
