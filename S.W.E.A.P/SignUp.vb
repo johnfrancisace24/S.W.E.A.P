@@ -183,38 +183,19 @@ Public Class SignUp
 
     Private Sub bttnNext_Click(sender As Object, e As EventArgs) Handles bttnNext.Click
         If rdiobttnPer.Checked = True Then
-            pnlPer.Visible = False
-            pnlWork.Visible = True
-            pnlBen.Visible = False
-            pnlAcc.Visible = False
-
+            pnl_visible(False, True, False, False)
 
             rdiobttnWork.Checked = True
             rdiobttnPer.Checked = False
 
 
         ElseIf rdiobttnWork.Checked = True Then
-            pnlPer.Visible = False
-            pnlWork.Visible = False
-            pnlBen.Visible = True
-            pnlAcc.Visible = False
-
-            rdiobttnWork.Checked = False
-            rdiobttnPer.Checked = False
-            rdiobttnBene.Checked = True
-            rdiobttnAccnt.Checked = False
-
+            pnl_visible(False, False, True, False)
+            radio_selected(False, False, True, False)
 
         ElseIf rdiobttnBene.Checked = True Then
-            pnlPer.Visible = False
-            pnlWork.Visible = False
-            pnlBen.Visible = False
-            pnlAcc.Visible = True
-
-            rdiobttnWork.Checked = False
-            rdiobttnPer.Checked = False
-            rdiobttnBene.Checked = False
-            rdiobttnAccnt.Checked = True
+            pnl_visible(False, False, False, True)
+            radio_selected(False, False, False, True)
             btnSubmit.Show()
             bttnNext.Hide()
             'ElseIf (For Saving Account)
@@ -231,38 +212,17 @@ Public Class SignUp
             Me.Hide()
 
         ElseIf rdiobttnWork.Checked = True Then
-            pnlPer.Visible = True
-            pnlWork.Visible = False
-            pnlBen.Visible = False
-            pnlAcc.Visible = False
-
-            rdiobttnPer.Checked = True
-            rdiobttnWork.Checked = False
-            rdiobttnBene.Checked = False
-            rdiobttnAccnt.Checked = False
+            pnl_visible(True, False, False, False)
+            radio_selected(True, False, False, False)
 
         ElseIf rdiobttnBene.Checked = True Then
-            pnlPer.Visible = False
-            pnlWork.Visible = True
-            pnlBen.Visible = False
-            pnlAcc.Visible = False
-
-            rdiobttnWork.Checked = True
-            rdiobttnPer.Checked = False
-            rdiobttnBene.Checked = False
-            rdiobttnAccnt.Checked = False
+            pnl_visible(False, True, False, False)
+            radio_selected(True, False, False, False)
 
 
         ElseIf rdiobttnAccnt.Checked = True Then
-            pnlPer.Visible = False
-            pnlWork.Visible = False
-            pnlBen.Visible = True
-            pnlAcc.Visible = False
-
-            rdiobttnWork.Checked = False
-            rdiobttnPer.Checked = False
-            rdiobttnBene.Checked = True
-            rdiobttnAccnt.Checked = False
+            pnl_visible(False, False, True, False)
+            radio_selected(False, False, True, False)
             bttnNext.Show()
             btnSubmit.Hide()
         End If
