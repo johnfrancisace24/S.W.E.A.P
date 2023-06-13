@@ -30,7 +30,7 @@ Public Class SignUp
             cmd.Parameters.AddWithValue("@BAGE", bage)
             cmd.ExecuteNonQuery()
         Catch ex As Exception
-            MsgBox("beneficiaryy function doesn't work.")
+            MsgBox("beneficiary function doesn't work.")
         Finally
             conn.Close()
         End Try
