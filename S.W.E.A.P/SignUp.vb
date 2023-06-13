@@ -30,7 +30,7 @@ Public Class SignUp
             cmd.Parameters.AddWithValue("@BAGE", bage)
             cmd.ExecuteNonQuery()
         Catch ex As Exception
-            MsgBox("beneficiaryy function doesn't work.")
+            MsgBox("beneficiary function doesn't work.")
         Finally
             conn.Close()
         End Try
@@ -175,6 +175,8 @@ Public Class SignUp
             i = 0
             message = ""
             Array.Clear(error_msg, 0, error_msg.Length)
+
+
 
         End If
 
