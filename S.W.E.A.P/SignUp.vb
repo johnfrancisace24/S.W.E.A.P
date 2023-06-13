@@ -10,7 +10,7 @@ Public Class SignUp
     Dim sourceFilePath As String
     Dim getExtension As String
     '-------FUNCTIONS-------------------------------------------------------------------------------------------------------------------------------------
-    Public Sub valid_blank(field, name, fieldname)
+    Public Sub valid_blank(field, name, fieldname) '----------------FOR ERROR MESSAGE VALIDATION
         If field = "" Then
             fieldname.bordercolor = Color.FromArgb(255, 0, 0)
             fieldname.borderthickness = 1.5
@@ -20,7 +20,7 @@ Public Class SignUp
         End If
     End Sub
 
-    Public Sub add_benefi(hook, bname, brel, bage)
+    Public Sub add_benefi(hook, bname, brel, bage) '----------------FOR MORE THAN ONE BENEFICIARIES
         Try
             conn.Open()
             Dim cmd As New MySqlCommand("insert into beneficiaries(user_id, full_name, relationship, age)values((select id from users where username=@HOOK1), @BNAME, @BREL, @BAGE);", conn)
@@ -36,11 +36,11 @@ Public Class SignUp
         End Try
     End Sub
 
-    Public Sub invalid_reset(fieldname)
+    Public Sub invalid_reset(fieldname) '--------------TO RESET BORDER COLOR/BACK TO DEFAULT BORDER
         fieldname.bordercolor = Color.Gray
         fieldname.borderthickness = 1
     End Sub
-    Public Sub reset_all()
+    Public Sub reset_all() '---------------COMBINED INVALID_RESET FUNCTION FOR CLEANER CODE
         invalid_reset(txtbxUser)
         invalid_reset(txtbxPass)
         invalid_reset(txtbxFname)
@@ -57,6 +57,18 @@ Public Class SignUp
         invalid_reset(txtbxBF1)
         invalid_reset(txtbxBR1)
         invalid_reset(txtbxBA1)
+    End Sub
+    Public Sub pnl_visible(pnl1, pnl2, pnl3, pnl4)
+        pnlPer.Visible = pnl1
+        pnlWork.Visible = pnl2
+        pnlBen.Visible = pnl3
+        pnlAcc.Visible = pnl4
+    End Sub
+    Public Sub radio_selected(rd1, rd2, rd3, rd4)
+        rdiobttnWork.Checked = rd1
+        rdiobttnPer.Checked = rd2
+        rdiobttnBene.Checked = rd3
+        rdiobttnAccnt.Checked = rd4
     End Sub
     '-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -171,38 +183,19 @@ Public Class SignUp
 
     Private Sub bttnNext_Click(sender As Object, e As EventArgs) Handles bttnNext.Click
         If rdiobttnPer.Checked = True Then
-            pnlPer.Visible = False
-            pnlWork.Visible = True
-            pnlBen.Visible = False
-            pnlAcc.Visible = False
-
+            pnl_visible(False, True, False, False)
 
             rdiobttnWork.Checked = True
             rdiobttnPer.Checked = False
 
 
         ElseIf rdiobttnWork.Checked = True Then
-            pnlPer.Visible = False
-            pnlWork.Visible = False
-            pnlBen.Visible = True
-            pnlAcc.Visible = False
-
-            rdiobttnWork.Checked = False
-            rdiobttnPer.Checked = False
-            rdiobttnBene.Checked = True
-            rdiobttnAccnt.Checked = False
-
+            pnl_visible(False, False, True, False)
+            radio_selected(False, False, True, False)
 
         ElseIf rdiobttnBene.Checked = True Then
-            pnlPer.Visible = False
-            pnlWork.Visible = False
-            pnlBen.Visible = False
-            pnlAcc.Visible = True
-
-            rdiobttnWork.Checked = False
-            rdiobttnPer.Checked = False
-            rdiobttnBene.Checked = False
-            rdiobttnAccnt.Checked = True
+            pnl_visible(False, False, False, True)
+            radio_selected(False, False, False, True)
             btnSubmit.Show()
             bttnNext.Hide()
             'ElseIf (For Saving Account)
@@ -219,38 +212,17 @@ Public Class SignUp
             Me.Hide()
 
         ElseIf rdiobttnWork.Checked = True Then
-            pnlPer.Visible = True
-            pnlWork.Visible = False
-            pnlBen.Visible = False
-            pnlAcc.Visible = False
-
-            rdiobttnPer.Checked = True
-            rdiobttnWork.Checked = False
-            rdiobttnBene.Checked = False
-            rdiobttnAccnt.Checked = False
+            pnl_visible(True, False, False, False)
+            radio_selected(True, False, False, False)
 
         ElseIf rdiobttnBene.Checked = True Then
-            pnlPer.Visible = False
-            pnlWork.Visible = True
-            pnlBen.Visible = False
-            pnlAcc.Visible = False
-
-            rdiobttnWork.Checked = True
-            rdiobttnPer.Checked = False
-            rdiobttnBene.Checked = False
-            rdiobttnAccnt.Checked = False
+            pnl_visible(False, True, False, False)
+            radio_selected(True, False, False, False)
 
 
         ElseIf rdiobttnAccnt.Checked = True Then
-            pnlPer.Visible = False
-            pnlWork.Visible = False
-            pnlBen.Visible = True
-            pnlAcc.Visible = False
-
-            rdiobttnWork.Checked = False
-            rdiobttnPer.Checked = False
-            rdiobttnBene.Checked = True
-            rdiobttnAccnt.Checked = False
+            pnl_visible(False, False, True, False)
+            radio_selected(False, False, True, False)
             bttnNext.Show()
             btnSubmit.Hide()
         End If
