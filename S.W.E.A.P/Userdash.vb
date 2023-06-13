@@ -3,7 +3,7 @@ Imports MySql.Data.MySqlClient
 
 Public Class Userdash
 
-    Dim conn As New MySqlConnection("server=172.30.192.29;port=3306;username=sweapp;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.205.208;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim dr As MySqlDataReader
 
     Private Sub Userdash_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -95,7 +95,6 @@ Public Class Userdash
         Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
         Dim location As String = locateProject.Substring(0, indext)
         Dim destinationPath As String = location & "\Resources\user_profile"
-
 
         Try
 

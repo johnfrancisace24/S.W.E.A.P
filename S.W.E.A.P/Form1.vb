@@ -4,7 +4,7 @@ Imports System.Security.Cryptography
 Public Class Form1
 
 
-    Dim conn As New MySqlConnection("server=172.30.192.29;port=3306;username=sweapp;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.205.208;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
 
     Public Shared log_id As Integer
