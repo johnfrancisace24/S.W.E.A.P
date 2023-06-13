@@ -176,6 +176,8 @@ Public Class SignUp
             message = ""
             Array.Clear(error_msg, 0, error_msg.Length)
 
+
+
         End If
 
     End Sub
