@@ -259,9 +259,11 @@ Public Class Userdash
 
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
         Try
-            Dim filePath As String = "C:\Users\Default\Documents\employee.xlsx"
+            Dim documentsPath As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
+            Dim filePath As String = Path.Combine(documentsPath, "employee.xlsx")
+
             ExportToExcel(BeneficiariesDGV, filePath)
-            MessageBox.Show("Export complete.", "Excell file", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            MessageBox.Show("Export complete.", "Excel file", MessageBoxButtons.OK, MessageBoxIcon.Information)
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
