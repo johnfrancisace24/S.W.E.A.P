@@ -3,7 +3,7 @@ Imports MySql.Data.MySqlClient
 Imports System.IO
 
 Public Class AdminDashboard
-    Dim conn As New MySqlConnection("server=172.30.192.29;port=3306;username=sweapp;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.205.208;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
     Dim selectedId As Integer = 0
     Dim selectedBenId As Integer
