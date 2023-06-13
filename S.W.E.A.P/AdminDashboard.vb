@@ -140,16 +140,16 @@ Public Class AdminDashboard
 
         'For button Dashboard design
         bttnDash.FillColor = Color.Transparent
-        bttnDash.ForeColor = Color.Black
-        bttnDash.Image = My.Resources.dashboard__1_
-        bttnDash.BorderColor = Color.Black
+        bttnDash.ForeColor = Color.White
+        bttnDash.Image = My.Resources.dash
+        bttnDash.BorderColor = Color.White
 
 
         'For button Employee design
         bttnEmpl.FillColor = Color.Transparent
-        bttnEmpl.ForeColor = Color.Black
-        bttnEmpl.Image = My.Resources.company
-        bttnEmpl.BorderColor = Color.Black
+        bttnEmpl.ForeColor = Color.White
+        bttnEmpl.Image = My.Resources.employees
+        bttnEmpl.BorderColor = Color.White
 
         btnFx1(bttnFund)
         bttnFund.Image = My.Resources.fund__1_

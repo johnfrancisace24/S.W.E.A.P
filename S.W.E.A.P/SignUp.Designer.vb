@@ -1208,13 +1208,13 @@ Partial Class SignUp
         pickBday.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         pickBday.Format = DateTimePickerFormat.Long
         pickBday.Location = New Point(27, 295)
-        pickBday.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
-        pickBday.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
+        pickBday.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        pickBday.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         pickBday.Name = "pickBday"
         pickBday.ShadowDecoration.CustomizableEdges = CustomizableEdges62
         pickBday.Size = New Size(280, 36)
         pickBday.TabIndex = 68
-        pickBday.Value = New DateTime(2023, 5, 30, 13, 6, 0, 439)
+        pickBday.Value = New Date(2023, 5, 30, 13, 6, 0, 439)
         ' 
         ' Label3
         ' 
@@ -1367,6 +1367,7 @@ Partial Class SignUp
         Controls.Add(pnlPer)
         Controls.Add(pnlWork)
         FormBorderStyle = FormBorderStyle.None
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "SignUp"
         StartPosition = FormStartPosition.CenterScreen
         Text = "SignUp"

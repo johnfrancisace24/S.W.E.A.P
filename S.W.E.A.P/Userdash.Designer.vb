@@ -1751,6 +1751,7 @@ Partial Class Userdash
         Controls.Add(Panel2)
         Controls.Add(Panel1)
         FormBorderStyle = FormBorderStyle.None
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "Userdash"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Userdash"
