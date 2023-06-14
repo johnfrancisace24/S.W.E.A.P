@@ -1,4 +1,5 @@
 ﻿Imports System.IO
+Imports System.Text.RegularExpressions
 Imports MySql.Data.MySqlClient
 Public Class SignUp
     Dim conn As New MySqlConnection("server=172.30.205.208;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -315,5 +316,19 @@ Public Class SignUp
 
     Private Sub txtbxBA5_KeyPress(sender As Object, e As EventArgs) Handles txtbxBA5.KeyPress
         txtbxCntct_KeyPress(sender, e)
+    End Sub
+
+    'Email validation
+    Private Function IsValidGmail(email As String) As Boolean
+        Dim gmailRegex As New Regex("^[a-zA-Z0-9_.+-]+@gmail\.com$", RegexOptions.IgnoreCase)
+        Return gmailRegex.IsMatch(email)
+    End Function
+
+    Private Sub txtEmail_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles txtEmail.Validating
+        Dim inputEmail As String = txtEmail.Text.Trim()
+        If Not IsValidGmail(inputEmail) Then
+            MessageBox.Show("Invalid Email account." & vbCrLf & "Please enter a valid Gmail address.", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Hand)
+            e.Cancel = True
+        End If
     End Sub
 End Class
