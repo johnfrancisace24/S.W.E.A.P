@@ -236,17 +236,17 @@ Public Class SignUp
 
 
     '' KEY PRESS LANG TO PRE
-    Private Shared Sub txtbxFname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxFname.KeyPress
+    Private Shared Sub txtbxFname_KeyPress(sender As Object, e As KeyPressEventArgs)
         If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsLetter(e.KeyChar) AndAlso Not Char.IsWhiteSpace(e.KeyChar) AndAlso Not Char.IsPunctuation(e.KeyChar) Then
             e.Handled = True
         End If
     End Sub
 
-    Private Sub txtbxMname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxMname.KeyPress
+    Private Sub txtbxMname_KeyPress(sender As Object, e As KeyPressEventArgs)
         txtbxFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxLname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxLname.KeyPress
+    Private Sub txtbxLname_KeyPress(sender As Object, e As KeyPressEventArgs)
         txtbxFname_KeyPress(sender, e)
     End Sub
 
@@ -291,7 +291,7 @@ Public Class SignUp
     End Sub
 
 
-    Private Shared Sub txtbxCntct_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxCntct.KeyPress
+    Private Shared Sub txtbxCntct_KeyPress(sender As Object, e As KeyPressEventArgs)
         If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsDigit(e.KeyChar) Then
             e.Handled = True
         End If
