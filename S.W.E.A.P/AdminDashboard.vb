@@ -69,8 +69,8 @@ Public Class AdminDashboard
     Public Sub panelVisible(pnlH, pnlD, pnlE, pnlF) '--------------------FOR PANEL VISIBILITY
         pnlHome.Visible = pnlH
         pnlDashboard.Visible = pnlD
-        pnlEmployees.Visible = pnlE
-        pnlFundTransfer.Visible = pnlF
+        pnlEmployee.Visible = pnlE
+        pnlFundtrans.Visible = pnlF
     End Sub
 
     Public Sub beneficiariesRecord() '---------------FOR BENEFICIARIES RECORD
@@ -160,7 +160,15 @@ Public Class AdminDashboard
                                             email from users left join user_info on users.id = user_info.user_id")
         dgMembers.ReadOnly = True
 
-        pnlHome.Visible = True
+        pnlHome.Show()
+        pnlDashboard.Hide()
+        pnlViewEmploy.Hide()
+        pnlEmployee.Hide()
+
+        tabEditMember.Hide()
+        pnlFundtrans.Hide()
+
+
 
 
         viewEmploye("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, contact, office, position, balance
@@ -275,8 +283,8 @@ Public Class AdminDashboard
         'To view panel
         pnlHome.Visible = True
         pnlDashboard.Visible = False
-        pnlEmployees.Visible = False
-        pnlFundTransfer.Visible = False
+        pnlEmployee.Visible = False
+        pnlFundtrans.Visible = False
 
 
 
@@ -431,6 +439,5 @@ Public Class AdminDashboard
         viewEmploye("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, contact, office, position, balance
                                             from users left join user_info on users.id = user_info.user_id")
     End Sub
-
 
 End Class
