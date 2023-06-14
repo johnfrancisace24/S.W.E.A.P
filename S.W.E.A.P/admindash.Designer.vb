@@ -79,17 +79,6 @@ Partial Class admindash
         Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle10 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges96 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges97 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges98 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges99 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -116,6 +105,10 @@ Partial Class admindash
         Dim CustomizableEdges71 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges72 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges73 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim CustomizableEdges74 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges75 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -138,6 +131,17 @@ Partial Class admindash
         Dim CustomizableEdges93 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges94 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges95 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges96 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges97 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges98 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges99 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges100 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges101 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges102 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -148,10 +152,6 @@ Partial Class admindash
         Dim CustomizableEdges107 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges108 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges109 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Panel1 = New Panel()
         Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
@@ -208,21 +208,6 @@ Partial Class admindash
         Label4 = New Label()
         Label5 = New Label()
         tabEmployee = New TabPage()
-        pnlEmployee = New Panel()
-        dgMembers = New Guna.UI2.WinForms.Guna2DataGridView()
-        Column7 = New DataGridViewTextBoxColumn()
-        Column1 = New DataGridViewTextBoxColumn()
-        Column2 = New DataGridViewTextBoxColumn()
-        Column3 = New DataGridViewTextBoxColumn()
-        Column4 = New DataGridViewTextBoxColumn()
-        Column5 = New DataGridViewTextBoxColumn()
-        Column6 = New DataGridViewTextBoxColumn()
-        Column19 = New DataGridViewImageColumn()
-        Column20 = New DataGridViewImageColumn()
-        txtSearch = New Guna.UI2.WinForms.Guna2TextBox()
-        pickOffice = New Guna.UI2.WinForms.Guna2ComboBox()
-        Label29 = New Label()
-        Label3 = New Label()
         tabEdit = New Panel()
         tabEditMember = New Guna.UI2.WinForms.Guna2TabControl()
         personal = New TabPage()
@@ -251,6 +236,11 @@ Partial Class admindash
         Label9 = New Label()
         Label7 = New Label()
         other = New TabPage()
+        dgBeneficiaries = New Guna.UI2.WinForms.Guna2DataGridView()
+        Column8 = New DataGridViewTextBoxColumn()
+        Column9 = New DataGridViewTextBoxColumn()
+        Column10 = New DataGridViewTextBoxColumn()
+        Column11 = New DataGridViewTextBoxColumn()
         btnBenRemove = New Guna.UI2.WinForms.Guna2Button()
         btnEditUpdate = New Guna.UI2.WinForms.Guna2Button()
         btnEditAddBen = New Guna.UI2.WinForms.Guna2Button()
@@ -272,6 +262,21 @@ Partial Class admindash
         Label21 = New Label()
         Label20 = New Label()
         Label19 = New Label()
+        pnlEmployee = New Panel()
+        dgMembers = New Guna.UI2.WinForms.Guna2DataGridView()
+        Column7 = New DataGridViewTextBoxColumn()
+        Column1 = New DataGridViewTextBoxColumn()
+        Column2 = New DataGridViewTextBoxColumn()
+        Column3 = New DataGridViewTextBoxColumn()
+        Column4 = New DataGridViewTextBoxColumn()
+        Column5 = New DataGridViewTextBoxColumn()
+        Column6 = New DataGridViewTextBoxColumn()
+        Column19 = New DataGridViewImageColumn()
+        Column20 = New DataGridViewImageColumn()
+        txtSearch = New Guna.UI2.WinForms.Guna2TextBox()
+        pickOffice = New Guna.UI2.WinForms.Guna2ComboBox()
+        Label29 = New Label()
+        Label3 = New Label()
         tabFund = New TabPage()
         Guna2TabControl2 = New Guna.UI2.WinForms.Guna2TabControl()
         TabPage2 = New TabPage()
@@ -288,11 +293,6 @@ Partial Class admindash
         Guna2PictureBox6 = New Guna.UI2.WinForms.Guna2PictureBox()
         TabPage5 = New TabPage()
         TabPage3 = New TabPage()
-        dgBeneficiaries = New Guna.UI2.WinForms.Guna2DataGridView()
-        Column8 = New DataGridViewTextBoxColumn()
-        Column9 = New DataGridViewTextBoxColumn()
-        Column10 = New DataGridViewTextBoxColumn()
-        Column11 = New DataGridViewTextBoxColumn()
         Panel1.SuspendLayout()
         Guna2TabControl1.SuspendLayout()
         TabPage6.SuspendLayout()
@@ -309,18 +309,18 @@ Partial Class admindash
         Guna2Panel1.SuspendLayout()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         tabEmployee.SuspendLayout()
-        pnlEmployee.SuspendLayout()
-        CType(dgMembers, ComponentModel.ISupportInitialize).BeginInit()
         tabEdit.SuspendLayout()
         tabEditMember.SuspendLayout()
         personal.SuspendLayout()
         CType(pBoxEditProfile, ComponentModel.ISupportInitialize).BeginInit()
         other.SuspendLayout()
+        CType(dgBeneficiaries, ComponentModel.ISupportInitialize).BeginInit()
+        pnlEmployee.SuspendLayout()
+        CType(dgMembers, ComponentModel.ISupportInitialize).BeginInit()
         tabFund.SuspendLayout()
         Guna2TabControl2.SuspendLayout()
         TabPage2.SuspendLayout()
         CType(Guna2PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
-        CType(dgBeneficiaries, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -1149,247 +1149,11 @@ Partial Class admindash
         tabEmployee.Text = "Employee"
         tabEmployee.UseVisualStyleBackColor = True
         ' 
-        ' pnlEmployee
-        ' 
-        pnlEmployee.Controls.Add(dgMembers)
-        pnlEmployee.Controls.Add(txtSearch)
-        pnlEmployee.Controls.Add(pickOffice)
-        pnlEmployee.Controls.Add(Label29)
-        pnlEmployee.Controls.Add(Label3)
-        pnlEmployee.Dock = DockStyle.Fill
-        pnlEmployee.Location = New Point(3, 3)
-        pnlEmployee.Name = "pnlEmployee"
-        pnlEmployee.Size = New Size(1024, 710)
-        pnlEmployee.TabIndex = 0
-        ' 
-        ' dgMembers
-        ' 
-        dgMembers.AllowUserToAddRows = False
-        dgMembers.AllowUserToDeleteRows = False
-        dgMembers.AllowUserToResizeRows = False
-        DataGridViewCellStyle5.BackColor = Color.White
-        DataGridViewCellStyle5.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle5.ForeColor = SystemColors.ControlText
-        DataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
-        DataGridViewCellStyle5.SelectionForeColor = Color.Black
-        dgMembers.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
-        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle6.BackColor = Color.Firebrick
-        DataGridViewCellStyle6.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle6.ForeColor = Color.White
-        DataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
-        DataGridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText
-        dgMembers.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
-        dgMembers.ColumnHeadersHeight = 35
-        dgMembers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgMembers.Columns.AddRange(New DataGridViewColumn() {Column7, Column1, Column2, Column3, Column4, Column5, Column6, Column19, Column20})
-        DataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle10.BackColor = Color.White
-        DataGridViewCellStyle10.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle10.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle10.SelectionBackColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
-        DataGridViewCellStyle10.SelectionForeColor = Color.Black
-        DataGridViewCellStyle10.WrapMode = DataGridViewTriState.False
-        dgMembers.DefaultCellStyle = DataGridViewCellStyle10
-        dgMembers.Dock = DockStyle.Bottom
-        dgMembers.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgMembers.Location = New Point(0, 120)
-        dgMembers.Name = "dgMembers"
-        dgMembers.ReadOnly = True
-        dgMembers.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.TopLeft
-        DataGridViewCellStyle11.BackColor = Color.White
-        DataGridViewCellStyle11.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle11.ForeColor = SystemColors.WindowText
-        DataGridViewCellStyle11.SelectionBackColor = Color.White
-        DataGridViewCellStyle11.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle11.WrapMode = DataGridViewTriState.True
-        dgMembers.RowHeadersDefaultCellStyle = DataGridViewCellStyle11
-        dgMembers.RowHeadersVisible = False
-        dgMembers.RowTemplate.Height = 25
-        dgMembers.Size = New Size(1024, 590)
-        dgMembers.TabIndex = 16
-        dgMembers.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
-        dgMembers.ThemeStyle.AlternatingRowsStyle.Font = Nothing
-        dgMembers.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
-        dgMembers.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
-        dgMembers.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
-        dgMembers.ThemeStyle.BackColor = Color.White
-        dgMembers.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgMembers.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        dgMembers.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
-        dgMembers.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point)
-        dgMembers.ThemeStyle.HeaderStyle.ForeColor = Color.White
-        dgMembers.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgMembers.ThemeStyle.HeaderStyle.Height = 35
-        dgMembers.ThemeStyle.ReadOnly = True
-        dgMembers.ThemeStyle.RowsStyle.BackColor = Color.White
-        dgMembers.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        dgMembers.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        dgMembers.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        dgMembers.ThemeStyle.RowsStyle.Height = 25
-        dgMembers.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgMembers.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        ' 
-        ' Column7
-        ' 
-        Column7.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column7.HeaderText = "ID"
-        Column7.Name = "Column7"
-        Column7.ReadOnly = True
-        Column7.Width = 55
-        ' 
-        ' Column1
-        ' 
-        Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column1.FillWeight = 93.55709F
-        Column1.HeaderText = "FULLNAME"
-        Column1.Name = "Column1"
-        Column1.ReadOnly = True
-        ' 
-        ' Column2
-        ' 
-        Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column2.FillWeight = 93.55709F
-        Column2.HeaderText = "OFFICE"
-        Column2.Name = "Column2"
-        Column2.ReadOnly = True
-        ' 
-        ' Column3
-        ' 
-        Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column3.FillWeight = 93.55709F
-        Column3.HeaderText = "POSITION"
-        Column3.Name = "Column3"
-        Column3.ReadOnly = True
-        ' 
-        ' Column4
-        ' 
-        Column4.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column4.FillWeight = 93.55709F
-        Column4.HeaderText = "EMP. STAT"
-        Column4.Name = "Column4"
-        Column4.ReadOnly = True
-        ' 
-        ' Column5
-        ' 
-        Column5.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column5.FillWeight = 93.55709F
-        Column5.HeaderText = "EMAIL"
-        Column5.Name = "Column5"
-        Column5.ReadOnly = True
-        ' 
-        ' Column6
-        ' 
-        Column6.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        DataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleCenter
-        Column6.DefaultCellStyle = DataGridViewCellStyle7
-        Column6.FillWeight = 93.55709F
-        Column6.HeaderText = "CONTRIBUTION"
-        Column6.Name = "Column6"
-        Column6.ReadOnly = True
-        ' 
-        ' Column19
-        ' 
-        Column19.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
-        DataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle8.BackColor = Color.White
-        DataGridViewCellStyle8.NullValue = Nothing
-        Column19.DefaultCellStyle = DataGridViewCellStyle8
-        Column19.FillWeight = 108.787308F
-        Column19.HeaderText = ""
-        Column19.Image = CType(resources.GetObject("Column19.Image"), Image)
-        Column19.ImageLayout = DataGridViewImageCellLayout.Stretch
-        Column19.MinimumWidth = 28
-        Column19.Name = "Column19"
-        Column19.ReadOnly = True
-        Column19.Width = 28
-        ' 
-        ' Column20
-        ' 
-        Column20.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
-        DataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle9.BackColor = Color.White
-        DataGridViewCellStyle9.NullValue = Nothing
-        Column20.DefaultCellStyle = DataGridViewCellStyle9
-        Column20.FillWeight = 129.870132F
-        Column20.HeaderText = ""
-        Column20.Image = CType(resources.GetObject("Column20.Image"), Image)
-        Column20.ImageLayout = DataGridViewImageCellLayout.Stretch
-        Column20.MinimumWidth = 28
-        Column20.Name = "Column20"
-        Column20.ReadOnly = True
-        Column20.Width = 28
-        ' 
-        ' txtSearch
-        ' 
-        txtSearch.BorderRadius = 5
-        txtSearch.CustomizableEdges = CustomizableEdges96
-        txtSearch.DefaultText = ""
-        txtSearch.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtSearch.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtSearch.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtSearch.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtSearch.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtSearch.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtSearch.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtSearch.IconRight = My.Resources.Resources.loupe
-        txtSearch.IconRightOffset = New Point(5, 0)
-        txtSearch.Location = New Point(696, 33)
-        txtSearch.Name = "txtSearch"
-        txtSearch.PasswordChar = ChrW(0)
-        txtSearch.PlaceholderText = ""
-        txtSearch.SelectedText = ""
-        txtSearch.ShadowDecoration.CustomizableEdges = CustomizableEdges97
-        txtSearch.Size = New Size(323, 36)
-        txtSearch.TabIndex = 12
-        txtSearch.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' pickOffice
-        ' 
-        pickOffice.BackColor = Color.Transparent
-        pickOffice.BorderRadius = 5
-        pickOffice.CustomizableEdges = CustomizableEdges98
-        pickOffice.DrawMode = DrawMode.OwnerDrawFixed
-        pickOffice.DropDownStyle = ComboBoxStyle.DropDownList
-        pickOffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickOffice.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickOffice.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        pickOffice.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        pickOffice.ItemHeight = 30
-        pickOffice.Items.AddRange(New Object() {"All", "4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
-        pickOffice.Location = New Point(696, 78)
-        pickOffice.Name = "pickOffice"
-        pickOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges99
-        pickOffice.Size = New Size(323, 36)
-        pickOffice.TabIndex = 15
-        ' 
-        ' Label29
-        ' 
-        Label29.AutoSize = True
-        Label29.BackColor = Color.Transparent
-        Label29.Font = New Font("Cambria", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label29.Location = New Point(627, 84)
-        Label29.Name = "Label29"
-        Label29.Size = New Size(61, 22)
-        Label29.TabIndex = 13
-        Label29.Text = "Office:"
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.BackColor = Color.Transparent
-        Label3.Font = New Font("Cambria", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(627, 39)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(63, 22)
-        Label3.TabIndex = 14
-        Label3.Text = "Search"
-        ' 
         ' tabEdit
         ' 
         tabEdit.Controls.Add(tabEditMember)
         tabEdit.Dock = DockStyle.Fill
+        tabEdit.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         tabEdit.Location = New Point(3, 3)
         tabEdit.Name = "tabEdit"
         tabEdit.Size = New Size(1024, 710)
@@ -1868,6 +1632,103 @@ Partial Class admindash
         other.TabIndex = 1
         other.Text = "Other information"
         ' 
+        ' dgBeneficiaries
+        ' 
+        dgBeneficiaries.AllowUserToResizeRows = False
+        DataGridViewCellStyle1.BackColor = Color.White
+        DataGridViewCellStyle1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle1.ForeColor = SystemColors.ControlText
+        DataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(CByte(203), CByte(250), CByte(249))
+        DataGridViewCellStyle1.SelectionForeColor = Color.Black
+        dgBeneficiaries.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
+        DataGridViewCellStyle2.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle2.ForeColor = Color.White
+        DataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
+        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
+        dgBeneficiaries.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        dgBeneficiaries.ColumnHeadersHeight = 17
+        dgBeneficiaries.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        dgBeneficiaries.Columns.AddRange(New DataGridViewColumn() {Column8, Column9, Column10, Column11})
+        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = Color.White
+        DataGridViewCellStyle3.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(203), CByte(250), CByte(249))
+        DataGridViewCellStyle3.SelectionForeColor = Color.Black
+        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
+        dgBeneficiaries.DefaultCellStyle = DataGridViewCellStyle3
+        dgBeneficiaries.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        dgBeneficiaries.Location = New Point(55, 307)
+        dgBeneficiaries.Name = "dgBeneficiaries"
+        dgBeneficiaries.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = Color.White
+        DataGridViewCellStyle4.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle4.ForeColor = SystemColors.WindowText
+        DataGridViewCellStyle4.SelectionBackColor = Color.White
+        DataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = DataGridViewTriState.True
+        dgBeneficiaries.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
+        dgBeneficiaries.RowHeadersVisible = False
+        dgBeneficiaries.RowTemplate.Height = 25
+        dgBeneficiaries.Size = New Size(687, 145)
+        dgBeneficiaries.TabIndex = 11
+        dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
+        dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
+        dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
+        dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
+        dgBeneficiaries.ThemeStyle.BackColor = Color.White
+        dgBeneficiaries.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        dgBeneficiaries.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        dgBeneficiaries.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
+        dgBeneficiaries.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        dgBeneficiaries.ThemeStyle.HeaderStyle.ForeColor = Color.White
+        dgBeneficiaries.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        dgBeneficiaries.ThemeStyle.HeaderStyle.Height = 17
+        dgBeneficiaries.ThemeStyle.ReadOnly = False
+        dgBeneficiaries.ThemeStyle.RowsStyle.BackColor = Color.White
+        dgBeneficiaries.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
+        dgBeneficiaries.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        dgBeneficiaries.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        dgBeneficiaries.ThemeStyle.RowsStyle.Height = 25
+        dgBeneficiaries.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        dgBeneficiaries.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        ' 
+        ' Column8
+        ' 
+        Column8.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column8.HeaderText = "ID"
+        Column8.Name = "Column8"
+        Column8.ReadOnly = True
+        Column8.Width = 43
+        ' 
+        ' Column9
+        ' 
+        Column9.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column9.HeaderText = "Full name"
+        Column9.Name = "Column9"
+        Column9.ReadOnly = True
+        ' 
+        ' Column10
+        ' 
+        Column10.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column10.HeaderText = "Relationship"
+        Column10.Name = "Column10"
+        Column10.ReadOnly = True
+        Column10.Width = 95
+        ' 
+        ' Column11
+        ' 
+        Column11.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column11.HeaderText = "Age"
+        Column11.Name = "Column11"
+        Column11.ReadOnly = True
+        Column11.Width = 51
+        ' 
         ' btnBenRemove
         ' 
         btnBenRemove.CustomizableEdges = CustomizableEdges74
@@ -2186,6 +2047,243 @@ Partial Class admindash
         Label19.TabIndex = 6
         Label19.Text = "Office"
         ' 
+        ' pnlEmployee
+        ' 
+        pnlEmployee.Controls.Add(dgMembers)
+        pnlEmployee.Controls.Add(txtSearch)
+        pnlEmployee.Controls.Add(pickOffice)
+        pnlEmployee.Controls.Add(Label29)
+        pnlEmployee.Controls.Add(Label3)
+        pnlEmployee.Dock = DockStyle.Fill
+        pnlEmployee.Location = New Point(3, 3)
+        pnlEmployee.Name = "pnlEmployee"
+        pnlEmployee.Size = New Size(1024, 710)
+        pnlEmployee.TabIndex = 0
+        ' 
+        ' dgMembers
+        ' 
+        dgMembers.AllowUserToAddRows = False
+        dgMembers.AllowUserToDeleteRows = False
+        dgMembers.AllowUserToResizeRows = False
+        DataGridViewCellStyle5.BackColor = Color.White
+        DataGridViewCellStyle5.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle5.ForeColor = SystemColors.ControlText
+        DataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
+        DataGridViewCellStyle5.SelectionForeColor = Color.Black
+        dgMembers.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle6.BackColor = Color.Firebrick
+        DataGridViewCellStyle6.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle6.ForeColor = Color.White
+        DataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
+        DataGridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText
+        dgMembers.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
+        dgMembers.ColumnHeadersHeight = 35
+        dgMembers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        dgMembers.Columns.AddRange(New DataGridViewColumn() {Column7, Column1, Column2, Column3, Column4, Column5, Column6, Column19, Column20})
+        DataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle10.BackColor = Color.White
+        DataGridViewCellStyle10.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle10.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle10.SelectionBackColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
+        DataGridViewCellStyle10.SelectionForeColor = Color.Black
+        DataGridViewCellStyle10.WrapMode = DataGridViewTriState.False
+        dgMembers.DefaultCellStyle = DataGridViewCellStyle10
+        dgMembers.Dock = DockStyle.Bottom
+        dgMembers.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        dgMembers.Location = New Point(0, 120)
+        dgMembers.Name = "dgMembers"
+        dgMembers.ReadOnly = True
+        dgMembers.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.TopLeft
+        DataGridViewCellStyle11.BackColor = Color.White
+        DataGridViewCellStyle11.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle11.ForeColor = SystemColors.WindowText
+        DataGridViewCellStyle11.SelectionBackColor = Color.White
+        DataGridViewCellStyle11.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle11.WrapMode = DataGridViewTriState.True
+        dgMembers.RowHeadersDefaultCellStyle = DataGridViewCellStyle11
+        dgMembers.RowHeadersVisible = False
+        dgMembers.RowTemplate.Height = 25
+        dgMembers.Size = New Size(1024, 590)
+        dgMembers.TabIndex = 16
+        dgMembers.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
+        dgMembers.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        dgMembers.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
+        dgMembers.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
+        dgMembers.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
+        dgMembers.ThemeStyle.BackColor = Color.White
+        dgMembers.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        dgMembers.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        dgMembers.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
+        dgMembers.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point)
+        dgMembers.ThemeStyle.HeaderStyle.ForeColor = Color.White
+        dgMembers.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        dgMembers.ThemeStyle.HeaderStyle.Height = 35
+        dgMembers.ThemeStyle.ReadOnly = True
+        dgMembers.ThemeStyle.RowsStyle.BackColor = Color.White
+        dgMembers.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
+        dgMembers.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        dgMembers.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        dgMembers.ThemeStyle.RowsStyle.Height = 25
+        dgMembers.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        dgMembers.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        ' 
+        ' Column7
+        ' 
+        Column7.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column7.HeaderText = "ID"
+        Column7.Name = "Column7"
+        Column7.ReadOnly = True
+        Column7.Width = 55
+        ' 
+        ' Column1
+        ' 
+        Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column1.FillWeight = 93.55709F
+        Column1.HeaderText = "FULLNAME"
+        Column1.Name = "Column1"
+        Column1.ReadOnly = True
+        ' 
+        ' Column2
+        ' 
+        Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column2.FillWeight = 93.55709F
+        Column2.HeaderText = "OFFICE"
+        Column2.Name = "Column2"
+        Column2.ReadOnly = True
+        ' 
+        ' Column3
+        ' 
+        Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column3.FillWeight = 93.55709F
+        Column3.HeaderText = "POSITION"
+        Column3.Name = "Column3"
+        Column3.ReadOnly = True
+        ' 
+        ' Column4
+        ' 
+        Column4.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column4.FillWeight = 93.55709F
+        Column4.HeaderText = "EMP. STAT"
+        Column4.Name = "Column4"
+        Column4.ReadOnly = True
+        ' 
+        ' Column5
+        ' 
+        Column5.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column5.FillWeight = 93.55709F
+        Column5.HeaderText = "EMAIL"
+        Column5.Name = "Column5"
+        Column5.ReadOnly = True
+        ' 
+        ' Column6
+        ' 
+        Column6.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        DataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleCenter
+        Column6.DefaultCellStyle = DataGridViewCellStyle7
+        Column6.FillWeight = 93.55709F
+        Column6.HeaderText = "CONTRIBUTION"
+        Column6.Name = "Column6"
+        Column6.ReadOnly = True
+        ' 
+        ' Column19
+        ' 
+        Column19.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
+        DataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle8.BackColor = Color.White
+        DataGridViewCellStyle8.NullValue = Nothing
+        Column19.DefaultCellStyle = DataGridViewCellStyle8
+        Column19.FillWeight = 108.787308F
+        Column19.HeaderText = ""
+        Column19.Image = CType(resources.GetObject("Column19.Image"), Image)
+        Column19.ImageLayout = DataGridViewImageCellLayout.Stretch
+        Column19.MinimumWidth = 28
+        Column19.Name = "Column19"
+        Column19.ReadOnly = True
+        Column19.Width = 28
+        ' 
+        ' Column20
+        ' 
+        Column20.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
+        DataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle9.BackColor = Color.White
+        DataGridViewCellStyle9.NullValue = Nothing
+        Column20.DefaultCellStyle = DataGridViewCellStyle9
+        Column20.FillWeight = 129.870132F
+        Column20.HeaderText = ""
+        Column20.Image = CType(resources.GetObject("Column20.Image"), Image)
+        Column20.ImageLayout = DataGridViewImageCellLayout.Stretch
+        Column20.MinimumWidth = 28
+        Column20.Name = "Column20"
+        Column20.ReadOnly = True
+        Column20.Width = 28
+        ' 
+        ' txtSearch
+        ' 
+        txtSearch.BorderRadius = 5
+        txtSearch.CustomizableEdges = CustomizableEdges96
+        txtSearch.DefaultText = ""
+        txtSearch.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtSearch.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtSearch.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSearch.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSearch.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSearch.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSearch.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSearch.IconRight = My.Resources.Resources.loupe
+        txtSearch.IconRightOffset = New Point(5, 0)
+        txtSearch.Location = New Point(696, 33)
+        txtSearch.Name = "txtSearch"
+        txtSearch.PasswordChar = ChrW(0)
+        txtSearch.PlaceholderText = ""
+        txtSearch.SelectedText = ""
+        txtSearch.ShadowDecoration.CustomizableEdges = CustomizableEdges97
+        txtSearch.Size = New Size(323, 36)
+        txtSearch.TabIndex = 12
+        txtSearch.TextAlign = HorizontalAlignment.Center
+        ' 
+        ' pickOffice
+        ' 
+        pickOffice.BackColor = Color.Transparent
+        pickOffice.BorderRadius = 5
+        pickOffice.CustomizableEdges = CustomizableEdges98
+        pickOffice.DrawMode = DrawMode.OwnerDrawFixed
+        pickOffice.DropDownStyle = ComboBoxStyle.DropDownList
+        pickOffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickOffice.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickOffice.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        pickOffice.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        pickOffice.ItemHeight = 30
+        pickOffice.Items.AddRange(New Object() {"All", "4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
+        pickOffice.Location = New Point(696, 78)
+        pickOffice.Name = "pickOffice"
+        pickOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges99
+        pickOffice.Size = New Size(323, 36)
+        pickOffice.TabIndex = 15
+        ' 
+        ' Label29
+        ' 
+        Label29.AutoSize = True
+        Label29.BackColor = Color.Transparent
+        Label29.Font = New Font("Cambria", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label29.Location = New Point(627, 84)
+        Label29.Name = "Label29"
+        Label29.Size = New Size(61, 22)
+        Label29.TabIndex = 13
+        Label29.Text = "Office:"
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.BackColor = Color.Transparent
+        Label3.Font = New Font("Cambria", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Location = New Point(627, 39)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(63, 22)
+        Label3.TabIndex = 14
+        Label3.Text = "Search"
+        ' 
         ' tabFund
         ' 
         tabFund.Controls.Add(Guna2TabControl2)
@@ -2434,103 +2532,6 @@ Partial Class admindash
         TabPage3.TabIndex = 0
         TabPage3.Text = "Fund Transfer"
         ' 
-        ' dgBeneficiaries
-        ' 
-        dgBeneficiaries.AllowUserToResizeRows = False
-        DataGridViewCellStyle1.BackColor = Color.White
-        DataGridViewCellStyle1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle1.ForeColor = SystemColors.ControlText
-        DataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(CByte(203), CByte(250), CByte(249))
-        DataGridViewCellStyle1.SelectionForeColor = Color.Black
-        dgBeneficiaries.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
-        DataGridViewCellStyle2.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle2.ForeColor = Color.White
-        DataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
-        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
-        dgBeneficiaries.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        dgBeneficiaries.ColumnHeadersHeight = 17
-        dgBeneficiaries.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgBeneficiaries.Columns.AddRange(New DataGridViewColumn() {Column8, Column9, Column10, Column11})
-        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = Color.White
-        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(203), CByte(250), CByte(249))
-        DataGridViewCellStyle3.SelectionForeColor = Color.Black
-        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
-        dgBeneficiaries.DefaultCellStyle = DataGridViewCellStyle3
-        dgBeneficiaries.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgBeneficiaries.Location = New Point(55, 307)
-        dgBeneficiaries.Name = "dgBeneficiaries"
-        dgBeneficiaries.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.BackColor = Color.White
-        DataGridViewCellStyle4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle4.ForeColor = SystemColors.WindowText
-        DataGridViewCellStyle4.SelectionBackColor = Color.White
-        DataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle4.WrapMode = DataGridViewTriState.True
-        dgBeneficiaries.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
-        dgBeneficiaries.RowHeadersVisible = False
-        dgBeneficiaries.RowTemplate.Height = 25
-        dgBeneficiaries.Size = New Size(687, 145)
-        dgBeneficiaries.TabIndex = 11
-        dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
-        dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.Font = Nothing
-        dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
-        dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
-        dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
-        dgBeneficiaries.ThemeStyle.BackColor = Color.White
-        dgBeneficiaries.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgBeneficiaries.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        dgBeneficiaries.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
-        dgBeneficiaries.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        dgBeneficiaries.ThemeStyle.HeaderStyle.ForeColor = Color.White
-        dgBeneficiaries.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgBeneficiaries.ThemeStyle.HeaderStyle.Height = 17
-        dgBeneficiaries.ThemeStyle.ReadOnly = False
-        dgBeneficiaries.ThemeStyle.RowsStyle.BackColor = Color.White
-        dgBeneficiaries.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        dgBeneficiaries.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        dgBeneficiaries.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        dgBeneficiaries.ThemeStyle.RowsStyle.Height = 25
-        dgBeneficiaries.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgBeneficiaries.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        ' 
-        ' Column8
-        ' 
-        Column8.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column8.HeaderText = "ID"
-        Column8.Name = "Column8"
-        Column8.ReadOnly = True
-        Column8.Width = 55
-        ' 
-        ' Column9
-        ' 
-        Column9.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column9.HeaderText = "Full name"
-        Column9.Name = "Column9"
-        Column9.ReadOnly = True
-        ' 
-        ' Column10
-        ' 
-        Column10.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column10.HeaderText = "Relationship"
-        Column10.Name = "Column10"
-        Column10.ReadOnly = True
-        Column10.Width = 140
-        ' 
-        ' Column11
-        ' 
-        Column11.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column11.HeaderText = "Age"
-        Column11.Name = "Column11"
-        Column11.ReadOnly = True
-        Column11.Width = 69
-        ' 
         ' admindash
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -2563,9 +2564,6 @@ Partial Class admindash
         Guna2Panel1.PerformLayout()
         CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         tabEmployee.ResumeLayout(False)
-        pnlEmployee.ResumeLayout(False)
-        pnlEmployee.PerformLayout()
-        CType(dgMembers, ComponentModel.ISupportInitialize).EndInit()
         tabEdit.ResumeLayout(False)
         tabEditMember.ResumeLayout(False)
         personal.ResumeLayout(False)
@@ -2573,12 +2571,15 @@ Partial Class admindash
         CType(pBoxEditProfile, ComponentModel.ISupportInitialize).EndInit()
         other.ResumeLayout(False)
         other.PerformLayout()
+        CType(dgBeneficiaries, ComponentModel.ISupportInitialize).EndInit()
+        pnlEmployee.ResumeLayout(False)
+        pnlEmployee.PerformLayout()
+        CType(dgMembers, ComponentModel.ISupportInitialize).EndInit()
         tabFund.ResumeLayout(False)
         Guna2TabControl2.ResumeLayout(False)
         TabPage2.ResumeLayout(False)
         TabPage2.PerformLayout()
         CType(Guna2PictureBox6, ComponentModel.ISupportInitialize).EndInit()
-        CType(dgBeneficiaries, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
