@@ -326,9 +326,18 @@ Public Class SignUp
 
     Private Sub txtEmail_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles txtEmail.Validating
         Dim inputEmail As String = txtEmail.Text.Trim()
-        If Not IsValidGmail(inputEmail) Then
+        If txtEmail.Text = "" Then
+            txtEmail.Text = txtEmail.Text
+
+
+        ElseIf Not IsValidGmail(inputEmail) Then
             MessageBox.Show("Invalid Email account." & vbCrLf & "Please enter a valid Gmail address.", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Hand)
             e.Cancel = True
+
         End If
+    End Sub
+
+    Private Sub txtEmail_TextChanged(sender As Object, e As EventArgs) Handles txtEmail.TextChanged
+
     End Sub
 End Class
