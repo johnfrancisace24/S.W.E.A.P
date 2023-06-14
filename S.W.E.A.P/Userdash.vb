@@ -110,7 +110,7 @@ Public Class Userdash
             If dr.Read() Then
                 Dim imagePath As String = dr.GetString("image")
                 Dim imagePathInResources As String = (destinationPath + imagePath)
-                Dim Gooday As String = "Good day, Ma'am/Sir " + dr.GetString("first_name")
+                Dim Gooday As String = "Welcome! " + dr.GetString("first_name")
 
 
                 lblFname.Text = dr.GetString("fullName")
