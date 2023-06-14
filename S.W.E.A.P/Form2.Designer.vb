@@ -52,20 +52,13 @@ Partial Class Form2
         Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
         TabPage1 = New TabPage()
         dgSchedule = New Guna.UI2.WinForms.Guna2DataGridView()
-        Column1 = New DataGridViewTextBoxColumn()
-        Column2 = New DataGridViewTextBoxColumn()
-        Column3 = New DataGridViewTextBoxColumn()
-        Column4 = New DataGridViewTextBoxColumn()
-        Column5 = New DataGridViewTextBoxColumn()
-        Column6 = New DataGridViewTextBoxColumn()
-        Column7 = New DataGridViewTextBoxColumn()
-        Column8 = New DataGridViewTextBoxColumn()
-        Column9 = New DataGridViewTextBoxColumn()
-        Column10 = New DataGridViewTextBoxColumn()
         txtName = New Guna.UI2.WinForms.Guna2TextBox()
         txtTotalInterest = New Guna.UI2.WinForms.Guna2TextBox()
         txtTotalEarlyPayment = New Guna.UI2.WinForms.Guna2TextBox()
@@ -84,6 +77,7 @@ Partial Class Form2
         Label8 = New Label()
         Label3 = New Label()
         Label7 = New Label()
+        Label14 = New Label()
         Label2 = New Label()
         Label13 = New Label()
         Label1 = New Label()
@@ -93,7 +87,17 @@ Partial Class Form2
         numAintRate = New Guna.UI2.WinForms.Guna2NumericUpDown()
         numLamount = New Guna.UI2.WinForms.Guna2NumericUpDown()
         TabPage2 = New TabPage()
-        Label14 = New Label()
+        Guna2DataGridView2 = New Guna.UI2.WinForms.Guna2DataGridView()
+        Column1 = New DataGridViewTextBoxColumn()
+        Column2 = New DataGridViewTextBoxColumn()
+        Column3 = New DataGridViewTextBoxColumn()
+        Column4 = New DataGridViewTextBoxColumn()
+        Column5 = New DataGridViewTextBoxColumn()
+        Column6 = New DataGridViewTextBoxColumn()
+        Column7 = New DataGridViewTextBoxColumn()
+        Column8 = New DataGridViewTextBoxColumn()
+        Column9 = New DataGridViewTextBoxColumn()
+        Column10 = New DataGridViewTextBoxColumn()
         Guna2TabControl1.SuspendLayout()
         TabPage1.SuspendLayout()
         CType(dgSchedule, ComponentModel.ISupportInitialize).BeginInit()
@@ -102,6 +106,8 @@ Partial Class Form2
         CType(numPyears, ComponentModel.ISupportInitialize).BeginInit()
         CType(numAintRate, ComponentModel.ISupportInitialize).BeginInit()
         CType(numLamount, ComponentModel.ISupportInitialize).BeginInit()
+        TabPage2.SuspendLayout()
+        CType(Guna2DataGridView2, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -172,7 +178,7 @@ Partial Class Form2
         TabPage1.Padding = New Padding(3)
         TabPage1.Size = New Size(1002, 756)
         TabPage1.TabIndex = 0
-        TabPage1.Text = "TabPage1"
+        TabPage1.Text = "Add Loan"
         TabPage1.UseVisualStyleBackColor = True
         ' 
         ' dgSchedule
@@ -203,7 +209,7 @@ Partial Class Form2
         dgSchedule.Name = "dgSchedule"
         dgSchedule.RowHeadersVisible = False
         dgSchedule.RowTemplate.Height = 25
-        dgSchedule.Size = New Size(977, 434)
+        dgSchedule.Size = New Size(977, 423)
         dgSchedule.TabIndex = 6
         dgSchedule.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
         dgSchedule.ThemeStyle.AlternatingRowsStyle.Font = Nothing
@@ -227,10 +233,428 @@ Partial Class Form2
         dgSchedule.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         dgSchedule.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
         ' 
+        ' txtName
+        ' 
+        txtName.CustomizableEdges = CustomizableEdges1
+        txtName.DefaultText = ""
+        txtName.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtName.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtName.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtName.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtName.Enabled = False
+        txtName.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtName.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtName.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtName.Location = New Point(736, 232)
+        txtName.Name = "txtName"
+        txtName.PasswordChar = ChrW(0)
+        txtName.PlaceholderText = ""
+        txtName.SelectedText = ""
+        txtName.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        txtName.Size = New Size(236, 25)
+        txtName.TabIndex = 5
+        ' 
+        ' txtTotalInterest
+        ' 
+        txtTotalInterest.CustomizableEdges = CustomizableEdges3
+        txtTotalInterest.DefaultText = ""
+        txtTotalInterest.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtTotalInterest.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtTotalInterest.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtTotalInterest.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtTotalInterest.Enabled = False
+        txtTotalInterest.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtTotalInterest.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtTotalInterest.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtTotalInterest.Location = New Point(736, 200)
+        txtTotalInterest.Name = "txtTotalInterest"
+        txtTotalInterest.PasswordChar = ChrW(0)
+        txtTotalInterest.PlaceholderText = ""
+        txtTotalInterest.SelectedText = ""
+        txtTotalInterest.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        txtTotalInterest.Size = New Size(236, 25)
+        txtTotalInterest.TabIndex = 5
+        ' 
+        ' txtTotalEarlyPayment
+        ' 
+        txtTotalEarlyPayment.CustomizableEdges = CustomizableEdges5
+        txtTotalEarlyPayment.DefaultText = ""
+        txtTotalEarlyPayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtTotalEarlyPayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtTotalEarlyPayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtTotalEarlyPayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtTotalEarlyPayment.Enabled = False
+        txtTotalEarlyPayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtTotalEarlyPayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtTotalEarlyPayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtTotalEarlyPayment.Location = New Point(736, 169)
+        txtTotalEarlyPayment.Name = "txtTotalEarlyPayment"
+        txtTotalEarlyPayment.PasswordChar = ChrW(0)
+        txtTotalEarlyPayment.PlaceholderText = ""
+        txtTotalEarlyPayment.SelectedText = ""
+        txtTotalEarlyPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        txtTotalEarlyPayment.Size = New Size(236, 25)
+        txtTotalEarlyPayment.TabIndex = 5
+        ' 
+        ' txtActualNumPayment
+        ' 
+        txtActualNumPayment.CustomizableEdges = CustomizableEdges7
+        txtActualNumPayment.DefaultText = ""
+        txtActualNumPayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtActualNumPayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtActualNumPayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtActualNumPayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtActualNumPayment.Enabled = False
+        txtActualNumPayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtActualNumPayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtActualNumPayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtActualNumPayment.Location = New Point(736, 137)
+        txtActualNumPayment.Name = "txtActualNumPayment"
+        txtActualNumPayment.PasswordChar = ChrW(0)
+        txtActualNumPayment.PlaceholderText = ""
+        txtActualNumPayment.SelectedText = ""
+        txtActualNumPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txtActualNumPayment.Size = New Size(236, 25)
+        txtActualNumPayment.TabIndex = 5
+        ' 
+        ' txtSnumberPayment
+        ' 
+        txtSnumberPayment.CustomizableEdges = CustomizableEdges9
+        txtSnumberPayment.DefaultText = ""
+        txtSnumberPayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtSnumberPayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtSnumberPayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSnumberPayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSnumberPayment.Enabled = False
+        txtSnumberPayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSnumberPayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSnumberPayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSnumberPayment.Location = New Point(736, 107)
+        txtSnumberPayment.Name = "txtSnumberPayment"
+        txtSnumberPayment.PasswordChar = ChrW(0)
+        txtSnumberPayment.PlaceholderText = ""
+        txtSnumberPayment.SelectedText = ""
+        txtSnumberPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        txtSnumberPayment.Size = New Size(236, 25)
+        txtSnumberPayment.TabIndex = 5
+        ' 
+        ' txtSpayment
+        ' 
+        txtSpayment.CustomizableEdges = CustomizableEdges11
+        txtSpayment.DefaultText = ""
+        txtSpayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtSpayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtSpayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSpayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSpayment.Enabled = False
+        txtSpayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSpayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSpayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSpayment.Location = New Point(736, 75)
+        txtSpayment.Name = "txtSpayment"
+        txtSpayment.PasswordChar = ChrW(0)
+        txtSpayment.PlaceholderText = ""
+        txtSpayment.SelectedText = ""
+        txtSpayment.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        txtSpayment.Size = New Size(236, 25)
+        txtSpayment.TabIndex = 5
+        ' 
+        ' btnSetSched
+        ' 
+        btnSetSched.CustomizableEdges = CustomizableEdges13
+        btnSetSched.DisabledState.BorderColor = Color.DarkGray
+        btnSetSched.DisabledState.CustomBorderColor = Color.DarkGray
+        btnSetSched.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnSetSched.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnSetSched.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnSetSched.ForeColor = Color.White
+        btnSetSched.Location = New Point(806, 274)
+        btnSetSched.Name = "btnSetSched"
+        btnSetSched.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        btnSetSched.Size = New Size(182, 34)
+        btnSetSched.TabIndex = 4
+        btnSetSched.Text = "Set Schedule"
+        ' 
+        ' dateStart
+        ' 
+        dateStart.Checked = True
+        dateStart.CustomizableEdges = CustomizableEdges15
+        dateStart.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        dateStart.Format = DateTimePickerFormat.Long
+        dateStart.Location = New Point(266, 201)
+        dateStart.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
+        dateStart.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
+        dateStart.Name = "dateStart"
+        dateStart.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        dateStart.Size = New Size(150, 25)
+        dateStart.TabIndex = 3
+        dateStart.Value = New DateTime(2023, 6, 14, 8, 36, 49, 499)
+        ' 
+        ' Label12
+        ' 
+        Label12.AutoSize = True
+        Label12.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label12.Location = New Point(494, 233)
+        Label12.Name = "Label12"
+        Label12.Size = New Size(95, 20)
+        Label12.TabIndex = 2
+        Label12.Text = "Lender name"
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label6.Location = New Point(32, 234)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(172, 20)
+        Label6.TabIndex = 2
+        Label6.Text = "Optional extra payments"
+        ' 
+        ' Label11
+        ' 
+        Label11.AutoSize = True
+        Label11.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label11.Location = New Point(494, 201)
+        Label11.Name = "Label11"
+        Label11.Size = New Size(95, 20)
+        Label11.TabIndex = 2
+        Label11.Text = "Total interest"
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label5.Location = New Point(32, 202)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(125, 20)
+        Label5.TabIndex = 2
+        Label5.Text = "Start date of loan"
+        ' 
+        ' Label10
+        ' 
+        Label10.AutoSize = True
+        Label10.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label10.Location = New Point(494, 169)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(146, 20)
+        Label10.TabIndex = 2
+        Label10.Text = "Total early payments"
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label9.Location = New Point(494, 137)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(192, 20)
+        Label9.TabIndex = 2
+        Label9.Text = "Actual number of payments"
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.Location = New Point(32, 170)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(201, 20)
+        Label4.TabIndex = 2
+        Label4.Text = "Number of payment per year"
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label8.Location = New Point(494, 106)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(219, 20)
+        Label8.TabIndex = 2
+        Label8.Text = "Scheduled number of payments"
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Location = New Point(32, 138)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(143, 20)
+        Label3.TabIndex = 2
+        Label3.Text = "Loan period in years"
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label7.Location = New Point(494, 74)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(131, 20)
+        Label7.TabIndex = 2
+        Label7.Text = "Schedule payment"
+        ' 
+        ' Label14
+        ' 
+        Label14.AutoSize = True
+        Label14.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label14.Location = New Point(419, 108)
+        Label14.Name = "Label14"
+        Label14.Size = New Size(21, 20)
+        Label14.TabIndex = 2
+        Label14.Text = "%"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.Location = New Point(32, 107)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(130, 20)
+        Label2.TabIndex = 2
+        Label2.Text = "Anual interest rate"
+        ' 
+        ' Label13
+        ' 
+        Label13.AutoSize = True
+        Label13.Font = New Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point)
+        Label13.Location = New Point(346, 14)
+        Label13.Name = "Label13"
+        Label13.Size = New Size(314, 25)
+        Label13.TabIndex = 2
+        Label13.Text = "LOAN AMORTIZATION SCHEDULE"
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.Location = New Point(32, 75)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(96, 20)
+        Label1.TabIndex = 2
+        Label1.Text = "Loan amount"
+        ' 
+        ' numXtraP
+        ' 
+        numXtraP.BackColor = Color.Transparent
+        numXtraP.CustomizableEdges = CustomizableEdges17
+        numXtraP.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        numXtraP.Location = New Point(266, 232)
+        numXtraP.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
+        numXtraP.Name = "numXtraP"
+        numXtraP.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        numXtraP.Size = New Size(150, 25)
+        numXtraP.TabIndex = 1
+        ' 
+        ' numPayYears
+        ' 
+        numPayYears.BackColor = Color.Transparent
+        numPayYears.CustomizableEdges = CustomizableEdges19
+        numPayYears.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        numPayYears.Location = New Point(266, 169)
+        numPayYears.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
+        numPayYears.Name = "numPayYears"
+        numPayYears.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        numPayYears.Size = New Size(150, 25)
+        numPayYears.TabIndex = 1
+        ' 
+        ' numPyears
+        ' 
+        numPyears.BackColor = Color.Transparent
+        numPyears.CustomizableEdges = CustomizableEdges21
+        numPyears.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        numPyears.Location = New Point(266, 137)
+        numPyears.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
+        numPyears.Name = "numPyears"
+        numPyears.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        numPyears.Size = New Size(150, 25)
+        numPyears.TabIndex = 1
+        ' 
+        ' numAintRate
+        ' 
+        numAintRate.BackColor = Color.Transparent
+        numAintRate.CustomizableEdges = CustomizableEdges23
+        numAintRate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        numAintRate.Location = New Point(266, 106)
+        numAintRate.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
+        numAintRate.Name = "numAintRate"
+        numAintRate.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        numAintRate.Size = New Size(150, 25)
+        numAintRate.TabIndex = 1
+        ' 
+        ' numLamount
+        ' 
+        numLamount.BackColor = Color.Transparent
+        numLamount.CustomizableEdges = CustomizableEdges25
+        numLamount.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        numLamount.Location = New Point(266, 75)
+        numLamount.Maximum = New [Decimal](New Integer() {1215752192, 23, 0, 0})
+        numLamount.Name = "numLamount"
+        numLamount.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        numLamount.Size = New Size(150, 25)
+        numLamount.TabIndex = 1
+        ' 
+        ' TabPage2
+        ' 
+        TabPage2.Controls.Add(Guna2DataGridView2)
+        TabPage2.Location = New Point(184, 4)
+        TabPage2.Name = "TabPage2"
+        TabPage2.Padding = New Padding(3)
+        TabPage2.Size = New Size(1002, 756)
+        TabPage2.TabIndex = 1
+        TabPage2.Text = "View Loan Schedule"
+        TabPage2.UseVisualStyleBackColor = True
+        ' 
+        ' Guna2DataGridView2
+        ' 
+        DataGridViewCellStyle4.BackColor = Color.White
+        Guna2DataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        DataGridViewCellStyle5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle5.ForeColor = Color.White
+        DataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = DataGridViewTriState.True
+        Guna2DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
+        Guna2DataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = Color.White
+        DataGridViewCellStyle6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle6.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        DataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle6.WrapMode = DataGridViewTriState.False
+        Guna2DataGridView2.DefaultCellStyle = DataGridViewCellStyle6
+        Guna2DataGridView2.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        Guna2DataGridView2.Location = New Point(15, 314)
+        Guna2DataGridView2.Name = "Guna2DataGridView2"
+        Guna2DataGridView2.RowHeadersVisible = False
+        Guna2DataGridView2.RowTemplate.Height = 25
+        Guna2DataGridView2.Size = New Size(972, 424)
+        Guna2DataGridView2.TabIndex = 0
+        Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
+        Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
+        Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
+        Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
+        Guna2DataGridView2.ThemeStyle.BackColor = Color.White
+        Guna2DataGridView2.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        Guna2DataGridView2.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        Guna2DataGridView2.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
+        Guna2DataGridView2.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2DataGridView2.ThemeStyle.HeaderStyle.ForeColor = Color.White
+        Guna2DataGridView2.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Guna2DataGridView2.ThemeStyle.HeaderStyle.Height = 4
+        Guna2DataGridView2.ThemeStyle.ReadOnly = False
+        Guna2DataGridView2.ThemeStyle.RowsStyle.BackColor = Color.White
+        Guna2DataGridView2.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
+        Guna2DataGridView2.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2DataGridView2.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        Guna2DataGridView2.ThemeStyle.RowsStyle.Height = 25
+        Guna2DataGridView2.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        Guna2DataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        ' 
         ' Column1
         ' 
         Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column1.HeaderText = "PMT"
+        Column1.HeaderText = "PMT No."
         Column1.Name = "Column1"
         Column1.ReadOnly = True
         ' 
@@ -293,373 +717,6 @@ Partial Class Form2
         Column10.Name = "Column10"
         Column10.ReadOnly = True
         ' 
-        ' txtName
-        ' 
-        txtName.CustomizableEdges = CustomizableEdges1
-        txtName.DefaultText = ""
-        txtName.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtName.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtName.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtName.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtName.Enabled = False
-        txtName.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtName.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtName.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtName.Location = New Point(792, 226)
-        txtName.Name = "txtName"
-        txtName.PasswordChar = ChrW(0)
-        txtName.PlaceholderText = ""
-        txtName.SelectedText = ""
-        txtName.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        txtName.Size = New Size(180, 25)
-        txtName.TabIndex = 5
-        ' 
-        ' txtTotalInterest
-        ' 
-        txtTotalInterest.CustomizableEdges = CustomizableEdges3
-        txtTotalInterest.DefaultText = ""
-        txtTotalInterest.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtTotalInterest.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtTotalInterest.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtTotalInterest.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtTotalInterest.Enabled = False
-        txtTotalInterest.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtTotalInterest.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtTotalInterest.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtTotalInterest.Location = New Point(792, 194)
-        txtTotalInterest.Name = "txtTotalInterest"
-        txtTotalInterest.PasswordChar = ChrW(0)
-        txtTotalInterest.PlaceholderText = ""
-        txtTotalInterest.SelectedText = ""
-        txtTotalInterest.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        txtTotalInterest.Size = New Size(180, 25)
-        txtTotalInterest.TabIndex = 5
-        ' 
-        ' txtTotalEarlyPayment
-        ' 
-        txtTotalEarlyPayment.CustomizableEdges = CustomizableEdges5
-        txtTotalEarlyPayment.DefaultText = ""
-        txtTotalEarlyPayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtTotalEarlyPayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtTotalEarlyPayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtTotalEarlyPayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtTotalEarlyPayment.Enabled = False
-        txtTotalEarlyPayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtTotalEarlyPayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtTotalEarlyPayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtTotalEarlyPayment.Location = New Point(792, 163)
-        txtTotalEarlyPayment.Name = "txtTotalEarlyPayment"
-        txtTotalEarlyPayment.PasswordChar = ChrW(0)
-        txtTotalEarlyPayment.PlaceholderText = ""
-        txtTotalEarlyPayment.SelectedText = ""
-        txtTotalEarlyPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        txtTotalEarlyPayment.Size = New Size(180, 25)
-        txtTotalEarlyPayment.TabIndex = 5
-        ' 
-        ' txtActualNumPayment
-        ' 
-        txtActualNumPayment.CustomizableEdges = CustomizableEdges7
-        txtActualNumPayment.DefaultText = ""
-        txtActualNumPayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtActualNumPayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtActualNumPayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtActualNumPayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtActualNumPayment.Enabled = False
-        txtActualNumPayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtActualNumPayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtActualNumPayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtActualNumPayment.Location = New Point(792, 131)
-        txtActualNumPayment.Name = "txtActualNumPayment"
-        txtActualNumPayment.PasswordChar = ChrW(0)
-        txtActualNumPayment.PlaceholderText = ""
-        txtActualNumPayment.SelectedText = ""
-        txtActualNumPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        txtActualNumPayment.Size = New Size(180, 25)
-        txtActualNumPayment.TabIndex = 5
-        ' 
-        ' txtSnumberPayment
-        ' 
-        txtSnumberPayment.CustomizableEdges = CustomizableEdges9
-        txtSnumberPayment.DefaultText = ""
-        txtSnumberPayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtSnumberPayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtSnumberPayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtSnumberPayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtSnumberPayment.Enabled = False
-        txtSnumberPayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtSnumberPayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtSnumberPayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtSnumberPayment.Location = New Point(792, 101)
-        txtSnumberPayment.Name = "txtSnumberPayment"
-        txtSnumberPayment.PasswordChar = ChrW(0)
-        txtSnumberPayment.PlaceholderText = ""
-        txtSnumberPayment.SelectedText = ""
-        txtSnumberPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        txtSnumberPayment.Size = New Size(180, 25)
-        txtSnumberPayment.TabIndex = 5
-        ' 
-        ' txtSpayment
-        ' 
-        txtSpayment.CustomizableEdges = CustomizableEdges11
-        txtSpayment.DefaultText = ""
-        txtSpayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtSpayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtSpayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtSpayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtSpayment.Enabled = False
-        txtSpayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtSpayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtSpayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtSpayment.Location = New Point(792, 69)
-        txtSpayment.Name = "txtSpayment"
-        txtSpayment.PasswordChar = ChrW(0)
-        txtSpayment.PlaceholderText = ""
-        txtSpayment.SelectedText = ""
-        txtSpayment.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        txtSpayment.Size = New Size(180, 25)
-        txtSpayment.TabIndex = 5
-        ' 
-        ' btnSetSched
-        ' 
-        btnSetSched.CustomizableEdges = CustomizableEdges13
-        btnSetSched.DisabledState.BorderColor = Color.DarkGray
-        btnSetSched.DisabledState.CustomBorderColor = Color.DarkGray
-        btnSetSched.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnSetSched.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnSetSched.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        btnSetSched.ForeColor = Color.White
-        btnSetSched.Location = New Point(806, 274)
-        btnSetSched.Name = "btnSetSched"
-        btnSetSched.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        btnSetSched.Size = New Size(182, 34)
-        btnSetSched.TabIndex = 4
-        btnSetSched.Text = "Set Schedule"
-        ' 
-        ' dateStart
-        ' 
-        dateStart.Checked = True
-        dateStart.CustomizableEdges = CustomizableEdges15
-        dateStart.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        dateStart.Format = DateTimePickerFormat.Long
-        dateStart.Location = New Point(266, 195)
-        dateStart.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
-        dateStart.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
-        dateStart.Name = "dateStart"
-        dateStart.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        dateStart.Size = New Size(150, 25)
-        dateStart.TabIndex = 3
-        dateStart.Value = New DateTime(2023, 6, 14, 8, 36, 49, 499)
-        ' 
-        ' Label12
-        ' 
-        Label12.AutoSize = True
-        Label12.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
-        Label12.Location = New Point(494, 227)
-        Label12.Name = "Label12"
-        Label12.Size = New Size(95, 20)
-        Label12.TabIndex = 2
-        Label12.Text = "Lender name"
-        ' 
-        ' Label6
-        ' 
-        Label6.AutoSize = True
-        Label6.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
-        Label6.Location = New Point(32, 228)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(172, 20)
-        Label6.TabIndex = 2
-        Label6.Text = "Optional extra payments"
-        ' 
-        ' Label11
-        ' 
-        Label11.AutoSize = True
-        Label11.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
-        Label11.Location = New Point(494, 195)
-        Label11.Name = "Label11"
-        Label11.Size = New Size(95, 20)
-        Label11.TabIndex = 2
-        Label11.Text = "Total interest"
-        ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
-        Label5.Location = New Point(32, 196)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(125, 20)
-        Label5.TabIndex = 2
-        Label5.Text = "Start date of loan"
-        ' 
-        ' Label10
-        ' 
-        Label10.AutoSize = True
-        Label10.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
-        Label10.Location = New Point(494, 163)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(146, 20)
-        Label10.TabIndex = 2
-        Label10.Text = "Total early payments"
-        ' 
-        ' Label9
-        ' 
-        Label9.AutoSize = True
-        Label9.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
-        Label9.Location = New Point(494, 131)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(192, 20)
-        Label9.TabIndex = 2
-        Label9.Text = "Actual number of payments"
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(32, 164)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(201, 20)
-        Label4.TabIndex = 2
-        Label4.Text = "Number of payment per year"
-        ' 
-        ' Label8
-        ' 
-        Label8.AutoSize = True
-        Label8.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
-        Label8.Location = New Point(494, 100)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(219, 20)
-        Label8.TabIndex = 2
-        Label8.Text = "Scheduled number of payments"
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(32, 132)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(143, 20)
-        Label3.TabIndex = 2
-        Label3.Text = "Loan period in years"
-        ' 
-        ' Label7
-        ' 
-        Label7.AutoSize = True
-        Label7.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
-        Label7.Location = New Point(494, 68)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(131, 20)
-        Label7.TabIndex = 2
-        Label7.Text = "Schedule payment"
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(32, 101)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(130, 20)
-        Label2.TabIndex = 2
-        Label2.Text = "Anual interest rate"
-        ' 
-        ' Label13
-        ' 
-        Label13.AutoSize = True
-        Label13.Font = New Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point)
-        Label13.Location = New Point(346, 14)
-        Label13.Name = "Label13"
-        Label13.Size = New Size(314, 25)
-        Label13.TabIndex = 2
-        Label13.Text = "LOAN AMORTIZATION SCHEDULE"
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(32, 69)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(96, 20)
-        Label1.TabIndex = 2
-        Label1.Text = "Loan amount"
-        ' 
-        ' numXtraP
-        ' 
-        numXtraP.BackColor = Color.Transparent
-        numXtraP.CustomizableEdges = CustomizableEdges17
-        numXtraP.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        numXtraP.Location = New Point(266, 226)
-        numXtraP.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
-        numXtraP.Name = "numXtraP"
-        numXtraP.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        numXtraP.Size = New Size(150, 25)
-        numXtraP.TabIndex = 1
-        ' 
-        ' numPayYears
-        ' 
-        numPayYears.BackColor = Color.Transparent
-        numPayYears.CustomizableEdges = CustomizableEdges19
-        numPayYears.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        numPayYears.Location = New Point(266, 163)
-        numPayYears.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
-        numPayYears.Name = "numPayYears"
-        numPayYears.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        numPayYears.Size = New Size(150, 25)
-        numPayYears.TabIndex = 1
-        ' 
-        ' numPyears
-        ' 
-        numPyears.BackColor = Color.Transparent
-        numPyears.CustomizableEdges = CustomizableEdges21
-        numPyears.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        numPyears.Location = New Point(266, 131)
-        numPyears.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
-        numPyears.Name = "numPyears"
-        numPyears.ShadowDecoration.CustomizableEdges = CustomizableEdges22
-        numPyears.Size = New Size(150, 25)
-        numPyears.TabIndex = 1
-        ' 
-        ' numAintRate
-        ' 
-        numAintRate.BackColor = Color.Transparent
-        numAintRate.CustomizableEdges = CustomizableEdges23
-        numAintRate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        numAintRate.Location = New Point(266, 100)
-        numAintRate.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
-        numAintRate.Name = "numAintRate"
-        numAintRate.ShadowDecoration.CustomizableEdges = CustomizableEdges24
-        numAintRate.Size = New Size(150, 25)
-        numAintRate.TabIndex = 1
-        ' 
-        ' numLamount
-        ' 
-        numLamount.BackColor = Color.Transparent
-        numLamount.CustomizableEdges = CustomizableEdges25
-        numLamount.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        numLamount.Location = New Point(266, 69)
-        numLamount.Maximum = New [Decimal](New Integer() {1215752192, 23, 0, 0})
-        numLamount.Name = "numLamount"
-        numLamount.ShadowDecoration.CustomizableEdges = CustomizableEdges26
-        numLamount.Size = New Size(150, 25)
-        numLamount.TabIndex = 1
-        ' 
-        ' TabPage2
-        ' 
-        TabPage2.Location = New Point(184, 4)
-        TabPage2.Name = "TabPage2"
-        TabPage2.Padding = New Padding(3)
-        TabPage2.Size = New Size(1002, 756)
-        TabPage2.TabIndex = 1
-        TabPage2.Text = "TabPage2"
-        TabPage2.UseVisualStyleBackColor = True
-        ' 
-        ' Label14
-        ' 
-        Label14.AutoSize = True
-        Label14.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
-        Label14.Location = New Point(419, 102)
-        Label14.Name = "Label14"
-        Label14.Size = New Size(21, 20)
-        Label14.TabIndex = 2
-        Label14.Text = "%"
-        ' 
         ' Form2
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -678,6 +735,8 @@ Partial Class Form2
         CType(numPyears, ComponentModel.ISupportInitialize).EndInit()
         CType(numAintRate, ComponentModel.ISupportInitialize).EndInit()
         CType(numLamount, ComponentModel.ISupportInitialize).EndInit()
+        TabPage2.ResumeLayout(False)
+        CType(Guna2DataGridView2, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -718,6 +777,8 @@ Partial Class Form2
     Friend WithEvents txtSnumberPayment As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents txtSpayment As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents dgSchedule As Guna.UI2.WinForms.Guna2DataGridView
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label14 As Label
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
@@ -728,6 +789,5 @@ Partial Class Form2
     Friend WithEvents Column8 As DataGridViewTextBoxColumn
     Friend WithEvents Column9 As DataGridViewTextBoxColumn
     Friend WithEvents Column10 As DataGridViewTextBoxColumn
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Label14 As Label
+    Friend WithEvents Guna2DataGridView2 As Guna.UI2.WinForms.Guna2DataGridView
 End Class
