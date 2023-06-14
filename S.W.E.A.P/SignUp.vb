@@ -65,8 +65,8 @@ Public Class SignUp
         pnlAcc.Visible = pnl4
     End Sub
     Public Sub radio_selected(rd1, rd2, rd3, rd4)
-        rdiobttnWork.Checked = rd1
-        rdiobttnPer.Checked = rd2
+        rdiobttnPer.Checked = rd1
+        rdiobttnWork.Checked = rd2
         rdiobttnBene.Checked = rd3
         rdiobttnAccnt.Checked = rd4
     End Sub
@@ -187,8 +187,7 @@ Public Class SignUp
         If rdiobttnPer.Checked = True Then
             pnl_visible(False, True, False, False)
 
-            rdiobttnWork.Checked = True
-            rdiobttnPer.Checked = False
+            radio_selected(False, True, False, False)
 
 
         ElseIf rdiobttnWork.Checked = True Then
@@ -219,7 +218,7 @@ Public Class SignUp
 
         ElseIf rdiobttnBene.Checked = True Then
             pnl_visible(False, True, False, False)
-            radio_selected(True, False, False, False)
+            radio_selected(False, True, False, False)
 
 
         ElseIf rdiobttnAccnt.Checked = True Then
