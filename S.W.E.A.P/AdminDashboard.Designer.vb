@@ -436,7 +436,7 @@ Partial Class AdminDashboard
         Me.bttnLogout.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
         Me.bttnLogout.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
         Me.bttnLogout.FillColor = Global.System.Drawing.Color.Transparent
-        Me.bttnLogout.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 12.0F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.bttnLogout.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 12F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.bttnLogout.ForeColor = Global.System.Drawing.Color.White
         Me.bttnLogout.HoverState.BorderColor = Global.System.Drawing.Color.Black
         Me.bttnLogout.HoverState.FillColor = Global.System.Drawing.Color.Red
@@ -594,7 +594,7 @@ Partial Class AdminDashboard
         ' Label32
         ' 
         Me.Label32.AutoSize = True
-        Me.Label32.Font = New Global.System.Drawing.Font("Cambria", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label32.Font = New Global.System.Drawing.Font("Cambria", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label32.ForeColor = Global.System.Drawing.Color.Black
         Me.Label32.Location = New Global.System.Drawing.Point(298, 530)
         Me.Label32.Name = "Label32"
@@ -674,7 +674,7 @@ Partial Class AdminDashboard
         ' lblAdminName
         ' 
         Me.lblAdminName.AutoSize = True
-        Me.lblAdminName.Font = New Global.System.Drawing.Font("Cambria", 18.0F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblAdminName.Font = New Global.System.Drawing.Font("Cambria", 18F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblAdminName.ForeColor = Global.System.Drawing.Color.Black
         Me.lblAdminName.Location = New Global.System.Drawing.Point(202, 18)
         Me.lblAdminName.Name = "lblAdminName"
@@ -685,7 +685,7 @@ Partial Class AdminDashboard
         ' Label28
         ' 
         Me.Label28.AutoSize = True
-        Me.Label28.Font = New Global.System.Drawing.Font("Cambria", 18.0F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label28.Font = New Global.System.Drawing.Font("Cambria", 18F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label28.ForeColor = Global.System.Drawing.Color.Black
         Me.Label28.Location = New Global.System.Drawing.Point(29, 18)
         Me.Label28.Name = "Label28"
@@ -711,7 +711,7 @@ Partial Class AdminDashboard
         ' Label34
         ' 
         Me.Label34.AutoSize = True
-        Me.Label34.Font = New Global.System.Drawing.Font("Cambria", 48.0F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label34.Font = New Global.System.Drawing.Font("Cambria", 48F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label34.ForeColor = Global.System.Drawing.Color.Blue
         Me.Label34.Location = New Global.System.Drawing.Point(321, 368)
         Me.Label34.Name = "Label34"
@@ -754,17 +754,17 @@ Partial Class AdminDashboard
         Me.Guna2TabControl1.Size = New Global.System.Drawing.Size(978, 609)
         Me.Guna2TabControl1.TabButtonHoverState.BorderColor = Global.System.Drawing.Color.Empty
         Me.Guna2TabControl1.TabButtonHoverState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(40))), CInt(CByte(CByte(52))), CInt(CByte(CByte(70))))
-        Me.Guna2TabControl1.TabButtonHoverState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TabControl1.TabButtonHoverState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2TabControl1.TabButtonHoverState.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2TabControl1.TabButtonHoverState.InnerColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(40))), CInt(CByte(CByte(52))), CInt(CByte(CByte(70))))
         Me.Guna2TabControl1.TabButtonIdleState.BorderColor = Global.System.Drawing.Color.Empty
         Me.Guna2TabControl1.TabButtonIdleState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(33))), CInt(CByte(CByte(42))), CInt(CByte(CByte(57))))
-        Me.Guna2TabControl1.TabButtonIdleState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TabControl1.TabButtonIdleState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2TabControl1.TabButtonIdleState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(156))), CInt(CByte(CByte(160))), CInt(CByte(CByte(167))))
         Me.Guna2TabControl1.TabButtonIdleState.InnerColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(33))), CInt(CByte(CByte(42))), CInt(CByte(CByte(57))))
         Me.Guna2TabControl1.TabButtonSelectedState.BorderColor = Global.System.Drawing.Color.Empty
         Me.Guna2TabControl1.TabButtonSelectedState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(29))), CInt(CByte(CByte(37))), CInt(CByte(CByte(49))))
-        Me.Guna2TabControl1.TabButtonSelectedState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TabControl1.TabButtonSelectedState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2TabControl1.TabButtonSelectedState.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2TabControl1.TabButtonSelectedState.InnerColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(76))), CInt(CByte(CByte(132))), CInt(CByte(CByte(255))))
         Me.Guna2TabControl1.TabButtonSize = New Global.System.Drawing.Size(180, 40)
@@ -878,7 +878,7 @@ Partial Class AdminDashboard
         Me.Guna2TextBox3.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.Guna2TextBox3.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.Guna2TextBox3.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.Guna2TextBox3.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TextBox3.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2TextBox3.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.Guna2TextBox3.IconRightOffset = New Global.System.Drawing.Point(5, 0)
         Me.Guna2TextBox3.Location = New Global.System.Drawing.Point(165, 276)
@@ -901,7 +901,7 @@ Partial Class AdminDashboard
         Me.Guna2TextBox2.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.Guna2TextBox2.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.Guna2TextBox2.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.Guna2TextBox2.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TextBox2.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2TextBox2.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.Guna2TextBox2.IconRightOffset = New Global.System.Drawing.Point(5, 0)
         Me.Guna2TextBox2.Location = New Global.System.Drawing.Point(165, 200)
@@ -924,7 +924,7 @@ Partial Class AdminDashboard
         Me.Guna2TextBox1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.Guna2TextBox1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.Guna2TextBox1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.Guna2TextBox1.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TextBox1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2TextBox1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.Guna2TextBox1.IconRightOffset = New Global.System.Drawing.Point(5, 0)
         Me.Guna2TextBox1.Location = New Global.System.Drawing.Point(165, 124)
@@ -994,7 +994,7 @@ Partial Class AdminDashboard
         Me.Guna2ComboBox1.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.Guna2ComboBox1.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.Guna2ComboBox1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.Guna2ComboBox1.Font = New Global.System.Drawing.Font("Segoe UI", 10.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2ComboBox1.Font = New Global.System.Drawing.Font("Segoe UI", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2ComboBox1.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(68))), CInt(CByte(CByte(88))), CInt(CByte(CByte(112))))
         Me.Guna2ComboBox1.ItemHeight = 30
         Me.Guna2ComboBox1.Items.AddRange(New System.Object() {"All", "4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
@@ -1043,7 +1043,7 @@ Partial Class AdminDashboard
         Me.dgEmploye.RowHeadersBorderStyle = Global.System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle18.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle18.BackColor = Global.System.Drawing.Color.White
-        DataGridViewCellStyle18.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle18.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         DataGridViewCellStyle18.ForeColor = Global.System.Drawing.SystemColors.WindowText
         DataGridViewCellStyle18.SelectionBackColor = Global.System.Drawing.Color.White
         DataGridViewCellStyle18.SelectionForeColor = Global.System.Drawing.SystemColors.HighlightText
@@ -1069,7 +1069,7 @@ Partial Class AdminDashboard
         Me.dgEmploye.ThemeStyle.[ReadOnly] = True
         Me.dgEmploye.ThemeStyle.RowsStyle.BackColor = Global.System.Drawing.Color.White
         Me.dgEmploye.ThemeStyle.RowsStyle.BorderStyle = Global.System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
-        Me.dgEmploye.ThemeStyle.RowsStyle.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.dgEmploye.ThemeStyle.RowsStyle.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.dgEmploye.ThemeStyle.RowsStyle.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(71))), CInt(CByte(CByte(69))), CInt(CByte(CByte(94))))
         Me.dgEmploye.ThemeStyle.RowsStyle.Height = 25
         Me.dgEmploye.ThemeStyle.RowsStyle.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(231))), CInt(CByte(CByte(229))), CInt(CByte(CByte(255))))
@@ -1153,7 +1153,7 @@ Partial Class AdminDashboard
         Me.txtbxSearchFT.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtbxSearchFT.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtbxSearchFT.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtbxSearchFT.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtbxSearchFT.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtbxSearchFT.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtbxSearchFT.IconRight = Global.S.W.E.A.P.My.Resources.Resources.loupe
         Me.txtbxSearchFT.IconRightOffset = New Global.System.Drawing.Point(5, 0)
@@ -1193,7 +1193,7 @@ Partial Class AdminDashboard
         ' 
         Me.Label1.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(251))), CInt(CByte(CByte(197))), CInt(CByte(CByte(49))))
         Me.Label1.Dock = Global.System.Windows.Forms.DockStyle.Top
-        Me.Label1.Font = New Global.System.Drawing.Font("Georgia", 18.0F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label1.Font = New Global.System.Drawing.Font("Georgia", 18F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label1.ForeColor = Global.System.Drawing.Color.Black
         Me.Label1.Location = New Global.System.Drawing.Point(254, 0)
         Me.Label1.Margin = New Global.System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -1239,7 +1239,7 @@ Partial Class AdminDashboard
         Me.pickOffice.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.pickOffice.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.pickOffice.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.pickOffice.Font = New Global.System.Drawing.Font("Segoe UI", 10.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.pickOffice.Font = New Global.System.Drawing.Font("Segoe UI", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.pickOffice.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(68))), CInt(CByte(CByte(88))), CInt(CByte(CByte(112))))
         Me.pickOffice.ItemHeight = 30
         Me.pickOffice.Items.AddRange(New System.Object() {"All", "4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
@@ -1285,7 +1285,7 @@ Partial Class AdminDashboard
         Me.dgMembers.RowHeadersBorderStyle = Global.System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle7.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle7.BackColor = Global.System.Drawing.Color.White
-        DataGridViewCellStyle7.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle7.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         DataGridViewCellStyle7.ForeColor = Global.System.Drawing.SystemColors.WindowText
         DataGridViewCellStyle7.SelectionBackColor = Global.System.Drawing.Color.White
         DataGridViewCellStyle7.SelectionForeColor = Global.System.Drawing.SystemColors.HighlightText
@@ -1311,7 +1311,7 @@ Partial Class AdminDashboard
         Me.dgMembers.ThemeStyle.[ReadOnly] = True
         Me.dgMembers.ThemeStyle.RowsStyle.BackColor = Global.System.Drawing.Color.White
         Me.dgMembers.ThemeStyle.RowsStyle.BorderStyle = Global.System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
-        Me.dgMembers.ThemeStyle.RowsStyle.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.dgMembers.ThemeStyle.RowsStyle.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.dgMembers.ThemeStyle.RowsStyle.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(71))), CInt(CByte(CByte(69))), CInt(CByte(CByte(94))))
         Me.dgMembers.ThemeStyle.RowsStyle.Height = 25
         Me.dgMembers.ThemeStyle.RowsStyle.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(231))), CInt(CByte(CByte(229))), CInt(CByte(CByte(255))))
@@ -1417,7 +1417,7 @@ Partial Class AdminDashboard
         Me.txtSearch.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtSearch.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtSearch.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtSearch.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtSearch.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtSearch.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtSearch.IconRight = Global.S.W.E.A.P.My.Resources.Resources.loupe
         Me.txtSearch.IconRightOffset = New Global.System.Drawing.Point(5, 0)
@@ -1465,17 +1465,17 @@ Partial Class AdminDashboard
         Me.tabEditMember.Size = New Global.System.Drawing.Size(1016, 676)
         Me.tabEditMember.TabButtonHoverState.BorderColor = Global.System.Drawing.Color.Empty
         Me.tabEditMember.TabButtonHoverState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(40))), CInt(CByte(CByte(52))), CInt(CByte(CByte(70))))
-        Me.tabEditMember.TabButtonHoverState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.tabEditMember.TabButtonHoverState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.tabEditMember.TabButtonHoverState.ForeColor = Global.System.Drawing.Color.White
         Me.tabEditMember.TabButtonHoverState.InnerColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(40))), CInt(CByte(CByte(52))), CInt(CByte(CByte(70))))
         Me.tabEditMember.TabButtonIdleState.BorderColor = Global.System.Drawing.Color.Empty
         Me.tabEditMember.TabButtonIdleState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(251))), CInt(CByte(CByte(197))), CInt(CByte(CByte(49))))
-        Me.tabEditMember.TabButtonIdleState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.tabEditMember.TabButtonIdleState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.tabEditMember.TabButtonIdleState.ForeColor = Global.System.Drawing.Color.Black
         Me.tabEditMember.TabButtonIdleState.InnerColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(33))), CInt(CByte(CByte(42))), CInt(CByte(CByte(57))))
         Me.tabEditMember.TabButtonSelectedState.BorderColor = Global.System.Drawing.Color.Empty
         Me.tabEditMember.TabButtonSelectedState.FillColor = Global.System.Drawing.Color.DarkRed
-        Me.tabEditMember.TabButtonSelectedState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.tabEditMember.TabButtonSelectedState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.tabEditMember.TabButtonSelectedState.ForeColor = Global.System.Drawing.Color.White
         Me.tabEditMember.TabButtonSelectedState.InnerColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(76))), CInt(CByte(CByte(132))), CInt(CByte(CByte(255))))
         Me.tabEditMember.TabButtonSize = New Global.System.Drawing.Size(180, 40)
@@ -1525,7 +1525,7 @@ Partial Class AdminDashboard
         Me.btnEditBack.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
         Me.btnEditBack.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
         Me.btnEditBack.FillColor = Global.System.Drawing.Color.IndianRed
-        Me.btnEditBack.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.btnEditBack.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.btnEditBack.ForeColor = Global.System.Drawing.Color.White
         Me.btnEditBack.Location = New Global.System.Drawing.Point(426, 590)
         Me.btnEditBack.Name = "btnEditBack"
@@ -1542,7 +1542,7 @@ Partial Class AdminDashboard
         Me.btnEditNext.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnEditNext.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
         Me.btnEditNext.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
-        Me.btnEditNext.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.btnEditNext.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.btnEditNext.ForeColor = Global.System.Drawing.Color.White
         Me.btnEditNext.Location = New Global.System.Drawing.Point(601, 590)
         Me.btnEditNext.Name = "btnEditNext"
@@ -1559,7 +1559,7 @@ Partial Class AdminDashboard
         Me.Guna2Button5.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
         Me.Guna2Button5.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
         Me.Guna2Button5.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
-        Me.Guna2Button5.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2Button5.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2Button5.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2Button5.Location = New Global.System.Drawing.Point(317, 165)
         Me.Guna2Button5.Name = "Guna2Button5"
@@ -1574,7 +1574,7 @@ Partial Class AdminDashboard
         Me.pickEditBdate.Checked = True
         Me.pickEditBdate.CustomizableEdges = CustomizableEdges68
         Me.pickEditBdate.FillColor = Global.System.Drawing.Color.White
-        Me.pickEditBdate.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.pickEditBdate.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.pickEditBdate.Format = Global.System.Windows.Forms.DateTimePickerFormat.[Long]
         Me.pickEditBdate.Location = New Global.System.Drawing.Point(529, 514)
         Me.pickEditBdate.MaxDate = New System.DateTime(9998, 12, 31, 0, 0, 0, 0)
@@ -1606,7 +1606,7 @@ Partial Class AdminDashboard
         Me.txtEditMname.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditMname.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditMname.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtEditMname.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditMname.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtEditMname.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtEditMname.Location = New Global.System.Drawing.Point(286, 333)
         Me.txtEditMname.Name = "txtEditMname"
@@ -1621,7 +1621,7 @@ Partial Class AdminDashboard
         ' Label12
         ' 
         Me.Label12.AutoSize = True
-        Me.Label12.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label12.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label12.Location = New Global.System.Drawing.Point(615, 309)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New Global.System.Drawing.Size(48, 21)
@@ -1638,7 +1638,7 @@ Partial Class AdminDashboard
         Me.txtEditUsername.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditUsername.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditUsername.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtEditUsername.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditUsername.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtEditUsername.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtEditUsername.Location = New Global.System.Drawing.Point(43, 244)
         Me.txtEditUsername.Name = "txtEditUsername"
@@ -1653,7 +1653,7 @@ Partial Class AdminDashboard
         ' Label15
         ' 
         Me.Label15.AutoSize = True
-        Me.Label15.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label15.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label15.Location = New Global.System.Drawing.Point(315, 490)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New Global.System.Drawing.Size(169, 21)
@@ -1670,7 +1670,7 @@ Partial Class AdminDashboard
         Me.txtEditFname.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditFname.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditFname.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtEditFname.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditFname.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtEditFname.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtEditFname.Location = New Global.System.Drawing.Point(286, 244)
         Me.txtEditFname.Name = "txtEditFname"
@@ -1685,7 +1685,7 @@ Partial Class AdminDashboard
         ' Label10
         ' 
         Me.Label10.AutoSize = True
-        Me.Label10.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label10.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label10.Location = New Global.System.Drawing.Point(348, 309)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New Global.System.Drawing.Size(101, 21)
@@ -1702,7 +1702,7 @@ Partial Class AdminDashboard
         Me.txtEditLname.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditLname.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditLname.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtEditLname.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditLname.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtEditLname.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtEditLname.Location = New Global.System.Drawing.Point(530, 244)
         Me.txtEditLname.Name = "txtEditLname"
@@ -1717,7 +1717,7 @@ Partial Class AdminDashboard
         ' Label13
         ' 
         Me.Label13.AutoSize = True
-        Me.Label13.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label13.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label13.Location = New Global.System.Drawing.Point(363, 400)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New Global.System.Drawing.Size(66, 21)
@@ -1734,7 +1734,7 @@ Partial Class AdminDashboard
         Me.txtEditPw.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditPw.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditPw.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtEditPw.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditPw.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtEditPw.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtEditPw.Location = New Global.System.Drawing.Point(43, 333)
         Me.txtEditPw.Name = "txtEditPw"
@@ -1749,7 +1749,7 @@ Partial Class AdminDashboard
         ' Label16
         ' 
         Me.Label16.AutoSize = True
-        Me.Label16.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label16.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label16.Location = New Global.System.Drawing.Point(606, 490)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New Global.System.Drawing.Size(73, 21)
@@ -1766,7 +1766,7 @@ Partial Class AdminDashboard
         Me.txtEditAddress.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditAddress.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditAddress.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtEditAddress.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditAddress.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtEditAddress.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtEditAddress.Location = New Global.System.Drawing.Point(43, 424)
         Me.txtEditAddress.Name = "txtEditAddress"
@@ -1781,7 +1781,7 @@ Partial Class AdminDashboard
         ' Label14
         ' 
         Me.Label14.AutoSize = True
-        Me.Label14.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label14.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label14.Location = New Global.System.Drawing.Point(117, 490)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New Global.System.Drawing.Size(88, 21)
@@ -1798,7 +1798,7 @@ Partial Class AdminDashboard
         Me.txtEditNumber.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditNumber.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditNumber.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtEditNumber.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditNumber.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtEditNumber.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtEditNumber.Location = New Global.System.Drawing.Point(43, 514)
         Me.txtEditNumber.Name = "txtEditNumber"
@@ -1813,7 +1813,7 @@ Partial Class AdminDashboard
         ' Label8
         ' 
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label8.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label8.Location = New Global.System.Drawing.Point(117, 309)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New Global.System.Drawing.Size(76, 21)
@@ -1830,7 +1830,7 @@ Partial Class AdminDashboard
         Me.txtEditEducation.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditEducation.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditEducation.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtEditEducation.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditEducation.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtEditEducation.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtEditEducation.Location = New Global.System.Drawing.Point(286, 514)
         Me.txtEditEducation.Name = "txtEditEducation"
@@ -1845,7 +1845,7 @@ Partial Class AdminDashboard
         ' Label11
         ' 
         Me.Label11.AutoSize = True
-        Me.Label11.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label11.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label11.Location = New Global.System.Drawing.Point(601, 220)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New Global.System.Drawing.Size(81, 21)
@@ -1862,7 +1862,7 @@ Partial Class AdminDashboard
         Me.txtEditEmail.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditEmail.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditEmail.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtEditEmail.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditEmail.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtEditEmail.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtEditEmail.Location = New Global.System.Drawing.Point(530, 333)
         Me.txtEditEmail.Name = "txtEditEmail"
@@ -1877,7 +1877,7 @@ Partial Class AdminDashboard
         ' Label9
         ' 
         Me.Label9.AutoSize = True
-        Me.Label9.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label9.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label9.Location = New Global.System.Drawing.Point(357, 220)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New Global.System.Drawing.Size(83, 21)
@@ -1887,7 +1887,7 @@ Partial Class AdminDashboard
         ' Label7
         ' 
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label7.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label7.Location = New Global.System.Drawing.Point(114, 220)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New Global.System.Drawing.Size(81, 21)
@@ -1934,7 +1934,7 @@ Partial Class AdminDashboard
         Me.btnBenRemove.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
         Me.btnBenRemove.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
         Me.btnBenRemove.FillColor = Global.System.Drawing.Color.Firebrick
-        Me.btnBenRemove.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.btnBenRemove.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.btnBenRemove.ForeColor = Global.System.Drawing.Color.White
         Me.btnBenRemove.Location = New Global.System.Drawing.Point(616, 276)
         Me.btnBenRemove.Name = "btnBenRemove"
@@ -1952,7 +1952,7 @@ Partial Class AdminDashboard
         Me.btnEditUpdate.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
         Me.btnEditUpdate.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
         Me.btnEditUpdate.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(192))), CInt(CByte(CByte(0))))
-        Me.btnEditUpdate.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.btnEditUpdate.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.btnEditUpdate.ForeColor = Global.System.Drawing.Color.White
         Me.btnEditUpdate.Location = New Global.System.Drawing.Point(500, 585)
         Me.btnEditUpdate.Name = "btnEditUpdate"
@@ -1969,7 +1969,7 @@ Partial Class AdminDashboard
         Me.btnEditAddBen.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnEditAddBen.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
         Me.btnEditAddBen.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
-        Me.btnEditAddBen.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.btnEditAddBen.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.btnEditAddBen.ForeColor = Global.System.Drawing.Color.White
         Me.btnEditAddBen.Location = New Global.System.Drawing.Point(52, 541)
         Me.btnEditAddBen.Name = "btnEditAddBen"
@@ -1982,14 +1982,14 @@ Partial Class AdminDashboard
         ' 
         Me.dgBeneficiaries.AllowUserToResizeRows = False
         DataGridViewCellStyle8.BackColor = Global.System.Drawing.Color.White
-        DataGridViewCellStyle8.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle8.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         DataGridViewCellStyle8.ForeColor = Global.System.Drawing.SystemColors.ControlText
         DataGridViewCellStyle8.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(203))), CInt(CByte(CByte(250))), CInt(CByte(CByte(249))))
         DataGridViewCellStyle8.SelectionForeColor = Global.System.Drawing.Color.Black
         Me.dgBeneficiaries.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle8
         DataGridViewCellStyle9.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle9.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(167))), CInt(CByte(CByte(65))), CInt(CByte(CByte(65))))
-        DataGridViewCellStyle9.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle9.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         DataGridViewCellStyle9.ForeColor = Global.System.Drawing.Color.White
         DataGridViewCellStyle9.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(167))), CInt(CByte(CByte(65))), CInt(CByte(CByte(65))))
         DataGridViewCellStyle9.SelectionForeColor = Global.System.Drawing.SystemColors.HighlightText
@@ -2012,7 +2012,7 @@ Partial Class AdminDashboard
         Me.dgBeneficiaries.RowHeadersBorderStyle = Global.System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle11.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle11.BackColor = Global.System.Drawing.Color.White
-        DataGridViewCellStyle11.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle11.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         DataGridViewCellStyle11.ForeColor = Global.System.Drawing.SystemColors.WindowText
         DataGridViewCellStyle11.SelectionBackColor = Global.System.Drawing.Color.White
         DataGridViewCellStyle11.SelectionForeColor = Global.System.Drawing.SystemColors.HighlightText
@@ -2031,14 +2031,14 @@ Partial Class AdminDashboard
         Me.dgBeneficiaries.ThemeStyle.GridColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(231))), CInt(CByte(CByte(229))), CInt(CByte(CByte(255))))
         Me.dgBeneficiaries.ThemeStyle.HeaderStyle.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(100))), CInt(CByte(CByte(88))), CInt(CByte(CByte(255))))
         Me.dgBeneficiaries.ThemeStyle.HeaderStyle.BorderStyle = Global.System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        Me.dgBeneficiaries.ThemeStyle.HeaderStyle.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.dgBeneficiaries.ThemeStyle.HeaderStyle.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.dgBeneficiaries.ThemeStyle.HeaderStyle.ForeColor = Global.System.Drawing.Color.White
         Me.dgBeneficiaries.ThemeStyle.HeaderStyle.HeaightSizeMode = Global.System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         Me.dgBeneficiaries.ThemeStyle.HeaderStyle.Height = 17
         Me.dgBeneficiaries.ThemeStyle.[ReadOnly] = False
         Me.dgBeneficiaries.ThemeStyle.RowsStyle.BackColor = Global.System.Drawing.Color.White
         Me.dgBeneficiaries.ThemeStyle.RowsStyle.BorderStyle = Global.System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
-        Me.dgBeneficiaries.ThemeStyle.RowsStyle.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.dgBeneficiaries.ThemeStyle.RowsStyle.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.dgBeneficiaries.ThemeStyle.RowsStyle.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(71))), CInt(CByte(CByte(69))), CInt(CByte(CByte(94))))
         Me.dgBeneficiaries.ThemeStyle.RowsStyle.Height = 25
         Me.dgBeneficiaries.ThemeStyle.RowsStyle.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(231))), CInt(CByte(CByte(229))), CInt(CByte(CByte(255))))
@@ -2085,7 +2085,7 @@ Partial Class AdminDashboard
         Me.txtEditAddBenAge.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditAddBenAge.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditAddBenAge.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtEditAddBenAge.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditAddBenAge.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtEditAddBenAge.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtEditAddBenAge.Location = New Global.System.Drawing.Point(646, 499)
         Me.txtEditAddBenAge.Name = "txtEditAddBenAge"
@@ -2107,7 +2107,7 @@ Partial Class AdminDashboard
         Me.txtEditAddBenRel.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditAddBenRel.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditAddBenRel.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtEditAddBenRel.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditAddBenRel.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtEditAddBenRel.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtEditAddBenRel.Location = New Global.System.Drawing.Point(499, 499)
         Me.txtEditAddBenRel.Name = "txtEditAddBenRel"
@@ -2129,7 +2129,7 @@ Partial Class AdminDashboard
         Me.txtEditAddBen.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditAddBen.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
         Me.txtEditAddBen.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.txtEditAddBen.Font = New Global.System.Drawing.Font("Segoe UI", 9.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditAddBen.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.txtEditAddBen.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.txtEditAddBen.Location = New Global.System.Drawing.Point(52, 499)
         Me.txtEditAddBen.Name = "txtEditAddBen"
@@ -2150,7 +2150,7 @@ Partial Class AdminDashboard
         Me.pickEditUserStat.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.pickEditUserStat.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.pickEditUserStat.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.pickEditUserStat.Font = New Global.System.Drawing.Font("Segoe UI", 10.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.pickEditUserStat.Font = New Global.System.Drawing.Font("Segoe UI", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.pickEditUserStat.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(68))), CInt(CByte(CByte(88))), CInt(CByte(CByte(112))))
         Me.pickEditUserStat.ItemHeight = 30
         Me.pickEditUserStat.Items.AddRange(New System.Object() {"Administrator", "Default"})
@@ -2170,7 +2170,7 @@ Partial Class AdminDashboard
         Me.pickEditComm.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.pickEditComm.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.pickEditComm.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.pickEditComm.Font = New Global.System.Drawing.Font("Segoe UI", 10.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.pickEditComm.Font = New Global.System.Drawing.Font("Segoe UI", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.pickEditComm.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(68))), CInt(CByte(CByte(88))), CInt(CByte(CByte(112))))
         Me.pickEditComm.ItemHeight = 30
         Me.pickEditComm.Items.AddRange(New System.Object() {"Education, Information & Research", "Organizing & Membership", "Grievances", "Welfare", "Finance", "Sports & Culture"})
@@ -2190,7 +2190,7 @@ Partial Class AdminDashboard
         Me.pickEditStatus.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.pickEditStatus.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.pickEditStatus.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.pickEditStatus.Font = New Global.System.Drawing.Font("Segoe UI", 10.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.pickEditStatus.Font = New Global.System.Drawing.Font("Segoe UI", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.pickEditStatus.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(68))), CInt(CByte(CByte(88))), CInt(CByte(CByte(112))))
         Me.pickEditStatus.ItemHeight = 30
         Me.pickEditStatus.Items.AddRange(New System.Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
@@ -2204,7 +2204,7 @@ Partial Class AdminDashboard
         ' lblBenId
         ' 
         Me.lblBenId.AutoSize = True
-        Me.lblBenId.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblBenId.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblBenId.Location = New Global.System.Drawing.Point(575, 276)
         Me.lblBenId.Name = "lblBenId"
         Me.lblBenId.Size = New Global.System.Drawing.Size(28, 21)
@@ -2214,7 +2214,7 @@ Partial Class AdminDashboard
         ' Label35
         ' 
         Me.Label35.AutoSize = True
-        Me.Label35.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label35.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label35.Location = New Global.System.Drawing.Point(362, 182)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New Global.System.Drawing.Size(88, 21)
@@ -2230,7 +2230,7 @@ Partial Class AdminDashboard
         Me.pickEditPosition.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.pickEditPosition.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.pickEditPosition.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.pickEditPosition.Font = New Global.System.Drawing.Font("Segoe UI", 10.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.pickEditPosition.Font = New Global.System.Drawing.Font("Segoe UI", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.pickEditPosition.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(68))), CInt(CByte(CByte(88))), CInt(CByte(CByte(112))))
         Me.pickEditPosition.ItemHeight = 30
         Me.pickEditPosition.Items.AddRange(New System.Object() {"AA I", "AA II", "AA II Pantawid Pamilya RPMO", "AA III", "AA III - Sr.Bookkeeper", "AA III / Information Officer NHTS-PR", "AA III-Munipical Roving Bookkeeper", "AA-II ", "AA-II KALAHI-CIDDS", "AA-II KALAHI-CIDDS NCDDP_AF", "AC-KAASA", "Accountant I", "Accountant I/Officer in charge", "Accountant II", "Accountant III", "Accounting Clerk", "Acting Secretary", "Acting Social Welfare Officer III", "Activity Therapist", "Activity Worker I", "Admin Aide I", "Admin AIDE III", "Admin AIDE IIII", "Admin AIDE IV", "Admin AIDE VI ", "Admin Assistant", "Admin Assistant III", "Admin Assistant III (Computer Operator II)", "Admin Assistant V (Private Secretary I)", "Admin cum Finance Officer", "Admin Officer IV-Head, RROS", "Admin. Aide VI", "Admin.Assitant III/Information Officer (Listahanan)", "Admin.Officer IV/Head", "Admin.Officer V-Unit Head ", "Administrative Aide I", "Administrative Aide II", "Administrative Aide III", "Administrative Aide III (Encoder)", "Administrative Aide IV", "Administrative Aide IV (Clerk II)", "Administrative Aide IV (Driver)", "Administrative Aide IV (Encoder)", "Administrative Aide IV/Encoder", "Administrative Aide V", "Administrative Aide V (Chauffer I)", "Administrative Aide VI", "Administrative Aide VI (Clerk III)", "Administrative Assistant I", "Administrative Assistant II", "Administrative Assistant II (Procurement)", "Administrative Assistant II/SLP", "Administrative Assistant III", "Administrative Assistant III (Cash Clerk)", "Administrative Assistant III - Budget", "Administrative Assistant III (Budget Assistant)", "Administrative Assistant III/Senior Bookkeeper", "Administrative Assistant III/Socpen Accounting", "Administrative Assistant IV", "Administrative Assistant V", "Administrative Assistant V (Private Secretary I)", "Administrative Assistant VI ", "Administrative Cum Finance Officer", "Administrative Officer I", "Administrative Officer II", "Administrative Officer II - Infastructure Assistant", "Administrative Officer II - Property & Asset Officer", "Administrative Officer II/Head", "Administrative Officer III", "Administrative Officer IV", "Administrative Officer IV/KALAHI-CIDSS", "Administrative Officer IV/Encoder", "Administrative Officer IV/Head", "Administrative Officer V", "Administrative Officer V/Budget Officer", "Administrative Officer V/Financial Analyst III", "Administrative Officer V/Head", "Administrative Program Focal (PDO II-municipal link)", "Administrative Staff", "Administrative Support Staff", "AO II", "AO II/Financial Analyst II ", "AO II / PSYCHOMETRICIAN", "AO II-OIC Head, Property, Supply & Asset Mngt.Section", "AO II-Pantawid Property Officer", "AO II-Property Officer", "AO II-Property & Asset Officer", "AO II-Property Officer (Mainstream Staff Pantawid)", "AO IV", "AO IV-Financial Analyst II", "AO IV/Financial Analyst II", "AO IV/OIC-Procurement Unit Head", "AO V", "AO V-CASH HEAD", "AO V/Budget Officer NHTS-PR", "AOV-FMD-Cash-Head", "Architect I", "Architect II", "Architect III", "ARDO", "Area Coordinator", "Area Coordinarot/KALAHI CIDSS", "AREA SUPERVISOR", "Assistant Bureau Director", "Assistant Information Officer", "Assistant Regional Director for Administration (ARDA)", "Assistant Regional Director for Operations (ARDO)", "Assistant Secretary", "Assistant Secretary / OIC-IMB", "Assistant Secretary for OASOPG-Protective Programs ", "Assistant Service Director", "Associate Statistician", "Attorney III", "AttorneyIV", "Attorney V", "Audio-Visual Aids Technician III", "Audio-Visual Equipment Operator II", "AUDIT TEAM LEADER", "AUDIT TEAM MEMBER", "AVRC II Center Head", "BAC SEC & Procurement Service", "BAHAY PAG-ASA NG LAGUNA - CENTER HEAD", "BDM", "Beneficiary Update System Focal - PDO I", "Beneficiary Update System Focal - PDO II", "Bookkeeper", "BTMS-ENCODER", "Budget Assistant", "Budget Officer I", "Budget Officer II", "Budget Officer III", "Bureau Director", "CAD Operator", "Caretaker", "Carpenter", "Case Worker for MCCT (PDOII)", "Cash Clerk", "CASH CLERK / KALAHI-CIDSS", "Cashier II", "CDA II", "CEF - KALAHI CIDSS", "CEF / Executive Assistant", "CENTER HEAD", "CENTERS AND RESIDENTIAL CARE FACILITIES (CRCF)", "Chief", "Chief Account", "Chief Admin.Officer / OIC ARD for Administration", "Chief Administrative Officer", "Chief Administrative Officer V", "Chief Infastructure Engineer", "Child Psychologist for MCCT", "City Link", "City Link Officer", "CIVIL ENGINEER", "CL", "Clerk I", "Clerk II", "Clerk III/ HRMDD", "Clerk/Encoder", "Cluster Beneficiary Data Officer", "Cluster Compliance Verification System Focal", "Cluster Focal Person (BDM)", "Cluster Greivance Redress System Focal", "Cluster Greivance Officer", "CMT I", "CMT II", "CMT II - MCCT", "COA AUDITOR", "Comm. Development Officer III", "Commission on Audit XI", "Communication Equipment Operator I", "Communications Specialist", "Communications Officer IV", "Community Development Assistant", "Community Development Assistant II", "Community Development Officer II", "Community Development Officer III", "COMMUNITY DEVELOPMENT OFFICER III - IT", "COMMUNITY DEVELOPMENT OFFICER IV", "COMMUNITY DEVELOPMENT OFFICER IV/KALAHI CIDSS", "Community Empowerment Facilitator", "Community Empowerment Facilitator - Roving ", "Community Facilitator", "Community Facilitator Aide", "Community Facilitator Assistant", "Community Finance Facilitator", "Community Finance Monitor", "Community Financial Analyst", "Community Infastructure Officer ", "Community Infastructure Officer III", "Community Infastructure Specialist ", "Community Organizer", "Community Organizer III", "Community Procurement Officer ", "Community Procurement Officer 3", "Community Procurement Officer III", "Community Procurement Specialist ", "Computer Encoder", "Computer Maintenance Technologist I", "Computer Maintenance Technologist II", "Computer Operator", "Computer Operator I", "Computer Operator II", "Computer Operator III", "Computer Operator IV", "Computer Programmer I", "Computer Programmer II", "Computer Programmer III", "Concurrent Head", "Concurent National Program Manager", "Concurent OIC", "Consultant", "Convergeance Coordinator", "Cook", "Cook I", "Cook II", "CPO", "CPO IV", "Crative Arts Specialist", "DAC - DEPUTY ARE COORDINATOR", "Data Analyst III", "Data Encoder", "Database Specialist", "Day Care Worker I", "Day Care Worker II", "Default", "Dentist II", "Department Assistant Secretary", "Department Legislative Liaison Specialist", "Department Secretary", "Department Undersecretary", "Deputy Area Coordinator - Electrical Engineer", "Deputy Area Coordinator - Geoditic Engineer", "Deputy Area Coordinator - IT", "Deputy Community Development Specialist", "Deputy Director", "Deputy Nat'l Community - Infra. Engr.", "Deputy National M & E Specialist", "Deputy National Program Manager for Operations", "Deputy National Training Specialist", "Deputy NCBS", "Deputy Program Director", "Deputy Program Manager", "Deputy Program Manager Operation", "Deputy Regional Program Manager", "Deputy Regional Project Manager", "Deputy Technical Facilitator", "Derector", "Director III", "Director IV", "Division Chief", "Dormitory Manager I", "Dormitory Manager II", "DPMO", "DPMO/PROPERTY WAREHOUSE", "DPSC", "DRAFTSMAN", "Driver", "Driver II", "DSWD FO CARAGA", "ECCD Teacher", "Echonomist III", "Electrical Engineer", "Electrician I ", "Electrician II ", "Encoder", "Encoder III", "Encoder-BTMS", "Engineer I", "Engineer II", "Engineer III", "Engineer IV", "Engineer AIDE", "Environtmental Safeguard Specialist", "Executive Assistant ", "Executive Assistant I", "Executive Assistant II", "Executive Assistant III", "Executive Assistant IV", "Executive Assistant V", "Executive Assistant VI", "Executive Secretary/ Senior Administrative Assistant III", "FA - MAGSAYSAY", "FA II", "FA III", "Family Welfare Assistant for MCCT", "FDS Coordinator", "Field Program Manager", "Field Office Coordinator", "Field Program Manager", "Finance Officer Cum Administrative Officer", "Finance Officer III", "Financial Analyst", "Financial Analyst I", "Financial Analyst II", "Financial Analyst III", "Financial Analyst III (Budget Officer)", "Financial Analyst III (Cash Grants)", "Financial Analyst III/KALAHI CIDSS", "Financial Analyst IV", "Financial Analyst V", "Financial Analyst V (Project Accountant)", "Financial Assistant III", "FMD Chief", "FOCAL PERSON FOR OSEC", "FOR STORAGE", "FPC", "Gender Specialist", "Geodetic Engineer", "GIS Specialist", "Governance Specialist", "Goverment Intership Program", "Greivance Redress System Focal", "Greivance, Admin Officer", "Handicaft Worker II", "Head ", "Head Executive Assistant", "Head, Accounting Section", "Head, RAMS", "Heavy Equipment Operator I", "HMO Inlife Customer Service Representative", "House Attendant ", "Household Attendant III", "Houseparent I", "HOUSEPARENT II", "houseparent III", "Houseparent IV", "HR - Learning and Development", "HR Specialist", "HRMDD CHIEF", "Human Relations Officer I ", "Human Resource Officer", "Human Resource Officer I", "Human Resource Officer II", "Information analyst I", "Information Officer", "Information Officer I", "Information Officer I/Social Pension Program", "Information Officer I/UCT", "Information Officer II", "Information Officer III ", "Information Officer III (Social Marketing Officer III)", "Information Officer IV", "Information Officer V", "Information Specialist Analyst", "Information System Analyst", "Information System Analyst I", "Information System Analyst III", "Information Systems Analyst", "Information Technology Officer (Team Leader)", "Information Technology Officer I", "Information Technology Officer II", "Information Technology Officer III", "Institutional Partnership and Development Officer", "Instructor ", "Inter Auditing Assistant", "Internal Auditor I", "Internal Auditor II", "Internal Auditor III", "Internal Auditor IV", "Internal Auditor V", "IO", "IPDO", "JOB ORDER", "Job Placement Officer", "Junior Capacity Building Specialist", "Junior Community Procurement Specialist", "KALAHI CIDSS - Japan Fund for Proverty Reduction", "KM Writer", "Knowledge Management Writer", "Laundry Worker I ", "Laundry Worker II", "Laundry Worker/Cook", "Laundrywoman", "Legal Assistant I", "Legal Assistant II", "LIBRARIAN I", "Librarian II", "Logistic Officer III", "M & E Assistant III", "M & E I", "M & E II", "M & E Specialist", "M & E IV", "M & E V", "M & E Officer III", "Management and Audit Analyst II", "Management Audit Analyst", "Management Audit Analyst II", "Management Audit Analyst IV", "MANPOWER DEVELOPMENT ASSISTANT ", "Manpower Development Officer I", "Manpower Development Officer II", "Manpower Development Officer III", "MCCT Coordinator", "MDO I / PSYCHOMETRICIAN", "Media Officer IV", "Media Production Specialist", "Media Prodcution Specialist III", "MEDICAL OFFICER", "Medical Officer III", "Medical Officer IV", "MFA", "Midwife I", "Minister of Social Service BARMM", "ML PATNANUNGAN", "MOA", "Monitoring & Evaluation Officer I", "Monitoring & Evaluation Officer II", "Monitoring & Evaluation Officer III", "Monitoring & Evaluation III ", "Monitoring & Evaluation Officer ", "Monitoring & Evaluation Officer III (External)", "Monitoring & Evaluation Officer IV", "Monitoring & Evaluation Officer V", "MRB", "Municipal Financial Analyst", "Municipal Financial Analyst/KALAHI-CIDSS", "Municipal Financial Analyst", "Municipal Link", "Minicipal Link Officer", "Municipal Monitoring ", "Municipal Rooving Bookkeeper", "Municipal Roving Bookkeeper", "Municipal Social Welfare Development Officer", "National Capability Building Specialist", "National Community Infrastructure", "National DRRM Support Coordinator", "National Financial Analyst - KCMCC", "National M & E Specialist", "National Training Officer", "NCDS", "NHTO IT-Division Chief/ITO3", "Nurse I", "Nurse II", "Nutritionist-Dietician I", "Nutritionist-Dietician II", "Nutritionist-Dietician III", "Nutritionist-Dietician V", "OASOPG-PP", "ODM Specialist", "OIC ", "OIC - Director IV", "OIC AUDIT TEAM LEADER", "OIC DIVISION Chief - DReMD", "OIC Head, Property & Supply Section", "OIC - Assistant Regional Director for Operations", "OIC - ASEC - OASOSG", "OIC - Assistant Director", "OIC - Assistant Secretary", "OIC - Assistant Service Director", "OIC-Asst. Secretary for OSG", "OIC - Center Head", "OIC - CHIEF", "OIC Director", "OIC - Division Chief", "OIC - GSD", "OIC - Procurement Unit Head", "OIC - Regional Director", "OIC - USEC", "OIC/Chief", "OJT", "On-the-job Trainee", "Operations Program Focal (PDO II - Municipal Link)", "Organizational Development Specialist III", "Organizational Development Specialist IV", "Organizational Training Specialist IV", "Payapa at Masaganang Pamayanan ", "PDO", "PDO I", "PDO I/FMD Cash Grants ", "PDO I/DRMD ", "PDO I/Grievance Officer", "PDO I/provincial Monitoring Evaluation Officer", "PDO II", "PDO II - System coordinator", "PDO II Municipal link", "PDO II (Case Worker)", "PDO II - BUS", "PDO II - BUS Focal Person", "PDO - Coordination to Partner Agencies", "PDO II - CVS", "PDOII - EPAHPH", "PDO II - GAD", "PDO II - GRS", "PDO II - GRS (Cluster) ", "PDO II - Information II", "PDO II - IP", "PDO II - Monitoring & Evaluation Officer", "PDO II - SWAD TL", "PDO II / Capability building ", "PDO II / DRMD CCAM", "PDO II / ML TUAO, CAGAYAN", "PDO II / Municipal Link, Alicia, Isabela", "PDO II / Municipal Link, Ilagan City, Isabela", "PDO II / RMEO", "PDO II / SLP Batanes", "PDO II / SWAD TL", "PDO II / GRS ", "PDO II Municipal Link, Abulug, Cagayan", "PDO II - Institutional Partnership Development Officer", "PDO II - City link, Tuguegarao City, Cagayan", "PDO II - Cluster Benefeciary Data Officer", "PDO II - MCCT Community Facilitator", "PDO II - Municipal Link", "PDO II - Municipal Link Dupax Del Norte,N.V", "PDO II - Municipal Link, Ambaguio", "PDO II - Municipal Link, Buguey, Cagayan", "PDO II - Municipal Link, Diadi, N.V", "PDO II - Municipal Link, Enrile, Cagayan", "PDO II - Municipal Link, Iguig, Cagayan", "PDO II - Municipal Link, Napagtipunan, Quirino", "PDO II - Municipal Link, Saguday, Quirino", "PDO II - Municipal Link, Dupax Del Sur, N.V", "PDO II - Provincial Systems Focal", "PDO II - Regional Monitoring and Evaluation Officer", "PDO II/PMEO SLP ISABELA", "PDO II/Provincial Coordinator", "PDO II/Child Labord Focal Person", "PDO II/DRMD", "PDO II/DRMD CCAM", "PDO II/Geographic Info.System Specialist", "PDO II/Information Officer", "PDO II/LIQUIDATION FOCAL/RMEF", "PDO II/MCCT San Pablo, Isabela", "PDO II/ML APARRI, CAGAYAN", "PDO II/ML TUAO, CAGAYAN", "PDO II/MUNICIPAL LINK", "PDO II/Municipal Link Bambang, NV", "PDO II/Municipal Link Claveri, Cagayan", "PDO II/Municipal Link Diadi, NV", "PDO II/Municipal Link Dinapigue, Isabela", "PDO II/Municipal Link Gattaran, Cagayan", "PDO II/Municipal Link Kayapa, Nueva Viscaya", "PDO II/Municipal Link Pamplano, Cagayan", "PDO II/Municipal Link Peablanca, Cagayan", "PDO II/Municipal Link Quezon, Nueva Viscaya", "PDO II/Municipal LInk Rizal,Cagayan", "PDO II/Municipal Link Roxas,Isabela", "PDO II/Municipal Link San Isidro, Cagayan", "PDO II/Municipal Link San Isidro, Isabela", "PDO II/Municipal Link Sanchez Mira, Cagayan", "PDO II/Municipal Link Solano,NV", "PDO II/Municipal LInk Sta.Fe,NV", "PDO II/Municipal Link Sta.Praxedes,Cagayan", "PDO II/Municipal Link Sto.Nino,Cagayan", "PDO II/Municipal Link Villaverde", "PDO II/Municipal Link, Aparri,Cagayan", "PDO II/Municipal Link, Buguey, Cagayan", "PDO II/Municipal Link, Burgos, Isabela", "PDO II/Municipal Link, Divilacan, Isabela", "PDO II/Municipal Link, Jones,Isabela", "PDO II/Municipal Link,MACONACON, ISABELA", "PDO II/Municipal Link,SAn Agustin,Isabela", "PDo II/Municipal Link,San Mariano,Isabela", "PDO II/Municipal Link,San Mateo,Isabela", "PDO II/Municipal Link,Tumauini,Isabela", "PDO II/Municipal Link,Divilacan,Isabela", "PDO II/Municipal Link,Echague,Isabela", "PDO II/Municipal Link,Maconacon,Isabela", "PDO II/Municipal Link,San Mariano,Isabela", "PDO II/PMEO ISABELA", "PDO II/PMEO NUEVA VIZCAYA", "PDO II/PMEO QUIRINO", "PDO II/Private Sector Partnership Officer", "PDO II/Provincial Coordinator Isabela, Cagayan", "PDO II/Provincial Coordinator SLP Isabela", "PDO II/Provincial Coordinator SLP Quirino", "PDO II/Reports Generation", "PDO III", "PDO III/Area Coordinator", "PDO III/Area Coordinator", "PDO III/Civil Engineer", "PDO III TEchnical Staff/RSCWC", "PDO III/Area Coordinator", "PDO III/Head, CVRRCY", "PDO III/Reg'l Center Coordinator", "PDO III/RSCWC", "PDO IV", "PDO V/ RPC", "PDO V/Division", "PDO V/Regional Field Coordinator UCT", "PDO-I Social Pension", "PDO-II", "PDO-IIDRMMD", "PEO I", "PEO III", "PGO", "Photographer II", "Physical Therapist II", "Planning Officer I", "Planning Officer II", "Planning Officer III", "Planning Officer IV", "Planning Officer V", "Plumber", "PMEO", "PMO-EE", "Policy and Plans Division Chief", "PPG-OSM", "PPO", "Prisedent - SWEAP", "Private Secretary", "Private Secretary I ", "Procurement Assistant", "Procurement Assistant II", "PROCUREMENT ASST.", "Procurement Development Officer III", "Procurement Officer", "Procurement Specialist", "Profect Development Officer II (DRAFTMAN)", "Program Development III", "Project Evaluation Specialist", "Program Manager", "Program Officer", "Project Coordinator", "Project Development Office III", "Project Development Officer", "Project Development Officer I", "Project Development Officer I - KC", "Project Development Officer I - Nurse", "Project Development Officer I - Nutritionist - Dietician I", "Project Development Officer I/CAMP MANAGERS", "Project Development Officer II", "Project Development Officer II (CVS Focal)", "Project Development Officer II - BP2P", "Project Development Officer II - Database Specialist ", "Project Development Officer II - Infrastructure", "Project Development Officer II/SLP", "Project Development Officer II-CVS Focal (POO 2 Isabela)", "Project Development Officer II - MCCT", "Project Development Officer II - MunicipaL Link", "Project Development Officer II/GRS Focal", "Project Development Officer II/SLP", "Project Development Officer III", "Project Development Officer III - FDS Focal", "Project Development Officer III/Centenarian Focal Person", "Project Development Officer III/Regional Program Coordinator", "Project Development Officer IV ", "Project Development Officer V", "Project Development Officer V (Gender Specialist)", "Project Development Officer V (IP Specialist)", "Project Development Officer V - OIC", "Project Evaluation Officer", "Project Evaluation Officer II", "Project Evaluation Officer III", "Project Evaluation Officer IV", "Project Evaluation Officer V", "Project Management Officer", "Project Manager (UCT)", "Project Manager IV", "Project Officer", "Property Officer/Warehouse", "Provincial AA", "Provincial AA II", "Provincial Bus Officer (PDO II)", "PROVINCIAL CL", "Provinvial Coordinator", "Provinvial CVS Officer (PDO II)", "Provincial Grievance Officer", "Provincial Grievance Officer (PDO II)", "Provincial GRS Officer (PDO II)", "Provincial Link", "Psychologist I", "Psychologist II", "Psychologist III", "Psychometrician I", "Public Relations Officer IV", "Quality Management Specialist", "Records Officer ", "Regional Accountant", "Regional bookkeeper", "Regional capability Building Specialist", "Regional Community Development Specialist", "Regional Community Infrastructure Specialist", "Regional Director", "Regional Driver (KC-NCDDP) ", "Regional Executive Assistant ", "Regional Field Coordinator", "Regional Finance Specialist", "Regional Financial Analyst", "Regional Information Officer", "Regional Information Officer II-Head,SMU", "Regional Information Technology Officer ", "Regional Information Technology Officer I", "Regional Information Technology Officer II", "Regional Infrastructure Assistant", "Regional Infrastructure Officer", "Regional Infrastructure Officer II", "Regional Infrastructure Officer III", "Regional Monitoring And Evaluation Specialist", "Regional Procurement Officer", "Regional Procurement For Program", "Regional Procurement Officer For Program Community", "Regional Program coordinator", "Regional Program Coordinator - KALAHI - CIDSS", "Regional Program Coordinator - Operations", "Regional Sub - Committee for the Welfare of Children (RSCWC)", "Regional Training Assistant", "Regional Training Officer", "Regional Training Officer II", "Regional Training Specialist", "Repacker", "Research Officer III", "RIO III", "Roving Area Coordinator", "Roving Municipal Financial Analyst", "Roving technical Facilitator", "RSCWC - Technical Officer", "SA - IV", "SA - IV Audit Team Leader", "SAO", "SAO/DC", "SAO/OIC-DC", "Social Welfare Assistant - MCCT", "Secretary II", "Section Head", "Security Guard I (CT)", "Security Guard I (ICT)", "Security Guard II", "Security Officer II", "Senior Administrative Assistant I", "Senior Administrative Assistant II", "Senior Administrative Assistant III", "Senior Administrative Assistant IV", "Senior Administrative Assistant V", "Senior Administrative Officer", "Senior Bookkeeper", "Senior Bookkeeper (Admin Asst III)", "Senior M & E Assistant V", "Senior MANPOWER DEVELOPMENT OFFICER II", "Senior Statistician IV", "Senior Technical Officer ", "SGV", "Site Engineer", "Social Marketing Officer", "Social Marketing Officer III", "Social Marketing Officer III/KALAHI-CIDSS", "Social Marketing Specialist", "Social Safeguard Officer", "Social Safeguard Specialist", "Social Welfare Aide", "Social Welfare Assistant", "Social Welfare Assistant - CMU", "Social Welfare Assistant - MCCT IP", "Social Welfare Assistant I", "Social Welfare Assistant II", "Social Welfare Assistant - MCCT", "Social Welfare Attache", "Social Welfare Officer I ", "Social Welfare Officer I - OIC Center Head", "Social Welfare Officer II", "Social Welfare Officer II/EO 70 Focal", "Social Welfare Officer II/Family Focal", "Social Welfare Officer II/SWAD Team Leader", "Social Welfare Officer II/Team Leader", "Social Welfare Officer III", "Social Welfare Officer III-Center Head", "Social Welfare Officer III/Act as PL", "Social Welfare Officer III/TARA Focal", "Social Welfare Officer III/Team Leader", "Social Welfare Officer IV", "Social Welfare Officer IV, OIC-Chief,DReMD", "Social Welfare Officer IV - Center Head", "Social Welfare Officer V", "Social Welfare Officer V/OIC ARDO and Concurrent Head PSD", "Special Investigator III", "SPED TEACHER", "Stakeholder Management and Networking Specialist", "State Auditing Examiner", "State Auditing Examiner II", "State Auditor ", "State Auditor and Examiner ", "State Auditor I", "State Auditor II", "State Auditor III", "State Auditor IV", "State Auditor V", "Statistician", "Statistician Aide", "Statistician Aide II", "Statistician I", "Statistician II", "Statistician III", "Statistician IV", "Stockroom/Warehouse", "Storage Room", "Storekeeper", "Sub-Regional Program Coordinator", "Sub-Regional Project Coordinator", "Supervising Administrative I", "Supervising Administrative V", "Supervising Administrative Officer", "Supervising Administrative Officer - KC - NCDDP", "Supervising Administrative Officer/KALAHI - CIDSS", "Supervising Auditor V", "Supervisor", "Supplier", "Supply Officer I", "Supply Procurement Officer I", "SWA", "SWA - Convergence", "SWA AIDE", "SWA San Juan Batangas", "SWA - CMU", "SWI - III", "SWO - I", "SWO - II", "SWO - II/Women Focal Person", "SWO II - SWAD TL", "SWO II - OIC Center Head", "SWO II/Family Focal Person", "SWO II/Older Per & IISO Focal Person", "SWO II/RRPTP", "SWO II/RRPTP,PWD,PLHIV & Youth Focal Person", "SWO II/Women Focal Person", "SWO III", "SWO III/Head, Social Technology Section", "SWO III/Head, Regional Juvenile Justice and Welfare Council", "SWO III/OIC - SLP RPC", "SWO IV", "SWO IV UCT", "SWO V / Chief, Promotive Services Division", "SWO V / Division Chief", "SWO V / OIC ARD for Operations", "System Analyst II", "System Coordinator", "System Coordinator Officer (PDO II)", "System Coordinator Officer PDO II - BUS", "System Coordinator Officer PDO II - CVS", "System Coordinator Officer PDO II - GRS", "Teach for The Philippines Ambasador", "Teacher", "Teacher I", "Team Leader", "Team Leader SWAD Nueva Viscaya", "Techincal Empowerment facilitator", "Technical Facilitator", "Techinal Facilitator/KALAHI-CIDSS", "Technical Specialist", "Technician ", "Training Assistant II", "Training Center Superintendent II", "Training Specialist I", "Training Specialist II", "Training Specialist III", "Training Specialist IV", "TS IV", "UCT - Regional Field Coordinator", "Undersecretary ", "Undersecretary for Administration", "Utility Worker", "Utility Worker I", "Utility Worker II", "WAREHOUSE", "Warehouseman II"})
@@ -2244,7 +2244,7 @@ Partial Class AdminDashboard
         ' Label22
         ' 
         Me.Label22.AutoSize = True
-        Me.Label22.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label22.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label22.Location = New Global.System.Drawing.Point(542, 101)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New Global.System.Drawing.Size(87, 21)
@@ -2260,7 +2260,7 @@ Partial Class AdminDashboard
         Me.pickEditOffice.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.pickEditOffice.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
         Me.pickEditOffice.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
-        Me.pickEditOffice.Font = New Global.System.Drawing.Font("Segoe UI", 10.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.pickEditOffice.Font = New Global.System.Drawing.Font("Segoe UI", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.pickEditOffice.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(68))), CInt(CByte(CByte(88))), CInt(CByte(CByte(112))))
         Me.pickEditOffice.ItemHeight = 30
         Me.pickEditOffice.Items.AddRange(New System.Object() {"4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
@@ -2274,7 +2274,7 @@ Partial Class AdminDashboard
         ' Label25
         ' 
         Me.Label25.AutoSize = True
-        Me.Label25.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label25.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label25.Location = New Global.System.Drawing.Point(670, 472)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New Global.System.Drawing.Size(37, 21)
@@ -2284,7 +2284,7 @@ Partial Class AdminDashboard
         ' Label24
         ' 
         Me.Label24.AutoSize = True
-        Me.Label24.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label24.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label24.Location = New Global.System.Drawing.Point(522, 472)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New Global.System.Drawing.Size(96, 21)
@@ -2294,7 +2294,7 @@ Partial Class AdminDashboard
         ' Label23
         ' 
         Me.Label23.AutoSize = True
-        Me.Label23.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label23.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label23.Location = New Global.System.Drawing.Point(232, 472)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New Global.System.Drawing.Size(78, 21)
@@ -2304,7 +2304,7 @@ Partial Class AdminDashboard
         ' Label26
         ' 
         Me.Label26.AutoSize = True
-        Me.Label26.Font = New Global.System.Drawing.Font("Segoe UI", 15.0F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label26.Font = New Global.System.Drawing.Font("Segoe UI", 15F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label26.Location = New Global.System.Drawing.Point(314, 266)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New Global.System.Drawing.Size(152, 28)
@@ -2314,7 +2314,7 @@ Partial Class AdminDashboard
         ' Label21
         ' 
         Me.Label21.AutoSize = True
-        Me.Label21.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label21.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label21.Location = New Global.System.Drawing.Point(141, 101)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New Global.System.Drawing.Size(144, 21)
@@ -2324,7 +2324,7 @@ Partial Class AdminDashboard
         ' Label20
         ' 
         Me.Label20.AutoSize = True
-        Me.Label20.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label20.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label20.Location = New Global.System.Drawing.Point(551, 21)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New Global.System.Drawing.Size(65, 21)
@@ -2334,7 +2334,7 @@ Partial Class AdminDashboard
         ' Label19
         ' 
         Me.Label19.AutoSize = True
-        Me.Label19.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label19.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label19.Location = New Global.System.Drawing.Point(173, 21)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New Global.System.Drawing.Size(51, 21)
@@ -2391,7 +2391,7 @@ Partial Class AdminDashboard
         ' 
         Me.Guna2CircleProgressBar5.FillColor = Global.System.Drawing.Color.DimGray
         Me.Guna2CircleProgressBar5.FillThickness = 5
-        Me.Guna2CircleProgressBar5.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2CircleProgressBar5.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2CircleProgressBar5.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2CircleProgressBar5.Location = New Global.System.Drawing.Point(885, 51)
         Me.Guna2CircleProgressBar5.Minimum = 0
@@ -2408,7 +2408,7 @@ Partial Class AdminDashboard
         ' 
         Me.Guna2CircleProgressBar6.FillColor = Global.System.Drawing.Color.DimGray
         Me.Guna2CircleProgressBar6.FillThickness = 5
-        Me.Guna2CircleProgressBar6.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2CircleProgressBar6.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2CircleProgressBar6.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2CircleProgressBar6.Location = New Global.System.Drawing.Point(607, 52)
         Me.Guna2CircleProgressBar6.Minimum = 0
@@ -2437,7 +2437,7 @@ Partial Class AdminDashboard
         ' 
         Me.Guna2CircleProgressBar7.FillColor = Global.System.Drawing.Color.DimGray
         Me.Guna2CircleProgressBar7.FillThickness = 5
-        Me.Guna2CircleProgressBar7.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2CircleProgressBar7.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2CircleProgressBar7.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2CircleProgressBar7.Location = New Global.System.Drawing.Point(746, 51)
         Me.Guna2CircleProgressBar7.Minimum = 0
@@ -2466,7 +2466,7 @@ Partial Class AdminDashboard
         ' 
         Me.Guna2CircleProgressBar3.FillColor = Global.System.Drawing.Color.DimGray
         Me.Guna2CircleProgressBar3.FillThickness = 5
-        Me.Guna2CircleProgressBar3.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2CircleProgressBar3.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2CircleProgressBar3.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2CircleProgressBar3.Location = New Global.System.Drawing.Point(471, 51)
         Me.Guna2CircleProgressBar3.Minimum = 0
@@ -2483,7 +2483,7 @@ Partial Class AdminDashboard
         ' 
         Me.Guna2CircleProgressBar2.FillColor = Global.System.Drawing.Color.DimGray
         Me.Guna2CircleProgressBar2.FillThickness = 5
-        Me.Guna2CircleProgressBar2.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2CircleProgressBar2.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2CircleProgressBar2.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2CircleProgressBar2.Location = New Global.System.Drawing.Point(193, 52)
         Me.Guna2CircleProgressBar2.Minimum = 0
@@ -2526,7 +2526,7 @@ Partial Class AdminDashboard
         ' 
         Me.Guna2CircleProgressBar4.FillColor = Global.System.Drawing.Color.DimGray
         Me.Guna2CircleProgressBar4.FillThickness = 5
-        Me.Guna2CircleProgressBar4.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2CircleProgressBar4.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2CircleProgressBar4.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2CircleProgressBar4.Location = New Global.System.Drawing.Point(332, 51)
         Me.Guna2CircleProgressBar4.Minimum = 0
@@ -2556,7 +2556,7 @@ Partial Class AdminDashboard
         ' 
         Me.Guna2CircleProgressBar1.FillColor = Global.System.Drawing.Color.DimGray
         Me.Guna2CircleProgressBar1.FillThickness = 5
-        Me.Guna2CircleProgressBar1.Font = New Global.System.Drawing.Font("Segoe UI", 12.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2CircleProgressBar1.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2CircleProgressBar1.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2CircleProgressBar1.Location = New Global.System.Drawing.Point(54, 52)
         Me.Guna2CircleProgressBar1.Minimum = 0
@@ -2587,7 +2587,7 @@ Partial Class AdminDashboard
         ' Label27
         ' 
         Me.Label27.AutoSize = True
-        Me.Label27.Font = New Global.System.Drawing.Font("Cambria", 18.0F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label27.Font = New Global.System.Drawing.Font("Cambria", 18F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label27.ForeColor = Global.System.Drawing.Color.Black
         Me.Label27.Location = New Global.System.Drawing.Point(23, 10)
         Me.Label27.Name = "Label27"
@@ -2622,7 +2622,7 @@ Partial Class AdminDashboard
         Me.Guna2Button4.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
         Me.Guna2Button4.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
         Me.Guna2Button4.FillColor = Global.System.Drawing.Color.LimeGreen
-        Me.Guna2Button4.Font = New Global.System.Drawing.Font("Segoe UI Black", 9.0F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2Button4.Font = New Global.System.Drawing.Font("Segoe UI Black", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2Button4.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2Button4.Location = New Global.System.Drawing.Point(50, 136)
         Me.Guna2Button4.Name = "Guna2Button4"
@@ -2634,7 +2634,7 @@ Partial Class AdminDashboard
         ' Guna2HtmlLabel2
         ' 
         Me.Guna2HtmlLabel2.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel2.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 30.0F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2HtmlLabel2.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 30F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2HtmlLabel2.ForeColor = Global.System.Drawing.Color.Green
         Me.Guna2HtmlLabel2.Location = New Global.System.Drawing.Point(57, 63)
         Me.Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
@@ -2655,7 +2655,7 @@ Partial Class AdminDashboard
         ' Label2
         ' 
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New Global.System.Drawing.Font("Segoe UI", 22.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label2.Font = New Global.System.Drawing.Font("Segoe UI", 22F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label2.ForeColor = Global.System.Drawing.Color.Black
         Me.Label2.Location = New Global.System.Drawing.Point(23, 8)
         Me.Label2.Name = "Label2"
@@ -2683,7 +2683,7 @@ Partial Class AdminDashboard
         ' Label17
         ' 
         Me.Label17.AutoSize = True
-        Me.Label17.Font = New Global.System.Drawing.Font("Segoe UI", 14.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label17.Font = New Global.System.Drawing.Font("Segoe UI", 14F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label17.ForeColor = Global.System.Drawing.Color.DimGray
         Me.Label17.Location = New Global.System.Drawing.Point(26, 136)
         Me.Label17.Name = "Label17"
@@ -2702,7 +2702,7 @@ Partial Class AdminDashboard
         ' Guna2HtmlLabel1
         ' 
         Me.Guna2HtmlLabel1.BackColor = Global.System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel1.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 26.0F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2HtmlLabel1.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 26F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2HtmlLabel1.ForeColor = Global.System.Drawing.Color.OrangeRed
         Me.Guna2HtmlLabel1.Location = New Global.System.Drawing.Point(147, 48)
         Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
@@ -2713,7 +2713,7 @@ Partial Class AdminDashboard
         ' Label18
         ' 
         Me.Label18.AutoSize = True
-        Me.Label18.Font = New Global.System.Drawing.Font("Segoe UI", 18.0F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label18.Font = New Global.System.Drawing.Font("Segoe UI", 18F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.Label18.ForeColor = Global.System.Drawing.Color.Black
         Me.Label18.Location = New Global.System.Drawing.Point(26, 8)
         Me.Label18.Name = "Label18"
@@ -2746,7 +2746,7 @@ Partial Class AdminDashboard
         Me.Guna2Button1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
         Me.Guna2Button1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
         Me.Guna2Button1.FillColor = Global.System.Drawing.Color.RosyBrown
-        Me.Guna2Button1.Font = New Global.System.Drawing.Font("Segoe UI Black", 9.0F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2Button1.Font = New Global.System.Drawing.Font("Segoe UI Black", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2Button1.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2Button1.Location = New Global.System.Drawing.Point(877, 95)
         Me.Guna2Button1.Name = "Guna2Button1"
@@ -2766,7 +2766,7 @@ Partial Class AdminDashboard
         Me.Guna2Button2.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
         Me.Guna2Button2.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
         Me.Guna2Button2.FillColor = Global.System.Drawing.Color.RosyBrown
-        Me.Guna2Button2.Font = New Global.System.Drawing.Font("Segoe UI Black", 9.0F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2Button2.Font = New Global.System.Drawing.Font("Segoe UI Black", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2Button2.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2Button2.Location = New Global.System.Drawing.Point(778, 95)
         Me.Guna2Button2.Name = "Guna2Button2"
@@ -2786,7 +2786,7 @@ Partial Class AdminDashboard
         Me.Guna2Button3.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
         Me.Guna2Button3.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
         Me.Guna2Button3.FillColor = Global.System.Drawing.Color.RosyBrown
-        Me.Guna2Button3.Font = New Global.System.Drawing.Font("Segoe UI Black", 9.0F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2Button3.Font = New Global.System.Drawing.Font("Segoe UI Black", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
         Me.Guna2Button3.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2Button3.Location = New Global.System.Drawing.Point(679, 95)
         Me.Guna2Button3.Name = "Guna2Button3"
@@ -2819,7 +2819,7 @@ Partial Class AdminDashboard
         ' 
         ' AdminDashboard
         ' 
-        Me.AutoScaleDimensions = New Global.System.Drawing.SizeF(7.0F, 15.0F)
+        Me.AutoScaleDimensions = New Global.System.Drawing.SizeF(7F, 15F)
         Me.AutoScaleMode = Global.System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New Global.System.Drawing.Size(1288, 764)
         Me.Controls.Add(Me.Label1)
