@@ -189,14 +189,28 @@ Public Class Userdash
             range.Style.Border.Bottom.Style = ExcelBorderStyle.Thin
             range.Style.Border.Left.Style = ExcelBorderStyle.Thin
             range.Style.Border.Right.Style = ExcelBorderStyle.Thin
+
+            ' Set background color for header
             Dim headerRange As ExcelRange = worksheet.Cells(1, 1, 1, BenefeciariesDGV.Columns.Count)
             headerRange.Style.Fill.PatternType = ExcelFillStyle.Solid
-            headerRange.Style.Fill.BackgroundColor.SetColor(Color.LightGray)
+            headerRange.Style.Fill.BackgroundColor.SetColor(Color.LightGreen)
+            headerRange.Style.Font.Color.SetColor(Color.Black)
 
             ' Set background color for rows
             Dim dataRange As ExcelRange = worksheet.Cells(2, 1, BenefeciariesDGV.Rows.Count + 1, BenefeciariesDGV.Columns.Count)
             dataRange.Style.Fill.PatternType = ExcelFillStyle.Solid
-            dataRange.Style.Fill.BackgroundColor.SetColor(Color.White)
+            dataRange.Style.Fill.BackgroundColor.SetColor(Color.LightGray)
+            dataRange.Style.Font.Color.SetColor(Color.Black)
+
+            'worksheet.Cells.AutoFitColumns()
+
+            ' Set custom column width
+            worksheet.Column(1).Width = 7.43 ' Column A
+            worksheet.Column(2).Width = 32 ' Column B
+            worksheet.Column(3).Width = 8 ' Column C
+            worksheet.Column(4).Width = 18.57 ' Column D
+            worksheet.Column(5).Width = 20 ' Column E
+            worksheet.Column(6).Width = 24 ' Column F
 
 
             ' Save the Excel package to a file
