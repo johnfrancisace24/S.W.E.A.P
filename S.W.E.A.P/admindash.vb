@@ -269,7 +269,7 @@ Public Class admindash
         Finally
             conn.Close()
         End Try
-        viewEmploye("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, contact, office, position, balance
-                                            from users left join user_info on users.id = user_info.user_id")
+        viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
+                                            email from users left join user_info on users.id = user_info.user_id")
     End Sub
 End Class
