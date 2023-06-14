@@ -1,7 +1,7 @@
 ﻿Imports System.IO
-Imports ClosedXML.Excel
 Imports MySql.Data.MySqlClient
-Imports System.Runtime.InteropServices
+Imports OfficeOpenXml
+Imports OfficeOpenXml.Style
 Public Class Userdash
 
     Dim conn As New MySqlConnection("server=172.30.205.208;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -159,34 +159,58 @@ Public Class Userdash
         End Try
     End Sub
 
+    Public Sub SetEPPlusLicenseContext()
+        ExcelPackage.LicenseContext = LicenseContext.NonCommercial
+    End Sub
     Public Sub ExportToExcel(BenefeciariesDGV As DataGridView, filePath As String)
-        Using workbook As New XLWorkbook()
-            Dim worksheet = workbook.Worksheets.Add("Employees")
+
+        ExcelPackage.LicenseContext = LicenseContext.NonCommercial
+        ' Create a new Excel package
+        Using package As New ExcelPackage()
+            Dim worksheet As ExcelWorksheet = package.Workbook.Worksheets.Add("Employees")
 
             ' Add headers
             For j = 0 To BenefeciariesDGV.Columns.Count - 1
-                worksheet.Cell(1, j + 1).Value = BenefeciariesDGV.Columns(j).HeaderText
+                worksheet.Cells(1, j + 1).Value = BenefeciariesDGV.Columns(j).HeaderText
             Next
 
             ' Add data rows
             For i = 0 To BenefeciariesDGV.Rows.Count - 1
-                Dim rowIndex = i + 2 ' Start from row 2 (after headers)
-                Dim row = BenefeciariesDGV.Rows(i)
-
                 For j = 0 To BenefeciariesDGV.Columns.Count - 1
-                    Dim cellValue = If(row.Cells(j).Value IsNot Nothing, Convert.ToString(row.Cells(j).Value), "")
-
-                    worksheet.Cell(rowIndex, j + 1).Value = cellValue
+                    worksheet.Cells(i + 2, j + 1).Value = BenefeciariesDGV.Rows(i).Cells(j).Value
                 Next
             Next
 
-            ' Save the workbook
-            workbook.SaveAs(filePath)
+            ' Apply auto-design
+            Dim range As ExcelRange = worksheet.Cells(1, 1, BenefeciariesDGV.Rows.Count + 1, BenefeciariesDGV.Columns.Count)
+            range.Style.HorizontalAlignment = ExcelHorizontalAlignment.Center
+            range.Style.Font.Bold = True
+            range.Style.Border.Top.Style = ExcelBorderStyle.Thin
+            range.Style.Border.Bottom.Style = ExcelBorderStyle.Thin
+            range.Style.Border.Left.Style = ExcelBorderStyle.Thin
+            range.Style.Border.Right.Style = ExcelBorderStyle.Thin
+            Dim headerRange As ExcelRange = worksheet.Cells(1, 1, 1, BenefeciariesDGV.Columns.Count)
+            headerRange.Style.Fill.PatternType = ExcelFillStyle.Solid
+            headerRange.Style.Fill.BackgroundColor.SetColor(Color.LightGray)
+
+            ' Set background color for rows
+            Dim dataRange As ExcelRange = worksheet.Cells(2, 1, BenefeciariesDGV.Rows.Count + 1, BenefeciariesDGV.Columns.Count)
+            dataRange.Style.Fill.PatternType = ExcelFillStyle.Solid
+            dataRange.Style.Fill.BackgroundColor.SetColor(Color.White)
+
+
+            ' Save the Excel package to a file
+            Dim fileInfo As New FileInfo(filePath)
+            package.SaveAs(fileInfo)
         End Using
 
         ' Open the file
-        OpenFile(filePath)
+        Dim processStartInfo As New ProcessStartInfo()
+        processStartInfo.FileName = filePath
+        processStartInfo.UseShellExecute = True
+        Process.Start(processStartInfo)
     End Sub
+
     Private Sub OpenFile(filePath As String)
         Dim fileName As String = Path.GetFileName(filePath)
 
