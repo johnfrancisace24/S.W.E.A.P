@@ -49,7 +49,7 @@ Public Class Form1
             If (status = 1) Then
                 txtbxUsername.Clear()
                 txtbxPassword.Clear()
-                AdminDashboard.Show()
+                admindash.Show()
                 Me.Hide()
             ElseIf (status = 0) Then
                 Userdash.Show()
