@@ -23,11 +23,68 @@ Partial Class Form2
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
         TabPage1 = New TabPage()
+        txtName = New Guna.UI2.WinForms.Guna2TextBox()
+        txtTotalInterest = New Guna.UI2.WinForms.Guna2TextBox()
+        txtTotalEarlyPayment = New Guna.UI2.WinForms.Guna2TextBox()
+        txtActualNumPayment = New Guna.UI2.WinForms.Guna2TextBox()
+        txtSnumberPayment = New Guna.UI2.WinForms.Guna2TextBox()
+        txtSpayment = New Guna.UI2.WinForms.Guna2TextBox()
+        btnSetSched = New Guna.UI2.WinForms.Guna2Button()
+        dateStart = New Guna.UI2.WinForms.Guna2DateTimePicker()
+        Label12 = New Label()
+        Label6 = New Label()
+        Label11 = New Label()
+        Label5 = New Label()
+        Label10 = New Label()
+        Label9 = New Label()
+        Label4 = New Label()
+        Label8 = New Label()
+        Label3 = New Label()
+        Label7 = New Label()
+        Label2 = New Label()
+        Label1 = New Label()
+        numXtraP = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        numPayYears = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        numPyears = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        numAintRate = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        numLamount = New Guna.UI2.WinForms.Guna2NumericUpDown()
         TabPage2 = New TabPage()
         Guna2TabControl1.SuspendLayout()
+        TabPage1.SuspendLayout()
+        CType(numXtraP, ComponentModel.ISupportInitialize).BeginInit()
+        CType(numPayYears, ComponentModel.ISupportInitialize).BeginInit()
+        CType(numPyears, ComponentModel.ISupportInitialize).BeginInit()
+        CType(numAintRate, ComponentModel.ISupportInitialize).BeginInit()
+        CType(numLamount, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -65,6 +122,31 @@ Partial Class Form2
         ' 
         ' TabPage1
         ' 
+        TabPage1.Controls.Add(txtName)
+        TabPage1.Controls.Add(txtTotalInterest)
+        TabPage1.Controls.Add(txtTotalEarlyPayment)
+        TabPage1.Controls.Add(txtActualNumPayment)
+        TabPage1.Controls.Add(txtSnumberPayment)
+        TabPage1.Controls.Add(txtSpayment)
+        TabPage1.Controls.Add(btnSetSched)
+        TabPage1.Controls.Add(dateStart)
+        TabPage1.Controls.Add(Label12)
+        TabPage1.Controls.Add(Label6)
+        TabPage1.Controls.Add(Label11)
+        TabPage1.Controls.Add(Label5)
+        TabPage1.Controls.Add(Label10)
+        TabPage1.Controls.Add(Label9)
+        TabPage1.Controls.Add(Label4)
+        TabPage1.Controls.Add(Label8)
+        TabPage1.Controls.Add(Label3)
+        TabPage1.Controls.Add(Label7)
+        TabPage1.Controls.Add(Label2)
+        TabPage1.Controls.Add(Label1)
+        TabPage1.Controls.Add(numXtraP)
+        TabPage1.Controls.Add(numPayYears)
+        TabPage1.Controls.Add(numPyears)
+        TabPage1.Controls.Add(numAintRate)
+        TabPage1.Controls.Add(numLamount)
         TabPage1.Location = New Point(184, 4)
         TabPage1.Name = "TabPage1"
         TabPage1.Padding = New Padding(3)
@@ -72,6 +154,337 @@ Partial Class Form2
         TabPage1.TabIndex = 0
         TabPage1.Text = "TabPage1"
         TabPage1.UseVisualStyleBackColor = True
+        ' 
+        ' txtName
+        ' 
+        txtName.CustomizableEdges = CustomizableEdges1
+        txtName.DefaultText = ""
+        txtName.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtName.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtName.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtName.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtName.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtName.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtName.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtName.Location = New Point(803, 212)
+        txtName.Name = "txtName"
+        txtName.PasswordChar = ChrW(0)
+        txtName.PlaceholderText = ""
+        txtName.SelectedText = ""
+        txtName.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        txtName.Size = New Size(180, 25)
+        txtName.TabIndex = 5
+        ' 
+        ' txtTotalInterest
+        ' 
+        txtTotalInterest.CustomizableEdges = CustomizableEdges3
+        txtTotalInterest.DefaultText = ""
+        txtTotalInterest.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtTotalInterest.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtTotalInterest.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtTotalInterest.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtTotalInterest.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtTotalInterest.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtTotalInterest.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtTotalInterest.Location = New Point(803, 180)
+        txtTotalInterest.Name = "txtTotalInterest"
+        txtTotalInterest.PasswordChar = ChrW(0)
+        txtTotalInterest.PlaceholderText = ""
+        txtTotalInterest.SelectedText = ""
+        txtTotalInterest.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        txtTotalInterest.Size = New Size(180, 25)
+        txtTotalInterest.TabIndex = 5
+        ' 
+        ' txtTotalEarlyPayment
+        ' 
+        txtTotalEarlyPayment.CustomizableEdges = CustomizableEdges5
+        txtTotalEarlyPayment.DefaultText = ""
+        txtTotalEarlyPayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtTotalEarlyPayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtTotalEarlyPayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtTotalEarlyPayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtTotalEarlyPayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtTotalEarlyPayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtTotalEarlyPayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtTotalEarlyPayment.Location = New Point(803, 149)
+        txtTotalEarlyPayment.Name = "txtTotalEarlyPayment"
+        txtTotalEarlyPayment.PasswordChar = ChrW(0)
+        txtTotalEarlyPayment.PlaceholderText = ""
+        txtTotalEarlyPayment.SelectedText = ""
+        txtTotalEarlyPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        txtTotalEarlyPayment.Size = New Size(180, 25)
+        txtTotalEarlyPayment.TabIndex = 5
+        ' 
+        ' txtActualNumPayment
+        ' 
+        txtActualNumPayment.CustomizableEdges = CustomizableEdges7
+        txtActualNumPayment.DefaultText = ""
+        txtActualNumPayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtActualNumPayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtActualNumPayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtActualNumPayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtActualNumPayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtActualNumPayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtActualNumPayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtActualNumPayment.Location = New Point(803, 117)
+        txtActualNumPayment.Name = "txtActualNumPayment"
+        txtActualNumPayment.PasswordChar = ChrW(0)
+        txtActualNumPayment.PlaceholderText = ""
+        txtActualNumPayment.SelectedText = ""
+        txtActualNumPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txtActualNumPayment.Size = New Size(180, 25)
+        txtActualNumPayment.TabIndex = 5
+        ' 
+        ' txtSnumberPayment
+        ' 
+        txtSnumberPayment.CustomizableEdges = CustomizableEdges9
+        txtSnumberPayment.DefaultText = ""
+        txtSnumberPayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtSnumberPayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtSnumberPayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSnumberPayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSnumberPayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSnumberPayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSnumberPayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSnumberPayment.Location = New Point(803, 87)
+        txtSnumberPayment.Name = "txtSnumberPayment"
+        txtSnumberPayment.PasswordChar = ChrW(0)
+        txtSnumberPayment.PlaceholderText = ""
+        txtSnumberPayment.SelectedText = ""
+        txtSnumberPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        txtSnumberPayment.Size = New Size(180, 25)
+        txtSnumberPayment.TabIndex = 5
+        ' 
+        ' txtSpayment
+        ' 
+        txtSpayment.CustomizableEdges = CustomizableEdges11
+        txtSpayment.DefaultText = ""
+        txtSpayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtSpayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtSpayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSpayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSpayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSpayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSpayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSpayment.Location = New Point(803, 55)
+        txtSpayment.Name = "txtSpayment"
+        txtSpayment.PasswordChar = ChrW(0)
+        txtSpayment.PlaceholderText = ""
+        txtSpayment.SelectedText = ""
+        txtSpayment.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        txtSpayment.Size = New Size(180, 25)
+        txtSpayment.TabIndex = 5
+        ' 
+        ' btnSetSched
+        ' 
+        btnSetSched.CustomizableEdges = CustomizableEdges13
+        btnSetSched.DisabledState.BorderColor = Color.DarkGray
+        btnSetSched.DisabledState.CustomBorderColor = Color.DarkGray
+        btnSetSched.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnSetSched.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnSetSched.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnSetSched.ForeColor = Color.White
+        btnSetSched.Location = New Point(803, 266)
+        btnSetSched.Name = "btnSetSched"
+        btnSetSched.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        btnSetSched.Size = New Size(182, 34)
+        btnSetSched.TabIndex = 4
+        btnSetSched.Text = "Set Schedule"
+        ' 
+        ' dateStart
+        ' 
+        dateStart.Checked = True
+        dateStart.CustomizableEdges = CustomizableEdges15
+        dateStart.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        dateStart.Format = DateTimePickerFormat.Long
+        dateStart.Location = New Point(277, 181)
+        dateStart.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
+        dateStart.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
+        dateStart.Name = "dateStart"
+        dateStart.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        dateStart.Size = New Size(150, 25)
+        dateStart.TabIndex = 3
+        dateStart.Value = New DateTime(2023, 6, 14, 8, 36, 49, 499)
+        ' 
+        ' Label12
+        ' 
+        Label12.AutoSize = True
+        Label12.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label12.Location = New Point(505, 213)
+        Label12.Name = "Label12"
+        Label12.Size = New Size(95, 20)
+        Label12.TabIndex = 2
+        Label12.Text = "Lender name"
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label6.Location = New Point(43, 214)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(172, 20)
+        Label6.TabIndex = 2
+        Label6.Text = "Optional extra payments"
+        ' 
+        ' Label11
+        ' 
+        Label11.AutoSize = True
+        Label11.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label11.Location = New Point(505, 181)
+        Label11.Name = "Label11"
+        Label11.Size = New Size(95, 20)
+        Label11.TabIndex = 2
+        Label11.Text = "Total interest"
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label5.Location = New Point(43, 182)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(125, 20)
+        Label5.TabIndex = 2
+        Label5.Text = "Start date of loan"
+        ' 
+        ' Label10
+        ' 
+        Label10.AutoSize = True
+        Label10.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label10.Location = New Point(505, 149)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(146, 20)
+        Label10.TabIndex = 2
+        Label10.Text = "Total early payments"
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label9.Location = New Point(505, 117)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(192, 20)
+        Label9.TabIndex = 2
+        Label9.Text = "Actual number of payments"
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.Location = New Point(43, 150)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(201, 20)
+        Label4.TabIndex = 2
+        Label4.Text = "Number of payment per year"
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label8.Location = New Point(505, 86)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(219, 20)
+        Label8.TabIndex = 2
+        Label8.Text = "Scheduled number of payments"
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Location = New Point(43, 118)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(143, 20)
+        Label3.TabIndex = 2
+        Label3.Text = "Loan period in years"
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label7.Location = New Point(505, 54)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(131, 20)
+        Label7.TabIndex = 2
+        Label7.Text = "Schedule payment"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.Location = New Point(43, 87)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(130, 20)
+        Label2.TabIndex = 2
+        Label2.Text = "Anual interest rate"
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.Location = New Point(43, 55)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(96, 20)
+        Label1.TabIndex = 2
+        Label1.Text = "Loan amount"
+        ' 
+        ' numXtraP
+        ' 
+        numXtraP.BackColor = Color.Transparent
+        numXtraP.CustomizableEdges = CustomizableEdges17
+        numXtraP.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        numXtraP.Location = New Point(277, 212)
+        numXtraP.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
+        numXtraP.Name = "numXtraP"
+        numXtraP.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        numXtraP.Size = New Size(150, 25)
+        numXtraP.TabIndex = 1
+        ' 
+        ' numPayYears
+        ' 
+        numPayYears.BackColor = Color.Transparent
+        numPayYears.CustomizableEdges = CustomizableEdges19
+        numPayYears.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        numPayYears.Location = New Point(277, 149)
+        numPayYears.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
+        numPayYears.Name = "numPayYears"
+        numPayYears.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        numPayYears.Size = New Size(150, 25)
+        numPayYears.TabIndex = 1
+        ' 
+        ' numPyears
+        ' 
+        numPyears.BackColor = Color.Transparent
+        numPyears.CustomizableEdges = CustomizableEdges21
+        numPyears.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        numPyears.Location = New Point(277, 117)
+        numPyears.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
+        numPyears.Name = "numPyears"
+        numPyears.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        numPyears.Size = New Size(150, 25)
+        numPyears.TabIndex = 1
+        ' 
+        ' numAintRate
+        ' 
+        numAintRate.BackColor = Color.Transparent
+        numAintRate.CustomizableEdges = CustomizableEdges23
+        numAintRate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        numAintRate.Location = New Point(277, 86)
+        numAintRate.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
+        numAintRate.Name = "numAintRate"
+        numAintRate.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        numAintRate.Size = New Size(150, 25)
+        numAintRate.TabIndex = 1
+        ' 
+        ' numLamount
+        ' 
+        numLamount.BackColor = Color.Transparent
+        numLamount.CustomizableEdges = CustomizableEdges25
+        numLamount.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        numLamount.Location = New Point(277, 55)
+        numLamount.Maximum = New [Decimal](New Integer() {1215752192, 23, 0, 0})
+        numLamount.Name = "numLamount"
+        numLamount.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        numLamount.Size = New Size(150, 25)
+        numLamount.TabIndex = 1
         ' 
         ' TabPage2
         ' 
@@ -93,6 +506,13 @@ Partial Class Form2
         Name = "Form2"
         Text = "Form2"
         Guna2TabControl1.ResumeLayout(False)
+        TabPage1.ResumeLayout(False)
+        TabPage1.PerformLayout()
+        CType(numXtraP, ComponentModel.ISupportInitialize).EndInit()
+        CType(numPayYears, ComponentModel.ISupportInitialize).EndInit()
+        CType(numPyears, ComponentModel.ISupportInitialize).EndInit()
+        CType(numAintRate, ComponentModel.ISupportInitialize).EndInit()
+        CType(numLamount, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -100,4 +520,36 @@ Partial Class Form2
     Friend WithEvents Guna2TabControl1 As Guna.UI2.WinForms.Guna2TabControl
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents Guna2TextBox6 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2TextBox5 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2TextBox4 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2TextBox3 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents btnSetSched As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents dateStart As Guna.UI2.WinForms.Guna2DateTimePicker
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents numXtraP As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents numPayYears As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents numPyears As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents numAintRate As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents numLamount As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents Guna2DataGridView1 As Guna.UI2.WinForms.Guna2DataGridView
+    Friend WithEvents txtName As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtTotalInterest As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtTotalEarlyPayment As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtActualNumPayment As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtSnumberPayment As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtSpayment As Guna.UI2.WinForms.Guna2TextBox
 End Class
