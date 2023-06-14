@@ -49,18 +49,15 @@ Partial Class Form2
         Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
         TabPage1 = New TabPage()
-        Guna2TextBox6 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox5 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox4 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
+        txtName = New Guna.UI2.WinForms.Guna2TextBox()
+        txtTotalInterest = New Guna.UI2.WinForms.Guna2TextBox()
+        txtTotalEarlyPayment = New Guna.UI2.WinForms.Guna2TextBox()
+        txtActualNumPayment = New Guna.UI2.WinForms.Guna2TextBox()
+        txtSnumberPayment = New Guna.UI2.WinForms.Guna2TextBox()
+        txtSpayment = New Guna.UI2.WinForms.Guna2TextBox()
         btnSetSched = New Guna.UI2.WinForms.Guna2Button()
         dateStart = New Guna.UI2.WinForms.Guna2DateTimePicker()
         Label12 = New Label()
@@ -80,7 +77,6 @@ Partial Class Form2
         numPyears = New Guna.UI2.WinForms.Guna2NumericUpDown()
         numAintRate = New Guna.UI2.WinForms.Guna2NumericUpDown()
         numLamount = New Guna.UI2.WinForms.Guna2NumericUpDown()
-        Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
         TabPage2 = New TabPage()
         Guna2TabControl1.SuspendLayout()
         TabPage1.SuspendLayout()
@@ -89,7 +85,6 @@ Partial Class Form2
         CType(numPyears, ComponentModel.ISupportInitialize).BeginInit()
         CType(numAintRate, ComponentModel.ISupportInitialize).BeginInit()
         CType(numLamount, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -127,12 +122,12 @@ Partial Class Form2
         ' 
         ' TabPage1
         ' 
-        TabPage1.Controls.Add(Guna2TextBox6)
-        TabPage1.Controls.Add(Guna2TextBox5)
-        TabPage1.Controls.Add(Guna2TextBox4)
-        TabPage1.Controls.Add(Guna2TextBox3)
-        TabPage1.Controls.Add(Guna2TextBox2)
-        TabPage1.Controls.Add(Guna2TextBox1)
+        TabPage1.Controls.Add(txtName)
+        TabPage1.Controls.Add(txtTotalInterest)
+        TabPage1.Controls.Add(txtTotalEarlyPayment)
+        TabPage1.Controls.Add(txtActualNumPayment)
+        TabPage1.Controls.Add(txtSnumberPayment)
+        TabPage1.Controls.Add(txtSpayment)
         TabPage1.Controls.Add(btnSetSched)
         TabPage1.Controls.Add(dateStart)
         TabPage1.Controls.Add(Label12)
@@ -152,7 +147,6 @@ Partial Class Form2
         TabPage1.Controls.Add(numPyears)
         TabPage1.Controls.Add(numAintRate)
         TabPage1.Controls.Add(numLamount)
-        TabPage1.Controls.Add(Guna2DataGridView1)
         TabPage1.Location = New Point(184, 4)
         TabPage1.Name = "TabPage1"
         TabPage1.Padding = New Padding(3)
@@ -161,125 +155,125 @@ Partial Class Form2
         TabPage1.Text = "TabPage1"
         TabPage1.UseVisualStyleBackColor = True
         ' 
-        ' Guna2TextBox6
+        ' txtName
         ' 
-        Guna2TextBox6.CustomizableEdges = CustomizableEdges1
-        Guna2TextBox6.DefaultText = ""
-        Guna2TextBox6.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox6.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox6.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox6.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox6.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox6.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox6.Location = New Point(803, 212)
-        Guna2TextBox6.Name = "Guna2TextBox6"
-        Guna2TextBox6.PasswordChar = ChrW(0)
-        Guna2TextBox6.PlaceholderText = ""
-        Guna2TextBox6.SelectedText = ""
-        Guna2TextBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2TextBox6.Size = New Size(180, 25)
-        Guna2TextBox6.TabIndex = 5
+        txtName.CustomizableEdges = CustomizableEdges1
+        txtName.DefaultText = ""
+        txtName.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtName.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtName.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtName.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtName.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtName.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtName.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtName.Location = New Point(803, 212)
+        txtName.Name = "txtName"
+        txtName.PasswordChar = ChrW(0)
+        txtName.PlaceholderText = ""
+        txtName.SelectedText = ""
+        txtName.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        txtName.Size = New Size(180, 25)
+        txtName.TabIndex = 5
         ' 
-        ' Guna2TextBox5
+        ' txtTotalInterest
         ' 
-        Guna2TextBox5.CustomizableEdges = CustomizableEdges3
-        Guna2TextBox5.DefaultText = ""
-        Guna2TextBox5.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox5.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox5.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox5.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox5.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox5.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox5.Location = New Point(803, 180)
-        Guna2TextBox5.Name = "Guna2TextBox5"
-        Guna2TextBox5.PasswordChar = ChrW(0)
-        Guna2TextBox5.PlaceholderText = ""
-        Guna2TextBox5.SelectedText = ""
-        Guna2TextBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2TextBox5.Size = New Size(180, 25)
-        Guna2TextBox5.TabIndex = 5
+        txtTotalInterest.CustomizableEdges = CustomizableEdges3
+        txtTotalInterest.DefaultText = ""
+        txtTotalInterest.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtTotalInterest.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtTotalInterest.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtTotalInterest.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtTotalInterest.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtTotalInterest.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtTotalInterest.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtTotalInterest.Location = New Point(803, 180)
+        txtTotalInterest.Name = "txtTotalInterest"
+        txtTotalInterest.PasswordChar = ChrW(0)
+        txtTotalInterest.PlaceholderText = ""
+        txtTotalInterest.SelectedText = ""
+        txtTotalInterest.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        txtTotalInterest.Size = New Size(180, 25)
+        txtTotalInterest.TabIndex = 5
         ' 
-        ' Guna2TextBox4
+        ' txtTotalEarlyPayment
         ' 
-        Guna2TextBox4.CustomizableEdges = CustomizableEdges5
-        Guna2TextBox4.DefaultText = ""
-        Guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox4.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox4.Location = New Point(803, 149)
-        Guna2TextBox4.Name = "Guna2TextBox4"
-        Guna2TextBox4.PasswordChar = ChrW(0)
-        Guna2TextBox4.PlaceholderText = ""
-        Guna2TextBox4.SelectedText = ""
-        Guna2TextBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2TextBox4.Size = New Size(180, 25)
-        Guna2TextBox4.TabIndex = 5
+        txtTotalEarlyPayment.CustomizableEdges = CustomizableEdges5
+        txtTotalEarlyPayment.DefaultText = ""
+        txtTotalEarlyPayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtTotalEarlyPayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtTotalEarlyPayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtTotalEarlyPayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtTotalEarlyPayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtTotalEarlyPayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtTotalEarlyPayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtTotalEarlyPayment.Location = New Point(803, 149)
+        txtTotalEarlyPayment.Name = "txtTotalEarlyPayment"
+        txtTotalEarlyPayment.PasswordChar = ChrW(0)
+        txtTotalEarlyPayment.PlaceholderText = ""
+        txtTotalEarlyPayment.SelectedText = ""
+        txtTotalEarlyPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        txtTotalEarlyPayment.Size = New Size(180, 25)
+        txtTotalEarlyPayment.TabIndex = 5
         ' 
-        ' Guna2TextBox3
+        ' txtActualNumPayment
         ' 
-        Guna2TextBox3.CustomizableEdges = CustomizableEdges7
-        Guna2TextBox3.DefaultText = ""
-        Guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox3.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Location = New Point(803, 117)
-        Guna2TextBox3.Name = "Guna2TextBox3"
-        Guna2TextBox3.PasswordChar = ChrW(0)
-        Guna2TextBox3.PlaceholderText = ""
-        Guna2TextBox3.SelectedText = ""
-        Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2TextBox3.Size = New Size(180, 25)
-        Guna2TextBox3.TabIndex = 5
+        txtActualNumPayment.CustomizableEdges = CustomizableEdges7
+        txtActualNumPayment.DefaultText = ""
+        txtActualNumPayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtActualNumPayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtActualNumPayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtActualNumPayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtActualNumPayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtActualNumPayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtActualNumPayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtActualNumPayment.Location = New Point(803, 117)
+        txtActualNumPayment.Name = "txtActualNumPayment"
+        txtActualNumPayment.PasswordChar = ChrW(0)
+        txtActualNumPayment.PlaceholderText = ""
+        txtActualNumPayment.SelectedText = ""
+        txtActualNumPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txtActualNumPayment.Size = New Size(180, 25)
+        txtActualNumPayment.TabIndex = 5
         ' 
-        ' Guna2TextBox2
+        ' txtSnumberPayment
         ' 
-        Guna2TextBox2.CustomizableEdges = CustomizableEdges9
-        Guna2TextBox2.DefaultText = ""
-        Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(803, 87)
-        Guna2TextBox2.Name = "Guna2TextBox2"
-        Guna2TextBox2.PasswordChar = ChrW(0)
-        Guna2TextBox2.PlaceholderText = ""
-        Guna2TextBox2.SelectedText = ""
-        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2TextBox2.Size = New Size(180, 25)
-        Guna2TextBox2.TabIndex = 5
+        txtSnumberPayment.CustomizableEdges = CustomizableEdges9
+        txtSnumberPayment.DefaultText = ""
+        txtSnumberPayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtSnumberPayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtSnumberPayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSnumberPayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSnumberPayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSnumberPayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSnumberPayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSnumberPayment.Location = New Point(803, 87)
+        txtSnumberPayment.Name = "txtSnumberPayment"
+        txtSnumberPayment.PasswordChar = ChrW(0)
+        txtSnumberPayment.PlaceholderText = ""
+        txtSnumberPayment.SelectedText = ""
+        txtSnumberPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        txtSnumberPayment.Size = New Size(180, 25)
+        txtSnumberPayment.TabIndex = 5
         ' 
-        ' Guna2TextBox1
+        ' txtSpayment
         ' 
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges11
-        Guna2TextBox1.DefaultText = ""
-        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(803, 55)
-        Guna2TextBox1.Name = "Guna2TextBox1"
-        Guna2TextBox1.PasswordChar = ChrW(0)
-        Guna2TextBox1.PlaceholderText = ""
-        Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Guna2TextBox1.Size = New Size(180, 25)
-        Guna2TextBox1.TabIndex = 5
+        txtSpayment.CustomizableEdges = CustomizableEdges11
+        txtSpayment.DefaultText = ""
+        txtSpayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtSpayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtSpayment.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSpayment.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtSpayment.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSpayment.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtSpayment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtSpayment.Location = New Point(803, 55)
+        txtSpayment.Name = "txtSpayment"
+        txtSpayment.PasswordChar = ChrW(0)
+        txtSpayment.PlaceholderText = ""
+        txtSpayment.SelectedText = ""
+        txtSpayment.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        txtSpayment.Size = New Size(180, 25)
+        txtSpayment.TabIndex = 5
         ' 
         ' btnSetSched
         ' 
@@ -492,57 +486,6 @@ Partial Class Form2
         numLamount.Size = New Size(150, 25)
         numLamount.TabIndex = 1
         ' 
-        ' Guna2DataGridView1
-        ' 
-        DataGridViewCellStyle1.BackColor = Color.White
-        Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle2.ForeColor = Color.White
-        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
-        Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        Guna2DataGridView1.ColumnHeadersHeight = 4
-        Guna2DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = Color.White
-        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
-        Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
-        Guna2DataGridView1.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        Guna2DataGridView1.Location = New Point(17, 316)
-        Guna2DataGridView1.Name = "Guna2DataGridView1"
-        Guna2DataGridView1.RowHeadersVisible = False
-        Guna2DataGridView1.RowTemplate.Height = 25
-        Guna2DataGridView1.Size = New Size(968, 422)
-        Guna2DataGridView1.TabIndex = 0
-        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
-        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = Nothing
-        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
-        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
-        Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
-        Guna2DataGridView1.ThemeStyle.BackColor = Color.White
-        Guna2DataGridView1.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        Guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        Guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
-        Guna2DataGridView1.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = Color.White
-        Guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        Guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4
-        Guna2DataGridView1.ThemeStyle.ReadOnly = False
-        Guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = Color.White
-        Guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        Guna2DataGridView1.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        Guna2DataGridView1.ThemeStyle.RowsStyle.Height = 25
-        Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        ' 
         ' TabPage2
         ' 
         TabPage2.Location = New Point(184, 4)
@@ -570,7 +513,6 @@ Partial Class Form2
         CType(numPyears, ComponentModel.ISupportInitialize).EndInit()
         CType(numAintRate, ComponentModel.ISupportInitialize).EndInit()
         CType(numLamount, ComponentModel.ISupportInitialize).EndInit()
-        CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -604,4 +546,10 @@ Partial Class Form2
     Friend WithEvents numAintRate As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents numLamount As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents Guna2DataGridView1 As Guna.UI2.WinForms.Guna2DataGridView
+    Friend WithEvents txtName As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtTotalInterest As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtTotalEarlyPayment As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtActualNumPayment As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtSnumberPayment As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents txtSpayment As Guna.UI2.WinForms.Guna2TextBox
 End Class
