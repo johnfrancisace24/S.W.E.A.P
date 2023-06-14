@@ -43,8 +43,6 @@ Public Class Form2
         '------------------Round the scheduled payment amount to two decimal places
         scheduledPayment = Math.Round(scheduledPayment, 2)
 
-        '--------------------Output the result
-        MsgBox("Scheduled payment: $" & scheduledPayment.ToString())
         '--------------------------------------------OVERALL CALCULATION-----------------------------------------------------
         totalPayment = scheduledPayment + extraPayment
         interest = beginningBalance * monthlyInterestRate
@@ -78,7 +76,6 @@ Public Class Form2
             endBalance = beginningBalance - principal
             CumuInterest = CumuInterest + interest
             payment = payment + 1
-            MsgBox(endBalance)
 
         End While
 
