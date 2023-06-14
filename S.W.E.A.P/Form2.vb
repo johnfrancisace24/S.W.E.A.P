@@ -1,6 +1,7 @@
 ﻿Imports DocumentFormat.OpenXml.Wordprocessing
 
 Public Class Form2
+    '-----------------------------------VARIABLE DECLARATION------------------------------------------
     Dim loanAmount As Decimal
     Dim annualInterestRate As Decimal
     Dim loanPeriodInYears As Integer
@@ -18,8 +19,8 @@ Public Class Form2
     Dim CumuInterest As Double
     Dim selectedDate As DateTime
     Dim totalEarlyPayment As Integer
-
-    Private Sub btnSetSched_Click(sender As Object, e As EventArgs) Handles btnSetSched.Click
+    '-----------------------------------END OF VARIABLE DECLARATION-------------------------------------------
+    Private Sub btnSetSched_Click(sender As Object, e As EventArgs) Handles btnSetSched.Click '-------SET SCHEDULE BUTTON
         dgSchedule.Rows.Clear()
         payment = 1
         selectedDate = dateStart.Value.Date
@@ -30,19 +31,19 @@ Public Class Form2
         numberOfPaymentsPerYear = numPayYears.Value
         beginningBalance = loanAmount
 
-        ' Convert the annual interest rate to monthly interest rate
+        '--------------Convert the annual interest rate to monthly interest rate
         monthlyInterestRate = annualInterestRate / numberOfPaymentsPerYear
 
-        ' Calculate the total number of payments
+        '---------------Calculate the total number of payments
         totalNumberOfPayments = loanPeriodInYears * numberOfPaymentsPerYear
 
-        ' Calculate the scheduled payment amount
+        '----------------Calculate the scheduled payment amount
         scheduledPayment = (monthlyInterestRate * loanAmount) / (1 - (1 + monthlyInterestRate) ^ (-totalNumberOfPayments))
 
-        ' Round the scheduled payment amount to two decimal places
+        '------------------Round the scheduled payment amount to two decimal places
         scheduledPayment = Math.Round(scheduledPayment, 2)
 
-        ' Output the result
+        '--------------------Output the result
         MsgBox("Scheduled payment: $" & scheduledPayment.ToString())
         '--------------------------------------------OVERALL CALCULATION-----------------------------------------------------
         totalPayment = scheduledPayment + extraPayment
@@ -82,15 +83,13 @@ Public Class Form2
         End While
 
         '---------------------------------------------END OF CALCULATION-------------------------------------------------------
+
+        '--------------------------------------RESULT-------------------------------------------------------
         txtSnumberPayment.Text = numberOfPaymentsPerYear * loanPeriodInYears
         txtSpayment.Text = scheduledPayment
         txtActualNumPayment.Text = payment
         txtTotalEarlyPayment.Text = totalEarlyPayment
         txtTotalInterest.Text = CumuInterest
-
-    End Sub
-
-    Private Sub numAintRate_ValueChanged(sender As Object, e As EventArgs) Handles numAintRate.ValueChanged
-
+        '-----------------------------------END OF RESULT--------------------------------------------------
     End Sub
 End Class

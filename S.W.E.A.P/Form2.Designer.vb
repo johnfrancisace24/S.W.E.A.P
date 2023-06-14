@@ -85,6 +85,7 @@ Partial Class Form2
         Label3 = New Label()
         Label7 = New Label()
         Label2 = New Label()
+        Label13 = New Label()
         Label1 = New Label()
         numXtraP = New Guna.UI2.WinForms.Guna2NumericUpDown()
         numPayYears = New Guna.UI2.WinForms.Guna2NumericUpDown()
@@ -92,7 +93,7 @@ Partial Class Form2
         numAintRate = New Guna.UI2.WinForms.Guna2NumericUpDown()
         numLamount = New Guna.UI2.WinForms.Guna2NumericUpDown()
         TabPage2 = New TabPage()
-        Label13 = New Label()
+        Label14 = New Label()
         Guna2TabControl1.SuspendLayout()
         TabPage1.SuspendLayout()
         CType(dgSchedule, ComponentModel.ISupportInitialize).BeginInit()
@@ -157,6 +158,7 @@ Partial Class Form2
         TabPage1.Controls.Add(Label8)
         TabPage1.Controls.Add(Label3)
         TabPage1.Controls.Add(Label7)
+        TabPage1.Controls.Add(Label14)
         TabPage1.Controls.Add(Label2)
         TabPage1.Controls.Add(Label13)
         TabPage1.Controls.Add(Label1)
@@ -558,6 +560,16 @@ Partial Class Form2
         Label2.TabIndex = 2
         Label2.Text = "Anual interest rate"
         ' 
+        ' Label13
+        ' 
+        Label13.AutoSize = True
+        Label13.Font = New Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point)
+        Label13.Location = New Point(346, 14)
+        Label13.Name = "Label13"
+        Label13.Size = New Size(314, 25)
+        Label13.TabIndex = 2
+        Label13.Text = "LOAN AMORTIZATION SCHEDULE"
+        ' 
         ' Label1
         ' 
         Label1.AutoSize = True
@@ -638,15 +650,15 @@ Partial Class Form2
         TabPage2.Text = "TabPage2"
         TabPage2.UseVisualStyleBackColor = True
         ' 
-        ' Label13
+        ' Label14
         ' 
-        Label13.AutoSize = True
-        Label13.Font = New Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point)
-        Label13.Location = New Point(346, 14)
-        Label13.Name = "Label13"
-        Label13.Size = New Size(314, 25)
-        Label13.TabIndex = 2
-        Label13.Text = "LOAN AMORTIZATION SCHEDULE"
+        Label14.AutoSize = True
+        Label14.Font = New Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point)
+        Label14.Location = New Point(419, 102)
+        Label14.Name = "Label14"
+        Label14.Size = New Size(21, 20)
+        Label14.TabIndex = 2
+        Label14.Text = "%"
         ' 
         ' Form2
         ' 
@@ -717,4 +729,5 @@ Partial Class Form2
     Friend WithEvents Column9 As DataGridViewTextBoxColumn
     Friend WithEvents Column10 As DataGridViewTextBoxColumn
     Friend WithEvents Label13 As Label
+    Friend WithEvents Label14 As Label
 End Class
