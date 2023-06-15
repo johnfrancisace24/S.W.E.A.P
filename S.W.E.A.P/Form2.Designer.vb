@@ -104,6 +104,8 @@ Partial Class Form2
         TabPage2 = New TabPage()
         Guna2DataGridView2 = New Guna.UI2.WinForms.Guna2DataGridView()
         Label13 = New Label()
+        Label15 = New Label()
+        Label16 = New Label()
         Guna2TabControl1.SuspendLayout()
         TabPage1.SuspendLayout()
         CType(dgSchedule, ComponentModel.ISupportInitialize).BeginInit()
@@ -175,6 +177,8 @@ Partial Class Form2
         TabPage1.Controls.Add(Label7)
         TabPage1.Controls.Add(Label14)
         TabPage1.Controls.Add(Label2)
+        TabPage1.Controls.Add(Label16)
+        TabPage1.Controls.Add(Label15)
         TabPage1.Controls.Add(Label1)
         TabPage1.Controls.Add(numXtraP)
         TabPage1.Controls.Add(numPayYears)
@@ -761,6 +765,26 @@ Partial Class Form2
         Label13.TabIndex = 2
         Label13.Text = "LOAN AMORTIZATION SCHEDULE"
         ' 
+        ' Label15
+        ' 
+        Label15.AutoSize = True
+        Label15.Font = New Font("Segoe UI", 11F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point)
+        Label15.Location = New Point(150, 13)
+        Label15.Name = "Label15"
+        Label15.Size = New Size(116, 20)
+        Label15.TabIndex = 2
+        Label15.Text = "ENTER VALUES"
+        ' 
+        ' Label16
+        ' 
+        Label16.AutoSize = True
+        Label16.Font = New Font("Segoe UI", 11F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point)
+        Label16.Location = New Point(681, 13)
+        Label16.Name = "Label16"
+        Label16.Size = New Size(130, 20)
+        Label16.TabIndex = 2
+        Label16.Text = "LOAN SUMMARY"
+        ' 
         ' Form2
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -839,4 +863,6 @@ Partial Class Form2
     Friend WithEvents Guna2DataGridView2 As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents btnReset As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnApprove As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Label15 As Label
 End Class
