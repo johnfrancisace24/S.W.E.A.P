@@ -81,11 +81,7 @@ Partial Class admindash
         Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -116,10 +112,10 @@ Partial Class admindash
         Dim CustomizableEdges75 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges77 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle8 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle10 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim CustomizableEdges78 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges79 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges80 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -210,15 +206,6 @@ Partial Class admindash
         tabEmployee = New TabPage()
         pnlEmployee = New Panel()
         dgMembers = New Guna.UI2.WinForms.Guna2DataGridView()
-        Column7 = New DataGridViewTextBoxColumn()
-        Column1 = New DataGridViewTextBoxColumn()
-        Column2 = New DataGridViewTextBoxColumn()
-        Column3 = New DataGridViewTextBoxColumn()
-        Column4 = New DataGridViewTextBoxColumn()
-        Column5 = New DataGridViewTextBoxColumn()
-        Column6 = New DataGridViewTextBoxColumn()
-        Column19 = New DataGridViewImageColumn()
-        Column20 = New DataGridViewImageColumn()
         txtSearch = New Guna.UI2.WinForms.Guna2TextBox()
         pickOffice = New Guna.UI2.WinForms.Guna2ComboBox()
         Label29 = New Label()
@@ -293,6 +280,16 @@ Partial Class admindash
         Guna2PictureBox6 = New Guna.UI2.WinForms.Guna2PictureBox()
         TabPage5 = New TabPage()
         TabPage3 = New TabPage()
+        ImageList2 = New ImageList(components)
+        DataGridViewTextBoxColumn1 = New DataGridViewTextBoxColumn()
+        DataGridViewTextBoxColumn2 = New DataGridViewTextBoxColumn()
+        DataGridViewTextBoxColumn3 = New DataGridViewTextBoxColumn()
+        DataGridViewTextBoxColumn4 = New DataGridViewTextBoxColumn()
+        DataGridViewTextBoxColumn5 = New DataGridViewTextBoxColumn()
+        DataGridViewTextBoxColumn6 = New DataGridViewTextBoxColumn()
+        DataGridViewTextBoxColumn7 = New DataGridViewTextBoxColumn()
+        Column1 = New DataGridViewImageColumn()
+        Column2 = New DataGridViewImageColumn()
         Panel1.SuspendLayout()
         Guna2TabControl1.SuspendLayout()
         TabPage6.SuspendLayout()
@@ -1157,6 +1154,7 @@ Partial Class admindash
         pnlEmployee.Controls.Add(Label29)
         pnlEmployee.Controls.Add(Label3)
         pnlEmployee.Dock = DockStyle.Fill
+        pnlEmployee.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
         pnlEmployee.Location = New Point(3, 3)
         pnlEmployee.Name = "pnlEmployee"
         pnlEmployee.Size = New Size(1024, 710)
@@ -1164,162 +1162,57 @@ Partial Class admindash
         ' 
         ' dgMembers
         ' 
-        dgMembers.AllowUserToAddRows = False
-        dgMembers.AllowUserToDeleteRows = False
-        dgMembers.AllowUserToResizeRows = False
-        DataGridViewCellStyle1.BackColor = Color.White
-        DataGridViewCellStyle1.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle1.ForeColor = SystemColors.ControlText
-        DataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
-        DataGridViewCellStyle1.SelectionForeColor = Color.Black
+        DataGridViewCellStyle1.BackColor = Color.FromArgb(CByte(197), CByte(203), CByte(232))
         dgMembers.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle2.BackColor = Color.Firebrick
-        DataGridViewCellStyle2.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(63), CByte(81), CByte(181))
+        DataGridViewCellStyle2.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
         DataGridViewCellStyle2.ForeColor = Color.White
-        DataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
+        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
         DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
         dgMembers.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        dgMembers.ColumnHeadersHeight = 35
+        dgMembers.ColumnHeadersHeight = 32
         dgMembers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgMembers.Columns.AddRange(New DataGridViewColumn() {Column7, Column1, Column2, Column3, Column4, Column5, Column6, Column19, Column20})
-        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle6.BackColor = Color.White
-        DataGridViewCellStyle6.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle6.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
-        DataGridViewCellStyle6.SelectionForeColor = Color.Black
-        DataGridViewCellStyle6.WrapMode = DataGridViewTriState.False
-        dgMembers.DefaultCellStyle = DataGridViewCellStyle6
+        dgMembers.Columns.AddRange(New DataGridViewColumn() {DataGridViewTextBoxColumn1, DataGridViewTextBoxColumn2, DataGridViewTextBoxColumn3, DataGridViewTextBoxColumn4, DataGridViewTextBoxColumn5, DataGridViewTextBoxColumn6, DataGridViewTextBoxColumn7, Column1, Column2})
+        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = Color.FromArgb(CByte(216), CByte(220), CByte(239))
+        DataGridViewCellStyle3.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle3.ForeColor = Color.Black
+        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(127), CByte(139), CByte(205))
+        DataGridViewCellStyle3.SelectionForeColor = Color.Black
+        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
+        dgMembers.DefaultCellStyle = DataGridViewCellStyle3
         dgMembers.Dock = DockStyle.Bottom
-        dgMembers.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgMembers.Location = New Point(0, 120)
+        dgMembers.GridColor = Color.FromArgb(CByte(194), CByte(201), CByte(231))
+        dgMembers.Location = New Point(0, 137)
         dgMembers.Name = "dgMembers"
-        dgMembers.ReadOnly = True
-        dgMembers.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.TopLeft
-        DataGridViewCellStyle7.BackColor = Color.White
-        DataGridViewCellStyle7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle7.ForeColor = SystemColors.WindowText
-        DataGridViewCellStyle7.SelectionBackColor = Color.White
-        DataGridViewCellStyle7.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle7.WrapMode = DataGridViewTriState.True
-        dgMembers.RowHeadersDefaultCellStyle = DataGridViewCellStyle7
         dgMembers.RowHeadersVisible = False
         dgMembers.RowTemplate.Height = 25
-        dgMembers.Size = New Size(1024, 590)
-        dgMembers.TabIndex = 16
-        dgMembers.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
+        dgMembers.Size = New Size(1024, 573)
+        dgMembers.TabIndex = 17
+        dgMembers.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Indigo
+        dgMembers.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(197), CByte(203), CByte(232))
         dgMembers.ThemeStyle.AlternatingRowsStyle.Font = Nothing
         dgMembers.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
         dgMembers.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
         dgMembers.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
         dgMembers.ThemeStyle.BackColor = Color.White
-        dgMembers.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgMembers.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        dgMembers.ThemeStyle.GridColor = Color.FromArgb(CByte(194), CByte(201), CByte(231))
+        dgMembers.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(63), CByte(81), CByte(181))
         dgMembers.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
-        dgMembers.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point)
+        dgMembers.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
         dgMembers.ThemeStyle.HeaderStyle.ForeColor = Color.White
         dgMembers.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgMembers.ThemeStyle.HeaderStyle.Height = 35
-        dgMembers.ThemeStyle.ReadOnly = True
-        dgMembers.ThemeStyle.RowsStyle.BackColor = Color.White
+        dgMembers.ThemeStyle.HeaderStyle.Height = 32
+        dgMembers.ThemeStyle.ReadOnly = False
+        dgMembers.ThemeStyle.RowsStyle.BackColor = Color.FromArgb(CByte(216), CByte(220), CByte(239))
         dgMembers.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        dgMembers.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        dgMembers.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        dgMembers.ThemeStyle.RowsStyle.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
+        dgMembers.ThemeStyle.RowsStyle.ForeColor = Color.Black
         dgMembers.ThemeStyle.RowsStyle.Height = 25
-        dgMembers.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgMembers.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        ' 
-        ' Column7
-        ' 
-        Column7.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column7.HeaderText = "ID"
-        Column7.Name = "Column7"
-        Column7.ReadOnly = True
-        Column7.Width = 55
-        ' 
-        ' Column1
-        ' 
-        Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column1.FillWeight = 93.55709F
-        Column1.HeaderText = "FULLNAME"
-        Column1.Name = "Column1"
-        Column1.ReadOnly = True
-        ' 
-        ' Column2
-        ' 
-        Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column2.FillWeight = 93.55709F
-        Column2.HeaderText = "OFFICE"
-        Column2.Name = "Column2"
-        Column2.ReadOnly = True
-        ' 
-        ' Column3
-        ' 
-        Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column3.FillWeight = 93.55709F
-        Column3.HeaderText = "POSITION"
-        Column3.Name = "Column3"
-        Column3.ReadOnly = True
-        ' 
-        ' Column4
-        ' 
-        Column4.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column4.FillWeight = 93.55709F
-        Column4.HeaderText = "EMP. STAT"
-        Column4.Name = "Column4"
-        Column4.ReadOnly = True
-        ' 
-        ' Column5
-        ' 
-        Column5.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column5.FillWeight = 93.55709F
-        Column5.HeaderText = "EMAIL"
-        Column5.Name = "Column5"
-        Column5.ReadOnly = True
-        ' 
-        ' Column6
-        ' 
-        Column6.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleCenter
-        Column6.DefaultCellStyle = DataGridViewCellStyle3
-        Column6.FillWeight = 93.55709F
-        Column6.HeaderText = "CONTRIBUTION"
-        Column6.Name = "Column6"
-        Column6.ReadOnly = True
-        ' 
-        ' Column19
-        ' 
-        Column19.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
-        DataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle4.BackColor = Color.White
-        DataGridViewCellStyle4.NullValue = Nothing
-        Column19.DefaultCellStyle = DataGridViewCellStyle4
-        Column19.FillWeight = 108.787308F
-        Column19.HeaderText = ""
-        Column19.Image = CType(resources.GetObject("Column19.Image"), Image)
-        Column19.ImageLayout = DataGridViewImageCellLayout.Stretch
-        Column19.MinimumWidth = 28
-        Column19.Name = "Column19"
-        Column19.ReadOnly = True
-        Column19.Width = 28
-        ' 
-        ' Column20
-        ' 
-        Column20.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
-        DataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle5.BackColor = Color.White
-        DataGridViewCellStyle5.NullValue = Nothing
-        Column20.DefaultCellStyle = DataGridViewCellStyle5
-        Column20.FillWeight = 129.870132F
-        Column20.HeaderText = ""
-        Column20.Image = CType(resources.GetObject("Column20.Image"), Image)
-        Column20.ImageLayout = DataGridViewImageCellLayout.Stretch
-        Column20.MinimumWidth = 28
-        Column20.Name = "Column20"
-        Column20.ReadOnly = True
-        Column20.Width = 28
+        dgMembers.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(127), CByte(139), CByte(205))
+        dgMembers.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black
         ' 
         ' txtSearch
         ' 
@@ -1872,43 +1765,43 @@ Partial Class admindash
         ' dgBeneficiaries
         ' 
         dgBeneficiaries.AllowUserToResizeRows = False
-        DataGridViewCellStyle8.BackColor = Color.White
-        DataGridViewCellStyle8.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle8.ForeColor = SystemColors.ControlText
-        DataGridViewCellStyle8.SelectionBackColor = Color.FromArgb(CByte(203), CByte(250), CByte(249))
-        DataGridViewCellStyle8.SelectionForeColor = Color.Black
-        dgBeneficiaries.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle8
-        DataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle9.BackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
-        DataGridViewCellStyle9.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle9.ForeColor = Color.White
-        DataGridViewCellStyle9.SelectionBackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
-        DataGridViewCellStyle9.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle9.WrapMode = DataGridViewTriState.True
-        dgBeneficiaries.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle4.BackColor = Color.White
+        DataGridViewCellStyle4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle4.ForeColor = SystemColors.ControlText
+        DataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(CByte(203), CByte(250), CByte(249))
+        DataGridViewCellStyle4.SelectionForeColor = Color.Black
+        dgBeneficiaries.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
+        DataGridViewCellStyle5.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle5.ForeColor = Color.White
+        DataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
+        DataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = DataGridViewTriState.True
+        dgBeneficiaries.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
         dgBeneficiaries.ColumnHeadersHeight = 17
         dgBeneficiaries.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         dgBeneficiaries.Columns.AddRange(New DataGridViewColumn() {Column8, Column9, Column10, Column11})
-        DataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle10.BackColor = Color.White
-        DataGridViewCellStyle10.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle10.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle10.SelectionBackColor = Color.FromArgb(CByte(203), CByte(250), CByte(249))
-        DataGridViewCellStyle10.SelectionForeColor = Color.Black
-        DataGridViewCellStyle10.WrapMode = DataGridViewTriState.False
-        dgBeneficiaries.DefaultCellStyle = DataGridViewCellStyle10
+        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = Color.White
+        DataGridViewCellStyle6.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle6.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(CByte(203), CByte(250), CByte(249))
+        DataGridViewCellStyle6.SelectionForeColor = Color.Black
+        DataGridViewCellStyle6.WrapMode = DataGridViewTriState.False
+        dgBeneficiaries.DefaultCellStyle = DataGridViewCellStyle6
         dgBeneficiaries.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         dgBeneficiaries.Location = New Point(55, 307)
         dgBeneficiaries.Name = "dgBeneficiaries"
         dgBeneficiaries.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle11.BackColor = Color.White
-        DataGridViewCellStyle11.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle11.ForeColor = SystemColors.WindowText
-        DataGridViewCellStyle11.SelectionBackColor = Color.White
-        DataGridViewCellStyle11.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle11.WrapMode = DataGridViewTriState.True
-        dgBeneficiaries.RowHeadersDefaultCellStyle = DataGridViewCellStyle11
+        DataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle7.BackColor = Color.White
+        DataGridViewCellStyle7.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle7.ForeColor = SystemColors.WindowText
+        DataGridViewCellStyle7.SelectionBackColor = Color.White
+        DataGridViewCellStyle7.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle7.WrapMode = DataGridViewTriState.True
+        dgBeneficiaries.RowHeadersDefaultCellStyle = DataGridViewCellStyle7
         dgBeneficiaries.RowHeadersVisible = False
         dgBeneficiaries.RowTemplate.Height = 25
         dgBeneficiaries.Size = New Size(687, 145)
@@ -2532,6 +2425,111 @@ Partial Class admindash
         TabPage3.TabIndex = 0
         TabPage3.Text = "Fund Transfer"
         ' 
+        ' ImageList2
+        ' 
+        ImageList2.ColorDepth = ColorDepth.Depth32Bit
+        ImageList2.ImageStream = CType(resources.GetObject("ImageList2.ImageStream"), ImageListStreamer)
+        ImageList2.TransparentColor = Color.WhiteSmoke
+        ImageList2.Images.SetKeyName(0, "logout.png")
+        ImageList2.Images.SetKeyName(1, "image-removebg-preview (1).png")
+        ImageList2.Images.SetKeyName(2, "data-report.png")
+        ImageList2.Images.SetKeyName(3, "employees.png")
+        ImageList2.Images.SetKeyName(4, "funding.png")
+        ' 
+        ' DataGridViewTextBoxColumn1
+        ' 
+        DataGridViewTextBoxColumn1.AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader
+        DataGridViewTextBoxColumn1.FillWeight = 244.199356F
+        DataGridViewTextBoxColumn1.Frozen = True
+        DataGridViewTextBoxColumn1.HeaderText = "ID"
+        DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
+        DataGridViewTextBoxColumn1.ReadOnly = True
+        DataGridViewTextBoxColumn1.Width = 44
+        ' 
+        ' DataGridViewTextBoxColumn2
+        ' 
+        DataGridViewTextBoxColumn2.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
+        DataGridViewTextBoxColumn2.FillWeight = 190.185867F
+        DataGridViewTextBoxColumn2.Frozen = True
+        DataGridViewTextBoxColumn2.HeaderText = "Full name"
+        DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
+        DataGridViewTextBoxColumn2.ReadOnly = True
+        DataGridViewTextBoxColumn2.Width = 250
+        ' 
+        ' DataGridViewTextBoxColumn3
+        ' 
+        DataGridViewTextBoxColumn3.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
+        DataGridViewTextBoxColumn3.FillWeight = 33.6593857F
+        DataGridViewTextBoxColumn3.Frozen = True
+        DataGridViewTextBoxColumn3.HeaderText = "Office"
+        DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
+        DataGridViewTextBoxColumn3.ReadOnly = True
+        DataGridViewTextBoxColumn3.Width = 180
+        ' 
+        ' DataGridViewTextBoxColumn4
+        ' 
+        DataGridViewTextBoxColumn4.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
+        DataGridViewTextBoxColumn4.FillWeight = 120.618546F
+        DataGridViewTextBoxColumn4.Frozen = True
+        DataGridViewTextBoxColumn4.HeaderText = "Position"
+        DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
+        DataGridViewTextBoxColumn4.ReadOnly = True
+        DataGridViewTextBoxColumn4.Width = 120
+        ' 
+        ' DataGridViewTextBoxColumn5
+        ' 
+        DataGridViewTextBoxColumn5.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
+        DataGridViewTextBoxColumn5.FillWeight = 120.330818F
+        DataGridViewTextBoxColumn5.Frozen = True
+        DataGridViewTextBoxColumn5.HeaderText = "EMP. Stat"
+        DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
+        DataGridViewTextBoxColumn5.ReadOnly = True
+        DataGridViewTextBoxColumn5.Width = 120
+        ' 
+        ' DataGridViewTextBoxColumn6
+        ' 
+        DataGridViewTextBoxColumn6.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
+        DataGridViewTextBoxColumn6.FillWeight = 120.330818F
+        DataGridViewTextBoxColumn6.Frozen = True
+        DataGridViewTextBoxColumn6.HeaderText = "Email"
+        DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
+        DataGridViewTextBoxColumn6.ReadOnly = True
+        DataGridViewTextBoxColumn6.Width = 120
+        ' 
+        ' DataGridViewTextBoxColumn7
+        ' 
+        DataGridViewTextBoxColumn7.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
+        DataGridViewTextBoxColumn7.FillWeight = 33.6593857F
+        DataGridViewTextBoxColumn7.Frozen = True
+        DataGridViewTextBoxColumn7.HeaderText = "Contribution"
+        DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
+        DataGridViewTextBoxColumn7.ReadOnly = True
+        DataGridViewTextBoxColumn7.Width = 120
+        ' 
+        ' Column1
+        ' 
+        Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
+        Column1.FillWeight = 17.99091F
+        Column1.Frozen = True
+        Column1.HeaderText = ""
+        Column1.Image = My.Resources.Resources.pencil
+        Column1.ImageLayout = DataGridViewImageCellLayout.Zoom
+        Column1.Name = "Column1"
+        Column1.Resizable = DataGridViewTriState.False
+        Column1.Width = 30
+        ' 
+        ' Column2
+        ' 
+        Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
+        Column2.FillWeight = 17.99091F
+        Column2.Frozen = True
+        Column2.HeaderText = ""
+        Column2.Image = My.Resources.Resources.delete
+        Column2.ImageLayout = DataGridViewImageCellLayout.Zoom
+        Column2.Name = "Column2"
+        Column2.Resizable = DataGridViewTriState.False
+        Column2.Width = 30
+        ' 
         ' admindash
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -2708,20 +2706,21 @@ Partial Class admindash
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents dgMembers As Guna.UI2.WinForms.Guna2DataGridView
-    Friend WithEvents Column7 As DataGridViewTextBoxColumn
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As DataGridViewTextBoxColumn
-    Friend WithEvents Column3 As DataGridViewTextBoxColumn
-    Friend WithEvents Column4 As DataGridViewTextBoxColumn
-    Friend WithEvents Column5 As DataGridViewTextBoxColumn
-    Friend WithEvents Column6 As DataGridViewTextBoxColumn
-    Friend WithEvents Column19 As DataGridViewImageColumn
-    Friend WithEvents Column20 As DataGridViewImageColumn
     Friend WithEvents Guna2Button6 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents dgBeneficiaries As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents Column8 As DataGridViewTextBoxColumn
     Friend WithEvents Column9 As DataGridViewTextBoxColumn
     Friend WithEvents Column10 As DataGridViewTextBoxColumn
     Friend WithEvents Column11 As DataGridViewTextBoxColumn
+    Friend WithEvents dgMembers As Guna.UI2.WinForms.Guna2DataGridView
+    Friend WithEvents ImageList2 As ImageList
+    Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn3 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn4 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn5 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn6 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn7 As DataGridViewTextBoxColumn
+    Friend WithEvents Column1 As DataGridViewImageColumn
+    Friend WithEvents Column2 As DataGridViewImageColumn
 End Class

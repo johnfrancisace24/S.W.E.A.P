@@ -1,6 +1,7 @@
 ﻿Imports TheArtOfDevHtmlRenderer.Adapters.Entities
 Imports MySql.Data.MySqlClient
 Imports System.IO
+Imports DocumentFormat.OpenXml.Spreadsheet
 
 Public Class admindash
     Dim conn As New MySqlConnection("server=172.30.205.208;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -150,7 +151,59 @@ Public Class admindash
         End If
     End Sub
 
-    Private Sub dgMembers_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgMembers.CellClick
+    Private Sub txtSearch_TextChanged(sender As Object, e As EventArgs) Handles txtSearch.TextChanged
+        viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
+                                            email from users left join user_info on users.id = user_info.user_id where first_name like '%" & txtSearch.Text & "%' or
+                                            middle_name like '%" & txtSearch.Text & "%' or last_name like '%" & txtSearch.Text & "%' or office like '%" & txtSearch.Text &
+                                    "%' or position like '%" & txtSearch.Text & "%' or employment_status like '%" & txtSearch.Text & "%' or email like '%" &
+                                     txtSearch.Text & "%'")
+    End Sub
+
+
+    Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Guna2Button6.Click
+        Dim AnswerYes As String
+        AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "User Repsonse")
+
+        If AnswerYes = vbYes Then
+            Form1.Show()
+            Me.Hide()
+        End If
+    End Sub
+
+    Private Sub btnEditUpdate_Click(sender As Object, e As EventArgs) Handles btnEditUpdate.Click
+        Dim adminValue As Integer
+        If pickEditUserStat.SelectedIndex = 0 Then
+            adminValue = 1
+        Else
+            adminValue = 0
+        End If
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("update users set username=@USER, password=@PW, first_name=@FNAME, middle_name=@MNAME, last_name=@LNAME, position=@POS,
+                                            is_admin=@ADMIN, updated_at=NOW() where id=@ID", conn)
+            cmd.Parameters.AddWithValue("@USER", txtEditUsername.Text)
+            cmd.Parameters.AddWithValue("@PW", txtEditPw.Text)
+            cmd.Parameters.AddWithValue("@FNAME", txtEditFname.Text)
+            cmd.Parameters.AddWithValue("@MNAME", txtEditMname.Text)
+            cmd.Parameters.AddWithValue("@LNAME", txtEditLname.Text)
+            cmd.Parameters.AddWithValue("@POS", pickEditPosition.SelectedItem)
+            cmd.Parameters.AddWithValue("@ADMIN", adminValue)
+            cmd.Parameters.AddWithValue("@ID", selectedId)
+            cmd.ExecuteNonQuery()
+            MsgBox("successfully updated.")
+            pickOffice.SelectedIndex = 0
+            tabEditMember.Hide()
+            pnlEmployee.Show()
+        Catch ex As Exception
+            MsgBox("doesnt work update")
+        Finally
+            conn.Close()
+        End Try
+        viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
+                                            email from users left join user_info on users.id = user_info.user_id")
+    End Sub
+
+    Private Sub dgSchedule_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgMembers.CellClick
         selectedId = dgMembers.CurrentRow.Cells(0).Value.ToString()
         If e.ColumnIndex = 7 AndAlso e.RowIndex >= 0 Then '----------------FOR EDIT
 
@@ -197,7 +250,6 @@ Public Class admindash
             End Try
         ElseIf e.ColumnIndex = 8 AndAlso e.RowIndex >= 0 Then '-------------FOR DELETE
             Dim result As DialogResult = MessageBox.Show("Are you sure you want to delete" & dgMembers.CurrentRow.Cells(1).Value.ToString() & "?", "Confirmation", MessageBoxButtons.YesNo)
-
             If result = DialogResult.Yes Then
                 Dim selectedId As Integer = dgMembers.CurrentRow.Cells(0).Value.ToString()
                 Try
@@ -218,58 +270,8 @@ Public Class admindash
         viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
                                             email from users left join user_info on users.id = user_info.user_id")
     End Sub
-    Private Sub txtSearch_TextChanged(sender As Object, e As EventArgs) Handles txtSearch.TextChanged
-        viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
-                                            email from users left join user_info on users.id = user_info.user_id where first_name like '%" & txtSearch.Text & "%' or
-                                            middle_name like '%" & txtSearch.Text & "%' or last_name like '%" & txtSearch.Text & "%' or office like '%" & txtSearch.Text &
-                                    "%' or position like '%" & txtSearch.Text & "%' or employment_status like '%" & txtSearch.Text & "%' or email like '%" &
-                                     txtSearch.Text & "%'")
-    End Sub
 
-    Private Sub dgMembers_CellContentClick_1(sender As Object, e As DataGridViewCellEventArgs) Handles dgMembers.CellContentClick
+    Private Sub dgMembers_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgMembers.CellContentClick
 
-    End Sub
-
-    Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Guna2Button6.Click
-        Dim AnswerYes As String
-        AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "User Repsonse")
-
-        If AnswerYes = vbYes Then
-            Form1.Show()
-            Me.Hide()
-        End If
-    End Sub
-
-    Private Sub btnEditUpdate_Click(sender As Object, e As EventArgs) Handles btnEditUpdate.Click
-        Dim adminValue As Integer
-        If pickEditUserStat.SelectedIndex = 0 Then
-            adminValue = 1
-        Else
-            adminValue = 0
-        End If
-        Try
-            conn.Open()
-            Dim cmd As New MySqlCommand("update users set username=@USER, password=@PW, first_name=@FNAME, middle_name=@MNAME, last_name=@LNAME, position=@POS,
-                                            is_admin=@ADMIN, updated_at=NOW() where id=@ID", conn)
-            cmd.Parameters.AddWithValue("@USER", txtEditUsername.Text)
-            cmd.Parameters.AddWithValue("@PW", txtEditPw.Text)
-            cmd.Parameters.AddWithValue("@FNAME", txtEditFname.Text)
-            cmd.Parameters.AddWithValue("@MNAME", txtEditMname.Text)
-            cmd.Parameters.AddWithValue("@LNAME", txtEditLname.Text)
-            cmd.Parameters.AddWithValue("@POS", pickEditPosition.SelectedItem)
-            cmd.Parameters.AddWithValue("@ADMIN", adminValue)
-            cmd.Parameters.AddWithValue("@ID", selectedId)
-            cmd.ExecuteNonQuery()
-            MsgBox("successfully updated.")
-            pickOffice.SelectedIndex = 0
-            tabEditMember.Hide()
-            pnlEmployee.Show()
-        Catch ex As Exception
-            MsgBox("doesnt work update")
-        Finally
-            conn.Close()
-        End Try
-        viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
-                                            email from users left join user_info on users.id = user_info.user_id")
     End Sub
 End Class
