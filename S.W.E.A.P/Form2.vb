@@ -150,7 +150,26 @@ Public Class Form2
     End Sub
 
 
+    Private Sub btnSelectName_Click(sender As Object, e As EventArgs) Handles btnSelectName.Click
+        dgSelectEm.Rows.Clear()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select concat(first_name, ' ', middle_name, ' ', last_name) as full_name, username, id from users", conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                dgSelectEm.Rows.Add(rid.Item("id"), rid.Item("full_name"), rid.Item("username"))
+            End While
+        Catch ex As Exception
+            MsgBox("doesn't work lmao")
+        Finally
+            conn.Close()
+        End Try
+        pnlSelectLender.Visible = True
+    End Sub
 
+    Private Sub btnBackPanel_Click(sender As Object, e As EventArgs) Handles btnBackPanel.Click
+        pnlSelectLender.Visible = False
+    End Sub
     Private Sub btnApprove_Click(sender As Object, e As EventArgs) Handles btnApprove.Click
         Dim result As DialogResult = MessageBox.Show("Do you want to proceed?", "Confirmation", MessageBoxButtons.YesNo)
 
@@ -229,5 +248,10 @@ Public Class Form2
 
     Private Sub Form2_Load_1(sender As Object, e As EventArgs) Handles MyBase.Load '------------AUTOLOAD
         btnApprove.Enabled = False
+        pnlSelectLender.Visible = False
+    End Sub
+
+    Private Sub Guna2CircleButton1_Click(sender As Object, e As EventArgs) Handles Guna2CircleButton1.Click
+        Me.Close()
     End Sub
 End Class
