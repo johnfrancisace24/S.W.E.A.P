@@ -49,7 +49,7 @@ Public Class signups
         invalid_reset(comboCommit)
         invalid_reset(txtbxBF1)
         invalid_reset(txtbxBR1)
-        invalid_reset(txtbxBA1)
+        invalid_reset(txtBA1)
     End Sub
     Public Sub add_benefi(hook, bname, brel, bage)
         Try
@@ -120,7 +120,7 @@ Public Class signups
     Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click  '-------------NEXT BUTTON 3-------------------------'
         valid_blank(txtbxBF1.Text, "Beneficiarie's name", txtbxBF1)
         valid_blank(txtbxBR1.Text, "Beneficiarie's relationship", txtbxBR1)
-        valid_blank(txtbxBA1.Text, "Beneficiarie's age", txtbxBA1)
+        valid_blank(txtBA1.Text, "Beneficiarie's age", txtBA1)
 
         While i < error_msg.Length
             message = message & error_msg(i)
@@ -181,7 +181,7 @@ Public Class signups
                 cmd.Parameters.AddWithValue("@COMM", comboCommit.SelectedItem)
                 cmd.Parameters.AddWithValue("@BNAME1", txtbxBF1.Text)
                 cmd.Parameters.AddWithValue("@BREL1", txtbxBR1.Text)
-                cmd.Parameters.AddWithValue("@BAGE1", txtbxBA1.Text)
+                cmd.Parameters.AddWithValue("@BAGE1", txtBA1.Text)
                 cmd.Parameters.AddWithValue("@HOOK", txtbxUser.Text)
                 cmd.ExecuteNonQuery()
                 MsgBox("Added successfully!")
@@ -191,16 +191,16 @@ Public Class signups
                 conn.Close()
             End Try
             If txtbxBF2.Text <> "" Then
-                add_benefi(txtbxUser.Text, txtbxBF2.Text, txtbxBR2.Text, txtbxBA2.Text)
+                add_benefi(txtbxUser.Text, txtbxBF2.Text, txtbxBR2.Text, txtBA2.Text)
             End If
             If txtbxBF3.Text <> "" Then
-                add_benefi(txtbxUser.Text, txtbxBF3.Text, txtbxBR3.Text, txtbxBA3.Text)
+                add_benefi(txtbxUser.Text, txtbxBF3.Text, txtbxBR3.Text, txtBA3.Text)
             End If
             If txtbxBF4.Text <> "" Then
-                add_benefi(txtbxUser.Text, txtbxBF4.Text, txtbxBR4.Text, txtbxBA4.Text)
+                add_benefi(txtbxUser.Text, txtbxBF4.Text, txtbxBR4.Text, txtBA4.Text)
             End If
             If txtbxBF5.Text <> "" Then
-                add_benefi(txtbxUser.Text, txtbxBF5.Text, txtbxBR5.Text, txtbxBA5.Text)
+                add_benefi(txtbxUser.Text, txtbxBF5.Text, txtbxBR5.Text, txtBA5.Text)
             End If
             Form1.Visible = True
             Me.Visible = False
@@ -224,91 +224,35 @@ Public Class signups
         End If
     End Sub
 
-
-    '' KEY PRESS LANG TO PRE
-    Private Shared Sub txtbxFname_KeyPress(sender As Object, e As KeyPressEventArgs)
-        If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsLetter(e.KeyChar) AndAlso Not Char.IsWhiteSpace(e.KeyChar) AndAlso Not Char.IsPunctuation(e.KeyChar) Then
-            e.Handled = True
-        End If
-    End Sub
-
-    Private Sub txtbxMname_KeyPress(sender As Object, e As KeyPressEventArgs)
-        txtbxFname_KeyPress(sender, e)
-    End Sub
-
-    Private Sub txtbxLname_KeyPress(sender As Object, e As KeyPressEventArgs)
-        txtbxFname_KeyPress(sender, e)
-    End Sub
-
-    Private Sub txtbxBF1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxBF1.KeyPress
-        txtbxFname_KeyPress(sender, e)
-    End Sub
-
-    Private Sub txtbxBF2_KeyPress(sender As Object, e As EventArgs)
-        txtbxFname_KeyPress(sender, e)
-    End Sub
-
-    Private Sub txtbxBF3_KeyPress(sender As Object, e As EventArgs)
-        txtbxFname_KeyPress(sender, e)
-    End Sub
-
-    Private Sub txtbxBF4_KeyPress(sender As Object, e As EventArgs)
-        txtbxFname_KeyPress(sender, e)
-    End Sub
-
-    Private Sub txtbxBF5_KeyPress(sender As Object, e As EventArgs)
-        txtbxFname_KeyPress(sender, e)
-    End Sub
-
-    Private Sub txtbxBR1_KeyPress(sender As Object, e As EventArgs)
-        txtbxFname_KeyPress(sender, e)
-    End Sub
-
-    Private Sub txtbxBR2_KeyPress(sender As Object, e As EventArgs)
-        txtbxFname_KeyPress(sender, e)
-    End Sub
-
-    Private Sub txtbxBR3_KeyPress(sender As Object, e As EventArgs)
-        txtbxFname_KeyPress(sender, e)
-    End Sub
-
-    Private Sub txtbxBR4_KeyPress(sender As Object, e As EventArgs)
-        txtbxFname_KeyPress(sender, e)
-    End Sub
-
-    Private Sub txtbxBR5_KeyPress(sender As Object, e As EventArgs)
-        txtbxFname_KeyPress(sender, e)
-    End Sub
-
-
-    Private Shared Sub txtbxCntct_KeyPress(sender As Object, e As KeyPressEventArgs)
+    '' txt type number only
+    Private Sub txtContact_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtContact.KeyPress
         If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsDigit(e.KeyChar) Then
             e.Handled = True
         End If
-
     End Sub
 
-    Private Sub txtbxBA1_KeyPress(sender As Object, e As EventArgs)
-        txtbxCntct_KeyPress(sender, e)
+    Private Sub txtBA1_KeyPress(sender As Object, e As EventArgs) Handles txtBA1.KeyPress
+        txtContact_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBA2_KeyPress(sender As Object, e As EventArgs)
-        txtbxCntct_KeyPress(sender, e)
+    Private Sub txtBA2_KeyPress(sender As Object, e As EventArgs) Handles txtBA2.KeyPress
+        txtContact_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBA3_KeyPress(sender As Object, e As EventArgs)
-        txtbxCntct_KeyPress(sender, e)
+    Private Sub txtBA3_KeyPress(sender As Object, e As EventArgs) Handles txtBA3.KeyPress
+        txtContact_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBA4_KeyPress(sender As Object, e As EventArgs)
-        txtbxCntct_KeyPress(sender, e)
+    Private Sub txtBA4_KeyPress(sender As Object, e As EventArgs) Handles txtBA4.KeyPress
+        txtContact_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBA5_KeyPress(sender As Object, e As EventArgs)
-        txtbxCntct_KeyPress(sender, e)
+    Private Sub txtBA5_Keypress(sender As Object, e As EventArgs) Handles txtBA5.KeyPress
+        txtContact_KeyPress(sender, e)
     End Sub
 
-    'Email validation
+
+    ''Email validation
     Private Function IsValidGmail(email As String) As Boolean
         Dim gmailRegex As New Regex("^[a-zA-Z0-9_.+-]+@gmail\.com$", RegexOptions.IgnoreCase)
         Return gmailRegex.IsMatch(email)
@@ -325,5 +269,61 @@ Public Class signups
             e.Cancel = True
 
         End If
+    End Sub
+
+
+    '' KEY PRESS LANG TO PRE
+    Private Shared Sub txtFname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtFname.KeyPress
+        If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsLetter(e.KeyChar) AndAlso Not Char.IsWhiteSpace(e.KeyChar) AndAlso Not Char.IsPunctuation(e.KeyChar) Then
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub txtMname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtMname.KeyPress
+        txtFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtLname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtLname.KeyPress
+        txtFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBF1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxBF1.KeyPress
+        txtFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBF2_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF2.KeyPress
+        txtFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBF3_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF3.KeyPress
+        txtFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBF4_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF4.KeyPress
+        txtFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBF5_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF5.KeyPress
+        txtFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBR1_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR1.KeyPress
+        txtFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBR2_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR2.KeyPress
+        txtFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBR3_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR3.KeyPress
+        txtFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBR4_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR4.KeyPress
+        txtFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtbxBR5_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR5.KeyPress
+        txtFname_KeyPress(sender, e)
     End Sub
 End Class
