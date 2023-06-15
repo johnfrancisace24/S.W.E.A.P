@@ -456,7 +456,7 @@ Partial Class admindash
         Guna2TabControl1.TabButtonIdleState.BorderColor = Color.Empty
         Guna2TabControl1.TabButtonIdleState.FillColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
         Guna2TabControl1.TabButtonIdleState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TabControl1.TabButtonIdleState.ForeColor = Color.FromArgb(CByte(156), CByte(160), CByte(167))
+        Guna2TabControl1.TabButtonIdleState.ForeColor = Color.White
         Guna2TabControl1.TabButtonIdleState.InnerColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
         Guna2TabControl1.TabButtonImageAlign = HorizontalAlignment.Left
         Guna2TabControl1.TabButtonImageOffset = New Point(10, 0)
@@ -1175,10 +1175,12 @@ Partial Class admindash
         dgMembers.ColumnHeadersHeight = 32
         dgMembers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         dgMembers.Columns.AddRange(New DataGridViewColumn() {DataGridViewTextBoxColumn1, DataGridViewTextBoxColumn2, DataGridViewTextBoxColumn3, DataGridViewTextBoxColumn4, DataGridViewTextBoxColumn5, DataGridViewTextBoxColumn6, DataGridViewTextBoxColumn7, Column1, Column2})
+        dgMembers.Cursor = Cursors.Hand
         DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = Color.FromArgb(CByte(216), CByte(220), CByte(239))
         DataGridViewCellStyle3.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
         DataGridViewCellStyle3.ForeColor = Color.Black
+        DataGridViewCellStyle3.Padding = New Padding(4)
         DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(127), CByte(139), CByte(205))
         DataGridViewCellStyle3.SelectionForeColor = Color.Black
         DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
@@ -1188,7 +1190,7 @@ Partial Class admindash
         dgMembers.Location = New Point(0, 137)
         dgMembers.Name = "dgMembers"
         dgMembers.RowHeadersVisible = False
-        dgMembers.RowTemplate.Height = 25
+        dgMembers.RowTemplate.Height = 30
         dgMembers.Size = New Size(1024, 573)
         dgMembers.TabIndex = 17
         dgMembers.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Indigo
@@ -1210,7 +1212,7 @@ Partial Class admindash
         dgMembers.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
         dgMembers.ThemeStyle.RowsStyle.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
         dgMembers.ThemeStyle.RowsStyle.ForeColor = Color.Black
-        dgMembers.ThemeStyle.RowsStyle.Height = 25
+        dgMembers.ThemeStyle.RowsStyle.Height = 30
         dgMembers.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(127), CByte(139), CByte(205))
         dgMembers.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black
         ' 
@@ -2444,7 +2446,7 @@ Partial Class admindash
         DataGridViewTextBoxColumn1.HeaderText = "ID"
         DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
         DataGridViewTextBoxColumn1.ReadOnly = True
-        DataGridViewTextBoxColumn1.Width = 44
+        DataGridViewTextBoxColumn1.Width = 52
         ' 
         ' DataGridViewTextBoxColumn2
         ' 
@@ -2504,7 +2506,6 @@ Partial Class admindash
         DataGridViewTextBoxColumn7.HeaderText = "Contribution"
         DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
         DataGridViewTextBoxColumn7.ReadOnly = True
-        DataGridViewTextBoxColumn7.Width = 120
         ' 
         ' Column1
         ' 
@@ -2512,11 +2513,11 @@ Partial Class admindash
         Column1.FillWeight = 17.99091F
         Column1.Frozen = True
         Column1.HeaderText = ""
-        Column1.Image = My.Resources.Resources.pencil
+        Column1.Image = My.Resources.Resources.edit
         Column1.ImageLayout = DataGridViewImageCellLayout.Zoom
         Column1.Name = "Column1"
         Column1.Resizable = DataGridViewTriState.False
-        Column1.Width = 30
+        Column1.Width = 40
         ' 
         ' Column2
         ' 
@@ -2524,11 +2525,11 @@ Partial Class admindash
         Column2.FillWeight = 17.99091F
         Column2.Frozen = True
         Column2.HeaderText = ""
-        Column2.Image = My.Resources.Resources.delete
+        Column2.Image = My.Resources.Resources.delete1
         Column2.ImageLayout = DataGridViewImageCellLayout.Zoom
         Column2.Name = "Column2"
         Column2.Resizable = DataGridViewTriState.False
-        Column2.Width = 30
+        Column2.Width = 40
         ' 
         ' admindash
         ' 
