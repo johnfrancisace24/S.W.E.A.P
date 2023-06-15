@@ -73,6 +73,10 @@ Partial Class Form2
         TabPage1 = New TabPage()
         pnlSelectLender = New Panel()
         dgSelectEm = New Guna.UI2.WinForms.Guna2DataGridView()
+        Column11 = New DataGridViewTextBoxColumn()
+        Column12 = New DataGridViewTextBoxColumn()
+        Column13 = New DataGridViewTextBoxColumn()
+        Column15 = New DataGridViewImageColumn()
         btnBackPanel = New Guna.UI2.WinForms.Guna2CircleButton()
         btnSelectName = New Guna.UI2.WinForms.Guna2Button()
         btnReset = New Guna.UI2.WinForms.Guna2Button()
@@ -122,10 +126,6 @@ Partial Class Form2
         Guna2DataGridView2 = New Guna.UI2.WinForms.Guna2DataGridView()
         Label13 = New Label()
         Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
-        Column11 = New DataGridViewTextBoxColumn()
-        Column12 = New DataGridViewTextBoxColumn()
-        Column13 = New DataGridViewTextBoxColumn()
-        Column15 = New DataGridViewImageColumn()
         Guna2TabControl1.SuspendLayout()
         TabPage1.SuspendLayout()
         pnlSelectLender.SuspendLayout()
@@ -230,6 +230,7 @@ Partial Class Form2
         ' 
         ' dgSelectEm
         ' 
+        dgSelectEm.AllowUserToAddRows = False
         DataGridViewCellStyle1.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
         dgSelectEm.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
@@ -280,6 +281,38 @@ Partial Class Form2
         dgSelectEm.ThemeStyle.RowsStyle.Height = 25
         dgSelectEm.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
         dgSelectEm.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black
+        ' 
+        ' Column11
+        ' 
+        Column11.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column11.HeaderText = "ID"
+        Column11.Name = "Column11"
+        Column11.ReadOnly = True
+        Column11.Width = 41
+        ' 
+        ' Column12
+        ' 
+        Column12.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column12.HeaderText = "Full Name"
+        Column12.Name = "Column12"
+        Column12.ReadOnly = True
+        ' 
+        ' Column13
+        ' 
+        Column13.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column13.HeaderText = "Username"
+        Column13.Name = "Column13"
+        Column13.ReadOnly = True
+        ' 
+        ' Column15
+        ' 
+        Column15.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
+        Column15.FillWeight = 20F
+        Column15.HeaderText = ""
+        Column15.Image = My.Resources.Resources.icons8_check_mark_button_96
+        Column15.ImageLayout = DataGridViewImageCellLayout.Stretch
+        Column15.Name = "Column15"
+        Column15.Width = 30
         ' 
         ' btnBackPanel
         ' 
@@ -973,38 +1006,6 @@ Partial Class Form2
         Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Guna2CircleButton1.Size = New Size(45, 39)
         Guna2CircleButton1.TabIndex = 3
-        ' 
-        ' Column11
-        ' 
-        Column11.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column11.HeaderText = "ID"
-        Column11.Name = "Column11"
-        Column11.ReadOnly = True
-        Column11.Width = 41
-        ' 
-        ' Column12
-        ' 
-        Column12.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column12.HeaderText = "Full Name"
-        Column12.Name = "Column12"
-        Column12.ReadOnly = True
-        ' 
-        ' Column13
-        ' 
-        Column13.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column13.HeaderText = "Username"
-        Column13.Name = "Column13"
-        Column13.ReadOnly = True
-        ' 
-        ' Column15
-        ' 
-        Column15.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
-        Column15.FillWeight = 20F
-        Column15.HeaderText = ""
-        Column15.Image = My.Resources.Resources.icons8_check_mark_button_96
-        Column15.ImageLayout = DataGridViewImageCellLayout.Stretch
-        Column15.Name = "Column15"
-        Column15.Width = 30
         ' 
         ' Form2
         ' 

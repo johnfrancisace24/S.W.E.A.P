@@ -1,4 +1,6 @@
-﻿Imports DocumentFormat.OpenXml.Wordprocessing
+﻿Imports DocumentFormat.OpenXml.Drawing.Charts
+Imports DocumentFormat.OpenXml.Spreadsheet
+Imports DocumentFormat.OpenXml.Wordprocessing
 Imports MySql.Data.MySqlClient
 Public Class Form2
     '-----------------------------------VARIABLE DECLARATION------------------------------------------
@@ -25,6 +27,7 @@ Public Class Form2
     Dim message As String
     Dim conn As New MySqlConnection("server=172.30.205.208;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
+    Dim selectedId As Integer = 0
     '-----------------------------------END OF VARIABLE DECLARATION-------------------------------------------
     '--------------------------------------FUNCTIONS----------------------------------------------------------
     Public Sub common_calculation()
@@ -57,6 +60,9 @@ Public Class Form2
         txtTotalInterest.Text = ""
         CumuInterest = 0
         dgSchedule.Rows.Clear()
+        selectedId = 0
+        txtLenderName.Text = ""
+        txtName.Text = ""
     End Sub
     Public Sub mathing()
         beginningBalance = Math.Round(beginningBalance, 2)
@@ -73,6 +79,11 @@ Public Class Form2
         validation(numAintRate.Value, 0, "Anual Interest rate can't be less than or equal to 0.")
         validation(numPyears.Value, 0, "Loan Period in years can't be less than or equal to 0.")
         validation(numPayYears.Value, 11, "Number of payment per year can't be less than 12.")
+        If selectedId = 0 Then
+            error_msg(random) = "Lender name can't be blank." & vbNewLine
+            random = random + 1
+            ReDim Preserve error_msg(random)
+        End If
         While i < error_msg.Length
             message = message & error_msg(i)
             i = i + 1
@@ -132,6 +143,7 @@ Public Class Form2
             txtActualNumPayment.Text = payment
             txtTotalEarlyPayment.Text = totalEarlyPayment
             txtTotalInterest.Text = CumuInterest
+            txtName.Text = txtLenderName.Text
             '-----------------------------------END OF RESULT--------------------------------------------------
             btnSetSched.Enabled = False
             btnApprove.Enabled = True
@@ -210,8 +222,9 @@ Public Class Form2
                 Try
                     conn.Open()
                     Dim cmd As New MySqlCommand("INSERT INTO loans(user_id, pmt_no, payment_date, beginning_balance, scheduled_payment, extra_payment,
-                                                total_payment, principal, interest, ending_balance, cumulative_interest) VALUES(1, @PAYMENT,
+                                                total_payment, principal, interest, ending_balance, cumulative_interest) VALUES(@ID, @PAYMENT,
                                                     @DATE, @BEGBAL, @SCHEDP, @XTRA, @TPAYMENT, @PRINCIPAL, @INTEREST, @ENDBAL, @CUMINTEREST)", conn)
+                    cmd.Parameters.AddWithValue("@ID", selectedId)
                     cmd.Parameters.AddWithValue("@PAYMENT", payment)
                     cmd.Parameters.AddWithValue("@DATE", selectedDate)
                     cmd.Parameters.AddWithValue("@BEGBAL", beginningBalance)
@@ -253,5 +266,15 @@ Public Class Form2
 
     Private Sub Guna2CircleButton1_Click(sender As Object, e As EventArgs) Handles Guna2CircleButton1.Click
         Me.Close()
+    End Sub
+
+    Private Sub dgSelectEm_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgSelectEm.CellClick
+        If e.ColumnIndex = 3 AndAlso e.RowIndex >= 0 Then '----------------TO SELECT
+            If String.IsNullOrEmpty(dgSelectEm.CurrentRow.Cells(0).Value.ToString()) = False Then
+                selectedId = dgSelectEm.CurrentRow.Cells(0).Value.ToString()
+                txtLenderName.Text = dgSelectEm.CurrentRow.Cells(1).Value.ToString()
+                pnlSelectLender.Visible = False
+            End If
+        End If
     End Sub
 End Class
