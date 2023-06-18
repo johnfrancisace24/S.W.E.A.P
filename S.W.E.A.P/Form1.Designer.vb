@@ -72,7 +72,7 @@ Partial Class Form1
         Guna2ShadowPanel1.Controls.Add(bttLogin)
         Guna2ShadowPanel1.Controls.Add(CheckBoxShowPass)
         Guna2ShadowPanel1.Controls.Add(txtbxPassword)
-        Guna2ShadowPanel1.FillColor = Color.DarkRed
+        Guna2ShadowPanel1.FillColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
         Guna2ShadowPanel1.Location = New Point(334, 32)
         Guna2ShadowPanel1.Name = "Guna2ShadowPanel1"
         Guna2ShadowPanel1.Radius = 15

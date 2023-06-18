@@ -1337,7 +1337,7 @@ Partial Class SignUp
         ' 
         ' Guna2ShadowPanel1
         ' 
-        Guna2ShadowPanel1.BackColor = Color.Transparent
+        Guna2ShadowPanel1.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
         Guna2ShadowPanel1.BorderStyle = BorderStyle.FixedSingle
         Guna2ShadowPanel1.Controls.Add(dateBday)
         Guna2ShadowPanel1.Controls.Add(Label28)
@@ -1376,6 +1376,7 @@ Partial Class SignUp
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
         ClientSize = New Size(1110, 538)
         Controls.Add(rdiobttnAccnt)
         Controls.Add(rdiobttnBene)

@@ -55,32 +55,32 @@ Public Class admindash
         End Try
     End Sub
 
-    Private Sub btnBenRemove_Click(sender As Object, e As EventArgs) Handles btnBenRemove.Click
-        Dim result As DialogResult = MessageBox.Show("Are you sure you want to remove " & dgBeneficiaries.CurrentRow.Cells(1).Value.ToString() &
-                                                      " from beneficiaries?", "Confirmation", MessageBoxButtons.YesNo)
-        If result = DialogResult.Yes Then
-            Try
-                conn.Open()
-                Dim cmd As New MySqlCommand("delete from beneficiaries where id=@ID", conn)
-                cmd.Parameters.AddWithValue("@ID", selectedBenId)
-                cmd.ExecuteNonQuery()
-                MsgBox("Record has been removed.")
-                beneficiariesRecord()
-                countBen()
-            Catch ex As Exception
-                MsgBox("operation failed")
-            Finally
-                conn.Close()
-            End Try
-        End If
-        If currentBen < 5 Then
-            txtEditAddBen.Enabled = True
-            txtEditAddBenAge.Enabled = True
-            txtEditAddBenRel.Enabled = True
-            btnEditAddBen.Enabled = True
-        End If
-        beneficiariesRecord()
-    End Sub
+    'private sub btnbenremove_click(sender as object, e as eventargs) handles btnbenremove.click
+    '    dim result as dialogresult = messagebox.show("are you sure you want to remove " & dgbeneficiaries.currentrow.cells(1).value.tostring() &
+    '                                                  " from beneficiaries?", "confirmation", messageboxbuttons.yesno)
+    '    if result = dialogresult.yes then
+    '        try
+    '            conn.open()
+    '           dim cmd as new mysqlcommand("delete from beneficiaries where id=@id", conn)
+    '            cmd.parameters.addwithvalue("@id", selectedbenid)
+    '            cmd.executenonquery()
+    '            msgbox("record has been removed.")
+    '            beneficiariesrecord()
+    '            countben()
+    '        catch ex as exception
+    '            msgbox("operation failed")
+    '        finally
+    '            conn.close()
+    '        end try
+    '    end if
+    '    if currentben < 5 then
+    '        txteditaddben.enabled = true
+    '        txteditaddbenage.enabled = true
+    '        txteditaddbenrel.enabled = true
+    '        btneditaddben.enabled = true
+    '    end if
+    '    beneficiariesrecord()
+    'end sub
 
     Private Sub btnEditAddBen_Click(sender As Object, e As EventArgs) Handles btnEditAddBen.Click
         countBen()
