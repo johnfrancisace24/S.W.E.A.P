@@ -297,6 +297,7 @@ Public Class Loan
         Dim idSelect As Integer
         If e.ColumnIndex = 3 AndAlso e.RowIndex >= 0 Then '----------------TO SELECT
             dgLoans.Rows.Clear()
+            dgLoanSchedule.Rows.Clear()
             idSelect = dgEmList.CurrentRow.Cells(0).Value.ToString()
             Try
                 conn.Open()
@@ -317,15 +318,15 @@ Public Class Loan
     Private Sub dgLoans_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgLoans.CellClick
         Dim idSelect As Integer
         If e.ColumnIndex = 7 AndAlso e.RowIndex >= 0 Then '----------------TO SELECT
-            dgLoans.Rows.Clear()
-            idSelect = dgEmList.CurrentRow.Cells(0).Value.ToString()
+            idSelect = dgLoans.CurrentRow.Cells(0).Value.ToString()
+            dgLoanSchedule.Rows.Clear()
             Try
                 conn.Open()
                 Dim cmd As New MySqlCommand("select * from loans where loan_id=@ID", conn)
                 cmd.Parameters.AddWithValue("@ID", idSelect)
                 rid = cmd.ExecuteReader
                 While rid.Read
-                    dgLoans.Rows.Add(rid.Item("id"), rid.Item("loan_amount"), rid.Item("anual_interest_rate"), rid.Item("loan_period_years"), rid.Item("no_payments_per_year"), rid.Item("start_date_of_loan"), rid.Item("optional_xtra"))
+                    dgLoanSchedule.Rows.Add(rid.Item("id"), rid.Item("pmt_no"), rid.Item("payment_date"), rid.Item("beginning_balance"), rid.Item("scheduled_payment"), rid.Item("extra_payment"), rid.Item("total_payment"), rid.Item("principal"), rid.Item("interest"), rid.Item("ending_balance"), rid.Item("cumulative_interest"))
                 End While
             Catch ex As Exception
                 MsgBox("EW error")
@@ -335,7 +336,4 @@ Public Class Loan
         End If
     End Sub
 
-    Private Sub dgEmList_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgEmList.CellContentClick
-
-    End Sub
 End Class

@@ -23,57 +23,57 @@ Partial Class Loan
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges59 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges60 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges61 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges62 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges63 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges64 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges65 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges66 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges67 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges68 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges69 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges70 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges71 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle16 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle17 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges72 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle19 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle20 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle21 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle22 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle23 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle24 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle25 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle26 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle28 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle29 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle30 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle14 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle15 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
         TabPage1 = New TabPage()
@@ -212,10 +212,10 @@ Partial Class Loan
         Guna2TabControl1.TabButtonIdleState.ForeColor = Color.WhiteSmoke
         Guna2TabControl1.TabButtonIdleState.InnerColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
         Guna2TabControl1.TabButtonSelectedState.BorderColor = Color.Empty
-        Guna2TabControl1.TabButtonSelectedState.FillColor = Color.WhiteSmoke
+        Guna2TabControl1.TabButtonSelectedState.FillColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
         Guna2TabControl1.TabButtonSelectedState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2TabControl1.TabButtonSelectedState.ForeColor = Color.FromArgb(CByte(167), CByte(41), CByte(36))
-        Guna2TabControl1.TabButtonSelectedState.InnerColor = Color.FromArgb(CByte(167), CByte(41), CByte(36))
+        Guna2TabControl1.TabButtonSelectedState.InnerColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
         Guna2TabControl1.TabButtonSize = New Size(180, 40)
         Guna2TabControl1.TabIndex = 0
         Guna2TabControl1.TabMenuBackColor = Color.FromArgb(CByte(29), CByte(37), CByte(49))
@@ -252,7 +252,7 @@ Partial Class Loan
         ' 
         ' btnSelectName
         ' 
-        btnSelectName.CustomizableEdges = CustomizableEdges38
+        btnSelectName.CustomizableEdges = CustomizableEdges2
         btnSelectName.DisabledState.BorderColor = Color.DarkGray
         btnSelectName.DisabledState.CustomBorderColor = Color.DarkGray
         btnSelectName.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -262,14 +262,14 @@ Partial Class Loan
         btnSelectName.ForeColor = Color.Black
         btnSelectName.Location = New Point(376, 10)
         btnSelectName.Name = "btnSelectName"
-        btnSelectName.ShadowDecoration.CustomizableEdges = CustomizableEdges39
+        btnSelectName.ShadowDecoration.CustomizableEdges = CustomizableEdges3
         btnSelectName.Size = New Size(73, 29)
         btnSelectName.TabIndex = 8
         btnSelectName.Text = "SELECT"
         ' 
         ' btnReset
         ' 
-        btnReset.CustomizableEdges = CustomizableEdges40
+        btnReset.CustomizableEdges = CustomizableEdges4
         btnReset.DisabledState.BorderColor = Color.DarkGray
         btnReset.DisabledState.CustomBorderColor = Color.DarkGray
         btnReset.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -279,14 +279,14 @@ Partial Class Loan
         btnReset.ForeColor = Color.Black
         btnReset.Location = New Point(726, 10)
         btnReset.Name = "btnReset"
-        btnReset.ShadowDecoration.CustomizableEdges = CustomizableEdges41
+        btnReset.ShadowDecoration.CustomizableEdges = CustomizableEdges5
         btnReset.Size = New Size(129, 29)
         btnReset.TabIndex = 8
         btnReset.Text = "RESET"
         ' 
         ' btnApprove
         ' 
-        btnApprove.CustomizableEdges = CustomizableEdges42
+        btnApprove.CustomizableEdges = CustomizableEdges6
         btnApprove.DisabledState.BorderColor = Color.DarkGray
         btnApprove.DisabledState.CustomBorderColor = Color.DarkGray
         btnApprove.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -296,14 +296,14 @@ Partial Class Loan
         btnApprove.ForeColor = Color.Black
         btnApprove.Location = New Point(862, 10)
         btnApprove.Name = "btnApprove"
-        btnApprove.ShadowDecoration.CustomizableEdges = CustomizableEdges43
+        btnApprove.ShadowDecoration.CustomizableEdges = CustomizableEdges7
         btnApprove.Size = New Size(129, 29)
         btnApprove.TabIndex = 7
         btnApprove.Text = "APPROVE"
         ' 
         ' txtLenderName
         ' 
-        txtLenderName.CustomizableEdges = CustomizableEdges44
+        txtLenderName.CustomizableEdges = CustomizableEdges8
         txtLenderName.DefaultText = ""
         txtLenderName.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtLenderName.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -318,13 +318,13 @@ Partial Class Loan
         txtLenderName.PasswordChar = ChrW(0)
         txtLenderName.PlaceholderText = ""
         txtLenderName.SelectedText = ""
-        txtLenderName.ShadowDecoration.CustomizableEdges = CustomizableEdges45
+        txtLenderName.ShadowDecoration.CustomizableEdges = CustomizableEdges9
         txtLenderName.Size = New Size(266, 29)
         txtLenderName.TabIndex = 5
         ' 
         ' btnSetSched
         ' 
-        btnSetSched.CustomizableEdges = CustomizableEdges46
+        btnSetSched.CustomizableEdges = CustomizableEdges10
         btnSetSched.DisabledState.BorderColor = Color.DarkGray
         btnSetSched.DisabledState.CustomBorderColor = Color.DarkGray
         btnSetSched.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -334,7 +334,7 @@ Partial Class Loan
         btnSetSched.ForeColor = Color.Black
         btnSetSched.Location = New Point(998, 10)
         btnSetSched.Name = "btnSetSched"
-        btnSetSched.ShadowDecoration.CustomizableEdges = CustomizableEdges47
+        btnSetSched.ShadowDecoration.CustomizableEdges = CustomizableEdges11
         btnSetSched.Size = New Size(131, 29)
         btnSetSched.TabIndex = 4
         btnSetSched.Text = "SET SCHEDULE"
@@ -374,7 +374,7 @@ Partial Class Loan
         ' dateStart
         ' 
         dateStart.Checked = True
-        dateStart.CustomizableEdges = CustomizableEdges48
+        dateStart.CustomizableEdges = CustomizableEdges12
         dateStart.FillColor = Color.White
         dateStart.FocusedColor = Color.White
         dateStart.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
@@ -383,7 +383,7 @@ Partial Class Loan
         dateStart.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
         dateStart.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
         dateStart.Name = "dateStart"
-        dateStart.ShadowDecoration.CustomizableEdges = CustomizableEdges49
+        dateStart.ShadowDecoration.CustomizableEdges = CustomizableEdges13
         dateStart.Size = New Size(218, 25)
         dateStart.TabIndex = 3
         dateStart.Value = New DateTime(2023, 6, 14, 8, 36, 49, 499)
@@ -471,12 +471,12 @@ Partial Class Loan
         ' numXtraP
         ' 
         numXtraP.BackColor = Color.Transparent
-        numXtraP.CustomizableEdges = CustomizableEdges50
+        numXtraP.CustomizableEdges = CustomizableEdges14
         numXtraP.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numXtraP.Location = New Point(244, 197)
         numXtraP.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
         numXtraP.Name = "numXtraP"
-        numXtraP.ShadowDecoration.CustomizableEdges = CustomizableEdges51
+        numXtraP.ShadowDecoration.CustomizableEdges = CustomizableEdges15
         numXtraP.Size = New Size(218, 25)
         numXtraP.TabIndex = 1
         numXtraP.UpDownButtonFillColor = Color.FromArgb(CByte(214), CByte(185), CByte(0))
@@ -484,12 +484,12 @@ Partial Class Loan
         ' numPayYears
         ' 
         numPayYears.BackColor = Color.Transparent
-        numPayYears.CustomizableEdges = CustomizableEdges52
+        numPayYears.CustomizableEdges = CustomizableEdges16
         numPayYears.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numPayYears.Location = New Point(244, 134)
         numPayYears.Maximum = New [Decimal](New Integer() {52, 0, 0, 0})
         numPayYears.Name = "numPayYears"
-        numPayYears.ShadowDecoration.CustomizableEdges = CustomizableEdges53
+        numPayYears.ShadowDecoration.CustomizableEdges = CustomizableEdges17
         numPayYears.Size = New Size(218, 25)
         numPayYears.TabIndex = 1
         numPayYears.UpDownButtonFillColor = Color.FromArgb(CByte(214), CByte(185), CByte(0))
@@ -497,12 +497,12 @@ Partial Class Loan
         ' numPyears
         ' 
         numPyears.BackColor = Color.Transparent
-        numPyears.CustomizableEdges = CustomizableEdges54
+        numPyears.CustomizableEdges = CustomizableEdges18
         numPyears.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numPyears.Location = New Point(244, 102)
         numPyears.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
         numPyears.Name = "numPyears"
-        numPyears.ShadowDecoration.CustomizableEdges = CustomizableEdges55
+        numPyears.ShadowDecoration.CustomizableEdges = CustomizableEdges19
         numPyears.Size = New Size(218, 25)
         numPyears.TabIndex = 1
         numPyears.UpDownButtonFillColor = Color.FromArgb(CByte(214), CByte(185), CByte(0))
@@ -510,12 +510,12 @@ Partial Class Loan
         ' numAintRate
         ' 
         numAintRate.BackColor = Color.Transparent
-        numAintRate.CustomizableEdges = CustomizableEdges56
+        numAintRate.CustomizableEdges = CustomizableEdges20
         numAintRate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numAintRate.Location = New Point(244, 71)
         numAintRate.Maximum = New [Decimal](New Integer() {30, 0, 0, 0})
         numAintRate.Name = "numAintRate"
-        numAintRate.ShadowDecoration.CustomizableEdges = CustomizableEdges57
+        numAintRate.ShadowDecoration.CustomizableEdges = CustomizableEdges21
         numAintRate.Size = New Size(218, 25)
         numAintRate.TabIndex = 1
         numAintRate.UpDownButtonFillColor = Color.FromArgb(CByte(214), CByte(185), CByte(0))
@@ -523,12 +523,12 @@ Partial Class Loan
         ' numLamount
         ' 
         numLamount.BackColor = Color.Transparent
-        numLamount.CustomizableEdges = CustomizableEdges58
+        numLamount.CustomizableEdges = CustomizableEdges22
         numLamount.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numLamount.Location = New Point(244, 40)
         numLamount.Maximum = New [Decimal](New Integer() {1215752192, 23, 0, 0})
         numLamount.Name = "numLamount"
-        numLamount.ShadowDecoration.CustomizableEdges = CustomizableEdges59
+        numLamount.ShadowDecoration.CustomizableEdges = CustomizableEdges23
         numLamount.Size = New Size(218, 25)
         numLamount.TabIndex = 1
         numLamount.UpDownButtonFillColor = Color.FromArgb(CByte(214), CByte(185), CByte(0))
@@ -556,7 +556,7 @@ Partial Class Loan
         ' 
         ' txtName
         ' 
-        txtName.CustomizableEdges = CustomizableEdges60
+        txtName.CustomizableEdges = CustomizableEdges24
         txtName.DefaultText = ""
         txtName.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtName.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -571,13 +571,13 @@ Partial Class Loan
         txtName.PasswordChar = ChrW(0)
         txtName.PlaceholderText = ""
         txtName.SelectedText = ""
-        txtName.ShadowDecoration.CustomizableEdges = CustomizableEdges61
+        txtName.ShadowDecoration.CustomizableEdges = CustomizableEdges25
         txtName.Size = New Size(315, 25)
         txtName.TabIndex = 5
         ' 
         ' txtTotalInterest
         ' 
-        txtTotalInterest.CustomizableEdges = CustomizableEdges62
+        txtTotalInterest.CustomizableEdges = CustomizableEdges26
         txtTotalInterest.DefaultText = ""
         txtTotalInterest.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtTotalInterest.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -592,13 +592,13 @@ Partial Class Loan
         txtTotalInterest.PasswordChar = ChrW(0)
         txtTotalInterest.PlaceholderText = ""
         txtTotalInterest.SelectedText = ""
-        txtTotalInterest.ShadowDecoration.CustomizableEdges = CustomizableEdges63
+        txtTotalInterest.ShadowDecoration.CustomizableEdges = CustomizableEdges27
         txtTotalInterest.Size = New Size(315, 25)
         txtTotalInterest.TabIndex = 5
         ' 
         ' txtTotalEarlyPayment
         ' 
-        txtTotalEarlyPayment.CustomizableEdges = CustomizableEdges64
+        txtTotalEarlyPayment.CustomizableEdges = CustomizableEdges28
         txtTotalEarlyPayment.DefaultText = ""
         txtTotalEarlyPayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtTotalEarlyPayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -613,13 +613,13 @@ Partial Class Loan
         txtTotalEarlyPayment.PasswordChar = ChrW(0)
         txtTotalEarlyPayment.PlaceholderText = ""
         txtTotalEarlyPayment.SelectedText = ""
-        txtTotalEarlyPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges65
+        txtTotalEarlyPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges29
         txtTotalEarlyPayment.Size = New Size(315, 25)
         txtTotalEarlyPayment.TabIndex = 5
         ' 
         ' txtActualNumPayment
         ' 
-        txtActualNumPayment.CustomizableEdges = CustomizableEdges66
+        txtActualNumPayment.CustomizableEdges = CustomizableEdges30
         txtActualNumPayment.DefaultText = ""
         txtActualNumPayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtActualNumPayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -634,13 +634,13 @@ Partial Class Loan
         txtActualNumPayment.PasswordChar = ChrW(0)
         txtActualNumPayment.PlaceholderText = ""
         txtActualNumPayment.SelectedText = ""
-        txtActualNumPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges67
+        txtActualNumPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges31
         txtActualNumPayment.Size = New Size(315, 25)
         txtActualNumPayment.TabIndex = 5
         ' 
         ' txtSnumberPayment
         ' 
-        txtSnumberPayment.CustomizableEdges = CustomizableEdges68
+        txtSnumberPayment.CustomizableEdges = CustomizableEdges32
         txtSnumberPayment.DefaultText = ""
         txtSnumberPayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtSnumberPayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -655,13 +655,13 @@ Partial Class Loan
         txtSnumberPayment.PasswordChar = ChrW(0)
         txtSnumberPayment.PlaceholderText = ""
         txtSnumberPayment.SelectedText = ""
-        txtSnumberPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges69
+        txtSnumberPayment.ShadowDecoration.CustomizableEdges = CustomizableEdges33
         txtSnumberPayment.Size = New Size(315, 25)
         txtSnumberPayment.TabIndex = 5
         ' 
         ' txtSpayment
         ' 
-        txtSpayment.CustomizableEdges = CustomizableEdges70
+        txtSpayment.CustomizableEdges = CustomizableEdges34
         txtSpayment.DefaultText = ""
         txtSpayment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtSpayment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -676,7 +676,7 @@ Partial Class Loan
         txtSpayment.PasswordChar = ChrW(0)
         txtSpayment.PlaceholderText = ""
         txtSpayment.SelectedText = ""
-        txtSpayment.ShadowDecoration.CustomizableEdges = CustomizableEdges71
+        txtSpayment.ShadowDecoration.CustomizableEdges = CustomizableEdges35
         txtSpayment.Size = New Size(315, 25)
         txtSpayment.TabIndex = 5
         ' 
@@ -762,27 +762,27 @@ Partial Class Loan
         ' dgSelectEm
         ' 
         dgSelectEm.AllowUserToAddRows = False
-        DataGridViewCellStyle16.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
-        dgSelectEm.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle16
-        DataGridViewCellStyle17.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle17.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
-        DataGridViewCellStyle17.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle17.ForeColor = Color.White
-        DataGridViewCellStyle17.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle17.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle17.WrapMode = DataGridViewTriState.True
-        dgSelectEm.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle17
+        DataGridViewCellStyle1.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
+        dgSelectEm.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
+        DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle2.ForeColor = Color.White
+        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
+        dgSelectEm.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         dgSelectEm.ColumnHeadersHeight = 17
         dgSelectEm.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         dgSelectEm.Columns.AddRange(New DataGridViewColumn() {Column11, Column12, Column13, Column15})
-        DataGridViewCellStyle18.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle18.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
-        DataGridViewCellStyle18.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle18.ForeColor = Color.Black
-        DataGridViewCellStyle18.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
-        DataGridViewCellStyle18.SelectionForeColor = Color.Black
-        DataGridViewCellStyle18.WrapMode = DataGridViewTriState.False
-        dgSelectEm.DefaultCellStyle = DataGridViewCellStyle18
+        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
+        DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle3.ForeColor = Color.Black
+        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
+        DataGridViewCellStyle3.SelectionForeColor = Color.Black
+        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
+        dgSelectEm.DefaultCellStyle = DataGridViewCellStyle3
         dgSelectEm.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
         dgSelectEm.Location = New Point(15, 56)
         dgSelectEm.Name = "dgSelectEm"
@@ -858,34 +858,34 @@ Partial Class Loan
         btnBackPanel.Image = My.Resources.Resources.back
         btnBackPanel.Location = New Point(439, 6)
         btnBackPanel.Name = "btnBackPanel"
-        btnBackPanel.ShadowDecoration.CustomizableEdges = CustomizableEdges72
+        btnBackPanel.ShadowDecoration.CustomizableEdges = CustomizableEdges36
         btnBackPanel.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         btnBackPanel.Size = New Size(40, 33)
         btnBackPanel.TabIndex = 3
         ' 
         ' dgSchedule
         ' 
-        DataGridViewCellStyle19.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
-        dgSchedule.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle19
-        DataGridViewCellStyle20.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle20.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
-        DataGridViewCellStyle20.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle20.ForeColor = Color.White
-        DataGridViewCellStyle20.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle20.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle20.WrapMode = DataGridViewTriState.True
-        dgSchedule.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle20
+        DataGridViewCellStyle4.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
+        dgSchedule.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
+        DataGridViewCellStyle5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle5.ForeColor = Color.White
+        DataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = DataGridViewTriState.True
+        dgSchedule.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
         dgSchedule.ColumnHeadersHeight = 32
         dgSchedule.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         dgSchedule.Columns.AddRange(New DataGridViewColumn() {Column1, Column2, Column3, Column4, Column5, Column6, Column7, Column8, Column9, Column10})
-        DataGridViewCellStyle21.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle21.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
-        DataGridViewCellStyle21.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle21.ForeColor = Color.Black
-        DataGridViewCellStyle21.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
-        DataGridViewCellStyle21.SelectionForeColor = Color.White
-        DataGridViewCellStyle21.WrapMode = DataGridViewTriState.False
-        dgSchedule.DefaultCellStyle = DataGridViewCellStyle21
+        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
+        DataGridViewCellStyle6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle6.ForeColor = Color.Black
+        DataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
+        DataGridViewCellStyle6.SelectionForeColor = Color.White
+        DataGridViewCellStyle6.WrapMode = DataGridViewTriState.False
+        dgSchedule.DefaultCellStyle = DataGridViewCellStyle6
         dgSchedule.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
         dgSchedule.Location = New Point(19, 325)
         dgSchedule.Name = "dgSchedule"
@@ -1003,7 +1003,7 @@ Partial Class Loan
         Panel6.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
         Panel6.Controls.Add(Label20)
         Panel6.Controls.Add(dgLoanSchedule)
-        Panel6.Location = New Point(15, 418)
+        Panel6.Location = New Point(16, 408)
         Panel6.Name = "Panel6"
         Panel6.Size = New Size(1150, 237)
         Panel6.TabIndex = 6
@@ -1022,27 +1022,27 @@ Partial Class Loan
         ' 
         dgLoanSchedule.AllowUserToAddRows = False
         dgLoanSchedule.AllowUserToDeleteRows = False
-        DataGridViewCellStyle22.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
-        dgLoanSchedule.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle22
-        DataGridViewCellStyle23.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle23.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
-        DataGridViewCellStyle23.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle23.ForeColor = Color.White
-        DataGridViewCellStyle23.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle23.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle23.WrapMode = DataGridViewTriState.True
-        dgLoanSchedule.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle23
+        DataGridViewCellStyle7.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
+        dgLoanSchedule.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle8.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
+        DataGridViewCellStyle8.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle8.ForeColor = Color.White
+        DataGridViewCellStyle8.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle8.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle8.WrapMode = DataGridViewTriState.True
+        dgLoanSchedule.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle8
         dgLoanSchedule.ColumnHeadersHeight = 32
         dgLoanSchedule.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         dgLoanSchedule.Columns.AddRange(New DataGridViewColumn() {Column22, Column23, Column24, Column25, Column26, Column27, Column28, Column29, Column30, Column31})
-        DataGridViewCellStyle24.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle24.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
-        DataGridViewCellStyle24.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle24.ForeColor = Color.Black
-        DataGridViewCellStyle24.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
-        DataGridViewCellStyle24.SelectionForeColor = Color.White
-        DataGridViewCellStyle24.WrapMode = DataGridViewTriState.False
-        dgLoanSchedule.DefaultCellStyle = DataGridViewCellStyle24
+        DataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle9.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
+        DataGridViewCellStyle9.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle9.ForeColor = Color.Black
+        DataGridViewCellStyle9.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
+        DataGridViewCellStyle9.SelectionForeColor = Color.White
+        DataGridViewCellStyle9.WrapMode = DataGridViewTriState.False
+        dgLoanSchedule.DefaultCellStyle = DataGridViewCellStyle9
         dgLoanSchedule.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
         dgLoanSchedule.Location = New Point(15, 35)
         dgLoanSchedule.Name = "dgLoanSchedule"
@@ -1154,9 +1154,9 @@ Partial Class Loan
         Panel5.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
         Panel5.Controls.Add(Label19)
         Panel5.Controls.Add(dgLoans)
-        Panel5.Location = New Point(413, 136)
+        Panel5.Location = New Point(414, 153)
         Panel5.Name = "Panel5"
-        Panel5.Size = New Size(752, 266)
+        Panel5.Size = New Size(752, 239)
         Panel5.TabIndex = 5
         ' 
         ' Label19
@@ -1173,34 +1173,34 @@ Partial Class Loan
         ' 
         dgLoans.AllowUserToAddRows = False
         dgLoans.AllowUserToDeleteRows = False
-        DataGridViewCellStyle25.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
-        dgLoans.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle25
-        DataGridViewCellStyle26.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle26.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
-        DataGridViewCellStyle26.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle26.ForeColor = Color.White
-        DataGridViewCellStyle26.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle26.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle26.WrapMode = DataGridViewTriState.True
-        dgLoans.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle26
+        DataGridViewCellStyle10.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
+        dgLoans.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle10
+        DataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle11.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
+        DataGridViewCellStyle11.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle11.ForeColor = Color.White
+        DataGridViewCellStyle11.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle11.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle11.WrapMode = DataGridViewTriState.True
+        dgLoans.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle11
         dgLoans.ColumnHeadersHeight = 32
         dgLoans.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         dgLoans.Columns.AddRange(New DataGridViewColumn() {Column14, Column16, Column17, Column18, Column19, Column20, Column21, Column36})
-        DataGridViewCellStyle27.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle27.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
-        DataGridViewCellStyle27.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle27.ForeColor = Color.Black
-        DataGridViewCellStyle27.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
-        DataGridViewCellStyle27.SelectionForeColor = Color.White
-        DataGridViewCellStyle27.WrapMode = DataGridViewTriState.False
-        dgLoans.DefaultCellStyle = DataGridViewCellStyle27
+        DataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle12.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
+        DataGridViewCellStyle12.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle12.ForeColor = Color.Black
+        DataGridViewCellStyle12.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
+        DataGridViewCellStyle12.SelectionForeColor = Color.White
+        DataGridViewCellStyle12.WrapMode = DataGridViewTriState.False
+        dgLoans.DefaultCellStyle = DataGridViewCellStyle12
         dgLoans.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
         dgLoans.Location = New Point(14, 33)
         dgLoans.Name = "dgLoans"
         dgLoans.ReadOnly = True
         dgLoans.RowHeadersVisible = False
         dgLoans.RowTemplate.Height = 25
-        dgLoans.Size = New Size(722, 220)
+        dgLoans.Size = New Size(722, 192)
         dgLoans.TabIndex = 1
         dgLoans.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt
         dgLoans.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
@@ -1293,9 +1293,9 @@ Partial Class Loan
         Panel4.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
         Panel4.Controls.Add(Label18)
         Panel4.Controls.Add(dgEmList)
-        Panel4.Location = New Point(15, 16)
+        Panel4.Location = New Point(16, 17)
         Panel4.Name = "Panel4"
-        Panel4.Size = New Size(381, 386)
+        Panel4.Size = New Size(381, 375)
         Panel4.TabIndex = 4
         ' 
         ' Label18
@@ -1312,34 +1312,34 @@ Partial Class Loan
         ' 
         dgEmList.AllowUserToAddRows = False
         dgEmList.AllowUserToDeleteRows = False
-        DataGridViewCellStyle28.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
-        dgEmList.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle28
-        DataGridViewCellStyle29.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle29.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
-        DataGridViewCellStyle29.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle29.ForeColor = Color.White
-        DataGridViewCellStyle29.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle29.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle29.WrapMode = DataGridViewTriState.True
-        dgEmList.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle29
+        DataGridViewCellStyle13.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
+        dgEmList.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle13
+        DataGridViewCellStyle14.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle14.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
+        DataGridViewCellStyle14.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle14.ForeColor = Color.White
+        DataGridViewCellStyle14.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle14.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle14.WrapMode = DataGridViewTriState.True
+        dgEmList.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle14
         dgEmList.ColumnHeadersHeight = 17
         dgEmList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         dgEmList.Columns.AddRange(New DataGridViewColumn() {Column32, Column33, Column34, Column35})
-        DataGridViewCellStyle30.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle30.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
-        DataGridViewCellStyle30.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle30.ForeColor = Color.Black
-        DataGridViewCellStyle30.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
-        DataGridViewCellStyle30.SelectionForeColor = Color.White
-        DataGridViewCellStyle30.WrapMode = DataGridViewTriState.False
-        dgEmList.DefaultCellStyle = DataGridViewCellStyle30
+        DataGridViewCellStyle15.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle15.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
+        DataGridViewCellStyle15.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle15.ForeColor = Color.Black
+        DataGridViewCellStyle15.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
+        DataGridViewCellStyle15.SelectionForeColor = Color.White
+        DataGridViewCellStyle15.WrapMode = DataGridViewTriState.False
+        dgEmList.DefaultCellStyle = DataGridViewCellStyle15
         dgEmList.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
         dgEmList.Location = New Point(17, 34)
         dgEmList.Name = "dgEmList"
         dgEmList.ReadOnly = True
         dgEmList.RowHeadersVisible = False
         dgEmList.RowTemplate.Height = 25
-        dgEmList.Size = New Size(348, 339)
+        dgEmList.Size = New Size(348, 327)
         dgEmList.TabIndex = 3
         dgEmList.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt
         dgEmList.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
@@ -1423,7 +1423,7 @@ Partial Class Loan
         Guna2CircleButton1.Image = My.Resources.Resources.back
         Guna2CircleButton1.Location = New Point(1135, 6)
         Guna2CircleButton1.Name = "Guna2CircleButton1"
-        Guna2CircleButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges37
+        Guna2CircleButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges1
         Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Guna2CircleButton1.Size = New Size(45, 39)
         Guna2CircleButton1.TabIndex = 3
