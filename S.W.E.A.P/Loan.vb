@@ -25,7 +25,7 @@ Public Class Loan
     Dim random As Integer = 0
     Dim i As Integer = 0
     Dim message As String
-    Dim conn As New MySqlConnection("server=172.30.205.208;port=3306;username=sweapp;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
     Dim selectedId As Integer = 0
     '-----------------------------------END OF VARIABLE DECLARATION-------------------------------------------
@@ -36,6 +36,30 @@ Public Class Loan
         principal = totalPayment - interest
         endBalance = beginningBalance - principal
         CumuInterest = CumuInterest + interest
+    End Sub
+    Public Sub common_process()
+        payment = 1
+        selectedDate = dateStart.Value.Date
+        extraPayment = numXtraP.Value
+        loanAmount = numLamount.Value
+        annualInterestRate = numAintRate.Value / 100
+        loanPeriodInYears = numPyears.Value
+        numberOfPaymentsPerYear = numPayYears.Value
+        beginningBalance = loanAmount
+
+        '--------------Convert the annual interest rate to monthly interest rate
+        monthlyInterestRate = annualInterestRate / numberOfPaymentsPerYear
+
+        '---------------Calculate the total number of payments
+        totalNumberOfPayments = loanPeriodInYears * numberOfPaymentsPerYear
+
+        '----------------Calculate the scheduled payment amount
+        scheduledPayment = (monthlyInterestRate * loanAmount) / (1 - (1 + monthlyInterestRate) ^ (-totalNumberOfPayments))
+
+        '------------------Round the scheduled payment amount to two decimal places
+        scheduledPayment = Math.Round(scheduledPayment, 2)
+
+        '--------------------------------------------OVERALL CALCULATION-----------------------------------------------------
     End Sub
 
     Public Sub validation(field, condition, msg)
@@ -91,28 +115,7 @@ Public Class Loan
 
         If message = "" Then
             dgSchedule.Rows.Clear()
-            payment = 1
-            selectedDate = dateStart.Value.Date
-            extraPayment = numXtraP.Value
-            loanAmount = numLamount.Value
-            annualInterestRate = numAintRate.Value / 100
-            loanPeriodInYears = numPyears.Value
-            numberOfPaymentsPerYear = numPayYears.Value
-            beginningBalance = loanAmount
-
-            '--------------Convert the annual interest rate to monthly interest rate
-            monthlyInterestRate = annualInterestRate / numberOfPaymentsPerYear
-
-            '---------------Calculate the total number of payments
-            totalNumberOfPayments = loanPeriodInYears * numberOfPaymentsPerYear
-
-            '----------------Calculate the scheduled payment amount
-            scheduledPayment = (monthlyInterestRate * loanAmount) / (1 - (1 + monthlyInterestRate) ^ (-totalNumberOfPayments))
-
-            '------------------Round the scheduled payment amount to two decimal places
-            scheduledPayment = Math.Round(scheduledPayment, 2)
-
-            '--------------------------------------------OVERALL CALCULATION-----------------------------------------------------
+            common_process()
             common_calculation()
             While beginningBalance >= 0
                 mathing()
@@ -187,29 +190,25 @@ Public Class Loan
 
         If result = DialogResult.Yes Then
             CumuInterest = 0
-            payment = 1
-            selectedDate = dateStart.Value.Date
-            extraPayment = numXtraP.Value
-            loanAmount = numLamount.Value
-            annualInterestRate = numAintRate.Value / 100
-            loanPeriodInYears = numPyears.Value
-            numberOfPaymentsPerYear = numPayYears.Value
-            beginningBalance = loanAmount
-
-            '--------------Convert the annual interest rate to monthly interest rate
-            monthlyInterestRate = annualInterestRate / numberOfPaymentsPerYear
-
-            '---------------Calculate the total number of payments
-            totalNumberOfPayments = loanPeriodInYears * numberOfPaymentsPerYear
-
-            '----------------Calculate the scheduled payment amount
-            scheduledPayment = (monthlyInterestRate * loanAmount) / (1 - (1 + monthlyInterestRate) ^ (-totalNumberOfPayments))
-
-            '------------------Round the scheduled payment amount to two decimal places
-            scheduledPayment = Math.Round(scheduledPayment, 2)
-
-            '--------------------------------------------OVERALL CALCULATION-----------------------------------------------------
+            common_process()
             common_calculation()
+            Try
+                conn.Open()
+                Dim cmd As New MySqlCommand("insert into loan_info(user_id, loan_amount, anual_interest_rate, loan_period_years, 
+                                            no_payments_per_year, start_date_of_loan, optional_xtra) values(@ID, @ALOAN, @ARATE, @LYEARS, @NOPYEAR, @SDATE, @XTRA);", conn)
+                cmd.Parameters.AddWithValue("@ID", selectedId)
+                cmd.Parameters.AddWithValue("@ALOAN", numLamount.Value)
+                cmd.Parameters.AddWithValue("@ARATE", numAintRate.Value)
+                cmd.Parameters.AddWithValue("@LYEARS", numPyears.Value)
+                cmd.Parameters.AddWithValue("@NOPYEAR", numPayYears.Value)
+                cmd.Parameters.AddWithValue("@SDATE", dateStart.Value.Date)
+                cmd.Parameters.AddWithValue("@XTRA", numXtraP.Value)
+                cmd.ExecuteNonQuery()
+            Catch ex As Exception
+                MsgBox("Loan_info doesn't work")
+            Finally
+                conn.Close()
+            End Try
             While beginningBalance >= 0
                 mathing()
                 If beginningBalance < scheduledPayment Or beginningBalance < totalPayment Then
@@ -221,9 +220,10 @@ Public Class Loan
 
                 Try
                     conn.Open()
-                    Dim cmd As New MySqlCommand("INSERT INTO loans(user_id, pmt_no, payment_date, beginning_balance, scheduled_payment, extra_payment,
-                                                total_payment, principal, interest, ending_balance, cumulative_interest) VALUES(@ID, @PAYMENT,
+                    Dim cmd As New MySqlCommand("INSERT INTO loans(user_id, loan_id, pmt_no, payment_date, beginning_balance, scheduled_payment, extra_payment,
+                                                total_payment, principal, interest, ending_balance, cumulative_interest) VALUES(@ID, (select id from loan_info where loan_amount=@ALOAN),@PAYMENT,
                                                     @DATE, @BEGBAL, @SCHEDP, @XTRA, @TPAYMENT, @PRINCIPAL, @INTEREST, @ENDBAL, @CUMINTEREST)", conn)
+                    cmd.Parameters.AddWithValue("@ALOAN", numLamount.Value)
                     cmd.Parameters.AddWithValue("@ID", selectedId)
                     cmd.Parameters.AddWithValue("@PAYMENT", payment)
                     cmd.Parameters.AddWithValue("@DATE", selectedDate)
@@ -252,6 +252,7 @@ Public Class Loan
                 payment = payment + 1
 
             End While
+
             MsgBox("Loan added successfully!")
             reset()
         End If
@@ -260,6 +261,19 @@ Public Class Loan
     End Sub
 
     Private Sub Form2_Load_1(sender As Object, e As EventArgs) Handles MyBase.Load '------------AUTOLOAD
+        dgSelectEm.Rows.Clear()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select concat(first_name, ' ', middle_name, ' ', last_name) as full_name, username, id from users", conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                dgEmList.Rows.Add(rid.Item("id"), rid.Item("full_name"), rid.Item("username"))
+            End While
+        Catch ex As Exception
+            MsgBox("doesn't work lmao")
+        Finally
+            conn.Close()
+        End Try
         btnApprove.Enabled = False
         pnlSelectLender.Visible = False
     End Sub
@@ -276,5 +290,52 @@ Public Class Loan
                 pnlSelectLender.Visible = False
             End If
         End If
+    End Sub
+
+    '-------------------------------------------------------VIEW LOANS---------------------------------------------------------------------------
+    Private Sub dgEmList_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgEmList.CellClick
+        Dim idSelect As Integer
+        If e.ColumnIndex = 3 AndAlso e.RowIndex >= 0 Then '----------------TO SELECT
+            dgLoans.Rows.Clear()
+            idSelect = dgEmList.CurrentRow.Cells(0).Value.ToString()
+            Try
+                conn.Open()
+                Dim cmd As New MySqlCommand("select * from loan_info where user_id=@ID", conn)
+                cmd.Parameters.AddWithValue("@ID", idSelect)
+                rid = cmd.ExecuteReader
+                While rid.Read
+                    dgLoans.Rows.Add(rid.Item("id"), rid.Item("loan_amount"), rid.Item("anual_interest_rate"), rid.Item("loan_period_years"), rid.Item("no_payments_per_year"), rid.Item("start_date_of_loan"), rid.Item("optional_xtra"))
+                End While
+            Catch ex As Exception
+                MsgBox("EW error")
+            Finally
+                conn.Close()
+            End Try
+        End If
+    End Sub
+
+    Private Sub dgLoans_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgLoans.CellClick
+        Dim idSelect As Integer
+        If e.ColumnIndex = 7 AndAlso e.RowIndex >= 0 Then '----------------TO SELECT
+            dgLoans.Rows.Clear()
+            idSelect = dgEmList.CurrentRow.Cells(0).Value.ToString()
+            Try
+                conn.Open()
+                Dim cmd As New MySqlCommand("select * from loans where loan_id=@ID", conn)
+                cmd.Parameters.AddWithValue("@ID", idSelect)
+                rid = cmd.ExecuteReader
+                While rid.Read
+                    dgLoans.Rows.Add(rid.Item("id"), rid.Item("loan_amount"), rid.Item("anual_interest_rate"), rid.Item("loan_period_years"), rid.Item("no_payments_per_year"), rid.Item("start_date_of_loan"), rid.Item("optional_xtra"))
+                End While
+            Catch ex As Exception
+                MsgBox("EW error")
+            Finally
+                conn.Close()
+            End Try
+        End If
+    End Sub
+
+    Private Sub dgEmList_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgEmList.CellContentClick
+
     End Sub
 End Class
