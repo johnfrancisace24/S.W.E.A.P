@@ -4,7 +4,7 @@ Imports System.IO
 Imports DocumentFormat.OpenXml.Spreadsheet
 
 Public Class admindash
-    Dim conn As New MySqlConnection("server=172.30.205.208;port=3306;username=sweapp;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
     Dim selectedId As Integer = 0
     Dim selectedBenId As Integer
@@ -54,33 +54,6 @@ Public Class admindash
             conn.Close()
         End Try
     End Sub
-
-    'private sub btnbenremove_click(sender as object, e as eventargs) handles btnbenremove.click
-    '    dim result as dialogresult = messagebox.show("are you sure you want to remove " & dgbeneficiaries.currentrow.cells(1).value.tostring() &
-    '                                                  " from beneficiaries?", "confirmation", messageboxbuttons.yesno)
-    '    if result = dialogresult.yes then
-    '        try
-    '            conn.open()
-    '           dim cmd as new mysqlcommand("delete from beneficiaries where id=@id", conn)
-    '            cmd.parameters.addwithvalue("@id", selectedbenid)
-    '            cmd.executenonquery()
-    '            msgbox("record has been removed.")
-    '            beneficiariesrecord()
-    '            countben()
-    '        catch ex as exception
-    '            msgbox("operation failed")
-    '        finally
-    '            conn.close()
-    '        end try
-    '    end if
-    '    if currentben < 5 then
-    '        txteditaddben.enabled = true
-    '        txteditaddbenage.enabled = true
-    '        txteditaddbenrel.enabled = true
-    '        btneditaddben.enabled = true
-    '    end if
-    '    beneficiariesrecord()
-    'end sub
 
     Private Sub btnEditAddBen_Click(sender As Object, e As EventArgs) Handles btnEditAddBen.Click
         countBen()
@@ -271,7 +244,32 @@ Public Class admindash
                                             email from users left join user_info on users.id = user_info.user_id")
     End Sub
 
-    Private Sub dgMembers_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgMembers.CellContentClick
 
+    Private Sub dgBeneficiaries_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgBeneficiaries.CellClick
+        If e.ColumnIndex = 4 AndAlso e.RowIndex >= 0 Then '-------------FOR DELETE
+            Dim result As DialogResult = MessageBox.Show("are you sure you want to remove " & dgBeneficiaries.CurrentRow.Cells(1).Value.ToString() &
+                                              " from beneficiaries?", "confirmation", MessageBoxButtons.YesNo)
+            If result = DialogResult.Yes Then
+                Try
+                    conn.Open()
+                    Dim cmd As New MySqlCommand("delete from beneficiaries where id=@id", conn)
+                    cmd.Parameters.AddWithValue("@id", dgBeneficiaries.CurrentRow.Cells(0).Value.ToString())
+                    cmd.ExecuteNonQuery()
+                    MsgBox("record has been removed.")
+                    beneficiariesRecord()
+                Catch ex As Exception
+                    MsgBox("operation failed")
+                Finally
+                    conn.Close()
+                End Try
+            End If
+            If currentBen < 5 Then
+                txtEditAddBen.Enabled = True
+                txtEditAddBenAge.Enabled = True
+                txtEditAddBenRel.Enabled = True
+                btnEditAddBen.Enabled = True
+            End If
+        End If
+        beneficiariesRecord()
     End Sub
 End Class
