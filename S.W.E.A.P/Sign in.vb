@@ -71,4 +71,8 @@ Public Class Form2
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txtPassword.PasswordChar = "*"
     End Sub
+
+    Private Sub Guna2PictureBox1_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox1.Click
+        Me.Close()
+    End Sub
 End Class
