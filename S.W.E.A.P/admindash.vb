@@ -9,6 +9,13 @@ Public Class admindash
     Dim selectedId As Integer = 0
     Dim selectedBenId As Integer
     Dim currentBen As Integer
+    Private Sub admindash_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If Guna2TabControl1.SelectedTab Is tabEmployee Then
+            pnlEmployee.Visible = True ' Show the employeepanel
+        Else
+            tabEdit.Visible = False ' Hide the employeepanel
+        End If
+    End Sub
 
     Public Sub countBen() '------TO COUNT BENEFICIARIES OF SPECIFIC USER(FOR EDITING PURPOSES)
         Try
@@ -66,12 +73,12 @@ Public Class admindash
                 cmd.Parameters.AddWithValue("@REL", txtEditAddBenRel.Text)
                 cmd.Parameters.AddWithValue("@AGE", txtEditAddBenAge.Text)
                 cmd.ExecuteNonQuery()
+                MessageBox.Show("Added succusfully!", "Alert Message", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Catch ex As Exception
                 MsgBox("Operation field")
             Finally
                 conn.Close()
             End Try
-            MsgBox(currentBen)
         Else
             MsgBox("Limit reached.")
             txtEditAddBen.Enabled = False
@@ -138,7 +145,7 @@ Public Class admindash
         AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "User Repsonse")
 
         If AnswerYes = vbYes Then
-            Form1.Show()
+            Form2.Show()
             Me.Hide()
         End If
     End Sub
