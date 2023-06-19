@@ -255,7 +255,7 @@ Partial Class Form2
         Guna2PictureBox1.CustomizableEdges = CustomizableEdges1
         Guna2PictureBox1.Image = My.Resources.Resources.close
         Guna2PictureBox1.ImageRotate = 0F
-        Guna2PictureBox1.Location = New Point(431, 6)
+        Guna2PictureBox1.Location = New Point(434, 6)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
         Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2PictureBox1.Size = New Size(24, 24)
