@@ -1,7 +1,9 @@
 ﻿Imports TheArtOfDevHtmlRenderer.Adapters.Entities
 Imports MySql.Data.MySqlClient
 Imports System.IO
-Imports DocumentFormat.OpenXml.Spreadsheet
+
+Imports OfficeOpenXml
+Imports OfficeOpenXml.Style
 
 Public Class admindash
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -66,14 +68,21 @@ Public Class admindash
         countBen()
         If currentBen < 5 Then
             Try
-                conn.Open()
-                Dim cmd As New MySqlCommand("insert into beneficiaries(user_id, full_name, relationship, age) values(@ID, @FNAME, @REL, @AGE)", conn)
-                cmd.Parameters.AddWithValue("@ID", selectedId)
-                cmd.Parameters.AddWithValue("@FNAME", txtEditAddBen.Text)
-                cmd.Parameters.AddWithValue("@REL", txtEditAddBenRel.Text)
-                cmd.Parameters.AddWithValue("@AGE", txtEditAddBenAge.Text)
-                cmd.ExecuteNonQuery()
-                MessageBox.Show("Added succusfully!", "Alert Message", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                If txtEditAddBen.Text = "" Or txtEditAddBenRel.Text = "" Or txtEditAddBenAge.Text = "" Then
+                    MessageBox.Show("Please fill up the required field.", "Required Field", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                    txtEditAddBen.BorderColor = Color.FromArgb(255, 0, 0)
+                    txtEditAddBenRel.BorderColor = Color.FromArgb(255, 0, 0)
+                    txtEditAddBenAge.BorderColor = Color.FromArgb(255, 0, 0)
+                Else
+                    conn.Open()
+                    Dim cmd As New MySqlCommand("insert into beneficiaries(user_id, full_name, relationship, age) values(@ID, @FNAME, @REL, @AGE)", conn)
+                    cmd.Parameters.AddWithValue("@ID", selectedId)
+                    cmd.Parameters.AddWithValue("@FNAME", txtEditAddBen.Text)
+                    cmd.Parameters.AddWithValue("@REL", txtEditAddBenRel.Text)
+                    cmd.Parameters.AddWithValue("@AGE", txtEditAddBenAge.Text)
+                    cmd.ExecuteNonQuery()
+                    MessageBox.Show("Added succusfully!", "Alert Message", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                End If
             Catch ex As Exception
                 MsgBox("Operation field")
             Finally
