@@ -437,6 +437,7 @@ Partial Class admindash
         Guna2TabControl1.Controls.Add(tabDashboard)
         Guna2TabControl1.Controls.Add(tabEmployee)
         Guna2TabControl1.Controls.Add(tabFund)
+        Guna2TabControl1.Cursor = Cursors.Hand
         Guna2TabControl1.Dock = DockStyle.Fill
         Guna2TabControl1.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2TabControl1.HotTrack = True
