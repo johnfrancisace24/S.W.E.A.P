@@ -303,7 +303,5 @@ Public Class admindash
         beneficiariesRecord()
     End Sub
 
-    Private Sub pnlEmployee_Paint(sender As Object, e As PaintEventArgs) Handles pnlEmployee.Paint
 
-    End Sub
 End Class
