@@ -19,6 +19,14 @@ Public Class admindash
         End If
     End Sub
 
+    Private Sub Guna2Tabcontrol1_Click(sender As Object, e As EventArgs) Handles Guna2TabControl1.Click
+        If Guna2TabControl1.SelectedTab Is tabEmployee Then
+            pnlEmployee.Visible = True ' Show the employeepanel
+        Else
+            tabEdit.Visible = False ' Hide the employeepanel
+        End If
+    End Sub
+
     Public Sub countBen() '------TO COUNT BENEFICIARIES OF SPECIFIC USER(FOR EDITING PURPOSES)
         Try
             conn.Open()
@@ -73,6 +81,9 @@ Public Class admindash
                     txtEditAddBen.BorderColor = Color.FromArgb(255, 0, 0)
                     txtEditAddBenRel.BorderColor = Color.FromArgb(255, 0, 0)
                     txtEditAddBenAge.BorderColor = Color.FromArgb(255, 0, 0)
+
+
+
                 Else
                     conn.Open()
                     Dim cmd As New MySqlCommand("insert into beneficiaries(user_id, full_name, relationship, age) values(@ID, @FNAME, @REL, @AGE)", conn)
@@ -81,7 +92,10 @@ Public Class admindash
                     cmd.Parameters.AddWithValue("@REL", txtEditAddBenRel.Text)
                     cmd.Parameters.AddWithValue("@AGE", txtEditAddBenAge.Text)
                     cmd.ExecuteNonQuery()
-                    MessageBox.Show("Added succusfully!", "Alert Message", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
+                    txtEditAddBen.Clear()
+                    txtEditAddBenRel.Clear()
+                    txtEditAddBenAge.Clear()
                 End If
             Catch ex As Exception
                 MsgBox("Operation field")
@@ -287,5 +301,9 @@ Public Class admindash
             End If
         End If
         beneficiariesRecord()
+    End Sub
+
+    Private Sub pnlEmployee_Paint(sender As Object, e As PaintEventArgs) Handles pnlEmployee.Paint
+
     End Sub
 End Class
