@@ -221,9 +221,10 @@ Public Class Loan
                 Try
                     conn.Open()
                     Dim cmd As New MySqlCommand("INSERT INTO loans(user_id, loan_id, pmt_no, payment_date, beginning_balance, scheduled_payment, extra_payment,
-                                                total_payment, principal, interest, ending_balance, cumulative_interest) VALUES(@ID, (select id from loan_info where loan_amount=@ALOAN),@PAYMENT,
+                                                total_payment, principal, interest, ending_balance, cumulative_interest) VALUES(@ID, (select id from loan_info where loan_amount=@ALOAN and user_id=@UID),@PAYMENT,
                                                     @DATE, @BEGBAL, @SCHEDP, @XTRA, @TPAYMENT, @PRINCIPAL, @INTEREST, @ENDBAL, @CUMINTEREST)", conn)
                     cmd.Parameters.AddWithValue("@ALOAN", numLamount.Value)
+                    cmd.Parameters.AddWithValue("@UID", selectedId)
                     cmd.Parameters.AddWithValue("@ID", selectedId)
                     cmd.Parameters.AddWithValue("@PAYMENT", payment)
                     cmd.Parameters.AddWithValue("@DATE", selectedDate)
@@ -326,7 +327,7 @@ Public Class Loan
                 cmd.Parameters.AddWithValue("@ID", idSelect)
                 rid = cmd.ExecuteReader
                 While rid.Read
-                    dgLoanSchedule.Rows.Add(rid.Item("id"), rid.Item("pmt_no"), rid.Item("payment_date"), rid.Item("beginning_balance"), rid.Item("scheduled_payment"), rid.Item("extra_payment"), rid.Item("total_payment"), rid.Item("principal"), rid.Item("interest"), rid.Item("ending_balance"), rid.Item("cumulative_interest"))
+                    dgLoanSchedule.Rows.Add(rid.Item("pmt_no"), rid.Item("payment_date"), "₱" & rid.Item("beginning_balance"), "₱" & rid.Item("scheduled_payment"), "₱" & rid.Item("extra_payment"), "₱" & rid.Item("total_payment"), "₱" & rid.Item("principal"), "₱" & rid.Item("interest"), "₱" & rid.Item("ending_balance"), "₱" & rid.Item("cumulative_interest"))
                 End While
             Catch ex As Exception
                 MsgBox("EW error")
