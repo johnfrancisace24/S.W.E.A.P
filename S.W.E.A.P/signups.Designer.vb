@@ -23,12 +23,12 @@ Partial Class signups
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges73 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges74 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges75 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges77 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges78 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges79 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges80 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges81 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges82 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges83 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges84 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -101,6 +101,12 @@ Partial Class signups
         Dim CustomizableEdges70 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges71 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges72 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges73 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges74 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges75 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges77 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges78 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Panel1 = New Panel()
         Guna2ControlBox3 = New Guna.UI2.WinForms.Guna2ControlBox()
@@ -110,6 +116,8 @@ Partial Class signups
         Label1 = New Label()
         Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
         TabPage1 = New TabPage()
+        Panel3 = New Panel()
+        Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         dateBday = New Guna.UI2.WinForms.Guna2DateTimePicker()
         Label2 = New Label()
@@ -130,6 +138,7 @@ Partial Class signups
         Label26 = New Label()
         Label27 = New Label()
         TabPage2 = New TabPage()
+        Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         comboCommit = New Guna.UI2.WinForms.Guna2ComboBox()
         comboEmployStat = New Guna.UI2.WinForms.Guna2ComboBox()
@@ -140,6 +149,8 @@ Partial Class signups
         comboOffice = New Guna.UI2.WinForms.Guna2ComboBox()
         Label29 = New Label()
         TabPage3 = New TabPage()
+        Panel4 = New Panel()
+        Guna2Button7 = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         txtBA5 = New Guna.UI2.WinForms.Guna2TextBox()
         txtBA4 = New Guna.UI2.WinForms.Guna2TextBox()
@@ -167,18 +178,16 @@ Partial Class signups
         pBoxProfile = New Guna.UI2.WinForms.Guna2PictureBox()
         Label14 = New Label()
         Label13 = New Label()
-        Panel3 = New Panel()
-        Panel4 = New Panel()
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
         Guna2TabControl1.SuspendLayout()
         TabPage1.SuspendLayout()
+        Panel3.SuspendLayout()
         TabPage2.SuspendLayout()
         TabPage3.SuspendLayout()
+        Panel4.SuspendLayout()
         TabPage4.SuspendLayout()
         CType(pBoxProfile, ComponentModel.ISupportInitialize).BeginInit()
-        Panel3.SuspendLayout()
-        Panel4.SuspendLayout()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -202,13 +211,13 @@ Partial Class signups
         Guna2ControlBox3.Animated = True
         Guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
         Guna2ControlBox3.Cursor = Cursors.Hand
-        Guna2ControlBox3.CustomizableEdges = CustomizableEdges73
+        Guna2ControlBox3.CustomizableEdges = CustomizableEdges79
         Guna2ControlBox3.Dock = DockStyle.Right
         Guna2ControlBox3.FillColor = Color.Transparent
         Guna2ControlBox3.IconColor = Color.Black
         Guna2ControlBox3.Location = New Point(923, 0)
         Guna2ControlBox3.Name = "Guna2ControlBox3"
-        Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges74
+        Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges80
         Guna2ControlBox3.Size = New Size(40, 33)
         Guna2ControlBox3.TabIndex = 5
         ' 
@@ -217,13 +226,13 @@ Partial Class signups
         Guna2ControlBox2.Animated = True
         Guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox
         Guna2ControlBox2.Cursor = Cursors.Hand
-        Guna2ControlBox2.CustomizableEdges = CustomizableEdges75
+        Guna2ControlBox2.CustomizableEdges = CustomizableEdges81
         Guna2ControlBox2.Dock = DockStyle.Right
         Guna2ControlBox2.FillColor = Color.Transparent
         Guna2ControlBox2.IconColor = Color.Black
         Guna2ControlBox2.Location = New Point(963, 0)
         Guna2ControlBox2.Name = "Guna2ControlBox2"
-        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges76
+        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges82
         Guna2ControlBox2.Size = New Size(40, 33)
         Guna2ControlBox2.TabIndex = 4
         ' 
@@ -231,7 +240,7 @@ Partial Class signups
         ' 
         Guna2ControlBox1.Animated = True
         Guna2ControlBox1.Cursor = Cursors.Hand
-        Guna2ControlBox1.CustomizableEdges = CustomizableEdges77
+        Guna2ControlBox1.CustomizableEdges = CustomizableEdges83
         Guna2ControlBox1.Dock = DockStyle.Right
         Guna2ControlBox1.FillColor = Color.Transparent
         Guna2ControlBox1.HoverState.FillColor = Color.FromArgb(CByte(255), CByte(192), CByte(192))
@@ -239,7 +248,7 @@ Partial Class signups
         Guna2ControlBox1.IconColor = Color.Black
         Guna2ControlBox1.Location = New Point(1003, 0)
         Guna2ControlBox1.Name = "Guna2ControlBox1"
-        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges78
+        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges84
         Guna2ControlBox1.Size = New Size(40, 33)
         Guna2ControlBox1.TabIndex = 3
         ' 
@@ -307,11 +316,57 @@ Partial Class signups
         TabPage1.TabIndex = 0
         TabPage1.Text = "Personal Information"
         ' 
+        ' Panel3
+        ' 
+        Panel3.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel3.Controls.Add(Guna2Button5)
+        Panel3.Controls.Add(Guna2Button1)
+        Panel3.Controls.Add(dateBday)
+        Panel3.Controls.Add(Label2)
+        Panel3.Controls.Add(txtEduc)
+        Panel3.Controls.Add(txtEmail)
+        Panel3.Controls.Add(txtContact)
+        Panel3.Controls.Add(txtAddress)
+        Panel3.Controls.Add(Label17)
+        Panel3.Controls.Add(Label18)
+        Panel3.Controls.Add(Label23)
+        Panel3.Controls.Add(Label24)
+        Panel3.Controls.Add(Label28)
+        Panel3.Controls.Add(pickSex)
+        Panel3.Controls.Add(txtLname)
+        Panel3.Controls.Add(txtMname)
+        Panel3.Controls.Add(Label25)
+        Panel3.Controls.Add(txtFname)
+        Panel3.Controls.Add(Label26)
+        Panel3.Controls.Add(Label27)
+        Panel3.Location = New Point(13, 11)
+        Panel3.Name = "Panel3"
+        Panel3.Size = New Size(1009, 340)
+        Panel3.TabIndex = 114
+        ' 
+        ' Guna2Button5
+        ' 
+        Guna2Button5.Animated = True
+        Guna2Button5.BorderRadius = 5
+        Guna2Button5.CustomizableEdges = CustomizableEdges1
+        Guna2Button5.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button5.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button5.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button5.ForeColor = Color.White
+        Guna2Button5.Location = New Point(621, 272)
+        Guna2Button5.Name = "Guna2Button5"
+        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2Button5.Size = New Size(173, 45)
+        Guna2Button5.TabIndex = 114
+        Guna2Button5.Text = "BACK"
+        ' 
         ' Guna2Button1
         ' 
         Guna2Button1.Animated = True
         Guna2Button1.BorderRadius = 5
-        Guna2Button1.CustomizableEdges = CustomizableEdges1
+        Guna2Button1.CustomizableEdges = CustomizableEdges3
         Guna2Button1.DisabledState.BorderColor = Color.DarkGray
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -320,7 +375,7 @@ Partial Class signups
         Guna2Button1.ForeColor = Color.White
         Guna2Button1.Location = New Point(809, 272)
         Guna2Button1.Name = "Guna2Button1"
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Guna2Button1.Size = New Size(173, 45)
         Guna2Button1.TabIndex = 9
         Guna2Button1.Text = "NEXT"
@@ -329,17 +384,17 @@ Partial Class signups
         ' 
         dateBday.BorderRadius = 5
         dateBday.Checked = True
-        dateBday.CustomizableEdges = CustomizableEdges3
+        dateBday.CustomizableEdges = CustomizableEdges5
         dateBday.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         dateBday.Format = DateTimePickerFormat.Long
         dateBday.Location = New Point(33, 272)
-        dateBday.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
-        dateBday.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
+        dateBday.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        dateBday.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         dateBday.Name = "dateBday"
-        dateBday.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        dateBday.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         dateBday.Size = New Size(289, 36)
         dateBday.TabIndex = 8
-        dateBday.Value = New DateTime(2023, 6, 15, 9, 33, 54, 293)
+        dateBday.Value = New Date(2023, 6, 15, 9, 33, 54, 293)
         ' 
         ' Label2
         ' 
@@ -356,7 +411,7 @@ Partial Class signups
         ' 
         txtEduc.BorderColor = SystemColors.ButtonShadow
         txtEduc.BorderRadius = 5
-        txtEduc.CustomizableEdges = CustomizableEdges5
+        txtEduc.CustomizableEdges = CustomizableEdges7
         txtEduc.DefaultText = ""
         txtEduc.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEduc.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -372,7 +427,7 @@ Partial Class signups
         txtEduc.PasswordChar = ChrW(0)
         txtEduc.PlaceholderText = ""
         txtEduc.SelectedText = ""
-        txtEduc.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        txtEduc.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         txtEduc.Size = New Size(289, 36)
         txtEduc.TabIndex = 7
         ' 
@@ -380,7 +435,7 @@ Partial Class signups
         ' 
         txtEmail.BorderColor = SystemColors.ButtonShadow
         txtEmail.BorderRadius = 5
-        txtEmail.CustomizableEdges = CustomizableEdges7
+        txtEmail.CustomizableEdges = CustomizableEdges9
         txtEmail.DefaultText = ""
         txtEmail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEmail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -396,7 +451,7 @@ Partial Class signups
         txtEmail.PasswordChar = ChrW(0)
         txtEmail.PlaceholderText = ""
         txtEmail.SelectedText = ""
-        txtEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txtEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         txtEmail.Size = New Size(289, 36)
         txtEmail.TabIndex = 6
         ' 
@@ -404,7 +459,7 @@ Partial Class signups
         ' 
         txtContact.BorderColor = SystemColors.ButtonShadow
         txtContact.BorderRadius = 5
-        txtContact.CustomizableEdges = CustomizableEdges9
+        txtContact.CustomizableEdges = CustomizableEdges11
         txtContact.DefaultText = ""
         txtContact.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtContact.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -420,7 +475,7 @@ Partial Class signups
         txtContact.PasswordChar = ChrW(0)
         txtContact.PlaceholderText = ""
         txtContact.SelectedText = ""
-        txtContact.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        txtContact.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         txtContact.Size = New Size(289, 36)
         txtContact.TabIndex = 5
         ' 
@@ -428,7 +483,7 @@ Partial Class signups
         ' 
         txtAddress.BorderColor = SystemColors.ButtonShadow
         txtAddress.BorderRadius = 5
-        txtAddress.CustomizableEdges = CustomizableEdges11
+        txtAddress.CustomizableEdges = CustomizableEdges13
         txtAddress.DefaultText = ""
         txtAddress.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtAddress.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -444,7 +499,7 @@ Partial Class signups
         txtAddress.PasswordChar = ChrW(0)
         txtAddress.PlaceholderText = ""
         txtAddress.SelectedText = ""
-        txtAddress.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        txtAddress.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         txtAddress.Size = New Size(921, 36)
         txtAddress.TabIndex = 4
         ' 
@@ -508,7 +563,7 @@ Partial Class signups
         pickSex.BackColor = Color.Transparent
         pickSex.BorderColor = Color.DimGray
         pickSex.BorderRadius = 5
-        pickSex.CustomizableEdges = CustomizableEdges13
+        pickSex.CustomizableEdges = CustomizableEdges15
         pickSex.DrawMode = DrawMode.OwnerDrawFixed
         pickSex.DropDownStyle = ComboBoxStyle.DropDownList
         pickSex.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -519,7 +574,7 @@ Partial Class signups
         pickSex.Items.AddRange(New Object() {"Male", "Female", "Refer not to say"})
         pickSex.Location = New Point(828, 44)
         pickSex.Name = "pickSex"
-        pickSex.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        pickSex.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         pickSex.Size = New Size(127, 36)
         pickSex.TabIndex = 3
         pickSex.TextAlign = HorizontalAlignment.Center
@@ -528,7 +583,7 @@ Partial Class signups
         ' 
         txtLname.BorderColor = SystemColors.ButtonShadow
         txtLname.BorderRadius = 5
-        txtLname.CustomizableEdges = CustomizableEdges15
+        txtLname.CustomizableEdges = CustomizableEdges17
         txtLname.DefaultText = ""
         txtLname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtLname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -544,7 +599,7 @@ Partial Class signups
         txtLname.PasswordChar = ChrW(0)
         txtLname.PlaceholderText = ""
         txtLname.SelectedText = ""
-        txtLname.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        txtLname.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         txtLname.Size = New Size(250, 36)
         txtLname.TabIndex = 2
         ' 
@@ -552,7 +607,7 @@ Partial Class signups
         ' 
         txtMname.BorderColor = SystemColors.ButtonShadow
         txtMname.BorderRadius = 5
-        txtMname.CustomizableEdges = CustomizableEdges17
+        txtMname.CustomizableEdges = CustomizableEdges19
         txtMname.DefaultText = ""
         txtMname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtMname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -568,7 +623,7 @@ Partial Class signups
         txtMname.PasswordChar = ChrW(0)
         txtMname.PlaceholderText = ""
         txtMname.SelectedText = ""
-        txtMname.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        txtMname.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         txtMname.Size = New Size(250, 36)
         txtMname.TabIndex = 1
         ' 
@@ -587,7 +642,7 @@ Partial Class signups
         ' 
         txtFname.BorderColor = SystemColors.ButtonShadow
         txtFname.BorderRadius = 5
-        txtFname.CustomizableEdges = CustomizableEdges19
+        txtFname.CustomizableEdges = CustomizableEdges21
         txtFname.DefaultText = ""
         txtFname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtFname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -603,7 +658,7 @@ Partial Class signups
         txtFname.PasswordChar = ChrW(0)
         txtFname.PlaceholderText = ""
         txtFname.SelectedText = ""
-        txtFname.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        txtFname.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         txtFname.Size = New Size(250, 36)
         txtFname.TabIndex = 0
         ' 
@@ -632,6 +687,7 @@ Partial Class signups
         ' TabPage2
         ' 
         TabPage2.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
+        TabPage2.Controls.Add(Guna2Button6)
         TabPage2.Controls.Add(Guna2Button2)
         TabPage2.Controls.Add(comboCommit)
         TabPage2.Controls.Add(comboEmployStat)
@@ -648,11 +704,29 @@ Partial Class signups
         TabPage2.TabIndex = 1
         TabPage2.Text = "Work Information"
         ' 
+        ' Guna2Button6
+        ' 
+        Guna2Button6.Animated = True
+        Guna2Button6.BorderRadius = 5
+        Guna2Button6.CustomizableEdges = CustomizableEdges23
+        Guna2Button6.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button6.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button6.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button6.ForeColor = Color.White
+        Guna2Button6.Location = New Point(647, 295)
+        Guna2Button6.Name = "Guna2Button6"
+        Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        Guna2Button6.Size = New Size(173, 45)
+        Guna2Button6.TabIndex = 115
+        Guna2Button6.Text = "BACK"
+        ' 
         ' Guna2Button2
         ' 
         Guna2Button2.Animated = True
         Guna2Button2.BorderRadius = 5
-        Guna2Button2.CustomizableEdges = CustomizableEdges21
+        Guna2Button2.CustomizableEdges = CustomizableEdges25
         Guna2Button2.DisabledState.BorderColor = Color.DarkGray
         Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -661,7 +735,7 @@ Partial Class signups
         Guna2Button2.ForeColor = Color.White
         Guna2Button2.Location = New Point(826, 295)
         Guna2Button2.Name = "Guna2Button2"
-        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         Guna2Button2.Size = New Size(173, 45)
         Guna2Button2.TabIndex = 4
         Guna2Button2.Text = "NEXT"
@@ -670,7 +744,7 @@ Partial Class signups
         ' 
         comboCommit.BackColor = Color.Transparent
         comboCommit.BorderColor = SystemColors.ButtonShadow
-        comboCommit.CustomizableEdges = CustomizableEdges23
+        comboCommit.CustomizableEdges = CustomizableEdges27
         comboCommit.DrawMode = DrawMode.OwnerDrawFixed
         comboCommit.DropDownStyle = ComboBoxStyle.DropDownList
         comboCommit.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -681,7 +755,7 @@ Partial Class signups
         comboCommit.Items.AddRange(New Object() {"Education, Information & Research", "Organizing & Membership", "Grievances", "Welfare", "Finance", "Sports & Culture"})
         comboCommit.Location = New Point(558, 222)
         comboCommit.Name = "comboCommit"
-        comboCommit.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        comboCommit.ShadowDecoration.CustomizableEdges = CustomizableEdges28
         comboCommit.Size = New Size(335, 36)
         comboCommit.TabIndex = 3
         ' 
@@ -689,7 +763,7 @@ Partial Class signups
         ' 
         comboEmployStat.BackColor = Color.Transparent
         comboEmployStat.BorderColor = SystemColors.ButtonShadow
-        comboEmployStat.CustomizableEdges = CustomizableEdges25
+        comboEmployStat.CustomizableEdges = CustomizableEdges29
         comboEmployStat.DrawMode = DrawMode.OwnerDrawFixed
         comboEmployStat.DropDownStyle = ComboBoxStyle.DropDownList
         comboEmployStat.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -700,7 +774,7 @@ Partial Class signups
         comboEmployStat.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
         comboEmployStat.Location = New Point(143, 222)
         comboEmployStat.Name = "comboEmployStat"
-        comboEmployStat.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        comboEmployStat.ShadowDecoration.CustomizableEdges = CustomizableEdges30
         comboEmployStat.Size = New Size(335, 36)
         comboEmployStat.TabIndex = 2
         ' 
@@ -708,7 +782,7 @@ Partial Class signups
         ' 
         comboPos.BackColor = Color.Transparent
         comboPos.BorderColor = SystemColors.ButtonShadow
-        comboPos.CustomizableEdges = CustomizableEdges27
+        comboPos.CustomizableEdges = CustomizableEdges31
         comboPos.DrawMode = DrawMode.OwnerDrawFixed
         comboPos.DropDownStyle = ComboBoxStyle.DropDownList
         comboPos.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -719,7 +793,7 @@ Partial Class signups
         comboPos.Items.AddRange(New Object() {"AA I", "AA II", "AA II Pantawid Pamilya RPMO", "AA III", "AA III - Sr.Bookkeeper", "AA III / Information Officer NHTS-PR", "AA III-Munipical Roving Bookkeeper", "AA-II ", "AA-II KALAHI-CIDDS", "AA-II KALAHI-CIDDS NCDDP_AF", "AC-KAASA", "Accountant I", "Accountant I/Officer in charge", "Accountant II", "Accountant III", "Accounting Clerk", "Acting Secretary", "Acting Social Welfare Officer III", "Activity Therapist", "Activity Worker I", "Admin Aide I", "Admin AIDE III", "Admin AIDE IIII", "Admin AIDE IV", "Admin AIDE VI ", "Admin Assistant", "Admin Assistant III", "Admin Assistant III (Computer Operator II)", "Admin Assistant V (Private Secretary I)", "Admin cum Finance Officer", "Admin Officer IV-Head, RROS", "Admin. Aide VI", "Admin.Assitant III/Information Officer (Listahanan)", "Admin.Officer IV/Head", "Admin.Officer V-Unit Head ", "Administrative Aide I", "Administrative Aide II", "Administrative Aide III", "Administrative Aide III (Encoder)", "Administrative Aide IV", "Administrative Aide IV (Clerk II)", "Administrative Aide IV (Driver)", "Administrative Aide IV (Encoder)", "Administrative Aide IV/Encoder", "Administrative Aide V", "Administrative Aide V (Chauffer I)", "Administrative Aide VI", "Administrative Aide VI (Clerk III)", "Administrative Assistant I", "Administrative Assistant II", "Administrative Assistant II (Procurement)", "Administrative Assistant II/SLP", "Administrative Assistant III", "Administrative Assistant III (Cash Clerk)", "Administrative Assistant III - Budget", "Administrative Assistant III (Budget Assistant)", "Administrative Assistant III/Senior Bookkeeper", "Administrative Assistant III/Socpen Accounting", "Administrative Assistant IV", "Administrative Assistant V", "Administrative Assistant V (Private Secretary I)", "Administrative Assistant VI ", "Administrative Cum Finance Officer", "Administrative Officer I", "Administrative Officer II", "Administrative Officer II - Infastructure Assistant", "Administrative Officer II - Property & Asset Officer", "Administrative Officer II/Head", "Administrative Officer III", "Administrative Officer IV", "Administrative Officer IV/KALAHI-CIDSS", "Administrative Officer IV/Encoder", "Administrative Officer IV/Head", "Administrative Officer V", "Administrative Officer V/Budget Officer", "Administrative Officer V/Financial Analyst III", "Administrative Officer V/Head", "Administrative Program Focal (PDO II-municipal link)", "Administrative Staff", "Administrative Support Staff", "AO II", "AO II/Financial Analyst II ", "AO II / PSYCHOMETRICIAN", "AO II-OIC Head, Property, Supply & Asset Mngt.Section", "AO II-Pantawid Property Officer", "AO II-Property Officer", "AO II-Property & Asset Officer", "AO II-Property Officer (Mainstream Staff Pantawid)", "AO IV", "AO IV-Financial Analyst II", "AO IV/Financial Analyst II", "AO IV/OIC-Procurement Unit Head", "AO V", "AO V-CASH HEAD", "AO V/Budget Officer NHTS-PR", "AOV-FMD-Cash-Head", "Architect I", "Architect II", "Architect III", "ARDO", "Area Coordinator", "Area Coordinarot/KALAHI CIDSS", "AREA SUPERVISOR", "Assistant Bureau Director", "Assistant Information Officer", "Assistant Regional Director for Administration (ARDA)", "Assistant Regional Director for Operations (ARDO)", "Assistant Secretary", "Assistant Secretary / OIC-IMB", "Assistant Secretary for OASOPG-Protective Programs ", "Assistant Service Director", "Associate Statistician", "Attorney III", "AttorneyIV", "Attorney V", "Audio-Visual Aids Technician III", "Audio-Visual Equipment Operator II", "AUDIT TEAM LEADER", "AUDIT TEAM MEMBER", "AVRC II Center Head", "BAC SEC & Procurement Service", "BAHAY PAG-ASA NG LAGUNA - CENTER HEAD", "BDM", "Beneficiary Update System Focal - PDO I", "Beneficiary Update System Focal - PDO II", "Bookkeeper", "BTMS-ENCODER", "Budget Assistant", "Budget Officer I", "Budget Officer II", "Budget Officer III", "Bureau Director", "CAD Operator", "Caretaker", "Carpenter", "Case Worker for MCCT (PDOII)", "Cash Clerk", "CASH CLERK / KALAHI-CIDSS", "Cashier II", "CDA II", "CEF - KALAHI CIDSS", "CEF / Executive Assistant", "CENTER HEAD", "CENTERS AND RESIDENTIAL CARE FACILITIES (CRCF)", "Chief", "Chief Account", "Chief Admin.Officer / OIC ARD for Administration", "Chief Administrative Officer", "Chief Administrative Officer V", "Chief Infastructure Engineer", "Child Psychologist for MCCT", "City Link", "City Link Officer", "CIVIL ENGINEER", "CL", "Clerk I", "Clerk II", "Clerk III/ HRMDD", "Clerk/Encoder", "Cluster Beneficiary Data Officer", "Cluster Compliance Verification System Focal", "Cluster Focal Person (BDM)", "Cluster Greivance Redress System Focal", "Cluster Greivance Officer", "CMT I", "CMT II", "CMT II - MCCT", "COA AUDITOR", "Comm. Development Officer III", "Commission on Audit XI", "Communication Equipment Operator I", "Communications Specialist", "Communications Officer IV", "Community Development Assistant", "Community Development Assistant II", "Community Development Officer II", "Community Development Officer III", "COMMUNITY DEVELOPMENT OFFICER III - IT", "COMMUNITY DEVELOPMENT OFFICER IV", "COMMUNITY DEVELOPMENT OFFICER IV/KALAHI CIDSS", "Community Empowerment Facilitator", "Community Empowerment Facilitator - Roving ", "Community Facilitator", "Community Facilitator Aide", "Community Facilitator Assistant", "Community Finance Facilitator", "Community Finance Monitor", "Community Financial Analyst", "Community Infastructure Officer ", "Community Infastructure Officer III", "Community Infastructure Specialist ", "Community Organizer", "Community Organizer III", "Community Procurement Officer ", "Community Procurement Officer 3", "Community Procurement Officer III", "Community Procurement Specialist ", "Computer Encoder", "Computer Maintenance Technologist I", "Computer Maintenance Technologist II", "Computer Operator", "Computer Operator I", "Computer Operator II", "Computer Operator III", "Computer Operator IV", "Computer Programmer I", "Computer Programmer II", "Computer Programmer III", "Concurrent Head", "Concurent National Program Manager", "Concurent OIC", "Consultant", "Convergeance Coordinator", "Cook", "Cook I", "Cook II", "CPO", "CPO IV", "Crative Arts Specialist", "DAC - DEPUTY ARE COORDINATOR", "Data Analyst III", "Data Encoder", "Database Specialist", "Day Care Worker I", "Day Care Worker II", "Default", "Dentist II", "Department Assistant Secretary", "Department Legislative Liaison Specialist", "Department Secretary", "Department Undersecretary", "Deputy Area Coordinator - Electrical Engineer", "Deputy Area Coordinator - Geoditic Engineer", "Deputy Area Coordinator - IT", "Deputy Community Development Specialist", "Deputy Director", "Deputy Nat'l Community - Infra. Engr.", "Deputy National M & E Specialist", "Deputy National Program Manager for Operations", "Deputy National Training Specialist", "Deputy NCBS", "Deputy Program Director", "Deputy Program Manager", "Deputy Program Manager Operation", "Deputy Regional Program Manager", "Deputy Regional Project Manager", "Deputy Technical Facilitator", "Derector", "Director III", "Director IV", "Division Chief", "Dormitory Manager I", "Dormitory Manager II", "DPMO", "DPMO/PROPERTY WAREHOUSE", "DPSC", "DRAFTSMAN", "Driver", "Driver II", "DSWD FO CARAGA", "ECCD Teacher", "Echonomist III", "Electrical Engineer", "Electrician I ", "Electrician II ", "Encoder", "Encoder III", "Encoder-BTMS", "Engineer I", "Engineer II", "Engineer III", "Engineer IV", "Engineer AIDE", "Environtmental Safeguard Specialist", "Executive Assistant ", "Executive Assistant I", "Executive Assistant II", "Executive Assistant III", "Executive Assistant IV", "Executive Assistant V", "Executive Assistant VI", "Executive Secretary/ Senior Administrative Assistant III", "FA - MAGSAYSAY", "FA II", "FA III", "Family Welfare Assistant for MCCT", "FDS Coordinator", "Field Program Manager", "Field Office Coordinator", "Field Program Manager", "Finance Officer Cum Administrative Officer", "Finance Officer III", "Financial Analyst", "Financial Analyst I", "Financial Analyst II", "Financial Analyst III", "Financial Analyst III (Budget Officer)", "Financial Analyst III (Cash Grants)", "Financial Analyst III/KALAHI CIDSS", "Financial Analyst IV", "Financial Analyst V", "Financial Analyst V (Project Accountant)", "Financial Assistant III", "FMD Chief", "FOCAL PERSON FOR OSEC", "FOR STORAGE", "FPC", "Gender Specialist", "Geodetic Engineer", "GIS Specialist", "Governance Specialist", "Goverment Intership Program", "Greivance Redress System Focal", "Greivance, Admin Officer", "Handicaft Worker II", "Head ", "Head Executive Assistant", "Head, Accounting Section", "Head, RAMS", "Heavy Equipment Operator I", "HMO Inlife Customer Service Representative", "House Attendant ", "Household Attendant III", "Houseparent I", "HOUSEPARENT II", "houseparent III", "Houseparent IV", "HR - Learning and Development", "HR Specialist", "HRMDD CHIEF", "Human Relations Officer I ", "Human Resource Officer", "Human Resource Officer I", "Human Resource Officer II", "Information analyst I", "Information Officer", "Information Officer I", "Information Officer I/Social Pension Program", "Information Officer I/UCT", "Information Officer II", "Information Officer III ", "Information Officer III (Social Marketing Officer III)", "Information Officer IV", "Information Officer V", "Information Specialist Analyst", "Information System Analyst", "Information System Analyst I", "Information System Analyst III", "Information Systems Analyst", "Information Technology Officer (Team Leader)", "Information Technology Officer I", "Information Technology Officer II", "Information Technology Officer III", "Institutional Partnership and Development Officer", "Instructor ", "Inter Auditing Assistant", "Internal Auditor I", "Internal Auditor II", "Internal Auditor III", "Internal Auditor IV", "Internal Auditor V", "IO", "IPDO", "JOB ORDER", "Job Placement Officer", "Junior Capacity Building Specialist", "Junior Community Procurement Specialist", "KALAHI CIDSS - Japan Fund for Proverty Reduction", "KM Writer", "Knowledge Management Writer", "Laundry Worker I ", "Laundry Worker II", "Laundry Worker/Cook", "Laundrywoman", "Legal Assistant I", "Legal Assistant II", "LIBRARIAN I", "Librarian II", "Logistic Officer III", "M & E Assistant III", "M & E I", "M & E II", "M & E Specialist", "M & E IV", "M & E V", "M & E Officer III", "Management and Audit Analyst II", "Management Audit Analyst", "Management Audit Analyst II", "Management Audit Analyst IV", "MANPOWER DEVELOPMENT ASSISTANT ", "Manpower Development Officer I", "Manpower Development Officer II", "Manpower Development Officer III", "MCCT Coordinator", "MDO I / PSYCHOMETRICIAN", "Media Officer IV", "Media Production Specialist", "Media Prodcution Specialist III", "MEDICAL OFFICER", "Medical Officer III", "Medical Officer IV", "MFA", "Midwife I", "Minister of Social Service BARMM", "ML PATNANUNGAN", "MOA", "Monitoring & Evaluation Officer I", "Monitoring & Evaluation Officer II", "Monitoring & Evaluation Officer III", "Monitoring & Evaluation III ", "Monitoring & Evaluation Officer ", "Monitoring & Evaluation Officer III (External)", "Monitoring & Evaluation Officer IV", "Monitoring & Evaluation Officer V", "MRB", "Municipal Financial Analyst", "Municipal Financial Analyst/KALAHI-CIDSS", "Municipal Financial Analyst", "Municipal Link", "Minicipal Link Officer", "Municipal Monitoring ", "Municipal Rooving Bookkeeper", "Municipal Roving Bookkeeper", "Municipal Social Welfare Development Officer", "National Capability Building Specialist", "National Community Infrastructure", "National DRRM Support Coordinator", "National Financial Analyst - KCMCC", "National M & E Specialist", "National Training Officer", "NCDS", "NHTO IT-Division Chief/ITO3", "Nurse I", "Nurse II", "Nutritionist-Dietician I", "Nutritionist-Dietician II", "Nutritionist-Dietician III", "Nutritionist-Dietician V", "OASOPG-PP", "ODM Specialist", "OIC ", "OIC - Director IV", "OIC AUDIT TEAM LEADER", "OIC DIVISION Chief - DReMD", "OIC Head, Property & Supply Section", "OIC - Assistant Regional Director for Operations", "OIC - ASEC - OASOSG", "OIC - Assistant Director", "OIC - Assistant Secretary", "OIC - Assistant Service Director", "OIC-Asst. Secretary for OSG", "OIC - Center Head", "OIC - CHIEF", "OIC Director", "OIC - Division Chief", "OIC - GSD", "OIC - Procurement Unit Head", "OIC - Regional Director", "OIC - USEC", "OIC/Chief", "OJT", "On-the-job Trainee", "Operations Program Focal (PDO II - Municipal Link)", "Organizational Development Specialist III", "Organizational Development Specialist IV", "Organizational Training Specialist IV", "Payapa at Masaganang Pamayanan ", "PDO", "PDO I", "PDO I/FMD Cash Grants ", "PDO I/DRMD ", "PDO I/Grievance Officer", "PDO I/provincial Monitoring Evaluation Officer", "PDO II", "PDO II - System coordinator", "PDO II Municipal link", "PDO II (Case Worker)", "PDO II - BUS", "PDO II - BUS Focal Person", "PDO - Coordination to Partner Agencies", "PDO II - CVS", "PDOII - EPAHPH", "PDO II - GAD", "PDO II - GRS", "PDO II - GRS (Cluster) ", "PDO II - Information II", "PDO II - IP", "PDO II - Monitoring & Evaluation Officer", "PDO II - SWAD TL", "PDO II / Capability building ", "PDO II / DRMD CCAM", "PDO II / ML TUAO, CAGAYAN", "PDO II / Municipal Link, Alicia, Isabela", "PDO II / Municipal Link, Ilagan City, Isabela", "PDO II / RMEO", "PDO II / SLP Batanes", "PDO II / SWAD TL", "PDO II / GRS ", "PDO II Municipal Link, Abulug, Cagayan", "PDO II - Institutional Partnership Development Officer", "PDO II - City link, Tuguegarao City, Cagayan", "PDO II - Cluster Benefeciary Data Officer", "PDO II - MCCT Community Facilitator", "PDO II - Municipal Link", "PDO II - Municipal Link Dupax Del Norte,N.V", "PDO II - Municipal Link, Ambaguio", "PDO II - Municipal Link, Buguey, Cagayan", "PDO II - Municipal Link, Diadi, N.V", "PDO II - Municipal Link, Enrile, Cagayan", "PDO II - Municipal Link, Iguig, Cagayan", "PDO II - Municipal Link, Napagtipunan, Quirino", "PDO II - Municipal Link, Saguday, Quirino", "PDO II - Municipal Link, Dupax Del Sur, N.V", "PDO II - Provincial Systems Focal", "PDO II - Regional Monitoring and Evaluation Officer", "PDO II/PMEO SLP ISABELA", "PDO II/Provincial Coordinator", "PDO II/Child Labord Focal Person", "PDO II/DRMD", "PDO II/DRMD CCAM", "PDO II/Geographic Info.System Specialist", "PDO II/Information Officer", "PDO II/LIQUIDATION FOCAL/RMEF", "PDO II/MCCT San Pablo, Isabela", "PDO II/ML APARRI, CAGAYAN", "PDO II/ML TUAO, CAGAYAN", "PDO II/MUNICIPAL LINK", "PDO II/Municipal Link Bambang, NV", "PDO II/Municipal Link Claveri, Cagayan", "PDO II/Municipal Link Diadi, NV", "PDO II/Municipal Link Dinapigue, Isabela", "PDO II/Municipal Link Gattaran, Cagayan", "PDO II/Municipal Link Kayapa, Nueva Viscaya", "PDO II/Municipal Link Pamplano, Cagayan", "PDO II/Municipal Link Peablanca, Cagayan", "PDO II/Municipal Link Quezon, Nueva Viscaya", "PDO II/Municipal LInk Rizal,Cagayan", "PDO II/Municipal Link Roxas,Isabela", "PDO II/Municipal Link San Isidro, Cagayan", "PDO II/Municipal Link San Isidro, Isabela", "PDO II/Municipal Link Sanchez Mira, Cagayan", "PDO II/Municipal Link Solano,NV", "PDO II/Municipal LInk Sta.Fe,NV", "PDO II/Municipal Link Sta.Praxedes,Cagayan", "PDO II/Municipal Link Sto.Nino,Cagayan", "PDO II/Municipal Link Villaverde", "PDO II/Municipal Link, Aparri,Cagayan", "PDO II/Municipal Link, Buguey, Cagayan", "PDO II/Municipal Link, Burgos, Isabela", "PDO II/Municipal Link, Divilacan, Isabela", "PDO II/Municipal Link, Jones,Isabela", "PDO II/Municipal Link,MACONACON, ISABELA", "PDO II/Municipal Link,SAn Agustin,Isabela", "PDo II/Municipal Link,San Mariano,Isabela", "PDO II/Municipal Link,San Mateo,Isabela", "PDO II/Municipal Link,Tumauini,Isabela", "PDO II/Municipal Link,Divilacan,Isabela", "PDO II/Municipal Link,Echague,Isabela", "PDO II/Municipal Link,Maconacon,Isabela", "PDO II/Municipal Link,San Mariano,Isabela", "PDO II/PMEO ISABELA", "PDO II/PMEO NUEVA VIZCAYA", "PDO II/PMEO QUIRINO", "PDO II/Private Sector Partnership Officer", "PDO II/Provincial Coordinator Isabela, Cagayan", "PDO II/Provincial Coordinator SLP Isabela", "PDO II/Provincial Coordinator SLP Quirino", "PDO II/Reports Generation", "PDO III", "PDO III/Area Coordinator", "PDO III/Area Coordinator", "PDO III/Civil Engineer", "PDO III TEchnical Staff/RSCWC", "PDO III/Area Coordinator", "PDO III/Head, CVRRCY", "PDO III/Reg'l Center Coordinator", "PDO III/RSCWC", "PDO IV", "PDO V/ RPC", "PDO V/Division", "PDO V/Regional Field Coordinator UCT", "PDO-I Social Pension", "PDO-II", "PDO-IIDRMMD", "PEO I", "PEO III", "PGO", "Photographer II", "Physical Therapist II", "Planning Officer I", "Planning Officer II", "Planning Officer III", "Planning Officer IV", "Planning Officer V", "Plumber", "PMEO", "PMO-EE", "Policy and Plans Division Chief", "PPG-OSM", "PPO", "Prisedent - SWEAP", "Private Secretary", "Private Secretary I ", "Procurement Assistant", "Procurement Assistant II", "PROCUREMENT ASST.", "Procurement Development Officer III", "Procurement Officer", "Procurement Specialist", "Profect Development Officer II (DRAFTMAN)", "Program Development III", "Project Evaluation Specialist", "Program Manager", "Program Officer", "Project Coordinator", "Project Development Office III", "Project Development Officer", "Project Development Officer I", "Project Development Officer I - KC", "Project Development Officer I - Nurse", "Project Development Officer I - Nutritionist - Dietician I", "Project Development Officer I/CAMP MANAGERS", "Project Development Officer II", "Project Development Officer II (CVS Focal)", "Project Development Officer II - BP2P", "Project Development Officer II - Database Specialist ", "Project Development Officer II - Infrastructure", "Project Development Officer II/SLP", "Project Development Officer II-CVS Focal (POO 2 Isabela)", "Project Development Officer II - MCCT", "Project Development Officer II - MunicipaL Link", "Project Development Officer II/GRS Focal", "Project Development Officer II/SLP", "Project Development Officer III", "Project Development Officer III - FDS Focal", "Project Development Officer III/Centenarian Focal Person", "Project Development Officer III/Regional Program Coordinator", "Project Development Officer IV ", "Project Development Officer V", "Project Development Officer V (Gender Specialist)", "Project Development Officer V (IP Specialist)", "Project Development Officer V - OIC", "Project Evaluation Officer", "Project Evaluation Officer II", "Project Evaluation Officer III", "Project Evaluation Officer IV", "Project Evaluation Officer V", "Project Management Officer", "Project Manager (UCT)", "Project Manager IV", "Project Officer", "Property Officer/Warehouse", "Provincial AA", "Provincial AA II", "Provincial Bus Officer (PDO II)", "PROVINCIAL CL", "Provinvial Coordinator", "Provinvial CVS Officer (PDO II)", "Provincial Grievance Officer", "Provincial Grievance Officer (PDO II)", "Provincial GRS Officer (PDO II)", "Provincial Link", "Psychologist I", "Psychologist II", "Psychologist III", "Psychometrician I", "Public Relations Officer IV", "Quality Management Specialist", "Records Officer ", "Regional Accountant", "Regional bookkeeper", "Regional capability Building Specialist", "Regional Community Development Specialist", "Regional Community Infrastructure Specialist", "Regional Director", "Regional Driver (KC-NCDDP) ", "Regional Executive Assistant ", "Regional Field Coordinator", "Regional Finance Specialist", "Regional Financial Analyst", "Regional Information Officer", "Regional Information Officer II-Head,SMU", "Regional Information Technology Officer ", "Regional Information Technology Officer I", "Regional Information Technology Officer II", "Regional Infrastructure Assistant", "Regional Infrastructure Officer", "Regional Infrastructure Officer II", "Regional Infrastructure Officer III", "Regional Monitoring And Evaluation Specialist", "Regional Procurement Officer", "Regional Procurement For Program", "Regional Procurement Officer For Program Community", "Regional Program coordinator", "Regional Program Coordinator - KALAHI - CIDSS", "Regional Program Coordinator - Operations", "Regional Sub - Committee for the Welfare of Children (RSCWC)", "Regional Training Assistant", "Regional Training Officer", "Regional Training Officer II", "Regional Training Specialist", "Repacker", "Research Officer III", "RIO III", "Roving Area Coordinator", "Roving Municipal Financial Analyst", "Roving technical Facilitator", "RSCWC - Technical Officer", "SA - IV", "SA - IV Audit Team Leader", "SAO", "SAO/DC", "SAO/OIC-DC", "Social Welfare Assistant - MCCT", "Secretary II", "Section Head", "Security Guard I (CT)", "Security Guard I (ICT)", "Security Guard II", "Security Officer II", "Senior Administrative Assistant I", "Senior Administrative Assistant II", "Senior Administrative Assistant III", "Senior Administrative Assistant IV", "Senior Administrative Assistant V", "Senior Administrative Officer", "Senior Bookkeeper", "Senior Bookkeeper (Admin Asst III)", "Senior M & E Assistant V", "Senior MANPOWER DEVELOPMENT OFFICER II", "Senior Statistician IV", "Senior Technical Officer ", "SGV", "Site Engineer", "Social Marketing Officer", "Social Marketing Officer III", "Social Marketing Officer III/KALAHI-CIDSS", "Social Marketing Specialist", "Social Safeguard Officer", "Social Safeguard Specialist", "Social Welfare Aide", "Social Welfare Assistant", "Social Welfare Assistant - CMU", "Social Welfare Assistant - MCCT IP", "Social Welfare Assistant I", "Social Welfare Assistant II", "Social Welfare Assistant - MCCT", "Social Welfare Attache", "Social Welfare Officer I ", "Social Welfare Officer I - OIC Center Head", "Social Welfare Officer II", "Social Welfare Officer II/EO 70 Focal", "Social Welfare Officer II/Family Focal", "Social Welfare Officer II/SWAD Team Leader", "Social Welfare Officer II/Team Leader", "Social Welfare Officer III", "Social Welfare Officer III-Center Head", "Social Welfare Officer III/Act as PL", "Social Welfare Officer III/TARA Focal", "Social Welfare Officer III/Team Leader", "Social Welfare Officer IV", "Social Welfare Officer IV, OIC-Chief,DReMD", "Social Welfare Officer IV - Center Head", "Social Welfare Officer V", "Social Welfare Officer V/OIC ARDO and Concurrent Head PSD", "Special Investigator III", "SPED TEACHER", "Stakeholder Management and Networking Specialist", "State Auditing Examiner", "State Auditing Examiner II", "State Auditor ", "State Auditor and Examiner ", "State Auditor I", "State Auditor II", "State Auditor III", "State Auditor IV", "State Auditor V", "Statistician", "Statistician Aide", "Statistician Aide II", "Statistician I", "Statistician II", "Statistician III", "Statistician IV", "Stockroom/Warehouse", "Storage Room", "Storekeeper", "Sub-Regional Program Coordinator", "Sub-Regional Project Coordinator", "Supervising Administrative I", "Supervising Administrative V", "Supervising Administrative Officer", "Supervising Administrative Officer - KC - NCDDP", "Supervising Administrative Officer/KALAHI - CIDSS", "Supervising Auditor V", "Supervisor", "Supplier", "Supply Officer I", "Supply Procurement Officer I", "SWA", "SWA - Convergence", "SWA AIDE", "SWA San Juan Batangas", "SWA - CMU", "SWI - III", "SWO - I", "SWO - II", "SWO - II/Women Focal Person", "SWO II - SWAD TL", "SWO II - OIC Center Head", "SWO II/Family Focal Person", "SWO II/Older Per & IISO Focal Person", "SWO II/RRPTP", "SWO II/RRPTP,PWD,PLHIV & Youth Focal Person", "SWO II/Women Focal Person", "SWO III", "SWO III/Head, Social Technology Section", "SWO III/Head, Regional Juvenile Justice and Welfare Council", "SWO III/OIC - SLP RPC", "SWO IV", "SWO IV UCT", "SWO V / Chief, Promotive Services Division", "SWO V / Division Chief", "SWO V / OIC ARD for Operations", "System Analyst II", "System Coordinator", "System Coordinator Officer (PDO II)", "System Coordinator Officer PDO II - BUS", "System Coordinator Officer PDO II - CVS", "System Coordinator Officer PDO II - GRS", "Teach for The Philippines Ambasador", "Teacher", "Teacher I", "Team Leader", "Team Leader SWAD Nueva Viscaya", "Techincal Empowerment facilitator", "Technical Facilitator", "Techinal Facilitator/KALAHI-CIDSS", "Technical Specialist", "Technician ", "Training Assistant II", "Training Center Superintendent II", "Training Specialist I", "Training Specialist II", "Training Specialist III", "Training Specialist IV", "TS IV", "UCT - Regional Field Coordinator", "Undersecretary ", "Undersecretary for Administration", "Utility Worker", "Utility Worker I", "Utility Worker II", "WAREHOUSE", "Warehouseman II"})
         comboPos.Location = New Point(558, 95)
         comboPos.Name = "comboPos"
-        comboPos.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        comboPos.ShadowDecoration.CustomizableEdges = CustomizableEdges32
         comboPos.Size = New Size(335, 36)
         comboPos.TabIndex = 1
         ' 
@@ -760,7 +834,7 @@ Partial Class signups
         ' 
         comboOffice.BackColor = Color.Transparent
         comboOffice.BorderColor = SystemColors.ButtonShadow
-        comboOffice.CustomizableEdges = CustomizableEdges29
+        comboOffice.CustomizableEdges = CustomizableEdges33
         comboOffice.DrawMode = DrawMode.OwnerDrawFixed
         comboOffice.DropDownStyle = ComboBoxStyle.DropDownList
         comboOffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -771,7 +845,7 @@ Partial Class signups
         comboOffice.Items.AddRange(New Object() {"4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
         comboOffice.Location = New Point(142, 94)
         comboOffice.Name = "comboOffice"
-        comboOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges30
+        comboOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges34
         comboOffice.Size = New Size(335, 36)
         comboOffice.TabIndex = 0
         ' 
@@ -796,11 +870,57 @@ Partial Class signups
         TabPage3.TabIndex = 2
         TabPage3.Text = "Beneficiaries"
         ' 
+        ' Panel4
+        ' 
+        Panel4.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel4.Controls.Add(Guna2Button7)
+        Panel4.Controls.Add(Guna2Button3)
+        Panel4.Controls.Add(txtBA5)
+        Panel4.Controls.Add(txtBA4)
+        Panel4.Controls.Add(txtBA3)
+        Panel4.Controls.Add(txtbxBR5)
+        Panel4.Controls.Add(txtbxBR4)
+        Panel4.Controls.Add(txtbxBR3)
+        Panel4.Controls.Add(txtbxBF5)
+        Panel4.Controls.Add(txtbxBF4)
+        Panel4.Controls.Add(txtbxBF3)
+        Panel4.Controls.Add(txtBA2)
+        Panel4.Controls.Add(txtbxBR2)
+        Panel4.Controls.Add(txtbxBF2)
+        Panel4.Controls.Add(txtBA1)
+        Panel4.Controls.Add(txtbxBR1)
+        Panel4.Controls.Add(txtbxBF1)
+        Panel4.Controls.Add(Label20)
+        Panel4.Controls.Add(Label21)
+        Panel4.Controls.Add(Label22)
+        Panel4.Location = New Point(26, 13)
+        Panel4.Name = "Panel4"
+        Panel4.Size = New Size(987, 337)
+        Panel4.TabIndex = 116
+        ' 
+        ' Guna2Button7
+        ' 
+        Guna2Button7.Animated = True
+        Guna2Button7.BorderRadius = 5
+        Guna2Button7.CustomizableEdges = CustomizableEdges35
+        Guna2Button7.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button7.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button7.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button7.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button7.ForeColor = Color.White
+        Guna2Button7.Location = New Point(576, 272)
+        Guna2Button7.Name = "Guna2Button7"
+        Guna2Button7.ShadowDecoration.CustomizableEdges = CustomizableEdges36
+        Guna2Button7.Size = New Size(173, 45)
+        Guna2Button7.TabIndex = 116
+        Guna2Button7.Text = "BACK"
+        ' 
         ' Guna2Button3
         ' 
         Guna2Button3.Animated = True
         Guna2Button3.BorderRadius = 5
-        Guna2Button3.CustomizableEdges = CustomizableEdges31
+        Guna2Button3.CustomizableEdges = CustomizableEdges37
         Guna2Button3.DisabledState.BorderColor = Color.DarkGray
         Guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -809,7 +929,7 @@ Partial Class signups
         Guna2Button3.ForeColor = Color.White
         Guna2Button3.Location = New Point(755, 272)
         Guna2Button3.Name = "Guna2Button3"
-        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges32
+        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges38
         Guna2Button3.Size = New Size(173, 45)
         Guna2Button3.TabIndex = 15
         Guna2Button3.Text = "NEXT"
@@ -818,7 +938,7 @@ Partial Class signups
         ' 
         txtBA5.BorderColor = SystemColors.ButtonShadow
         txtBA5.BorderRadius = 5
-        txtBA5.CustomizableEdges = CustomizableEdges33
+        txtBA5.CustomizableEdges = CustomizableEdges39
         txtBA5.DefaultText = ""
         txtBA5.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtBA5.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -834,7 +954,7 @@ Partial Class signups
         txtBA5.PasswordChar = ChrW(0)
         txtBA5.PlaceholderText = ""
         txtBA5.SelectedText = ""
-        txtBA5.ShadowDecoration.CustomizableEdges = CustomizableEdges34
+        txtBA5.ShadowDecoration.CustomizableEdges = CustomizableEdges40
         txtBA5.Size = New Size(166, 36)
         txtBA5.TabIndex = 14
         ' 
@@ -842,7 +962,7 @@ Partial Class signups
         ' 
         txtBA4.BorderColor = SystemColors.ButtonShadow
         txtBA4.BorderRadius = 5
-        txtBA4.CustomizableEdges = CustomizableEdges35
+        txtBA4.CustomizableEdges = CustomizableEdges41
         txtBA4.DefaultText = ""
         txtBA4.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtBA4.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -858,7 +978,7 @@ Partial Class signups
         txtBA4.PasswordChar = ChrW(0)
         txtBA4.PlaceholderText = ""
         txtBA4.SelectedText = ""
-        txtBA4.ShadowDecoration.CustomizableEdges = CustomizableEdges36
+        txtBA4.ShadowDecoration.CustomizableEdges = CustomizableEdges42
         txtBA4.Size = New Size(166, 36)
         txtBA4.TabIndex = 11
         ' 
@@ -866,7 +986,7 @@ Partial Class signups
         ' 
         txtBA3.BorderColor = SystemColors.ButtonShadow
         txtBA3.BorderRadius = 5
-        txtBA3.CustomizableEdges = CustomizableEdges37
+        txtBA3.CustomizableEdges = CustomizableEdges43
         txtBA3.DefaultText = ""
         txtBA3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtBA3.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -882,7 +1002,7 @@ Partial Class signups
         txtBA3.PasswordChar = ChrW(0)
         txtBA3.PlaceholderText = ""
         txtBA3.SelectedText = ""
-        txtBA3.ShadowDecoration.CustomizableEdges = CustomizableEdges38
+        txtBA3.ShadowDecoration.CustomizableEdges = CustomizableEdges44
         txtBA3.Size = New Size(166, 36)
         txtBA3.TabIndex = 8
         ' 
@@ -890,7 +1010,7 @@ Partial Class signups
         ' 
         txtbxBR5.BorderColor = SystemColors.ButtonShadow
         txtbxBR5.BorderRadius = 5
-        txtbxBR5.CustomizableEdges = CustomizableEdges39
+        txtbxBR5.CustomizableEdges = CustomizableEdges45
         txtbxBR5.DefaultText = ""
         txtbxBR5.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxBR5.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -906,7 +1026,7 @@ Partial Class signups
         txtbxBR5.PasswordChar = ChrW(0)
         txtbxBR5.PlaceholderText = ""
         txtbxBR5.SelectedText = ""
-        txtbxBR5.ShadowDecoration.CustomizableEdges = CustomizableEdges40
+        txtbxBR5.ShadowDecoration.CustomizableEdges = CustomizableEdges46
         txtbxBR5.Size = New Size(279, 36)
         txtbxBR5.TabIndex = 13
         ' 
@@ -914,7 +1034,7 @@ Partial Class signups
         ' 
         txtbxBR4.BorderColor = SystemColors.ButtonShadow
         txtbxBR4.BorderRadius = 5
-        txtbxBR4.CustomizableEdges = CustomizableEdges41
+        txtbxBR4.CustomizableEdges = CustomizableEdges47
         txtbxBR4.DefaultText = ""
         txtbxBR4.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxBR4.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -930,7 +1050,7 @@ Partial Class signups
         txtbxBR4.PasswordChar = ChrW(0)
         txtbxBR4.PlaceholderText = ""
         txtbxBR4.SelectedText = ""
-        txtbxBR4.ShadowDecoration.CustomizableEdges = CustomizableEdges42
+        txtbxBR4.ShadowDecoration.CustomizableEdges = CustomizableEdges48
         txtbxBR4.Size = New Size(279, 36)
         txtbxBR4.TabIndex = 10
         ' 
@@ -938,7 +1058,7 @@ Partial Class signups
         ' 
         txtbxBR3.BorderColor = SystemColors.ButtonShadow
         txtbxBR3.BorderRadius = 5
-        txtbxBR3.CustomizableEdges = CustomizableEdges43
+        txtbxBR3.CustomizableEdges = CustomizableEdges49
         txtbxBR3.DefaultText = ""
         txtbxBR3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxBR3.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -954,7 +1074,7 @@ Partial Class signups
         txtbxBR3.PasswordChar = ChrW(0)
         txtbxBR3.PlaceholderText = ""
         txtbxBR3.SelectedText = ""
-        txtbxBR3.ShadowDecoration.CustomizableEdges = CustomizableEdges44
+        txtbxBR3.ShadowDecoration.CustomizableEdges = CustomizableEdges50
         txtbxBR3.Size = New Size(279, 36)
         txtbxBR3.TabIndex = 7
         ' 
@@ -962,7 +1082,7 @@ Partial Class signups
         ' 
         txtbxBF5.BorderColor = SystemColors.ButtonShadow
         txtbxBF5.BorderRadius = 5
-        txtbxBF5.CustomizableEdges = CustomizableEdges45
+        txtbxBF5.CustomizableEdges = CustomizableEdges51
         txtbxBF5.DefaultText = ""
         txtbxBF5.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxBF5.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -978,7 +1098,7 @@ Partial Class signups
         txtbxBF5.PasswordChar = ChrW(0)
         txtbxBF5.PlaceholderText = ""
         txtbxBF5.SelectedText = ""
-        txtbxBF5.ShadowDecoration.CustomizableEdges = CustomizableEdges46
+        txtbxBF5.ShadowDecoration.CustomizableEdges = CustomizableEdges52
         txtbxBF5.Size = New Size(384, 36)
         txtbxBF5.TabIndex = 12
         ' 
@@ -986,7 +1106,7 @@ Partial Class signups
         ' 
         txtbxBF4.BorderColor = SystemColors.ButtonShadow
         txtbxBF4.BorderRadius = 5
-        txtbxBF4.CustomizableEdges = CustomizableEdges47
+        txtbxBF4.CustomizableEdges = CustomizableEdges53
         txtbxBF4.DefaultText = ""
         txtbxBF4.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxBF4.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1002,7 +1122,7 @@ Partial Class signups
         txtbxBF4.PasswordChar = ChrW(0)
         txtbxBF4.PlaceholderText = ""
         txtbxBF4.SelectedText = ""
-        txtbxBF4.ShadowDecoration.CustomizableEdges = CustomizableEdges48
+        txtbxBF4.ShadowDecoration.CustomizableEdges = CustomizableEdges54
         txtbxBF4.Size = New Size(384, 36)
         txtbxBF4.TabIndex = 9
         ' 
@@ -1010,7 +1130,7 @@ Partial Class signups
         ' 
         txtbxBF3.BorderColor = SystemColors.ButtonShadow
         txtbxBF3.BorderRadius = 5
-        txtbxBF3.CustomizableEdges = CustomizableEdges49
+        txtbxBF3.CustomizableEdges = CustomizableEdges55
         txtbxBF3.DefaultText = ""
         txtbxBF3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxBF3.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1026,7 +1146,7 @@ Partial Class signups
         txtbxBF3.PasswordChar = ChrW(0)
         txtbxBF3.PlaceholderText = ""
         txtbxBF3.SelectedText = ""
-        txtbxBF3.ShadowDecoration.CustomizableEdges = CustomizableEdges50
+        txtbxBF3.ShadowDecoration.CustomizableEdges = CustomizableEdges56
         txtbxBF3.Size = New Size(384, 36)
         txtbxBF3.TabIndex = 6
         ' 
@@ -1034,7 +1154,7 @@ Partial Class signups
         ' 
         txtBA2.BorderColor = SystemColors.ButtonShadow
         txtBA2.BorderRadius = 5
-        txtBA2.CustomizableEdges = CustomizableEdges51
+        txtBA2.CustomizableEdges = CustomizableEdges57
         txtBA2.DefaultText = ""
         txtBA2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtBA2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1050,7 +1170,7 @@ Partial Class signups
         txtBA2.PasswordChar = ChrW(0)
         txtBA2.PlaceholderText = ""
         txtBA2.SelectedText = ""
-        txtBA2.ShadowDecoration.CustomizableEdges = CustomizableEdges52
+        txtBA2.ShadowDecoration.CustomizableEdges = CustomizableEdges58
         txtBA2.Size = New Size(166, 36)
         txtBA2.TabIndex = 5
         ' 
@@ -1058,7 +1178,7 @@ Partial Class signups
         ' 
         txtbxBR2.BorderColor = SystemColors.ButtonShadow
         txtbxBR2.BorderRadius = 5
-        txtbxBR2.CustomizableEdges = CustomizableEdges53
+        txtbxBR2.CustomizableEdges = CustomizableEdges59
         txtbxBR2.DefaultText = ""
         txtbxBR2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxBR2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1074,7 +1194,7 @@ Partial Class signups
         txtbxBR2.PasswordChar = ChrW(0)
         txtbxBR2.PlaceholderText = ""
         txtbxBR2.SelectedText = ""
-        txtbxBR2.ShadowDecoration.CustomizableEdges = CustomizableEdges54
+        txtbxBR2.ShadowDecoration.CustomizableEdges = CustomizableEdges60
         txtbxBR2.Size = New Size(279, 36)
         txtbxBR2.TabIndex = 4
         ' 
@@ -1082,7 +1202,7 @@ Partial Class signups
         ' 
         txtbxBF2.BorderColor = SystemColors.ButtonShadow
         txtbxBF2.BorderRadius = 5
-        txtbxBF2.CustomizableEdges = CustomizableEdges55
+        txtbxBF2.CustomizableEdges = CustomizableEdges61
         txtbxBF2.DefaultText = ""
         txtbxBF2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxBF2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1098,7 +1218,7 @@ Partial Class signups
         txtbxBF2.PasswordChar = ChrW(0)
         txtbxBF2.PlaceholderText = ""
         txtbxBF2.SelectedText = ""
-        txtbxBF2.ShadowDecoration.CustomizableEdges = CustomizableEdges56
+        txtbxBF2.ShadowDecoration.CustomizableEdges = CustomizableEdges62
         txtbxBF2.Size = New Size(384, 36)
         txtbxBF2.TabIndex = 3
         ' 
@@ -1106,7 +1226,7 @@ Partial Class signups
         ' 
         txtBA1.BorderColor = SystemColors.ButtonShadow
         txtBA1.BorderRadius = 5
-        txtBA1.CustomizableEdges = CustomizableEdges57
+        txtBA1.CustomizableEdges = CustomizableEdges63
         txtBA1.DefaultText = ""
         txtBA1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtBA1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1122,7 +1242,7 @@ Partial Class signups
         txtBA1.PasswordChar = ChrW(0)
         txtBA1.PlaceholderText = ""
         txtBA1.SelectedText = ""
-        txtBA1.ShadowDecoration.CustomizableEdges = CustomizableEdges58
+        txtBA1.ShadowDecoration.CustomizableEdges = CustomizableEdges64
         txtBA1.Size = New Size(166, 36)
         txtBA1.TabIndex = 2
         ' 
@@ -1130,7 +1250,7 @@ Partial Class signups
         ' 
         txtbxBR1.BorderColor = SystemColors.ButtonShadow
         txtbxBR1.BorderRadius = 5
-        txtbxBR1.CustomizableEdges = CustomizableEdges59
+        txtbxBR1.CustomizableEdges = CustomizableEdges65
         txtbxBR1.DefaultText = ""
         txtbxBR1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxBR1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1146,7 +1266,7 @@ Partial Class signups
         txtbxBR1.PasswordChar = ChrW(0)
         txtbxBR1.PlaceholderText = ""
         txtbxBR1.SelectedText = ""
-        txtbxBR1.ShadowDecoration.CustomizableEdges = CustomizableEdges60
+        txtbxBR1.ShadowDecoration.CustomizableEdges = CustomizableEdges66
         txtbxBR1.Size = New Size(279, 36)
         txtbxBR1.TabIndex = 1
         ' 
@@ -1154,7 +1274,7 @@ Partial Class signups
         ' 
         txtbxBF1.BorderColor = SystemColors.ButtonShadow
         txtbxBF1.BorderRadius = 5
-        txtbxBF1.CustomizableEdges = CustomizableEdges61
+        txtbxBF1.CustomizableEdges = CustomizableEdges67
         txtbxBF1.DefaultText = ""
         txtbxBF1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxBF1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1170,7 +1290,7 @@ Partial Class signups
         txtbxBF1.PasswordChar = ChrW(0)
         txtbxBF1.PlaceholderText = ""
         txtbxBF1.SelectedText = ""
-        txtbxBF1.ShadowDecoration.CustomizableEdges = CustomizableEdges62
+        txtbxBF1.ShadowDecoration.CustomizableEdges = CustomizableEdges68
         txtbxBF1.Size = New Size(384, 36)
         txtbxBF1.TabIndex = 0
         ' 
@@ -1227,7 +1347,7 @@ Partial Class signups
         ' 
         Guna2Button4.Animated = True
         Guna2Button4.BorderRadius = 5
-        Guna2Button4.CustomizableEdges = CustomizableEdges63
+        Guna2Button4.CustomizableEdges = CustomizableEdges69
         Guna2Button4.DisabledState.BorderColor = Color.DarkGray
         Guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button4.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1236,7 +1356,7 @@ Partial Class signups
         Guna2Button4.ForeColor = Color.White
         Guna2Button4.Location = New Point(173, 276)
         Guna2Button4.Name = "Guna2Button4"
-        Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges64
+        Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges70
         Guna2Button4.Size = New Size(173, 45)
         Guna2Button4.TabIndex = 117
         Guna2Button4.Text = "SUBMIT"
@@ -1245,7 +1365,7 @@ Partial Class signups
         ' 
         txtbxPass.BorderColor = SystemColors.ButtonShadow
         txtbxPass.BorderRadius = 5
-        txtbxPass.CustomizableEdges = CustomizableEdges65
+        txtbxPass.CustomizableEdges = CustomizableEdges71
         txtbxPass.DefaultText = ""
         txtbxPass.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxPass.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1261,7 +1381,7 @@ Partial Class signups
         txtbxPass.PasswordChar = ChrW(0)
         txtbxPass.PlaceholderText = ""
         txtbxPass.SelectedText = ""
-        txtbxPass.ShadowDecoration.CustomizableEdges = CustomizableEdges66
+        txtbxPass.ShadowDecoration.CustomizableEdges = CustomizableEdges72
         txtbxPass.Size = New Size(279, 36)
         txtbxPass.TabIndex = 110
         ' 
@@ -1269,7 +1389,7 @@ Partial Class signups
         ' 
         txtbxUser.BorderColor = SystemColors.ButtonShadow
         txtbxUser.BorderRadius = 5
-        txtbxUser.CustomizableEdges = CustomizableEdges67
+        txtbxUser.CustomizableEdges = CustomizableEdges73
         txtbxUser.DefaultText = ""
         txtbxUser.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxUser.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1285,14 +1405,14 @@ Partial Class signups
         txtbxUser.PasswordChar = ChrW(0)
         txtbxUser.PlaceholderText = ""
         txtbxUser.SelectedText = ""
-        txtbxUser.ShadowDecoration.CustomizableEdges = CustomizableEdges68
+        txtbxUser.ShadowDecoration.CustomizableEdges = CustomizableEdges74
         txtbxUser.Size = New Size(279, 36)
         txtbxUser.TabIndex = 109
         ' 
         ' bttnUpload
         ' 
         bttnUpload.BorderRadius = 10
-        bttnUpload.CustomizableEdges = CustomizableEdges69
+        bttnUpload.CustomizableEdges = CustomizableEdges75
         bttnUpload.DisabledState.BorderColor = Color.DarkGray
         bttnUpload.DisabledState.CustomBorderColor = Color.DarkGray
         bttnUpload.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1302,7 +1422,7 @@ Partial Class signups
         bttnUpload.ImageAlign = HorizontalAlignment.Left
         bttnUpload.Location = New Point(650, 284)
         bttnUpload.Name = "bttnUpload"
-        bttnUpload.ShadowDecoration.CustomizableEdges = CustomizableEdges70
+        bttnUpload.ShadowDecoration.CustomizableEdges = CustomizableEdges76
         bttnUpload.Size = New Size(233, 37)
         bttnUpload.TabIndex = 108
         bttnUpload.Text = "UPLOAD IMAGE"
@@ -1312,12 +1432,12 @@ Partial Class signups
         pBoxProfile.BackgroundImage = My.Resources.Resources.profile__3_
         pBoxProfile.BackgroundImageLayout = ImageLayout.Stretch
         pBoxProfile.BorderStyle = BorderStyle.FixedSingle
-        pBoxProfile.CustomizableEdges = CustomizableEdges71
+        pBoxProfile.CustomizableEdges = CustomizableEdges77
         pBoxProfile.FillColor = Color.Transparent
         pBoxProfile.ImageRotate = 0F
         pBoxProfile.Location = New Point(650, 43)
         pBoxProfile.Name = "pBoxProfile"
-        pBoxProfile.ShadowDecoration.CustomizableEdges = CustomizableEdges72
+        pBoxProfile.ShadowDecoration.CustomizableEdges = CustomizableEdges78
         pBoxProfile.Size = New Size(233, 227)
         pBoxProfile.TabIndex = 107
         pBoxProfile.TabStop = False
@@ -1344,60 +1464,6 @@ Partial Class signups
         Label13.TabIndex = 105
         Label13.Text = "USERNAME"
         ' 
-        ' Panel3
-        ' 
-        Panel3.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Panel3.Controls.Add(Guna2Button1)
-        Panel3.Controls.Add(dateBday)
-        Panel3.Controls.Add(Label2)
-        Panel3.Controls.Add(txtEduc)
-        Panel3.Controls.Add(txtEmail)
-        Panel3.Controls.Add(txtContact)
-        Panel3.Controls.Add(txtAddress)
-        Panel3.Controls.Add(Label17)
-        Panel3.Controls.Add(Label18)
-        Panel3.Controls.Add(Label23)
-        Panel3.Controls.Add(Label24)
-        Panel3.Controls.Add(Label28)
-        Panel3.Controls.Add(pickSex)
-        Panel3.Controls.Add(txtLname)
-        Panel3.Controls.Add(txtMname)
-        Panel3.Controls.Add(Label25)
-        Panel3.Controls.Add(txtFname)
-        Panel3.Controls.Add(Label26)
-        Panel3.Controls.Add(Label27)
-        Panel3.Location = New Point(13, 11)
-        Panel3.Name = "Panel3"
-        Panel3.Size = New Size(1009, 340)
-        Panel3.TabIndex = 114
-        ' 
-        ' Panel4
-        ' 
-        Panel4.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Panel4.Controls.Add(Guna2Button3)
-        Panel4.Controls.Add(txtBA5)
-        Panel4.Controls.Add(txtBA4)
-        Panel4.Controls.Add(txtBA3)
-        Panel4.Controls.Add(txtbxBR5)
-        Panel4.Controls.Add(txtbxBR4)
-        Panel4.Controls.Add(txtbxBR3)
-        Panel4.Controls.Add(txtbxBF5)
-        Panel4.Controls.Add(txtbxBF4)
-        Panel4.Controls.Add(txtbxBF3)
-        Panel4.Controls.Add(txtBA2)
-        Panel4.Controls.Add(txtbxBR2)
-        Panel4.Controls.Add(txtbxBF2)
-        Panel4.Controls.Add(txtBA1)
-        Panel4.Controls.Add(txtbxBR1)
-        Panel4.Controls.Add(txtbxBF1)
-        Panel4.Controls.Add(Label20)
-        Panel4.Controls.Add(Label21)
-        Panel4.Controls.Add(Label22)
-        Panel4.Location = New Point(26, 13)
-        Panel4.Name = "Panel4"
-        Panel4.Size = New Size(987, 337)
-        Panel4.TabIndex = 116
-        ' 
         ' signups
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -1414,16 +1480,16 @@ Partial Class signups
         Panel2.ResumeLayout(False)
         Guna2TabControl1.ResumeLayout(False)
         TabPage1.ResumeLayout(False)
+        Panel3.ResumeLayout(False)
+        Panel3.PerformLayout()
         TabPage2.ResumeLayout(False)
         TabPage2.PerformLayout()
         TabPage3.ResumeLayout(False)
+        Panel4.ResumeLayout(False)
+        Panel4.PerformLayout()
         TabPage4.ResumeLayout(False)
         TabPage4.PerformLayout()
         CType(pBoxProfile, ComponentModel.ISupportInitialize).EndInit()
-        Panel3.ResumeLayout(False)
-        Panel3.PerformLayout()
-        Panel4.ResumeLayout(False)
-        Panel4.PerformLayout()
         ResumeLayout(False)
     End Sub
 
@@ -1495,4 +1561,7 @@ Partial Class signups
     Friend WithEvents Label13 As Label
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Panel4 As Panel
+    Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Button6 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Button7 As Guna.UI2.WinForms.Guna2Button
 End Class
