@@ -325,7 +325,7 @@ Partial Class admindash
         ' 
         ' Panel1
         ' 
-        Panel1.BackColor = Color.FromArgb(CByte(167), CByte(41), CByte(36))
+        Panel1.BackColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
         Panel1.Controls.Add(Guna2Button6)
         Panel1.Controls.Add(Label1)
         Panel1.Controls.Add(Guna2ControlBox3)
@@ -347,7 +347,7 @@ Partial Class admindash
         Guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button6.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button6.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button6.FillColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
+        Guna2Button6.FillColor = Color.FromArgb(CByte(54), CByte(69), CByte(94))
         Guna2Button6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2Button6.ForeColor = Color.White
         Guna2Button6.Location = New Point(1076, 4)
@@ -392,7 +392,8 @@ Partial Class admindash
         Guna2ControlBox3.CustomizableEdges = CustomizableEdges110
         Guna2ControlBox3.Dock = DockStyle.Right
         Guna2ControlBox3.FillColor = Color.Transparent
-        Guna2ControlBox3.IconColor = Color.Black
+        Guna2ControlBox3.ForeColor = SystemColors.ControlText
+        Guna2ControlBox3.IconColor = Color.WhiteSmoke
         Guna2ControlBox3.Location = New Point(1168, 0)
         Guna2ControlBox3.Name = "Guna2ControlBox3"
         Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges111
@@ -407,7 +408,8 @@ Partial Class admindash
         Guna2ControlBox2.CustomizableEdges = CustomizableEdges112
         Guna2ControlBox2.Dock = DockStyle.Right
         Guna2ControlBox2.FillColor = Color.Transparent
-        Guna2ControlBox2.IconColor = Color.Black
+        Guna2ControlBox2.ForeColor = SystemColors.ControlText
+        Guna2ControlBox2.IconColor = Color.WhiteSmoke
         Guna2ControlBox2.Location = New Point(1208, 0)
         Guna2ControlBox2.Name = "Guna2ControlBox2"
         Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges113
@@ -421,9 +423,10 @@ Partial Class admindash
         Guna2ControlBox1.CustomizableEdges = CustomizableEdges114
         Guna2ControlBox1.Dock = DockStyle.Right
         Guna2ControlBox1.FillColor = Color.Transparent
+        Guna2ControlBox1.ForeColor = SystemColors.ControlText
         Guna2ControlBox1.HoverState.FillColor = Color.FromArgb(CByte(255), CByte(192), CByte(192))
         Guna2ControlBox1.HoverState.IconColor = Color.Red
-        Guna2ControlBox1.IconColor = Color.Black
+        Guna2ControlBox1.IconColor = Color.WhiteSmoke
         Guna2ControlBox1.Location = New Point(1248, 0)
         Guna2ControlBox1.Name = "Guna2ControlBox1"
         Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges115
@@ -1179,23 +1182,23 @@ Partial Class admindash
         tabEditMember.SelectedIndex = 0
         tabEditMember.Size = New Size(1065, 688)
         tabEditMember.TabButtonHoverState.BorderColor = Color.Empty
-        tabEditMember.TabButtonHoverState.FillColor = Color.FromArgb(CByte(40), CByte(52), CByte(70))
+        tabEditMember.TabButtonHoverState.FillColor = Color.White
         tabEditMember.TabButtonHoverState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
         tabEditMember.TabButtonHoverState.ForeColor = Color.White
         tabEditMember.TabButtonHoverState.InnerColor = Color.FromArgb(CByte(40), CByte(52), CByte(70))
         tabEditMember.TabButtonIdleState.BorderColor = Color.Empty
-        tabEditMember.TabButtonIdleState.FillColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
+        tabEditMember.TabButtonIdleState.FillColor = Color.FromArgb(CByte(214), CByte(185), CByte(0))
         tabEditMember.TabButtonIdleState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
         tabEditMember.TabButtonIdleState.ForeColor = Color.Black
-        tabEditMember.TabButtonIdleState.InnerColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
+        tabEditMember.TabButtonIdleState.InnerColor = Color.Transparent
         tabEditMember.TabButtonSelectedState.BorderColor = Color.Empty
         tabEditMember.TabButtonSelectedState.FillColor = Color.DarkRed
         tabEditMember.TabButtonSelectedState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
         tabEditMember.TabButtonSelectedState.ForeColor = Color.White
-        tabEditMember.TabButtonSelectedState.InnerColor = Color.FromArgb(CByte(76), CByte(132), CByte(255))
+        tabEditMember.TabButtonSelectedState.InnerColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
         tabEditMember.TabButtonSize = New Size(180, 40)
         tabEditMember.TabIndex = 5
-        tabEditMember.TabMenuBackColor = Color.FromArgb(CByte(251), CByte(197), CByte(49))
+        tabEditMember.TabMenuBackColor = Color.FromArgb(CByte(214), CByte(185), CByte(0))
         tabEditMember.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop
         ' 
         ' personal
