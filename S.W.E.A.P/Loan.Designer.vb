@@ -165,6 +165,7 @@ Partial Class Loan
         Column35 = New DataGridViewImageColumn()
         Label13 = New Label()
         Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
+        Panel7 = New Panel()
         Guna2TabControl1.SuspendLayout()
         TabPage1.SuspendLayout()
         Panel3.SuspendLayout()
@@ -988,6 +989,7 @@ Partial Class Loan
         ' TabPage2
         ' 
         TabPage2.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
+        TabPage2.Controls.Add(Panel7)
         TabPage2.Controls.Add(Panel6)
         TabPage2.Controls.Add(Panel5)
         TabPage2.Controls.Add(Panel4)
@@ -1003,16 +1005,16 @@ Partial Class Loan
         Panel6.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
         Panel6.Controls.Add(Label20)
         Panel6.Controls.Add(dgLoanSchedule)
-        Panel6.Location = New Point(16, 408)
+        Panel6.Location = New Point(16, 396)
         Panel6.Name = "Panel6"
-        Panel6.Size = New Size(1150, 237)
+        Panel6.Size = New Size(1150, 249)
         Panel6.TabIndex = 6
         ' 
         ' Label20
         ' 
         Label20.AutoSize = True
         Label20.Font = New Font("Segoe UI", 15F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point)
-        Label20.Location = New Point(452, 4)
+        Label20.Location = New Point(452, 8)
         Label20.Name = "Label20"
         Label20.Size = New Size(249, 28)
         Label20.TabIndex = 7
@@ -1044,7 +1046,7 @@ Partial Class Loan
         DataGridViewCellStyle9.WrapMode = DataGridViewTriState.False
         dgLoanSchedule.DefaultCellStyle = DataGridViewCellStyle9
         dgLoanSchedule.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
-        dgLoanSchedule.Location = New Point(15, 35)
+        dgLoanSchedule.Location = New Point(15, 44)
         dgLoanSchedule.Name = "dgLoanSchedule"
         dgLoanSchedule.ReadOnly = True
         dgLoanSchedule.RowHeadersVisible = False
@@ -1156,14 +1158,14 @@ Partial Class Loan
         Panel5.Controls.Add(dgLoans)
         Panel5.Location = New Point(414, 153)
         Panel5.Name = "Panel5"
-        Panel5.Size = New Size(752, 239)
+        Panel5.Size = New Size(752, 225)
         Panel5.TabIndex = 5
         ' 
         ' Label19
         ' 
         Label19.AutoSize = True
         Label19.Font = New Font("Segoe UI", 15F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point)
-        Label19.Location = New Point(241, 2)
+        Label19.Location = New Point(241, 9)
         Label19.Name = "Label19"
         Label19.Size = New Size(266, 28)
         Label19.TabIndex = 7
@@ -1195,12 +1197,12 @@ Partial Class Loan
         DataGridViewCellStyle12.WrapMode = DataGridViewTriState.False
         dgLoans.DefaultCellStyle = DataGridViewCellStyle12
         dgLoans.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
-        dgLoans.Location = New Point(14, 33)
+        dgLoans.Location = New Point(14, 46)
         dgLoans.Name = "dgLoans"
         dgLoans.ReadOnly = True
         dgLoans.RowHeadersVisible = False
         dgLoans.RowTemplate.Height = 25
-        dgLoans.Size = New Size(722, 192)
+        dgLoans.Size = New Size(722, 163)
         dgLoans.TabIndex = 1
         dgLoans.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt
         dgLoans.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
@@ -1295,14 +1297,14 @@ Partial Class Loan
         Panel4.Controls.Add(dgEmList)
         Panel4.Location = New Point(16, 17)
         Panel4.Name = "Panel4"
-        Panel4.Size = New Size(381, 375)
+        Panel4.Size = New Size(381, 361)
         Panel4.TabIndex = 4
         ' 
         ' Label18
         ' 
         Label18.AutoSize = True
         Label18.Font = New Font("Segoe UI", 15F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point)
-        Label18.Location = New Point(87, 3)
+        Label18.Location = New Point(87, 12)
         Label18.Name = "Label18"
         Label18.Size = New Size(199, 28)
         Label18.TabIndex = 7
@@ -1334,12 +1336,12 @@ Partial Class Loan
         DataGridViewCellStyle15.WrapMode = DataGridViewTriState.False
         dgEmList.DefaultCellStyle = DataGridViewCellStyle15
         dgEmList.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
-        dgEmList.Location = New Point(17, 34)
+        dgEmList.Location = New Point(17, 49)
         dgEmList.Name = "dgEmList"
         dgEmList.ReadOnly = True
         dgEmList.RowHeadersVisible = False
         dgEmList.RowTemplate.Height = 25
-        dgEmList.Size = New Size(348, 327)
+        dgEmList.Size = New Size(348, 296)
         dgEmList.TabIndex = 3
         dgEmList.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt
         dgEmList.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
@@ -1427,6 +1429,14 @@ Partial Class Loan
         Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
         Guna2CircleButton1.Size = New Size(45, 39)
         Guna2CircleButton1.TabIndex = 3
+        ' 
+        ' Panel7
+        ' 
+        Panel7.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel7.Location = New Point(414, 17)
+        Panel7.Name = "Panel7"
+        Panel7.Size = New Size(752, 120)
+        Panel7.TabIndex = 7
         ' 
         ' Loan
         ' 
@@ -1569,4 +1579,5 @@ Partial Class Loan
     Friend WithEvents Label20 As Label
     Friend WithEvents Label19 As Label
     Friend WithEvents Label18 As Label
+    Friend WithEvents Panel7 As Panel
 End Class
