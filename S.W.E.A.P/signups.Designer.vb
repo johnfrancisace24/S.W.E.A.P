@@ -388,13 +388,13 @@ Partial Class signups
         dateBday.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         dateBday.Format = DateTimePickerFormat.Long
         dateBday.Location = New Point(33, 272)
-        dateBday.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
-        dateBday.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        dateBday.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
+        dateBday.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
         dateBday.Name = "dateBday"
         dateBday.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         dateBday.Size = New Size(289, 36)
         dateBday.TabIndex = 8
-        dateBday.Value = New Date(2023, 6, 15, 9, 33, 54, 293)
+        dateBday.Value = New DateTime(2023, 6, 15, 9, 33, 54, 293)
         ' 
         ' Label2
         ' 

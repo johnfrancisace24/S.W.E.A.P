@@ -303,5 +303,14 @@ Public Class admindash
         beneficiariesRecord()
     End Sub
 
+    'Key Press lang to pare!
+    Private Shared Sub txtEditUsername_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtEditUsername.KeyPress
+        If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsLetter(e.KeyChar) AndAlso Not Char.IsWhiteSpace(e.KeyChar) AndAlso Not Char.IsPunctuation(e.KeyChar) Then
+            e.Handled = True
+        End If
+    End Sub
 
+    Private Sub txtEditFname_Keypress(sender As Object, e As EventArgs) Handles txtEditFname.KeyPress
+        txtEditUsername_KeyPress(sender, e)
+    End Sub
 End Class
