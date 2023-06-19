@@ -5,6 +5,17 @@ Public Class Form2
     Dim rid As MySqlDataReader
     Public Shared log_id As Integer
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
+        PerformLogin()
+    End Sub
+
+    Private Sub txtPassword_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtPassword.KeyPress
+        If e.KeyChar = ChrW(Keys.Enter) Then
+            PerformLogin()
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub PerformLogin()
         If (txtUsername.Text = "") Then
             MsgBox("Username can't be blank.")
         ElseIf (txtPassword.Text = "") Then
@@ -37,10 +48,12 @@ Public Class Form2
                 txtPassword.Clear()
                 Me.Hide()
             Else
-                MsgBox("Invalid username or passowrd.")
+                MsgBox("Invalid username or password.")
             End If
         End If
     End Sub
+
+
 
     Private Sub checkShowPw_CheckedChanged(sender As Object, e As EventArgs) Handles checkShowPw.CheckedChanged
         If checkShowPw.Checked = False Then
