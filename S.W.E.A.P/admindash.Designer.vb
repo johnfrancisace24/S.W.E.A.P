@@ -437,6 +437,7 @@ Partial Class admindash
         Guna2TabControl1.Controls.Add(tabDashboard)
         Guna2TabControl1.Controls.Add(tabEmployee)
         Guna2TabControl1.Controls.Add(tabFund)
+        Guna2TabControl1.Cursor = Cursors.Hand
         Guna2TabControl1.Dock = DockStyle.Fill
         Guna2TabControl1.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2TabControl1.HotTrack = True
@@ -1234,6 +1235,7 @@ Partial Class admindash
         ' btnEditBack
         ' 
         btnEditBack.BorderRadius = 5
+        btnEditBack.Cursor = Cursors.Hand
         btnEditBack.CustomizableEdges = CustomizableEdges48
         btnEditBack.DisabledState.BorderColor = Color.DarkGray
         btnEditBack.DisabledState.CustomBorderColor = Color.DarkGray
@@ -1252,6 +1254,7 @@ Partial Class admindash
         ' btnEditNext
         ' 
         btnEditNext.BorderRadius = 5
+        btnEditNext.Cursor = Cursors.Hand
         btnEditNext.CustomizableEdges = CustomizableEdges50
         btnEditNext.DisabledState.BorderColor = Color.DarkGray
         btnEditNext.DisabledState.CustomBorderColor = Color.DarkGray
@@ -1684,7 +1687,7 @@ Partial Class admindash
         dgBeneficiaries.RowHeadersVisible = False
         dgBeneficiaries.RowTemplate.Height = 26
         dgBeneficiaries.Size = New Size(687, 145)
-        dgBeneficiaries.TabIndex = 11
+        dgBeneficiaries.TabIndex = 0
         dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
         dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.Font = Nothing
         dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
@@ -1756,6 +1759,7 @@ Partial Class admindash
         ' btnEditUpdate
         ' 
         btnEditUpdate.BorderRadius = 5
+        btnEditUpdate.Cursor = Cursors.Hand
         btnEditUpdate.CustomizableEdges = CustomizableEdges74
         btnEditUpdate.DisabledState.BorderColor = Color.DarkGray
         btnEditUpdate.DisabledState.CustomBorderColor = Color.DarkGray
@@ -1774,6 +1778,7 @@ Partial Class admindash
         ' btnEditAddBen
         ' 
         btnEditAddBen.BorderRadius = 5
+        btnEditAddBen.Cursor = Cursors.Hand
         btnEditAddBen.CustomizableEdges = CustomizableEdges76
         btnEditAddBen.DisabledState.BorderColor = Color.DarkGray
         btnEditAddBen.DisabledState.CustomBorderColor = Color.DarkGray
@@ -1829,7 +1834,7 @@ Partial Class admindash
         txtEditAddBenRel.SelectedText = ""
         txtEditAddBenRel.ShadowDecoration.CustomizableEdges = CustomizableEdges81
         txtEditAddBenRel.Size = New Size(141, 36)
-        txtEditAddBenRel.TabIndex = 8
+        txtEditAddBenRel.TabIndex = 7
         txtEditAddBenRel.TextAlign = HorizontalAlignment.Center
         ' 
         ' txtEditAddBen
@@ -1851,7 +1856,7 @@ Partial Class admindash
         txtEditAddBen.SelectedText = ""
         txtEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges83
         txtEditAddBen.Size = New Size(442, 36)
-        txtEditAddBen.TabIndex = 8
+        txtEditAddBen.TabIndex = 6
         txtEditAddBen.TextAlign = HorizontalAlignment.Center
         ' 
         ' pickEditUserStat
@@ -1871,7 +1876,7 @@ Partial Class admindash
         pickEditUserStat.Name = "pickEditUserStat"
         pickEditUserStat.ShadowDecoration.CustomizableEdges = CustomizableEdges85
         pickEditUserStat.Size = New Size(303, 36)
-        pickEditUserStat.TabIndex = 7
+        pickEditUserStat.TabIndex = 5
         pickEditUserStat.TextAlign = HorizontalAlignment.Center
         ' 
         ' pickEditComm
@@ -1891,7 +1896,7 @@ Partial Class admindash
         pickEditComm.Name = "pickEditComm"
         pickEditComm.ShadowDecoration.CustomizableEdges = CustomizableEdges87
         pickEditComm.Size = New Size(303, 36)
-        pickEditComm.TabIndex = 7
+        pickEditComm.TabIndex = 4
         pickEditComm.TextAlign = HorizontalAlignment.Center
         ' 
         ' pickEditStatus
@@ -1911,7 +1916,7 @@ Partial Class admindash
         pickEditStatus.Name = "pickEditStatus"
         pickEditStatus.ShadowDecoration.CustomizableEdges = CustomizableEdges89
         pickEditStatus.Size = New Size(303, 36)
-        pickEditStatus.TabIndex = 7
+        pickEditStatus.TabIndex = 3
         pickEditStatus.TextAlign = HorizontalAlignment.Center
         ' 
         ' Label35
@@ -1941,7 +1946,7 @@ Partial Class admindash
         pickEditPosition.Name = "pickEditPosition"
         pickEditPosition.ShadowDecoration.CustomizableEdges = CustomizableEdges91
         pickEditPosition.Size = New Size(303, 36)
-        pickEditPosition.TabIndex = 7
+        pickEditPosition.TabIndex = 2
         pickEditPosition.TextAlign = HorizontalAlignment.Center
         ' 
         ' Label22
@@ -1971,7 +1976,7 @@ Partial Class admindash
         pickEditOffice.Name = "pickEditOffice"
         pickEditOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges93
         pickEditOffice.Size = New Size(303, 36)
-        pickEditOffice.TabIndex = 7
+        pickEditOffice.TabIndex = 1
         pickEditOffice.TextAlign = HorizontalAlignment.Center
         ' 
         ' Label25
