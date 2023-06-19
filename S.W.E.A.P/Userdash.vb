@@ -4,7 +4,7 @@ Imports OfficeOpenXml
 Imports OfficeOpenXml.Style
 Public Class Userdash
 
-    Dim conn As New MySqlConnection("server=172.30.205.208;port=3306;username=sweapp;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim dr As MySqlDataReader
 
     Private Sub Userdash_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -48,7 +48,7 @@ Public Class Userdash
         AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "User Repsonse")
 
         If AnswerYes = vbYes Then
-            Form1.Show()
+            Form2.Show()
             Me.Hide()
         End If
     End Sub
@@ -58,7 +58,7 @@ Public Class Userdash
         Try
             conn.Open()
             Dim cmd As New MySqlCommand("SELECT * FROM beneficiaries WHERE full_name LIKE '%" & search.Text & "%' AND user_id = @ID", conn)
-            cmd.Parameters.AddWithValue("@ID", Form1.log_id)
+            cmd.Parameters.AddWithValue("@ID", Form2.log_id)
             dr = cmd.ExecuteReader
 
             While dr.Read
@@ -79,7 +79,7 @@ Public Class Userdash
                             INNER JOIN beneficiaries ON users.id = beneficiaries.user_id
                             WHERE users.id = @ID", conn)
 
-            cmd.Parameters.AddWithValue("@ID", Form1.log_id)
+            cmd.Parameters.AddWithValue("@ID", Form2.log_id)
             dr = cmd.ExecuteReader
             While dr.Read
                 BeneficiariesDGV.Rows.Add(dr.Item("user_id"), dr.Item("full_name"), dr.Item("age"), dr.Item("relationship"))
@@ -105,7 +105,7 @@ Public Class Userdash
                             INNER JOIN user_info ON users.id = user_info.user_id  
                             WHERE users.id = @ID", conn)
 
-            cmd.Parameters.AddWithValue("@ID", Form1.log_id)
+            cmd.Parameters.AddWithValue("@ID", Form2.log_id)
             dr = cmd.ExecuteReader
             If dr.Read() Then
                 Dim imagePath As String = dr.GetString("image")
@@ -244,7 +244,7 @@ Public Class Userdash
                                         "SET users.username = @username, users.password = @password, users.first_name = @first, users.middle_name = @mid, users.last_name = @last, users.position = @pos, user_info.address = @adds, user_info.contact = @contact, user_info.email = @email, user_info.educational = @educ, user_info.birthdate = @birthdate, user_info.office = @office, user_info.employment_status = @employ, user_info.committee = @comm " &
                                         "WHERE users.id     = @ID", conn)
             cmd.Parameters.Clear()
-            cmd.Parameters.AddWithValue("@ID", Form1.log_id)
+            cmd.Parameters.AddWithValue("@ID", Form2.log_id)
             cmd.Parameters.AddWithValue("@username", txtbxusername.Text)
             cmd.Parameters.AddWithValue("@password", txtbxpassword.Text)
             cmd.Parameters.AddWithValue("@first", txtbxfname.Text)

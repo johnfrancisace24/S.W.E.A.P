@@ -30,7 +30,7 @@ Public Class UserDashboard
         AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "User Repsonse")
 
         If AnswerYes = vbYes Then
-            Form1.Show()
+            Form2.Show()
             Me.Hide()
         End If
     End Sub
@@ -49,7 +49,7 @@ Public Class UserDashboard
                             "INNER JOIN user_info ON users.id = user_info.user_id " &
                             "WHERE users.id = @ID", conn)
 
-            cmd.Parameters.AddWithValue("@ID", Form1.log_id)
+            cmd.Parameters.AddWithValue("@ID", Form2.log_id)
             dr = cmd.ExecuteReader
             If dr.Read() Then
                 Dim imagePath As String = dr.GetString("image")
@@ -111,7 +111,7 @@ Public Class UserDashboard
                                         "SET users.username = @username, users.password = @password, users.first_name = @first, users.middle_name = @mid, users.last_name = @last, users.position = @pos, user_info.address = @adds, user_info.contact = @contact, user_info.email = @email, user_info.educational = @educ, user_info.birthdate = @birthdate, user_info.office = @office, user_info.employment_status = @employ, user_info.committee = @comm " &
                                         "WHERE users.id = @ID", conn)
             cmd.Parameters.Clear()
-            cmd.Parameters.AddWithValue("@ID", Form1.log_id)
+            cmd.Parameters.AddWithValue("@ID", Form2.log_id)
             cmd.Parameters.AddWithValue("@username", txtbxusername.Text)
             cmd.Parameters.AddWithValue("@password", txtbxpassword.Text)
             cmd.Parameters.AddWithValue("@first", txtbxfname.Text)
