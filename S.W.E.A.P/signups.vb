@@ -204,12 +204,24 @@ Public Class signups
             End If
             Form2.Visible = True
             Me.Visible = False
+            ClearAllTextboxes(Me)
         Else
             MsgBox(message)
             i = 0
             message = ""
             Array.Clear(error_msg, 0, error_msg.Length)
         End If
+    End Sub
+
+    Private Sub ClearAllTextboxes(ByVal control As Control)
+        For Each ctrl As Control In control.Controls
+            If TypeOf ctrl Is TextBox Then
+                Dim txtBox As TextBox = DirectCast(ctrl, TextBox)
+                txtBox.Text = String.Empty
+            ElseIf ctrl.HasChildren Then
+                ClearAllTextboxes(ctrl) ' Recursive call to handle child controls
+            End If
+        Next
     End Sub
 
     Private Sub bttnUpload_Click(sender As Object, e As EventArgs) Handles bttnUpload.Click
@@ -333,6 +345,7 @@ Public Class signups
     Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
         Form2.Show()
         Me.Hide()
+        ClearAllTextboxes(Me)
     End Sub
 
     Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Guna2Button6.Click
