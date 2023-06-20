@@ -23,14 +23,14 @@ Partial Class admindash
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges108 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges109 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges110 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges111 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges112 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges113 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges114 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges115 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges116 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges117 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(admindash))
@@ -105,14 +105,14 @@ Partial Class admindash
         Dim CustomizableEdges71 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges72 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges73 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim CustomizableEdges74 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges75 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges77 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim CustomizableEdges78 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges79 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges80 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -129,11 +129,11 @@ Partial Class admindash
         Dim CustomizableEdges91 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges92 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges93 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges94 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges95 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle7 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges94 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges95 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges96 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges97 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges98 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -146,6 +146,8 @@ Partial Class admindash
         Dim CustomizableEdges105 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges106 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges107 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges108 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges109 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Panel1 = New Panel()
         Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
@@ -206,42 +208,53 @@ Partial Class admindash
         tabEdit = New Panel()
         tabEditMember = New Guna.UI2.WinForms.Guna2TabControl()
         personal = New TabPage()
+        Panel5 = New Panel()
         btnEditBack = New Guna.UI2.WinForms.Guna2Button()
         btnEditNext = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
-        pickEditBdate = New Guna.UI2.WinForms.Guna2DateTimePicker()
-        pBoxEditProfile = New PictureBox()
+        Panel4 = New Panel()
         txtEditMname = New Guna.UI2.WinForms.Guna2TextBox()
         Label12 = New Label()
-        txtEditUsername = New Guna.UI2.WinForms.Guna2TextBox()
-        Label15 = New Label()
         txtEditFname = New Guna.UI2.WinForms.Guna2TextBox()
         Label10 = New Label()
-        txtEditLname = New Guna.UI2.WinForms.Guna2TextBox()
         Label13 = New Label()
-        txtEditPw = New Guna.UI2.WinForms.Guna2TextBox()
-        Label16 = New Label()
+        pickEditBdate = New Guna.UI2.WinForms.Guna2DateTimePicker()
         txtEditAddress = New Guna.UI2.WinForms.Guna2TextBox()
-        Label14 = New Label()
-        txtEditNumber = New Guna.UI2.WinForms.Guna2TextBox()
-        Label8 = New Label()
-        txtEditEducation = New Guna.UI2.WinForms.Guna2TextBox()
+        txtEditLname = New Guna.UI2.WinForms.Guna2TextBox()
+        Label15 = New Label()
+        Label16 = New Label()
         Label11 = New Label()
         txtEditEmail = New Guna.UI2.WinForms.Guna2TextBox()
+        txtEditEducation = New Guna.UI2.WinForms.Guna2TextBox()
         Label9 = New Label()
+        Label14 = New Label()
+        txtEditNumber = New Guna.UI2.WinForms.Guna2TextBox()
+        Panel3 = New Panel()
+        Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
+        pBoxEditProfile = New PictureBox()
+        txtEditUsername = New Guna.UI2.WinForms.Guna2TextBox()
+        txtEditPw = New Guna.UI2.WinForms.Guna2TextBox()
+        Label8 = New Label()
         Label7 = New Label()
         other = New TabPage()
+        Panel8 = New Panel()
+        btnEmBack2 = New Guna.UI2.WinForms.Guna2Button()
+        btnEditUpdate = New Guna.UI2.WinForms.Guna2Button()
+        Panel7 = New Panel()
         dgBeneficiaries = New Guna.UI2.WinForms.Guna2DataGridView()
         Column8 = New DataGridViewTextBoxColumn()
         Column9 = New DataGridViewTextBoxColumn()
         Column10 = New DataGridViewTextBoxColumn()
         Column11 = New DataGridViewTextBoxColumn()
         Column4 = New DataGridViewImageColumn()
-        btnEditUpdate = New Guna.UI2.WinForms.Guna2Button()
         btnEditAddBen = New Guna.UI2.WinForms.Guna2Button()
         txtEditAddBenAge = New Guna.UI2.WinForms.Guna2TextBox()
         txtEditAddBenRel = New Guna.UI2.WinForms.Guna2TextBox()
         txtEditAddBen = New Guna.UI2.WinForms.Guna2TextBox()
+        Label25 = New Label()
+        Label24 = New Label()
+        Label23 = New Label()
+        Label26 = New Label()
+        Panel6 = New Panel()
         pickEditUserStat = New Guna.UI2.WinForms.Guna2ComboBox()
         pickEditComm = New Guna.UI2.WinForms.Guna2ComboBox()
         pickEditStatus = New Guna.UI2.WinForms.Guna2ComboBox()
@@ -249,10 +262,6 @@ Partial Class admindash
         pickEditPosition = New Guna.UI2.WinForms.Guna2ComboBox()
         Label22 = New Label()
         pickEditOffice = New Guna.UI2.WinForms.Guna2ComboBox()
-        Label25 = New Label()
-        Label24 = New Label()
-        Label23 = New Label()
-        Label26 = New Label()
         Label21 = New Label()
         Label20 = New Label()
         Label19 = New Label()
@@ -286,6 +295,7 @@ Partial Class admindash
         Label37 = New Label()
         Guna2PictureBox6 = New Guna.UI2.WinForms.Guna2PictureBox()
         TabPage5 = New TabPage()
+        tabContri = New TabPage()
         TabPage3 = New TabPage()
         ImageList2 = New ImageList(components)
         Panel1.SuspendLayout()
@@ -308,9 +318,15 @@ Partial Class admindash
         tabEdit.SuspendLayout()
         tabEditMember.SuspendLayout()
         personal.SuspendLayout()
+        Panel5.SuspendLayout()
+        Panel4.SuspendLayout()
+        Panel3.SuspendLayout()
         CType(pBoxEditProfile, ComponentModel.ISupportInitialize).BeginInit()
         other.SuspendLayout()
+        Panel8.SuspendLayout()
+        Panel7.SuspendLayout()
         CType(dgBeneficiaries, ComponentModel.ISupportInitialize).BeginInit()
+        Panel6.SuspendLayout()
         pnlEmployee.SuspendLayout()
         CType(dgMembers, ComponentModel.ISupportInitialize).BeginInit()
         tabFund.SuspendLayout()
@@ -342,7 +358,7 @@ Partial Class admindash
         Guna2Button6.Animated = True
         Guna2Button6.BorderRadius = 5
         Guna2Button6.Cursor = Cursors.Hand
-        Guna2Button6.CustomizableEdges = CustomizableEdges108
+        Guna2Button6.CustomizableEdges = CustomizableEdges110
         Guna2Button6.DisabledState.BorderColor = Color.DarkGray
         Guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button6.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -352,7 +368,7 @@ Partial Class admindash
         Guna2Button6.ForeColor = Color.White
         Guna2Button6.Location = New Point(1076, 4)
         Guna2Button6.Name = "Guna2Button6"
-        Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges109
+        Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges111
         Guna2Button6.Size = New Size(92, 31)
         Guna2Button6.TabIndex = 5
         Guna2Button6.Text = "Log out"
@@ -383,20 +399,24 @@ Partial Class admindash
         ImageList1.Images.SetKeyName(2, "data-report.png")
         ImageList1.Images.SetKeyName(3, "employees.png")
         ImageList1.Images.SetKeyName(4, "funding.png")
+        ImageList1.Images.SetKeyName(5, "give-money.png")
+        ImageList1.Images.SetKeyName(6, "transfer-money.png")
+        ImageList1.Images.SetKeyName(7, "team.png")
+        ImageList1.Images.SetKeyName(8, "data-management.png")
         ' 
         ' Guna2ControlBox3
         ' 
         Guna2ControlBox3.Animated = True
         Guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
         Guna2ControlBox3.Cursor = Cursors.Hand
-        Guna2ControlBox3.CustomizableEdges = CustomizableEdges110
+        Guna2ControlBox3.CustomizableEdges = CustomizableEdges112
         Guna2ControlBox3.Dock = DockStyle.Right
         Guna2ControlBox3.FillColor = Color.Transparent
         Guna2ControlBox3.ForeColor = SystemColors.ControlText
         Guna2ControlBox3.IconColor = Color.WhiteSmoke
         Guna2ControlBox3.Location = New Point(1168, 0)
         Guna2ControlBox3.Name = "Guna2ControlBox3"
-        Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges111
+        Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges113
         Guna2ControlBox3.Size = New Size(40, 40)
         Guna2ControlBox3.TabIndex = 2
         ' 
@@ -405,14 +425,14 @@ Partial Class admindash
         Guna2ControlBox2.Animated = True
         Guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox
         Guna2ControlBox2.Cursor = Cursors.Hand
-        Guna2ControlBox2.CustomizableEdges = CustomizableEdges112
+        Guna2ControlBox2.CustomizableEdges = CustomizableEdges114
         Guna2ControlBox2.Dock = DockStyle.Right
         Guna2ControlBox2.FillColor = Color.Transparent
         Guna2ControlBox2.ForeColor = SystemColors.ControlText
         Guna2ControlBox2.IconColor = Color.WhiteSmoke
         Guna2ControlBox2.Location = New Point(1208, 0)
         Guna2ControlBox2.Name = "Guna2ControlBox2"
-        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges113
+        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges115
         Guna2ControlBox2.Size = New Size(40, 40)
         Guna2ControlBox2.TabIndex = 1
         ' 
@@ -420,7 +440,7 @@ Partial Class admindash
         ' 
         Guna2ControlBox1.Animated = True
         Guna2ControlBox1.Cursor = Cursors.Hand
-        Guna2ControlBox1.CustomizableEdges = CustomizableEdges114
+        Guna2ControlBox1.CustomizableEdges = CustomizableEdges116
         Guna2ControlBox1.Dock = DockStyle.Right
         Guna2ControlBox1.FillColor = Color.Transparent
         Guna2ControlBox1.ForeColor = SystemColors.ControlText
@@ -429,7 +449,7 @@ Partial Class admindash
         Guna2ControlBox1.IconColor = Color.WhiteSmoke
         Guna2ControlBox1.Location = New Point(1248, 0)
         Guna2ControlBox1.Name = "Guna2ControlBox1"
-        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges115
+        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges117
         Guna2ControlBox1.Size = New Size(40, 40)
         Guna2ControlBox1.TabIndex = 0
         ' 
@@ -440,6 +460,7 @@ Partial Class admindash
         Guna2TabControl1.Controls.Add(tabDashboard)
         Guna2TabControl1.Controls.Add(tabEmployee)
         Guna2TabControl1.Controls.Add(tabFund)
+        Guna2TabControl1.Controls.Add(tabContri)
         Guna2TabControl1.Cursor = Cursors.Hand
         Guna2TabControl1.Dock = DockStyle.Fill
         Guna2TabControl1.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
@@ -659,7 +680,7 @@ Partial Class admindash
         tabDashboard.BackgroundImageLayout = ImageLayout.Stretch
         tabDashboard.Controls.Add(pnlDashboard)
         tabDashboard.Font = New Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point)
-        tabDashboard.ImageKey = "data-report.png"
+        tabDashboard.ImageKey = "data-management.png"
         tabDashboard.Location = New Point(254, 4)
         tabDashboard.Name = "tabDashboard"
         tabDashboard.Padding = New Padding(3)
@@ -1152,7 +1173,7 @@ Partial Class admindash
         ' 
         tabEmployee.Controls.Add(tabEdit)
         tabEmployee.Controls.Add(pnlEmployee)
-        tabEmployee.ImageKey = "employees.png"
+        tabEmployee.ImageKey = "team.png"
         tabEmployee.Location = New Point(254, 4)
         tabEmployee.Name = "tabEmployee"
         tabEmployee.Padding = New Padding(3)
@@ -1204,36 +1225,25 @@ Partial Class admindash
         ' personal
         ' 
         personal.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
-        personal.Controls.Add(btnEditBack)
-        personal.Controls.Add(btnEditNext)
-        personal.Controls.Add(Guna2Button5)
-        personal.Controls.Add(pickEditBdate)
-        personal.Controls.Add(pBoxEditProfile)
-        personal.Controls.Add(txtEditMname)
-        personal.Controls.Add(Label12)
-        personal.Controls.Add(txtEditUsername)
-        personal.Controls.Add(Label15)
-        personal.Controls.Add(txtEditFname)
-        personal.Controls.Add(Label10)
-        personal.Controls.Add(txtEditLname)
-        personal.Controls.Add(Label13)
-        personal.Controls.Add(txtEditPw)
-        personal.Controls.Add(Label16)
-        personal.Controls.Add(txtEditAddress)
-        personal.Controls.Add(Label14)
-        personal.Controls.Add(txtEditNumber)
-        personal.Controls.Add(Label8)
-        personal.Controls.Add(txtEditEducation)
-        personal.Controls.Add(Label11)
-        personal.Controls.Add(txtEditEmail)
-        personal.Controls.Add(Label9)
-        personal.Controls.Add(Label7)
+        personal.Controls.Add(Panel5)
+        personal.Controls.Add(Panel4)
+        personal.Controls.Add(Panel3)
         personal.Location = New Point(4, 44)
         personal.Name = "personal"
         personal.Padding = New Padding(3)
         personal.Size = New Size(1057, 640)
         personal.TabIndex = 0
         personal.Text = "Personal information"
+        ' 
+        ' Panel5
+        ' 
+        Panel5.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel5.Controls.Add(btnEditBack)
+        Panel5.Controls.Add(btnEditNext)
+        Panel5.Location = New Point(20, 561)
+        Panel5.Name = "Panel5"
+        Panel5.Size = New Size(978, 65)
+        Panel5.TabIndex = 8
         ' 
         ' btnEditBack
         ' 
@@ -1247,7 +1257,7 @@ Partial Class admindash
         btnEditBack.FillColor = Color.IndianRed
         btnEditBack.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         btnEditBack.ForeColor = Color.White
-        btnEditBack.Location = New Point(551, 590)
+        btnEditBack.Location = New Point(605, 17)
         btnEditBack.Name = "btnEditBack"
         btnEditBack.ShadowDecoration.CustomizableEdges = CustomizableEdges49
         btnEditBack.Size = New Size(169, 34)
@@ -1265,62 +1275,41 @@ Partial Class admindash
         btnEditNext.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnEditNext.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         btnEditNext.ForeColor = Color.White
-        btnEditNext.Location = New Point(726, 590)
+        btnEditNext.Location = New Point(789, 17)
         btnEditNext.Name = "btnEditNext"
         btnEditNext.ShadowDecoration.CustomizableEdges = CustomizableEdges51
         btnEditNext.Size = New Size(161, 34)
         btnEditNext.TabIndex = 4
         btnEditNext.Text = "NEXT"
         ' 
-        ' Guna2Button5
+        ' Panel4
         ' 
-        Guna2Button5.BorderRadius = 5
-        Guna2Button5.CustomizableEdges = CustomizableEdges52
-        Guna2Button5.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button5.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button5.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2Button5.ForeColor = Color.White
-        Guna2Button5.Location = New Point(442, 165)
-        Guna2Button5.Name = "Guna2Button5"
-        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges53
-        Guna2Button5.Size = New Size(164, 28)
-        Guna2Button5.TabIndex = 4
-        Guna2Button5.Text = "Upload Image"
-        ' 
-        ' pickEditBdate
-        ' 
-        pickEditBdate.BorderRadius = 5
-        pickEditBdate.Checked = True
-        pickEditBdate.CustomizableEdges = CustomizableEdges54
-        pickEditBdate.FillColor = Color.White
-        pickEditBdate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        pickEditBdate.Format = DateTimePickerFormat.Long
-        pickEditBdate.Location = New Point(654, 514)
-        pickEditBdate.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
-        pickEditBdate.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
-        pickEditBdate.Name = "pickEditBdate"
-        pickEditBdate.ShadowDecoration.CustomizableEdges = CustomizableEdges55
-        pickEditBdate.Size = New Size(233, 36)
-        pickEditBdate.TabIndex = 3
-        pickEditBdate.TextAlign = HorizontalAlignment.Center
-        pickEditBdate.Value = New DateTime(2023, 6, 6, 9, 2, 45, 794)
-        ' 
-        ' pBoxEditProfile
-        ' 
-        pBoxEditProfile.BackgroundImageLayout = ImageLayout.Stretch
-        pBoxEditProfile.BorderStyle = BorderStyle.Fixed3D
-        pBoxEditProfile.Location = New Point(442, 21)
-        pBoxEditProfile.Name = "pBoxEditProfile"
-        pBoxEditProfile.Size = New Size(164, 142)
-        pBoxEditProfile.TabIndex = 0
-        pBoxEditProfile.TabStop = False
+        Panel4.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel4.Controls.Add(txtEditMname)
+        Panel4.Controls.Add(Label12)
+        Panel4.Controls.Add(txtEditFname)
+        Panel4.Controls.Add(Label10)
+        Panel4.Controls.Add(Label13)
+        Panel4.Controls.Add(pickEditBdate)
+        Panel4.Controls.Add(txtEditAddress)
+        Panel4.Controls.Add(txtEditLname)
+        Panel4.Controls.Add(Label15)
+        Panel4.Controls.Add(Label16)
+        Panel4.Controls.Add(Label11)
+        Panel4.Controls.Add(txtEditEmail)
+        Panel4.Controls.Add(txtEditEducation)
+        Panel4.Controls.Add(Label9)
+        Panel4.Controls.Add(Label14)
+        Panel4.Controls.Add(txtEditNumber)
+        Panel4.Location = New Point(358, 16)
+        Panel4.Name = "Panel4"
+        Panel4.Size = New Size(640, 531)
+        Panel4.TabIndex = 7
         ' 
         ' txtEditMname
         ' 
         txtEditMname.BorderRadius = 5
-        txtEditMname.CustomizableEdges = CustomizableEdges56
+        txtEditMname.CustomizableEdges = CustomizableEdges52
         txtEditMname.DefaultText = ""
         txtEditMname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditMname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1328,14 +1317,15 @@ Partial Class admindash
         txtEditMname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtEditMname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtEditMname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtEditMname.ForeColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
         txtEditMname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditMname.Location = New Point(411, 333)
+        txtEditMname.Location = New Point(221, 81)
         txtEditMname.Name = "txtEditMname"
         txtEditMname.PasswordChar = ChrW(0)
         txtEditMname.PlaceholderText = ""
         txtEditMname.SelectedText = ""
-        txtEditMname.ShadowDecoration.CustomizableEdges = CustomizableEdges57
-        txtEditMname.Size = New Size(233, 36)
+        txtEditMname.ShadowDecoration.CustomizableEdges = CustomizableEdges53
+        txtEditMname.Size = New Size(384, 36)
         txtEditMname.TabIndex = 1
         txtEditMname.TextAlign = HorizontalAlignment.Center
         ' 
@@ -1343,48 +1333,16 @@ Partial Class admindash
         ' 
         Label12.AutoSize = True
         Label12.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label12.Location = New Point(743, 308)
+        Label12.Location = New Point(27, 218)
         Label12.Name = "Label12"
         Label12.Size = New Size(48, 21)
         Label12.TabIndex = 2
         Label12.Text = "Email"
         ' 
-        ' txtEditUsername
-        ' 
-        txtEditUsername.BorderRadius = 5
-        txtEditUsername.CustomizableEdges = CustomizableEdges58
-        txtEditUsername.DefaultText = ""
-        txtEditUsername.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditUsername.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditUsername.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditUsername.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditUsername.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditUsername.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditUsername.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditUsername.Location = New Point(168, 244)
-        txtEditUsername.Name = "txtEditUsername"
-        txtEditUsername.PasswordChar = ChrW(0)
-        txtEditUsername.PlaceholderText = ""
-        txtEditUsername.SelectedText = ""
-        txtEditUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges59
-        txtEditUsername.Size = New Size(233, 36)
-        txtEditUsername.TabIndex = 1
-        txtEditUsername.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' Label15
-        ' 
-        Label15.AutoSize = True
-        Label15.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label15.Location = New Point(443, 489)
-        Label15.Name = "Label15"
-        Label15.Size = New Size(169, 21)
-        Label15.TabIndex = 2
-        Label15.Text = "Educational attainment"
-        ' 
         ' txtEditFname
         ' 
         txtEditFname.BorderRadius = 5
-        txtEditFname.CustomizableEdges = CustomizableEdges60
+        txtEditFname.CustomizableEdges = CustomizableEdges54
         txtEditFname.DefaultText = ""
         txtEditFname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditFname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1392,14 +1350,15 @@ Partial Class admindash
         txtEditFname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtEditFname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtEditFname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtEditFname.ForeColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
         txtEditFname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditFname.Location = New Point(411, 244)
+        txtEditFname.Location = New Point(221, 22)
         txtEditFname.Name = "txtEditFname"
         txtEditFname.PasswordChar = ChrW(0)
         txtEditFname.PlaceholderText = ""
         txtEditFname.SelectedText = ""
-        txtEditFname.ShadowDecoration.CustomizableEdges = CustomizableEdges61
-        txtEditFname.Size = New Size(233, 36)
+        txtEditFname.ShadowDecoration.CustomizableEdges = CustomizableEdges55
+        txtEditFname.Size = New Size(384, 36)
         txtEditFname.TabIndex = 1
         txtEditFname.TextAlign = HorizontalAlignment.Center
         ' 
@@ -1407,80 +1366,44 @@ Partial Class admindash
         ' 
         Label10.AutoSize = True
         Label10.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label10.Location = New Point(476, 308)
+        Label10.Location = New Point(26, 96)
         Label10.Name = "Label10"
         Label10.Size = New Size(101, 21)
         Label10.TabIndex = 2
         Label10.Text = "Middle name"
         ' 
-        ' txtEditLname
-        ' 
-        txtEditLname.BorderRadius = 5
-        txtEditLname.CustomizableEdges = CustomizableEdges62
-        txtEditLname.DefaultText = ""
-        txtEditLname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditLname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditLname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditLname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditLname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditLname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditLname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditLname.Location = New Point(655, 244)
-        txtEditLname.Name = "txtEditLname"
-        txtEditLname.PasswordChar = ChrW(0)
-        txtEditLname.PlaceholderText = ""
-        txtEditLname.SelectedText = ""
-        txtEditLname.ShadowDecoration.CustomizableEdges = CustomizableEdges63
-        txtEditLname.Size = New Size(233, 36)
-        txtEditLname.TabIndex = 1
-        txtEditLname.TextAlign = HorizontalAlignment.Center
-        ' 
         ' Label13
         ' 
         Label13.AutoSize = True
         Label13.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label13.Location = New Point(491, 398)
+        Label13.Location = New Point(287, 448)
         Label13.Name = "Label13"
         Label13.Size = New Size(66, 21)
         Label13.TabIndex = 2
         Label13.Text = "Address"
         ' 
-        ' txtEditPw
+        ' pickEditBdate
         ' 
-        txtEditPw.BorderRadius = 5
-        txtEditPw.CustomizableEdges = CustomizableEdges64
-        txtEditPw.DefaultText = ""
-        txtEditPw.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditPw.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditPw.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditPw.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditPw.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditPw.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditPw.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditPw.Location = New Point(168, 333)
-        txtEditPw.Name = "txtEditPw"
-        txtEditPw.PasswordChar = ChrW(0)
-        txtEditPw.PlaceholderText = ""
-        txtEditPw.SelectedText = ""
-        txtEditPw.ShadowDecoration.CustomizableEdges = CustomizableEdges65
-        txtEditPw.Size = New Size(233, 36)
-        txtEditPw.TabIndex = 1
-        txtEditPw.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' Label16
-        ' 
-        Label16.AutoSize = True
-        Label16.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label16.Location = New Point(734, 489)
-        Label16.Name = "Label16"
-        Label16.Size = New Size(73, 21)
-        Label16.TabIndex = 2
-        Label16.Text = "Birthdate"
+        pickEditBdate.BorderRadius = 5
+        pickEditBdate.Checked = True
+        pickEditBdate.CustomizableEdges = CustomizableEdges56
+        pickEditBdate.FillColor = Color.White
+        pickEditBdate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        pickEditBdate.Format = DateTimePickerFormat.Long
+        pickEditBdate.Location = New Point(221, 404)
+        pickEditBdate.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
+        pickEditBdate.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
+        pickEditBdate.Name = "pickEditBdate"
+        pickEditBdate.ShadowDecoration.CustomizableEdges = CustomizableEdges57
+        pickEditBdate.Size = New Size(384, 36)
+        pickEditBdate.TabIndex = 3
+        pickEditBdate.TextAlign = HorizontalAlignment.Center
+        pickEditBdate.Value = New DateTime(2023, 6, 6, 9, 2, 45, 794)
         ' 
         ' txtEditAddress
         ' 
         txtEditAddress.BorderRadius = 5
-        txtEditAddress.CustomizableEdges = CustomizableEdges66
+        txtEditAddress.CustomizableEdges = CustomizableEdges58
         txtEditAddress.DefaultText = ""
         txtEditAddress.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditAddress.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1488,86 +1411,66 @@ Partial Class admindash
         txtEditAddress.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtEditAddress.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtEditAddress.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtEditAddress.ForeColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
         txtEditAddress.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditAddress.Location = New Point(168, 424)
+        txtEditAddress.Location = New Point(27, 474)
         txtEditAddress.Name = "txtEditAddress"
         txtEditAddress.PasswordChar = ChrW(0)
         txtEditAddress.PlaceholderText = ""
         txtEditAddress.SelectedText = ""
-        txtEditAddress.ShadowDecoration.CustomizableEdges = CustomizableEdges67
-        txtEditAddress.Size = New Size(719, 36)
+        txtEditAddress.ShadowDecoration.CustomizableEdges = CustomizableEdges59
+        txtEditAddress.Size = New Size(578, 36)
         txtEditAddress.TabIndex = 1
         txtEditAddress.TextAlign = HorizontalAlignment.Center
         ' 
-        ' Label14
+        ' txtEditLname
         ' 
-        Label14.AutoSize = True
-        Label14.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label14.Location = New Point(245, 489)
-        Label14.Name = "Label14"
-        Label14.Size = New Size(88, 21)
-        Label14.TabIndex = 2
-        Label14.Text = "Contact no."
+        txtEditLname.BorderRadius = 5
+        txtEditLname.CustomizableEdges = CustomizableEdges60
+        txtEditLname.DefaultText = ""
+        txtEditLname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtEditLname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtEditLname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEditLname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEditLname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEditLname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtEditLname.ForeColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
+        txtEditLname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEditLname.Location = New Point(221, 145)
+        txtEditLname.Name = "txtEditLname"
+        txtEditLname.PasswordChar = ChrW(0)
+        txtEditLname.PlaceholderText = ""
+        txtEditLname.SelectedText = ""
+        txtEditLname.ShadowDecoration.CustomizableEdges = CustomizableEdges61
+        txtEditLname.Size = New Size(384, 36)
+        txtEditLname.TabIndex = 1
+        txtEditLname.TextAlign = HorizontalAlignment.Center
         ' 
-        ' txtEditNumber
+        ' Label15
         ' 
-        txtEditNumber.BorderRadius = 5
-        txtEditNumber.CustomizableEdges = CustomizableEdges68
-        txtEditNumber.DefaultText = ""
-        txtEditNumber.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditNumber.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditNumber.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditNumber.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditNumber.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditNumber.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditNumber.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditNumber.Location = New Point(168, 514)
-        txtEditNumber.Name = "txtEditNumber"
-        txtEditNumber.PasswordChar = ChrW(0)
-        txtEditNumber.PlaceholderText = ""
-        txtEditNumber.SelectedText = ""
-        txtEditNumber.ShadowDecoration.CustomizableEdges = CustomizableEdges69
-        txtEditNumber.Size = New Size(233, 36)
-        txtEditNumber.TabIndex = 1
-        txtEditNumber.TextAlign = HorizontalAlignment.Center
+        Label15.AutoSize = True
+        Label15.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label15.Location = New Point(27, 347)
+        Label15.Name = "Label15"
+        Label15.Size = New Size(169, 21)
+        Label15.TabIndex = 2
+        Label15.Text = "Educational attainment"
         ' 
-        ' Label8
+        ' Label16
         ' 
-        Label8.AutoSize = True
-        Label8.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label8.Location = New Point(245, 308)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(76, 21)
-        Label8.TabIndex = 2
-        Label8.Text = "Password"
-        ' 
-        ' txtEditEducation
-        ' 
-        txtEditEducation.BorderRadius = 5
-        txtEditEducation.CustomizableEdges = CustomizableEdges70
-        txtEditEducation.DefaultText = ""
-        txtEditEducation.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditEducation.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditEducation.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditEducation.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditEducation.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditEducation.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditEducation.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditEducation.Location = New Point(411, 514)
-        txtEditEducation.Name = "txtEditEducation"
-        txtEditEducation.PasswordChar = ChrW(0)
-        txtEditEducation.PlaceholderText = ""
-        txtEditEducation.SelectedText = ""
-        txtEditEducation.ShadowDecoration.CustomizableEdges = CustomizableEdges71
-        txtEditEducation.Size = New Size(233, 36)
-        txtEditEducation.TabIndex = 1
-        txtEditEducation.TextAlign = HorizontalAlignment.Center
+        Label16.AutoSize = True
+        Label16.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label16.Location = New Point(27, 408)
+        Label16.Name = "Label16"
+        Label16.Size = New Size(73, 21)
+        Label16.TabIndex = 2
+        Label16.Text = "Birthdate"
         ' 
         ' Label11
         ' 
         Label11.AutoSize = True
         Label11.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label11.Location = New Point(729, 219)
+        Label11.Location = New Point(26, 160)
         Label11.Name = "Label11"
         Label11.Size = New Size(81, 21)
         Label11.TabIndex = 2
@@ -1576,7 +1479,7 @@ Partial Class admindash
         ' txtEditEmail
         ' 
         txtEditEmail.BorderRadius = 5
-        txtEditEmail.CustomizableEdges = CustomizableEdges72
+        txtEditEmail.CustomizableEdges = CustomizableEdges62
         txtEditEmail.DefaultText = ""
         txtEditEmail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditEmail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1584,32 +1487,185 @@ Partial Class admindash
         txtEditEmail.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtEditEmail.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtEditEmail.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtEditEmail.ForeColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
         txtEditEmail.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditEmail.Location = New Point(655, 333)
+        txtEditEmail.Location = New Point(221, 211)
         txtEditEmail.Name = "txtEditEmail"
         txtEditEmail.PasswordChar = ChrW(0)
         txtEditEmail.PlaceholderText = ""
         txtEditEmail.SelectedText = ""
-        txtEditEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges73
-        txtEditEmail.Size = New Size(233, 36)
+        txtEditEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges63
+        txtEditEmail.Size = New Size(384, 36)
         txtEditEmail.TabIndex = 1
         txtEditEmail.TextAlign = HorizontalAlignment.Center
+        ' 
+        ' txtEditEducation
+        ' 
+        txtEditEducation.BorderRadius = 5
+        txtEditEducation.CustomizableEdges = CustomizableEdges64
+        txtEditEducation.DefaultText = ""
+        txtEditEducation.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtEditEducation.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtEditEducation.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEditEducation.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEditEducation.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEditEducation.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtEditEducation.ForeColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
+        txtEditEducation.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEditEducation.Location = New Point(221, 341)
+        txtEditEducation.Name = "txtEditEducation"
+        txtEditEducation.PasswordChar = ChrW(0)
+        txtEditEducation.PlaceholderText = ""
+        txtEditEducation.SelectedText = ""
+        txtEditEducation.ShadowDecoration.CustomizableEdges = CustomizableEdges65
+        txtEditEducation.Size = New Size(384, 36)
+        txtEditEducation.TabIndex = 1
+        txtEditEducation.TextAlign = HorizontalAlignment.Center
         ' 
         ' Label9
         ' 
         Label9.AutoSize = True
         Label9.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label9.Location = New Point(485, 219)
+        Label9.Location = New Point(24, 32)
         Label9.Name = "Label9"
         Label9.Size = New Size(83, 21)
         Label9.TabIndex = 2
         Label9.Text = "First name"
         ' 
+        ' Label14
+        ' 
+        Label14.AutoSize = True
+        Label14.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label14.Location = New Point(27, 276)
+        Label14.Name = "Label14"
+        Label14.Size = New Size(88, 21)
+        Label14.TabIndex = 2
+        Label14.Text = "Contact no."
+        ' 
+        ' txtEditNumber
+        ' 
+        txtEditNumber.BorderRadius = 5
+        txtEditNumber.CustomizableEdges = CustomizableEdges66
+        txtEditNumber.DefaultText = ""
+        txtEditNumber.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtEditNumber.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtEditNumber.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEditNumber.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEditNumber.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEditNumber.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtEditNumber.ForeColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
+        txtEditNumber.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEditNumber.Location = New Point(221, 276)
+        txtEditNumber.Name = "txtEditNumber"
+        txtEditNumber.PasswordChar = ChrW(0)
+        txtEditNumber.PlaceholderText = ""
+        txtEditNumber.SelectedText = ""
+        txtEditNumber.ShadowDecoration.CustomizableEdges = CustomizableEdges67
+        txtEditNumber.Size = New Size(384, 36)
+        txtEditNumber.TabIndex = 1
+        txtEditNumber.TextAlign = HorizontalAlignment.Center
+        ' 
+        ' Panel3
+        ' 
+        Panel3.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel3.Controls.Add(Guna2Button5)
+        Panel3.Controls.Add(pBoxEditProfile)
+        Panel3.Controls.Add(txtEditUsername)
+        Panel3.Controls.Add(txtEditPw)
+        Panel3.Controls.Add(Label8)
+        Panel3.Controls.Add(Label7)
+        Panel3.Location = New Point(20, 16)
+        Panel3.Name = "Panel3"
+        Panel3.Size = New Size(321, 531)
+        Panel3.TabIndex = 6
+        ' 
+        ' Guna2Button5
+        ' 
+        Guna2Button5.CustomizableEdges = CustomizableEdges68
+        Guna2Button5.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button5.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button5.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button5.ForeColor = Color.White
+        Guna2Button5.Location = New Point(27, 251)
+        Guna2Button5.Name = "Guna2Button5"
+        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges69
+        Guna2Button5.Size = New Size(265, 36)
+        Guna2Button5.TabIndex = 4
+        Guna2Button5.Text = "Upload Image"
+        ' 
+        ' pBoxEditProfile
+        ' 
+        pBoxEditProfile.BackgroundImageLayout = ImageLayout.Stretch
+        pBoxEditProfile.BorderStyle = BorderStyle.Fixed3D
+        pBoxEditProfile.Location = New Point(27, 22)
+        pBoxEditProfile.Name = "pBoxEditProfile"
+        pBoxEditProfile.Size = New Size(265, 230)
+        pBoxEditProfile.TabIndex = 0
+        pBoxEditProfile.TabStop = False
+        ' 
+        ' txtEditUsername
+        ' 
+        txtEditUsername.BorderRadius = 5
+        txtEditUsername.CustomizableEdges = CustomizableEdges70
+        txtEditUsername.DefaultText = ""
+        txtEditUsername.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtEditUsername.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtEditUsername.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEditUsername.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEditUsername.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEditUsername.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtEditUsername.ForeColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
+        txtEditUsername.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEditUsername.Location = New Point(27, 350)
+        txtEditUsername.Name = "txtEditUsername"
+        txtEditUsername.PasswordChar = ChrW(0)
+        txtEditUsername.PlaceholderText = ""
+        txtEditUsername.SelectedText = ""
+        txtEditUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges71
+        txtEditUsername.Size = New Size(265, 36)
+        txtEditUsername.TabIndex = 1
+        txtEditUsername.TextAlign = HorizontalAlignment.Center
+        ' 
+        ' txtEditPw
+        ' 
+        txtEditPw.BorderRadius = 5
+        txtEditPw.CustomizableEdges = CustomizableEdges72
+        txtEditPw.DefaultText = ""
+        txtEditPw.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtEditPw.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtEditPw.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEditPw.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtEditPw.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEditPw.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtEditPw.ForeColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
+        txtEditPw.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtEditPw.Location = New Point(27, 439)
+        txtEditPw.Name = "txtEditPw"
+        txtEditPw.PasswordChar = ChrW(0)
+        txtEditPw.PlaceholderText = ""
+        txtEditPw.SelectedText = ""
+        txtEditPw.ShadowDecoration.CustomizableEdges = CustomizableEdges73
+        txtEditPw.Size = New Size(265, 36)
+        txtEditPw.TabIndex = 1
+        txtEditPw.TextAlign = HorizontalAlignment.Center
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label8.Location = New Point(122, 415)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(76, 21)
+        Label8.TabIndex = 2
+        Label8.Text = "Password"
+        ' 
         ' Label7
         ' 
         Label7.AutoSize = True
         Label7.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label7.Location = New Point(242, 219)
+        Label7.Location = New Point(122, 326)
         Label7.Name = "Label7"
         Label7.Size = New Size(81, 21)
         Label7.TabIndex = 2
@@ -1618,32 +1674,79 @@ Partial Class admindash
         ' other
         ' 
         other.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
-        other.Controls.Add(dgBeneficiaries)
-        other.Controls.Add(btnEditUpdate)
-        other.Controls.Add(btnEditAddBen)
-        other.Controls.Add(txtEditAddBenAge)
-        other.Controls.Add(txtEditAddBenRel)
-        other.Controls.Add(txtEditAddBen)
-        other.Controls.Add(pickEditUserStat)
-        other.Controls.Add(pickEditComm)
-        other.Controls.Add(pickEditStatus)
-        other.Controls.Add(Label35)
-        other.Controls.Add(pickEditPosition)
-        other.Controls.Add(Label22)
-        other.Controls.Add(pickEditOffice)
-        other.Controls.Add(Label25)
-        other.Controls.Add(Label24)
-        other.Controls.Add(Label23)
-        other.Controls.Add(Label26)
-        other.Controls.Add(Label21)
-        other.Controls.Add(Label20)
-        other.Controls.Add(Label19)
+        other.Controls.Add(Panel8)
+        other.Controls.Add(Panel7)
+        other.Controls.Add(Panel6)
         other.Location = New Point(4, 44)
         other.Name = "other"
         other.Padding = New Padding(3)
         other.Size = New Size(1057, 640)
         other.TabIndex = 1
         other.Text = "Other information"
+        ' 
+        ' Panel8
+        ' 
+        Panel8.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel8.Controls.Add(btnEmBack2)
+        Panel8.Controls.Add(btnEditUpdate)
+        Panel8.Location = New Point(16, 552)
+        Panel8.Name = "Panel8"
+        Panel8.Size = New Size(985, 70)
+        Panel8.TabIndex = 11
+        ' 
+        ' btnEmBack2
+        ' 
+        btnEmBack2.BorderRadius = 5
+        btnEmBack2.CustomizableEdges = CustomizableEdges74
+        btnEmBack2.DisabledState.BorderColor = Color.DarkGray
+        btnEmBack2.DisabledState.CustomBorderColor = Color.DarkGray
+        btnEmBack2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnEmBack2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnEmBack2.FillColor = Color.FromArgb(CByte(167), CByte(41), CByte(36))
+        btnEmBack2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnEmBack2.ForeColor = Color.White
+        btnEmBack2.Location = New Point(557, 18)
+        btnEmBack2.Name = "btnEmBack2"
+        btnEmBack2.ShadowDecoration.CustomizableEdges = CustomizableEdges75
+        btnEmBack2.Size = New Size(180, 34)
+        btnEmBack2.TabIndex = 5
+        btnEmBack2.Text = "GO BACK"
+        ' 
+        ' btnEditUpdate
+        ' 
+        btnEditUpdate.BorderRadius = 5
+        btnEditUpdate.Cursor = Cursors.Hand
+        btnEditUpdate.CustomizableEdges = CustomizableEdges76
+        btnEditUpdate.DisabledState.BorderColor = Color.DarkGray
+        btnEditUpdate.DisabledState.CustomBorderColor = Color.DarkGray
+        btnEditUpdate.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnEditUpdate.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnEditUpdate.FillColor = Color.FromArgb(CByte(0), CByte(192), CByte(0))
+        btnEditUpdate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnEditUpdate.ForeColor = Color.White
+        btnEditUpdate.Location = New Point(743, 18)
+        btnEditUpdate.Name = "btnEditUpdate"
+        btnEditUpdate.ShadowDecoration.CustomizableEdges = CustomizableEdges77
+        btnEditUpdate.Size = New Size(222, 34)
+        btnEditUpdate.TabIndex = 4
+        btnEditUpdate.Text = "UPDATE"
+        ' 
+        ' Panel7
+        ' 
+        Panel7.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel7.Controls.Add(dgBeneficiaries)
+        Panel7.Controls.Add(btnEditAddBen)
+        Panel7.Controls.Add(txtEditAddBenAge)
+        Panel7.Controls.Add(txtEditAddBenRel)
+        Panel7.Controls.Add(txtEditAddBen)
+        Panel7.Controls.Add(Label25)
+        Panel7.Controls.Add(Label24)
+        Panel7.Controls.Add(Label23)
+        Panel7.Controls.Add(Label26)
+        Panel7.Location = New Point(383, 23)
+        Panel7.Name = "Panel7"
+        Panel7.Size = New Size(618, 513)
+        Panel7.TabIndex = 10
         ' 
         ' dgBeneficiaries
         ' 
@@ -1676,7 +1779,7 @@ Partial Class admindash
         DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
         dgBeneficiaries.DefaultCellStyle = DataGridViewCellStyle3
         dgBeneficiaries.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgBeneficiaries.Location = New Point(144, 300)
+        dgBeneficiaries.Location = New Point(24, 49)
         dgBeneficiaries.Name = "dgBeneficiaries"
         dgBeneficiaries.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft
@@ -1689,7 +1792,7 @@ Partial Class admindash
         dgBeneficiaries.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
         dgBeneficiaries.RowHeadersVisible = False
         dgBeneficiaries.RowTemplate.Height = 26
-        dgBeneficiaries.Size = New Size(768, 145)
+        dgBeneficiaries.Size = New Size(572, 300)
         dgBeneficiaries.TabIndex = 0
         dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
         dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.Font = Nothing
@@ -1754,47 +1857,28 @@ Partial Class admindash
         Column4.Name = "Column4"
         Column4.Width = 40
         ' 
-        ' btnEditUpdate
-        ' 
-        btnEditUpdate.BorderRadius = 5
-        btnEditUpdate.Cursor = Cursors.Hand
-        btnEditUpdate.CustomizableEdges = CustomizableEdges74
-        btnEditUpdate.DisabledState.BorderColor = Color.DarkGray
-        btnEditUpdate.DisabledState.CustomBorderColor = Color.DarkGray
-        btnEditUpdate.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnEditUpdate.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnEditUpdate.FillColor = Color.FromArgb(CByte(0), CByte(192), CByte(0))
-        btnEditUpdate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        btnEditUpdate.ForeColor = Color.White
-        btnEditUpdate.Location = New Point(633, 585)
-        btnEditUpdate.Name = "btnEditUpdate"
-        btnEditUpdate.ShadowDecoration.CustomizableEdges = CustomizableEdges75
-        btnEditUpdate.Size = New Size(239, 34)
-        btnEditUpdate.TabIndex = 4
-        btnEditUpdate.Text = "UPDATE"
-        ' 
         ' btnEditAddBen
         ' 
         btnEditAddBen.BorderRadius = 5
         btnEditAddBen.Cursor = Cursors.Hand
-        btnEditAddBen.CustomizableEdges = CustomizableEdges76
+        btnEditAddBen.CustomizableEdges = CustomizableEdges78
         btnEditAddBen.DisabledState.BorderColor = Color.DarkGray
         btnEditAddBen.DisabledState.CustomBorderColor = Color.DarkGray
         btnEditAddBen.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnEditAddBen.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnEditAddBen.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         btnEditAddBen.ForeColor = Color.White
-        btnEditAddBen.Location = New Point(209, 541)
+        btnEditAddBen.Location = New Point(24, 445)
         btnEditAddBen.Name = "btnEditAddBen"
-        btnEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges77
-        btnEditAddBen.Size = New Size(151, 34)
+        btnEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges79
+        btnEditAddBen.Size = New Size(183, 34)
         btnEditAddBen.TabIndex = 4
         btnEditAddBen.Text = "ADD"
         ' 
         ' txtEditAddBenAge
         ' 
         txtEditAddBenAge.BorderRadius = 5
-        txtEditAddBenAge.CustomizableEdges = CustomizableEdges78
+        txtEditAddBenAge.CustomizableEdges = CustomizableEdges80
         txtEditAddBenAge.DefaultText = ""
         txtEditAddBenAge.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditAddBenAge.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1803,12 +1887,12 @@ Partial Class admindash
         txtEditAddBenAge.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtEditAddBenAge.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtEditAddBenAge.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditAddBenAge.Location = New Point(779, 499)
+        txtEditAddBenAge.Location = New Point(503, 393)
         txtEditAddBenAge.Name = "txtEditAddBenAge"
         txtEditAddBenAge.PasswordChar = ChrW(0)
         txtEditAddBenAge.PlaceholderText = ""
         txtEditAddBenAge.SelectedText = ""
-        txtEditAddBenAge.ShadowDecoration.CustomizableEdges = CustomizableEdges79
+        txtEditAddBenAge.ShadowDecoration.CustomizableEdges = CustomizableEdges81
         txtEditAddBenAge.Size = New Size(93, 36)
         txtEditAddBenAge.TabIndex = 8
         txtEditAddBenAge.TextAlign = HorizontalAlignment.Center
@@ -1816,7 +1900,7 @@ Partial Class admindash
         ' txtEditAddBenRel
         ' 
         txtEditAddBenRel.BorderRadius = 5
-        txtEditAddBenRel.CustomizableEdges = CustomizableEdges80
+        txtEditAddBenRel.CustomizableEdges = CustomizableEdges82
         txtEditAddBenRel.DefaultText = ""
         txtEditAddBenRel.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditAddBenRel.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1825,20 +1909,20 @@ Partial Class admindash
         txtEditAddBenRel.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtEditAddBenRel.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtEditAddBenRel.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditAddBenRel.Location = New Point(632, 499)
+        txtEditAddBenRel.Location = New Point(328, 393)
         txtEditAddBenRel.Name = "txtEditAddBenRel"
         txtEditAddBenRel.PasswordChar = ChrW(0)
         txtEditAddBenRel.PlaceholderText = ""
         txtEditAddBenRel.SelectedText = ""
-        txtEditAddBenRel.ShadowDecoration.CustomizableEdges = CustomizableEdges81
-        txtEditAddBenRel.Size = New Size(141, 36)
+        txtEditAddBenRel.ShadowDecoration.CustomizableEdges = CustomizableEdges83
+        txtEditAddBenRel.Size = New Size(169, 36)
         txtEditAddBenRel.TabIndex = 7
         txtEditAddBenRel.TextAlign = HorizontalAlignment.Center
         ' 
         ' txtEditAddBen
         ' 
         txtEditAddBen.BorderRadius = 5
-        txtEditAddBen.CustomizableEdges = CustomizableEdges82
+        txtEditAddBen.CustomizableEdges = CustomizableEdges84
         txtEditAddBen.DefaultText = ""
         txtEditAddBen.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditAddBen.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1847,141 +1931,21 @@ Partial Class admindash
         txtEditAddBen.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtEditAddBen.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtEditAddBen.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditAddBen.Location = New Point(185, 499)
+        txtEditAddBen.Location = New Point(24, 393)
         txtEditAddBen.Name = "txtEditAddBen"
         txtEditAddBen.PasswordChar = ChrW(0)
         txtEditAddBen.PlaceholderText = ""
         txtEditAddBen.SelectedText = ""
-        txtEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges83
-        txtEditAddBen.Size = New Size(442, 36)
+        txtEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges85
+        txtEditAddBen.Size = New Size(298, 36)
         txtEditAddBen.TabIndex = 6
         txtEditAddBen.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' pickEditUserStat
-        ' 
-        pickEditUserStat.BackColor = Color.Transparent
-        pickEditUserStat.BorderRadius = 5
-        pickEditUserStat.CustomizableEdges = CustomizableEdges84
-        pickEditUserStat.DrawMode = DrawMode.OwnerDrawFixed
-        pickEditUserStat.DropDownStyle = ComboBoxStyle.DropDownList
-        pickEditUserStat.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditUserStat.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditUserStat.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        pickEditUserStat.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        pickEditUserStat.ItemHeight = 30
-        pickEditUserStat.Items.AddRange(New Object() {"Administrator", "Default"})
-        pickEditUserStat.Location = New Point(381, 211)
-        pickEditUserStat.Name = "pickEditUserStat"
-        pickEditUserStat.ShadowDecoration.CustomizableEdges = CustomizableEdges85
-        pickEditUserStat.Size = New Size(303, 36)
-        pickEditUserStat.TabIndex = 5
-        pickEditUserStat.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' pickEditComm
-        ' 
-        pickEditComm.BackColor = Color.Transparent
-        pickEditComm.BorderRadius = 5
-        pickEditComm.CustomizableEdges = CustomizableEdges86
-        pickEditComm.DrawMode = DrawMode.OwnerDrawFixed
-        pickEditComm.DropDownStyle = ComboBoxStyle.DropDownList
-        pickEditComm.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditComm.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditComm.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        pickEditComm.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        pickEditComm.ItemHeight = 30
-        pickEditComm.Items.AddRange(New Object() {"Education, Information & Research", "Organizing & Membership", "Grievances", "Welfare", "Finance", "Sports & Culture"})
-        pickEditComm.Location = New Point(569, 134)
-        pickEditComm.Name = "pickEditComm"
-        pickEditComm.ShadowDecoration.CustomizableEdges = CustomizableEdges87
-        pickEditComm.Size = New Size(303, 36)
-        pickEditComm.TabIndex = 4
-        pickEditComm.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' pickEditStatus
-        ' 
-        pickEditStatus.BackColor = Color.Transparent
-        pickEditStatus.BorderRadius = 5
-        pickEditStatus.CustomizableEdges = CustomizableEdges88
-        pickEditStatus.DrawMode = DrawMode.OwnerDrawFixed
-        pickEditStatus.DropDownStyle = ComboBoxStyle.DropDownList
-        pickEditStatus.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditStatus.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditStatus.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        pickEditStatus.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        pickEditStatus.ItemHeight = 30
-        pickEditStatus.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
-        pickEditStatus.Location = New Point(185, 134)
-        pickEditStatus.Name = "pickEditStatus"
-        pickEditStatus.ShadowDecoration.CustomizableEdges = CustomizableEdges89
-        pickEditStatus.Size = New Size(303, 36)
-        pickEditStatus.TabIndex = 3
-        pickEditStatus.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' Label35
-        ' 
-        Label35.AutoSize = True
-        Label35.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label35.Location = New Point(495, 185)
-        Label35.Name = "Label35"
-        Label35.Size = New Size(88, 21)
-        Label35.TabIndex = 6
-        Label35.Text = "User Status"
-        ' 
-        ' pickEditPosition
-        ' 
-        pickEditPosition.BackColor = Color.Transparent
-        pickEditPosition.BorderRadius = 5
-        pickEditPosition.CustomizableEdges = CustomizableEdges90
-        pickEditPosition.DrawMode = DrawMode.OwnerDrawFixed
-        pickEditPosition.DropDownStyle = ComboBoxStyle.DropDownList
-        pickEditPosition.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditPosition.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditPosition.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        pickEditPosition.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        pickEditPosition.ItemHeight = 30
-        pickEditPosition.Items.AddRange(New Object() {"AA I", "AA II", "AA II Pantawid Pamilya RPMO", "AA III", "AA III - Sr.Bookkeeper", "AA III / Information Officer NHTS-PR", "AA III-Munipical Roving Bookkeeper", "AA-II ", "AA-II KALAHI-CIDDS", "AA-II KALAHI-CIDDS NCDDP_AF", "AC-KAASA", "Accountant I", "Accountant I/Officer in charge", "Accountant II", "Accountant III", "Accounting Clerk", "Acting Secretary", "Acting Social Welfare Officer III", "Activity Therapist", "Activity Worker I", "Admin Aide I", "Admin AIDE III", "Admin AIDE IIII", "Admin AIDE IV", "Admin AIDE VI ", "Admin Assistant", "Admin Assistant III", "Admin Assistant III (Computer Operator II)", "Admin Assistant V (Private Secretary I)", "Admin cum Finance Officer", "Admin Officer IV-Head, RROS", "Admin. Aide VI", "Admin.Assitant III/Information Officer (Listahanan)", "Admin.Officer IV/Head", "Admin.Officer V-Unit Head ", "Administrative Aide I", "Administrative Aide II", "Administrative Aide III", "Administrative Aide III (Encoder)", "Administrative Aide IV", "Administrative Aide IV (Clerk II)", "Administrative Aide IV (Driver)", "Administrative Aide IV (Encoder)", "Administrative Aide IV/Encoder", "Administrative Aide V", "Administrative Aide V (Chauffer I)", "Administrative Aide VI", "Administrative Aide VI (Clerk III)", "Administrative Assistant I", "Administrative Assistant II", "Administrative Assistant II (Procurement)", "Administrative Assistant II/SLP", "Administrative Assistant III", "Administrative Assistant III (Cash Clerk)", "Administrative Assistant III - Budget", "Administrative Assistant III (Budget Assistant)", "Administrative Assistant III/Senior Bookkeeper", "Administrative Assistant III/Socpen Accounting", "Administrative Assistant IV", "Administrative Assistant V", "Administrative Assistant V (Private Secretary I)", "Administrative Assistant VI ", "Administrative Cum Finance Officer", "Administrative Officer I", "Administrative Officer II", "Administrative Officer II - Infastructure Assistant", "Administrative Officer II - Property & Asset Officer", "Administrative Officer II/Head", "Administrative Officer III", "Administrative Officer IV", "Administrative Officer IV/KALAHI-CIDSS", "Administrative Officer IV/Encoder", "Administrative Officer IV/Head", "Administrative Officer V", "Administrative Officer V/Budget Officer", "Administrative Officer V/Financial Analyst III", "Administrative Officer V/Head", "Administrative Program Focal (PDO II-municipal link)", "Administrative Staff", "Administrative Support Staff", "AO II", "AO II/Financial Analyst II ", "AO II / PSYCHOMETRICIAN", "AO II-OIC Head, Property, Supply & Asset Mngt.Section", "AO II-Pantawid Property Officer", "AO II-Property Officer", "AO II-Property & Asset Officer", "AO II-Property Officer (Mainstream Staff Pantawid)", "AO IV", "AO IV-Financial Analyst II", "AO IV/Financial Analyst II", "AO IV/OIC-Procurement Unit Head", "AO V", "AO V-CASH HEAD", "AO V/Budget Officer NHTS-PR", "AOV-FMD-Cash-Head", "Architect I", "Architect II", "Architect III", "ARDO", "Area Coordinator", "Area Coordinarot/KALAHI CIDSS", "AREA SUPERVISOR", "Assistant Bureau Director", "Assistant Information Officer", "Assistant Regional Director for Administration (ARDA)", "Assistant Regional Director for Operations (ARDO)", "Assistant Secretary", "Assistant Secretary / OIC-IMB", "Assistant Secretary for OASOPG-Protective Programs ", "Assistant Service Director", "Associate Statistician", "Attorney III", "AttorneyIV", "Attorney V", "Audio-Visual Aids Technician III", "Audio-Visual Equipment Operator II", "AUDIT TEAM LEADER", "AUDIT TEAM MEMBER", "AVRC II Center Head", "BAC SEC & Procurement Service", "BAHAY PAG-ASA NG LAGUNA - CENTER HEAD", "BDM", "Beneficiary Update System Focal - PDO I", "Beneficiary Update System Focal - PDO II", "Bookkeeper", "BTMS-ENCODER", "Budget Assistant", "Budget Officer I", "Budget Officer II", "Budget Officer III", "Bureau Director", "CAD Operator", "Caretaker", "Carpenter", "Case Worker for MCCT (PDOII)", "Cash Clerk", "CASH CLERK / KALAHI-CIDSS", "Cashier II", "CDA II", "CEF - KALAHI CIDSS", "CEF / Executive Assistant", "CENTER HEAD", "CENTERS AND RESIDENTIAL CARE FACILITIES (CRCF)", "Chief", "Chief Account", "Chief Admin.Officer / OIC ARD for Administration", "Chief Administrative Officer", "Chief Administrative Officer V", "Chief Infastructure Engineer", "Child Psychologist for MCCT", "City Link", "City Link Officer", "CIVIL ENGINEER", "CL", "Clerk I", "Clerk II", "Clerk III/ HRMDD", "Clerk/Encoder", "Cluster Beneficiary Data Officer", "Cluster Compliance Verification System Focal", "Cluster Focal Person (BDM)", "Cluster Greivance Redress System Focal", "Cluster Greivance Officer", "CMT I", "CMT II", "CMT II - MCCT", "COA AUDITOR", "Comm. Development Officer III", "Commission on Audit XI", "Communication Equipment Operator I", "Communications Specialist", "Communications Officer IV", "Community Development Assistant", "Community Development Assistant II", "Community Development Officer II", "Community Development Officer III", "COMMUNITY DEVELOPMENT OFFICER III - IT", "COMMUNITY DEVELOPMENT OFFICER IV", "COMMUNITY DEVELOPMENT OFFICER IV/KALAHI CIDSS", "Community Empowerment Facilitator", "Community Empowerment Facilitator - Roving ", "Community Facilitator", "Community Facilitator Aide", "Community Facilitator Assistant", "Community Finance Facilitator", "Community Finance Monitor", "Community Financial Analyst", "Community Infastructure Officer ", "Community Infastructure Officer III", "Community Infastructure Specialist ", "Community Organizer", "Community Organizer III", "Community Procurement Officer ", "Community Procurement Officer 3", "Community Procurement Officer III", "Community Procurement Specialist ", "Computer Encoder", "Computer Maintenance Technologist I", "Computer Maintenance Technologist II", "Computer Operator", "Computer Operator I", "Computer Operator II", "Computer Operator III", "Computer Operator IV", "Computer Programmer I", "Computer Programmer II", "Computer Programmer III", "Concurrent Head", "Concurent National Program Manager", "Concurent OIC", "Consultant", "Convergeance Coordinator", "Cook", "Cook I", "Cook II", "CPO", "CPO IV", "Crative Arts Specialist", "DAC - DEPUTY ARE COORDINATOR", "Data Analyst III", "Data Encoder", "Database Specialist", "Day Care Worker I", "Day Care Worker II", "Default", "Dentist II", "Department Assistant Secretary", "Department Legislative Liaison Specialist", "Department Secretary", "Department Undersecretary", "Deputy Area Coordinator - Electrical Engineer", "Deputy Area Coordinator - Geoditic Engineer", "Deputy Area Coordinator - IT", "Deputy Community Development Specialist", "Deputy Director", "Deputy Nat'l Community - Infra. Engr.", "Deputy National M & E Specialist", "Deputy National Program Manager for Operations", "Deputy National Training Specialist", "Deputy NCBS", "Deputy Program Director", "Deputy Program Manager", "Deputy Program Manager Operation", "Deputy Regional Program Manager", "Deputy Regional Project Manager", "Deputy Technical Facilitator", "Derector", "Director III", "Director IV", "Division Chief", "Dormitory Manager I", "Dormitory Manager II", "DPMO", "DPMO/PROPERTY WAREHOUSE", "DPSC", "DRAFTSMAN", "Driver", "Driver II", "DSWD FO CARAGA", "ECCD Teacher", "Echonomist III", "Electrical Engineer", "Electrician I ", "Electrician II ", "Encoder", "Encoder III", "Encoder-BTMS", "Engineer I", "Engineer II", "Engineer III", "Engineer IV", "Engineer AIDE", "Environtmental Safeguard Specialist", "Executive Assistant ", "Executive Assistant I", "Executive Assistant II", "Executive Assistant III", "Executive Assistant IV", "Executive Assistant V", "Executive Assistant VI", "Executive Secretary/ Senior Administrative Assistant III", "FA - MAGSAYSAY", "FA II", "FA III", "Family Welfare Assistant for MCCT", "FDS Coordinator", "Field Program Manager", "Field Office Coordinator", "Field Program Manager", "Finance Officer Cum Administrative Officer", "Finance Officer III", "Financial Analyst", "Financial Analyst I", "Financial Analyst II", "Financial Analyst III", "Financial Analyst III (Budget Officer)", "Financial Analyst III (Cash Grants)", "Financial Analyst III/KALAHI CIDSS", "Financial Analyst IV", "Financial Analyst V", "Financial Analyst V (Project Accountant)", "Financial Assistant III", "FMD Chief", "FOCAL PERSON FOR OSEC", "FOR STORAGE", "FPC", "Gender Specialist", "Geodetic Engineer", "GIS Specialist", "Governance Specialist", "Goverment Intership Program", "Greivance Redress System Focal", "Greivance, Admin Officer", "Handicaft Worker II", "Head ", "Head Executive Assistant", "Head, Accounting Section", "Head, RAMS", "Heavy Equipment Operator I", "HMO Inlife Customer Service Representative", "House Attendant ", "Household Attendant III", "Houseparent I", "HOUSEPARENT II", "houseparent III", "Houseparent IV", "HR - Learning and Development", "HR Specialist", "HRMDD CHIEF", "Human Relations Officer I ", "Human Resource Officer", "Human Resource Officer I", "Human Resource Officer II", "Information analyst I", "Information Officer", "Information Officer I", "Information Officer I/Social Pension Program", "Information Officer I/UCT", "Information Officer II", "Information Officer III ", "Information Officer III (Social Marketing Officer III)", "Information Officer IV", "Information Officer V", "Information Specialist Analyst", "Information System Analyst", "Information System Analyst I", "Information System Analyst III", "Information Systems Analyst", "Information Technology Officer (Team Leader)", "Information Technology Officer I", "Information Technology Officer II", "Information Technology Officer III", "Institutional Partnership and Development Officer", "Instructor ", "Inter Auditing Assistant", "Internal Auditor I", "Internal Auditor II", "Internal Auditor III", "Internal Auditor IV", "Internal Auditor V", "IO", "IPDO", "JOB ORDER", "Job Placement Officer", "Junior Capacity Building Specialist", "Junior Community Procurement Specialist", "KALAHI CIDSS - Japan Fund for Proverty Reduction", "KM Writer", "Knowledge Management Writer", "Laundry Worker I ", "Laundry Worker II", "Laundry Worker/Cook", "Laundrywoman", "Legal Assistant I", "Legal Assistant II", "LIBRARIAN I", "Librarian II", "Logistic Officer III", "M & E Assistant III", "M & E I", "M & E II", "M & E Specialist", "M & E IV", "M & E V", "M & E Officer III", "Management and Audit Analyst II", "Management Audit Analyst", "Management Audit Analyst II", "Management Audit Analyst IV", "MANPOWER DEVELOPMENT ASSISTANT ", "Manpower Development Officer I", "Manpower Development Officer II", "Manpower Development Officer III", "MCCT Coordinator", "MDO I / PSYCHOMETRICIAN", "Media Officer IV", "Media Production Specialist", "Media Prodcution Specialist III", "MEDICAL OFFICER", "Medical Officer III", "Medical Officer IV", "MFA", "Midwife I", "Minister of Social Service BARMM", "ML PATNANUNGAN", "MOA", "Monitoring & Evaluation Officer I", "Monitoring & Evaluation Officer II", "Monitoring & Evaluation Officer III", "Monitoring & Evaluation III ", "Monitoring & Evaluation Officer ", "Monitoring & Evaluation Officer III (External)", "Monitoring & Evaluation Officer IV", "Monitoring & Evaluation Officer V", "MRB", "Municipal Financial Analyst", "Municipal Financial Analyst/KALAHI-CIDSS", "Municipal Financial Analyst", "Municipal Link", "Minicipal Link Officer", "Municipal Monitoring ", "Municipal Rooving Bookkeeper", "Municipal Roving Bookkeeper", "Municipal Social Welfare Development Officer", "National Capability Building Specialist", "National Community Infrastructure", "National DRRM Support Coordinator", "National Financial Analyst - KCMCC", "National M & E Specialist", "National Training Officer", "NCDS", "NHTO IT-Division Chief/ITO3", "Nurse I", "Nurse II", "Nutritionist-Dietician I", "Nutritionist-Dietician II", "Nutritionist-Dietician III", "Nutritionist-Dietician V", "OASOPG-PP", "ODM Specialist", "OIC ", "OIC - Director IV", "OIC AUDIT TEAM LEADER", "OIC DIVISION Chief - DReMD", "OIC Head, Property & Supply Section", "OIC - Assistant Regional Director for Operations", "OIC - ASEC - OASOSG", "OIC - Assistant Director", "OIC - Assistant Secretary", "OIC - Assistant Service Director", "OIC-Asst. Secretary for OSG", "OIC - Center Head", "OIC - CHIEF", "OIC Director", "OIC - Division Chief", "OIC - GSD", "OIC - Procurement Unit Head", "OIC - Regional Director", "OIC - USEC", "OIC/Chief", "OJT", "On-the-job Trainee", "Operations Program Focal (PDO II - Municipal Link)", "Organizational Development Specialist III", "Organizational Development Specialist IV", "Organizational Training Specialist IV", "Payapa at Masaganang Pamayanan ", "PDO", "PDO I", "PDO I/FMD Cash Grants ", "PDO I/DRMD ", "PDO I/Grievance Officer", "PDO I/provincial Monitoring Evaluation Officer", "PDO II", "PDO II - System coordinator", "PDO II Municipal link", "PDO II (Case Worker)", "PDO II - BUS", "PDO II - BUS Focal Person", "PDO - Coordination to Partner Agencies", "PDO II - CVS", "PDOII - EPAHPH", "PDO II - GAD", "PDO II - GRS", "PDO II - GRS (Cluster) ", "PDO II - Information II", "PDO II - IP", "PDO II - Monitoring & Evaluation Officer", "PDO II - SWAD TL", "PDO II / Capability building ", "PDO II / DRMD CCAM", "PDO II / ML TUAO, CAGAYAN", "PDO II / Municipal Link, Alicia, Isabela", "PDO II / Municipal Link, Ilagan City, Isabela", "PDO II / RMEO", "PDO II / SLP Batanes", "PDO II / SWAD TL", "PDO II / GRS ", "PDO II Municipal Link, Abulug, Cagayan", "PDO II - Institutional Partnership Development Officer", "PDO II - City link, Tuguegarao City, Cagayan", "PDO II - Cluster Benefeciary Data Officer", "PDO II - MCCT Community Facilitator", "PDO II - Municipal Link", "PDO II - Municipal Link Dupax Del Norte,N.V", "PDO II - Municipal Link, Ambaguio", "PDO II - Municipal Link, Buguey, Cagayan", "PDO II - Municipal Link, Diadi, N.V", "PDO II - Municipal Link, Enrile, Cagayan", "PDO II - Municipal Link, Iguig, Cagayan", "PDO II - Municipal Link, Napagtipunan, Quirino", "PDO II - Municipal Link, Saguday, Quirino", "PDO II - Municipal Link, Dupax Del Sur, N.V", "PDO II - Provincial Systems Focal", "PDO II - Regional Monitoring and Evaluation Officer", "PDO II/PMEO SLP ISABELA", "PDO II/Provincial Coordinator", "PDO II/Child Labord Focal Person", "PDO II/DRMD", "PDO II/DRMD CCAM", "PDO II/Geographic Info.System Specialist", "PDO II/Information Officer", "PDO II/LIQUIDATION FOCAL/RMEF", "PDO II/MCCT San Pablo, Isabela", "PDO II/ML APARRI, CAGAYAN", "PDO II/ML TUAO, CAGAYAN", "PDO II/MUNICIPAL LINK", "PDO II/Municipal Link Bambang, NV", "PDO II/Municipal Link Claveri, Cagayan", "PDO II/Municipal Link Diadi, NV", "PDO II/Municipal Link Dinapigue, Isabela", "PDO II/Municipal Link Gattaran, Cagayan", "PDO II/Municipal Link Kayapa, Nueva Viscaya", "PDO II/Municipal Link Pamplano, Cagayan", "PDO II/Municipal Link Peablanca, Cagayan", "PDO II/Municipal Link Quezon, Nueva Viscaya", "PDO II/Municipal LInk Rizal,Cagayan", "PDO II/Municipal Link Roxas,Isabela", "PDO II/Municipal Link San Isidro, Cagayan", "PDO II/Municipal Link San Isidro, Isabela", "PDO II/Municipal Link Sanchez Mira, Cagayan", "PDO II/Municipal Link Solano,NV", "PDO II/Municipal LInk Sta.Fe,NV", "PDO II/Municipal Link Sta.Praxedes,Cagayan", "PDO II/Municipal Link Sto.Nino,Cagayan", "PDO II/Municipal Link Villaverde", "PDO II/Municipal Link, Aparri,Cagayan", "PDO II/Municipal Link, Buguey, Cagayan", "PDO II/Municipal Link, Burgos, Isabela", "PDO II/Municipal Link, Divilacan, Isabela", "PDO II/Municipal Link, Jones,Isabela", "PDO II/Municipal Link,MACONACON, ISABELA", "PDO II/Municipal Link,SAn Agustin,Isabela", "PDo II/Municipal Link,San Mariano,Isabela", "PDO II/Municipal Link,San Mateo,Isabela", "PDO II/Municipal Link,Tumauini,Isabela", "PDO II/Municipal Link,Divilacan,Isabela", "PDO II/Municipal Link,Echague,Isabela", "PDO II/Municipal Link,Maconacon,Isabela", "PDO II/Municipal Link,San Mariano,Isabela", "PDO II/PMEO ISABELA", "PDO II/PMEO NUEVA VIZCAYA", "PDO II/PMEO QUIRINO", "PDO II/Private Sector Partnership Officer", "PDO II/Provincial Coordinator Isabela, Cagayan", "PDO II/Provincial Coordinator SLP Isabela", "PDO II/Provincial Coordinator SLP Quirino", "PDO II/Reports Generation", "PDO III", "PDO III/Area Coordinator", "PDO III/Area Coordinator", "PDO III/Civil Engineer", "PDO III TEchnical Staff/RSCWC", "PDO III/Area Coordinator", "PDO III/Head, CVRRCY", "PDO III/Reg'l Center Coordinator", "PDO III/RSCWC", "PDO IV", "PDO V/ RPC", "PDO V/Division", "PDO V/Regional Field Coordinator UCT", "PDO-I Social Pension", "PDO-II", "PDO-IIDRMMD", "PEO I", "PEO III", "PGO", "Photographer II", "Physical Therapist II", "Planning Officer I", "Planning Officer II", "Planning Officer III", "Planning Officer IV", "Planning Officer V", "Plumber", "PMEO", "PMO-EE", "Policy and Plans Division Chief", "PPG-OSM", "PPO", "Prisedent - SWEAP", "Private Secretary", "Private Secretary I ", "Procurement Assistant", "Procurement Assistant II", "PROCUREMENT ASST.", "Procurement Development Officer III", "Procurement Officer", "Procurement Specialist", "Profect Development Officer II (DRAFTMAN)", "Program Development III", "Project Evaluation Specialist", "Program Manager", "Program Officer", "Project Coordinator", "Project Development Office III", "Project Development Officer", "Project Development Officer I", "Project Development Officer I - KC", "Project Development Officer I - Nurse", "Project Development Officer I - Nutritionist - Dietician I", "Project Development Officer I/CAMP MANAGERS", "Project Development Officer II", "Project Development Officer II (CVS Focal)", "Project Development Officer II - BP2P", "Project Development Officer II - Database Specialist ", "Project Development Officer II - Infrastructure", "Project Development Officer II/SLP", "Project Development Officer II-CVS Focal (POO 2 Isabela)", "Project Development Officer II - MCCT", "Project Development Officer II - MunicipaL Link", "Project Development Officer II/GRS Focal", "Project Development Officer II/SLP", "Project Development Officer III", "Project Development Officer III - FDS Focal", "Project Development Officer III/Centenarian Focal Person", "Project Development Officer III/Regional Program Coordinator", "Project Development Officer IV ", "Project Development Officer V", "Project Development Officer V (Gender Specialist)", "Project Development Officer V (IP Specialist)", "Project Development Officer V - OIC", "Project Evaluation Officer", "Project Evaluation Officer II", "Project Evaluation Officer III", "Project Evaluation Officer IV", "Project Evaluation Officer V", "Project Management Officer", "Project Manager (UCT)", "Project Manager IV", "Project Officer", "Property Officer/Warehouse", "Provincial AA", "Provincial AA II", "Provincial Bus Officer (PDO II)", "PROVINCIAL CL", "Provinvial Coordinator", "Provinvial CVS Officer (PDO II)", "Provincial Grievance Officer", "Provincial Grievance Officer (PDO II)", "Provincial GRS Officer (PDO II)", "Provincial Link", "Psychologist I", "Psychologist II", "Psychologist III", "Psychometrician I", "Public Relations Officer IV", "Quality Management Specialist", "Records Officer ", "Regional Accountant", "Regional bookkeeper", "Regional capability Building Specialist", "Regional Community Development Specialist", "Regional Community Infrastructure Specialist", "Regional Director", "Regional Driver (KC-NCDDP) ", "Regional Executive Assistant ", "Regional Field Coordinator", "Regional Finance Specialist", "Regional Financial Analyst", "Regional Information Officer", "Regional Information Officer II-Head,SMU", "Regional Information Technology Officer ", "Regional Information Technology Officer I", "Regional Information Technology Officer II", "Regional Infrastructure Assistant", "Regional Infrastructure Officer", "Regional Infrastructure Officer II", "Regional Infrastructure Officer III", "Regional Monitoring And Evaluation Specialist", "Regional Procurement Officer", "Regional Procurement For Program", "Regional Procurement Officer For Program Community", "Regional Program coordinator", "Regional Program Coordinator - KALAHI - CIDSS", "Regional Program Coordinator - Operations", "Regional Sub - Committee for the Welfare of Children (RSCWC)", "Regional Training Assistant", "Regional Training Officer", "Regional Training Officer II", "Regional Training Specialist", "Repacker", "Research Officer III", "RIO III", "Roving Area Coordinator", "Roving Municipal Financial Analyst", "Roving technical Facilitator", "RSCWC - Technical Officer", "SA - IV", "SA - IV Audit Team Leader", "SAO", "SAO/DC", "SAO/OIC-DC", "Social Welfare Assistant - MCCT", "Secretary II", "Section Head", "Security Guard I (CT)", "Security Guard I (ICT)", "Security Guard II", "Security Officer II", "Senior Administrative Assistant I", "Senior Administrative Assistant II", "Senior Administrative Assistant III", "Senior Administrative Assistant IV", "Senior Administrative Assistant V", "Senior Administrative Officer", "Senior Bookkeeper", "Senior Bookkeeper (Admin Asst III)", "Senior M & E Assistant V", "Senior MANPOWER DEVELOPMENT OFFICER II", "Senior Statistician IV", "Senior Technical Officer ", "SGV", "Site Engineer", "Social Marketing Officer", "Social Marketing Officer III", "Social Marketing Officer III/KALAHI-CIDSS", "Social Marketing Specialist", "Social Safeguard Officer", "Social Safeguard Specialist", "Social Welfare Aide", "Social Welfare Assistant", "Social Welfare Assistant - CMU", "Social Welfare Assistant - MCCT IP", "Social Welfare Assistant I", "Social Welfare Assistant II", "Social Welfare Assistant - MCCT", "Social Welfare Attache", "Social Welfare Officer I ", "Social Welfare Officer I - OIC Center Head", "Social Welfare Officer II", "Social Welfare Officer II/EO 70 Focal", "Social Welfare Officer II/Family Focal", "Social Welfare Officer II/SWAD Team Leader", "Social Welfare Officer II/Team Leader", "Social Welfare Officer III", "Social Welfare Officer III-Center Head", "Social Welfare Officer III/Act as PL", "Social Welfare Officer III/TARA Focal", "Social Welfare Officer III/Team Leader", "Social Welfare Officer IV", "Social Welfare Officer IV, OIC-Chief,DReMD", "Social Welfare Officer IV - Center Head", "Social Welfare Officer V", "Social Welfare Officer V/OIC ARDO and Concurrent Head PSD", "Special Investigator III", "SPED TEACHER", "Stakeholder Management and Networking Specialist", "State Auditing Examiner", "State Auditing Examiner II", "State Auditor ", "State Auditor and Examiner ", "State Auditor I", "State Auditor II", "State Auditor III", "State Auditor IV", "State Auditor V", "Statistician", "Statistician Aide", "Statistician Aide II", "Statistician I", "Statistician II", "Statistician III", "Statistician IV", "Stockroom/Warehouse", "Storage Room", "Storekeeper", "Sub-Regional Program Coordinator", "Sub-Regional Project Coordinator", "Supervising Administrative I", "Supervising Administrative V", "Supervising Administrative Officer", "Supervising Administrative Officer - KC - NCDDP", "Supervising Administrative Officer/KALAHI - CIDSS", "Supervising Auditor V", "Supervisor", "Supplier", "Supply Officer I", "Supply Procurement Officer I", "SWA", "SWA - Convergence", "SWA AIDE", "SWA San Juan Batangas", "SWA - CMU", "SWI - III", "SWO - I", "SWO - II", "SWO - II/Women Focal Person", "SWO II - SWAD TL", "SWO II - OIC Center Head", "SWO II/Family Focal Person", "SWO II/Older Per & IISO Focal Person", "SWO II/RRPTP", "SWO II/RRPTP,PWD,PLHIV & Youth Focal Person", "SWO II/Women Focal Person", "SWO III", "SWO III/Head, Social Technology Section", "SWO III/Head, Regional Juvenile Justice and Welfare Council", "SWO III/OIC - SLP RPC", "SWO IV", "SWO IV UCT", "SWO V / Chief, Promotive Services Division", "SWO V / Division Chief", "SWO V / OIC ARD for Operations", "System Analyst II", "System Coordinator", "System Coordinator Officer (PDO II)", "System Coordinator Officer PDO II - BUS", "System Coordinator Officer PDO II - CVS", "System Coordinator Officer PDO II - GRS", "Teach for The Philippines Ambasador", "Teacher", "Teacher I", "Team Leader", "Team Leader SWAD Nueva Viscaya", "Techincal Empowerment facilitator", "Technical Facilitator", "Techinal Facilitator/KALAHI-CIDSS", "Technical Specialist", "Technician ", "Training Assistant II", "Training Center Superintendent II", "Training Specialist I", "Training Specialist II", "Training Specialist III", "Training Specialist IV", "TS IV", "UCT - Regional Field Coordinator", "Undersecretary ", "Undersecretary for Administration", "Utility Worker", "Utility Worker I", "Utility Worker II", "WAREHOUSE", "Warehouseman II"})
-        pickEditPosition.Location = New Point(569, 51)
-        pickEditPosition.Name = "pickEditPosition"
-        pickEditPosition.ShadowDecoration.CustomizableEdges = CustomizableEdges91
-        pickEditPosition.Size = New Size(303, 36)
-        pickEditPosition.TabIndex = 2
-        pickEditPosition.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' Label22
-        ' 
-        Label22.AutoSize = True
-        Label22.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label22.Location = New Point(675, 105)
-        Label22.Name = "Label22"
-        Label22.Size = New Size(87, 21)
-        Label22.TabIndex = 6
-        Label22.Text = "Committee"
-        ' 
-        ' pickEditOffice
-        ' 
-        pickEditOffice.BackColor = Color.Transparent
-        pickEditOffice.BorderRadius = 5
-        pickEditOffice.CustomizableEdges = CustomizableEdges92
-        pickEditOffice.DrawMode = DrawMode.OwnerDrawFixed
-        pickEditOffice.DropDownStyle = ComboBoxStyle.DropDownList
-        pickEditOffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditOffice.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditOffice.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        pickEditOffice.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        pickEditOffice.ItemHeight = 30
-        pickEditOffice.Items.AddRange(New Object() {"4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
-        pickEditOffice.Location = New Point(185, 51)
-        pickEditOffice.Name = "pickEditOffice"
-        pickEditOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges93
-        pickEditOffice.Size = New Size(303, 36)
-        pickEditOffice.TabIndex = 1
-        pickEditOffice.TextAlign = HorizontalAlignment.Center
         ' 
         ' Label25
         ' 
         Label25.AutoSize = True
         Label25.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label25.Location = New Point(806, 473)
+        Label25.Location = New Point(533, 369)
         Label25.Name = "Label25"
         Label25.Size = New Size(37, 21)
         Label25.TabIndex = 6
@@ -1991,7 +1955,7 @@ Partial Class admindash
         ' 
         Label24.AutoSize = True
         Label24.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label24.Location = New Point(658, 474)
+        Label24.Location = New Point(364, 369)
         Label24.Name = "Label24"
         Label24.Size = New Size(96, 21)
         Label24.TabIndex = 6
@@ -2001,7 +1965,7 @@ Partial Class admindash
         ' 
         Label23.AutoSize = True
         Label23.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label23.Location = New Point(368, 472)
+        Label23.Location = New Point(24, 369)
         Label23.Name = "Label23"
         Label23.Size = New Size(78, 21)
         Label23.TabIndex = 6
@@ -2011,17 +1975,155 @@ Partial Class admindash
         ' 
         Label26.AutoSize = True
         Label26.Font = New Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point)
-        Label26.Location = New Point(425, 269)
+        Label26.Location = New Point(237, 8)
         Label26.Name = "Label26"
         Label26.Size = New Size(152, 28)
         Label26.TabIndex = 6
         Label26.Text = "BENEFICIARIES"
         ' 
+        ' Panel6
+        ' 
+        Panel6.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel6.Controls.Add(pickEditUserStat)
+        Panel6.Controls.Add(pickEditComm)
+        Panel6.Controls.Add(pickEditStatus)
+        Panel6.Controls.Add(Label35)
+        Panel6.Controls.Add(pickEditPosition)
+        Panel6.Controls.Add(Label22)
+        Panel6.Controls.Add(pickEditOffice)
+        Panel6.Controls.Add(Label21)
+        Panel6.Controls.Add(Label20)
+        Panel6.Controls.Add(Label19)
+        Panel6.Location = New Point(16, 22)
+        Panel6.Name = "Panel6"
+        Panel6.Size = New Size(352, 514)
+        Panel6.TabIndex = 9
+        ' 
+        ' pickEditUserStat
+        ' 
+        pickEditUserStat.BackColor = Color.Transparent
+        pickEditUserStat.BorderRadius = 5
+        pickEditUserStat.CustomizableEdges = CustomizableEdges86
+        pickEditUserStat.DrawMode = DrawMode.OwnerDrawFixed
+        pickEditUserStat.DropDownStyle = ComboBoxStyle.DropDownList
+        pickEditUserStat.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickEditUserStat.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickEditUserStat.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        pickEditUserStat.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        pickEditUserStat.ItemHeight = 30
+        pickEditUserStat.Items.AddRange(New Object() {"Administrator", "Default"})
+        pickEditUserStat.Location = New Point(23, 407)
+        pickEditUserStat.Name = "pickEditUserStat"
+        pickEditUserStat.ShadowDecoration.CustomizableEdges = CustomizableEdges87
+        pickEditUserStat.Size = New Size(303, 36)
+        pickEditUserStat.TabIndex = 5
+        pickEditUserStat.TextAlign = HorizontalAlignment.Center
+        ' 
+        ' pickEditComm
+        ' 
+        pickEditComm.BackColor = Color.Transparent
+        pickEditComm.BorderRadius = 5
+        pickEditComm.CustomizableEdges = CustomizableEdges88
+        pickEditComm.DrawMode = DrawMode.OwnerDrawFixed
+        pickEditComm.DropDownStyle = ComboBoxStyle.DropDownList
+        pickEditComm.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickEditComm.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickEditComm.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        pickEditComm.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        pickEditComm.ItemHeight = 30
+        pickEditComm.Items.AddRange(New Object() {"Education, Information & Research", "Organizing & Membership", "Grievances", "Welfare", "Finance", "Sports & Culture"})
+        pickEditComm.Location = New Point(23, 314)
+        pickEditComm.Name = "pickEditComm"
+        pickEditComm.ShadowDecoration.CustomizableEdges = CustomizableEdges89
+        pickEditComm.Size = New Size(303, 36)
+        pickEditComm.TabIndex = 4
+        pickEditComm.TextAlign = HorizontalAlignment.Center
+        ' 
+        ' pickEditStatus
+        ' 
+        pickEditStatus.BackColor = Color.Transparent
+        pickEditStatus.BorderRadius = 5
+        pickEditStatus.CustomizableEdges = CustomizableEdges90
+        pickEditStatus.DrawMode = DrawMode.OwnerDrawFixed
+        pickEditStatus.DropDownStyle = ComboBoxStyle.DropDownList
+        pickEditStatus.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickEditStatus.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickEditStatus.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        pickEditStatus.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        pickEditStatus.ItemHeight = 30
+        pickEditStatus.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
+        pickEditStatus.Location = New Point(23, 151)
+        pickEditStatus.Name = "pickEditStatus"
+        pickEditStatus.ShadowDecoration.CustomizableEdges = CustomizableEdges91
+        pickEditStatus.Size = New Size(303, 36)
+        pickEditStatus.TabIndex = 3
+        pickEditStatus.TextAlign = HorizontalAlignment.Center
+        ' 
+        ' Label35
+        ' 
+        Label35.AutoSize = True
+        Label35.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label35.Location = New Point(137, 381)
+        Label35.Name = "Label35"
+        Label35.Size = New Size(88, 21)
+        Label35.TabIndex = 6
+        Label35.Text = "User Status"
+        ' 
+        ' pickEditPosition
+        ' 
+        pickEditPosition.BackColor = Color.Transparent
+        pickEditPosition.BorderRadius = 5
+        pickEditPosition.CustomizableEdges = CustomizableEdges92
+        pickEditPosition.DrawMode = DrawMode.OwnerDrawFixed
+        pickEditPosition.DropDownStyle = ComboBoxStyle.DropDownList
+        pickEditPosition.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickEditPosition.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickEditPosition.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        pickEditPosition.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        pickEditPosition.ItemHeight = 30
+        pickEditPosition.Items.AddRange(New Object() {"AA I", "AA II", "AA II Pantawid Pamilya RPMO", "AA III", "AA III - Sr.Bookkeeper", "AA III / Information Officer NHTS-PR", "AA III-Munipical Roving Bookkeeper", "AA-II ", "AA-II KALAHI-CIDDS", "AA-II KALAHI-CIDDS NCDDP_AF", "AC-KAASA", "Accountant I", "Accountant I/Officer in charge", "Accountant II", "Accountant III", "Accounting Clerk", "Acting Secretary", "Acting Social Welfare Officer III", "Activity Therapist", "Activity Worker I", "Admin Aide I", "Admin AIDE III", "Admin AIDE IIII", "Admin AIDE IV", "Admin AIDE VI ", "Admin Assistant", "Admin Assistant III", "Admin Assistant III (Computer Operator II)", "Admin Assistant V (Private Secretary I)", "Admin cum Finance Officer", "Admin Officer IV-Head, RROS", "Admin. Aide VI", "Admin.Assitant III/Information Officer (Listahanan)", "Admin.Officer IV/Head", "Admin.Officer V-Unit Head ", "Administrative Aide I", "Administrative Aide II", "Administrative Aide III", "Administrative Aide III (Encoder)", "Administrative Aide IV", "Administrative Aide IV (Clerk II)", "Administrative Aide IV (Driver)", "Administrative Aide IV (Encoder)", "Administrative Aide IV/Encoder", "Administrative Aide V", "Administrative Aide V (Chauffer I)", "Administrative Aide VI", "Administrative Aide VI (Clerk III)", "Administrative Assistant I", "Administrative Assistant II", "Administrative Assistant II (Procurement)", "Administrative Assistant II/SLP", "Administrative Assistant III", "Administrative Assistant III (Cash Clerk)", "Administrative Assistant III - Budget", "Administrative Assistant III (Budget Assistant)", "Administrative Assistant III/Senior Bookkeeper", "Administrative Assistant III/Socpen Accounting", "Administrative Assistant IV", "Administrative Assistant V", "Administrative Assistant V (Private Secretary I)", "Administrative Assistant VI ", "Administrative Cum Finance Officer", "Administrative Officer I", "Administrative Officer II", "Administrative Officer II - Infastructure Assistant", "Administrative Officer II - Property & Asset Officer", "Administrative Officer II/Head", "Administrative Officer III", "Administrative Officer IV", "Administrative Officer IV/KALAHI-CIDSS", "Administrative Officer IV/Encoder", "Administrative Officer IV/Head", "Administrative Officer V", "Administrative Officer V/Budget Officer", "Administrative Officer V/Financial Analyst III", "Administrative Officer V/Head", "Administrative Program Focal (PDO II-municipal link)", "Administrative Staff", "Administrative Support Staff", "AO II", "AO II/Financial Analyst II ", "AO II / PSYCHOMETRICIAN", "AO II-OIC Head, Property, Supply & Asset Mngt.Section", "AO II-Pantawid Property Officer", "AO II-Property Officer", "AO II-Property & Asset Officer", "AO II-Property Officer (Mainstream Staff Pantawid)", "AO IV", "AO IV-Financial Analyst II", "AO IV/Financial Analyst II", "AO IV/OIC-Procurement Unit Head", "AO V", "AO V-CASH HEAD", "AO V/Budget Officer NHTS-PR", "AOV-FMD-Cash-Head", "Architect I", "Architect II", "Architect III", "ARDO", "Area Coordinator", "Area Coordinarot/KALAHI CIDSS", "AREA SUPERVISOR", "Assistant Bureau Director", "Assistant Information Officer", "Assistant Regional Director for Administration (ARDA)", "Assistant Regional Director for Operations (ARDO)", "Assistant Secretary", "Assistant Secretary / OIC-IMB", "Assistant Secretary for OASOPG-Protective Programs ", "Assistant Service Director", "Associate Statistician", "Attorney III", "AttorneyIV", "Attorney V", "Audio-Visual Aids Technician III", "Audio-Visual Equipment Operator II", "AUDIT TEAM LEADER", "AUDIT TEAM MEMBER", "AVRC II Center Head", "BAC SEC & Procurement Service", "BAHAY PAG-ASA NG LAGUNA - CENTER HEAD", "BDM", "Beneficiary Update System Focal - PDO I", "Beneficiary Update System Focal - PDO II", "Bookkeeper", "BTMS-ENCODER", "Budget Assistant", "Budget Officer I", "Budget Officer II", "Budget Officer III", "Bureau Director", "CAD Operator", "Caretaker", "Carpenter", "Case Worker for MCCT (PDOII)", "Cash Clerk", "CASH CLERK / KALAHI-CIDSS", "Cashier II", "CDA II", "CEF - KALAHI CIDSS", "CEF / Executive Assistant", "CENTER HEAD", "CENTERS AND RESIDENTIAL CARE FACILITIES (CRCF)", "Chief", "Chief Account", "Chief Admin.Officer / OIC ARD for Administration", "Chief Administrative Officer", "Chief Administrative Officer V", "Chief Infastructure Engineer", "Child Psychologist for MCCT", "City Link", "City Link Officer", "CIVIL ENGINEER", "CL", "Clerk I", "Clerk II", "Clerk III/ HRMDD", "Clerk/Encoder", "Cluster Beneficiary Data Officer", "Cluster Compliance Verification System Focal", "Cluster Focal Person (BDM)", "Cluster Greivance Redress System Focal", "Cluster Greivance Officer", "CMT I", "CMT II", "CMT II - MCCT", "COA AUDITOR", "Comm. Development Officer III", "Commission on Audit XI", "Communication Equipment Operator I", "Communications Specialist", "Communications Officer IV", "Community Development Assistant", "Community Development Assistant II", "Community Development Officer II", "Community Development Officer III", "COMMUNITY DEVELOPMENT OFFICER III - IT", "COMMUNITY DEVELOPMENT OFFICER IV", "COMMUNITY DEVELOPMENT OFFICER IV/KALAHI CIDSS", "Community Empowerment Facilitator", "Community Empowerment Facilitator - Roving ", "Community Facilitator", "Community Facilitator Aide", "Community Facilitator Assistant", "Community Finance Facilitator", "Community Finance Monitor", "Community Financial Analyst", "Community Infastructure Officer ", "Community Infastructure Officer III", "Community Infastructure Specialist ", "Community Organizer", "Community Organizer III", "Community Procurement Officer ", "Community Procurement Officer 3", "Community Procurement Officer III", "Community Procurement Specialist ", "Computer Encoder", "Computer Maintenance Technologist I", "Computer Maintenance Technologist II", "Computer Operator", "Computer Operator I", "Computer Operator II", "Computer Operator III", "Computer Operator IV", "Computer Programmer I", "Computer Programmer II", "Computer Programmer III", "Concurrent Head", "Concurent National Program Manager", "Concurent OIC", "Consultant", "Convergeance Coordinator", "Cook", "Cook I", "Cook II", "CPO", "CPO IV", "Crative Arts Specialist", "DAC - DEPUTY ARE COORDINATOR", "Data Analyst III", "Data Encoder", "Database Specialist", "Day Care Worker I", "Day Care Worker II", "Default", "Dentist II", "Department Assistant Secretary", "Department Legislative Liaison Specialist", "Department Secretary", "Department Undersecretary", "Deputy Area Coordinator - Electrical Engineer", "Deputy Area Coordinator - Geoditic Engineer", "Deputy Area Coordinator - IT", "Deputy Community Development Specialist", "Deputy Director", "Deputy Nat'l Community - Infra. Engr.", "Deputy National M & E Specialist", "Deputy National Program Manager for Operations", "Deputy National Training Specialist", "Deputy NCBS", "Deputy Program Director", "Deputy Program Manager", "Deputy Program Manager Operation", "Deputy Regional Program Manager", "Deputy Regional Project Manager", "Deputy Technical Facilitator", "Derector", "Director III", "Director IV", "Division Chief", "Dormitory Manager I", "Dormitory Manager II", "DPMO", "DPMO/PROPERTY WAREHOUSE", "DPSC", "DRAFTSMAN", "Driver", "Driver II", "DSWD FO CARAGA", "ECCD Teacher", "Echonomist III", "Electrical Engineer", "Electrician I ", "Electrician II ", "Encoder", "Encoder III", "Encoder-BTMS", "Engineer I", "Engineer II", "Engineer III", "Engineer IV", "Engineer AIDE", "Environtmental Safeguard Specialist", "Executive Assistant ", "Executive Assistant I", "Executive Assistant II", "Executive Assistant III", "Executive Assistant IV", "Executive Assistant V", "Executive Assistant VI", "Executive Secretary/ Senior Administrative Assistant III", "FA - MAGSAYSAY", "FA II", "FA III", "Family Welfare Assistant for MCCT", "FDS Coordinator", "Field Program Manager", "Field Office Coordinator", "Field Program Manager", "Finance Officer Cum Administrative Officer", "Finance Officer III", "Financial Analyst", "Financial Analyst I", "Financial Analyst II", "Financial Analyst III", "Financial Analyst III (Budget Officer)", "Financial Analyst III (Cash Grants)", "Financial Analyst III/KALAHI CIDSS", "Financial Analyst IV", "Financial Analyst V", "Financial Analyst V (Project Accountant)", "Financial Assistant III", "FMD Chief", "FOCAL PERSON FOR OSEC", "FOR STORAGE", "FPC", "Gender Specialist", "Geodetic Engineer", "GIS Specialist", "Governance Specialist", "Goverment Intership Program", "Greivance Redress System Focal", "Greivance, Admin Officer", "Handicaft Worker II", "Head ", "Head Executive Assistant", "Head, Accounting Section", "Head, RAMS", "Heavy Equipment Operator I", "HMO Inlife Customer Service Representative", "House Attendant ", "Household Attendant III", "Houseparent I", "HOUSEPARENT II", "houseparent III", "Houseparent IV", "HR - Learning and Development", "HR Specialist", "HRMDD CHIEF", "Human Relations Officer I ", "Human Resource Officer", "Human Resource Officer I", "Human Resource Officer II", "Information analyst I", "Information Officer", "Information Officer I", "Information Officer I/Social Pension Program", "Information Officer I/UCT", "Information Officer II", "Information Officer III ", "Information Officer III (Social Marketing Officer III)", "Information Officer IV", "Information Officer V", "Information Specialist Analyst", "Information System Analyst", "Information System Analyst I", "Information System Analyst III", "Information Systems Analyst", "Information Technology Officer (Team Leader)", "Information Technology Officer I", "Information Technology Officer II", "Information Technology Officer III", "Institutional Partnership and Development Officer", "Instructor ", "Inter Auditing Assistant", "Internal Auditor I", "Internal Auditor II", "Internal Auditor III", "Internal Auditor IV", "Internal Auditor V", "IO", "IPDO", "JOB ORDER", "Job Placement Officer", "Junior Capacity Building Specialist", "Junior Community Procurement Specialist", "KALAHI CIDSS - Japan Fund for Proverty Reduction", "KM Writer", "Knowledge Management Writer", "Laundry Worker I ", "Laundry Worker II", "Laundry Worker/Cook", "Laundrywoman", "Legal Assistant I", "Legal Assistant II", "LIBRARIAN I", "Librarian II", "Logistic Officer III", "M & E Assistant III", "M & E I", "M & E II", "M & E Specialist", "M & E IV", "M & E V", "M & E Officer III", "Management and Audit Analyst II", "Management Audit Analyst", "Management Audit Analyst II", "Management Audit Analyst IV", "MANPOWER DEVELOPMENT ASSISTANT ", "Manpower Development Officer I", "Manpower Development Officer II", "Manpower Development Officer III", "MCCT Coordinator", "MDO I / PSYCHOMETRICIAN", "Media Officer IV", "Media Production Specialist", "Media Prodcution Specialist III", "MEDICAL OFFICER", "Medical Officer III", "Medical Officer IV", "MFA", "Midwife I", "Minister of Social Service BARMM", "ML PATNANUNGAN", "MOA", "Monitoring & Evaluation Officer I", "Monitoring & Evaluation Officer II", "Monitoring & Evaluation Officer III", "Monitoring & Evaluation III ", "Monitoring & Evaluation Officer ", "Monitoring & Evaluation Officer III (External)", "Monitoring & Evaluation Officer IV", "Monitoring & Evaluation Officer V", "MRB", "Municipal Financial Analyst", "Municipal Financial Analyst/KALAHI-CIDSS", "Municipal Financial Analyst", "Municipal Link", "Minicipal Link Officer", "Municipal Monitoring ", "Municipal Rooving Bookkeeper", "Municipal Roving Bookkeeper", "Municipal Social Welfare Development Officer", "National Capability Building Specialist", "National Community Infrastructure", "National DRRM Support Coordinator", "National Financial Analyst - KCMCC", "National M & E Specialist", "National Training Officer", "NCDS", "NHTO IT-Division Chief/ITO3", "Nurse I", "Nurse II", "Nutritionist-Dietician I", "Nutritionist-Dietician II", "Nutritionist-Dietician III", "Nutritionist-Dietician V", "OASOPG-PP", "ODM Specialist", "OIC ", "OIC - Director IV", "OIC AUDIT TEAM LEADER", "OIC DIVISION Chief - DReMD", "OIC Head, Property & Supply Section", "OIC - Assistant Regional Director for Operations", "OIC - ASEC - OASOSG", "OIC - Assistant Director", "OIC - Assistant Secretary", "OIC - Assistant Service Director", "OIC-Asst. Secretary for OSG", "OIC - Center Head", "OIC - CHIEF", "OIC Director", "OIC - Division Chief", "OIC - GSD", "OIC - Procurement Unit Head", "OIC - Regional Director", "OIC - USEC", "OIC/Chief", "OJT", "On-the-job Trainee", "Operations Program Focal (PDO II - Municipal Link)", "Organizational Development Specialist III", "Organizational Development Specialist IV", "Organizational Training Specialist IV", "Payapa at Masaganang Pamayanan ", "PDO", "PDO I", "PDO I/FMD Cash Grants ", "PDO I/DRMD ", "PDO I/Grievance Officer", "PDO I/provincial Monitoring Evaluation Officer", "PDO II", "PDO II - System coordinator", "PDO II Municipal link", "PDO II (Case Worker)", "PDO II - BUS", "PDO II - BUS Focal Person", "PDO - Coordination to Partner Agencies", "PDO II - CVS", "PDOII - EPAHPH", "PDO II - GAD", "PDO II - GRS", "PDO II - GRS (Cluster) ", "PDO II - Information II", "PDO II - IP", "PDO II - Monitoring & Evaluation Officer", "PDO II - SWAD TL", "PDO II / Capability building ", "PDO II / DRMD CCAM", "PDO II / ML TUAO, CAGAYAN", "PDO II / Municipal Link, Alicia, Isabela", "PDO II / Municipal Link, Ilagan City, Isabela", "PDO II / RMEO", "PDO II / SLP Batanes", "PDO II / SWAD TL", "PDO II / GRS ", "PDO II Municipal Link, Abulug, Cagayan", "PDO II - Institutional Partnership Development Officer", "PDO II - City link, Tuguegarao City, Cagayan", "PDO II - Cluster Benefeciary Data Officer", "PDO II - MCCT Community Facilitator", "PDO II - Municipal Link", "PDO II - Municipal Link Dupax Del Norte,N.V", "PDO II - Municipal Link, Ambaguio", "PDO II - Municipal Link, Buguey, Cagayan", "PDO II - Municipal Link, Diadi, N.V", "PDO II - Municipal Link, Enrile, Cagayan", "PDO II - Municipal Link, Iguig, Cagayan", "PDO II - Municipal Link, Napagtipunan, Quirino", "PDO II - Municipal Link, Saguday, Quirino", "PDO II - Municipal Link, Dupax Del Sur, N.V", "PDO II - Provincial Systems Focal", "PDO II - Regional Monitoring and Evaluation Officer", "PDO II/PMEO SLP ISABELA", "PDO II/Provincial Coordinator", "PDO II/Child Labord Focal Person", "PDO II/DRMD", "PDO II/DRMD CCAM", "PDO II/Geographic Info.System Specialist", "PDO II/Information Officer", "PDO II/LIQUIDATION FOCAL/RMEF", "PDO II/MCCT San Pablo, Isabela", "PDO II/ML APARRI, CAGAYAN", "PDO II/ML TUAO, CAGAYAN", "PDO II/MUNICIPAL LINK", "PDO II/Municipal Link Bambang, NV", "PDO II/Municipal Link Claveri, Cagayan", "PDO II/Municipal Link Diadi, NV", "PDO II/Municipal Link Dinapigue, Isabela", "PDO II/Municipal Link Gattaran, Cagayan", "PDO II/Municipal Link Kayapa, Nueva Viscaya", "PDO II/Municipal Link Pamplano, Cagayan", "PDO II/Municipal Link Peablanca, Cagayan", "PDO II/Municipal Link Quezon, Nueva Viscaya", "PDO II/Municipal LInk Rizal,Cagayan", "PDO II/Municipal Link Roxas,Isabela", "PDO II/Municipal Link San Isidro, Cagayan", "PDO II/Municipal Link San Isidro, Isabela", "PDO II/Municipal Link Sanchez Mira, Cagayan", "PDO II/Municipal Link Solano,NV", "PDO II/Municipal LInk Sta.Fe,NV", "PDO II/Municipal Link Sta.Praxedes,Cagayan", "PDO II/Municipal Link Sto.Nino,Cagayan", "PDO II/Municipal Link Villaverde", "PDO II/Municipal Link, Aparri,Cagayan", "PDO II/Municipal Link, Buguey, Cagayan", "PDO II/Municipal Link, Burgos, Isabela", "PDO II/Municipal Link, Divilacan, Isabela", "PDO II/Municipal Link, Jones,Isabela", "PDO II/Municipal Link,MACONACON, ISABELA", "PDO II/Municipal Link,SAn Agustin,Isabela", "PDo II/Municipal Link,San Mariano,Isabela", "PDO II/Municipal Link,San Mateo,Isabela", "PDO II/Municipal Link,Tumauini,Isabela", "PDO II/Municipal Link,Divilacan,Isabela", "PDO II/Municipal Link,Echague,Isabela", "PDO II/Municipal Link,Maconacon,Isabela", "PDO II/Municipal Link,San Mariano,Isabela", "PDO II/PMEO ISABELA", "PDO II/PMEO NUEVA VIZCAYA", "PDO II/PMEO QUIRINO", "PDO II/Private Sector Partnership Officer", "PDO II/Provincial Coordinator Isabela, Cagayan", "PDO II/Provincial Coordinator SLP Isabela", "PDO II/Provincial Coordinator SLP Quirino", "PDO II/Reports Generation", "PDO III", "PDO III/Area Coordinator", "PDO III/Area Coordinator", "PDO III/Civil Engineer", "PDO III TEchnical Staff/RSCWC", "PDO III/Area Coordinator", "PDO III/Head, CVRRCY", "PDO III/Reg'l Center Coordinator", "PDO III/RSCWC", "PDO IV", "PDO V/ RPC", "PDO V/Division", "PDO V/Regional Field Coordinator UCT", "PDO-I Social Pension", "PDO-II", "PDO-IIDRMMD", "PEO I", "PEO III", "PGO", "Photographer II", "Physical Therapist II", "Planning Officer I", "Planning Officer II", "Planning Officer III", "Planning Officer IV", "Planning Officer V", "Plumber", "PMEO", "PMO-EE", "Policy and Plans Division Chief", "PPG-OSM", "PPO", "Prisedent - SWEAP", "Private Secretary", "Private Secretary I ", "Procurement Assistant", "Procurement Assistant II", "PROCUREMENT ASST.", "Procurement Development Officer III", "Procurement Officer", "Procurement Specialist", "Profect Development Officer II (DRAFTMAN)", "Program Development III", "Project Evaluation Specialist", "Program Manager", "Program Officer", "Project Coordinator", "Project Development Office III", "Project Development Officer", "Project Development Officer I", "Project Development Officer I - KC", "Project Development Officer I - Nurse", "Project Development Officer I - Nutritionist - Dietician I", "Project Development Officer I/CAMP MANAGERS", "Project Development Officer II", "Project Development Officer II (CVS Focal)", "Project Development Officer II - BP2P", "Project Development Officer II - Database Specialist ", "Project Development Officer II - Infrastructure", "Project Development Officer II/SLP", "Project Development Officer II-CVS Focal (POO 2 Isabela)", "Project Development Officer II - MCCT", "Project Development Officer II - MunicipaL Link", "Project Development Officer II/GRS Focal", "Project Development Officer II/SLP", "Project Development Officer III", "Project Development Officer III - FDS Focal", "Project Development Officer III/Centenarian Focal Person", "Project Development Officer III/Regional Program Coordinator", "Project Development Officer IV ", "Project Development Officer V", "Project Development Officer V (Gender Specialist)", "Project Development Officer V (IP Specialist)", "Project Development Officer V - OIC", "Project Evaluation Officer", "Project Evaluation Officer II", "Project Evaluation Officer III", "Project Evaluation Officer IV", "Project Evaluation Officer V", "Project Management Officer", "Project Manager (UCT)", "Project Manager IV", "Project Officer", "Property Officer/Warehouse", "Provincial AA", "Provincial AA II", "Provincial Bus Officer (PDO II)", "PROVINCIAL CL", "Provinvial Coordinator", "Provinvial CVS Officer (PDO II)", "Provincial Grievance Officer", "Provincial Grievance Officer (PDO II)", "Provincial GRS Officer (PDO II)", "Provincial Link", "Psychologist I", "Psychologist II", "Psychologist III", "Psychometrician I", "Public Relations Officer IV", "Quality Management Specialist", "Records Officer ", "Regional Accountant", "Regional bookkeeper", "Regional capability Building Specialist", "Regional Community Development Specialist", "Regional Community Infrastructure Specialist", "Regional Director", "Regional Driver (KC-NCDDP) ", "Regional Executive Assistant ", "Regional Field Coordinator", "Regional Finance Specialist", "Regional Financial Analyst", "Regional Information Officer", "Regional Information Officer II-Head,SMU", "Regional Information Technology Officer ", "Regional Information Technology Officer I", "Regional Information Technology Officer II", "Regional Infrastructure Assistant", "Regional Infrastructure Officer", "Regional Infrastructure Officer II", "Regional Infrastructure Officer III", "Regional Monitoring And Evaluation Specialist", "Regional Procurement Officer", "Regional Procurement For Program", "Regional Procurement Officer For Program Community", "Regional Program coordinator", "Regional Program Coordinator - KALAHI - CIDSS", "Regional Program Coordinator - Operations", "Regional Sub - Committee for the Welfare of Children (RSCWC)", "Regional Training Assistant", "Regional Training Officer", "Regional Training Officer II", "Regional Training Specialist", "Repacker", "Research Officer III", "RIO III", "Roving Area Coordinator", "Roving Municipal Financial Analyst", "Roving technical Facilitator", "RSCWC - Technical Officer", "SA - IV", "SA - IV Audit Team Leader", "SAO", "SAO/DC", "SAO/OIC-DC", "Social Welfare Assistant - MCCT", "Secretary II", "Section Head", "Security Guard I (CT)", "Security Guard I (ICT)", "Security Guard II", "Security Officer II", "Senior Administrative Assistant I", "Senior Administrative Assistant II", "Senior Administrative Assistant III", "Senior Administrative Assistant IV", "Senior Administrative Assistant V", "Senior Administrative Officer", "Senior Bookkeeper", "Senior Bookkeeper (Admin Asst III)", "Senior M & E Assistant V", "Senior MANPOWER DEVELOPMENT OFFICER II", "Senior Statistician IV", "Senior Technical Officer ", "SGV", "Site Engineer", "Social Marketing Officer", "Social Marketing Officer III", "Social Marketing Officer III/KALAHI-CIDSS", "Social Marketing Specialist", "Social Safeguard Officer", "Social Safeguard Specialist", "Social Welfare Aide", "Social Welfare Assistant", "Social Welfare Assistant - CMU", "Social Welfare Assistant - MCCT IP", "Social Welfare Assistant I", "Social Welfare Assistant II", "Social Welfare Assistant - MCCT", "Social Welfare Attache", "Social Welfare Officer I ", "Social Welfare Officer I - OIC Center Head", "Social Welfare Officer II", "Social Welfare Officer II/EO 70 Focal", "Social Welfare Officer II/Family Focal", "Social Welfare Officer II/SWAD Team Leader", "Social Welfare Officer II/Team Leader", "Social Welfare Officer III", "Social Welfare Officer III-Center Head", "Social Welfare Officer III/Act as PL", "Social Welfare Officer III/TARA Focal", "Social Welfare Officer III/Team Leader", "Social Welfare Officer IV", "Social Welfare Officer IV, OIC-Chief,DReMD", "Social Welfare Officer IV - Center Head", "Social Welfare Officer V", "Social Welfare Officer V/OIC ARDO and Concurrent Head PSD", "Special Investigator III", "SPED TEACHER", "Stakeholder Management and Networking Specialist", "State Auditing Examiner", "State Auditing Examiner II", "State Auditor ", "State Auditor and Examiner ", "State Auditor I", "State Auditor II", "State Auditor III", "State Auditor IV", "State Auditor V", "Statistician", "Statistician Aide", "Statistician Aide II", "Statistician I", "Statistician II", "Statistician III", "Statistician IV", "Stockroom/Warehouse", "Storage Room", "Storekeeper", "Sub-Regional Program Coordinator", "Sub-Regional Project Coordinator", "Supervising Administrative I", "Supervising Administrative V", "Supervising Administrative Officer", "Supervising Administrative Officer - KC - NCDDP", "Supervising Administrative Officer/KALAHI - CIDSS", "Supervising Auditor V", "Supervisor", "Supplier", "Supply Officer I", "Supply Procurement Officer I", "SWA", "SWA - Convergence", "SWA AIDE", "SWA San Juan Batangas", "SWA - CMU", "SWI - III", "SWO - I", "SWO - II", "SWO - II/Women Focal Person", "SWO II - SWAD TL", "SWO II - OIC Center Head", "SWO II/Family Focal Person", "SWO II/Older Per & IISO Focal Person", "SWO II/RRPTP", "SWO II/RRPTP,PWD,PLHIV & Youth Focal Person", "SWO II/Women Focal Person", "SWO III", "SWO III/Head, Social Technology Section", "SWO III/Head, Regional Juvenile Justice and Welfare Council", "SWO III/OIC - SLP RPC", "SWO IV", "SWO IV UCT", "SWO V / Chief, Promotive Services Division", "SWO V / Division Chief", "SWO V / OIC ARD for Operations", "System Analyst II", "System Coordinator", "System Coordinator Officer (PDO II)", "System Coordinator Officer PDO II - BUS", "System Coordinator Officer PDO II - CVS", "System Coordinator Officer PDO II - GRS", "Teach for The Philippines Ambasador", "Teacher", "Teacher I", "Team Leader", "Team Leader SWAD Nueva Viscaya", "Techincal Empowerment facilitator", "Technical Facilitator", "Techinal Facilitator/KALAHI-CIDSS", "Technical Specialist", "Technician ", "Training Assistant II", "Training Center Superintendent II", "Training Specialist I", "Training Specialist II", "Training Specialist III", "Training Specialist IV", "TS IV", "UCT - Regional Field Coordinator", "Undersecretary ", "Undersecretary for Administration", "Utility Worker", "Utility Worker I", "Utility Worker II", "WAREHOUSE", "Warehouseman II"})
+        pickEditPosition.Location = New Point(23, 231)
+        pickEditPosition.Name = "pickEditPosition"
+        pickEditPosition.ShadowDecoration.CustomizableEdges = CustomizableEdges93
+        pickEditPosition.Size = New Size(303, 36)
+        pickEditPosition.TabIndex = 2
+        pickEditPosition.TextAlign = HorizontalAlignment.Center
+        ' 
+        ' Label22
+        ' 
+        Label22.AutoSize = True
+        Label22.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Label22.Location = New Point(129, 285)
+        Label22.Name = "Label22"
+        Label22.Size = New Size(87, 21)
+        Label22.TabIndex = 6
+        Label22.Text = "Committee"
+        ' 
+        ' pickEditOffice
+        ' 
+        pickEditOffice.BackColor = Color.Transparent
+        pickEditOffice.BorderRadius = 5
+        pickEditOffice.CustomizableEdges = CustomizableEdges94
+        pickEditOffice.DrawMode = DrawMode.OwnerDrawFixed
+        pickEditOffice.DropDownStyle = ComboBoxStyle.DropDownList
+        pickEditOffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickEditOffice.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickEditOffice.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        pickEditOffice.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        pickEditOffice.ItemHeight = 30
+        pickEditOffice.Items.AddRange(New Object() {"4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
+        pickEditOffice.Location = New Point(23, 68)
+        pickEditOffice.Name = "pickEditOffice"
+        pickEditOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges95
+        pickEditOffice.Size = New Size(303, 36)
+        pickEditOffice.TabIndex = 1
+        pickEditOffice.TextAlign = HorizontalAlignment.Center
+        ' 
         ' Label21
         ' 
         Label21.AutoSize = True
         Label21.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label21.Location = New Point(274, 104)
+        Label21.Location = New Point(112, 121)
         Label21.Name = "Label21"
         Label21.Size = New Size(144, 21)
         Label21.TabIndex = 6
@@ -2031,7 +2133,7 @@ Partial Class admindash
         ' 
         Label20.AutoSize = True
         Label20.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label20.Location = New Point(684, 24)
+        Label20.Location = New Point(138, 204)
         Label20.Name = "Label20"
         Label20.Size = New Size(65, 21)
         Label20.TabIndex = 6
@@ -2041,7 +2143,7 @@ Partial Class admindash
         ' 
         Label19.AutoSize = True
         Label19.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label19.Location = New Point(306, 24)
+        Label19.Location = New Point(144, 41)
         Label19.Name = "Label19"
         Label19.Size = New Size(51, 21)
         Label19.TabIndex = 6
@@ -2065,10 +2167,10 @@ Partial Class admindash
         ' 
         dgMembers.AllowUserToAddRows = False
         dgMembers.AllowUserToDeleteRows = False
-        DataGridViewCellStyle5.BackColor = Color.FromArgb(CByte(197), CByte(203), CByte(232))
+        DataGridViewCellStyle5.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
         dgMembers.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
         DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = Color.FromArgb(CByte(63), CByte(81), CByte(181))
+        DataGridViewCellStyle6.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
         DataGridViewCellStyle6.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
         DataGridViewCellStyle6.ForeColor = Color.White
         DataGridViewCellStyle6.SelectionBackColor = SystemColors.Highlight
@@ -2080,45 +2182,44 @@ Partial Class admindash
         dgMembers.Columns.AddRange(New DataGridViewColumn() {DataGridViewTextBoxColumn1, DataGridViewTextBoxColumn2, DataGridViewTextBoxColumn3, DataGridViewTextBoxColumn4, DataGridViewTextBoxColumn5, DataGridViewTextBoxColumn6, DataGridViewTextBoxColumn7, Column1, Column2})
         dgMembers.Cursor = Cursors.Hand
         DataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle7.BackColor = Color.FromArgb(CByte(216), CByte(220), CByte(239))
+        DataGridViewCellStyle7.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
         DataGridViewCellStyle7.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
         DataGridViewCellStyle7.ForeColor = Color.Black
         DataGridViewCellStyle7.Padding = New Padding(4)
-        DataGridViewCellStyle7.SelectionBackColor = Color.FromArgb(CByte(127), CByte(139), CByte(205))
-        DataGridViewCellStyle7.SelectionForeColor = Color.Black
+        DataGridViewCellStyle7.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
+        DataGridViewCellStyle7.SelectionForeColor = Color.White
         DataGridViewCellStyle7.WrapMode = DataGridViewTriState.False
         dgMembers.DefaultCellStyle = DataGridViewCellStyle7
-        dgMembers.Dock = DockStyle.Bottom
-        dgMembers.GridColor = Color.FromArgb(CByte(194), CByte(201), CByte(231))
-        dgMembers.Location = New Point(0, 137)
+        dgMembers.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
+        dgMembers.Location = New Point(21, 140)
         dgMembers.Name = "dgMembers"
         dgMembers.ReadOnly = True
         dgMembers.RowHeadersVisible = False
         dgMembers.RowTemplate.Height = 30
-        dgMembers.Size = New Size(1024, 573)
+        dgMembers.Size = New Size(983, 547)
         dgMembers.TabIndex = 17
-        dgMembers.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Indigo
-        dgMembers.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(197), CByte(203), CByte(232))
+        dgMembers.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt
+        dgMembers.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
         dgMembers.ThemeStyle.AlternatingRowsStyle.Font = Nothing
         dgMembers.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
         dgMembers.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
         dgMembers.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
         dgMembers.ThemeStyle.BackColor = Color.White
-        dgMembers.ThemeStyle.GridColor = Color.FromArgb(CByte(194), CByte(201), CByte(231))
-        dgMembers.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(63), CByte(81), CByte(181))
+        dgMembers.ThemeStyle.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
+        dgMembers.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
         dgMembers.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
         dgMembers.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
         dgMembers.ThemeStyle.HeaderStyle.ForeColor = Color.White
         dgMembers.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         dgMembers.ThemeStyle.HeaderStyle.Height = 32
         dgMembers.ThemeStyle.ReadOnly = True
-        dgMembers.ThemeStyle.RowsStyle.BackColor = Color.FromArgb(CByte(216), CByte(220), CByte(239))
+        dgMembers.ThemeStyle.RowsStyle.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
         dgMembers.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
         dgMembers.ThemeStyle.RowsStyle.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
         dgMembers.ThemeStyle.RowsStyle.ForeColor = Color.Black
         dgMembers.ThemeStyle.RowsStyle.Height = 30
-        dgMembers.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(127), CByte(139), CByte(205))
-        dgMembers.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black
+        dgMembers.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
+        dgMembers.ThemeStyle.RowsStyle.SelectionForeColor = Color.White
         ' 
         ' DataGridViewTextBoxColumn1
         ' 
@@ -2218,7 +2319,7 @@ Partial Class admindash
         ' txtSearch
         ' 
         txtSearch.BorderRadius = 5
-        txtSearch.CustomizableEdges = CustomizableEdges94
+        txtSearch.CustomizableEdges = CustomizableEdges96
         txtSearch.DefaultText = ""
         txtSearch.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtSearch.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -2229,12 +2330,12 @@ Partial Class admindash
         txtSearch.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtSearch.IconRight = My.Resources.Resources.loupe
         txtSearch.IconRightOffset = New Point(5, 0)
-        txtSearch.Location = New Point(696, 33)
+        txtSearch.Location = New Point(681, 45)
         txtSearch.Name = "txtSearch"
         txtSearch.PasswordChar = ChrW(0)
         txtSearch.PlaceholderText = ""
         txtSearch.SelectedText = ""
-        txtSearch.ShadowDecoration.CustomizableEdges = CustomizableEdges95
+        txtSearch.ShadowDecoration.CustomizableEdges = CustomizableEdges97
         txtSearch.Size = New Size(323, 36)
         txtSearch.TabIndex = 12
         txtSearch.TextAlign = HorizontalAlignment.Center
@@ -2243,7 +2344,7 @@ Partial Class admindash
         ' 
         pickOffice.BackColor = Color.Transparent
         pickOffice.BorderRadius = 5
-        pickOffice.CustomizableEdges = CustomizableEdges96
+        pickOffice.CustomizableEdges = CustomizableEdges98
         pickOffice.DrawMode = DrawMode.OwnerDrawFixed
         pickOffice.DropDownStyle = ComboBoxStyle.DropDownList
         pickOffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -2252,9 +2353,9 @@ Partial Class admindash
         pickOffice.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         pickOffice.ItemHeight = 30
         pickOffice.Items.AddRange(New Object() {"All", "4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
-        pickOffice.Location = New Point(696, 78)
+        pickOffice.Location = New Point(681, 90)
         pickOffice.Name = "pickOffice"
-        pickOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges97
+        pickOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges99
         pickOffice.Size = New Size(323, 36)
         pickOffice.TabIndex = 15
         ' 
@@ -2263,7 +2364,7 @@ Partial Class admindash
         Label29.AutoSize = True
         Label29.BackColor = Color.Transparent
         Label29.Font = New Font("Cambria", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label29.Location = New Point(627, 84)
+        Label29.Location = New Point(612, 96)
         Label29.Name = "Label29"
         Label29.Size = New Size(61, 22)
         Label29.TabIndex = 13
@@ -2274,7 +2375,7 @@ Partial Class admindash
         Label3.AutoSize = True
         Label3.BackColor = Color.Transparent
         Label3.Font = New Font("Cambria", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(627, 39)
+        Label3.Location = New Point(612, 51)
         Label3.Name = "Label3"
         Label3.Size = New Size(63, 22)
         Label3.TabIndex = 14
@@ -2283,7 +2384,7 @@ Partial Class admindash
         ' tabFund
         ' 
         tabFund.Controls.Add(Guna2TabControl2)
-        tabFund.ImageKey = "funding.png"
+        tabFund.ImageKey = "transfer-money.png"
         tabFund.Location = New Point(254, 4)
         tabFund.Name = "tabFund"
         tabFund.Size = New Size(1030, 716)
@@ -2402,7 +2503,7 @@ Partial Class admindash
         ' 
         bttnNext.Anchor = AnchorStyles.Bottom
         bttnNext.BorderRadius = 10
-        bttnNext.CustomizableEdges = CustomizableEdges98
+        bttnNext.CustomizableEdges = CustomizableEdges100
         bttnNext.DisabledState.BorderColor = Color.DarkGray
         bttnNext.DisabledState.CustomBorderColor = Color.DarkGray
         bttnNext.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -2412,7 +2513,7 @@ Partial Class admindash
         bttnNext.ImageAlign = HorizontalAlignment.Right
         bttnNext.Location = New Point(682, 931)
         bttnNext.Name = "bttnNext"
-        bttnNext.ShadowDecoration.CustomizableEdges = CustomizableEdges99
+        bttnNext.ShadowDecoration.CustomizableEdges = CustomizableEdges101
         bttnNext.Size = New Size(133, 37)
         bttnNext.TabIndex = 79
         bttnNext.Text = "PROCEED"
@@ -2420,7 +2521,7 @@ Partial Class admindash
         ' Guna2TextBox3
         ' 
         Guna2TextBox3.BorderRadius = 5
-        Guna2TextBox3.CustomizableEdges = CustomizableEdges100
+        Guna2TextBox3.CustomizableEdges = CustomizableEdges102
         Guna2TextBox3.DefaultText = ""
         Guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Guna2TextBox3.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -2435,7 +2536,7 @@ Partial Class admindash
         Guna2TextBox3.PasswordChar = ChrW(0)
         Guna2TextBox3.PlaceholderText = ""
         Guna2TextBox3.SelectedText = ""
-        Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges101
+        Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges103
         Guna2TextBox3.Size = New Size(323, 36)
         Guna2TextBox3.TabIndex = 12
         Guna2TextBox3.TextAlign = HorizontalAlignment.Center
@@ -2443,7 +2544,7 @@ Partial Class admindash
         ' Guna2TextBox2
         ' 
         Guna2TextBox2.BorderRadius = 5
-        Guna2TextBox2.CustomizableEdges = CustomizableEdges102
+        Guna2TextBox2.CustomizableEdges = CustomizableEdges104
         Guna2TextBox2.DefaultText = ""
         Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -2458,7 +2559,7 @@ Partial Class admindash
         Guna2TextBox2.PasswordChar = ChrW(0)
         Guna2TextBox2.PlaceholderText = ""
         Guna2TextBox2.SelectedText = ""
-        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges103
+        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges105
         Guna2TextBox2.Size = New Size(323, 36)
         Guna2TextBox2.TabIndex = 11
         Guna2TextBox2.TextAlign = HorizontalAlignment.Center
@@ -2466,7 +2567,7 @@ Partial Class admindash
         ' Guna2TextBox1
         ' 
         Guna2TextBox1.BorderRadius = 5
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges104
+        Guna2TextBox1.CustomizableEdges = CustomizableEdges106
         Guna2TextBox1.DefaultText = ""
         Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -2481,7 +2582,7 @@ Partial Class admindash
         Guna2TextBox1.PasswordChar = ChrW(0)
         Guna2TextBox1.PlaceholderText = ""
         Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges105
+        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges107
         Guna2TextBox1.Size = New Size(323, 36)
         Guna2TextBox1.TabIndex = 9
         Guna2TextBox1.TextAlign = HorizontalAlignment.Center
@@ -2499,12 +2600,12 @@ Partial Class admindash
         ' 
         ' Guna2PictureBox6
         ' 
-        Guna2PictureBox6.CustomizableEdges = CustomizableEdges106
+        Guna2PictureBox6.CustomizableEdges = CustomizableEdges108
         Guna2PictureBox6.Image = CType(resources.GetObject("Guna2PictureBox6.Image"), Image)
         Guna2PictureBox6.ImageRotate = 0F
         Guna2PictureBox6.Location = New Point(526, 144)
         Guna2PictureBox6.Name = "Guna2PictureBox6"
-        Guna2PictureBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges107
+        Guna2PictureBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges109
         Guna2PictureBox6.Size = New Size(370, 385)
         Guna2PictureBox6.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox6.TabIndex = 0
@@ -2519,6 +2620,17 @@ Partial Class admindash
         TabPage5.TabIndex = 1
         TabPage5.Text = "LOAN"
         TabPage5.UseVisualStyleBackColor = True
+        ' 
+        ' tabContri
+        ' 
+        tabContri.ImageKey = "give-money.png"
+        tabContri.Location = New Point(254, 4)
+        tabContri.Name = "tabContri"
+        tabContri.Padding = New Padding(3)
+        tabContri.Size = New Size(1030, 716)
+        tabContri.TabIndex = 4
+        tabContri.Text = "Contributions"
+        tabContri.UseVisualStyleBackColor = True
         ' 
         ' TabPage3
         ' 
@@ -2575,11 +2687,19 @@ Partial Class admindash
         tabEdit.ResumeLayout(False)
         tabEditMember.ResumeLayout(False)
         personal.ResumeLayout(False)
-        personal.PerformLayout()
+        Panel5.ResumeLayout(False)
+        Panel4.ResumeLayout(False)
+        Panel4.PerformLayout()
+        Panel3.ResumeLayout(False)
+        Panel3.PerformLayout()
         CType(pBoxEditProfile, ComponentModel.ISupportInitialize).EndInit()
         other.ResumeLayout(False)
-        other.PerformLayout()
+        Panel8.ResumeLayout(False)
+        Panel7.ResumeLayout(False)
+        Panel7.PerformLayout()
         CType(dgBeneficiaries, ComponentModel.ISupportInitialize).EndInit()
+        Panel6.ResumeLayout(False)
+        Panel6.PerformLayout()
         pnlEmployee.ResumeLayout(False)
         pnlEmployee.PerformLayout()
         CType(dgMembers, ComponentModel.ISupportInitialize).EndInit()
@@ -2636,7 +2756,6 @@ Partial Class admindash
     Friend WithEvents txtEditFname As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label10 As Label
     Friend WithEvents txtEditLname As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Label13 As Label
     Friend WithEvents txtEditPw As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label16 As Label
     Friend WithEvents txtEditAddress As Guna.UI2.WinForms.Guna2TextBox
@@ -2733,4 +2852,14 @@ Partial Class admindash
     Friend WithEvents Column10 As DataGridViewTextBoxColumn
     Friend WithEvents Column11 As DataGridViewTextBoxColumn
     Friend WithEvents Column4 As DataGridViewImageColumn
+    Friend WithEvents tabContri As TabPage
+    Friend WithEvents Panel5 As Panel
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents Guna2Button7 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Panel8 As Panel
+    Friend WithEvents btnEmBack2 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Panel7 As Panel
+    Friend WithEvents Panel6 As Panel
 End Class

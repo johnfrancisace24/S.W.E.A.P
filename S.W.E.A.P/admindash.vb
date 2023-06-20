@@ -313,4 +313,8 @@ Public Class admindash
     Private Sub txtEditFname_Keypress(sender As Object, e As EventArgs) Handles txtEditFname.KeyPress
         txtEditUsername_KeyPress(sender, e)
     End Sub
+
+    Private Sub btnEmBack2_Click(sender As Object, e As EventArgs) Handles btnEmBack2.Click
+        tabEditMember.SelectedTab = personal
+    End Sub
 End Class
