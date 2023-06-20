@@ -22,6 +22,7 @@ Public Class Userdash
         pnlProfile.Hide()
         pnlDash.Hide()
         pnlContribute.Hide()
+        Panel6.Hide()
     End Sub
     Private Sub Userdash_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         pnlDash.Visible = True
@@ -37,12 +38,15 @@ Public Class Userdash
         pnlProfile.Hide()
         pnlAccount.Hide()
         pnlContribute.Hide()
+        Panel6.Hide()
     End Sub
     Private Sub bttnProf_Click(sender As Object, e As EventArgs) Handles bttnProf.Click
         pnlProfile.Visible = True
         pnlAccount.Hide()
         pnlDash.Hide()
         pnlContribute.Hide()
+        Panel6.Hide()
+
         Get_info()
     End Sub
 
@@ -51,6 +55,8 @@ Public Class Userdash
         pnlProfile.Hide()
         pnlDash.Hide()
         pnlAccount.Hide()
+        Panel6.Hide()
+
 
         DG_Load()
     End Sub
@@ -112,7 +118,7 @@ Public Class Userdash
             If dr.Read() Then
                 Dim imagePath As String = dr.GetString("image")
                 Dim imagePathInResources As String = (destinationPath + imagePath)
-                Dim Gooday As String = "Welcome! " + dr.GetString("first_name")
+                Dim Gooday As String = "Hello! " + dr.GetString("first_name") + " Welcome back"
 
 
                 lblFname.Text = dr.GetString("fullName")
@@ -153,6 +159,7 @@ Public Class Userdash
                 Else
                     ImgProfile.Image = Nothing
                 End If
+
             End If
         Catch ex As Exception
             MsgBox("Doesn't work. LOL!")
