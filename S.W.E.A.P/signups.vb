@@ -185,9 +185,9 @@ Public Class signups
                 cmd.Parameters.AddWithValue("@BAGE1", txtBA1.Text)
                 cmd.Parameters.AddWithValue("@HOOK", txtbxUser.Text)
                 cmd.ExecuteNonQuery()
-                MsgBox("Creating Account Succeeded")
+                MessageBox.Show("Creating Account Succeeded", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Catch ex As Exception
-                MsgBox("Create account failed.")
+                MessageBox.Show("Create Account Failed.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Finally
                 conn.Close()
             End Try
