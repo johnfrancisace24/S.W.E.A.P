@@ -136,6 +136,7 @@ Public Class Userdash
                 Poffice.Text = dr.GetString("office")
                 Pposition.Text = dr.GetString("position")
                 Pcommittee.Text = dr.GetString("committee")
+                Pgender.Text = dr.GetString("sex")
 
                 txtbxusername.Text = dr.GetString("username")
                 txtbxpassword.Text = dr.GetString("password")
