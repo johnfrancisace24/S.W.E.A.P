@@ -108,7 +108,7 @@ Public Class Userdash
         Try
 
             conn.Open()
-            Dim cmd As New MySqlCommand("SELECT *, CONCAT(users.first_name, ' ', users.middle_name, ' ', users.last_name) AS fullName
+            Dim cmd As New MySqlCommand("SELECT *, CONCAT(users.first_name, ' ', users.last_name) AS fullName
                             FROM users 
                             INNER JOIN user_info ON users.id = user_info.user_id  
                             WHERE users.id = @ID", conn)
