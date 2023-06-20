@@ -277,7 +277,7 @@ Public Class signups
 
 
         ElseIf Not IsValidGmail(inputEmail) Then
-            MessageBox.Show("Invalid Email account." & vbCrLf & "Please enter a valid Gmail address.", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Hand)
+            MessageBox.Show("Invalid Email account." & vbCrLf & "Please enter a valid Email address.", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Hand)
             e.Cancel = True
 
         End If
