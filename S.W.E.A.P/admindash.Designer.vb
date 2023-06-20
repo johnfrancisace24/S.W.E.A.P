@@ -79,10 +79,6 @@ Partial Class admindash
         Dim CustomizableEdges43 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges44 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges45 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges48 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges49 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges50 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges51 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges52 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges53 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges54 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -109,14 +105,14 @@ Partial Class admindash
         Dim CustomizableEdges75 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges76 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges77 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle1 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
         Dim CustomizableEdges78 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges79 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges80 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges81 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle4 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
         Dim CustomizableEdges82 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges83 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges84 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -131,13 +127,17 @@ Partial Class admindash
         Dim CustomizableEdges93 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges94 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges95 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle5 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
         Dim CustomizableEdges96 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges97 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges98 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges99 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim CustomizableEdges48 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges49 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges50 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges51 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges100 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges101 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges102 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -1191,8 +1191,8 @@ Partial Class admindash
         ' 
         ' tabEmployee
         ' 
-        Me.tabEmployee.Controls.Add(Me.tabEdit)
         Me.tabEmployee.Controls.Add(Me.pnlEmployee)
+        Me.tabEmployee.Controls.Add(Me.tabEdit)
         Me.tabEmployee.ImageKey = "team.png"
         Me.tabEmployee.Location = New Global.System.Drawing.Point(254, 4)
         Me.tabEmployee.Name = "tabEmployee"
@@ -1269,7 +1269,7 @@ Partial Class admindash
         ' 
         Me.btnEditBack.BorderRadius = 5
         Me.btnEditBack.Cursor = Global.System.Windows.Forms.Cursors.Hand
-        Me.btnEditBack.CustomizableEdges = CustomizableEdges48
+        Me.btnEditBack.CustomizableEdges = CustomizableEdges52
         Me.btnEditBack.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnEditBack.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnEditBack.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
@@ -1279,7 +1279,7 @@ Partial Class admindash
         Me.btnEditBack.ForeColor = Global.System.Drawing.Color.White
         Me.btnEditBack.Location = New Global.System.Drawing.Point(605, 17)
         Me.btnEditBack.Name = "btnEditBack"
-        Me.btnEditBack.ShadowDecoration.CustomizableEdges = CustomizableEdges49
+        Me.btnEditBack.ShadowDecoration.CustomizableEdges = CustomizableEdges53
         Me.btnEditBack.Size = New Global.System.Drawing.Size(169, 34)
         Me.btnEditBack.TabIndex = 5
         Me.btnEditBack.Text = "GO BACK"
@@ -1288,7 +1288,7 @@ Partial Class admindash
         ' 
         Me.btnEditNext.BorderRadius = 5
         Me.btnEditNext.Cursor = Global.System.Windows.Forms.Cursors.Hand
-        Me.btnEditNext.CustomizableEdges = CustomizableEdges50
+        Me.btnEditNext.CustomizableEdges = CustomizableEdges54
         Me.btnEditNext.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnEditNext.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnEditNext.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
@@ -1297,7 +1297,7 @@ Partial Class admindash
         Me.btnEditNext.ForeColor = Global.System.Drawing.Color.White
         Me.btnEditNext.Location = New Global.System.Drawing.Point(789, 17)
         Me.btnEditNext.Name = "btnEditNext"
-        Me.btnEditNext.ShadowDecoration.CustomizableEdges = CustomizableEdges51
+        Me.btnEditNext.ShadowDecoration.CustomizableEdges = CustomizableEdges55
         Me.btnEditNext.Size = New Global.System.Drawing.Size(161, 34)
         Me.btnEditNext.TabIndex = 4
         Me.btnEditNext.Text = "NEXT"
@@ -1329,7 +1329,7 @@ Partial Class admindash
         ' txtEditMname
         ' 
         Me.txtEditMname.BorderRadius = 5
-        Me.txtEditMname.CustomizableEdges = CustomizableEdges52
+        Me.txtEditMname.CustomizableEdges = CustomizableEdges56
         Me.txtEditMname.DefaultText = ""
         Me.txtEditMname.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
         Me.txtEditMname.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
@@ -1344,7 +1344,7 @@ Partial Class admindash
         Me.txtEditMname.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
         Me.txtEditMname.PlaceholderText = ""
         Me.txtEditMname.SelectedText = ""
-        Me.txtEditMname.ShadowDecoration.CustomizableEdges = CustomizableEdges53
+        Me.txtEditMname.ShadowDecoration.CustomizableEdges = CustomizableEdges57
         Me.txtEditMname.Size = New Global.System.Drawing.Size(384, 36)
         Me.txtEditMname.TabIndex = 1
         Me.txtEditMname.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -1362,7 +1362,7 @@ Partial Class admindash
         ' txtEditFname
         ' 
         Me.txtEditFname.BorderRadius = 5
-        Me.txtEditFname.CustomizableEdges = CustomizableEdges54
+        Me.txtEditFname.CustomizableEdges = CustomizableEdges58
         Me.txtEditFname.DefaultText = ""
         Me.txtEditFname.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
         Me.txtEditFname.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
@@ -1377,7 +1377,7 @@ Partial Class admindash
         Me.txtEditFname.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
         Me.txtEditFname.PlaceholderText = ""
         Me.txtEditFname.SelectedText = ""
-        Me.txtEditFname.ShadowDecoration.CustomizableEdges = CustomizableEdges55
+        Me.txtEditFname.ShadowDecoration.CustomizableEdges = CustomizableEdges59
         Me.txtEditFname.Size = New Global.System.Drawing.Size(384, 36)
         Me.txtEditFname.TabIndex = 1
         Me.txtEditFname.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -1406,7 +1406,7 @@ Partial Class admindash
         ' 
         Me.pickEditBdate.BorderRadius = 5
         Me.pickEditBdate.Checked = True
-        Me.pickEditBdate.CustomizableEdges = CustomizableEdges56
+        Me.pickEditBdate.CustomizableEdges = CustomizableEdges60
         Me.pickEditBdate.FillColor = Global.System.Drawing.Color.White
         Me.pickEditBdate.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.pickEditBdate.Format = Global.System.Windows.Forms.DateTimePickerFormat.[Long]
@@ -1414,7 +1414,7 @@ Partial Class admindash
         Me.pickEditBdate.MaxDate = New System.DateTime(9998, 12, 31, 0, 0, 0, 0)
         Me.pickEditBdate.MinDate = New System.DateTime(1753, 1, 1, 0, 0, 0, 0)
         Me.pickEditBdate.Name = "pickEditBdate"
-        Me.pickEditBdate.ShadowDecoration.CustomizableEdges = CustomizableEdges57
+        Me.pickEditBdate.ShadowDecoration.CustomizableEdges = CustomizableEdges61
         Me.pickEditBdate.Size = New Global.System.Drawing.Size(384, 36)
         Me.pickEditBdate.TabIndex = 3
         Me.pickEditBdate.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -1423,7 +1423,7 @@ Partial Class admindash
         ' txtEditAddress
         ' 
         Me.txtEditAddress.BorderRadius = 5
-        Me.txtEditAddress.CustomizableEdges = CustomizableEdges58
+        Me.txtEditAddress.CustomizableEdges = CustomizableEdges62
         Me.txtEditAddress.DefaultText = ""
         Me.txtEditAddress.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
         Me.txtEditAddress.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
@@ -1438,7 +1438,7 @@ Partial Class admindash
         Me.txtEditAddress.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
         Me.txtEditAddress.PlaceholderText = ""
         Me.txtEditAddress.SelectedText = ""
-        Me.txtEditAddress.ShadowDecoration.CustomizableEdges = CustomizableEdges59
+        Me.txtEditAddress.ShadowDecoration.CustomizableEdges = CustomizableEdges63
         Me.txtEditAddress.Size = New Global.System.Drawing.Size(578, 36)
         Me.txtEditAddress.TabIndex = 1
         Me.txtEditAddress.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -1446,7 +1446,7 @@ Partial Class admindash
         ' txtEditLname
         ' 
         Me.txtEditLname.BorderRadius = 5
-        Me.txtEditLname.CustomizableEdges = CustomizableEdges60
+        Me.txtEditLname.CustomizableEdges = CustomizableEdges64
         Me.txtEditLname.DefaultText = ""
         Me.txtEditLname.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
         Me.txtEditLname.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
@@ -1461,7 +1461,7 @@ Partial Class admindash
         Me.txtEditLname.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
         Me.txtEditLname.PlaceholderText = ""
         Me.txtEditLname.SelectedText = ""
-        Me.txtEditLname.ShadowDecoration.CustomizableEdges = CustomizableEdges61
+        Me.txtEditLname.ShadowDecoration.CustomizableEdges = CustomizableEdges65
         Me.txtEditLname.Size = New Global.System.Drawing.Size(384, 36)
         Me.txtEditLname.TabIndex = 1
         Me.txtEditLname.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -1499,7 +1499,7 @@ Partial Class admindash
         ' txtEditEmail
         ' 
         Me.txtEditEmail.BorderRadius = 5
-        Me.txtEditEmail.CustomizableEdges = CustomizableEdges62
+        Me.txtEditEmail.CustomizableEdges = CustomizableEdges66
         Me.txtEditEmail.DefaultText = ""
         Me.txtEditEmail.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
         Me.txtEditEmail.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
@@ -1514,7 +1514,7 @@ Partial Class admindash
         Me.txtEditEmail.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
         Me.txtEditEmail.PlaceholderText = ""
         Me.txtEditEmail.SelectedText = ""
-        Me.txtEditEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges63
+        Me.txtEditEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges67
         Me.txtEditEmail.Size = New Global.System.Drawing.Size(384, 36)
         Me.txtEditEmail.TabIndex = 1
         Me.txtEditEmail.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -1522,7 +1522,7 @@ Partial Class admindash
         ' txtEditEducation
         ' 
         Me.txtEditEducation.BorderRadius = 5
-        Me.txtEditEducation.CustomizableEdges = CustomizableEdges64
+        Me.txtEditEducation.CustomizableEdges = CustomizableEdges68
         Me.txtEditEducation.DefaultText = ""
         Me.txtEditEducation.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
         Me.txtEditEducation.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
@@ -1537,7 +1537,7 @@ Partial Class admindash
         Me.txtEditEducation.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
         Me.txtEditEducation.PlaceholderText = ""
         Me.txtEditEducation.SelectedText = ""
-        Me.txtEditEducation.ShadowDecoration.CustomizableEdges = CustomizableEdges65
+        Me.txtEditEducation.ShadowDecoration.CustomizableEdges = CustomizableEdges69
         Me.txtEditEducation.Size = New Global.System.Drawing.Size(384, 36)
         Me.txtEditEducation.TabIndex = 1
         Me.txtEditEducation.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -1565,7 +1565,7 @@ Partial Class admindash
         ' txtEditNumber
         ' 
         Me.txtEditNumber.BorderRadius = 5
-        Me.txtEditNumber.CustomizableEdges = CustomizableEdges66
+        Me.txtEditNumber.CustomizableEdges = CustomizableEdges70
         Me.txtEditNumber.DefaultText = ""
         Me.txtEditNumber.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
         Me.txtEditNumber.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
@@ -1580,7 +1580,7 @@ Partial Class admindash
         Me.txtEditNumber.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
         Me.txtEditNumber.PlaceholderText = ""
         Me.txtEditNumber.SelectedText = ""
-        Me.txtEditNumber.ShadowDecoration.CustomizableEdges = CustomizableEdges67
+        Me.txtEditNumber.ShadowDecoration.CustomizableEdges = CustomizableEdges71
         Me.txtEditNumber.Size = New Global.System.Drawing.Size(384, 36)
         Me.txtEditNumber.TabIndex = 1
         Me.txtEditNumber.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -1601,7 +1601,7 @@ Partial Class admindash
         ' 
         ' Guna2Button5
         ' 
-        Me.Guna2Button5.CustomizableEdges = CustomizableEdges68
+        Me.Guna2Button5.CustomizableEdges = CustomizableEdges72
         Me.Guna2Button5.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
         Me.Guna2Button5.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
         Me.Guna2Button5.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
@@ -1610,7 +1610,7 @@ Partial Class admindash
         Me.Guna2Button5.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2Button5.Location = New Global.System.Drawing.Point(27, 251)
         Me.Guna2Button5.Name = "Guna2Button5"
-        Me.Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges69
+        Me.Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges73
         Me.Guna2Button5.Size = New Global.System.Drawing.Size(265, 36)
         Me.Guna2Button5.TabIndex = 4
         Me.Guna2Button5.Text = "Upload Image"
@@ -1628,7 +1628,7 @@ Partial Class admindash
         ' txtEditUsername
         ' 
         Me.txtEditUsername.BorderRadius = 5
-        Me.txtEditUsername.CustomizableEdges = CustomizableEdges70
+        Me.txtEditUsername.CustomizableEdges = CustomizableEdges74
         Me.txtEditUsername.DefaultText = ""
         Me.txtEditUsername.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
         Me.txtEditUsername.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
@@ -1643,7 +1643,7 @@ Partial Class admindash
         Me.txtEditUsername.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
         Me.txtEditUsername.PlaceholderText = ""
         Me.txtEditUsername.SelectedText = ""
-        Me.txtEditUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges71
+        Me.txtEditUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges75
         Me.txtEditUsername.Size = New Global.System.Drawing.Size(265, 36)
         Me.txtEditUsername.TabIndex = 1
         Me.txtEditUsername.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -1651,7 +1651,7 @@ Partial Class admindash
         ' txtEditPw
         ' 
         Me.txtEditPw.BorderRadius = 5
-        Me.txtEditPw.CustomizableEdges = CustomizableEdges72
+        Me.txtEditPw.CustomizableEdges = CustomizableEdges76
         Me.txtEditPw.DefaultText = ""
         Me.txtEditPw.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
         Me.txtEditPw.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
@@ -1666,7 +1666,7 @@ Partial Class admindash
         Me.txtEditPw.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
         Me.txtEditPw.PlaceholderText = ""
         Me.txtEditPw.SelectedText = ""
-        Me.txtEditPw.ShadowDecoration.CustomizableEdges = CustomizableEdges73
+        Me.txtEditPw.ShadowDecoration.CustomizableEdges = CustomizableEdges77
         Me.txtEditPw.Size = New Global.System.Drawing.Size(265, 36)
         Me.txtEditPw.TabIndex = 1
         Me.txtEditPw.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -1717,7 +1717,7 @@ Partial Class admindash
         ' btnEmBack2
         ' 
         Me.btnEmBack2.BorderRadius = 5
-        Me.btnEmBack2.CustomizableEdges = CustomizableEdges74
+        Me.btnEmBack2.CustomizableEdges = CustomizableEdges78
         Me.btnEmBack2.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnEmBack2.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnEmBack2.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
@@ -1727,7 +1727,7 @@ Partial Class admindash
         Me.btnEmBack2.ForeColor = Global.System.Drawing.Color.White
         Me.btnEmBack2.Location = New Global.System.Drawing.Point(557, 18)
         Me.btnEmBack2.Name = "btnEmBack2"
-        Me.btnEmBack2.ShadowDecoration.CustomizableEdges = CustomizableEdges75
+        Me.btnEmBack2.ShadowDecoration.CustomizableEdges = CustomizableEdges79
         Me.btnEmBack2.Size = New Global.System.Drawing.Size(180, 34)
         Me.btnEmBack2.TabIndex = 5
         Me.btnEmBack2.Text = "GO BACK"
@@ -1736,7 +1736,7 @@ Partial Class admindash
         ' 
         Me.btnEditUpdate.BorderRadius = 5
         Me.btnEditUpdate.Cursor = Global.System.Windows.Forms.Cursors.Hand
-        Me.btnEditUpdate.CustomizableEdges = CustomizableEdges76
+        Me.btnEditUpdate.CustomizableEdges = CustomizableEdges80
         Me.btnEditUpdate.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnEditUpdate.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnEditUpdate.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
@@ -1746,7 +1746,7 @@ Partial Class admindash
         Me.btnEditUpdate.ForeColor = Global.System.Drawing.Color.White
         Me.btnEditUpdate.Location = New Global.System.Drawing.Point(743, 18)
         Me.btnEditUpdate.Name = "btnEditUpdate"
-        Me.btnEditUpdate.ShadowDecoration.CustomizableEdges = CustomizableEdges77
+        Me.btnEditUpdate.ShadowDecoration.CustomizableEdges = CustomizableEdges81
         Me.btnEditUpdate.Size = New Global.System.Drawing.Size(222, 34)
         Me.btnEditUpdate.TabIndex = 4
         Me.btnEditUpdate.Text = "UPDATE"
@@ -1771,45 +1771,45 @@ Partial Class admindash
         ' dgBeneficiaries
         ' 
         Me.dgBeneficiaries.AllowUserToResizeRows = False
-        DataGridViewCellStyle1.BackColor = Global.System.Drawing.Color.White
-        DataGridViewCellStyle1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        DataGridViewCellStyle1.ForeColor = Global.System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle1.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(203))), CInt(CByte(CByte(250))), CInt(CByte(CByte(249))))
-        DataGridViewCellStyle1.SelectionForeColor = Global.System.Drawing.Color.Black
-        Me.dgBeneficiaries.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        DataGridViewCellStyle2.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(167))), CInt(CByte(CByte(65))), CInt(CByte(CByte(65))))
-        DataGridViewCellStyle2.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        DataGridViewCellStyle2.ForeColor = Global.System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(167))), CInt(CByte(CByte(65))), CInt(CByte(CByte(65))))
-        DataGridViewCellStyle2.SelectionForeColor = Global.System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgBeneficiaries.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle4.BackColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle4.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle4.ForeColor = Global.System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle4.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(203))), CInt(CByte(CByte(250))), CInt(CByte(CByte(249))))
+        DataGridViewCellStyle4.SelectionForeColor = Global.System.Drawing.Color.Black
+        Me.dgBeneficiaries.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle5.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(167))), CInt(CByte(CByte(65))), CInt(CByte(CByte(65))))
+        DataGridViewCellStyle5.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle5.ForeColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle5.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(167))), CInt(CByte(CByte(65))), CInt(CByte(CByte(65))))
+        DataGridViewCellStyle5.SelectionForeColor = Global.System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgBeneficiaries.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
         Me.dgBeneficiaries.ColumnHeadersHeight = 32
         Me.dgBeneficiaries.ColumnHeadersHeightSizeMode = Global.System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         Me.dgBeneficiaries.Columns.AddRange(New Global.System.Windows.Forms.DataGridViewColumn() {Me.Column8, Me.Column9, Me.Column10, Me.Column11, Me.Column4})
         Me.dgBeneficiaries.Cursor = Global.System.Windows.Forms.Cursors.Hand
-        DataGridViewCellStyle3.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = Global.System.Drawing.Color.White
-        DataGridViewCellStyle3.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        DataGridViewCellStyle3.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(71))), CInt(CByte(CByte(69))), CInt(CByte(CByte(94))))
-        DataGridViewCellStyle3.Padding = New Global.System.Windows.Forms.Padding(3)
-        DataGridViewCellStyle3.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(203))), CInt(CByte(CByte(250))), CInt(CByte(CByte(249))))
-        DataGridViewCellStyle3.SelectionForeColor = Global.System.Drawing.Color.Black
-        DataGridViewCellStyle3.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgBeneficiaries.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle6.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle6.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle6.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(71))), CInt(CByte(CByte(69))), CInt(CByte(CByte(94))))
+        DataGridViewCellStyle6.Padding = New Global.System.Windows.Forms.Padding(3)
+        DataGridViewCellStyle6.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(203))), CInt(CByte(CByte(250))), CInt(CByte(CByte(249))))
+        DataGridViewCellStyle6.SelectionForeColor = Global.System.Drawing.Color.Black
+        DataGridViewCellStyle6.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgBeneficiaries.DefaultCellStyle = DataGridViewCellStyle6
         Me.dgBeneficiaries.GridColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(231))), CInt(CByte(CByte(229))), CInt(CByte(CByte(255))))
         Me.dgBeneficiaries.Location = New Global.System.Drawing.Point(24, 49)
         Me.dgBeneficiaries.Name = "dgBeneficiaries"
         Me.dgBeneficiaries.RowHeadersBorderStyle = Global.System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle4.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.BackColor = Global.System.Drawing.Color.White
-        DataGridViewCellStyle4.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        DataGridViewCellStyle4.ForeColor = Global.System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle4.SelectionBackColor = Global.System.Drawing.Color.White
-        DataGridViewCellStyle4.SelectionForeColor = Global.System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle4.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgBeneficiaries.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle7.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle7.BackColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle7.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle7.ForeColor = Global.System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle7.SelectionBackColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle7.SelectionForeColor = Global.System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle7.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgBeneficiaries.RowHeadersDefaultCellStyle = DataGridViewCellStyle7
         Me.dgBeneficiaries.RowHeadersVisible = False
         Me.dgBeneficiaries.RowTemplate.Height = 26
         Me.dgBeneficiaries.Size = New Global.System.Drawing.Size(572, 300)
@@ -1881,7 +1881,7 @@ Partial Class admindash
         ' 
         Me.btnEditAddBen.BorderRadius = 5
         Me.btnEditAddBen.Cursor = Global.System.Windows.Forms.Cursors.Hand
-        Me.btnEditAddBen.CustomizableEdges = CustomizableEdges78
+        Me.btnEditAddBen.CustomizableEdges = CustomizableEdges82
         Me.btnEditAddBen.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnEditAddBen.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnEditAddBen.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
@@ -1890,7 +1890,7 @@ Partial Class admindash
         Me.btnEditAddBen.ForeColor = Global.System.Drawing.Color.White
         Me.btnEditAddBen.Location = New Global.System.Drawing.Point(24, 445)
         Me.btnEditAddBen.Name = "btnEditAddBen"
-        Me.btnEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges79
+        Me.btnEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges83
         Me.btnEditAddBen.Size = New Global.System.Drawing.Size(183, 34)
         Me.btnEditAddBen.TabIndex = 4
         Me.btnEditAddBen.Text = "ADD"
@@ -1898,7 +1898,7 @@ Partial Class admindash
         ' txtEditAddBenAge
         ' 
         Me.txtEditAddBenAge.BorderRadius = 5
-        Me.txtEditAddBenAge.CustomizableEdges = CustomizableEdges80
+        Me.txtEditAddBenAge.CustomizableEdges = CustomizableEdges84
         Me.txtEditAddBenAge.DefaultText = ""
         Me.txtEditAddBenAge.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
         Me.txtEditAddBenAge.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
@@ -1912,7 +1912,7 @@ Partial Class admindash
         Me.txtEditAddBenAge.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
         Me.txtEditAddBenAge.PlaceholderText = ""
         Me.txtEditAddBenAge.SelectedText = ""
-        Me.txtEditAddBenAge.ShadowDecoration.CustomizableEdges = CustomizableEdges81
+        Me.txtEditAddBenAge.ShadowDecoration.CustomizableEdges = CustomizableEdges85
         Me.txtEditAddBenAge.Size = New Global.System.Drawing.Size(93, 36)
         Me.txtEditAddBenAge.TabIndex = 8
         Me.txtEditAddBenAge.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -1920,7 +1920,7 @@ Partial Class admindash
         ' txtEditAddBenRel
         ' 
         Me.txtEditAddBenRel.BorderRadius = 5
-        Me.txtEditAddBenRel.CustomizableEdges = CustomizableEdges82
+        Me.txtEditAddBenRel.CustomizableEdges = CustomizableEdges86
         Me.txtEditAddBenRel.DefaultText = ""
         Me.txtEditAddBenRel.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
         Me.txtEditAddBenRel.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
@@ -1934,7 +1934,7 @@ Partial Class admindash
         Me.txtEditAddBenRel.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
         Me.txtEditAddBenRel.PlaceholderText = ""
         Me.txtEditAddBenRel.SelectedText = ""
-        Me.txtEditAddBenRel.ShadowDecoration.CustomizableEdges = CustomizableEdges83
+        Me.txtEditAddBenRel.ShadowDecoration.CustomizableEdges = CustomizableEdges87
         Me.txtEditAddBenRel.Size = New Global.System.Drawing.Size(169, 36)
         Me.txtEditAddBenRel.TabIndex = 7
         Me.txtEditAddBenRel.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -1942,7 +1942,7 @@ Partial Class admindash
         ' txtEditAddBen
         ' 
         Me.txtEditAddBen.BorderRadius = 5
-        Me.txtEditAddBen.CustomizableEdges = CustomizableEdges84
+        Me.txtEditAddBen.CustomizableEdges = CustomizableEdges88
         Me.txtEditAddBen.DefaultText = ""
         Me.txtEditAddBen.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
         Me.txtEditAddBen.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
@@ -1956,7 +1956,7 @@ Partial Class admindash
         Me.txtEditAddBen.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
         Me.txtEditAddBen.PlaceholderText = ""
         Me.txtEditAddBen.SelectedText = ""
-        Me.txtEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges85
+        Me.txtEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges89
         Me.txtEditAddBen.Size = New Global.System.Drawing.Size(298, 36)
         Me.txtEditAddBen.TabIndex = 6
         Me.txtEditAddBen.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -2023,7 +2023,7 @@ Partial Class admindash
         ' 
         Me.pickEditUserStat.BackColor = Global.System.Drawing.Color.Transparent
         Me.pickEditUserStat.BorderRadius = 5
-        Me.pickEditUserStat.CustomizableEdges = CustomizableEdges86
+        Me.pickEditUserStat.CustomizableEdges = CustomizableEdges90
         Me.pickEditUserStat.DrawMode = Global.System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.pickEditUserStat.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.pickEditUserStat.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
@@ -2034,7 +2034,7 @@ Partial Class admindash
         Me.pickEditUserStat.Items.AddRange(New System.Object() {"Administrator", "Default"})
         Me.pickEditUserStat.Location = New Global.System.Drawing.Point(23, 407)
         Me.pickEditUserStat.Name = "pickEditUserStat"
-        Me.pickEditUserStat.ShadowDecoration.CustomizableEdges = CustomizableEdges87
+        Me.pickEditUserStat.ShadowDecoration.CustomizableEdges = CustomizableEdges91
         Me.pickEditUserStat.Size = New Global.System.Drawing.Size(303, 36)
         Me.pickEditUserStat.TabIndex = 5
         Me.pickEditUserStat.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -2043,7 +2043,7 @@ Partial Class admindash
         ' 
         Me.pickEditComm.BackColor = Global.System.Drawing.Color.Transparent
         Me.pickEditComm.BorderRadius = 5
-        Me.pickEditComm.CustomizableEdges = CustomizableEdges88
+        Me.pickEditComm.CustomizableEdges = CustomizableEdges92
         Me.pickEditComm.DrawMode = Global.System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.pickEditComm.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.pickEditComm.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
@@ -2054,7 +2054,7 @@ Partial Class admindash
         Me.pickEditComm.Items.AddRange(New System.Object() {"Education, Information & Research", "Organizing & Membership", "Grievances", "Welfare", "Finance", "Sports & Culture"})
         Me.pickEditComm.Location = New Global.System.Drawing.Point(23, 314)
         Me.pickEditComm.Name = "pickEditComm"
-        Me.pickEditComm.ShadowDecoration.CustomizableEdges = CustomizableEdges89
+        Me.pickEditComm.ShadowDecoration.CustomizableEdges = CustomizableEdges93
         Me.pickEditComm.Size = New Global.System.Drawing.Size(303, 36)
         Me.pickEditComm.TabIndex = 4
         Me.pickEditComm.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -2063,7 +2063,7 @@ Partial Class admindash
         ' 
         Me.pickEditStatus.BackColor = Global.System.Drawing.Color.Transparent
         Me.pickEditStatus.BorderRadius = 5
-        Me.pickEditStatus.CustomizableEdges = CustomizableEdges90
+        Me.pickEditStatus.CustomizableEdges = CustomizableEdges94
         Me.pickEditStatus.DrawMode = Global.System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.pickEditStatus.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.pickEditStatus.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
@@ -2074,7 +2074,7 @@ Partial Class admindash
         Me.pickEditStatus.Items.AddRange(New System.Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
         Me.pickEditStatus.Location = New Global.System.Drawing.Point(23, 151)
         Me.pickEditStatus.Name = "pickEditStatus"
-        Me.pickEditStatus.ShadowDecoration.CustomizableEdges = CustomizableEdges91
+        Me.pickEditStatus.ShadowDecoration.CustomizableEdges = CustomizableEdges95
         Me.pickEditStatus.Size = New Global.System.Drawing.Size(303, 36)
         Me.pickEditStatus.TabIndex = 3
         Me.pickEditStatus.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -2093,7 +2093,7 @@ Partial Class admindash
         ' 
         Me.pickEditPosition.BackColor = Global.System.Drawing.Color.Transparent
         Me.pickEditPosition.BorderRadius = 5
-        Me.pickEditPosition.CustomizableEdges = CustomizableEdges92
+        Me.pickEditPosition.CustomizableEdges = CustomizableEdges96
         Me.pickEditPosition.DrawMode = Global.System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.pickEditPosition.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.pickEditPosition.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
@@ -2104,7 +2104,7 @@ Partial Class admindash
         Me.pickEditPosition.Items.AddRange(New System.Object() {"AA I", "AA II", "AA II Pantawid Pamilya RPMO", "AA III", "AA III - Sr.Bookkeeper", "AA III / Information Officer NHTS-PR", "AA III-Munipical Roving Bookkeeper", "AA-II ", "AA-II KALAHI-CIDDS", "AA-II KALAHI-CIDDS NCDDP_AF", "AC-KAASA", "Accountant I", "Accountant I/Officer in charge", "Accountant II", "Accountant III", "Accounting Clerk", "Acting Secretary", "Acting Social Welfare Officer III", "Activity Therapist", "Activity Worker I", "Admin Aide I", "Admin AIDE III", "Admin AIDE IIII", "Admin AIDE IV", "Admin AIDE VI ", "Admin Assistant", "Admin Assistant III", "Admin Assistant III (Computer Operator II)", "Admin Assistant V (Private Secretary I)", "Admin cum Finance Officer", "Admin Officer IV-Head, RROS", "Admin. Aide VI", "Admin.Assitant III/Information Officer (Listahanan)", "Admin.Officer IV/Head", "Admin.Officer V-Unit Head ", "Administrative Aide I", "Administrative Aide II", "Administrative Aide III", "Administrative Aide III (Encoder)", "Administrative Aide IV", "Administrative Aide IV (Clerk II)", "Administrative Aide IV (Driver)", "Administrative Aide IV (Encoder)", "Administrative Aide IV/Encoder", "Administrative Aide V", "Administrative Aide V (Chauffer I)", "Administrative Aide VI", "Administrative Aide VI (Clerk III)", "Administrative Assistant I", "Administrative Assistant II", "Administrative Assistant II (Procurement)", "Administrative Assistant II/SLP", "Administrative Assistant III", "Administrative Assistant III (Cash Clerk)", "Administrative Assistant III - Budget", "Administrative Assistant III (Budget Assistant)", "Administrative Assistant III/Senior Bookkeeper", "Administrative Assistant III/Socpen Accounting", "Administrative Assistant IV", "Administrative Assistant V", "Administrative Assistant V (Private Secretary I)", "Administrative Assistant VI ", "Administrative Cum Finance Officer", "Administrative Officer I", "Administrative Officer II", "Administrative Officer II - Infastructure Assistant", "Administrative Officer II - Property & Asset Officer", "Administrative Officer II/Head", "Administrative Officer III", "Administrative Officer IV", "Administrative Officer IV/KALAHI-CIDSS", "Administrative Officer IV/Encoder", "Administrative Officer IV/Head", "Administrative Officer V", "Administrative Officer V/Budget Officer", "Administrative Officer V/Financial Analyst III", "Administrative Officer V/Head", "Administrative Program Focal (PDO II-municipal link)", "Administrative Staff", "Administrative Support Staff", "AO II", "AO II/Financial Analyst II ", "AO II / PSYCHOMETRICIAN", "AO II-OIC Head, Property, Supply & Asset Mngt.Section", "AO II-Pantawid Property Officer", "AO II-Property Officer", "AO II-Property & Asset Officer", "AO II-Property Officer (Mainstream Staff Pantawid)", "AO IV", "AO IV-Financial Analyst II", "AO IV/Financial Analyst II", "AO IV/OIC-Procurement Unit Head", "AO V", "AO V-CASH HEAD", "AO V/Budget Officer NHTS-PR", "AOV-FMD-Cash-Head", "Architect I", "Architect II", "Architect III", "ARDO", "Area Coordinator", "Area Coordinarot/KALAHI CIDSS", "AREA SUPERVISOR", "Assistant Bureau Director", "Assistant Information Officer", "Assistant Regional Director for Administration (ARDA)", "Assistant Regional Director for Operations (ARDO)", "Assistant Secretary", "Assistant Secretary / OIC-IMB", "Assistant Secretary for OASOPG-Protective Programs ", "Assistant Service Director", "Associate Statistician", "Attorney III", "AttorneyIV", "Attorney V", "Audio-Visual Aids Technician III", "Audio-Visual Equipment Operator II", "AUDIT TEAM LEADER", "AUDIT TEAM MEMBER", "AVRC II Center Head", "BAC SEC & Procurement Service", "BAHAY PAG-ASA NG LAGUNA - CENTER HEAD", "BDM", "Beneficiary Update System Focal - PDO I", "Beneficiary Update System Focal - PDO II", "Bookkeeper", "BTMS-ENCODER", "Budget Assistant", "Budget Officer I", "Budget Officer II", "Budget Officer III", "Bureau Director", "CAD Operator", "Caretaker", "Carpenter", "Case Worker for MCCT (PDOII)", "Cash Clerk", "CASH CLERK / KALAHI-CIDSS", "Cashier II", "CDA II", "CEF - KALAHI CIDSS", "CEF / Executive Assistant", "CENTER HEAD", "CENTERS AND RESIDENTIAL CARE FACILITIES (CRCF)", "Chief", "Chief Account", "Chief Admin.Officer / OIC ARD for Administration", "Chief Administrative Officer", "Chief Administrative Officer V", "Chief Infastructure Engineer", "Child Psychologist for MCCT", "City Link", "City Link Officer", "CIVIL ENGINEER", "CL", "Clerk I", "Clerk II", "Clerk III/ HRMDD", "Clerk/Encoder", "Cluster Beneficiary Data Officer", "Cluster Compliance Verification System Focal", "Cluster Focal Person (BDM)", "Cluster Greivance Redress System Focal", "Cluster Greivance Officer", "CMT I", "CMT II", "CMT II - MCCT", "COA AUDITOR", "Comm. Development Officer III", "Commission on Audit XI", "Communication Equipment Operator I", "Communications Specialist", "Communications Officer IV", "Community Development Assistant", "Community Development Assistant II", "Community Development Officer II", "Community Development Officer III", "COMMUNITY DEVELOPMENT OFFICER III - IT", "COMMUNITY DEVELOPMENT OFFICER IV", "COMMUNITY DEVELOPMENT OFFICER IV/KALAHI CIDSS", "Community Empowerment Facilitator", "Community Empowerment Facilitator - Roving ", "Community Facilitator", "Community Facilitator Aide", "Community Facilitator Assistant", "Community Finance Facilitator", "Community Finance Monitor", "Community Financial Analyst", "Community Infastructure Officer ", "Community Infastructure Officer III", "Community Infastructure Specialist ", "Community Organizer", "Community Organizer III", "Community Procurement Officer ", "Community Procurement Officer 3", "Community Procurement Officer III", "Community Procurement Specialist ", "Computer Encoder", "Computer Maintenance Technologist I", "Computer Maintenance Technologist II", "Computer Operator", "Computer Operator I", "Computer Operator II", "Computer Operator III", "Computer Operator IV", "Computer Programmer I", "Computer Programmer II", "Computer Programmer III", "Concurrent Head", "Concurent National Program Manager", "Concurent OIC", "Consultant", "Convergeance Coordinator", "Cook", "Cook I", "Cook II", "CPO", "CPO IV", "Crative Arts Specialist", "DAC - DEPUTY ARE COORDINATOR", "Data Analyst III", "Data Encoder", "Database Specialist", "Day Care Worker I", "Day Care Worker II", "Default", "Dentist II", "Department Assistant Secretary", "Department Legislative Liaison Specialist", "Department Secretary", "Department Undersecretary", "Deputy Area Coordinator - Electrical Engineer", "Deputy Area Coordinator - Geoditic Engineer", "Deputy Area Coordinator - IT", "Deputy Community Development Specialist", "Deputy Director", "Deputy Nat'l Community - Infra. Engr.", "Deputy National M & E Specialist", "Deputy National Program Manager for Operations", "Deputy National Training Specialist", "Deputy NCBS", "Deputy Program Director", "Deputy Program Manager", "Deputy Program Manager Operation", "Deputy Regional Program Manager", "Deputy Regional Project Manager", "Deputy Technical Facilitator", "Derector", "Director III", "Director IV", "Division Chief", "Dormitory Manager I", "Dormitory Manager II", "DPMO", "DPMO/PROPERTY WAREHOUSE", "DPSC", "DRAFTSMAN", "Driver", "Driver II", "DSWD FO CARAGA", "ECCD Teacher", "Echonomist III", "Electrical Engineer", "Electrician I ", "Electrician II ", "Encoder", "Encoder III", "Encoder-BTMS", "Engineer I", "Engineer II", "Engineer III", "Engineer IV", "Engineer AIDE", "Environtmental Safeguard Specialist", "Executive Assistant ", "Executive Assistant I", "Executive Assistant II", "Executive Assistant III", "Executive Assistant IV", "Executive Assistant V", "Executive Assistant VI", "Executive Secretary/ Senior Administrative Assistant III", "FA - MAGSAYSAY", "FA II", "FA III", "Family Welfare Assistant for MCCT", "FDS Coordinator", "Field Program Manager", "Field Office Coordinator", "Field Program Manager", "Finance Officer Cum Administrative Officer", "Finance Officer III", "Financial Analyst", "Financial Analyst I", "Financial Analyst II", "Financial Analyst III", "Financial Analyst III (Budget Officer)", "Financial Analyst III (Cash Grants)", "Financial Analyst III/KALAHI CIDSS", "Financial Analyst IV", "Financial Analyst V", "Financial Analyst V (Project Accountant)", "Financial Assistant III", "FMD Chief", "FOCAL PERSON FOR OSEC", "FOR STORAGE", "FPC", "Gender Specialist", "Geodetic Engineer", "GIS Specialist", "Governance Specialist", "Goverment Intership Program", "Greivance Redress System Focal", "Greivance, Admin Officer", "Handicaft Worker II", "Head ", "Head Executive Assistant", "Head, Accounting Section", "Head, RAMS", "Heavy Equipment Operator I", "HMO Inlife Customer Service Representative", "House Attendant ", "Household Attendant III", "Houseparent I", "HOUSEPARENT II", "houseparent III", "Houseparent IV", "HR - Learning and Development", "HR Specialist", "HRMDD CHIEF", "Human Relations Officer I ", "Human Resource Officer", "Human Resource Officer I", "Human Resource Officer II", "Information analyst I", "Information Officer", "Information Officer I", "Information Officer I/Social Pension Program", "Information Officer I/UCT", "Information Officer II", "Information Officer III ", "Information Officer III (Social Marketing Officer III)", "Information Officer IV", "Information Officer V", "Information Specialist Analyst", "Information System Analyst", "Information System Analyst I", "Information System Analyst III", "Information Systems Analyst", "Information Technology Officer (Team Leader)", "Information Technology Officer I", "Information Technology Officer II", "Information Technology Officer III", "Institutional Partnership and Development Officer", "Instructor ", "Inter Auditing Assistant", "Internal Auditor I", "Internal Auditor II", "Internal Auditor III", "Internal Auditor IV", "Internal Auditor V", "IO", "IPDO", "JOB ORDER", "Job Placement Officer", "Junior Capacity Building Specialist", "Junior Community Procurement Specialist", "KALAHI CIDSS - Japan Fund for Proverty Reduction", "KM Writer", "Knowledge Management Writer", "Laundry Worker I ", "Laundry Worker II", "Laundry Worker/Cook", "Laundrywoman", "Legal Assistant I", "Legal Assistant II", "LIBRARIAN I", "Librarian II", "Logistic Officer III", "M & E Assistant III", "M & E I", "M & E II", "M & E Specialist", "M & E IV", "M & E V", "M & E Officer III", "Management and Audit Analyst II", "Management Audit Analyst", "Management Audit Analyst II", "Management Audit Analyst IV", "MANPOWER DEVELOPMENT ASSISTANT ", "Manpower Development Officer I", "Manpower Development Officer II", "Manpower Development Officer III", "MCCT Coordinator", "MDO I / PSYCHOMETRICIAN", "Media Officer IV", "Media Production Specialist", "Media Prodcution Specialist III", "MEDICAL OFFICER", "Medical Officer III", "Medical Officer IV", "MFA", "Midwife I", "Minister of Social Service BARMM", "ML PATNANUNGAN", "MOA", "Monitoring & Evaluation Officer I", "Monitoring & Evaluation Officer II", "Monitoring & Evaluation Officer III", "Monitoring & Evaluation III ", "Monitoring & Evaluation Officer ", "Monitoring & Evaluation Officer III (External)", "Monitoring & Evaluation Officer IV", "Monitoring & Evaluation Officer V", "MRB", "Municipal Financial Analyst", "Municipal Financial Analyst/KALAHI-CIDSS", "Municipal Financial Analyst", "Municipal Link", "Minicipal Link Officer", "Municipal Monitoring ", "Municipal Rooving Bookkeeper", "Municipal Roving Bookkeeper", "Municipal Social Welfare Development Officer", "National Capability Building Specialist", "National Community Infrastructure", "National DRRM Support Coordinator", "National Financial Analyst - KCMCC", "National M & E Specialist", "National Training Officer", "NCDS", "NHTO IT-Division Chief/ITO3", "Nurse I", "Nurse II", "Nutritionist-Dietician I", "Nutritionist-Dietician II", "Nutritionist-Dietician III", "Nutritionist-Dietician V", "OASOPG-PP", "ODM Specialist", "OIC ", "OIC - Director IV", "OIC AUDIT TEAM LEADER", "OIC DIVISION Chief - DReMD", "OIC Head, Property & Supply Section", "OIC - Assistant Regional Director for Operations", "OIC - ASEC - OASOSG", "OIC - Assistant Director", "OIC - Assistant Secretary", "OIC - Assistant Service Director", "OIC-Asst. Secretary for OSG", "OIC - Center Head", "OIC - CHIEF", "OIC Director", "OIC - Division Chief", "OIC - GSD", "OIC - Procurement Unit Head", "OIC - Regional Director", "OIC - USEC", "OIC/Chief", "OJT", "On-the-job Trainee", "Operations Program Focal (PDO II - Municipal Link)", "Organizational Development Specialist III", "Organizational Development Specialist IV", "Organizational Training Specialist IV", "Payapa at Masaganang Pamayanan ", "PDO", "PDO I", "PDO I/FMD Cash Grants ", "PDO I/DRMD ", "PDO I/Grievance Officer", "PDO I/provincial Monitoring Evaluation Officer", "PDO II", "PDO II - System coordinator", "PDO II Municipal link", "PDO II (Case Worker)", "PDO II - BUS", "PDO II - BUS Focal Person", "PDO - Coordination to Partner Agencies", "PDO II - CVS", "PDOII - EPAHPH", "PDO II - GAD", "PDO II - GRS", "PDO II - GRS (Cluster) ", "PDO II - Information II", "PDO II - IP", "PDO II - Monitoring & Evaluation Officer", "PDO II - SWAD TL", "PDO II / Capability building ", "PDO II / DRMD CCAM", "PDO II / ML TUAO, CAGAYAN", "PDO II / Municipal Link, Alicia, Isabela", "PDO II / Municipal Link, Ilagan City, Isabela", "PDO II / RMEO", "PDO II / SLP Batanes", "PDO II / SWAD TL", "PDO II / GRS ", "PDO II Municipal Link, Abulug, Cagayan", "PDO II - Institutional Partnership Development Officer", "PDO II - City link, Tuguegarao City, Cagayan", "PDO II - Cluster Benefeciary Data Officer", "PDO II - MCCT Community Facilitator", "PDO II - Municipal Link", "PDO II - Municipal Link Dupax Del Norte,N.V", "PDO II - Municipal Link, Ambaguio", "PDO II - Municipal Link, Buguey, Cagayan", "PDO II - Municipal Link, Diadi, N.V", "PDO II - Municipal Link, Enrile, Cagayan", "PDO II - Municipal Link, Iguig, Cagayan", "PDO II - Municipal Link, Napagtipunan, Quirino", "PDO II - Municipal Link, Saguday, Quirino", "PDO II - Municipal Link, Dupax Del Sur, N.V", "PDO II - Provincial Systems Focal", "PDO II - Regional Monitoring and Evaluation Officer", "PDO II/PMEO SLP ISABELA", "PDO II/Provincial Coordinator", "PDO II/Child Labord Focal Person", "PDO II/DRMD", "PDO II/DRMD CCAM", "PDO II/Geographic Info.System Specialist", "PDO II/Information Officer", "PDO II/LIQUIDATION FOCAL/RMEF", "PDO II/MCCT San Pablo, Isabela", "PDO II/ML APARRI, CAGAYAN", "PDO II/ML TUAO, CAGAYAN", "PDO II/MUNICIPAL LINK", "PDO II/Municipal Link Bambang, NV", "PDO II/Municipal Link Claveri, Cagayan", "PDO II/Municipal Link Diadi, NV", "PDO II/Municipal Link Dinapigue, Isabela", "PDO II/Municipal Link Gattaran, Cagayan", "PDO II/Municipal Link Kayapa, Nueva Viscaya", "PDO II/Municipal Link Pamplano, Cagayan", "PDO II/Municipal Link Peablanca, Cagayan", "PDO II/Municipal Link Quezon, Nueva Viscaya", "PDO II/Municipal LInk Rizal,Cagayan", "PDO II/Municipal Link Roxas,Isabela", "PDO II/Municipal Link San Isidro, Cagayan", "PDO II/Municipal Link San Isidro, Isabela", "PDO II/Municipal Link Sanchez Mira, Cagayan", "PDO II/Municipal Link Solano,NV", "PDO II/Municipal LInk Sta.Fe,NV", "PDO II/Municipal Link Sta.Praxedes,Cagayan", "PDO II/Municipal Link Sto.Nino,Cagayan", "PDO II/Municipal Link Villaverde", "PDO II/Municipal Link, Aparri,Cagayan", "PDO II/Municipal Link, Buguey, Cagayan", "PDO II/Municipal Link, Burgos, Isabela", "PDO II/Municipal Link, Divilacan, Isabela", "PDO II/Municipal Link, Jones,Isabela", "PDO II/Municipal Link,MACONACON, ISABELA", "PDO II/Municipal Link,SAn Agustin,Isabela", "PDo II/Municipal Link,San Mariano,Isabela", "PDO II/Municipal Link,San Mateo,Isabela", "PDO II/Municipal Link,Tumauini,Isabela", "PDO II/Municipal Link,Divilacan,Isabela", "PDO II/Municipal Link,Echague,Isabela", "PDO II/Municipal Link,Maconacon,Isabela", "PDO II/Municipal Link,San Mariano,Isabela", "PDO II/PMEO ISABELA", "PDO II/PMEO NUEVA VIZCAYA", "PDO II/PMEO QUIRINO", "PDO II/Private Sector Partnership Officer", "PDO II/Provincial Coordinator Isabela, Cagayan", "PDO II/Provincial Coordinator SLP Isabela", "PDO II/Provincial Coordinator SLP Quirino", "PDO II/Reports Generation", "PDO III", "PDO III/Area Coordinator", "PDO III/Area Coordinator", "PDO III/Civil Engineer", "PDO III TEchnical Staff/RSCWC", "PDO III/Area Coordinator", "PDO III/Head, CVRRCY", "PDO III/Reg'l Center Coordinator", "PDO III/RSCWC", "PDO IV", "PDO V/ RPC", "PDO V/Division", "PDO V/Regional Field Coordinator UCT", "PDO-I Social Pension", "PDO-II", "PDO-IIDRMMD", "PEO I", "PEO III", "PGO", "Photographer II", "Physical Therapist II", "Planning Officer I", "Planning Officer II", "Planning Officer III", "Planning Officer IV", "Planning Officer V", "Plumber", "PMEO", "PMO-EE", "Policy and Plans Division Chief", "PPG-OSM", "PPO", "Prisedent - SWEAP", "Private Secretary", "Private Secretary I ", "Procurement Assistant", "Procurement Assistant II", "PROCUREMENT ASST.", "Procurement Development Officer III", "Procurement Officer", "Procurement Specialist", "Profect Development Officer II (DRAFTMAN)", "Program Development III", "Project Evaluation Specialist", "Program Manager", "Program Officer", "Project Coordinator", "Project Development Office III", "Project Development Officer", "Project Development Officer I", "Project Development Officer I - KC", "Project Development Officer I - Nurse", "Project Development Officer I - Nutritionist - Dietician I", "Project Development Officer I/CAMP MANAGERS", "Project Development Officer II", "Project Development Officer II (CVS Focal)", "Project Development Officer II - BP2P", "Project Development Officer II - Database Specialist ", "Project Development Officer II - Infrastructure", "Project Development Officer II/SLP", "Project Development Officer II-CVS Focal (POO 2 Isabela)", "Project Development Officer II - MCCT", "Project Development Officer II - MunicipaL Link", "Project Development Officer II/GRS Focal", "Project Development Officer II/SLP", "Project Development Officer III", "Project Development Officer III - FDS Focal", "Project Development Officer III/Centenarian Focal Person", "Project Development Officer III/Regional Program Coordinator", "Project Development Officer IV ", "Project Development Officer V", "Project Development Officer V (Gender Specialist)", "Project Development Officer V (IP Specialist)", "Project Development Officer V - OIC", "Project Evaluation Officer", "Project Evaluation Officer II", "Project Evaluation Officer III", "Project Evaluation Officer IV", "Project Evaluation Officer V", "Project Management Officer", "Project Manager (UCT)", "Project Manager IV", "Project Officer", "Property Officer/Warehouse", "Provincial AA", "Provincial AA II", "Provincial Bus Officer (PDO II)", "PROVINCIAL CL", "Provinvial Coordinator", "Provinvial CVS Officer (PDO II)", "Provincial Grievance Officer", "Provincial Grievance Officer (PDO II)", "Provincial GRS Officer (PDO II)", "Provincial Link", "Psychologist I", "Psychologist II", "Psychologist III", "Psychometrician I", "Public Relations Officer IV", "Quality Management Specialist", "Records Officer ", "Regional Accountant", "Regional bookkeeper", "Regional capability Building Specialist", "Regional Community Development Specialist", "Regional Community Infrastructure Specialist", "Regional Director", "Regional Driver (KC-NCDDP) ", "Regional Executive Assistant ", "Regional Field Coordinator", "Regional Finance Specialist", "Regional Financial Analyst", "Regional Information Officer", "Regional Information Officer II-Head,SMU", "Regional Information Technology Officer ", "Regional Information Technology Officer I", "Regional Information Technology Officer II", "Regional Infrastructure Assistant", "Regional Infrastructure Officer", "Regional Infrastructure Officer II", "Regional Infrastructure Officer III", "Regional Monitoring And Evaluation Specialist", "Regional Procurement Officer", "Regional Procurement For Program", "Regional Procurement Officer For Program Community", "Regional Program coordinator", "Regional Program Coordinator - KALAHI - CIDSS", "Regional Program Coordinator - Operations", "Regional Sub - Committee for the Welfare of Children (RSCWC)", "Regional Training Assistant", "Regional Training Officer", "Regional Training Officer II", "Regional Training Specialist", "Repacker", "Research Officer III", "RIO III", "Roving Area Coordinator", "Roving Municipal Financial Analyst", "Roving technical Facilitator", "RSCWC - Technical Officer", "SA - IV", "SA - IV Audit Team Leader", "SAO", "SAO/DC", "SAO/OIC-DC", "Social Welfare Assistant - MCCT", "Secretary II", "Section Head", "Security Guard I (CT)", "Security Guard I (ICT)", "Security Guard II", "Security Officer II", "Senior Administrative Assistant I", "Senior Administrative Assistant II", "Senior Administrative Assistant III", "Senior Administrative Assistant IV", "Senior Administrative Assistant V", "Senior Administrative Officer", "Senior Bookkeeper", "Senior Bookkeeper (Admin Asst III)", "Senior M & E Assistant V", "Senior MANPOWER DEVELOPMENT OFFICER II", "Senior Statistician IV", "Senior Technical Officer ", "SGV", "Site Engineer", "Social Marketing Officer", "Social Marketing Officer III", "Social Marketing Officer III/KALAHI-CIDSS", "Social Marketing Specialist", "Social Safeguard Officer", "Social Safeguard Specialist", "Social Welfare Aide", "Social Welfare Assistant", "Social Welfare Assistant - CMU", "Social Welfare Assistant - MCCT IP", "Social Welfare Assistant I", "Social Welfare Assistant II", "Social Welfare Assistant - MCCT", "Social Welfare Attache", "Social Welfare Officer I ", "Social Welfare Officer I - OIC Center Head", "Social Welfare Officer II", "Social Welfare Officer II/EO 70 Focal", "Social Welfare Officer II/Family Focal", "Social Welfare Officer II/SWAD Team Leader", "Social Welfare Officer II/Team Leader", "Social Welfare Officer III", "Social Welfare Officer III-Center Head", "Social Welfare Officer III/Act as PL", "Social Welfare Officer III/TARA Focal", "Social Welfare Officer III/Team Leader", "Social Welfare Officer IV", "Social Welfare Officer IV, OIC-Chief,DReMD", "Social Welfare Officer IV - Center Head", "Social Welfare Officer V", "Social Welfare Officer V/OIC ARDO and Concurrent Head PSD", "Special Investigator III", "SPED TEACHER", "Stakeholder Management and Networking Specialist", "State Auditing Examiner", "State Auditing Examiner II", "State Auditor ", "State Auditor and Examiner ", "State Auditor I", "State Auditor II", "State Auditor III", "State Auditor IV", "State Auditor V", "Statistician", "Statistician Aide", "Statistician Aide II", "Statistician I", "Statistician II", "Statistician III", "Statistician IV", "Stockroom/Warehouse", "Storage Room", "Storekeeper", "Sub-Regional Program Coordinator", "Sub-Regional Project Coordinator", "Supervising Administrative I", "Supervising Administrative V", "Supervising Administrative Officer", "Supervising Administrative Officer - KC - NCDDP", "Supervising Administrative Officer/KALAHI - CIDSS", "Supervising Auditor V", "Supervisor", "Supplier", "Supply Officer I", "Supply Procurement Officer I", "SWA", "SWA - Convergence", "SWA AIDE", "SWA San Juan Batangas", "SWA - CMU", "SWI - III", "SWO - I", "SWO - II", "SWO - II/Women Focal Person", "SWO II - SWAD TL", "SWO II - OIC Center Head", "SWO II/Family Focal Person", "SWO II/Older Per & IISO Focal Person", "SWO II/RRPTP", "SWO II/RRPTP,PWD,PLHIV & Youth Focal Person", "SWO II/Women Focal Person", "SWO III", "SWO III/Head, Social Technology Section", "SWO III/Head, Regional Juvenile Justice and Welfare Council", "SWO III/OIC - SLP RPC", "SWO IV", "SWO IV UCT", "SWO V / Chief, Promotive Services Division", "SWO V / Division Chief", "SWO V / OIC ARD for Operations", "System Analyst II", "System Coordinator", "System Coordinator Officer (PDO II)", "System Coordinator Officer PDO II - BUS", "System Coordinator Officer PDO II - CVS", "System Coordinator Officer PDO II - GRS", "Teach for The Philippines Ambasador", "Teacher", "Teacher I", "Team Leader", "Team Leader SWAD Nueva Viscaya", "Techincal Empowerment facilitator", "Technical Facilitator", "Techinal Facilitator/KALAHI-CIDSS", "Technical Specialist", "Technician ", "Training Assistant II", "Training Center Superintendent II", "Training Specialist I", "Training Specialist II", "Training Specialist III", "Training Specialist IV", "TS IV", "UCT - Regional Field Coordinator", "Undersecretary ", "Undersecretary for Administration", "Utility Worker", "Utility Worker I", "Utility Worker II", "WAREHOUSE", "Warehouseman II"})
         Me.pickEditPosition.Location = New Global.System.Drawing.Point(23, 231)
         Me.pickEditPosition.Name = "pickEditPosition"
-        Me.pickEditPosition.ShadowDecoration.CustomizableEdges = CustomizableEdges93
+        Me.pickEditPosition.ShadowDecoration.CustomizableEdges = CustomizableEdges97
         Me.pickEditPosition.Size = New Global.System.Drawing.Size(303, 36)
         Me.pickEditPosition.TabIndex = 2
         Me.pickEditPosition.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -2123,7 +2123,7 @@ Partial Class admindash
         ' 
         Me.pickEditOffice.BackColor = Global.System.Drawing.Color.Transparent
         Me.pickEditOffice.BorderRadius = 5
-        Me.pickEditOffice.CustomizableEdges = CustomizableEdges94
+        Me.pickEditOffice.CustomizableEdges = CustomizableEdges98
         Me.pickEditOffice.DrawMode = Global.System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.pickEditOffice.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.pickEditOffice.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
@@ -2134,7 +2134,7 @@ Partial Class admindash
         Me.pickEditOffice.Items.AddRange(New System.Object() {"4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
         Me.pickEditOffice.Location = New Global.System.Drawing.Point(23, 68)
         Me.pickEditOffice.Name = "pickEditOffice"
-        Me.pickEditOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges95
+        Me.pickEditOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges99
         Me.pickEditOffice.Size = New Global.System.Drawing.Size(303, 36)
         Me.pickEditOffice.TabIndex = 1
         Me.pickEditOffice.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -2187,29 +2187,29 @@ Partial Class admindash
         ' 
         Me.dgMembers.AllowUserToAddRows = False
         Me.dgMembers.AllowUserToDeleteRows = False
-        DataGridViewCellStyle5.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(194))), CInt(CByte(CByte(200))), CInt(CByte(CByte(207))))
-        Me.dgMembers.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
-        DataGridViewCellStyle6.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(52))), CInt(CByte(CByte(73))), CInt(CByte(CByte(94))))
-        DataGridViewCellStyle6.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9.25F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        DataGridViewCellStyle6.ForeColor = Global.System.Drawing.Color.White
-        DataGridViewCellStyle6.SelectionBackColor = Global.System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle6.SelectionForeColor = Global.System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle6.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[True]
-        Me.dgMembers.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle1.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(194))), CInt(CByte(CByte(200))), CInt(CByte(CByte(207))))
+        Me.dgMembers.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(52))), CInt(CByte(CByte(73))), CInt(CByte(CByte(94))))
+        DataGridViewCellStyle2.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9.25F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle2.ForeColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = Global.System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = Global.System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgMembers.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.dgMembers.ColumnHeadersHeight = 32
         Me.dgMembers.ColumnHeadersHeightSizeMode = Global.System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         Me.dgMembers.Columns.AddRange(New Global.System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.Column1, Me.Column2})
         Me.dgMembers.Cursor = Global.System.Windows.Forms.Cursors.Hand
-        DataGridViewCellStyle7.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle7.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(214))), CInt(CByte(CByte(218))), CInt(CByte(CByte(223))))
-        DataGridViewCellStyle7.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9.25F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
-        DataGridViewCellStyle7.ForeColor = Global.System.Drawing.Color.Black
-        DataGridViewCellStyle7.Padding = New Global.System.Windows.Forms.Padding(4)
-        DataGridViewCellStyle7.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(119))), CInt(CByte(CByte(133))), CInt(CByte(CByte(147))))
-        DataGridViewCellStyle7.SelectionForeColor = Global.System.Drawing.Color.White
-        DataGridViewCellStyle7.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[False]
-        Me.dgMembers.DefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle3.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(214))), CInt(CByte(CByte(218))), CInt(CByte(CByte(223))))
+        DataGridViewCellStyle3.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9.25F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle3.ForeColor = Global.System.Drawing.Color.Black
+        DataGridViewCellStyle3.Padding = New Global.System.Windows.Forms.Padding(4)
+        DataGridViewCellStyle3.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(119))), CInt(CByte(CByte(133))), CInt(CByte(CByte(147))))
+        DataGridViewCellStyle3.SelectionForeColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle3.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgMembers.DefaultCellStyle = DataGridViewCellStyle3
         Me.dgMembers.GridColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(193))), CInt(CByte(CByte(199))), CInt(CByte(CByte(206))))
         Me.dgMembers.Location = New Global.System.Drawing.Point(21, 140)
         Me.dgMembers.Name = "dgMembers"
@@ -2320,7 +2320,7 @@ Partial Class admindash
         ' txtSearch
         ' 
         Me.txtSearch.BorderRadius = 5
-        Me.txtSearch.CustomizableEdges = CustomizableEdges96
+        Me.txtSearch.CustomizableEdges = CustomizableEdges48
         Me.txtSearch.DefaultText = ""
         Me.txtSearch.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
         Me.txtSearch.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
@@ -2336,7 +2336,7 @@ Partial Class admindash
         Me.txtSearch.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
         Me.txtSearch.PlaceholderText = ""
         Me.txtSearch.SelectedText = ""
-        Me.txtSearch.ShadowDecoration.CustomizableEdges = CustomizableEdges97
+        Me.txtSearch.ShadowDecoration.CustomizableEdges = CustomizableEdges49
         Me.txtSearch.Size = New Global.System.Drawing.Size(323, 36)
         Me.txtSearch.TabIndex = 12
         Me.txtSearch.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
@@ -2345,7 +2345,7 @@ Partial Class admindash
         ' 
         Me.pickOffice.BackColor = Global.System.Drawing.Color.Transparent
         Me.pickOffice.BorderRadius = 5
-        Me.pickOffice.CustomizableEdges = CustomizableEdges98
+        Me.pickOffice.CustomizableEdges = CustomizableEdges50
         Me.pickOffice.DrawMode = Global.System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.pickOffice.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.pickOffice.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
@@ -2356,7 +2356,7 @@ Partial Class admindash
         Me.pickOffice.Items.AddRange(New System.Object() {"All", "4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
         Me.pickOffice.Location = New Global.System.Drawing.Point(681, 90)
         Me.pickOffice.Name = "pickOffice"
-        Me.pickOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges99
+        Me.pickOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges51
         Me.pickOffice.Size = New Global.System.Drawing.Size(323, 36)
         Me.pickOffice.TabIndex = 15
         ' 
