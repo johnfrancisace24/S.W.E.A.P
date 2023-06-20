@@ -349,4 +349,16 @@ Public Class admindash
         End If
     End Sub
 
+    '------------------------------------------------------CONTRIBUTIONS TAB-----------------------------------------------------------
+    Private Sub btnEditContri_Click(sender As Object, e As EventArgs) Handles btnEditContri.Click
+        Loan.tabconLoan.SelectedTab = Loan.contribution
+        Loan.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub btnLoan_Click(sender As Object, e As EventArgs) Handles btnLoan.Click
+        Loan.tabconLoan.SelectedTab = Loan.viewLoan
+        Loan.Show()
+        Me.Close()
+    End Sub
 End Class
