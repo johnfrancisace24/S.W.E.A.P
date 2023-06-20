@@ -7,11 +7,29 @@ Public Class Userdash
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim dr As MySqlDataReader
 
+    Private isPanelVisible As Boolean = False
+    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
+        If isPanelVisible Then
+            Panel6.Visible = False
+            isPanelVisible = False
+        Else
+            Panel6.Visible = True
+            isPanelVisible = True
+        End If
+    End Sub
+    Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Guna2Button6.Click
+        pnlAccount.Visible = True
+        pnlProfile.Hide()
+        pnlDash.Hide()
+        pnlContribute.Hide()
+    End Sub
     Private Sub Userdash_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         pnlDash.Visible = True
         pnlProfile.Hide()
         pnlAccount.Hide()
         pnlContribute.Hide()
+        Panel6.Hide()
+
         DG_Load()
     End Sub
     Private Sub bttnDash_Click(sender As Object, e As EventArgs) Handles bttnDash.Click
@@ -28,13 +46,6 @@ Public Class Userdash
         Get_info()
     End Sub
 
-    Private Sub bttnAcc_Click(sender As Object, e As EventArgs) Handles bttnAcc.Click
-        pnlAccount.Visible = True
-        pnlProfile.Hide()
-        pnlDash.Hide()
-        pnlContribute.Hide()
-    End Sub
-
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
         pnlContribute.Visible = True
         pnlProfile.Hide()
@@ -42,15 +53,6 @@ Public Class Userdash
         pnlAccount.Hide()
 
         DG_Load()
-    End Sub
-    Private Sub bttnLogout_Click(sender As Object, e As EventArgs) Handles bttnLogout.Click
-        Dim AnswerYes As String
-        AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "User Repsonse")
-
-        If AnswerYes = vbYes Then
-            Form2.Show()
-            Me.Hide()
-        End If
     End Sub
 
     Private Sub search_TextChanged(sender As Object, e As EventArgs) Handles search.TextChanged
@@ -115,7 +117,7 @@ Public Class Userdash
 
                 lblFname.Text = dr.GetString("fullName")
                 lblPosition.Text = dr.GetString("position")
-                lblFirst.Text = Gooday
+                lblFirsts.Text = Gooday
 
                 Pfname.Text = dr.GetString("fullName")
                 Padd.Text = dr.GetString("address")
@@ -308,7 +310,15 @@ Public Class Userdash
 
     End Sub
 
-    Private Sub lblFname_Click(sender As Object, e As EventArgs) Handles lblFname.Click
+    Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
+        Dim AnswerYes As String
+        AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "User Repsonse")
 
+        If AnswerYes = vbYes Then
+            Form2.Show()
+            Me.Hide()
+        End If
     End Sub
+
+
 End Class
