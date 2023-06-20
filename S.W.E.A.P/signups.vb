@@ -161,7 +161,7 @@ Public Class signups
             '------------------------------------------------------------------------------------------
             Try
                 conn.Open()
-                Dim cmd As New MySqlCommand("insert into users(username, password, first_name, middle_name, last_name, position, image, is_admin, created_at, updated_at)values(@UNAME, @PW, @FNAME, @MNAME, @LNAME, @POS, @IMG, 0, now(), now());
+                Dim cmd As New MySqlCommand("insert into users(username, password, first_name, middle_name, last_name, sex, position, image, is_admin, created_at, updated_at)values(@UNAME, @PW, @FNAME, @MNAME, @LNAME,@sex, @POS, @IMG, 0, now(), now());
                                          insert into user_info(user_id, address, contact, email, educational, birthdate, office, employment_status, committee)values(last_insert_id(), @ADRS, @CONTACT, @EMAIL, @EDUC, @BDAY, @OFFICE, @EMTYPE, @COMM);
                                          insert into beneficiaries(user_id, full_name, relationship, age)values((select id from users where username=@HOOK), @BNAME1, @BREL1, @BAGE1);", conn)
                 cmd.Parameters.AddWithValue("@UNAME", txtbxUser.Text)
@@ -169,6 +169,7 @@ Public Class signups
                 cmd.Parameters.AddWithValue("@FNAME", txtFname.Text)
                 cmd.Parameters.AddWithValue("@MNAME", txtMname.Text)
                 cmd.Parameters.AddWithValue("@LNAME", txtLname.Text)
+                cmd.Parameters.AddWithValue("@sex", pickSex.SelectedItem)
                 cmd.Parameters.AddWithValue("@POS", comboPos.SelectedItem)
                 cmd.Parameters.AddWithValue("@IMG", imageInput)
                 cmd.Parameters.AddWithValue("@ADRS", txtAddress.Text)
@@ -184,7 +185,7 @@ Public Class signups
                 cmd.Parameters.AddWithValue("@BAGE1", txtBA1.Text)
                 cmd.Parameters.AddWithValue("@HOOK", txtbxUser.Text)
                 cmd.ExecuteNonQuery()
-                MsgBox("Registered na yieee!")
+                MsgBox("Creating Account Succeeded")
             Catch ex As Exception
                 MsgBox("Create account failed.")
             Finally
