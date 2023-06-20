@@ -208,7 +208,7 @@ Public Class admindash
 
     Private Sub dgSchedule_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgMembers.CellClick
         selectedId = dgMembers.CurrentRow.Cells(0).Value.ToString()
-        If e.ColumnIndex = 7 AndAlso e.RowIndex >= 0 Then '----------------FOR EDIT
+        If e.ColumnIndex = 6 AndAlso e.RowIndex >= 0 Then '----------------FOR EDIT
 
             Dim selectedId As Integer = dgMembers.CurrentRow.Cells(0).Value.ToString()
             other.Enabled = False
@@ -251,7 +251,7 @@ Public Class admindash
             Finally
                 conn.Close()
             End Try
-        ElseIf e.ColumnIndex = 8 AndAlso e.RowIndex >= 0 Then '-------------FOR DELETE
+        ElseIf e.ColumnIndex = 7 AndAlso e.RowIndex >= 0 Then '-------------FOR DELETE
             Dim result As DialogResult = MessageBox.Show("Are you sure you want to delete" & dgMembers.CurrentRow.Cells(1).Value.ToString() & "?", "Confirmation", MessageBoxButtons.YesNo)
             If result = DialogResult.Yes Then
                 Dim selectedId As Integer = dgMembers.CurrentRow.Cells(0).Value.ToString()
@@ -317,4 +317,5 @@ Public Class admindash
     Private Sub btnEmBack2_Click(sender As Object, e As EventArgs) Handles btnEmBack2.Click
         tabEditMember.SelectedTab = personal
     End Sub
+
 End Class
