@@ -73,10 +73,28 @@ Partial Class Loan
         Dim DataGridViewCellStyle13 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle14 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle15 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
-        Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
-        TabPage1 = New TabPage()
+        tabconLoan = New Guna.UI2.WinForms.Guna2TabControl()
+        addLoan = New TabPage()
         Panel3 = New Panel()
         btnSelectName = New Guna.UI2.WinForms.Guna2Button()
         btnReset = New Guna.UI2.WinForms.Guna2Button()
@@ -131,7 +149,8 @@ Partial Class Loan
         Column8 = New DataGridViewTextBoxColumn()
         Column9 = New DataGridViewTextBoxColumn()
         Column10 = New DataGridViewTextBoxColumn()
-        TabPage2 = New TabPage()
+        viewLoan = New TabPage()
+        Panel7 = New Panel()
         Panel6 = New Panel()
         Label20 = New Label()
         dgLoanSchedule = New Guna.UI2.WinForms.Guna2DataGridView()
@@ -163,11 +182,34 @@ Partial Class Loan
         Column33 = New DataGridViewTextBoxColumn()
         Column34 = New DataGridViewTextBoxColumn()
         Column35 = New DataGridViewImageColumn()
+        contribution = New TabPage()
+        Panel9 = New Panel()
+        Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
+        Label25 = New Label()
+        Label26 = New Label()
+        Guna2NumericUpDown2 = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        Panel10 = New Panel()
+        Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
+        Guna2ComboBox2 = New Guna.UI2.WinForms.Guna2ComboBox()
+        Label24 = New Label()
+        Label29 = New Label()
+        Label31 = New Label()
+        Label30 = New Label()
+        Label27 = New Label()
+        Label28 = New Label()
+        Guna2NumericUpDown4 = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        Guna2NumericUpDown3 = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        Panel8 = New Panel()
+        Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Guna2ComboBox1 = New Guna.UI2.WinForms.Guna2ComboBox()
+        Label23 = New Label()
+        Label22 = New Label()
+        Label21 = New Label()
+        Guna2NumericUpDown1 = New Guna.UI2.WinForms.Guna2NumericUpDown()
         Label13 = New Label()
         Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
-        Panel7 = New Panel()
-        Guna2TabControl1.SuspendLayout()
-        TabPage1.SuspendLayout()
+        tabconLoan.SuspendLayout()
+        addLoan.SuspendLayout()
         Panel3.SuspendLayout()
         Panel2.SuspendLayout()
         CType(numXtraP, ComponentModel.ISupportInitialize).BeginInit()
@@ -179,63 +221,72 @@ Partial Class Loan
         pnlSelectLender.SuspendLayout()
         CType(dgSelectEm, ComponentModel.ISupportInitialize).BeginInit()
         CType(dgSchedule, ComponentModel.ISupportInitialize).BeginInit()
-        TabPage2.SuspendLayout()
+        viewLoan.SuspendLayout()
         Panel6.SuspendLayout()
         CType(dgLoanSchedule, ComponentModel.ISupportInitialize).BeginInit()
         Panel5.SuspendLayout()
         CType(dgLoans, ComponentModel.ISupportInitialize).BeginInit()
         Panel4.SuspendLayout()
         CType(dgEmList, ComponentModel.ISupportInitialize).BeginInit()
+        contribution.SuspendLayout()
+        Panel9.SuspendLayout()
+        CType(Guna2NumericUpDown2, ComponentModel.ISupportInitialize).BeginInit()
+        Panel10.SuspendLayout()
+        CType(Guna2NumericUpDown4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Guna2NumericUpDown3, ComponentModel.ISupportInitialize).BeginInit()
+        Panel8.SuspendLayout()
+        CType(Guna2NumericUpDown1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
         ' 
         Guna2Elipse1.TargetControl = Me
         ' 
-        ' Guna2TabControl1
+        ' tabconLoan
         ' 
-        Guna2TabControl1.Controls.Add(TabPage1)
-        Guna2TabControl1.Controls.Add(TabPage2)
-        Guna2TabControl1.Cursor = Cursors.Hand
-        Guna2TabControl1.ItemSize = New Size(180, 40)
-        Guna2TabControl1.Location = New Point(0, 53)
-        Guna2TabControl1.Name = "Guna2TabControl1"
-        Guna2TabControl1.SelectedIndex = 0
-        Guna2TabControl1.Size = New Size(1190, 711)
-        Guna2TabControl1.TabButtonHoverState.BorderColor = Color.Empty
-        Guna2TabControl1.TabButtonHoverState.FillColor = Color.FromArgb(CByte(40), CByte(52), CByte(70))
-        Guna2TabControl1.TabButtonHoverState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TabControl1.TabButtonHoverState.ForeColor = Color.White
-        Guna2TabControl1.TabButtonHoverState.InnerColor = Color.FromArgb(CByte(40), CByte(52), CByte(70))
-        Guna2TabControl1.TabButtonIdleState.BorderColor = Color.Empty
-        Guna2TabControl1.TabButtonIdleState.FillColor = Color.FromArgb(CByte(29), CByte(37), CByte(49))
-        Guna2TabControl1.TabButtonIdleState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TabControl1.TabButtonIdleState.ForeColor = Color.WhiteSmoke
-        Guna2TabControl1.TabButtonIdleState.InnerColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
-        Guna2TabControl1.TabButtonSelectedState.BorderColor = Color.Empty
-        Guna2TabControl1.TabButtonSelectedState.FillColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
-        Guna2TabControl1.TabButtonSelectedState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2TabControl1.TabButtonSelectedState.ForeColor = Color.FromArgb(CByte(167), CByte(41), CByte(36))
-        Guna2TabControl1.TabButtonSelectedState.InnerColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
-        Guna2TabControl1.TabButtonSize = New Size(180, 40)
-        Guna2TabControl1.TabIndex = 0
-        Guna2TabControl1.TabMenuBackColor = Color.FromArgb(CByte(29), CByte(37), CByte(49))
-        Guna2TabControl1.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop
+        tabconLoan.Controls.Add(addLoan)
+        tabconLoan.Controls.Add(viewLoan)
+        tabconLoan.Controls.Add(contribution)
+        tabconLoan.Cursor = Cursors.Hand
+        tabconLoan.ItemSize = New Size(180, 40)
+        tabconLoan.Location = New Point(0, 53)
+        tabconLoan.Name = "tabconLoan"
+        tabconLoan.SelectedIndex = 0
+        tabconLoan.Size = New Size(1190, 711)
+        tabconLoan.TabButtonHoverState.BorderColor = Color.Empty
+        tabconLoan.TabButtonHoverState.FillColor = Color.FromArgb(CByte(40), CByte(52), CByte(70))
+        tabconLoan.TabButtonHoverState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        tabconLoan.TabButtonHoverState.ForeColor = Color.White
+        tabconLoan.TabButtonHoverState.InnerColor = Color.FromArgb(CByte(40), CByte(52), CByte(70))
+        tabconLoan.TabButtonIdleState.BorderColor = Color.Empty
+        tabconLoan.TabButtonIdleState.FillColor = Color.FromArgb(CByte(29), CByte(37), CByte(49))
+        tabconLoan.TabButtonIdleState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        tabconLoan.TabButtonIdleState.ForeColor = Color.WhiteSmoke
+        tabconLoan.TabButtonIdleState.InnerColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
+        tabconLoan.TabButtonSelectedState.BorderColor = Color.Empty
+        tabconLoan.TabButtonSelectedState.FillColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
+        tabconLoan.TabButtonSelectedState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point)
+        tabconLoan.TabButtonSelectedState.ForeColor = Color.FromArgb(CByte(167), CByte(41), CByte(36))
+        tabconLoan.TabButtonSelectedState.InnerColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
+        tabconLoan.TabButtonSize = New Size(180, 40)
+        tabconLoan.TabIndex = 0
+        tabconLoan.TabMenuBackColor = Color.FromArgb(CByte(29), CByte(37), CByte(49))
+        tabconLoan.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop
         ' 
-        ' TabPage1
+        ' addLoan
         ' 
-        TabPage1.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
-        TabPage1.Controls.Add(Panel3)
-        TabPage1.Controls.Add(Panel2)
-        TabPage1.Controls.Add(Panel1)
-        TabPage1.Controls.Add(pnlSelectLender)
-        TabPage1.Controls.Add(dgSchedule)
-        TabPage1.Location = New Point(4, 44)
-        TabPage1.Name = "TabPage1"
-        TabPage1.Padding = New Padding(3)
-        TabPage1.Size = New Size(1182, 663)
-        TabPage1.TabIndex = 0
-        TabPage1.Text = "Add Loan"
+        addLoan.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
+        addLoan.Controls.Add(Panel3)
+        addLoan.Controls.Add(Panel2)
+        addLoan.Controls.Add(Panel1)
+        addLoan.Controls.Add(pnlSelectLender)
+        addLoan.Controls.Add(dgSchedule)
+        addLoan.Location = New Point(4, 44)
+        addLoan.Name = "addLoan"
+        addLoan.Padding = New Padding(3)
+        addLoan.Size = New Size(1182, 663)
+        addLoan.TabIndex = 0
+        addLoan.Text = "Add Loan"
         ' 
         ' Panel3
         ' 
@@ -986,19 +1037,27 @@ Partial Class Loan
         Column10.Name = "Column10"
         Column10.ReadOnly = True
         ' 
-        ' TabPage2
+        ' viewLoan
         ' 
-        TabPage2.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
-        TabPage2.Controls.Add(Panel7)
-        TabPage2.Controls.Add(Panel6)
-        TabPage2.Controls.Add(Panel5)
-        TabPage2.Controls.Add(Panel4)
-        TabPage2.Location = New Point(4, 44)
-        TabPage2.Name = "TabPage2"
-        TabPage2.Padding = New Padding(3)
-        TabPage2.Size = New Size(1182, 663)
-        TabPage2.TabIndex = 1
-        TabPage2.Text = "View Loan Schedule"
+        viewLoan.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
+        viewLoan.Controls.Add(Panel7)
+        viewLoan.Controls.Add(Panel6)
+        viewLoan.Controls.Add(Panel5)
+        viewLoan.Controls.Add(Panel4)
+        viewLoan.Location = New Point(4, 44)
+        viewLoan.Name = "viewLoan"
+        viewLoan.Padding = New Padding(3)
+        viewLoan.Size = New Size(1182, 663)
+        viewLoan.TabIndex = 1
+        viewLoan.Text = "View Loan Schedule"
+        ' 
+        ' Panel7
+        ' 
+        Panel7.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel7.Location = New Point(414, 17)
+        Panel7.Name = "Panel7"
+        Panel7.Size = New Size(752, 120)
+        Panel7.TabIndex = 7
         ' 
         ' Panel6
         ' 
@@ -1401,6 +1460,301 @@ Partial Class Loan
         Column35.ReadOnly = True
         Column35.Width = 30
         ' 
+        ' contribution
+        ' 
+        contribution.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
+        contribution.Controls.Add(Panel9)
+        contribution.Controls.Add(Panel10)
+        contribution.Controls.Add(Panel8)
+        contribution.Location = New Point(4, 44)
+        contribution.Name = "contribution"
+        contribution.Padding = New Padding(3)
+        contribution.Size = New Size(1182, 663)
+        contribution.TabIndex = 2
+        contribution.Text = "Update Contribution"
+        ' 
+        ' Panel9
+        ' 
+        Panel9.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel9.Controls.Add(Guna2Button3)
+        Panel9.Controls.Add(Label25)
+        Panel9.Controls.Add(Label26)
+        Panel9.Controls.Add(Guna2NumericUpDown2)
+        Panel9.Location = New Point(290, 24)
+        Panel9.Name = "Panel9"
+        Panel9.Size = New Size(277, 208)
+        Panel9.TabIndex = 0
+        ' 
+        ' Guna2Button3
+        ' 
+        Guna2Button3.CustomizableEdges = CustomizableEdges37
+        Guna2Button3.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button3.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button3.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Guna2Button3.ForeColor = Color.White
+        Guna2Button3.Location = New Point(24, 140)
+        Guna2Button3.Name = "Guna2Button3"
+        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges38
+        Guna2Button3.Size = New Size(228, 38)
+        Guna2Button3.TabIndex = 1
+        Guna2Button3.Text = "UPDATE"
+        ' 
+        ' Label25
+        ' 
+        Label25.AutoSize = True
+        Label25.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Label25.Location = New Point(24, 81)
+        Label25.Name = "Label25"
+        Label25.Size = New Size(62, 19)
+        Label25.TabIndex = 3
+        Label25.Text = "Amount:"
+        ' 
+        ' Label26
+        ' 
+        Label26.AutoSize = True
+        Label26.Font = New Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label26.Location = New Point(78, 15)
+        Label26.Name = "Label26"
+        Label26.Size = New Size(124, 25)
+        Label26.TabIndex = 3
+        Label26.Text = "MEMBER FEE"
+        ' 
+        ' Guna2NumericUpDown2
+        ' 
+        Guna2NumericUpDown2.BackColor = Color.Transparent
+        Guna2NumericUpDown2.CustomizableEdges = CustomizableEdges39
+        Guna2NumericUpDown2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2NumericUpDown2.Location = New Point(99, 73)
+        Guna2NumericUpDown2.Name = "Guna2NumericUpDown2"
+        Guna2NumericUpDown2.ShadowDecoration.CustomizableEdges = CustomizableEdges40
+        Guna2NumericUpDown2.Size = New Size(153, 36)
+        Guna2NumericUpDown2.TabIndex = 1
+        ' 
+        ' Panel10
+        ' 
+        Panel10.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel10.Controls.Add(Guna2Button2)
+        Panel10.Controls.Add(Guna2ComboBox2)
+        Panel10.Controls.Add(Label24)
+        Panel10.Controls.Add(Label29)
+        Panel10.Controls.Add(Label31)
+        Panel10.Controls.Add(Label30)
+        Panel10.Controls.Add(Label27)
+        Panel10.Controls.Add(Label28)
+        Panel10.Controls.Add(Guna2NumericUpDown4)
+        Panel10.Controls.Add(Guna2NumericUpDown3)
+        Panel10.Location = New Point(882, 24)
+        Panel10.Name = "Panel10"
+        Panel10.Size = New Size(277, 371)
+        Panel10.TabIndex = 0
+        ' 
+        ' Guna2Button2
+        ' 
+        Guna2Button2.CustomizableEdges = CustomizableEdges41
+        Guna2Button2.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button2.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Guna2Button2.ForeColor = Color.White
+        Guna2Button2.Location = New Point(25, 310)
+        Guna2Button2.Name = "Guna2Button2"
+        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges42
+        Guna2Button2.Size = New Size(228, 38)
+        Guna2Button2.TabIndex = 1
+        Guna2Button2.Text = "UPDATE"
+        ' 
+        ' Guna2ComboBox2
+        ' 
+        Guna2ComboBox2.BackColor = Color.Transparent
+        Guna2ComboBox2.CustomizableEdges = CustomizableEdges43
+        Guna2ComboBox2.DrawMode = DrawMode.OwnerDrawFixed
+        Guna2ComboBox2.DropDownStyle = ComboBoxStyle.DropDownList
+        Guna2ComboBox2.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2ComboBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2ComboBox2.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2ComboBox2.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        Guna2ComboBox2.ItemHeight = 30
+        Guna2ComboBox2.Items.AddRange(New Object() {"Daily", "Weekly", "Monthly", "Anually"})
+        Guna2ComboBox2.Location = New Point(98, 246)
+        Guna2ComboBox2.Name = "Guna2ComboBox2"
+        Guna2ComboBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges44
+        Guna2ComboBox2.Size = New Size(153, 36)
+        Guna2ComboBox2.TabIndex = 2
+        ' 
+        ' Label24
+        ' 
+        Label24.AutoSize = True
+        Label24.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Label24.Location = New Point(23, 254)
+        Label24.Name = "Label24"
+        Label24.Size = New Size(50, 19)
+        Label24.TabIndex = 3
+        Label24.Text = "Period:"
+        ' 
+        ' Label29
+        ' 
+        Label29.AutoSize = True
+        Label29.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Label29.Location = New Point(23, 189)
+        Label29.Name = "Label29"
+        Label29.Size = New Size(62, 19)
+        Label29.TabIndex = 3
+        Label29.Text = "Amount:"
+        ' 
+        ' Label31
+        ' 
+        Label31.AutoSize = True
+        Label31.Font = New Font("Segoe UI", 10F, FontStyle.Italic, GraphicsUnit.Point)
+        Label31.Location = New Point(164, 156)
+        Label31.Name = "Label31"
+        Label31.Size = New Size(87, 19)
+        Label31.TabIndex = 3
+        Label31.Text = "DEPENDENT"
+        ' 
+        ' Label30
+        ' 
+        Label30.AutoSize = True
+        Label30.Font = New Font("Segoe UI", 10F, FontStyle.Italic, GraphicsUnit.Point)
+        Label30.Location = New Point(190, 67)
+        Label30.Name = "Label30"
+        Label30.Size = New Size(61, 19)
+        Label30.TabIndex = 3
+        Label30.Text = "MEMBER"
+        ' 
+        ' Label27
+        ' 
+        Label27.AutoSize = True
+        Label27.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Label27.Location = New Point(23, 100)
+        Label27.Name = "Label27"
+        Label27.Size = New Size(62, 19)
+        Label27.TabIndex = 3
+        Label27.Text = "Amount:"
+        ' 
+        ' Label28
+        ' 
+        Label28.AutoSize = True
+        Label28.Font = New Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label28.Location = New Point(108, 15)
+        Label28.Name = "Label28"
+        Label28.Size = New Size(60, 25)
+        Label28.TabIndex = 3
+        Label28.Text = "B.A.P."
+        ' 
+        ' Guna2NumericUpDown4
+        ' 
+        Guna2NumericUpDown4.BackColor = Color.Transparent
+        Guna2NumericUpDown4.CustomizableEdges = CustomizableEdges45
+        Guna2NumericUpDown4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2NumericUpDown4.Location = New Point(98, 181)
+        Guna2NumericUpDown4.Name = "Guna2NumericUpDown4"
+        Guna2NumericUpDown4.ShadowDecoration.CustomizableEdges = CustomizableEdges46
+        Guna2NumericUpDown4.Size = New Size(153, 36)
+        Guna2NumericUpDown4.TabIndex = 1
+        ' 
+        ' Guna2NumericUpDown3
+        ' 
+        Guna2NumericUpDown3.BackColor = Color.Transparent
+        Guna2NumericUpDown3.CustomizableEdges = CustomizableEdges47
+        Guna2NumericUpDown3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2NumericUpDown3.Location = New Point(98, 92)
+        Guna2NumericUpDown3.Name = "Guna2NumericUpDown3"
+        Guna2NumericUpDown3.ShadowDecoration.CustomizableEdges = CustomizableEdges48
+        Guna2NumericUpDown3.Size = New Size(153, 36)
+        Guna2NumericUpDown3.TabIndex = 1
+        ' 
+        ' Panel8
+        ' 
+        Panel8.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel8.Controls.Add(Guna2Button1)
+        Panel8.Controls.Add(Guna2ComboBox1)
+        Panel8.Controls.Add(Label23)
+        Panel8.Controls.Add(Label22)
+        Panel8.Controls.Add(Label21)
+        Panel8.Controls.Add(Guna2NumericUpDown1)
+        Panel8.Location = New Point(586, 24)
+        Panel8.Name = "Panel8"
+        Panel8.Size = New Size(277, 273)
+        Panel8.TabIndex = 0
+        ' 
+        ' Guna2Button1
+        ' 
+        Guna2Button1.CustomizableEdges = CustomizableEdges49
+        Guna2Button1.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Guna2Button1.ForeColor = Color.White
+        Guna2Button1.Location = New Point(25, 213)
+        Guna2Button1.Name = "Guna2Button1"
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges50
+        Guna2Button1.Size = New Size(228, 38)
+        Guna2Button1.TabIndex = 1
+        Guna2Button1.Text = "UPDATE"
+        ' 
+        ' Guna2ComboBox1
+        ' 
+        Guna2ComboBox1.BackColor = Color.Transparent
+        Guna2ComboBox1.CustomizableEdges = CustomizableEdges51
+        Guna2ComboBox1.DrawMode = DrawMode.OwnerDrawFixed
+        Guna2ComboBox1.DropDownStyle = ComboBoxStyle.DropDownList
+        Guna2ComboBox1.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2ComboBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2ComboBox1.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2ComboBox1.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        Guna2ComboBox1.ItemHeight = 30
+        Guna2ComboBox1.Items.AddRange(New Object() {"Daily", "Weekly", "Monthly", "Anually"})
+        Guna2ComboBox1.Location = New Point(100, 140)
+        Guna2ComboBox1.Name = "Guna2ComboBox1"
+        Guna2ComboBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges52
+        Guna2ComboBox1.Size = New Size(153, 36)
+        Guna2ComboBox1.TabIndex = 2
+        ' 
+        ' Label23
+        ' 
+        Label23.AutoSize = True
+        Label23.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Label23.Location = New Point(25, 148)
+        Label23.Name = "Label23"
+        Label23.Size = New Size(50, 19)
+        Label23.TabIndex = 3
+        Label23.Text = "Period:"
+        ' 
+        ' Label22
+        ' 
+        Label22.AutoSize = True
+        Label22.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Label22.Location = New Point(25, 81)
+        Label22.Name = "Label22"
+        Label22.Size = New Size(62, 19)
+        Label22.TabIndex = 3
+        Label22.Text = "Amount:"
+        ' 
+        ' Label21
+        ' 
+        Label21.AutoSize = True
+        Label21.Font = New Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label21.Location = New Point(78, 15)
+        Label21.Name = "Label21"
+        Label21.Size = New Size(114, 25)
+        Label21.TabIndex = 3
+        Label21.Text = "UNION DUE"
+        ' 
+        ' Guna2NumericUpDown1
+        ' 
+        Guna2NumericUpDown1.BackColor = Color.Transparent
+        Guna2NumericUpDown1.CustomizableEdges = CustomizableEdges53
+        Guna2NumericUpDown1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2NumericUpDown1.Location = New Point(100, 73)
+        Guna2NumericUpDown1.Name = "Guna2NumericUpDown1"
+        Guna2NumericUpDown1.ShadowDecoration.CustomizableEdges = CustomizableEdges54
+        Guna2NumericUpDown1.Size = New Size(153, 36)
+        Guna2NumericUpDown1.TabIndex = 1
+        ' 
         ' Label13
         ' 
         Label13.AutoSize = True
@@ -1430,14 +1784,6 @@ Partial Class Loan
         Guna2CircleButton1.Size = New Size(45, 39)
         Guna2CircleButton1.TabIndex = 3
         ' 
-        ' Panel7
-        ' 
-        Panel7.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Panel7.Location = New Point(414, 17)
-        Panel7.Name = "Panel7"
-        Panel7.Size = New Size(752, 120)
-        Panel7.TabIndex = 7
-        ' 
         ' Loan
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -1445,14 +1791,14 @@ Partial Class Loan
         BackColor = Color.FromArgb(CByte(167), CByte(41), CByte(36))
         ClientSize = New Size(1190, 764)
         Controls.Add(Guna2CircleButton1)
-        Controls.Add(Guna2TabControl1)
+        Controls.Add(tabconLoan)
         Controls.Add(Label13)
         FormBorderStyle = FormBorderStyle.None
         Name = "Loan"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Form2"
-        Guna2TabControl1.ResumeLayout(False)
-        TabPage1.ResumeLayout(False)
+        tabconLoan.ResumeLayout(False)
+        addLoan.ResumeLayout(False)
         Panel3.ResumeLayout(False)
         Panel3.PerformLayout()
         Panel2.ResumeLayout(False)
@@ -1467,7 +1813,7 @@ Partial Class Loan
         pnlSelectLender.ResumeLayout(False)
         CType(dgSelectEm, ComponentModel.ISupportInitialize).EndInit()
         CType(dgSchedule, ComponentModel.ISupportInitialize).EndInit()
-        TabPage2.ResumeLayout(False)
+        viewLoan.ResumeLayout(False)
         Panel6.ResumeLayout(False)
         Panel6.PerformLayout()
         CType(dgLoanSchedule, ComponentModel.ISupportInitialize).EndInit()
@@ -1477,14 +1823,25 @@ Partial Class Loan
         Panel4.ResumeLayout(False)
         Panel4.PerformLayout()
         CType(dgEmList, ComponentModel.ISupportInitialize).EndInit()
+        contribution.ResumeLayout(False)
+        Panel9.ResumeLayout(False)
+        Panel9.PerformLayout()
+        CType(Guna2NumericUpDown2, ComponentModel.ISupportInitialize).EndInit()
+        Panel10.ResumeLayout(False)
+        Panel10.PerformLayout()
+        CType(Guna2NumericUpDown4, ComponentModel.ISupportInitialize).EndInit()
+        CType(Guna2NumericUpDown3, ComponentModel.ISupportInitialize).EndInit()
+        Panel8.ResumeLayout(False)
+        Panel8.PerformLayout()
+        CType(Guna2NumericUpDown1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
     Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents Guna2TabControl1 As Guna.UI2.WinForms.Guna2TabControl
-    Friend WithEvents TabPage1 As TabPage
-    Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents addLoan As TabPage
+    Friend WithEvents viewLoan As TabPage
     Friend WithEvents Guna2TextBox6 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2TextBox5 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2TextBox4 As Guna.UI2.WinForms.Guna2TextBox
@@ -1580,4 +1937,29 @@ Partial Class Loan
     Friend WithEvents Label19 As Label
     Friend WithEvents Label18 As Label
     Friend WithEvents Panel7 As Panel
+    Friend WithEvents contribution As TabPage
+    Friend WithEvents Panel9 As Panel
+    Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label26 As Label
+    Friend WithEvents Guna2NumericUpDown2 As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents Panel10 As Panel
+    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2ComboBox2 As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label29 As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents Label30 As Label
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Guna2NumericUpDown4 As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents Guna2NumericUpDown3 As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents Panel8 As Panel
+    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2ComboBox1 As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Guna2NumericUpDown1 As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents tabconLoan As Guna.UI2.WinForms.Guna2TabControl
 End Class
