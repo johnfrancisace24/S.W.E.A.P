@@ -4,6 +4,7 @@ Imports System.IO
 
 Imports OfficeOpenXml
 Imports OfficeOpenXml.Style
+Imports System.Text.RegularExpressions
 
 Public Class admindash
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -304,18 +305,48 @@ Public Class admindash
     End Sub
 
     'Key Press lang to pare!
-    Private Shared Sub txtEditUsername_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtEditUsername.KeyPress
+    Private Shared Sub txtEditFname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtEditFname.KeyPress
         If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsLetter(e.KeyChar) AndAlso Not Char.IsWhiteSpace(e.KeyChar) AndAlso Not Char.IsPunctuation(e.KeyChar) Then
             e.Handled = True
         End If
     End Sub
 
-    Private Sub txtEditFname_Keypress(sender As Object, e As EventArgs) Handles txtEditFname.KeyPress
-        txtEditUsername_KeyPress(sender, e)
-    End Sub
-
     Private Sub btnEmBack2_Click(sender As Object, e As EventArgs) Handles btnEmBack2.Click
         tabEditMember.SelectedTab = personal
+    End Sub
+
+    Private Sub txtEditMname_KeyPress(sender As Object, e As EventArgs) Handles txtEditMname.KeyPress
+        txtEditFname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub txtEditLname_KeyPress(sender As Object, e As EventArgs) Handles txtEditLname.KeyPress
+        txtEditFname_KeyPress(sender, e)
+    End Sub
+
+    ''Email validation
+    Private Function IsValidGmail(email As String) As Boolean
+        Dim gmailRegex As New Regex("^[a-zA-Z0-9_.+-]+@gmail\.com$", RegexOptions.IgnoreCase)
+        Return gmailRegex.IsMatch(email)
+    End Function
+
+    Private Sub txtEditEmail_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles txtEditEmail.Validating
+        Dim inputEmail As String = txtEditEmail.Text.Trim()
+        If txtEditEmail.Text = "" Then
+            MessageBox.Show("Email can't be blank" & vbCrLf & "Please enter a valid email adress", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Hand)
+
+
+        ElseIf Not IsValidGmail(inputEmail) Then
+            MessageBox.Show("Invalid Email account." & vbCrLf & "Please enter a valid Email address.", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Hand)
+
+
+        End If
+    End Sub
+
+    '' txt type number only
+    Private Sub txtEditNumber_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtEditNumber.KeyPress
+        If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsDigit(e.KeyChar) Then
+            e.Handled = True
+        End If
     End Sub
 
 End Class
