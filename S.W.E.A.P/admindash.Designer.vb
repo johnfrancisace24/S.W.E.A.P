@@ -22,2573 +22,2823 @@ Partial Class admindash
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New ComponentModel.Container()
-        Dim CustomizableEdges108 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges109 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges110 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges111 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges112 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges113 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges114 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges115 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(admindash))
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges59 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges60 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges61 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges62 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges63 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges64 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges65 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges66 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges67 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges68 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges69 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges70 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges71 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges72 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges73 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges74 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges75 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges77 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges78 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges79 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges80 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges81 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges82 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges83 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges84 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges85 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges86 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges87 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges88 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges89 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges90 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges91 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges92 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges93 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges94 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges95 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges96 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges97 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges98 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges99 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges100 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges101 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges102 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges103 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges104 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges105 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges106 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges107 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
-        Panel1 = New Panel()
-        Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
-        Label1 = New Label()
-        ImageList1 = New ImageList(components)
-        Guna2ControlBox3 = New Guna.UI2.WinForms.Guna2ControlBox()
-        Guna2ControlBox2 = New Guna.UI2.WinForms.Guna2ControlBox()
-        Guna2ControlBox1 = New Guna.UI2.WinForms.Guna2ControlBox()
-        Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
-        TabPage6 = New TabPage()
-        pnlHome = New Guna.UI2.WinForms.Guna2Panel()
-        Panel2 = New Panel()
-        Label32 = New Label()
-        Label33 = New Label()
-        Label31 = New Label()
-        Label30 = New Label()
-        Guna2PictureBox4 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Label34 = New Label()
-        Guna2PictureBox5 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
-        lblAdminName = New Label()
-        Label28 = New Label()
-        Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
-        tabDashboard = New TabPage()
-        pnlDashboard = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2CircleProgressBar5 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
-        Guna2CircleProgressBar6 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
-        Guna2ProgressBar6 = New Guna.UI2.WinForms.Guna2ProgressBar()
-        Guna2CircleProgressBar7 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
-        Guna2ProgressBar7 = New Guna.UI2.WinForms.Guna2ProgressBar()
-        Guna2CircleProgressBar3 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
-        Guna2CircleProgressBar2 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
-        Guna2ProgressBar3 = New Guna.UI2.WinForms.Guna2ProgressBar()
-        Guna2ProgressBar2 = New Guna.UI2.WinForms.Guna2ProgressBar()
-        Guna2CircleProgressBar4 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
-        Guna2ProgressBar4 = New Guna.UI2.WinForms.Guna2ProgressBar()
-        Guna2CircleProgressBar1 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
-        Guna2ProgressBar1 = New Guna.UI2.WinForms.Guna2ProgressBar()
-        Label27 = New Label()
-        Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        PictureBox2 = New PictureBox()
-        Label2 = New Label()
-        Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        Label17 = New Label()
-        Guna2TrackBar1 = New Guna.UI2.WinForms.Guna2TrackBar()
-        Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Label18 = New Label()
-        Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
-        Label4 = New Label()
-        Label5 = New Label()
-        tabEmployee = New TabPage()
-        tabEdit = New Panel()
-        tabEditMember = New Guna.UI2.WinForms.Guna2TabControl()
-        personal = New TabPage()
-        btnEditBack = New Guna.UI2.WinForms.Guna2Button()
-        btnEditNext = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
-        pickEditBdate = New Guna.UI2.WinForms.Guna2DateTimePicker()
-        pBoxEditProfile = New PictureBox()
-        txtEditMname = New Guna.UI2.WinForms.Guna2TextBox()
-        Label12 = New Label()
-        txtEditUsername = New Guna.UI2.WinForms.Guna2TextBox()
-        Label15 = New Label()
-        txtEditFname = New Guna.UI2.WinForms.Guna2TextBox()
-        Label10 = New Label()
-        txtEditLname = New Guna.UI2.WinForms.Guna2TextBox()
-        Label13 = New Label()
-        txtEditPw = New Guna.UI2.WinForms.Guna2TextBox()
-        Label16 = New Label()
-        txtEditAddress = New Guna.UI2.WinForms.Guna2TextBox()
-        Label14 = New Label()
-        txtEditNumber = New Guna.UI2.WinForms.Guna2TextBox()
-        Label8 = New Label()
-        txtEditEducation = New Guna.UI2.WinForms.Guna2TextBox()
-        Label11 = New Label()
-        txtEditEmail = New Guna.UI2.WinForms.Guna2TextBox()
-        Label9 = New Label()
-        Label7 = New Label()
-        other = New TabPage()
-        dgBeneficiaries = New Guna.UI2.WinForms.Guna2DataGridView()
-        Column8 = New DataGridViewTextBoxColumn()
-        Column9 = New DataGridViewTextBoxColumn()
-        Column10 = New DataGridViewTextBoxColumn()
-        Column11 = New DataGridViewTextBoxColumn()
-        Column4 = New DataGridViewImageColumn()
-        btnEditUpdate = New Guna.UI2.WinForms.Guna2Button()
-        btnEditAddBen = New Guna.UI2.WinForms.Guna2Button()
-        txtEditAddBenAge = New Guna.UI2.WinForms.Guna2TextBox()
-        txtEditAddBenRel = New Guna.UI2.WinForms.Guna2TextBox()
-        txtEditAddBen = New Guna.UI2.WinForms.Guna2TextBox()
-        pickEditUserStat = New Guna.UI2.WinForms.Guna2ComboBox()
-        pickEditComm = New Guna.UI2.WinForms.Guna2ComboBox()
-        pickEditStatus = New Guna.UI2.WinForms.Guna2ComboBox()
-        Label35 = New Label()
-        pickEditPosition = New Guna.UI2.WinForms.Guna2ComboBox()
-        Label22 = New Label()
-        pickEditOffice = New Guna.UI2.WinForms.Guna2ComboBox()
-        Label25 = New Label()
-        Label24 = New Label()
-        Label23 = New Label()
-        Label26 = New Label()
-        Label21 = New Label()
-        Label20 = New Label()
-        Label19 = New Label()
-        pnlEmployee = New Panel()
-        dgMembers = New Guna.UI2.WinForms.Guna2DataGridView()
-        DataGridViewTextBoxColumn1 = New DataGridViewTextBoxColumn()
-        DataGridViewTextBoxColumn2 = New DataGridViewTextBoxColumn()
-        DataGridViewTextBoxColumn3 = New DataGridViewTextBoxColumn()
-        DataGridViewTextBoxColumn4 = New DataGridViewTextBoxColumn()
-        DataGridViewTextBoxColumn5 = New DataGridViewTextBoxColumn()
-        DataGridViewTextBoxColumn6 = New DataGridViewTextBoxColumn()
-        DataGridViewTextBoxColumn7 = New DataGridViewTextBoxColumn()
-        Column1 = New DataGridViewImageColumn()
-        Column2 = New DataGridViewImageColumn()
-        txtSearch = New Guna.UI2.WinForms.Guna2TextBox()
-        pickOffice = New Guna.UI2.WinForms.Guna2ComboBox()
-        Label29 = New Label()
-        Label3 = New Label()
-        tabFund = New TabPage()
-        Guna2TabControl2 = New Guna.UI2.WinForms.Guna2TabControl()
-        TabPage2 = New TabPage()
-        Label42 = New Label()
-        Label41 = New Label()
-        Label40 = New Label()
-        Label39 = New Label()
-        Label38 = New Label()
-        bttnNext = New Guna.UI2.WinForms.Guna2Button()
-        Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
-        Label37 = New Label()
-        Guna2PictureBox6 = New Guna.UI2.WinForms.Guna2PictureBox()
-        TabPage5 = New TabPage()
-        TabPage3 = New TabPage()
-        ImageList2 = New ImageList(components)
-        Panel1.SuspendLayout()
-        Guna2TabControl1.SuspendLayout()
-        TabPage6.SuspendLayout()
-        pnlHome.SuspendLayout()
-        Panel2.SuspendLayout()
-        CType(Guna2PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Guna2PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
-        Guna2Panel4.SuspendLayout()
-        CType(Guna2PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
-        tabDashboard.SuspendLayout()
-        pnlDashboard.SuspendLayout()
-        Guna2Panel3.SuspendLayout()
-        Guna2Panel2.SuspendLayout()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
-        Guna2Panel1.SuspendLayout()
-        CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
-        tabEmployee.SuspendLayout()
-        tabEdit.SuspendLayout()
-        tabEditMember.SuspendLayout()
-        personal.SuspendLayout()
-        CType(pBoxEditProfile, ComponentModel.ISupportInitialize).BeginInit()
-        other.SuspendLayout()
-        CType(dgBeneficiaries, ComponentModel.ISupportInitialize).BeginInit()
-        pnlEmployee.SuspendLayout()
-        CType(dgMembers, ComponentModel.ISupportInitialize).BeginInit()
-        tabFund.SuspendLayout()
-        Guna2TabControl2.SuspendLayout()
-        TabPage2.SuspendLayout()
-        CType(Guna2PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
-        SuspendLayout()
+        Me.components = New Global.System.ComponentModel.Container()
+        Dim CustomizableEdges110 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges111 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges112 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges113 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges114 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges115 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges116 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges117 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As Global.System.ComponentModel.ComponentResourceManager = New Global.System.ComponentModel.ComponentResourceManager(GetType(Global.S.W.E.A.P.admindash))
+        Dim CustomizableEdges1 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges46 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges47 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges31 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges34 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges35 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges32 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges33 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges38 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges39 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges36 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges37 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges40 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges41 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges42 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges43 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges44 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges45 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges48 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges49 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges50 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges51 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges52 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges53 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges54 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges55 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges56 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges57 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges58 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges59 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges60 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges61 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges62 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges63 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges64 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges65 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges66 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges67 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges68 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges69 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges70 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges71 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges72 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges73 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges74 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges75 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges76 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges77 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim CustomizableEdges78 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges79 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges80 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges81 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges82 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges83 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges84 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges85 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges86 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges87 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges88 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges89 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges90 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges91 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges92 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges93 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges94 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges95 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle5 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim CustomizableEdges96 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges97 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges98 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges99 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges100 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges101 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges102 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges103 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges104 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges105 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges106 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges107 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges108 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges109 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle8 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Me.Guna2Elipse1 = New Global.Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.Panel1 = New Global.System.Windows.Forms.Panel()
+        Me.Guna2Button6 = New Global.Guna.UI2.WinForms.Guna2Button()
+        Me.Label1 = New Global.System.Windows.Forms.Label()
+        Me.ImageList1 = New Global.System.Windows.Forms.ImageList(Me.components)
+        Me.Guna2ControlBox3 = New Global.Guna.UI2.WinForms.Guna2ControlBox()
+        Me.Guna2ControlBox2 = New Global.Guna.UI2.WinForms.Guna2ControlBox()
+        Me.Guna2ControlBox1 = New Global.Guna.UI2.WinForms.Guna2ControlBox()
+        Me.Guna2TabControl1 = New Global.Guna.UI2.WinForms.Guna2TabControl()
+        Me.TabPage6 = New Global.System.Windows.Forms.TabPage()
+        Me.pnlHome = New Global.Guna.UI2.WinForms.Guna2Panel()
+        Me.Panel2 = New Global.System.Windows.Forms.Panel()
+        Me.Label32 = New Global.System.Windows.Forms.Label()
+        Me.Label33 = New Global.System.Windows.Forms.Label()
+        Me.Label31 = New Global.System.Windows.Forms.Label()
+        Me.Label30 = New Global.System.Windows.Forms.Label()
+        Me.Guna2PictureBox4 = New Global.Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Label34 = New Global.System.Windows.Forms.Label()
+        Me.Guna2PictureBox5 = New Global.Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Guna2Panel4 = New Global.Guna.UI2.WinForms.Guna2Panel()
+        Me.lblAdminName = New Global.System.Windows.Forms.Label()
+        Me.Label28 = New Global.System.Windows.Forms.Label()
+        Me.Guna2PictureBox3 = New Global.Guna.UI2.WinForms.Guna2PictureBox()
+        Me.tabDashboard = New Global.System.Windows.Forms.TabPage()
+        Me.pnlDashboard = New Global.Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2Panel3 = New Global.Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2CircleProgressBar5 = New Global.Guna.UI2.WinForms.Guna2CircleProgressBar()
+        Me.Guna2CircleProgressBar6 = New Global.Guna.UI2.WinForms.Guna2CircleProgressBar()
+        Me.Guna2ProgressBar6 = New Global.Guna.UI2.WinForms.Guna2ProgressBar()
+        Me.Guna2CircleProgressBar7 = New Global.Guna.UI2.WinForms.Guna2CircleProgressBar()
+        Me.Guna2ProgressBar7 = New Global.Guna.UI2.WinForms.Guna2ProgressBar()
+        Me.Guna2CircleProgressBar3 = New Global.Guna.UI2.WinForms.Guna2CircleProgressBar()
+        Me.Guna2CircleProgressBar2 = New Global.Guna.UI2.WinForms.Guna2CircleProgressBar()
+        Me.Guna2ProgressBar3 = New Global.Guna.UI2.WinForms.Guna2ProgressBar()
+        Me.Guna2ProgressBar2 = New Global.Guna.UI2.WinForms.Guna2ProgressBar()
+        Me.Guna2CircleProgressBar4 = New Global.Guna.UI2.WinForms.Guna2CircleProgressBar()
+        Me.Guna2ProgressBar4 = New Global.Guna.UI2.WinForms.Guna2ProgressBar()
+        Me.Guna2CircleProgressBar1 = New Global.Guna.UI2.WinForms.Guna2CircleProgressBar()
+        Me.Guna2ProgressBar1 = New Global.Guna.UI2.WinForms.Guna2ProgressBar()
+        Me.Label27 = New Global.System.Windows.Forms.Label()
+        Me.Guna2Panel2 = New Global.Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2Button4 = New Global.Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2HtmlLabel2 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.PictureBox2 = New Global.System.Windows.Forms.PictureBox()
+        Me.Label2 = New Global.System.Windows.Forms.Label()
+        Me.Guna2Panel1 = New Global.Guna.UI2.WinForms.Guna2Panel()
+        Me.Label17 = New Global.System.Windows.Forms.Label()
+        Me.Guna2TrackBar1 = New Global.Guna.UI2.WinForms.Guna2TrackBar()
+        Me.Guna2HtmlLabel1 = New Global.Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.Label18 = New Global.System.Windows.Forms.Label()
+        Me.Guna2PictureBox2 = New Global.Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Guna2Button1 = New Global.Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button2 = New Global.Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button3 = New Global.Guna.UI2.WinForms.Guna2Button()
+        Me.Label4 = New Global.System.Windows.Forms.Label()
+        Me.Label5 = New Global.System.Windows.Forms.Label()
+        Me.tabEmployee = New Global.System.Windows.Forms.TabPage()
+        Me.tabEdit = New Global.System.Windows.Forms.Panel()
+        Me.tabEditMember = New Global.Guna.UI2.WinForms.Guna2TabControl()
+        Me.personal = New Global.System.Windows.Forms.TabPage()
+        Me.Panel5 = New Global.System.Windows.Forms.Panel()
+        Me.btnEditBack = New Global.Guna.UI2.WinForms.Guna2Button()
+        Me.btnEditNext = New Global.Guna.UI2.WinForms.Guna2Button()
+        Me.Panel4 = New Global.System.Windows.Forms.Panel()
+        Me.txtEditMname = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.Label12 = New Global.System.Windows.Forms.Label()
+        Me.txtEditFname = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.Label10 = New Global.System.Windows.Forms.Label()
+        Me.Label13 = New Global.System.Windows.Forms.Label()
+        Me.pickEditBdate = New Global.Guna.UI2.WinForms.Guna2DateTimePicker()
+        Me.txtEditAddress = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtEditLname = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.Label15 = New Global.System.Windows.Forms.Label()
+        Me.Label16 = New Global.System.Windows.Forms.Label()
+        Me.Label11 = New Global.System.Windows.Forms.Label()
+        Me.txtEditEmail = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtEditEducation = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.Label9 = New Global.System.Windows.Forms.Label()
+        Me.Label14 = New Global.System.Windows.Forms.Label()
+        Me.txtEditNumber = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.Panel3 = New Global.System.Windows.Forms.Panel()
+        Me.Guna2Button5 = New Global.Guna.UI2.WinForms.Guna2Button()
+        Me.pBoxEditProfile = New Global.System.Windows.Forms.PictureBox()
+        Me.txtEditUsername = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtEditPw = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.Label8 = New Global.System.Windows.Forms.Label()
+        Me.Label7 = New Global.System.Windows.Forms.Label()
+        Me.other = New Global.System.Windows.Forms.TabPage()
+        Me.Panel8 = New Global.System.Windows.Forms.Panel()
+        Me.btnEmBack2 = New Global.Guna.UI2.WinForms.Guna2Button()
+        Me.btnEditUpdate = New Global.Guna.UI2.WinForms.Guna2Button()
+        Me.Panel7 = New Global.System.Windows.Forms.Panel()
+        Me.dgBeneficiaries = New Global.Guna.UI2.WinForms.Guna2DataGridView()
+        Me.Column8 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column9 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column10 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column11 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column4 = New Global.System.Windows.Forms.DataGridViewImageColumn()
+        Me.btnEditAddBen = New Global.Guna.UI2.WinForms.Guna2Button()
+        Me.txtEditAddBenAge = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtEditAddBenRel = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtEditAddBen = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.Label25 = New Global.System.Windows.Forms.Label()
+        Me.Label24 = New Global.System.Windows.Forms.Label()
+        Me.Label23 = New Global.System.Windows.Forms.Label()
+        Me.Label26 = New Global.System.Windows.Forms.Label()
+        Me.Panel6 = New Global.System.Windows.Forms.Panel()
+        Me.pickEditUserStat = New Global.Guna.UI2.WinForms.Guna2ComboBox()
+        Me.pickEditComm = New Global.Guna.UI2.WinForms.Guna2ComboBox()
+        Me.pickEditStatus = New Global.Guna.UI2.WinForms.Guna2ComboBox()
+        Me.Label35 = New Global.System.Windows.Forms.Label()
+        Me.pickEditPosition = New Global.Guna.UI2.WinForms.Guna2ComboBox()
+        Me.Label22 = New Global.System.Windows.Forms.Label()
+        Me.pickEditOffice = New Global.Guna.UI2.WinForms.Guna2ComboBox()
+        Me.Label21 = New Global.System.Windows.Forms.Label()
+        Me.Label20 = New Global.System.Windows.Forms.Label()
+        Me.Label19 = New Global.System.Windows.Forms.Label()
+        Me.pnlEmployee = New Global.System.Windows.Forms.Panel()
+        Me.dgMembers = New Global.Guna.UI2.WinForms.Guna2DataGridView()
+        Me.DataGridViewTextBoxColumn1 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn2 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn3 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn4 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn5 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn6 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn7 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column1 = New Global.System.Windows.Forms.DataGridViewImageColumn()
+        Me.Column2 = New Global.System.Windows.Forms.DataGridViewImageColumn()
+        Me.txtSearch = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.pickOffice = New Global.Guna.UI2.WinForms.Guna2ComboBox()
+        Me.Label29 = New Global.System.Windows.Forms.Label()
+        Me.Label3 = New Global.System.Windows.Forms.Label()
+        Me.tabFund = New Global.System.Windows.Forms.TabPage()
+        Me.Guna2TabControl2 = New Global.Guna.UI2.WinForms.Guna2TabControl()
+        Me.TabPage2 = New Global.System.Windows.Forms.TabPage()
+        Me.Label42 = New Global.System.Windows.Forms.Label()
+        Me.Label41 = New Global.System.Windows.Forms.Label()
+        Me.Label40 = New Global.System.Windows.Forms.Label()
+        Me.Label39 = New Global.System.Windows.Forms.Label()
+        Me.Label38 = New Global.System.Windows.Forms.Label()
+        Me.bttnNext = New Global.Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2TextBox3 = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2TextBox2 = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2TextBox1 = New Global.Guna.UI2.WinForms.Guna2TextBox()
+        Me.Label37 = New Global.System.Windows.Forms.Label()
+        Me.Guna2PictureBox6 = New Global.Guna.UI2.WinForms.Guna2PictureBox()
+        Me.TabPage5 = New Global.System.Windows.Forms.TabPage()
+        Me.tabContri = New Global.System.Windows.Forms.TabPage()
+        Me.TabPage3 = New Global.System.Windows.Forms.TabPage()
+        Me.ImageList2 = New Global.System.Windows.Forms.ImageList(Me.components)
+        Me.dgContributions = New Global.Guna.UI2.WinForms.Guna2DataGridView()
+        Me.Column3 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column5 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column6 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column7 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column13 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column14 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column12 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column15 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column16 = New Global.System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Panel1.SuspendLayout()
+        Me.Guna2TabControl1.SuspendLayout()
+        Me.TabPage6.SuspendLayout()
+        Me.pnlHome.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        (CType(Me.Guna2PictureBox4, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
+        (CType(Me.Guna2PictureBox5, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
+        Me.Guna2Panel4.SuspendLayout()
+        (CType(Me.Guna2PictureBox3, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
+        Me.tabDashboard.SuspendLayout()
+        Me.pnlDashboard.SuspendLayout()
+        Me.Guna2Panel3.SuspendLayout()
+        Me.Guna2Panel2.SuspendLayout()
+        (CType(Me.PictureBox2, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
+        Me.Guna2Panel1.SuspendLayout()
+        (CType(Me.Guna2PictureBox2, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
+        Me.tabEmployee.SuspendLayout()
+        Me.tabEdit.SuspendLayout()
+        Me.tabEditMember.SuspendLayout()
+        Me.personal.SuspendLayout()
+        Me.Panel5.SuspendLayout()
+        Me.Panel4.SuspendLayout()
+        Me.Panel3.SuspendLayout()
+        (CType(Me.pBoxEditProfile, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
+        Me.other.SuspendLayout()
+        Me.Panel8.SuspendLayout()
+        Me.Panel7.SuspendLayout()
+        (CType(Me.dgBeneficiaries, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
+        Me.Panel6.SuspendLayout()
+        Me.pnlEmployee.SuspendLayout()
+        (CType(Me.dgMembers, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
+        Me.tabFund.SuspendLayout()
+        Me.Guna2TabControl2.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
+        (CType(Me.Guna2PictureBox6, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
+        Me.tabContri.SuspendLayout()
+        (CType(Me.dgContributions, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
+        Me.SuspendLayout()
         ' 
         ' Guna2Elipse1
         ' 
-        Guna2Elipse1.TargetControl = Me
+        Me.Guna2Elipse1.TargetControl = Me
         ' 
         ' Panel1
         ' 
-        Panel1.BackColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
-        Panel1.Controls.Add(Guna2Button6)
-        Panel1.Controls.Add(Label1)
-        Panel1.Controls.Add(Guna2ControlBox3)
-        Panel1.Controls.Add(Guna2ControlBox2)
-        Panel1.Controls.Add(Guna2ControlBox1)
-        Panel1.Dock = DockStyle.Top
-        Panel1.Location = New Point(0, 0)
-        Panel1.Name = "Panel1"
-        Panel1.Size = New Size(1288, 40)
-        Panel1.TabIndex = 0
+        Me.Panel1.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(33))), CInt(CByte(CByte(42))), CInt(CByte(CByte(57))))
+        Me.Panel1.Controls.Add(Me.Guna2Button6)
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.Guna2ControlBox3)
+        Me.Panel1.Controls.Add(Me.Guna2ControlBox2)
+        Me.Panel1.Controls.Add(Me.Guna2ControlBox1)
+        Me.Panel1.Dock = Global.System.Windows.Forms.DockStyle.Top
+        Me.Panel1.Location = New Global.System.Drawing.Point(0, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New Global.System.Drawing.Size(1288, 40)
+        Me.Panel1.TabIndex = 0
         ' 
         ' Guna2Button6
         ' 
-        Guna2Button6.Animated = True
-        Guna2Button6.BorderRadius = 5
-        Guna2Button6.Cursor = Cursors.Hand
-        Guna2Button6.CustomizableEdges = CustomizableEdges108
-        Guna2Button6.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button6.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button6.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button6.FillColor = Color.FromArgb(CByte(54), CByte(69), CByte(94))
-        Guna2Button6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2Button6.ForeColor = Color.White
-        Guna2Button6.Location = New Point(1076, 4)
-        Guna2Button6.Name = "Guna2Button6"
-        Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges109
-        Guna2Button6.Size = New Size(92, 31)
-        Guna2Button6.TabIndex = 5
-        Guna2Button6.Text = "Log out"
+        Me.Guna2Button6.Animated = True
+        Me.Guna2Button6.BorderRadius = 5
+        Me.Guna2Button6.Cursor = Global.System.Windows.Forms.Cursors.Hand
+        Me.Guna2Button6.CustomizableEdges = CustomizableEdges110
+        Me.Guna2Button6.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
+        Me.Guna2Button6.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
+        Me.Guna2Button6.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
+        Me.Guna2Button6.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
+        Me.Guna2Button6.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(54))), CInt(CByte(CByte(69))), CInt(CByte(CByte(94))))
+        Me.Guna2Button6.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2Button6.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2Button6.Location = New Global.System.Drawing.Point(1076, 4)
+        Me.Guna2Button6.Name = "Guna2Button6"
+        Me.Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges111
+        Me.Guna2Button6.Size = New Global.System.Drawing.Size(92, 31)
+        Me.Guna2Button6.TabIndex = 5
+        Me.Guna2Button6.Text = "Log out"
         ' 
         ' Label1
         ' 
-        Label1.Dock = DockStyle.Left
-        Label1.Font = New Font("Georgia", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label1.ForeColor = Color.FromArgb(CByte(214), CByte(185), CByte(0))
-        Label1.ImageAlign = ContentAlignment.MiddleLeft
-        Label1.ImageKey = "image-removebg-preview (1).png"
-        Label1.ImageList = ImageList1
-        Label1.Location = New Point(0, 0)
-        Label1.Name = "Label1"
-        Label1.Padding = New Padding(10, 0, 0, 0)
-        Label1.Size = New Size(707, 40)
-        Label1.TabIndex = 4
-        Label1.Text = "SOCIAL WELFARE EMPLOYEES ASSOCIATION OF THE PHILIPPINES"
-        Label1.TextAlign = ContentAlignment.MiddleCenter
+        Me.Label1.Dock = Global.System.Windows.Forms.DockStyle.Left
+        Me.Label1.Font = New Global.System.Drawing.Font("Georgia", 12F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label1.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(214))), CInt(CByte(CByte(185))), CInt(CByte(CByte(0))))
+        Me.Label1.ImageAlign = Global.System.Drawing.ContentAlignment.MiddleLeft
+        Me.Label1.ImageKey = "image-removebg-preview (1).png"
+        Me.Label1.ImageList = Me.ImageList1
+        Me.Label1.Location = New Global.System.Drawing.Point(0, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Padding = New Global.System.Windows.Forms.Padding(10, 0, 0, 0)
+        Me.Label1.Size = New Global.System.Drawing.Size(707, 40)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "SOCIAL WELFARE EMPLOYEES ASSOCIATION OF THE PHILIPPINES"
+        Me.Label1.TextAlign = Global.System.Drawing.ContentAlignment.MiddleCenter
         ' 
         ' ImageList1
         ' 
-        ImageList1.ColorDepth = ColorDepth.Depth32Bit
-        ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), ImageListStreamer)
-        ImageList1.TransparentColor = Color.WhiteSmoke
-        ImageList1.Images.SetKeyName(0, "logout.png")
-        ImageList1.Images.SetKeyName(1, "image-removebg-preview (1).png")
-        ImageList1.Images.SetKeyName(2, "data-report.png")
-        ImageList1.Images.SetKeyName(3, "employees.png")
-        ImageList1.Images.SetKeyName(4, "funding.png")
+        Me.ImageList1.ColorDepth = Global.System.Windows.Forms.ColorDepth.Depth32Bit
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), Global.System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = Global.System.Drawing.Color.WhiteSmoke
+        Me.ImageList1.Images.SetKeyName(0, "logout.png")
+        Me.ImageList1.Images.SetKeyName(1, "image-removebg-preview (1).png")
+        Me.ImageList1.Images.SetKeyName(2, "data-report.png")
+        Me.ImageList1.Images.SetKeyName(3, "employees.png")
+        Me.ImageList1.Images.SetKeyName(4, "funding.png")
+        Me.ImageList1.Images.SetKeyName(5, "give-money.png")
+        Me.ImageList1.Images.SetKeyName(6, "transfer-money.png")
+        Me.ImageList1.Images.SetKeyName(7, "team.png")
+        Me.ImageList1.Images.SetKeyName(8, "data-management.png")
         ' 
         ' Guna2ControlBox3
         ' 
-        Guna2ControlBox3.Animated = True
-        Guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
-        Guna2ControlBox3.Cursor = Cursors.Hand
-        Guna2ControlBox3.CustomizableEdges = CustomizableEdges110
-        Guna2ControlBox3.Dock = DockStyle.Right
-        Guna2ControlBox3.FillColor = Color.Transparent
-        Guna2ControlBox3.ForeColor = SystemColors.ControlText
-        Guna2ControlBox3.IconColor = Color.WhiteSmoke
-        Guna2ControlBox3.Location = New Point(1168, 0)
-        Guna2ControlBox3.Name = "Guna2ControlBox3"
-        Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges111
-        Guna2ControlBox3.Size = New Size(40, 40)
-        Guna2ControlBox3.TabIndex = 2
+        Me.Guna2ControlBox3.Animated = True
+        Me.Guna2ControlBox3.ControlBoxType = Global.Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
+        Me.Guna2ControlBox3.Cursor = Global.System.Windows.Forms.Cursors.Hand
+        Me.Guna2ControlBox3.CustomizableEdges = CustomizableEdges112
+        Me.Guna2ControlBox3.Dock = Global.System.Windows.Forms.DockStyle.Right
+        Me.Guna2ControlBox3.FillColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2ControlBox3.ForeColor = Global.System.Drawing.SystemColors.ControlText
+        Me.Guna2ControlBox3.IconColor = Global.System.Drawing.Color.WhiteSmoke
+        Me.Guna2ControlBox3.Location = New Global.System.Drawing.Point(1168, 0)
+        Me.Guna2ControlBox3.Name = "Guna2ControlBox3"
+        Me.Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges113
+        Me.Guna2ControlBox3.Size = New Global.System.Drawing.Size(40, 40)
+        Me.Guna2ControlBox3.TabIndex = 2
         ' 
         ' Guna2ControlBox2
         ' 
-        Guna2ControlBox2.Animated = True
-        Guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox
-        Guna2ControlBox2.Cursor = Cursors.Hand
-        Guna2ControlBox2.CustomizableEdges = CustomizableEdges112
-        Guna2ControlBox2.Dock = DockStyle.Right
-        Guna2ControlBox2.FillColor = Color.Transparent
-        Guna2ControlBox2.ForeColor = SystemColors.ControlText
-        Guna2ControlBox2.IconColor = Color.WhiteSmoke
-        Guna2ControlBox2.Location = New Point(1208, 0)
-        Guna2ControlBox2.Name = "Guna2ControlBox2"
-        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges113
-        Guna2ControlBox2.Size = New Size(40, 40)
-        Guna2ControlBox2.TabIndex = 1
+        Me.Guna2ControlBox2.Animated = True
+        Me.Guna2ControlBox2.ControlBoxType = Global.Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox
+        Me.Guna2ControlBox2.Cursor = Global.System.Windows.Forms.Cursors.Hand
+        Me.Guna2ControlBox2.CustomizableEdges = CustomizableEdges114
+        Me.Guna2ControlBox2.Dock = Global.System.Windows.Forms.DockStyle.Right
+        Me.Guna2ControlBox2.FillColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2ControlBox2.ForeColor = Global.System.Drawing.SystemColors.ControlText
+        Me.Guna2ControlBox2.IconColor = Global.System.Drawing.Color.WhiteSmoke
+        Me.Guna2ControlBox2.Location = New Global.System.Drawing.Point(1208, 0)
+        Me.Guna2ControlBox2.Name = "Guna2ControlBox2"
+        Me.Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges115
+        Me.Guna2ControlBox2.Size = New Global.System.Drawing.Size(40, 40)
+        Me.Guna2ControlBox2.TabIndex = 1
         ' 
         ' Guna2ControlBox1
         ' 
-        Guna2ControlBox1.Animated = True
-        Guna2ControlBox1.Cursor = Cursors.Hand
-        Guna2ControlBox1.CustomizableEdges = CustomizableEdges114
-        Guna2ControlBox1.Dock = DockStyle.Right
-        Guna2ControlBox1.FillColor = Color.Transparent
-        Guna2ControlBox1.ForeColor = SystemColors.ControlText
-        Guna2ControlBox1.HoverState.FillColor = Color.FromArgb(CByte(255), CByte(192), CByte(192))
-        Guna2ControlBox1.HoverState.IconColor = Color.Red
-        Guna2ControlBox1.IconColor = Color.WhiteSmoke
-        Guna2ControlBox1.Location = New Point(1248, 0)
-        Guna2ControlBox1.Name = "Guna2ControlBox1"
-        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges115
-        Guna2ControlBox1.Size = New Size(40, 40)
-        Guna2ControlBox1.TabIndex = 0
+        Me.Guna2ControlBox1.Animated = True
+        Me.Guna2ControlBox1.Cursor = Global.System.Windows.Forms.Cursors.Hand
+        Me.Guna2ControlBox1.CustomizableEdges = CustomizableEdges116
+        Me.Guna2ControlBox1.Dock = Global.System.Windows.Forms.DockStyle.Right
+        Me.Guna2ControlBox1.FillColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2ControlBox1.ForeColor = Global.System.Drawing.SystemColors.ControlText
+        Me.Guna2ControlBox1.HoverState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(192))), CInt(CByte(CByte(192))))
+        Me.Guna2ControlBox1.HoverState.IconColor = Global.System.Drawing.Color.Red
+        Me.Guna2ControlBox1.IconColor = Global.System.Drawing.Color.WhiteSmoke
+        Me.Guna2ControlBox1.Location = New Global.System.Drawing.Point(1248, 0)
+        Me.Guna2ControlBox1.Name = "Guna2ControlBox1"
+        Me.Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges117
+        Me.Guna2ControlBox1.Size = New Global.System.Drawing.Size(40, 40)
+        Me.Guna2ControlBox1.TabIndex = 0
         ' 
         ' Guna2TabControl1
         ' 
-        Guna2TabControl1.Alignment = TabAlignment.Left
-        Guna2TabControl1.Controls.Add(TabPage6)
-        Guna2TabControl1.Controls.Add(tabDashboard)
-        Guna2TabControl1.Controls.Add(tabEmployee)
-        Guna2TabControl1.Controls.Add(tabFund)
-        Guna2TabControl1.Cursor = Cursors.Hand
-        Guna2TabControl1.Dock = DockStyle.Fill
-        Guna2TabControl1.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2TabControl1.HotTrack = True
-        Guna2TabControl1.ImageList = ImageList1
-        Guna2TabControl1.ImeMode = ImeMode.Off
-        Guna2TabControl1.ItemSize = New Size(250, 60)
-        Guna2TabControl1.Location = New Point(0, 40)
-        Guna2TabControl1.Name = "Guna2TabControl1"
-        Guna2TabControl1.SelectedIndex = 0
-        Guna2TabControl1.Size = New Size(1288, 724)
-        Guna2TabControl1.TabButtonHoverState.BorderColor = Color.Empty
-        Guna2TabControl1.TabButtonHoverState.FillColor = Color.FromArgb(CByte(40), CByte(52), CByte(70))
-        Guna2TabControl1.TabButtonHoverState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TabControl1.TabButtonHoverState.ForeColor = Color.FromArgb(CByte(167), CByte(41), CByte(36))
-        Guna2TabControl1.TabButtonHoverState.InnerColor = Color.FromArgb(CByte(40), CByte(52), CByte(70))
-        Guna2TabControl1.TabButtonIdleState.BorderColor = Color.Empty
-        Guna2TabControl1.TabButtonIdleState.FillColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
-        Guna2TabControl1.TabButtonIdleState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TabControl1.TabButtonIdleState.ForeColor = Color.White
-        Guna2TabControl1.TabButtonIdleState.InnerColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
-        Guna2TabControl1.TabButtonImageAlign = HorizontalAlignment.Left
-        Guna2TabControl1.TabButtonImageOffset = New Point(10, 0)
-        Guna2TabControl1.TabButtonSelectedState.BorderColor = Color.Empty
-        Guna2TabControl1.TabButtonSelectedState.FillColor = Color.WhiteSmoke
-        Guna2TabControl1.TabButtonSelectedState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TabControl1.TabButtonSelectedState.ForeColor = Color.FromArgb(CByte(167), CByte(41), CByte(36))
-        Guna2TabControl1.TabButtonSelectedState.InnerColor = Color.FromArgb(CByte(167), CByte(41), CByte(36))
-        Guna2TabControl1.TabButtonSize = New Size(250, 60)
-        Guna2TabControl1.TabButtonTextAlign = HorizontalAlignment.Left
-        Guna2TabControl1.TabButtonTextOffset = New Point(13, 0)
-        Guna2TabControl1.TabButtonTextRenderingHint = Drawing.Text.TextRenderingHint.AntiAliasGridFit
-        Guna2TabControl1.TabIndex = 1
-        Guna2TabControl1.TabMenuBackColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
+        Me.Guna2TabControl1.Alignment = Global.System.Windows.Forms.TabAlignment.Left
+        Me.Guna2TabControl1.Controls.Add(Me.TabPage6)
+        Me.Guna2TabControl1.Controls.Add(Me.tabDashboard)
+        Me.Guna2TabControl1.Controls.Add(Me.tabEmployee)
+        Me.Guna2TabControl1.Controls.Add(Me.tabFund)
+        Me.Guna2TabControl1.Controls.Add(Me.tabContri)
+        Me.Guna2TabControl1.Cursor = Global.System.Windows.Forms.Cursors.Hand
+        Me.Guna2TabControl1.Dock = Global.System.Windows.Forms.DockStyle.Fill
+        Me.Guna2TabControl1.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 14.25F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TabControl1.HotTrack = True
+        Me.Guna2TabControl1.ImageList = Me.ImageList1
+        Me.Guna2TabControl1.ImeMode = Global.System.Windows.Forms.ImeMode.Off
+        Me.Guna2TabControl1.ItemSize = New Global.System.Drawing.Size(250, 60)
+        Me.Guna2TabControl1.Location = New Global.System.Drawing.Point(0, 40)
+        Me.Guna2TabControl1.Name = "Guna2TabControl1"
+        Me.Guna2TabControl1.SelectedIndex = 0
+        Me.Guna2TabControl1.Size = New Global.System.Drawing.Size(1288, 724)
+        Me.Guna2TabControl1.TabButtonHoverState.BorderColor = Global.System.Drawing.Color.Empty
+        Me.Guna2TabControl1.TabButtonHoverState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(40))), CInt(CByte(CByte(52))), CInt(CByte(CByte(70))))
+        Me.Guna2TabControl1.TabButtonHoverState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TabControl1.TabButtonHoverState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(167))), CInt(CByte(CByte(41))), CInt(CByte(CByte(36))))
+        Me.Guna2TabControl1.TabButtonHoverState.InnerColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(40))), CInt(CByte(CByte(52))), CInt(CByte(CByte(70))))
+        Me.Guna2TabControl1.TabButtonIdleState.BorderColor = Global.System.Drawing.Color.Empty
+        Me.Guna2TabControl1.TabButtonIdleState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(33))), CInt(CByte(CByte(42))), CInt(CByte(CByte(57))))
+        Me.Guna2TabControl1.TabButtonIdleState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TabControl1.TabButtonIdleState.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2TabControl1.TabButtonIdleState.InnerColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(33))), CInt(CByte(CByte(42))), CInt(CByte(CByte(57))))
+        Me.Guna2TabControl1.TabButtonImageAlign = Global.System.Windows.Forms.HorizontalAlignment.Left
+        Me.Guna2TabControl1.TabButtonImageOffset = New Global.System.Drawing.Point(10, 0)
+        Me.Guna2TabControl1.TabButtonSelectedState.BorderColor = Global.System.Drawing.Color.Empty
+        Me.Guna2TabControl1.TabButtonSelectedState.FillColor = Global.System.Drawing.Color.WhiteSmoke
+        Me.Guna2TabControl1.TabButtonSelectedState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TabControl1.TabButtonSelectedState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(167))), CInt(CByte(CByte(41))), CInt(CByte(CByte(36))))
+        Me.Guna2TabControl1.TabButtonSelectedState.InnerColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(167))), CInt(CByte(CByte(41))), CInt(CByte(CByte(36))))
+        Me.Guna2TabControl1.TabButtonSize = New Global.System.Drawing.Size(250, 60)
+        Me.Guna2TabControl1.TabButtonTextAlign = Global.System.Windows.Forms.HorizontalAlignment.Left
+        Me.Guna2TabControl1.TabButtonTextOffset = New Global.System.Drawing.Point(13, 0)
+        Me.Guna2TabControl1.TabButtonTextRenderingHint = Global.System.Drawing.Text.TextRenderingHint.AntiAliasGridFit
+        Me.Guna2TabControl1.TabIndex = 1
+        Me.Guna2TabControl1.TabMenuBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(33))), CInt(CByte(CByte(42))), CInt(CByte(CByte(57))))
         ' 
         ' TabPage6
         ' 
-        TabPage6.Controls.Add(pnlHome)
-        TabPage6.ImageKey = "image-removebg-preview (1).png"
-        TabPage6.Location = New Point(254, 4)
-        TabPage6.Name = "TabPage6"
-        TabPage6.Size = New Size(1030, 716)
-        TabPage6.TabIndex = 3
-        TabPage6.Text = "Welcome!"
-        TabPage6.UseVisualStyleBackColor = True
+        Me.TabPage6.Controls.Add(Me.pnlHome)
+        Me.TabPage6.ImageKey = "image-removebg-preview (1).png"
+        Me.TabPage6.Location = New Global.System.Drawing.Point(254, 4)
+        Me.TabPage6.Name = "TabPage6"
+        Me.TabPage6.Size = New Global.System.Drawing.Size(1030, 716)
+        Me.TabPage6.TabIndex = 3
+        Me.TabPage6.Text = "Welcome!"
+        Me.TabPage6.UseVisualStyleBackColor = True
         ' 
         ' pnlHome
         ' 
-        pnlHome.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
-        pnlHome.Controls.Add(Panel2)
-        pnlHome.Controls.Add(Guna2PictureBox5)
-        pnlHome.Controls.Add(Guna2Panel4)
-        pnlHome.CustomizableEdges = CustomizableEdges9
-        pnlHome.Dock = DockStyle.Fill
-        pnlHome.Location = New Point(0, 0)
-        pnlHome.Name = "pnlHome"
-        pnlHome.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        pnlHome.Size = New Size(1030, 716)
-        pnlHome.TabIndex = 1
+        Me.pnlHome.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(237))), CInt(CByte(CByte(231))), CInt(CByte(CByte(230))))
+        Me.pnlHome.Controls.Add(Me.Panel2)
+        Me.pnlHome.Controls.Add(Me.Guna2PictureBox5)
+        Me.pnlHome.Controls.Add(Me.Guna2Panel4)
+        Me.pnlHome.CustomizableEdges = CustomizableEdges9
+        Me.pnlHome.Dock = Global.System.Windows.Forms.DockStyle.Fill
+        Me.pnlHome.Location = New Global.System.Drawing.Point(0, 0)
+        Me.pnlHome.Name = "pnlHome"
+        Me.pnlHome.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Me.pnlHome.Size = New Global.System.Drawing.Size(1030, 716)
+        Me.pnlHome.TabIndex = 1
         ' 
         ' Panel2
         ' 
-        Panel2.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Panel2.Controls.Add(Label32)
-        Panel2.Controls.Add(Label33)
-        Panel2.Controls.Add(Label31)
-        Panel2.Controls.Add(Label30)
-        Panel2.Controls.Add(Guna2PictureBox4)
-        Panel2.Controls.Add(Label34)
-        Panel2.Location = New Point(191, 153)
-        Panel2.Name = "Panel2"
-        Panel2.Size = New Size(822, 543)
-        Panel2.TabIndex = 22
+        Me.Panel2.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
+        Me.Panel2.Controls.Add(Me.Label32)
+        Me.Panel2.Controls.Add(Me.Label33)
+        Me.Panel2.Controls.Add(Me.Label31)
+        Me.Panel2.Controls.Add(Me.Label30)
+        Me.Panel2.Controls.Add(Me.Guna2PictureBox4)
+        Me.Panel2.Controls.Add(Me.Label34)
+        Me.Panel2.Location = New Global.System.Drawing.Point(191, 153)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New Global.System.Drawing.Size(822, 543)
+        Me.Panel2.TabIndex = 22
         ' 
         ' Label32
         ' 
-        Label32.AutoSize = True
-        Label32.Font = New Font("Cambria", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label32.ForeColor = Color.Black
-        Label32.Location = New Point(240, 394)
-        Label32.Name = "Label32"
-        Label32.Size = New Size(338, 57)
-        Label32.TabIndex = 19
-        Label32.Text = "Department of Social Welfare and Development" & vbCrLf & "2nd Floor DSWD Old Central Office Building" & vbCrLf & "Batasan Hills, Quezon City"
-        Label32.TextAlign = ContentAlignment.MiddleCenter
+        Me.Label32.AutoSize = True
+        Me.Label32.Font = New Global.System.Drawing.Font("Cambria", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label32.ForeColor = Global.System.Drawing.Color.Black
+        Me.Label32.Location = New Global.System.Drawing.Point(240, 394)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New Global.System.Drawing.Size(338, 57)
+        Me.Label32.TabIndex = 19
+        Me.Label32.Text = "Department of Social Welfare and Development" & Global.Microsoft.VisualBasic.Constants.vbCrLf & "2nd Floor DSWD Old Central Office Building" & Global.Microsoft.VisualBasic.Constants.vbCrLf & "Batasan Hills, Quezon City"
+        Me.Label32.TextAlign = Global.System.Drawing.ContentAlignment.MiddleCenter
         ' 
         ' Label33
         ' 
-        Label33.AutoSize = True
-        Label33.Font = New Font("Cambria", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label33.ForeColor = Color.Black
-        Label33.Location = New Point(286, 489)
-        Label33.Name = "Label33"
-        Label33.Size = New Size(242, 34)
-        Label33.TabIndex = 20
-        Label33.Text = "Phone: 931-8101 local 229 /4420680" & vbCrLf & "E-mail: sweaphil@yahoo.com.ph"
-        Label33.TextAlign = ContentAlignment.MiddleCenter
+        Me.Label33.AutoSize = True
+        Me.Label33.Font = New Global.System.Drawing.Font("Cambria", 11.25F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label33.ForeColor = Global.System.Drawing.Color.Black
+        Me.Label33.Location = New Global.System.Drawing.Point(286, 489)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New Global.System.Drawing.Size(242, 34)
+        Me.Label33.TabIndex = 20
+        Me.Label33.Text = "Phone: 931-8101 local 229 /4420680" & Global.Microsoft.VisualBasic.Constants.vbCrLf & "E-mail: sweaphil@yahoo.com.ph"
+        Me.Label33.TextAlign = Global.System.Drawing.ContentAlignment.MiddleCenter
         ' 
         ' Label31
         ' 
-        Label31.AutoSize = True
-        Label31.Font = New Font("Cambria", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label31.ForeColor = Color.Black
-        Label31.Location = New Point(263, 313)
-        Label31.Name = "Label31"
-        Label31.Size = New Size(298, 44)
-        Label31.TabIndex = 17
-        Label31.Text = "    SOCIAL WELFARE EMPLOYEES" & vbCrLf & "ASSOCIATION OF THE PHILIPPINES"
+        Me.Label31.AutoSize = True
+        Me.Label31.Font = New Global.System.Drawing.Font("Cambria", 14.25F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label31.ForeColor = Global.System.Drawing.Color.Black
+        Me.Label31.Location = New Global.System.Drawing.Point(263, 313)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New Global.System.Drawing.Size(298, 44)
+        Me.Label31.TabIndex = 17
+        Me.Label31.Text = "    SOCIAL WELFARE EMPLOYEES" & Global.Microsoft.VisualBasic.Constants.vbCrLf & "ASSOCIATION OF THE PHILIPPINES"
         ' 
         ' Label30
         ' 
-        Label30.AutoSize = True
-        Label30.Font = New Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Label30.ForeColor = Color.Black
-        Label30.Location = New Point(62, 127)
-        Label30.Name = "Label30"
-        Label30.Size = New Size(694, 132)
-        Label30.TabIndex = 16
-        Label30.Text = resources.GetString("Label30.Text")
-        Label30.TextAlign = ContentAlignment.MiddleCenter
+        Me.Label30.AutoSize = True
+        Me.Label30.Font = New Global.System.Drawing.Font("Cambria", 14.25F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label30.ForeColor = Global.System.Drawing.Color.Black
+        Me.Label30.Location = New Global.System.Drawing.Point(62, 127)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New Global.System.Drawing.Size(694, 132)
+        Me.Label30.TabIndex = 16
+        Me.Label30.Text = resources.GetString("Label30.Text")
+        Me.Label30.TextAlign = Global.System.Drawing.ContentAlignment.MiddleCenter
         ' 
         ' Guna2PictureBox4
         ' 
-        Guna2PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
-        Guna2PictureBox4.CustomizableEdges = CustomizableEdges1
-        Guna2PictureBox4.FillColor = Color.Transparent
-        Guna2PictureBox4.Image = My.Resources.Resources.image__1_
-        Guna2PictureBox4.ImageRotate = 0F
-        Guna2PictureBox4.Location = New Point(325, 11)
-        Guna2PictureBox4.Name = "Guna2PictureBox4"
-        Guna2PictureBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2PictureBox4.Size = New Size(157, 103)
-        Guna2PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
-        Guna2PictureBox4.TabIndex = 15
-        Guna2PictureBox4.TabStop = False
+        Me.Guna2PictureBox4.BackgroundImageLayout = Global.System.Windows.Forms.ImageLayout.Stretch
+        Me.Guna2PictureBox4.CustomizableEdges = CustomizableEdges1
+        Me.Guna2PictureBox4.FillColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2PictureBox4.Image = Global.S.W.E.A.P.My.Resources.Resources.image__1_
+        Me.Guna2PictureBox4.ImageRotate = 0F
+        Me.Guna2PictureBox4.Location = New Global.System.Drawing.Point(325, 11)
+        Me.Guna2PictureBox4.Name = "Guna2PictureBox4"
+        Me.Guna2PictureBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Me.Guna2PictureBox4.Size = New Global.System.Drawing.Size(157, 103)
+        Me.Guna2PictureBox4.SizeMode = Global.System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox4.TabIndex = 15
+        Me.Guna2PictureBox4.TabStop = False
         ' 
         ' Label34
         ' 
-        Label34.AutoSize = True
-        Label34.Font = New Font("Cambria", 48F, FontStyle.Bold, GraphicsUnit.Point)
-        Label34.ForeColor = Color.Blue
-        Label34.Location = New Point(263, 232)
-        Label34.Name = "Label34"
-        Label34.Size = New Size(296, 75)
-        Label34.TabIndex = 21
-        Label34.Text = "___________"
+        Me.Label34.AutoSize = True
+        Me.Label34.Font = New Global.System.Drawing.Font("Cambria", 48F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label34.ForeColor = Global.System.Drawing.Color.Blue
+        Me.Label34.Location = New Global.System.Drawing.Point(263, 232)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New Global.System.Drawing.Size(296, 75)
+        Me.Label34.TabIndex = 21
+        Me.Label34.Text = "___________"
         ' 
         ' Guna2PictureBox5
         ' 
-        Guna2PictureBox5.BackgroundImageLayout = ImageLayout.Stretch
-        Guna2PictureBox5.CustomizableEdges = CustomizableEdges3
-        Guna2PictureBox5.FillColor = Color.Transparent
-        Guna2PictureBox5.Image = My.Resources.Resources.ka
-        Guna2PictureBox5.ImageRotate = 0F
-        Guna2PictureBox5.Location = New Point(17, 153)
-        Guna2PictureBox5.Name = "Guna2PictureBox5"
-        Guna2PictureBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2PictureBox5.Size = New Size(157, 543)
-        Guna2PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
-        Guna2PictureBox5.TabIndex = 18
-        Guna2PictureBox5.TabStop = False
+        Me.Guna2PictureBox5.BackgroundImageLayout = Global.System.Windows.Forms.ImageLayout.Stretch
+        Me.Guna2PictureBox5.CustomizableEdges = CustomizableEdges3
+        Me.Guna2PictureBox5.FillColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2PictureBox5.Image = Global.S.W.E.A.P.My.Resources.Resources.ka
+        Me.Guna2PictureBox5.ImageRotate = 0F
+        Me.Guna2PictureBox5.Location = New Global.System.Drawing.Point(17, 153)
+        Me.Guna2PictureBox5.Name = "Guna2PictureBox5"
+        Me.Guna2PictureBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Me.Guna2PictureBox5.Size = New Global.System.Drawing.Size(157, 543)
+        Me.Guna2PictureBox5.SizeMode = Global.System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox5.TabIndex = 18
+        Me.Guna2PictureBox5.TabStop = False
         ' 
         ' Guna2Panel4
         ' 
-        Guna2Panel4.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Guna2Panel4.BorderColor = Color.Black
-        Guna2Panel4.BorderRadius = 10
-        Guna2Panel4.Controls.Add(lblAdminName)
-        Guna2Panel4.Controls.Add(Label28)
-        Guna2Panel4.Controls.Add(Guna2PictureBox3)
-        Guna2Panel4.CustomizableEdges = CustomizableEdges7
-        Guna2Panel4.Location = New Point(17, 19)
-        Guna2Panel4.Name = "Guna2Panel4"
-        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2Panel4.Size = New Size(996, 117)
-        Guna2Panel4.TabIndex = 14
+        Me.Guna2Panel4.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
+        Me.Guna2Panel4.BorderColor = Global.System.Drawing.Color.Black
+        Me.Guna2Panel4.BorderRadius = 10
+        Me.Guna2Panel4.Controls.Add(Me.lblAdminName)
+        Me.Guna2Panel4.Controls.Add(Me.Label28)
+        Me.Guna2Panel4.Controls.Add(Me.Guna2PictureBox3)
+        Me.Guna2Panel4.CustomizableEdges = CustomizableEdges7
+        Me.Guna2Panel4.Location = New Global.System.Drawing.Point(17, 19)
+        Me.Guna2Panel4.Name = "Guna2Panel4"
+        Me.Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        Me.Guna2Panel4.Size = New Global.System.Drawing.Size(996, 117)
+        Me.Guna2Panel4.TabIndex = 14
         ' 
         ' lblAdminName
         ' 
-        lblAdminName.AutoSize = True
-        lblAdminName.Font = New Font("Cambria", 18F, FontStyle.Bold, GraphicsUnit.Point)
-        lblAdminName.ForeColor = Color.Black
-        lblAdminName.Location = New Point(324, 39)
-        lblAdminName.Name = "lblAdminName"
-        lblAdminName.Size = New Size(89, 28)
-        lblAdminName.TabIndex = 15
-        lblAdminName.Text = "ADMIN"
+        Me.lblAdminName.AutoSize = True
+        Me.lblAdminName.Font = New Global.System.Drawing.Font("Cambria", 18F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblAdminName.ForeColor = Global.System.Drawing.Color.Black
+        Me.lblAdminName.Location = New Global.System.Drawing.Point(324, 39)
+        Me.lblAdminName.Name = "lblAdminName"
+        Me.lblAdminName.Size = New Global.System.Drawing.Size(89, 28)
+        Me.lblAdminName.TabIndex = 15
+        Me.lblAdminName.Text = "ADMIN"
         ' 
         ' Label28
         ' 
-        Label28.AutoSize = True
-        Label28.Font = New Font("Cambria", 18F, FontStyle.Bold, GraphicsUnit.Point)
-        Label28.ForeColor = Color.Black
-        Label28.Location = New Point(151, 39)
-        Label28.Name = "Label28"
-        Label28.Size = New Size(171, 28)
-        Label28.TabIndex = 14
-        Label28.Text = "Welcome Back"
+        Me.Label28.AutoSize = True
+        Me.Label28.Font = New Global.System.Drawing.Font("Cambria", 18F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label28.ForeColor = Global.System.Drawing.Color.Black
+        Me.Label28.Location = New Global.System.Drawing.Point(151, 39)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New Global.System.Drawing.Size(171, 28)
+        Me.Label28.TabIndex = 14
+        Me.Label28.Text = "Welcome Back"
         ' 
         ' Guna2PictureBox3
         ' 
-        Guna2PictureBox3.BackColor = Color.Transparent
-        Guna2PictureBox3.BackgroundImage = My.Resources.Resources.image_removebg_preview__1_1
-        Guna2PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
-        Guna2PictureBox3.CustomizableEdges = CustomizableEdges5
-        Guna2PictureBox3.FillColor = Color.Transparent
-        Guna2PictureBox3.ImageRotate = 0F
-        Guna2PictureBox3.Location = New Point(15, 9)
-        Guna2PictureBox3.Name = "Guna2PictureBox3"
-        Guna2PictureBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2PictureBox3.Size = New Size(120, 101)
-        Guna2PictureBox3.TabIndex = 10
-        Guna2PictureBox3.TabStop = False
+        Me.Guna2PictureBox3.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2PictureBox3.BackgroundImage = Global.S.W.E.A.P.My.Resources.Resources.image_removebg_preview__1_1
+        Me.Guna2PictureBox3.BackgroundImageLayout = Global.System.Windows.Forms.ImageLayout.Stretch
+        Me.Guna2PictureBox3.CustomizableEdges = CustomizableEdges5
+        Me.Guna2PictureBox3.FillColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2PictureBox3.ImageRotate = 0F
+        Me.Guna2PictureBox3.Location = New Global.System.Drawing.Point(15, 9)
+        Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
+        Me.Guna2PictureBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        Me.Guna2PictureBox3.Size = New Global.System.Drawing.Size(120, 101)
+        Me.Guna2PictureBox3.TabIndex = 10
+        Me.Guna2PictureBox3.TabStop = False
         ' 
         ' tabDashboard
         ' 
-        tabDashboard.BackgroundImageLayout = ImageLayout.Stretch
-        tabDashboard.Controls.Add(pnlDashboard)
-        tabDashboard.Font = New Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point)
-        tabDashboard.ImageKey = "data-report.png"
-        tabDashboard.Location = New Point(254, 4)
-        tabDashboard.Name = "tabDashboard"
-        tabDashboard.Padding = New Padding(3)
-        tabDashboard.Size = New Size(1030, 716)
-        tabDashboard.TabIndex = 0
-        tabDashboard.Text = "Dashboard"
-        tabDashboard.UseVisualStyleBackColor = True
+        Me.tabDashboard.BackgroundImageLayout = Global.System.Windows.Forms.ImageLayout.Stretch
+        Me.tabDashboard.Controls.Add(Me.pnlDashboard)
+        Me.tabDashboard.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 24F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.tabDashboard.ImageKey = "data-management.png"
+        Me.tabDashboard.Location = New Global.System.Drawing.Point(254, 4)
+        Me.tabDashboard.Name = "tabDashboard"
+        Me.tabDashboard.Padding = New Global.System.Windows.Forms.Padding(3)
+        Me.tabDashboard.Size = New Global.System.Drawing.Size(1030, 716)
+        Me.tabDashboard.TabIndex = 0
+        Me.tabDashboard.Text = "Dashboard"
+        Me.tabDashboard.UseVisualStyleBackColor = True
         ' 
         ' pnlDashboard
         ' 
-        pnlDashboard.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
-        pnlDashboard.BorderRadius = 10
-        pnlDashboard.Controls.Add(Guna2Panel3)
-        pnlDashboard.Controls.Add(Label27)
-        pnlDashboard.Controls.Add(Guna2Panel2)
-        pnlDashboard.Controls.Add(Guna2Panel1)
-        pnlDashboard.Controls.Add(Guna2Button1)
-        pnlDashboard.Controls.Add(Guna2Button2)
-        pnlDashboard.Controls.Add(Guna2Button3)
-        pnlDashboard.Controls.Add(Label4)
-        pnlDashboard.Controls.Add(Label5)
-        pnlDashboard.CustomizableEdges = CustomizableEdges46
-        pnlDashboard.Dock = DockStyle.Fill
-        pnlDashboard.Location = New Point(3, 3)
-        pnlDashboard.Margin = New Padding(33, 3, 3, 3)
-        pnlDashboard.Name = "pnlDashboard"
-        pnlDashboard.ShadowDecoration.CustomizableEdges = CustomizableEdges47
-        pnlDashboard.Size = New Size(1024, 710)
-        pnlDashboard.TabIndex = 6
+        Me.pnlDashboard.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(237))), CInt(CByte(CByte(231))), CInt(CByte(CByte(230))))
+        Me.pnlDashboard.BorderRadius = 10
+        Me.pnlDashboard.Controls.Add(Me.Guna2Panel3)
+        Me.pnlDashboard.Controls.Add(Me.Label27)
+        Me.pnlDashboard.Controls.Add(Me.Guna2Panel2)
+        Me.pnlDashboard.Controls.Add(Me.Guna2Panel1)
+        Me.pnlDashboard.Controls.Add(Me.Guna2Button1)
+        Me.pnlDashboard.Controls.Add(Me.Guna2Button2)
+        Me.pnlDashboard.Controls.Add(Me.Guna2Button3)
+        Me.pnlDashboard.Controls.Add(Me.Label4)
+        Me.pnlDashboard.Controls.Add(Me.Label5)
+        Me.pnlDashboard.CustomizableEdges = CustomizableEdges46
+        Me.pnlDashboard.Dock = Global.System.Windows.Forms.DockStyle.Fill
+        Me.pnlDashboard.Location = New Global.System.Drawing.Point(3, 3)
+        Me.pnlDashboard.Margin = New Global.System.Windows.Forms.Padding(33, 3, 3, 3)
+        Me.pnlDashboard.Name = "pnlDashboard"
+        Me.pnlDashboard.ShadowDecoration.CustomizableEdges = CustomizableEdges47
+        Me.pnlDashboard.Size = New Global.System.Drawing.Size(1024, 710)
+        Me.pnlDashboard.TabIndex = 6
         ' 
         ' Guna2Panel3
         ' 
-        Guna2Panel3.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Guna2Panel3.BorderColor = Color.Black
-        Guna2Panel3.BorderRadius = 10
-        Guna2Panel3.BorderThickness = 1
-        Guna2Panel3.Controls.Add(Guna2CircleProgressBar5)
-        Guna2Panel3.Controls.Add(Guna2CircleProgressBar6)
-        Guna2Panel3.Controls.Add(Guna2ProgressBar6)
-        Guna2Panel3.Controls.Add(Guna2CircleProgressBar7)
-        Guna2Panel3.Controls.Add(Guna2ProgressBar7)
-        Guna2Panel3.Controls.Add(Guna2CircleProgressBar3)
-        Guna2Panel3.Controls.Add(Guna2CircleProgressBar2)
-        Guna2Panel3.Controls.Add(Guna2ProgressBar3)
-        Guna2Panel3.Controls.Add(Guna2ProgressBar2)
-        Guna2Panel3.Controls.Add(Guna2CircleProgressBar4)
-        Guna2Panel3.Controls.Add(Guna2ProgressBar4)
-        Guna2Panel3.Controls.Add(Guna2CircleProgressBar1)
-        Guna2Panel3.Controls.Add(Guna2ProgressBar1)
-        Guna2Panel3.CustomizableEdges = CustomizableEdges30
-        Guna2Panel3.Location = New Point(26, 464)
-        Guna2Panel3.Name = "Guna2Panel3"
-        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges31
-        Guna2Panel3.Size = New Size(964, 201)
-        Guna2Panel3.TabIndex = 14
+        Me.Guna2Panel3.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
+        Me.Guna2Panel3.BorderColor = Global.System.Drawing.Color.Black
+        Me.Guna2Panel3.BorderRadius = 10
+        Me.Guna2Panel3.BorderThickness = 1
+        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar5)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar6)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2ProgressBar6)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar7)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2ProgressBar7)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar3)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar2)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2ProgressBar3)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2ProgressBar2)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar4)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2ProgressBar4)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar1)
+        Me.Guna2Panel3.Controls.Add(Me.Guna2ProgressBar1)
+        Me.Guna2Panel3.CustomizableEdges = CustomizableEdges30
+        Me.Guna2Panel3.Location = New Global.System.Drawing.Point(26, 464)
+        Me.Guna2Panel3.Name = "Guna2Panel3"
+        Me.Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges31
+        Me.Guna2Panel3.Size = New Global.System.Drawing.Size(964, 201)
+        Me.Guna2Panel3.TabIndex = 14
         ' 
         ' Guna2CircleProgressBar5
         ' 
-        Guna2CircleProgressBar5.FillColor = Color.DimGray
-        Guna2CircleProgressBar5.FillThickness = 5
-        Guna2CircleProgressBar5.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2CircleProgressBar5.ForeColor = Color.White
-        Guna2CircleProgressBar5.Location = New Point(885, 51)
-        Guna2CircleProgressBar5.Minimum = 0
-        Guna2CircleProgressBar5.Name = "Guna2CircleProgressBar5"
-        Guna2CircleProgressBar5.ProgressColor = Color.OrangeRed
-        Guna2CircleProgressBar5.ShadowDecoration.CustomizableEdges = CustomizableEdges11
-        Guna2CircleProgressBar5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Guna2CircleProgressBar5.Size = New Size(38, 38)
-        Guna2CircleProgressBar5.TabIndex = 13
-        Guna2CircleProgressBar5.Text = "Guna2CircleProgressBar5"
-        Guna2CircleProgressBar5.Value = 100
+        Me.Guna2CircleProgressBar5.FillColor = Global.System.Drawing.Color.DimGray
+        Me.Guna2CircleProgressBar5.FillThickness = 5
+        Me.Guna2CircleProgressBar5.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2CircleProgressBar5.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2CircleProgressBar5.Location = New Global.System.Drawing.Point(885, 51)
+        Me.Guna2CircleProgressBar5.Minimum = 0
+        Me.Guna2CircleProgressBar5.Name = "Guna2CircleProgressBar5"
+        Me.Guna2CircleProgressBar5.ProgressColor = Global.System.Drawing.Color.OrangeRed
+        Me.Guna2CircleProgressBar5.ShadowDecoration.CustomizableEdges = CustomizableEdges11
+        Me.Guna2CircleProgressBar5.ShadowDecoration.Mode = Global.Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar5.Size = New Global.System.Drawing.Size(38, 38)
+        Me.Guna2CircleProgressBar5.TabIndex = 13
+        Me.Guna2CircleProgressBar5.Text = "Guna2CircleProgressBar5"
+        Me.Guna2CircleProgressBar5.Value = 100
         ' 
         ' Guna2CircleProgressBar6
         ' 
-        Guna2CircleProgressBar6.FillColor = Color.DimGray
-        Guna2CircleProgressBar6.FillThickness = 5
-        Guna2CircleProgressBar6.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2CircleProgressBar6.ForeColor = Color.White
-        Guna2CircleProgressBar6.Location = New Point(607, 52)
-        Guna2CircleProgressBar6.Minimum = 0
-        Guna2CircleProgressBar6.Name = "Guna2CircleProgressBar6"
-        Guna2CircleProgressBar6.ProgressColor = Color.OrangeRed
-        Guna2CircleProgressBar6.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Guna2CircleProgressBar6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Guna2CircleProgressBar6.Size = New Size(38, 38)
-        Guna2CircleProgressBar6.TabIndex = 9
-        Guna2CircleProgressBar6.Text = "Guna2CircleProgressBar6"
-        Guna2CircleProgressBar6.Value = 100
+        Me.Guna2CircleProgressBar6.FillColor = Global.System.Drawing.Color.DimGray
+        Me.Guna2CircleProgressBar6.FillThickness = 5
+        Me.Guna2CircleProgressBar6.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2CircleProgressBar6.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2CircleProgressBar6.Location = New Global.System.Drawing.Point(607, 52)
+        Me.Guna2CircleProgressBar6.Minimum = 0
+        Me.Guna2CircleProgressBar6.Name = "Guna2CircleProgressBar6"
+        Me.Guna2CircleProgressBar6.ProgressColor = Global.System.Drawing.Color.OrangeRed
+        Me.Guna2CircleProgressBar6.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Me.Guna2CircleProgressBar6.ShadowDecoration.Mode = Global.Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar6.Size = New Global.System.Drawing.Size(38, 38)
+        Me.Guna2CircleProgressBar6.TabIndex = 9
+        Me.Guna2CircleProgressBar6.Text = "Guna2CircleProgressBar6"
+        Me.Guna2CircleProgressBar6.Value = 100
         ' 
         ' Guna2ProgressBar6
         ' 
-        Guna2ProgressBar6.CustomizableEdges = CustomizableEdges13
-        Guna2ProgressBar6.FillColor = Color.Gray
-        Guna2ProgressBar6.Location = New Point(615, 66)
-        Guna2ProgressBar6.Name = "Guna2ProgressBar6"
-        Guna2ProgressBar6.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        Guna2ProgressBar6.Size = New Size(131, 10)
-        Guna2ProgressBar6.TabIndex = 8
-        Guna2ProgressBar6.Text = "Guna2ProgressBar6"
-        Guna2ProgressBar6.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault
+        Me.Guna2ProgressBar6.CustomizableEdges = CustomizableEdges13
+        Me.Guna2ProgressBar6.FillColor = Global.System.Drawing.Color.Gray
+        Me.Guna2ProgressBar6.Location = New Global.System.Drawing.Point(615, 66)
+        Me.Guna2ProgressBar6.Name = "Guna2ProgressBar6"
+        Me.Guna2ProgressBar6.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        Me.Guna2ProgressBar6.Size = New Global.System.Drawing.Size(131, 10)
+        Me.Guna2ProgressBar6.TabIndex = 8
+        Me.Guna2ProgressBar6.Text = "Guna2ProgressBar6"
+        Me.Guna2ProgressBar6.TextRenderingHint = Global.System.Drawing.Text.TextRenderingHint.SystemDefault
         ' 
         ' Guna2CircleProgressBar7
         ' 
-        Guna2CircleProgressBar7.FillColor = Color.DimGray
-        Guna2CircleProgressBar7.FillThickness = 5
-        Guna2CircleProgressBar7.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2CircleProgressBar7.ForeColor = Color.White
-        Guna2CircleProgressBar7.Location = New Point(746, 51)
-        Guna2CircleProgressBar7.Minimum = 0
-        Guna2CircleProgressBar7.Name = "Guna2CircleProgressBar7"
-        Guna2CircleProgressBar7.ProgressColor = Color.OrangeRed
-        Guna2CircleProgressBar7.ShadowDecoration.CustomizableEdges = CustomizableEdges15
-        Guna2CircleProgressBar7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Guna2CircleProgressBar7.Size = New Size(38, 38)
-        Guna2CircleProgressBar7.TabIndex = 11
-        Guna2CircleProgressBar7.Text = "Guna2CircleProgressBar7"
-        Guna2CircleProgressBar7.Value = 100
+        Me.Guna2CircleProgressBar7.FillColor = Global.System.Drawing.Color.DimGray
+        Me.Guna2CircleProgressBar7.FillThickness = 5
+        Me.Guna2CircleProgressBar7.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2CircleProgressBar7.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2CircleProgressBar7.Location = New Global.System.Drawing.Point(746, 51)
+        Me.Guna2CircleProgressBar7.Minimum = 0
+        Me.Guna2CircleProgressBar7.Name = "Guna2CircleProgressBar7"
+        Me.Guna2CircleProgressBar7.ProgressColor = Global.System.Drawing.Color.OrangeRed
+        Me.Guna2CircleProgressBar7.ShadowDecoration.CustomizableEdges = CustomizableEdges15
+        Me.Guna2CircleProgressBar7.ShadowDecoration.Mode = Global.Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar7.Size = New Global.System.Drawing.Size(38, 38)
+        Me.Guna2CircleProgressBar7.TabIndex = 11
+        Me.Guna2CircleProgressBar7.Text = "Guna2CircleProgressBar7"
+        Me.Guna2CircleProgressBar7.Value = 100
         ' 
         ' Guna2ProgressBar7
         ' 
-        Guna2ProgressBar7.CustomizableEdges = CustomizableEdges16
-        Guna2ProgressBar7.FillColor = Color.Gray
-        Guna2ProgressBar7.Location = New Point(754, 65)
-        Guna2ProgressBar7.Name = "Guna2ProgressBar7"
-        Guna2ProgressBar7.ShadowDecoration.CustomizableEdges = CustomizableEdges17
-        Guna2ProgressBar7.Size = New Size(131, 10)
-        Guna2ProgressBar7.TabIndex = 10
-        Guna2ProgressBar7.Text = "Guna2ProgressBar7"
-        Guna2ProgressBar7.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault
+        Me.Guna2ProgressBar7.CustomizableEdges = CustomizableEdges16
+        Me.Guna2ProgressBar7.FillColor = Global.System.Drawing.Color.Gray
+        Me.Guna2ProgressBar7.Location = New Global.System.Drawing.Point(754, 65)
+        Me.Guna2ProgressBar7.Name = "Guna2ProgressBar7"
+        Me.Guna2ProgressBar7.ShadowDecoration.CustomizableEdges = CustomizableEdges17
+        Me.Guna2ProgressBar7.Size = New Global.System.Drawing.Size(131, 10)
+        Me.Guna2ProgressBar7.TabIndex = 10
+        Me.Guna2ProgressBar7.Text = "Guna2ProgressBar7"
+        Me.Guna2ProgressBar7.TextRenderingHint = Global.System.Drawing.Text.TextRenderingHint.SystemDefault
         ' 
         ' Guna2CircleProgressBar3
         ' 
-        Guna2CircleProgressBar3.FillColor = Color.DimGray
-        Guna2CircleProgressBar3.FillThickness = 5
-        Guna2CircleProgressBar3.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2CircleProgressBar3.ForeColor = Color.White
-        Guna2CircleProgressBar3.Location = New Point(471, 51)
-        Guna2CircleProgressBar3.Minimum = 0
-        Guna2CircleProgressBar3.Name = "Guna2CircleProgressBar3"
-        Guna2CircleProgressBar3.ProgressColor = Color.Black
-        Guna2CircleProgressBar3.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        Guna2CircleProgressBar3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Guna2CircleProgressBar3.Size = New Size(38, 38)
-        Guna2CircleProgressBar3.TabIndex = 7
-        Guna2CircleProgressBar3.Text = "Guna2CircleProgressBar3"
-        Guna2CircleProgressBar3.Value = 50
+        Me.Guna2CircleProgressBar3.FillColor = Global.System.Drawing.Color.DimGray
+        Me.Guna2CircleProgressBar3.FillThickness = 5
+        Me.Guna2CircleProgressBar3.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2CircleProgressBar3.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2CircleProgressBar3.Location = New Global.System.Drawing.Point(471, 51)
+        Me.Guna2CircleProgressBar3.Minimum = 0
+        Me.Guna2CircleProgressBar3.Name = "Guna2CircleProgressBar3"
+        Me.Guna2CircleProgressBar3.ProgressColor = Global.System.Drawing.Color.Black
+        Me.Guna2CircleProgressBar3.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        Me.Guna2CircleProgressBar3.ShadowDecoration.Mode = Global.Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar3.Size = New Global.System.Drawing.Size(38, 38)
+        Me.Guna2CircleProgressBar3.TabIndex = 7
+        Me.Guna2CircleProgressBar3.Text = "Guna2CircleProgressBar3"
+        Me.Guna2CircleProgressBar3.Value = 50
         ' 
         ' Guna2CircleProgressBar2
         ' 
-        Guna2CircleProgressBar2.FillColor = Color.DimGray
-        Guna2CircleProgressBar2.FillThickness = 5
-        Guna2CircleProgressBar2.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2CircleProgressBar2.ForeColor = Color.White
-        Guna2CircleProgressBar2.Location = New Point(193, 52)
-        Guna2CircleProgressBar2.Minimum = 0
-        Guna2CircleProgressBar2.Name = "Guna2CircleProgressBar2"
-        Guna2CircleProgressBar2.ProgressColor = Color.DimGray
-        Guna2CircleProgressBar2.ShadowDecoration.CustomizableEdges = CustomizableEdges19
-        Guna2CircleProgressBar2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Guna2CircleProgressBar2.Size = New Size(38, 38)
-        Guna2CircleProgressBar2.TabIndex = 3
-        Guna2CircleProgressBar2.Text = "Guna2CircleProgressBar2"
-        Guna2CircleProgressBar2.Value = 100
+        Me.Guna2CircleProgressBar2.FillColor = Global.System.Drawing.Color.DimGray
+        Me.Guna2CircleProgressBar2.FillThickness = 5
+        Me.Guna2CircleProgressBar2.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2CircleProgressBar2.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2CircleProgressBar2.Location = New Global.System.Drawing.Point(193, 52)
+        Me.Guna2CircleProgressBar2.Minimum = 0
+        Me.Guna2CircleProgressBar2.Name = "Guna2CircleProgressBar2"
+        Me.Guna2CircleProgressBar2.ProgressColor = Global.System.Drawing.Color.DimGray
+        Me.Guna2CircleProgressBar2.ShadowDecoration.CustomizableEdges = CustomizableEdges19
+        Me.Guna2CircleProgressBar2.ShadowDecoration.Mode = Global.Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar2.Size = New Global.System.Drawing.Size(38, 38)
+        Me.Guna2CircleProgressBar2.TabIndex = 3
+        Me.Guna2CircleProgressBar2.Text = "Guna2CircleProgressBar2"
+        Me.Guna2CircleProgressBar2.Value = 100
         ' 
         ' Guna2ProgressBar3
         ' 
-        Guna2ProgressBar3.CustomizableEdges = CustomizableEdges20
-        Guna2ProgressBar3.FillColor = Color.Gray
-        Guna2ProgressBar3.Location = New Point(479, 65)
-        Guna2ProgressBar3.Name = "Guna2ProgressBar3"
-        Guna2ProgressBar3.ShadowDecoration.CustomizableEdges = CustomizableEdges21
-        Guna2ProgressBar3.Size = New Size(131, 10)
-        Guna2ProgressBar3.TabIndex = 6
-        Guna2ProgressBar3.Text = "Guna2ProgressBar3"
-        Guna2ProgressBar3.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault
+        Me.Guna2ProgressBar3.CustomizableEdges = CustomizableEdges20
+        Me.Guna2ProgressBar3.FillColor = Global.System.Drawing.Color.Gray
+        Me.Guna2ProgressBar3.Location = New Global.System.Drawing.Point(479, 65)
+        Me.Guna2ProgressBar3.Name = "Guna2ProgressBar3"
+        Me.Guna2ProgressBar3.ShadowDecoration.CustomizableEdges = CustomizableEdges21
+        Me.Guna2ProgressBar3.Size = New Global.System.Drawing.Size(131, 10)
+        Me.Guna2ProgressBar3.TabIndex = 6
+        Me.Guna2ProgressBar3.Text = "Guna2ProgressBar3"
+        Me.Guna2ProgressBar3.TextRenderingHint = Global.System.Drawing.Text.TextRenderingHint.SystemDefault
         ' 
         ' Guna2ProgressBar2
         ' 
-        Guna2ProgressBar2.CustomizableEdges = CustomizableEdges22
-        Guna2ProgressBar2.FillColor = Color.Gray
-        Guna2ProgressBar2.Location = New Point(201, 66)
-        Guna2ProgressBar2.Name = "Guna2ProgressBar2"
-        Guna2ProgressBar2.ProgressColor = Color.DimGray
-        Guna2ProgressBar2.ShadowDecoration.CustomizableEdges = CustomizableEdges23
-        Guna2ProgressBar2.Size = New Size(131, 10)
-        Guna2ProgressBar2.TabIndex = 2
-        Guna2ProgressBar2.Text = "Guna2ProgressBar2"
-        Guna2ProgressBar2.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault
-        Guna2ProgressBar2.Value = 100
+        Me.Guna2ProgressBar2.CustomizableEdges = CustomizableEdges22
+        Me.Guna2ProgressBar2.FillColor = Global.System.Drawing.Color.Gray
+        Me.Guna2ProgressBar2.Location = New Global.System.Drawing.Point(201, 66)
+        Me.Guna2ProgressBar2.Name = "Guna2ProgressBar2"
+        Me.Guna2ProgressBar2.ProgressColor = Global.System.Drawing.Color.DimGray
+        Me.Guna2ProgressBar2.ShadowDecoration.CustomizableEdges = CustomizableEdges23
+        Me.Guna2ProgressBar2.Size = New Global.System.Drawing.Size(131, 10)
+        Me.Guna2ProgressBar2.TabIndex = 2
+        Me.Guna2ProgressBar2.Text = "Guna2ProgressBar2"
+        Me.Guna2ProgressBar2.TextRenderingHint = Global.System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.Guna2ProgressBar2.Value = 100
         ' 
         ' Guna2CircleProgressBar4
         ' 
-        Guna2CircleProgressBar4.FillColor = Color.DimGray
-        Guna2CircleProgressBar4.FillThickness = 5
-        Guna2CircleProgressBar4.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2CircleProgressBar4.ForeColor = Color.White
-        Guna2CircleProgressBar4.Location = New Point(332, 51)
-        Guna2CircleProgressBar4.Minimum = 0
-        Guna2CircleProgressBar4.Name = "Guna2CircleProgressBar4"
-        Guna2CircleProgressBar4.ProgressColor = Color.DimGray
-        Guna2CircleProgressBar4.ShadowDecoration.CustomizableEdges = CustomizableEdges24
-        Guna2CircleProgressBar4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Guna2CircleProgressBar4.Size = New Size(38, 38)
-        Guna2CircleProgressBar4.TabIndex = 5
-        Guna2CircleProgressBar4.Text = "Guna2CircleProgressBar4"
-        Guna2CircleProgressBar4.Value = 100
+        Me.Guna2CircleProgressBar4.FillColor = Global.System.Drawing.Color.DimGray
+        Me.Guna2CircleProgressBar4.FillThickness = 5
+        Me.Guna2CircleProgressBar4.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2CircleProgressBar4.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2CircleProgressBar4.Location = New Global.System.Drawing.Point(332, 51)
+        Me.Guna2CircleProgressBar4.Minimum = 0
+        Me.Guna2CircleProgressBar4.Name = "Guna2CircleProgressBar4"
+        Me.Guna2CircleProgressBar4.ProgressColor = Global.System.Drawing.Color.DimGray
+        Me.Guna2CircleProgressBar4.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        Me.Guna2CircleProgressBar4.ShadowDecoration.Mode = Global.Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar4.Size = New Global.System.Drawing.Size(38, 38)
+        Me.Guna2CircleProgressBar4.TabIndex = 5
+        Me.Guna2CircleProgressBar4.Text = "Guna2CircleProgressBar4"
+        Me.Guna2CircleProgressBar4.Value = 100
         ' 
         ' Guna2ProgressBar4
         ' 
-        Guna2ProgressBar4.CustomizableEdges = CustomizableEdges25
-        Guna2ProgressBar4.FillColor = Color.Gray
-        Guna2ProgressBar4.Location = New Point(340, 65)
-        Guna2ProgressBar4.Name = "Guna2ProgressBar4"
-        Guna2ProgressBar4.ProgressColor = Color.DimGray
-        Guna2ProgressBar4.ShadowDecoration.CustomizableEdges = CustomizableEdges26
-        Guna2ProgressBar4.Size = New Size(131, 10)
-        Guna2ProgressBar4.TabIndex = 4
-        Guna2ProgressBar4.Text = "Guna2ProgressBar4"
-        Guna2ProgressBar4.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault
+        Me.Guna2ProgressBar4.CustomizableEdges = CustomizableEdges25
+        Me.Guna2ProgressBar4.FillColor = Global.System.Drawing.Color.Gray
+        Me.Guna2ProgressBar4.Location = New Global.System.Drawing.Point(340, 65)
+        Me.Guna2ProgressBar4.Name = "Guna2ProgressBar4"
+        Me.Guna2ProgressBar4.ProgressColor = Global.System.Drawing.Color.DimGray
+        Me.Guna2ProgressBar4.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        Me.Guna2ProgressBar4.Size = New Global.System.Drawing.Size(131, 10)
+        Me.Guna2ProgressBar4.TabIndex = 4
+        Me.Guna2ProgressBar4.Text = "Guna2ProgressBar4"
+        Me.Guna2ProgressBar4.TextRenderingHint = Global.System.Drawing.Text.TextRenderingHint.SystemDefault
         ' 
         ' Guna2CircleProgressBar1
         ' 
-        Guna2CircleProgressBar1.FillColor = Color.DimGray
-        Guna2CircleProgressBar1.FillThickness = 5
-        Guna2CircleProgressBar1.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2CircleProgressBar1.ForeColor = Color.White
-        Guna2CircleProgressBar1.Location = New Point(54, 52)
-        Guna2CircleProgressBar1.Minimum = 0
-        Guna2CircleProgressBar1.Name = "Guna2CircleProgressBar1"
-        Guna2CircleProgressBar1.ProgressColor = Color.DimGray
-        Guna2CircleProgressBar1.ProgressColor2 = Color.Green
-        Guna2CircleProgressBar1.ShadowDecoration.CustomizableEdges = CustomizableEdges27
-        Guna2CircleProgressBar1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Guna2CircleProgressBar1.Size = New Size(38, 38)
-        Guna2CircleProgressBar1.TabIndex = 1
-        Guna2CircleProgressBar1.Text = "Guna2CircleProgressBar1"
-        Guna2CircleProgressBar1.Value = 100
+        Me.Guna2CircleProgressBar1.FillColor = Global.System.Drawing.Color.DimGray
+        Me.Guna2CircleProgressBar1.FillThickness = 5
+        Me.Guna2CircleProgressBar1.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2CircleProgressBar1.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2CircleProgressBar1.Location = New Global.System.Drawing.Point(54, 52)
+        Me.Guna2CircleProgressBar1.Minimum = 0
+        Me.Guna2CircleProgressBar1.Name = "Guna2CircleProgressBar1"
+        Me.Guna2CircleProgressBar1.ProgressColor = Global.System.Drawing.Color.DimGray
+        Me.Guna2CircleProgressBar1.ProgressColor2 = Global.System.Drawing.Color.Green
+        Me.Guna2CircleProgressBar1.ShadowDecoration.CustomizableEdges = CustomizableEdges27
+        Me.Guna2CircleProgressBar1.ShadowDecoration.Mode = Global.Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleProgressBar1.Size = New Global.System.Drawing.Size(38, 38)
+        Me.Guna2CircleProgressBar1.TabIndex = 1
+        Me.Guna2CircleProgressBar1.Text = "Guna2CircleProgressBar1"
+        Me.Guna2CircleProgressBar1.Value = 100
         ' 
         ' Guna2ProgressBar1
         ' 
-        Guna2ProgressBar1.CustomizableEdges = CustomizableEdges28
-        Guna2ProgressBar1.FillColor = Color.Gray
-        Guna2ProgressBar1.Location = New Point(62, 66)
-        Guna2ProgressBar1.Name = "Guna2ProgressBar1"
-        Guna2ProgressBar1.ProgressColor = Color.DimGray
-        Guna2ProgressBar1.ShadowDecoration.CustomizableEdges = CustomizableEdges29
-        Guna2ProgressBar1.Size = New Size(131, 10)
-        Guna2ProgressBar1.TabIndex = 0
-        Guna2ProgressBar1.Text = "Guna2ProgressBar1"
-        Guna2ProgressBar1.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault
-        Guna2ProgressBar1.Value = 100
+        Me.Guna2ProgressBar1.CustomizableEdges = CustomizableEdges28
+        Me.Guna2ProgressBar1.FillColor = Global.System.Drawing.Color.Gray
+        Me.Guna2ProgressBar1.Location = New Global.System.Drawing.Point(62, 66)
+        Me.Guna2ProgressBar1.Name = "Guna2ProgressBar1"
+        Me.Guna2ProgressBar1.ProgressColor = Global.System.Drawing.Color.DimGray
+        Me.Guna2ProgressBar1.ShadowDecoration.CustomizableEdges = CustomizableEdges29
+        Me.Guna2ProgressBar1.Size = New Global.System.Drawing.Size(131, 10)
+        Me.Guna2ProgressBar1.TabIndex = 0
+        Me.Guna2ProgressBar1.Text = "Guna2ProgressBar1"
+        Me.Guna2ProgressBar1.TextRenderingHint = Global.System.Drawing.Text.TextRenderingHint.SystemDefault
+        Me.Guna2ProgressBar1.Value = 100
         ' 
         ' Label27
         ' 
-        Label27.AutoSize = True
-        Label27.Font = New Font("Cambria", 18F, FontStyle.Bold, GraphicsUnit.Point)
-        Label27.ForeColor = Color.Black
-        Label27.Location = New Point(23, 10)
-        Label27.Name = "Label27"
-        Label27.Size = New Size(154, 28)
-        Label27.TabIndex = 13
-        Label27.Text = "DASHBOARD"
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New Global.System.Drawing.Font("Cambria", 18F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label27.ForeColor = Global.System.Drawing.Color.Black
+        Me.Label27.Location = New Global.System.Drawing.Point(23, 10)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New Global.System.Drawing.Size(154, 28)
+        Me.Label27.TabIndex = 13
+        Me.Label27.Text = "DASHBOARD"
         ' 
         ' Guna2Panel2
         ' 
-        Guna2Panel2.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Guna2Panel2.BorderColor = Color.Black
-        Guna2Panel2.BorderRadius = 10
-        Guna2Panel2.BorderThickness = 1
-        Guna2Panel2.Controls.Add(Guna2Button4)
-        Guna2Panel2.Controls.Add(Guna2HtmlLabel2)
-        Guna2Panel2.Controls.Add(PictureBox2)
-        Guna2Panel2.Controls.Add(Label2)
-        Guna2Panel2.CustomizableEdges = CustomizableEdges34
-        Guna2Panel2.Location = New Point(28, 253)
-        Guna2Panel2.Name = "Guna2Panel2"
-        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges35
-        Guna2Panel2.Size = New Size(364, 179)
-        Guna2Panel2.TabIndex = 12
+        Me.Guna2Panel2.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
+        Me.Guna2Panel2.BorderColor = Global.System.Drawing.Color.Black
+        Me.Guna2Panel2.BorderRadius = 10
+        Me.Guna2Panel2.BorderThickness = 1
+        Me.Guna2Panel2.Controls.Add(Me.Guna2Button4)
+        Me.Guna2Panel2.Controls.Add(Me.Guna2HtmlLabel2)
+        Me.Guna2Panel2.Controls.Add(Me.PictureBox2)
+        Me.Guna2Panel2.Controls.Add(Me.Label2)
+        Me.Guna2Panel2.CustomizableEdges = CustomizableEdges34
+        Me.Guna2Panel2.Location = New Global.System.Drawing.Point(28, 253)
+        Me.Guna2Panel2.Name = "Guna2Panel2"
+        Me.Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges35
+        Me.Guna2Panel2.Size = New Global.System.Drawing.Size(364, 179)
+        Me.Guna2Panel2.TabIndex = 12
         ' 
         ' Guna2Button4
         ' 
-        Guna2Button4.Animated = True
-        Guna2Button4.BackColor = Color.Transparent
-        Guna2Button4.BorderRadius = 10
-        Guna2Button4.CustomizableEdges = CustomizableEdges32
-        Guna2Button4.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button4.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button4.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button4.FillColor = Color.LimeGreen
-        Guna2Button4.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2Button4.ForeColor = Color.White
-        Guna2Button4.Location = New Point(52, 119)
-        Guna2Button4.Name = "Guna2Button4"
-        Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges33
-        Guna2Button4.Size = New Size(75, 31)
-        Guna2Button4.TabIndex = 11
-        Guna2Button4.Text = "View"
+        Me.Guna2Button4.Animated = True
+        Me.Guna2Button4.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2Button4.BorderRadius = 10
+        Me.Guna2Button4.CustomizableEdges = CustomizableEdges32
+        Me.Guna2Button4.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
+        Me.Guna2Button4.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
+        Me.Guna2Button4.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
+        Me.Guna2Button4.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
+        Me.Guna2Button4.FillColor = Global.System.Drawing.Color.LimeGreen
+        Me.Guna2Button4.Font = New Global.System.Drawing.Font("Segoe UI Black", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2Button4.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2Button4.Location = New Global.System.Drawing.Point(52, 119)
+        Me.Guna2Button4.Name = "Guna2Button4"
+        Me.Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges33
+        Me.Guna2Button4.Size = New Global.System.Drawing.Size(75, 31)
+        Me.Guna2Button4.TabIndex = 11
+        Me.Guna2Button4.Text = "View"
         ' 
         ' Guna2HtmlLabel2
         ' 
-        Guna2HtmlLabel2.BackColor = Color.Transparent
-        Guna2HtmlLabel2.Font = New Font("Segoe UI Semibold", 30F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2HtmlLabel2.ForeColor = Color.Green
-        Guna2HtmlLabel2.Location = New Point(57, 63)
-        Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Guna2HtmlLabel2.Size = New Size(63, 56)
-        Guna2HtmlLabel2.TabIndex = 13
-        Guna2HtmlLabel2.Text = "100 "
+        Me.Guna2HtmlLabel2.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel2.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 30F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2HtmlLabel2.ForeColor = Global.System.Drawing.Color.Green
+        Me.Guna2HtmlLabel2.Location = New Global.System.Drawing.Point(57, 63)
+        Me.Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
+        Me.Guna2HtmlLabel2.Size = New Global.System.Drawing.Size(63, 56)
+        Me.Guna2HtmlLabel2.TabIndex = 13
+        Me.Guna2HtmlLabel2.Text = "100 "
         ' 
         ' PictureBox2
         ' 
-        PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Image)
-        PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox2.Location = New Point(210, 51)
-        PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(154, 128)
-        PictureBox2.TabIndex = 14
-        PictureBox2.TabStop = False
+        Me.PictureBox2.BackgroundImage = CType(resources.GetObject("PictureBox2.BackgroundImage"), Global.System.Drawing.Image)
+        Me.PictureBox2.BackgroundImageLayout = Global.System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox2.Location = New Global.System.Drawing.Point(210, 51)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New Global.System.Drawing.Size(154, 128)
+        Me.PictureBox2.TabIndex = 14
+        Me.PictureBox2.TabStop = False
         ' 
         ' Label2
         ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI", 22F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.ForeColor = Color.Black
-        Label2.Location = New Point(23, 8)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(144, 41)
-        Label2.TabIndex = 13
-        Label2.Text = "Members"
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New Global.System.Drawing.Font("Segoe UI", 22F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label2.ForeColor = Global.System.Drawing.Color.Black
+        Me.Label2.Location = New Global.System.Drawing.Point(23, 8)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New Global.System.Drawing.Size(144, 41)
+        Me.Label2.TabIndex = 13
+        Me.Label2.Text = "Members"
         ' 
         ' Guna2Panel1
         ' 
-        Guna2Panel1.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Guna2Panel1.BorderColor = Color.Black
-        Guna2Panel1.BorderRadius = 10
-        Guna2Panel1.BorderThickness = 1
-        Guna2Panel1.Controls.Add(Label17)
-        Guna2Panel1.Controls.Add(Guna2TrackBar1)
-        Guna2Panel1.Controls.Add(Guna2HtmlLabel1)
-        Guna2Panel1.Controls.Add(Label18)
-        Guna2Panel1.Controls.Add(Guna2PictureBox2)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges38
-        Guna2Panel1.Location = New Point(432, 253)
-        Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges39
-        Guna2Panel1.Size = New Size(557, 179)
-        Guna2Panel1.TabIndex = 11
+        Me.Guna2Panel1.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
+        Me.Guna2Panel1.BorderColor = Global.System.Drawing.Color.Black
+        Me.Guna2Panel1.BorderRadius = 10
+        Me.Guna2Panel1.BorderThickness = 1
+        Me.Guna2Panel1.Controls.Add(Me.Label17)
+        Me.Guna2Panel1.Controls.Add(Me.Guna2TrackBar1)
+        Me.Guna2Panel1.Controls.Add(Me.Guna2HtmlLabel1)
+        Me.Guna2Panel1.Controls.Add(Me.Label18)
+        Me.Guna2Panel1.Controls.Add(Me.Guna2PictureBox2)
+        Me.Guna2Panel1.CustomizableEdges = CustomizableEdges38
+        Me.Guna2Panel1.Location = New Global.System.Drawing.Point(432, 253)
+        Me.Guna2Panel1.Name = "Guna2Panel1"
+        Me.Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges39
+        Me.Guna2Panel1.Size = New Global.System.Drawing.Size(557, 179)
+        Me.Guna2Panel1.TabIndex = 11
         ' 
         ' Label17
         ' 
-        Label17.AutoSize = True
-        Label17.Font = New Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point)
-        Label17.ForeColor = Color.DimGray
-        Label17.Location = New Point(26, 136)
-        Label17.Name = "Label17"
-        Label17.Size = New Size(188, 25)
-        Label17.TabIndex = 12
-        Label17.Text = "Current Contribution"
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New Global.System.Drawing.Font("Segoe UI", 14F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label17.ForeColor = Global.System.Drawing.Color.DimGray
+        Me.Label17.Location = New Global.System.Drawing.Point(26, 136)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New Global.System.Drawing.Size(188, 25)
+        Me.Label17.TabIndex = 12
+        Me.Label17.Text = "Current Contribution"
         ' 
         ' Guna2TrackBar1
         ' 
-        Guna2TrackBar1.Location = New Point(12, 111)
-        Guna2TrackBar1.Name = "Guna2TrackBar1"
-        Guna2TrackBar1.Size = New Size(348, 22)
-        Guna2TrackBar1.TabIndex = 11
-        Guna2TrackBar1.ThumbColor = Color.FromArgb(CByte(160), CByte(113), CByte(255))
+        Me.Guna2TrackBar1.Location = New Global.System.Drawing.Point(12, 111)
+        Me.Guna2TrackBar1.Name = "Guna2TrackBar1"
+        Me.Guna2TrackBar1.Size = New Global.System.Drawing.Size(348, 22)
+        Me.Guna2TrackBar1.TabIndex = 11
+        Me.Guna2TrackBar1.ThumbColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(160))), CInt(CByte(CByte(113))), CInt(CByte(CByte(255))))
         ' 
         ' Guna2HtmlLabel1
         ' 
-        Guna2HtmlLabel1.BackColor = Color.Transparent
-        Guna2HtmlLabel1.Font = New Font("Segoe UI Semibold", 26F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2HtmlLabel1.ForeColor = Color.OrangeRed
-        Guna2HtmlLabel1.Location = New Point(147, 48)
-        Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Guna2HtmlLabel1.Size = New Size(55, 49)
-        Guna2HtmlLabel1.TabIndex = 10
-        Guna2HtmlLabel1.Text = "100 "
+        Me.Guna2HtmlLabel1.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2HtmlLabel1.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 26F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2HtmlLabel1.ForeColor = Global.System.Drawing.Color.OrangeRed
+        Me.Guna2HtmlLabel1.Location = New Global.System.Drawing.Point(147, 48)
+        Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
+        Me.Guna2HtmlLabel1.Size = New Global.System.Drawing.Size(55, 49)
+        Me.Guna2HtmlLabel1.TabIndex = 10
+        Me.Guna2HtmlLabel1.Text = "100 "
         ' 
         ' Label18
         ' 
-        Label18.AutoSize = True
-        Label18.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point)
-        Label18.ForeColor = Color.Black
-        Label18.Location = New Point(26, 8)
-        Label18.Name = "Label18"
-        Label18.Size = New Size(236, 32)
-        Label18.TabIndex = 10
-        Label18.Text = "Current Contribution"
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New Global.System.Drawing.Font("Segoe UI", 18F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label18.ForeColor = Global.System.Drawing.Color.Black
+        Me.Label18.Location = New Global.System.Drawing.Point(26, 8)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New Global.System.Drawing.Size(236, 32)
+        Me.Label18.TabIndex = 10
+        Me.Label18.Text = "Current Contribution"
         ' 
         ' Guna2PictureBox2
         ' 
-        Guna2PictureBox2.BackgroundImage = My.Resources.Resources.image_removebg_preview__1_1
-        Guna2PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges36
-        Guna2PictureBox2.FillColor = Color.Transparent
-        Guna2PictureBox2.ImageRotate = 0F
-        Guna2PictureBox2.Location = New Point(391, 48)
-        Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges37
-        Guna2PictureBox2.Size = New Size(166, 131)
-        Guna2PictureBox2.TabIndex = 10
-        Guna2PictureBox2.TabStop = False
+        Me.Guna2PictureBox2.BackgroundImage = Global.S.W.E.A.P.My.Resources.Resources.image_removebg_preview__1_1
+        Me.Guna2PictureBox2.BackgroundImageLayout = Global.System.Windows.Forms.ImageLayout.Stretch
+        Me.Guna2PictureBox2.CustomizableEdges = CustomizableEdges36
+        Me.Guna2PictureBox2.FillColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2PictureBox2.ImageRotate = 0F
+        Me.Guna2PictureBox2.Location = New Global.System.Drawing.Point(391, 48)
+        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
+        Me.Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges37
+        Me.Guna2PictureBox2.Size = New Global.System.Drawing.Size(166, 131)
+        Me.Guna2PictureBox2.TabIndex = 10
+        Me.Guna2PictureBox2.TabStop = False
         ' 
         ' Guna2Button1
         ' 
-        Guna2Button1.Animated = True
-        Guna2Button1.BackColor = Color.Transparent
-        Guna2Button1.BorderRadius = 10
-        Guna2Button1.CustomizableEdges = CustomizableEdges40
-        Guna2Button1.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button1.FillColor = Color.RosyBrown
-        Guna2Button1.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2Button1.ForeColor = Color.White
-        Guna2Button1.Location = New Point(877, 95)
-        Guna2Button1.Name = "Guna2Button1"
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges41
-        Guna2Button1.Size = New Size(93, 41)
-        Guna2Button1.TabIndex = 6
-        Guna2Button1.Text = "MONTH"
+        Me.Guna2Button1.Animated = True
+        Me.Guna2Button1.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2Button1.BorderRadius = 10
+        Me.Guna2Button1.CustomizableEdges = CustomizableEdges40
+        Me.Guna2Button1.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
+        Me.Guna2Button1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
+        Me.Guna2Button1.FillColor = Global.System.Drawing.Color.RosyBrown
+        Me.Guna2Button1.Font = New Global.System.Drawing.Font("Segoe UI Black", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2Button1.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2Button1.Location = New Global.System.Drawing.Point(877, 95)
+        Me.Guna2Button1.Name = "Guna2Button1"
+        Me.Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges41
+        Me.Guna2Button1.Size = New Global.System.Drawing.Size(93, 41)
+        Me.Guna2Button1.TabIndex = 6
+        Me.Guna2Button1.Text = "MONTH"
         ' 
         ' Guna2Button2
         ' 
-        Guna2Button2.Animated = True
-        Guna2Button2.BackColor = Color.Transparent
-        Guna2Button2.BorderRadius = 10
-        Guna2Button2.CustomizableEdges = CustomizableEdges42
-        Guna2Button2.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button2.FillColor = Color.RosyBrown
-        Guna2Button2.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2Button2.ForeColor = Color.White
-        Guna2Button2.Location = New Point(778, 95)
-        Guna2Button2.Name = "Guna2Button2"
-        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges43
-        Guna2Button2.Size = New Size(93, 41)
-        Guna2Button2.TabIndex = 7
-        Guna2Button2.Text = "WEEK"
+        Me.Guna2Button2.Animated = True
+        Me.Guna2Button2.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2Button2.BorderRadius = 10
+        Me.Guna2Button2.CustomizableEdges = CustomizableEdges42
+        Me.Guna2Button2.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
+        Me.Guna2Button2.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
+        Me.Guna2Button2.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
+        Me.Guna2Button2.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
+        Me.Guna2Button2.FillColor = Global.System.Drawing.Color.RosyBrown
+        Me.Guna2Button2.Font = New Global.System.Drawing.Font("Segoe UI Black", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2Button2.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2Button2.Location = New Global.System.Drawing.Point(778, 95)
+        Me.Guna2Button2.Name = "Guna2Button2"
+        Me.Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges43
+        Me.Guna2Button2.Size = New Global.System.Drawing.Size(93, 41)
+        Me.Guna2Button2.TabIndex = 7
+        Me.Guna2Button2.Text = "WEEK"
         ' 
         ' Guna2Button3
         ' 
-        Guna2Button3.Animated = True
-        Guna2Button3.BackColor = Color.Transparent
-        Guna2Button3.BorderRadius = 10
-        Guna2Button3.CustomizableEdges = CustomizableEdges44
-        Guna2Button3.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button3.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button3.FillColor = Color.RosyBrown
-        Guna2Button3.Font = New Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2Button3.ForeColor = Color.White
-        Guna2Button3.Location = New Point(679, 95)
-        Guna2Button3.Name = "Guna2Button3"
-        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges45
-        Guna2Button3.Size = New Size(93, 41)
-        Guna2Button3.TabIndex = 8
-        Guna2Button3.Text = "DAY"
+        Me.Guna2Button3.Animated = True
+        Me.Guna2Button3.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2Button3.BorderRadius = 10
+        Me.Guna2Button3.CustomizableEdges = CustomizableEdges44
+        Me.Guna2Button3.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
+        Me.Guna2Button3.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
+        Me.Guna2Button3.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
+        Me.Guna2Button3.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
+        Me.Guna2Button3.FillColor = Global.System.Drawing.Color.RosyBrown
+        Me.Guna2Button3.Font = New Global.System.Drawing.Font("Segoe UI Black", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2Button3.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2Button3.Location = New Global.System.Drawing.Point(679, 95)
+        Me.Guna2Button3.Name = "Guna2Button3"
+        Me.Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges45
+        Me.Guna2Button3.Size = New Global.System.Drawing.Size(93, 41)
+        Me.Guna2Button3.TabIndex = 8
+        Me.Guna2Button3.Text = "DAY"
         ' 
         ' Label4
         ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 18.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.ForeColor = Color.DimGray
-        Label4.Location = New Point(80, 112)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(293, 35)
-        Label4.TabIndex = 4
-        Label4.Text = "Overview of Contribution"
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New Global.System.Drawing.Font("Segoe UI", 18.75F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label4.ForeColor = Global.System.Drawing.Color.DimGray
+        Me.Label4.Location = New Global.System.Drawing.Point(80, 112)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New Global.System.Drawing.Size(293, 35)
+        Me.Label4.TabIndex = 4
+        Me.Label4.Text = "Overview of Contribution"
         ' 
         ' Label5
         ' 
-        Label5.AutoSize = True
-        Label5.Font = New Font("Segoe UI", 32.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label5.ForeColor = Color.Black
-        Label5.Location = New Point(34, 53)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(403, 59)
-        Label5.TabIndex = 3
-        Label5.Text = "Contribution Report"
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New Global.System.Drawing.Font("Segoe UI", 32.25F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label5.ForeColor = Global.System.Drawing.Color.Black
+        Me.Label5.Location = New Global.System.Drawing.Point(34, 53)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New Global.System.Drawing.Size(403, 59)
+        Me.Label5.TabIndex = 3
+        Me.Label5.Text = "Contribution Report"
         ' 
         ' tabEmployee
         ' 
-        tabEmployee.Controls.Add(tabEdit)
-        tabEmployee.Controls.Add(pnlEmployee)
-        tabEmployee.ImageKey = "employees.png"
-        tabEmployee.Location = New Point(254, 4)
-        tabEmployee.Name = "tabEmployee"
-        tabEmployee.Padding = New Padding(3)
-        tabEmployee.Size = New Size(1030, 716)
-        tabEmployee.TabIndex = 1
-        tabEmployee.Text = "Employee"
-        tabEmployee.UseVisualStyleBackColor = True
+        Me.tabEmployee.Controls.Add(Me.tabEdit)
+        Me.tabEmployee.Controls.Add(Me.pnlEmployee)
+        Me.tabEmployee.ImageKey = "team.png"
+        Me.tabEmployee.Location = New Global.System.Drawing.Point(254, 4)
+        Me.tabEmployee.Name = "tabEmployee"
+        Me.tabEmployee.Padding = New Global.System.Windows.Forms.Padding(3)
+        Me.tabEmployee.Size = New Global.System.Drawing.Size(1030, 716)
+        Me.tabEmployee.TabIndex = 1
+        Me.tabEmployee.Text = "Employee"
+        Me.tabEmployee.UseVisualStyleBackColor = True
         ' 
         ' tabEdit
         ' 
-        tabEdit.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
-        tabEdit.Controls.Add(tabEditMember)
-        tabEdit.Dock = DockStyle.Fill
-        tabEdit.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        tabEdit.Location = New Point(3, 3)
-        tabEdit.Name = "tabEdit"
-        tabEdit.Size = New Size(1024, 710)
-        tabEdit.TabIndex = 1
+        Me.tabEdit.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(237))), CInt(CByte(CByte(231))), CInt(CByte(CByte(230))))
+        Me.tabEdit.Controls.Add(Me.tabEditMember)
+        Me.tabEdit.Dock = Global.System.Windows.Forms.DockStyle.Fill
+        Me.tabEdit.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.tabEdit.Location = New Global.System.Drawing.Point(3, 3)
+        Me.tabEdit.Name = "tabEdit"
+        Me.tabEdit.Size = New Global.System.Drawing.Size(1024, 710)
+        Me.tabEdit.TabIndex = 1
         ' 
         ' tabEditMember
         ' 
-        tabEditMember.Controls.Add(personal)
-        tabEditMember.Controls.Add(other)
-        tabEditMember.ItemSize = New Size(180, 40)
-        tabEditMember.Location = New Point(6, 17)
-        tabEditMember.Name = "tabEditMember"
-        tabEditMember.SelectedIndex = 0
-        tabEditMember.Size = New Size(1065, 688)
-        tabEditMember.TabButtonHoverState.BorderColor = Color.Empty
-        tabEditMember.TabButtonHoverState.FillColor = Color.White
-        tabEditMember.TabButtonHoverState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        tabEditMember.TabButtonHoverState.ForeColor = Color.White
-        tabEditMember.TabButtonHoverState.InnerColor = Color.FromArgb(CByte(40), CByte(52), CByte(70))
-        tabEditMember.TabButtonIdleState.BorderColor = Color.Empty
-        tabEditMember.TabButtonIdleState.FillColor = Color.FromArgb(CByte(214), CByte(185), CByte(0))
-        tabEditMember.TabButtonIdleState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        tabEditMember.TabButtonIdleState.ForeColor = Color.Black
-        tabEditMember.TabButtonIdleState.InnerColor = Color.Transparent
-        tabEditMember.TabButtonSelectedState.BorderColor = Color.Empty
-        tabEditMember.TabButtonSelectedState.FillColor = Color.DarkRed
-        tabEditMember.TabButtonSelectedState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        tabEditMember.TabButtonSelectedState.ForeColor = Color.White
-        tabEditMember.TabButtonSelectedState.InnerColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
-        tabEditMember.TabButtonSize = New Size(180, 40)
-        tabEditMember.TabIndex = 5
-        tabEditMember.TabMenuBackColor = Color.FromArgb(CByte(214), CByte(185), CByte(0))
-        tabEditMember.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop
+        Me.tabEditMember.Controls.Add(Me.personal)
+        Me.tabEditMember.Controls.Add(Me.other)
+        Me.tabEditMember.ItemSize = New Global.System.Drawing.Size(180, 40)
+        Me.tabEditMember.Location = New Global.System.Drawing.Point(6, 17)
+        Me.tabEditMember.Name = "tabEditMember"
+        Me.tabEditMember.SelectedIndex = 0
+        Me.tabEditMember.Size = New Global.System.Drawing.Size(1065, 688)
+        Me.tabEditMember.TabButtonHoverState.BorderColor = Global.System.Drawing.Color.Empty
+        Me.tabEditMember.TabButtonHoverState.FillColor = Global.System.Drawing.Color.White
+        Me.tabEditMember.TabButtonHoverState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.tabEditMember.TabButtonHoverState.ForeColor = Global.System.Drawing.Color.White
+        Me.tabEditMember.TabButtonHoverState.InnerColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(40))), CInt(CByte(CByte(52))), CInt(CByte(CByte(70))))
+        Me.tabEditMember.TabButtonIdleState.BorderColor = Global.System.Drawing.Color.Empty
+        Me.tabEditMember.TabButtonIdleState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(214))), CInt(CByte(CByte(185))), CInt(CByte(CByte(0))))
+        Me.tabEditMember.TabButtonIdleState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.tabEditMember.TabButtonIdleState.ForeColor = Global.System.Drawing.Color.Black
+        Me.tabEditMember.TabButtonIdleState.InnerColor = Global.System.Drawing.Color.Transparent
+        Me.tabEditMember.TabButtonSelectedState.BorderColor = Global.System.Drawing.Color.Empty
+        Me.tabEditMember.TabButtonSelectedState.FillColor = Global.System.Drawing.Color.DarkRed
+        Me.tabEditMember.TabButtonSelectedState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.tabEditMember.TabButtonSelectedState.ForeColor = Global.System.Drawing.Color.White
+        Me.tabEditMember.TabButtonSelectedState.InnerColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(33))), CInt(CByte(CByte(42))), CInt(CByte(CByte(57))))
+        Me.tabEditMember.TabButtonSize = New Global.System.Drawing.Size(180, 40)
+        Me.tabEditMember.TabIndex = 5
+        Me.tabEditMember.TabMenuBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(214))), CInt(CByte(CByte(185))), CInt(CByte(CByte(0))))
+        Me.tabEditMember.TabMenuOrientation = Global.Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop
         ' 
         ' personal
         ' 
-        personal.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
-        personal.Controls.Add(btnEditBack)
-        personal.Controls.Add(btnEditNext)
-        personal.Controls.Add(Guna2Button5)
-        personal.Controls.Add(pickEditBdate)
-        personal.Controls.Add(pBoxEditProfile)
-        personal.Controls.Add(txtEditMname)
-        personal.Controls.Add(Label12)
-        personal.Controls.Add(txtEditUsername)
-        personal.Controls.Add(Label15)
-        personal.Controls.Add(txtEditFname)
-        personal.Controls.Add(Label10)
-        personal.Controls.Add(txtEditLname)
-        personal.Controls.Add(Label13)
-        personal.Controls.Add(txtEditPw)
-        personal.Controls.Add(Label16)
-        personal.Controls.Add(txtEditAddress)
-        personal.Controls.Add(Label14)
-        personal.Controls.Add(txtEditNumber)
-        personal.Controls.Add(Label8)
-        personal.Controls.Add(txtEditEducation)
-        personal.Controls.Add(Label11)
-        personal.Controls.Add(txtEditEmail)
-        personal.Controls.Add(Label9)
-        personal.Controls.Add(Label7)
-        personal.Location = New Point(4, 44)
-        personal.Name = "personal"
-        personal.Padding = New Padding(3)
-        personal.Size = New Size(1057, 640)
-        personal.TabIndex = 0
-        personal.Text = "Personal information"
+        Me.personal.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(237))), CInt(CByte(CByte(231))), CInt(CByte(CByte(230))))
+        Me.personal.Controls.Add(Me.Panel5)
+        Me.personal.Controls.Add(Me.Panel4)
+        Me.personal.Controls.Add(Me.Panel3)
+        Me.personal.Location = New Global.System.Drawing.Point(4, 44)
+        Me.personal.Name = "personal"
+        Me.personal.Padding = New Global.System.Windows.Forms.Padding(3)
+        Me.personal.Size = New Global.System.Drawing.Size(1057, 640)
+        Me.personal.TabIndex = 0
+        Me.personal.Text = "Personal information"
+        ' 
+        ' Panel5
+        ' 
+        Me.Panel5.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
+        Me.Panel5.Controls.Add(Me.btnEditBack)
+        Me.Panel5.Controls.Add(Me.btnEditNext)
+        Me.Panel5.Location = New Global.System.Drawing.Point(20, 561)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New Global.System.Drawing.Size(978, 65)
+        Me.Panel5.TabIndex = 8
         ' 
         ' btnEditBack
         ' 
-        btnEditBack.BorderRadius = 5
-        btnEditBack.Cursor = Cursors.Hand
-        btnEditBack.CustomizableEdges = CustomizableEdges48
-        btnEditBack.DisabledState.BorderColor = Color.DarkGray
-        btnEditBack.DisabledState.CustomBorderColor = Color.DarkGray
-        btnEditBack.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnEditBack.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnEditBack.FillColor = Color.IndianRed
-        btnEditBack.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        btnEditBack.ForeColor = Color.White
-        btnEditBack.Location = New Point(551, 590)
-        btnEditBack.Name = "btnEditBack"
-        btnEditBack.ShadowDecoration.CustomizableEdges = CustomizableEdges49
-        btnEditBack.Size = New Size(169, 34)
-        btnEditBack.TabIndex = 5
-        btnEditBack.Text = "GO BACK"
+        Me.btnEditBack.BorderRadius = 5
+        Me.btnEditBack.Cursor = Global.System.Windows.Forms.Cursors.Hand
+        Me.btnEditBack.CustomizableEdges = CustomizableEdges48
+        Me.btnEditBack.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
+        Me.btnEditBack.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
+        Me.btnEditBack.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
+        Me.btnEditBack.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
+        Me.btnEditBack.FillColor = Global.System.Drawing.Color.IndianRed
+        Me.btnEditBack.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.btnEditBack.ForeColor = Global.System.Drawing.Color.White
+        Me.btnEditBack.Location = New Global.System.Drawing.Point(605, 17)
+        Me.btnEditBack.Name = "btnEditBack"
+        Me.btnEditBack.ShadowDecoration.CustomizableEdges = CustomizableEdges49
+        Me.btnEditBack.Size = New Global.System.Drawing.Size(169, 34)
+        Me.btnEditBack.TabIndex = 5
+        Me.btnEditBack.Text = "GO BACK"
         ' 
         ' btnEditNext
         ' 
-        btnEditNext.BorderRadius = 5
-        btnEditNext.Cursor = Cursors.Hand
-        btnEditNext.CustomizableEdges = CustomizableEdges50
-        btnEditNext.DisabledState.BorderColor = Color.DarkGray
-        btnEditNext.DisabledState.CustomBorderColor = Color.DarkGray
-        btnEditNext.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnEditNext.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnEditNext.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        btnEditNext.ForeColor = Color.White
-        btnEditNext.Location = New Point(726, 590)
-        btnEditNext.Name = "btnEditNext"
-        btnEditNext.ShadowDecoration.CustomizableEdges = CustomizableEdges51
-        btnEditNext.Size = New Size(161, 34)
-        btnEditNext.TabIndex = 4
-        btnEditNext.Text = "NEXT"
+        Me.btnEditNext.BorderRadius = 5
+        Me.btnEditNext.Cursor = Global.System.Windows.Forms.Cursors.Hand
+        Me.btnEditNext.CustomizableEdges = CustomizableEdges50
+        Me.btnEditNext.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
+        Me.btnEditNext.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
+        Me.btnEditNext.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
+        Me.btnEditNext.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
+        Me.btnEditNext.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.btnEditNext.ForeColor = Global.System.Drawing.Color.White
+        Me.btnEditNext.Location = New Global.System.Drawing.Point(789, 17)
+        Me.btnEditNext.Name = "btnEditNext"
+        Me.btnEditNext.ShadowDecoration.CustomizableEdges = CustomizableEdges51
+        Me.btnEditNext.Size = New Global.System.Drawing.Size(161, 34)
+        Me.btnEditNext.TabIndex = 4
+        Me.btnEditNext.Text = "NEXT"
         ' 
-        ' Guna2Button5
+        ' Panel4
         ' 
-        Guna2Button5.BorderRadius = 5
-        Guna2Button5.CustomizableEdges = CustomizableEdges52
-        Guna2Button5.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button5.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button5.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2Button5.ForeColor = Color.White
-        Guna2Button5.Location = New Point(442, 165)
-        Guna2Button5.Name = "Guna2Button5"
-        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges53
-        Guna2Button5.Size = New Size(164, 28)
-        Guna2Button5.TabIndex = 4
-        Guna2Button5.Text = "Upload Image"
-        ' 
-        ' pickEditBdate
-        ' 
-        pickEditBdate.BorderRadius = 5
-        pickEditBdate.Checked = True
-        pickEditBdate.CustomizableEdges = CustomizableEdges54
-        pickEditBdate.FillColor = Color.White
-        pickEditBdate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        pickEditBdate.Format = DateTimePickerFormat.Long
-        pickEditBdate.Location = New Point(654, 514)
-        pickEditBdate.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
-        pickEditBdate.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
-        pickEditBdate.Name = "pickEditBdate"
-        pickEditBdate.ShadowDecoration.CustomizableEdges = CustomizableEdges55
-        pickEditBdate.Size = New Size(233, 36)
-        pickEditBdate.TabIndex = 3
-        pickEditBdate.TextAlign = HorizontalAlignment.Center
-        pickEditBdate.Value = New DateTime(2023, 6, 6, 9, 2, 45, 794)
-        ' 
-        ' pBoxEditProfile
-        ' 
-        pBoxEditProfile.BackgroundImageLayout = ImageLayout.Stretch
-        pBoxEditProfile.BorderStyle = BorderStyle.Fixed3D
-        pBoxEditProfile.Location = New Point(442, 21)
-        pBoxEditProfile.Name = "pBoxEditProfile"
-        pBoxEditProfile.Size = New Size(164, 142)
-        pBoxEditProfile.TabIndex = 0
-        pBoxEditProfile.TabStop = False
+        Me.Panel4.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
+        Me.Panel4.Controls.Add(Me.txtEditMname)
+        Me.Panel4.Controls.Add(Me.Label12)
+        Me.Panel4.Controls.Add(Me.txtEditFname)
+        Me.Panel4.Controls.Add(Me.Label10)
+        Me.Panel4.Controls.Add(Me.Label13)
+        Me.Panel4.Controls.Add(Me.pickEditBdate)
+        Me.Panel4.Controls.Add(Me.txtEditAddress)
+        Me.Panel4.Controls.Add(Me.txtEditLname)
+        Me.Panel4.Controls.Add(Me.Label15)
+        Me.Panel4.Controls.Add(Me.Label16)
+        Me.Panel4.Controls.Add(Me.Label11)
+        Me.Panel4.Controls.Add(Me.txtEditEmail)
+        Me.Panel4.Controls.Add(Me.txtEditEducation)
+        Me.Panel4.Controls.Add(Me.Label9)
+        Me.Panel4.Controls.Add(Me.Label14)
+        Me.Panel4.Controls.Add(Me.txtEditNumber)
+        Me.Panel4.Location = New Global.System.Drawing.Point(358, 16)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New Global.System.Drawing.Size(640, 531)
+        Me.Panel4.TabIndex = 7
         ' 
         ' txtEditMname
         ' 
-        txtEditMname.BorderRadius = 5
-        txtEditMname.CustomizableEdges = CustomizableEdges56
-        txtEditMname.DefaultText = ""
-        txtEditMname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditMname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditMname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditMname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditMname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditMname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditMname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditMname.Location = New Point(411, 333)
-        txtEditMname.Name = "txtEditMname"
-        txtEditMname.PasswordChar = ChrW(0)
-        txtEditMname.PlaceholderText = ""
-        txtEditMname.SelectedText = ""
-        txtEditMname.ShadowDecoration.CustomizableEdges = CustomizableEdges57
-        txtEditMname.Size = New Size(233, 36)
-        txtEditMname.TabIndex = 1
-        txtEditMname.TextAlign = HorizontalAlignment.Center
+        Me.txtEditMname.BorderRadius = 5
+        Me.txtEditMname.CustomizableEdges = CustomizableEdges52
+        Me.txtEditMname.DefaultText = ""
+        Me.txtEditMname.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtEditMname.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtEditMname.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditMname.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditMname.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditMname.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditMname.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(64))), CInt(CByte(CByte(64))), CInt(CByte(CByte(64))))
+        Me.txtEditMname.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditMname.Location = New Global.System.Drawing.Point(221, 81)
+        Me.txtEditMname.Name = "txtEditMname"
+        Me.txtEditMname.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtEditMname.PlaceholderText = ""
+        Me.txtEditMname.SelectedText = ""
+        Me.txtEditMname.ShadowDecoration.CustomizableEdges = CustomizableEdges53
+        Me.txtEditMname.Size = New Global.System.Drawing.Size(384, 36)
+        Me.txtEditMname.TabIndex = 1
+        Me.txtEditMname.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
         ' 
         ' Label12
         ' 
-        Label12.AutoSize = True
-        Label12.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label12.Location = New Point(743, 308)
-        Label12.Name = "Label12"
-        Label12.Size = New Size(48, 21)
-        Label12.TabIndex = 2
-        Label12.Text = "Email"
-        ' 
-        ' txtEditUsername
-        ' 
-        txtEditUsername.BorderRadius = 5
-        txtEditUsername.CustomizableEdges = CustomizableEdges58
-        txtEditUsername.DefaultText = ""
-        txtEditUsername.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditUsername.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditUsername.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditUsername.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditUsername.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditUsername.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditUsername.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditUsername.Location = New Point(168, 244)
-        txtEditUsername.Name = "txtEditUsername"
-        txtEditUsername.PasswordChar = ChrW(0)
-        txtEditUsername.PlaceholderText = ""
-        txtEditUsername.SelectedText = ""
-        txtEditUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges59
-        txtEditUsername.Size = New Size(233, 36)
-        txtEditUsername.TabIndex = 1
-        txtEditUsername.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' Label15
-        ' 
-        Label15.AutoSize = True
-        Label15.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label15.Location = New Point(443, 489)
-        Label15.Name = "Label15"
-        Label15.Size = New Size(169, 21)
-        Label15.TabIndex = 2
-        Label15.Text = "Educational attainment"
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label12.Location = New Global.System.Drawing.Point(27, 218)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New Global.System.Drawing.Size(48, 21)
+        Me.Label12.TabIndex = 2
+        Me.Label12.Text = "Email"
         ' 
         ' txtEditFname
         ' 
-        txtEditFname.BorderRadius = 5
-        txtEditFname.CustomizableEdges = CustomizableEdges60
-        txtEditFname.DefaultText = ""
-        txtEditFname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditFname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditFname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditFname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditFname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditFname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditFname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditFname.Location = New Point(411, 244)
-        txtEditFname.Name = "txtEditFname"
-        txtEditFname.PasswordChar = ChrW(0)
-        txtEditFname.PlaceholderText = ""
-        txtEditFname.SelectedText = ""
-        txtEditFname.ShadowDecoration.CustomizableEdges = CustomizableEdges61
-        txtEditFname.Size = New Size(233, 36)
-        txtEditFname.TabIndex = 1
-        txtEditFname.TextAlign = HorizontalAlignment.Center
+        Me.txtEditFname.BorderRadius = 5
+        Me.txtEditFname.CustomizableEdges = CustomizableEdges54
+        Me.txtEditFname.DefaultText = ""
+        Me.txtEditFname.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtEditFname.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtEditFname.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditFname.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditFname.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditFname.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditFname.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(64))), CInt(CByte(CByte(64))), CInt(CByte(CByte(64))))
+        Me.txtEditFname.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditFname.Location = New Global.System.Drawing.Point(221, 22)
+        Me.txtEditFname.Name = "txtEditFname"
+        Me.txtEditFname.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtEditFname.PlaceholderText = ""
+        Me.txtEditFname.SelectedText = ""
+        Me.txtEditFname.ShadowDecoration.CustomizableEdges = CustomizableEdges55
+        Me.txtEditFname.Size = New Global.System.Drawing.Size(384, 36)
+        Me.txtEditFname.TabIndex = 1
+        Me.txtEditFname.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
         ' 
         ' Label10
         ' 
-        Label10.AutoSize = True
-        Label10.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label10.Location = New Point(476, 308)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(101, 21)
-        Label10.TabIndex = 2
-        Label10.Text = "Middle name"
-        ' 
-        ' txtEditLname
-        ' 
-        txtEditLname.BorderRadius = 5
-        txtEditLname.CustomizableEdges = CustomizableEdges62
-        txtEditLname.DefaultText = ""
-        txtEditLname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditLname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditLname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditLname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditLname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditLname.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditLname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditLname.Location = New Point(655, 244)
-        txtEditLname.Name = "txtEditLname"
-        txtEditLname.PasswordChar = ChrW(0)
-        txtEditLname.PlaceholderText = ""
-        txtEditLname.SelectedText = ""
-        txtEditLname.ShadowDecoration.CustomizableEdges = CustomizableEdges63
-        txtEditLname.Size = New Size(233, 36)
-        txtEditLname.TabIndex = 1
-        txtEditLname.TextAlign = HorizontalAlignment.Center
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label10.Location = New Global.System.Drawing.Point(26, 96)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New Global.System.Drawing.Size(101, 21)
+        Me.Label10.TabIndex = 2
+        Me.Label10.Text = "Middle name"
         ' 
         ' Label13
         ' 
-        Label13.AutoSize = True
-        Label13.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label13.Location = New Point(491, 398)
-        Label13.Name = "Label13"
-        Label13.Size = New Size(66, 21)
-        Label13.TabIndex = 2
-        Label13.Text = "Address"
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label13.Location = New Global.System.Drawing.Point(287, 448)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New Global.System.Drawing.Size(66, 21)
+        Me.Label13.TabIndex = 2
+        Me.Label13.Text = "Address"
         ' 
-        ' txtEditPw
+        ' pickEditBdate
         ' 
-        txtEditPw.BorderRadius = 5
-        txtEditPw.CustomizableEdges = CustomizableEdges64
-        txtEditPw.DefaultText = ""
-        txtEditPw.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditPw.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditPw.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditPw.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditPw.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditPw.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditPw.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditPw.Location = New Point(168, 333)
-        txtEditPw.Name = "txtEditPw"
-        txtEditPw.PasswordChar = ChrW(0)
-        txtEditPw.PlaceholderText = ""
-        txtEditPw.SelectedText = ""
-        txtEditPw.ShadowDecoration.CustomizableEdges = CustomizableEdges65
-        txtEditPw.Size = New Size(233, 36)
-        txtEditPw.TabIndex = 1
-        txtEditPw.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' Label16
-        ' 
-        Label16.AutoSize = True
-        Label16.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label16.Location = New Point(734, 489)
-        Label16.Name = "Label16"
-        Label16.Size = New Size(73, 21)
-        Label16.TabIndex = 2
-        Label16.Text = "Birthdate"
+        Me.pickEditBdate.BorderRadius = 5
+        Me.pickEditBdate.Checked = True
+        Me.pickEditBdate.CustomizableEdges = CustomizableEdges56
+        Me.pickEditBdate.FillColor = Global.System.Drawing.Color.White
+        Me.pickEditBdate.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.pickEditBdate.Format = Global.System.Windows.Forms.DateTimePickerFormat.[Long]
+        Me.pickEditBdate.Location = New Global.System.Drawing.Point(221, 404)
+        Me.pickEditBdate.MaxDate = New System.DateTime(9998, 12, 31, 0, 0, 0, 0)
+        Me.pickEditBdate.MinDate = New System.DateTime(1753, 1, 1, 0, 0, 0, 0)
+        Me.pickEditBdate.Name = "pickEditBdate"
+        Me.pickEditBdate.ShadowDecoration.CustomizableEdges = CustomizableEdges57
+        Me.pickEditBdate.Size = New Global.System.Drawing.Size(384, 36)
+        Me.pickEditBdate.TabIndex = 3
+        Me.pickEditBdate.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
+        Me.pickEditBdate.Value = New System.DateTime(2023, 6, 6, 9, 2, 45, 794)
         ' 
         ' txtEditAddress
         ' 
-        txtEditAddress.BorderRadius = 5
-        txtEditAddress.CustomizableEdges = CustomizableEdges66
-        txtEditAddress.DefaultText = ""
-        txtEditAddress.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditAddress.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditAddress.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditAddress.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditAddress.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditAddress.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditAddress.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditAddress.Location = New Point(168, 424)
-        txtEditAddress.Name = "txtEditAddress"
-        txtEditAddress.PasswordChar = ChrW(0)
-        txtEditAddress.PlaceholderText = ""
-        txtEditAddress.SelectedText = ""
-        txtEditAddress.ShadowDecoration.CustomizableEdges = CustomizableEdges67
-        txtEditAddress.Size = New Size(719, 36)
-        txtEditAddress.TabIndex = 1
-        txtEditAddress.TextAlign = HorizontalAlignment.Center
+        Me.txtEditAddress.BorderRadius = 5
+        Me.txtEditAddress.CustomizableEdges = CustomizableEdges58
+        Me.txtEditAddress.DefaultText = ""
+        Me.txtEditAddress.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtEditAddress.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtEditAddress.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditAddress.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditAddress.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditAddress.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditAddress.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(64))), CInt(CByte(CByte(64))), CInt(CByte(CByte(64))))
+        Me.txtEditAddress.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditAddress.Location = New Global.System.Drawing.Point(27, 474)
+        Me.txtEditAddress.Name = "txtEditAddress"
+        Me.txtEditAddress.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtEditAddress.PlaceholderText = ""
+        Me.txtEditAddress.SelectedText = ""
+        Me.txtEditAddress.ShadowDecoration.CustomizableEdges = CustomizableEdges59
+        Me.txtEditAddress.Size = New Global.System.Drawing.Size(578, 36)
+        Me.txtEditAddress.TabIndex = 1
+        Me.txtEditAddress.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
         ' 
-        ' Label14
+        ' txtEditLname
         ' 
-        Label14.AutoSize = True
-        Label14.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label14.Location = New Point(245, 489)
-        Label14.Name = "Label14"
-        Label14.Size = New Size(88, 21)
-        Label14.TabIndex = 2
-        Label14.Text = "Contact no."
+        Me.txtEditLname.BorderRadius = 5
+        Me.txtEditLname.CustomizableEdges = CustomizableEdges60
+        Me.txtEditLname.DefaultText = ""
+        Me.txtEditLname.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtEditLname.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtEditLname.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditLname.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditLname.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditLname.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditLname.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(64))), CInt(CByte(CByte(64))), CInt(CByte(CByte(64))))
+        Me.txtEditLname.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditLname.Location = New Global.System.Drawing.Point(221, 145)
+        Me.txtEditLname.Name = "txtEditLname"
+        Me.txtEditLname.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtEditLname.PlaceholderText = ""
+        Me.txtEditLname.SelectedText = ""
+        Me.txtEditLname.ShadowDecoration.CustomizableEdges = CustomizableEdges61
+        Me.txtEditLname.Size = New Global.System.Drawing.Size(384, 36)
+        Me.txtEditLname.TabIndex = 1
+        Me.txtEditLname.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
         ' 
-        ' txtEditNumber
+        ' Label15
         ' 
-        txtEditNumber.BorderRadius = 5
-        txtEditNumber.CustomizableEdges = CustomizableEdges68
-        txtEditNumber.DefaultText = ""
-        txtEditNumber.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditNumber.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditNumber.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditNumber.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditNumber.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditNumber.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditNumber.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditNumber.Location = New Point(168, 514)
-        txtEditNumber.Name = "txtEditNumber"
-        txtEditNumber.PasswordChar = ChrW(0)
-        txtEditNumber.PlaceholderText = ""
-        txtEditNumber.SelectedText = ""
-        txtEditNumber.ShadowDecoration.CustomizableEdges = CustomizableEdges69
-        txtEditNumber.Size = New Size(233, 36)
-        txtEditNumber.TabIndex = 1
-        txtEditNumber.TextAlign = HorizontalAlignment.Center
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label15.Location = New Global.System.Drawing.Point(27, 347)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New Global.System.Drawing.Size(169, 21)
+        Me.Label15.TabIndex = 2
+        Me.Label15.Text = "Educational attainment"
         ' 
-        ' Label8
+        ' Label16
         ' 
-        Label8.AutoSize = True
-        Label8.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label8.Location = New Point(245, 308)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(76, 21)
-        Label8.TabIndex = 2
-        Label8.Text = "Password"
-        ' 
-        ' txtEditEducation
-        ' 
-        txtEditEducation.BorderRadius = 5
-        txtEditEducation.CustomizableEdges = CustomizableEdges70
-        txtEditEducation.DefaultText = ""
-        txtEditEducation.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditEducation.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditEducation.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditEducation.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditEducation.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditEducation.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditEducation.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditEducation.Location = New Point(411, 514)
-        txtEditEducation.Name = "txtEditEducation"
-        txtEditEducation.PasswordChar = ChrW(0)
-        txtEditEducation.PlaceholderText = ""
-        txtEditEducation.SelectedText = ""
-        txtEditEducation.ShadowDecoration.CustomizableEdges = CustomizableEdges71
-        txtEditEducation.Size = New Size(233, 36)
-        txtEditEducation.TabIndex = 1
-        txtEditEducation.TextAlign = HorizontalAlignment.Center
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label16.Location = New Global.System.Drawing.Point(27, 408)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New Global.System.Drawing.Size(73, 21)
+        Me.Label16.TabIndex = 2
+        Me.Label16.Text = "Birthdate"
         ' 
         ' Label11
         ' 
-        Label11.AutoSize = True
-        Label11.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label11.Location = New Point(729, 219)
-        Label11.Name = "Label11"
-        Label11.Size = New Size(81, 21)
-        Label11.TabIndex = 2
-        Label11.Text = "Last name"
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label11.Location = New Global.System.Drawing.Point(26, 160)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New Global.System.Drawing.Size(81, 21)
+        Me.Label11.TabIndex = 2
+        Me.Label11.Text = "Last name"
         ' 
         ' txtEditEmail
         ' 
-        txtEditEmail.BorderRadius = 5
-        txtEditEmail.CustomizableEdges = CustomizableEdges72
-        txtEditEmail.DefaultText = ""
-        txtEditEmail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditEmail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditEmail.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditEmail.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditEmail.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditEmail.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditEmail.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditEmail.Location = New Point(655, 333)
-        txtEditEmail.Name = "txtEditEmail"
-        txtEditEmail.PasswordChar = ChrW(0)
-        txtEditEmail.PlaceholderText = ""
-        txtEditEmail.SelectedText = ""
-        txtEditEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges73
-        txtEditEmail.Size = New Size(233, 36)
-        txtEditEmail.TabIndex = 1
-        txtEditEmail.TextAlign = HorizontalAlignment.Center
+        Me.txtEditEmail.BorderRadius = 5
+        Me.txtEditEmail.CustomizableEdges = CustomizableEdges62
+        Me.txtEditEmail.DefaultText = ""
+        Me.txtEditEmail.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtEditEmail.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtEditEmail.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditEmail.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditEmail.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditEmail.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditEmail.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(64))), CInt(CByte(CByte(64))), CInt(CByte(CByte(64))))
+        Me.txtEditEmail.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditEmail.Location = New Global.System.Drawing.Point(221, 211)
+        Me.txtEditEmail.Name = "txtEditEmail"
+        Me.txtEditEmail.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtEditEmail.PlaceholderText = ""
+        Me.txtEditEmail.SelectedText = ""
+        Me.txtEditEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges63
+        Me.txtEditEmail.Size = New Global.System.Drawing.Size(384, 36)
+        Me.txtEditEmail.TabIndex = 1
+        Me.txtEditEmail.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
+        ' 
+        ' txtEditEducation
+        ' 
+        Me.txtEditEducation.BorderRadius = 5
+        Me.txtEditEducation.CustomizableEdges = CustomizableEdges64
+        Me.txtEditEducation.DefaultText = ""
+        Me.txtEditEducation.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtEditEducation.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtEditEducation.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditEducation.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditEducation.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditEducation.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditEducation.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(64))), CInt(CByte(CByte(64))), CInt(CByte(CByte(64))))
+        Me.txtEditEducation.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditEducation.Location = New Global.System.Drawing.Point(221, 341)
+        Me.txtEditEducation.Name = "txtEditEducation"
+        Me.txtEditEducation.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtEditEducation.PlaceholderText = ""
+        Me.txtEditEducation.SelectedText = ""
+        Me.txtEditEducation.ShadowDecoration.CustomizableEdges = CustomizableEdges65
+        Me.txtEditEducation.Size = New Global.System.Drawing.Size(384, 36)
+        Me.txtEditEducation.TabIndex = 1
+        Me.txtEditEducation.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
         ' 
         ' Label9
         ' 
-        Label9.AutoSize = True
-        Label9.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label9.Location = New Point(485, 219)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(83, 21)
-        Label9.TabIndex = 2
-        Label9.Text = "First name"
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label9.Location = New Global.System.Drawing.Point(24, 32)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New Global.System.Drawing.Size(83, 21)
+        Me.Label9.TabIndex = 2
+        Me.Label9.Text = "First name"
+        ' 
+        ' Label14
+        ' 
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label14.Location = New Global.System.Drawing.Point(27, 276)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New Global.System.Drawing.Size(88, 21)
+        Me.Label14.TabIndex = 2
+        Me.Label14.Text = "Contact no."
+        ' 
+        ' txtEditNumber
+        ' 
+        Me.txtEditNumber.BorderRadius = 5
+        Me.txtEditNumber.CustomizableEdges = CustomizableEdges66
+        Me.txtEditNumber.DefaultText = ""
+        Me.txtEditNumber.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtEditNumber.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtEditNumber.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditNumber.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditNumber.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditNumber.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditNumber.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(64))), CInt(CByte(CByte(64))), CInt(CByte(CByte(64))))
+        Me.txtEditNumber.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditNumber.Location = New Global.System.Drawing.Point(221, 276)
+        Me.txtEditNumber.Name = "txtEditNumber"
+        Me.txtEditNumber.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtEditNumber.PlaceholderText = ""
+        Me.txtEditNumber.SelectedText = ""
+        Me.txtEditNumber.ShadowDecoration.CustomizableEdges = CustomizableEdges67
+        Me.txtEditNumber.Size = New Global.System.Drawing.Size(384, 36)
+        Me.txtEditNumber.TabIndex = 1
+        Me.txtEditNumber.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
+        ' 
+        ' Panel3
+        ' 
+        Me.Panel3.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
+        Me.Panel3.Controls.Add(Me.Guna2Button5)
+        Me.Panel3.Controls.Add(Me.pBoxEditProfile)
+        Me.Panel3.Controls.Add(Me.txtEditUsername)
+        Me.Panel3.Controls.Add(Me.txtEditPw)
+        Me.Panel3.Controls.Add(Me.Label8)
+        Me.Panel3.Controls.Add(Me.Label7)
+        Me.Panel3.Location = New Global.System.Drawing.Point(20, 16)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New Global.System.Drawing.Size(321, 531)
+        Me.Panel3.TabIndex = 6
+        ' 
+        ' Guna2Button5
+        ' 
+        Me.Guna2Button5.CustomizableEdges = CustomizableEdges68
+        Me.Guna2Button5.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
+        Me.Guna2Button5.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
+        Me.Guna2Button5.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
+        Me.Guna2Button5.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
+        Me.Guna2Button5.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2Button5.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2Button5.Location = New Global.System.Drawing.Point(27, 251)
+        Me.Guna2Button5.Name = "Guna2Button5"
+        Me.Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges69
+        Me.Guna2Button5.Size = New Global.System.Drawing.Size(265, 36)
+        Me.Guna2Button5.TabIndex = 4
+        Me.Guna2Button5.Text = "Upload Image"
+        ' 
+        ' pBoxEditProfile
+        ' 
+        Me.pBoxEditProfile.BackgroundImageLayout = Global.System.Windows.Forms.ImageLayout.Stretch
+        Me.pBoxEditProfile.BorderStyle = Global.System.Windows.Forms.BorderStyle.Fixed3D
+        Me.pBoxEditProfile.Location = New Global.System.Drawing.Point(27, 22)
+        Me.pBoxEditProfile.Name = "pBoxEditProfile"
+        Me.pBoxEditProfile.Size = New Global.System.Drawing.Size(265, 230)
+        Me.pBoxEditProfile.TabIndex = 0
+        Me.pBoxEditProfile.TabStop = False
+        ' 
+        ' txtEditUsername
+        ' 
+        Me.txtEditUsername.BorderRadius = 5
+        Me.txtEditUsername.CustomizableEdges = CustomizableEdges70
+        Me.txtEditUsername.DefaultText = ""
+        Me.txtEditUsername.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtEditUsername.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtEditUsername.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditUsername.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditUsername.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditUsername.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditUsername.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(64))), CInt(CByte(CByte(64))), CInt(CByte(CByte(64))))
+        Me.txtEditUsername.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditUsername.Location = New Global.System.Drawing.Point(27, 350)
+        Me.txtEditUsername.Name = "txtEditUsername"
+        Me.txtEditUsername.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtEditUsername.PlaceholderText = ""
+        Me.txtEditUsername.SelectedText = ""
+        Me.txtEditUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges71
+        Me.txtEditUsername.Size = New Global.System.Drawing.Size(265, 36)
+        Me.txtEditUsername.TabIndex = 1
+        Me.txtEditUsername.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
+        ' 
+        ' txtEditPw
+        ' 
+        Me.txtEditPw.BorderRadius = 5
+        Me.txtEditPw.CustomizableEdges = CustomizableEdges72
+        Me.txtEditPw.DefaultText = ""
+        Me.txtEditPw.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtEditPw.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtEditPw.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditPw.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditPw.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditPw.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditPw.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(64))), CInt(CByte(CByte(64))), CInt(CByte(CByte(64))))
+        Me.txtEditPw.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditPw.Location = New Global.System.Drawing.Point(27, 439)
+        Me.txtEditPw.Name = "txtEditPw"
+        Me.txtEditPw.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtEditPw.PlaceholderText = ""
+        Me.txtEditPw.SelectedText = ""
+        Me.txtEditPw.ShadowDecoration.CustomizableEdges = CustomizableEdges73
+        Me.txtEditPw.Size = New Global.System.Drawing.Size(265, 36)
+        Me.txtEditPw.TabIndex = 1
+        Me.txtEditPw.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
+        ' 
+        ' Label8
+        ' 
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label8.Location = New Global.System.Drawing.Point(122, 415)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New Global.System.Drawing.Size(76, 21)
+        Me.Label8.TabIndex = 2
+        Me.Label8.Text = "Password"
         ' 
         ' Label7
         ' 
-        Label7.AutoSize = True
-        Label7.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label7.Location = New Point(242, 219)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(81, 21)
-        Label7.TabIndex = 2
-        Label7.Text = "Username"
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label7.Location = New Global.System.Drawing.Point(122, 326)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New Global.System.Drawing.Size(81, 21)
+        Me.Label7.TabIndex = 2
+        Me.Label7.Text = "Username"
         ' 
         ' other
         ' 
-        other.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
-        other.Controls.Add(dgBeneficiaries)
-        other.Controls.Add(btnEditUpdate)
-        other.Controls.Add(btnEditAddBen)
-        other.Controls.Add(txtEditAddBenAge)
-        other.Controls.Add(txtEditAddBenRel)
-        other.Controls.Add(txtEditAddBen)
-        other.Controls.Add(pickEditUserStat)
-        other.Controls.Add(pickEditComm)
-        other.Controls.Add(pickEditStatus)
-        other.Controls.Add(Label35)
-        other.Controls.Add(pickEditPosition)
-        other.Controls.Add(Label22)
-        other.Controls.Add(pickEditOffice)
-        other.Controls.Add(Label25)
-        other.Controls.Add(Label24)
-        other.Controls.Add(Label23)
-        other.Controls.Add(Label26)
-        other.Controls.Add(Label21)
-        other.Controls.Add(Label20)
-        other.Controls.Add(Label19)
-        other.Location = New Point(4, 44)
-        other.Name = "other"
-        other.Padding = New Padding(3)
-        other.Size = New Size(1057, 640)
-        other.TabIndex = 1
-        other.Text = "Other information"
+        Me.other.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(237))), CInt(CByte(CByte(231))), CInt(CByte(CByte(230))))
+        Me.other.Controls.Add(Me.Panel8)
+        Me.other.Controls.Add(Me.Panel7)
+        Me.other.Controls.Add(Me.Panel6)
+        Me.other.Location = New Global.System.Drawing.Point(4, 44)
+        Me.other.Name = "other"
+        Me.other.Padding = New Global.System.Windows.Forms.Padding(3)
+        Me.other.Size = New Global.System.Drawing.Size(1057, 640)
+        Me.other.TabIndex = 1
+        Me.other.Text = "Other information"
         ' 
-        ' dgBeneficiaries
+        ' Panel8
         ' 
-        dgBeneficiaries.AllowUserToResizeRows = False
-        DataGridViewCellStyle1.BackColor = Color.White
-        DataGridViewCellStyle1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle1.ForeColor = SystemColors.ControlText
-        DataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(CByte(203), CByte(250), CByte(249))
-        DataGridViewCellStyle1.SelectionForeColor = Color.Black
-        dgBeneficiaries.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
-        DataGridViewCellStyle2.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle2.ForeColor = Color.White
-        DataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
-        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
-        dgBeneficiaries.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        dgBeneficiaries.ColumnHeadersHeight = 32
-        dgBeneficiaries.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgBeneficiaries.Columns.AddRange(New DataGridViewColumn() {Column8, Column9, Column10, Column11, Column4})
-        dgBeneficiaries.Cursor = Cursors.Hand
-        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = Color.White
-        DataGridViewCellStyle3.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle3.Padding = New Padding(3)
-        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(203), CByte(250), CByte(249))
-        DataGridViewCellStyle3.SelectionForeColor = Color.Black
-        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
-        dgBeneficiaries.DefaultCellStyle = DataGridViewCellStyle3
-        dgBeneficiaries.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgBeneficiaries.Location = New Point(144, 300)
-        dgBeneficiaries.Name = "dgBeneficiaries"
-        dgBeneficiaries.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.BackColor = Color.White
-        DataGridViewCellStyle4.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle4.ForeColor = SystemColors.WindowText
-        DataGridViewCellStyle4.SelectionBackColor = Color.White
-        DataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle4.WrapMode = DataGridViewTriState.True
-        dgBeneficiaries.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
-        dgBeneficiaries.RowHeadersVisible = False
-        dgBeneficiaries.RowTemplate.Height = 26
-        dgBeneficiaries.Size = New Size(768, 145)
-        dgBeneficiaries.TabIndex = 0
-        dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
-        dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.Font = Nothing
-        dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
-        dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
-        dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
-        dgBeneficiaries.ThemeStyle.BackColor = Color.White
-        dgBeneficiaries.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgBeneficiaries.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        dgBeneficiaries.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
-        dgBeneficiaries.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        dgBeneficiaries.ThemeStyle.HeaderStyle.ForeColor = Color.White
-        dgBeneficiaries.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgBeneficiaries.ThemeStyle.HeaderStyle.Height = 32
-        dgBeneficiaries.ThemeStyle.ReadOnly = False
-        dgBeneficiaries.ThemeStyle.RowsStyle.BackColor = Color.White
-        dgBeneficiaries.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        dgBeneficiaries.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        dgBeneficiaries.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        dgBeneficiaries.ThemeStyle.RowsStyle.Height = 26
-        dgBeneficiaries.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        dgBeneficiaries.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        Me.Panel8.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
+        Me.Panel8.Controls.Add(Me.btnEmBack2)
+        Me.Panel8.Controls.Add(Me.btnEditUpdate)
+        Me.Panel8.Location = New Global.System.Drawing.Point(16, 552)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New Global.System.Drawing.Size(985, 70)
+        Me.Panel8.TabIndex = 11
         ' 
-        ' Column8
+        ' btnEmBack2
         ' 
-        Column8.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column8.Frozen = True
-        Column8.HeaderText = "ID"
-        Column8.Name = "Column8"
-        Column8.ReadOnly = True
-        Column8.Width = 49
-        ' 
-        ' Column9
-        ' 
-        Column9.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column9.HeaderText = "Full name"
-        Column9.Name = "Column9"
-        Column9.ReadOnly = True
-        ' 
-        ' Column10
-        ' 
-        Column10.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
-        Column10.HeaderText = "Relationship"
-        Column10.Name = "Column10"
-        Column10.ReadOnly = True
-        Column10.Width = 180
-        ' 
-        ' Column11
-        ' 
-        Column11.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column11.HeaderText = "Age"
-        Column11.Name = "Column11"
-        Column11.ReadOnly = True
-        Column11.Width = 57
-        ' 
-        ' Column4
-        ' 
-        Column4.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
-        Column4.HeaderText = ""
-        Column4.Image = My.Resources.Resources.delete1
-        Column4.ImageLayout = DataGridViewImageCellLayout.Zoom
-        Column4.Name = "Column4"
-        Column4.Width = 40
+        Me.btnEmBack2.BorderRadius = 5
+        Me.btnEmBack2.CustomizableEdges = CustomizableEdges74
+        Me.btnEmBack2.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
+        Me.btnEmBack2.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
+        Me.btnEmBack2.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
+        Me.btnEmBack2.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
+        Me.btnEmBack2.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(167))), CInt(CByte(CByte(41))), CInt(CByte(CByte(36))))
+        Me.btnEmBack2.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.btnEmBack2.ForeColor = Global.System.Drawing.Color.White
+        Me.btnEmBack2.Location = New Global.System.Drawing.Point(557, 18)
+        Me.btnEmBack2.Name = "btnEmBack2"
+        Me.btnEmBack2.ShadowDecoration.CustomizableEdges = CustomizableEdges75
+        Me.btnEmBack2.Size = New Global.System.Drawing.Size(180, 34)
+        Me.btnEmBack2.TabIndex = 5
+        Me.btnEmBack2.Text = "GO BACK"
         ' 
         ' btnEditUpdate
         ' 
-        btnEditUpdate.BorderRadius = 5
-        btnEditUpdate.Cursor = Cursors.Hand
-        btnEditUpdate.CustomizableEdges = CustomizableEdges74
-        btnEditUpdate.DisabledState.BorderColor = Color.DarkGray
-        btnEditUpdate.DisabledState.CustomBorderColor = Color.DarkGray
-        btnEditUpdate.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnEditUpdate.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnEditUpdate.FillColor = Color.FromArgb(CByte(0), CByte(192), CByte(0))
-        btnEditUpdate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        btnEditUpdate.ForeColor = Color.White
-        btnEditUpdate.Location = New Point(633, 585)
-        btnEditUpdate.Name = "btnEditUpdate"
-        btnEditUpdate.ShadowDecoration.CustomizableEdges = CustomizableEdges75
-        btnEditUpdate.Size = New Size(239, 34)
-        btnEditUpdate.TabIndex = 4
-        btnEditUpdate.Text = "UPDATE"
+        Me.btnEditUpdate.BorderRadius = 5
+        Me.btnEditUpdate.Cursor = Global.System.Windows.Forms.Cursors.Hand
+        Me.btnEditUpdate.CustomizableEdges = CustomizableEdges76
+        Me.btnEditUpdate.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
+        Me.btnEditUpdate.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
+        Me.btnEditUpdate.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
+        Me.btnEditUpdate.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
+        Me.btnEditUpdate.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(192))), CInt(CByte(CByte(0))))
+        Me.btnEditUpdate.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.btnEditUpdate.ForeColor = Global.System.Drawing.Color.White
+        Me.btnEditUpdate.Location = New Global.System.Drawing.Point(743, 18)
+        Me.btnEditUpdate.Name = "btnEditUpdate"
+        Me.btnEditUpdate.ShadowDecoration.CustomizableEdges = CustomizableEdges77
+        Me.btnEditUpdate.Size = New Global.System.Drawing.Size(222, 34)
+        Me.btnEditUpdate.TabIndex = 4
+        Me.btnEditUpdate.Text = "UPDATE"
+        ' 
+        ' Panel7
+        ' 
+        Me.Panel7.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
+        Me.Panel7.Controls.Add(Me.dgBeneficiaries)
+        Me.Panel7.Controls.Add(Me.btnEditAddBen)
+        Me.Panel7.Controls.Add(Me.txtEditAddBenAge)
+        Me.Panel7.Controls.Add(Me.txtEditAddBenRel)
+        Me.Panel7.Controls.Add(Me.txtEditAddBen)
+        Me.Panel7.Controls.Add(Me.Label25)
+        Me.Panel7.Controls.Add(Me.Label24)
+        Me.Panel7.Controls.Add(Me.Label23)
+        Me.Panel7.Controls.Add(Me.Label26)
+        Me.Panel7.Location = New Global.System.Drawing.Point(383, 23)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New Global.System.Drawing.Size(618, 513)
+        Me.Panel7.TabIndex = 10
+        ' 
+        ' dgBeneficiaries
+        ' 
+        Me.dgBeneficiaries.AllowUserToResizeRows = False
+        DataGridViewCellStyle1.BackColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle1.ForeColor = Global.System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle1.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(203))), CInt(CByte(CByte(250))), CInt(CByte(CByte(249))))
+        DataGridViewCellStyle1.SelectionForeColor = Global.System.Drawing.Color.Black
+        Me.dgBeneficiaries.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(167))), CInt(CByte(CByte(65))), CInt(CByte(CByte(65))))
+        DataGridViewCellStyle2.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle2.ForeColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(167))), CInt(CByte(CByte(65))), CInt(CByte(CByte(65))))
+        DataGridViewCellStyle2.SelectionForeColor = Global.System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgBeneficiaries.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        Me.dgBeneficiaries.ColumnHeadersHeight = 32
+        Me.dgBeneficiaries.ColumnHeadersHeightSizeMode = Global.System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Me.dgBeneficiaries.Columns.AddRange(New Global.System.Windows.Forms.DataGridViewColumn() {Me.Column8, Me.Column9, Me.Column10, Me.Column11, Me.Column4})
+        Me.dgBeneficiaries.Cursor = Global.System.Windows.Forms.Cursors.Hand
+        DataGridViewCellStyle3.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle3.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle3.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(71))), CInt(CByte(CByte(69))), CInt(CByte(CByte(94))))
+        DataGridViewCellStyle3.Padding = New Global.System.Windows.Forms.Padding(3)
+        DataGridViewCellStyle3.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(203))), CInt(CByte(CByte(250))), CInt(CByte(CByte(249))))
+        DataGridViewCellStyle3.SelectionForeColor = Global.System.Drawing.Color.Black
+        DataGridViewCellStyle3.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgBeneficiaries.DefaultCellStyle = DataGridViewCellStyle3
+        Me.dgBeneficiaries.GridColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(231))), CInt(CByte(CByte(229))), CInt(CByte(CByte(255))))
+        Me.dgBeneficiaries.Location = New Global.System.Drawing.Point(24, 49)
+        Me.dgBeneficiaries.Name = "dgBeneficiaries"
+        Me.dgBeneficiaries.RowHeadersBorderStyle = Global.System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle4.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle4.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle4.ForeColor = Global.System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle4.SelectionBackColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle4.SelectionForeColor = Global.System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgBeneficiaries.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
+        Me.dgBeneficiaries.RowHeadersVisible = False
+        Me.dgBeneficiaries.RowTemplate.Height = 26
+        Me.dgBeneficiaries.Size = New Global.System.Drawing.Size(572, 300)
+        Me.dgBeneficiaries.TabIndex = 0
+        Me.dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.BackColor = Global.System.Drawing.Color.White
+        Me.dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        Me.dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.ForeColor = Global.System.Drawing.Color.Empty
+        Me.dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Global.System.Drawing.Color.Empty
+        Me.dgBeneficiaries.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Global.System.Drawing.Color.Empty
+        Me.dgBeneficiaries.ThemeStyle.BackColor = Global.System.Drawing.Color.White
+        Me.dgBeneficiaries.ThemeStyle.GridColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(231))), CInt(CByte(CByte(229))), CInt(CByte(CByte(255))))
+        Me.dgBeneficiaries.ThemeStyle.HeaderStyle.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(100))), CInt(CByte(CByte(88))), CInt(CByte(CByte(255))))
+        Me.dgBeneficiaries.ThemeStyle.HeaderStyle.BorderStyle = Global.System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.dgBeneficiaries.ThemeStyle.HeaderStyle.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.dgBeneficiaries.ThemeStyle.HeaderStyle.ForeColor = Global.System.Drawing.Color.White
+        Me.dgBeneficiaries.ThemeStyle.HeaderStyle.HeaightSizeMode = Global.System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Me.dgBeneficiaries.ThemeStyle.HeaderStyle.Height = 32
+        Me.dgBeneficiaries.ThemeStyle.[ReadOnly] = False
+        Me.dgBeneficiaries.ThemeStyle.RowsStyle.BackColor = Global.System.Drawing.Color.White
+        Me.dgBeneficiaries.ThemeStyle.RowsStyle.BorderStyle = Global.System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.dgBeneficiaries.ThemeStyle.RowsStyle.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.dgBeneficiaries.ThemeStyle.RowsStyle.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(71))), CInt(CByte(CByte(69))), CInt(CByte(CByte(94))))
+        Me.dgBeneficiaries.ThemeStyle.RowsStyle.Height = 26
+        Me.dgBeneficiaries.ThemeStyle.RowsStyle.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(231))), CInt(CByte(CByte(229))), CInt(CByte(CByte(255))))
+        Me.dgBeneficiaries.ThemeStyle.RowsStyle.SelectionForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(71))), CInt(CByte(CByte(69))), CInt(CByte(CByte(94))))
+        ' 
+        ' Column8
+        ' 
+        Me.Column8.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Column8.Frozen = True
+        Me.Column8.HeaderText = "ID"
+        Me.Column8.Name = "Column8"
+        Me.Column8.[ReadOnly] = True
+        Me.Column8.Width = 49
+        ' 
+        ' Column9
+        ' 
+        Me.Column9.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column9.HeaderText = "Full name"
+        Me.Column9.Name = "Column9"
+        Me.Column9.[ReadOnly] = True
+        ' 
+        ' Column10
+        ' 
+        Me.Column10.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.Column10.HeaderText = "Relationship"
+        Me.Column10.Name = "Column10"
+        Me.Column10.[ReadOnly] = True
+        Me.Column10.Width = 180
+        ' 
+        ' Column11
+        ' 
+        Me.Column11.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Column11.HeaderText = "Age"
+        Me.Column11.Name = "Column11"
+        Me.Column11.[ReadOnly] = True
+        Me.Column11.Width = 57
+        ' 
+        ' Column4
+        ' 
+        Me.Column4.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.Column4.HeaderText = ""
+        Me.Column4.Image = Global.S.W.E.A.P.My.Resources.Resources.delete1
+        Me.Column4.ImageLayout = Global.System.Windows.Forms.DataGridViewImageCellLayout.Zoom
+        Me.Column4.Name = "Column4"
+        Me.Column4.Width = 40
         ' 
         ' btnEditAddBen
         ' 
-        btnEditAddBen.BorderRadius = 5
-        btnEditAddBen.Cursor = Cursors.Hand
-        btnEditAddBen.CustomizableEdges = CustomizableEdges76
-        btnEditAddBen.DisabledState.BorderColor = Color.DarkGray
-        btnEditAddBen.DisabledState.CustomBorderColor = Color.DarkGray
-        btnEditAddBen.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnEditAddBen.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnEditAddBen.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        btnEditAddBen.ForeColor = Color.White
-        btnEditAddBen.Location = New Point(209, 541)
-        btnEditAddBen.Name = "btnEditAddBen"
-        btnEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges77
-        btnEditAddBen.Size = New Size(151, 34)
-        btnEditAddBen.TabIndex = 4
-        btnEditAddBen.Text = "ADD"
+        Me.btnEditAddBen.BorderRadius = 5
+        Me.btnEditAddBen.Cursor = Global.System.Windows.Forms.Cursors.Hand
+        Me.btnEditAddBen.CustomizableEdges = CustomizableEdges78
+        Me.btnEditAddBen.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
+        Me.btnEditAddBen.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
+        Me.btnEditAddBen.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
+        Me.btnEditAddBen.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
+        Me.btnEditAddBen.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.btnEditAddBen.ForeColor = Global.System.Drawing.Color.White
+        Me.btnEditAddBen.Location = New Global.System.Drawing.Point(24, 445)
+        Me.btnEditAddBen.Name = "btnEditAddBen"
+        Me.btnEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges79
+        Me.btnEditAddBen.Size = New Global.System.Drawing.Size(183, 34)
+        Me.btnEditAddBen.TabIndex = 4
+        Me.btnEditAddBen.Text = "ADD"
         ' 
         ' txtEditAddBenAge
         ' 
-        txtEditAddBenAge.BorderRadius = 5
-        txtEditAddBenAge.CustomizableEdges = CustomizableEdges78
-        txtEditAddBenAge.DefaultText = ""
-        txtEditAddBenAge.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditAddBenAge.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditAddBenAge.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditAddBenAge.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditAddBenAge.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditAddBenAge.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditAddBenAge.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditAddBenAge.Location = New Point(779, 499)
-        txtEditAddBenAge.Name = "txtEditAddBenAge"
-        txtEditAddBenAge.PasswordChar = ChrW(0)
-        txtEditAddBenAge.PlaceholderText = ""
-        txtEditAddBenAge.SelectedText = ""
-        txtEditAddBenAge.ShadowDecoration.CustomizableEdges = CustomizableEdges79
-        txtEditAddBenAge.Size = New Size(93, 36)
-        txtEditAddBenAge.TabIndex = 8
-        txtEditAddBenAge.TextAlign = HorizontalAlignment.Center
+        Me.txtEditAddBenAge.BorderRadius = 5
+        Me.txtEditAddBenAge.CustomizableEdges = CustomizableEdges80
+        Me.txtEditAddBenAge.DefaultText = ""
+        Me.txtEditAddBenAge.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtEditAddBenAge.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtEditAddBenAge.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditAddBenAge.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditAddBenAge.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditAddBenAge.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditAddBenAge.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditAddBenAge.Location = New Global.System.Drawing.Point(503, 393)
+        Me.txtEditAddBenAge.Name = "txtEditAddBenAge"
+        Me.txtEditAddBenAge.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtEditAddBenAge.PlaceholderText = ""
+        Me.txtEditAddBenAge.SelectedText = ""
+        Me.txtEditAddBenAge.ShadowDecoration.CustomizableEdges = CustomizableEdges81
+        Me.txtEditAddBenAge.Size = New Global.System.Drawing.Size(93, 36)
+        Me.txtEditAddBenAge.TabIndex = 8
+        Me.txtEditAddBenAge.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
         ' 
         ' txtEditAddBenRel
         ' 
-        txtEditAddBenRel.BorderRadius = 5
-        txtEditAddBenRel.CustomizableEdges = CustomizableEdges80
-        txtEditAddBenRel.DefaultText = ""
-        txtEditAddBenRel.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditAddBenRel.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditAddBenRel.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditAddBenRel.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditAddBenRel.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditAddBenRel.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditAddBenRel.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditAddBenRel.Location = New Point(632, 499)
-        txtEditAddBenRel.Name = "txtEditAddBenRel"
-        txtEditAddBenRel.PasswordChar = ChrW(0)
-        txtEditAddBenRel.PlaceholderText = ""
-        txtEditAddBenRel.SelectedText = ""
-        txtEditAddBenRel.ShadowDecoration.CustomizableEdges = CustomizableEdges81
-        txtEditAddBenRel.Size = New Size(141, 36)
-        txtEditAddBenRel.TabIndex = 7
-        txtEditAddBenRel.TextAlign = HorizontalAlignment.Center
+        Me.txtEditAddBenRel.BorderRadius = 5
+        Me.txtEditAddBenRel.CustomizableEdges = CustomizableEdges82
+        Me.txtEditAddBenRel.DefaultText = ""
+        Me.txtEditAddBenRel.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtEditAddBenRel.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtEditAddBenRel.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditAddBenRel.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditAddBenRel.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditAddBenRel.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditAddBenRel.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditAddBenRel.Location = New Global.System.Drawing.Point(328, 393)
+        Me.txtEditAddBenRel.Name = "txtEditAddBenRel"
+        Me.txtEditAddBenRel.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtEditAddBenRel.PlaceholderText = ""
+        Me.txtEditAddBenRel.SelectedText = ""
+        Me.txtEditAddBenRel.ShadowDecoration.CustomizableEdges = CustomizableEdges83
+        Me.txtEditAddBenRel.Size = New Global.System.Drawing.Size(169, 36)
+        Me.txtEditAddBenRel.TabIndex = 7
+        Me.txtEditAddBenRel.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
         ' 
         ' txtEditAddBen
         ' 
-        txtEditAddBen.BorderRadius = 5
-        txtEditAddBen.CustomizableEdges = CustomizableEdges82
-        txtEditAddBen.DefaultText = ""
-        txtEditAddBen.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtEditAddBen.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtEditAddBen.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditAddBen.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtEditAddBen.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditAddBen.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtEditAddBen.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEditAddBen.Location = New Point(185, 499)
-        txtEditAddBen.Name = "txtEditAddBen"
-        txtEditAddBen.PasswordChar = ChrW(0)
-        txtEditAddBen.PlaceholderText = ""
-        txtEditAddBen.SelectedText = ""
-        txtEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges83
-        txtEditAddBen.Size = New Size(442, 36)
-        txtEditAddBen.TabIndex = 6
-        txtEditAddBen.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' pickEditUserStat
-        ' 
-        pickEditUserStat.BackColor = Color.Transparent
-        pickEditUserStat.BorderRadius = 5
-        pickEditUserStat.CustomizableEdges = CustomizableEdges84
-        pickEditUserStat.DrawMode = DrawMode.OwnerDrawFixed
-        pickEditUserStat.DropDownStyle = ComboBoxStyle.DropDownList
-        pickEditUserStat.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditUserStat.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditUserStat.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        pickEditUserStat.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        pickEditUserStat.ItemHeight = 30
-        pickEditUserStat.Items.AddRange(New Object() {"Administrator", "Default"})
-        pickEditUserStat.Location = New Point(381, 211)
-        pickEditUserStat.Name = "pickEditUserStat"
-        pickEditUserStat.ShadowDecoration.CustomizableEdges = CustomizableEdges85
-        pickEditUserStat.Size = New Size(303, 36)
-        pickEditUserStat.TabIndex = 5
-        pickEditUserStat.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' pickEditComm
-        ' 
-        pickEditComm.BackColor = Color.Transparent
-        pickEditComm.BorderRadius = 5
-        pickEditComm.CustomizableEdges = CustomizableEdges86
-        pickEditComm.DrawMode = DrawMode.OwnerDrawFixed
-        pickEditComm.DropDownStyle = ComboBoxStyle.DropDownList
-        pickEditComm.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditComm.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditComm.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        pickEditComm.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        pickEditComm.ItemHeight = 30
-        pickEditComm.Items.AddRange(New Object() {"Education, Information & Research", "Organizing & Membership", "Grievances", "Welfare", "Finance", "Sports & Culture"})
-        pickEditComm.Location = New Point(569, 134)
-        pickEditComm.Name = "pickEditComm"
-        pickEditComm.ShadowDecoration.CustomizableEdges = CustomizableEdges87
-        pickEditComm.Size = New Size(303, 36)
-        pickEditComm.TabIndex = 4
-        pickEditComm.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' pickEditStatus
-        ' 
-        pickEditStatus.BackColor = Color.Transparent
-        pickEditStatus.BorderRadius = 5
-        pickEditStatus.CustomizableEdges = CustomizableEdges88
-        pickEditStatus.DrawMode = DrawMode.OwnerDrawFixed
-        pickEditStatus.DropDownStyle = ComboBoxStyle.DropDownList
-        pickEditStatus.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditStatus.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditStatus.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        pickEditStatus.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        pickEditStatus.ItemHeight = 30
-        pickEditStatus.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
-        pickEditStatus.Location = New Point(185, 134)
-        pickEditStatus.Name = "pickEditStatus"
-        pickEditStatus.ShadowDecoration.CustomizableEdges = CustomizableEdges89
-        pickEditStatus.Size = New Size(303, 36)
-        pickEditStatus.TabIndex = 3
-        pickEditStatus.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' Label35
-        ' 
-        Label35.AutoSize = True
-        Label35.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label35.Location = New Point(495, 185)
-        Label35.Name = "Label35"
-        Label35.Size = New Size(88, 21)
-        Label35.TabIndex = 6
-        Label35.Text = "User Status"
-        ' 
-        ' pickEditPosition
-        ' 
-        pickEditPosition.BackColor = Color.Transparent
-        pickEditPosition.BorderRadius = 5
-        pickEditPosition.CustomizableEdges = CustomizableEdges90
-        pickEditPosition.DrawMode = DrawMode.OwnerDrawFixed
-        pickEditPosition.DropDownStyle = ComboBoxStyle.DropDownList
-        pickEditPosition.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditPosition.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditPosition.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        pickEditPosition.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        pickEditPosition.ItemHeight = 30
-        pickEditPosition.Items.AddRange(New Object() {"AA I", "AA II", "AA II Pantawid Pamilya RPMO", "AA III", "AA III - Sr.Bookkeeper", "AA III / Information Officer NHTS-PR", "AA III-Munipical Roving Bookkeeper", "AA-II ", "AA-II KALAHI-CIDDS", "AA-II KALAHI-CIDDS NCDDP_AF", "AC-KAASA", "Accountant I", "Accountant I/Officer in charge", "Accountant II", "Accountant III", "Accounting Clerk", "Acting Secretary", "Acting Social Welfare Officer III", "Activity Therapist", "Activity Worker I", "Admin Aide I", "Admin AIDE III", "Admin AIDE IIII", "Admin AIDE IV", "Admin AIDE VI ", "Admin Assistant", "Admin Assistant III", "Admin Assistant III (Computer Operator II)", "Admin Assistant V (Private Secretary I)", "Admin cum Finance Officer", "Admin Officer IV-Head, RROS", "Admin. Aide VI", "Admin.Assitant III/Information Officer (Listahanan)", "Admin.Officer IV/Head", "Admin.Officer V-Unit Head ", "Administrative Aide I", "Administrative Aide II", "Administrative Aide III", "Administrative Aide III (Encoder)", "Administrative Aide IV", "Administrative Aide IV (Clerk II)", "Administrative Aide IV (Driver)", "Administrative Aide IV (Encoder)", "Administrative Aide IV/Encoder", "Administrative Aide V", "Administrative Aide V (Chauffer I)", "Administrative Aide VI", "Administrative Aide VI (Clerk III)", "Administrative Assistant I", "Administrative Assistant II", "Administrative Assistant II (Procurement)", "Administrative Assistant II/SLP", "Administrative Assistant III", "Administrative Assistant III (Cash Clerk)", "Administrative Assistant III - Budget", "Administrative Assistant III (Budget Assistant)", "Administrative Assistant III/Senior Bookkeeper", "Administrative Assistant III/Socpen Accounting", "Administrative Assistant IV", "Administrative Assistant V", "Administrative Assistant V (Private Secretary I)", "Administrative Assistant VI ", "Administrative Cum Finance Officer", "Administrative Officer I", "Administrative Officer II", "Administrative Officer II - Infastructure Assistant", "Administrative Officer II - Property & Asset Officer", "Administrative Officer II/Head", "Administrative Officer III", "Administrative Officer IV", "Administrative Officer IV/KALAHI-CIDSS", "Administrative Officer IV/Encoder", "Administrative Officer IV/Head", "Administrative Officer V", "Administrative Officer V/Budget Officer", "Administrative Officer V/Financial Analyst III", "Administrative Officer V/Head", "Administrative Program Focal (PDO II-municipal link)", "Administrative Staff", "Administrative Support Staff", "AO II", "AO II/Financial Analyst II ", "AO II / PSYCHOMETRICIAN", "AO II-OIC Head, Property, Supply & Asset Mngt.Section", "AO II-Pantawid Property Officer", "AO II-Property Officer", "AO II-Property & Asset Officer", "AO II-Property Officer (Mainstream Staff Pantawid)", "AO IV", "AO IV-Financial Analyst II", "AO IV/Financial Analyst II", "AO IV/OIC-Procurement Unit Head", "AO V", "AO V-CASH HEAD", "AO V/Budget Officer NHTS-PR", "AOV-FMD-Cash-Head", "Architect I", "Architect II", "Architect III", "ARDO", "Area Coordinator", "Area Coordinarot/KALAHI CIDSS", "AREA SUPERVISOR", "Assistant Bureau Director", "Assistant Information Officer", "Assistant Regional Director for Administration (ARDA)", "Assistant Regional Director for Operations (ARDO)", "Assistant Secretary", "Assistant Secretary / OIC-IMB", "Assistant Secretary for OASOPG-Protective Programs ", "Assistant Service Director", "Associate Statistician", "Attorney III", "AttorneyIV", "Attorney V", "Audio-Visual Aids Technician III", "Audio-Visual Equipment Operator II", "AUDIT TEAM LEADER", "AUDIT TEAM MEMBER", "AVRC II Center Head", "BAC SEC & Procurement Service", "BAHAY PAG-ASA NG LAGUNA - CENTER HEAD", "BDM", "Beneficiary Update System Focal - PDO I", "Beneficiary Update System Focal - PDO II", "Bookkeeper", "BTMS-ENCODER", "Budget Assistant", "Budget Officer I", "Budget Officer II", "Budget Officer III", "Bureau Director", "CAD Operator", "Caretaker", "Carpenter", "Case Worker for MCCT (PDOII)", "Cash Clerk", "CASH CLERK / KALAHI-CIDSS", "Cashier II", "CDA II", "CEF - KALAHI CIDSS", "CEF / Executive Assistant", "CENTER HEAD", "CENTERS AND RESIDENTIAL CARE FACILITIES (CRCF)", "Chief", "Chief Account", "Chief Admin.Officer / OIC ARD for Administration", "Chief Administrative Officer", "Chief Administrative Officer V", "Chief Infastructure Engineer", "Child Psychologist for MCCT", "City Link", "City Link Officer", "CIVIL ENGINEER", "CL", "Clerk I", "Clerk II", "Clerk III/ HRMDD", "Clerk/Encoder", "Cluster Beneficiary Data Officer", "Cluster Compliance Verification System Focal", "Cluster Focal Person (BDM)", "Cluster Greivance Redress System Focal", "Cluster Greivance Officer", "CMT I", "CMT II", "CMT II - MCCT", "COA AUDITOR", "Comm. Development Officer III", "Commission on Audit XI", "Communication Equipment Operator I", "Communications Specialist", "Communications Officer IV", "Community Development Assistant", "Community Development Assistant II", "Community Development Officer II", "Community Development Officer III", "COMMUNITY DEVELOPMENT OFFICER III - IT", "COMMUNITY DEVELOPMENT OFFICER IV", "COMMUNITY DEVELOPMENT OFFICER IV/KALAHI CIDSS", "Community Empowerment Facilitator", "Community Empowerment Facilitator - Roving ", "Community Facilitator", "Community Facilitator Aide", "Community Facilitator Assistant", "Community Finance Facilitator", "Community Finance Monitor", "Community Financial Analyst", "Community Infastructure Officer ", "Community Infastructure Officer III", "Community Infastructure Specialist ", "Community Organizer", "Community Organizer III", "Community Procurement Officer ", "Community Procurement Officer 3", "Community Procurement Officer III", "Community Procurement Specialist ", "Computer Encoder", "Computer Maintenance Technologist I", "Computer Maintenance Technologist II", "Computer Operator", "Computer Operator I", "Computer Operator II", "Computer Operator III", "Computer Operator IV", "Computer Programmer I", "Computer Programmer II", "Computer Programmer III", "Concurrent Head", "Concurent National Program Manager", "Concurent OIC", "Consultant", "Convergeance Coordinator", "Cook", "Cook I", "Cook II", "CPO", "CPO IV", "Crative Arts Specialist", "DAC - DEPUTY ARE COORDINATOR", "Data Analyst III", "Data Encoder", "Database Specialist", "Day Care Worker I", "Day Care Worker II", "Default", "Dentist II", "Department Assistant Secretary", "Department Legislative Liaison Specialist", "Department Secretary", "Department Undersecretary", "Deputy Area Coordinator - Electrical Engineer", "Deputy Area Coordinator - Geoditic Engineer", "Deputy Area Coordinator - IT", "Deputy Community Development Specialist", "Deputy Director", "Deputy Nat'l Community - Infra. Engr.", "Deputy National M & E Specialist", "Deputy National Program Manager for Operations", "Deputy National Training Specialist", "Deputy NCBS", "Deputy Program Director", "Deputy Program Manager", "Deputy Program Manager Operation", "Deputy Regional Program Manager", "Deputy Regional Project Manager", "Deputy Technical Facilitator", "Derector", "Director III", "Director IV", "Division Chief", "Dormitory Manager I", "Dormitory Manager II", "DPMO", "DPMO/PROPERTY WAREHOUSE", "DPSC", "DRAFTSMAN", "Driver", "Driver II", "DSWD FO CARAGA", "ECCD Teacher", "Echonomist III", "Electrical Engineer", "Electrician I ", "Electrician II ", "Encoder", "Encoder III", "Encoder-BTMS", "Engineer I", "Engineer II", "Engineer III", "Engineer IV", "Engineer AIDE", "Environtmental Safeguard Specialist", "Executive Assistant ", "Executive Assistant I", "Executive Assistant II", "Executive Assistant III", "Executive Assistant IV", "Executive Assistant V", "Executive Assistant VI", "Executive Secretary/ Senior Administrative Assistant III", "FA - MAGSAYSAY", "FA II", "FA III", "Family Welfare Assistant for MCCT", "FDS Coordinator", "Field Program Manager", "Field Office Coordinator", "Field Program Manager", "Finance Officer Cum Administrative Officer", "Finance Officer III", "Financial Analyst", "Financial Analyst I", "Financial Analyst II", "Financial Analyst III", "Financial Analyst III (Budget Officer)", "Financial Analyst III (Cash Grants)", "Financial Analyst III/KALAHI CIDSS", "Financial Analyst IV", "Financial Analyst V", "Financial Analyst V (Project Accountant)", "Financial Assistant III", "FMD Chief", "FOCAL PERSON FOR OSEC", "FOR STORAGE", "FPC", "Gender Specialist", "Geodetic Engineer", "GIS Specialist", "Governance Specialist", "Goverment Intership Program", "Greivance Redress System Focal", "Greivance, Admin Officer", "Handicaft Worker II", "Head ", "Head Executive Assistant", "Head, Accounting Section", "Head, RAMS", "Heavy Equipment Operator I", "HMO Inlife Customer Service Representative", "House Attendant ", "Household Attendant III", "Houseparent I", "HOUSEPARENT II", "houseparent III", "Houseparent IV", "HR - Learning and Development", "HR Specialist", "HRMDD CHIEF", "Human Relations Officer I ", "Human Resource Officer", "Human Resource Officer I", "Human Resource Officer II", "Information analyst I", "Information Officer", "Information Officer I", "Information Officer I/Social Pension Program", "Information Officer I/UCT", "Information Officer II", "Information Officer III ", "Information Officer III (Social Marketing Officer III)", "Information Officer IV", "Information Officer V", "Information Specialist Analyst", "Information System Analyst", "Information System Analyst I", "Information System Analyst III", "Information Systems Analyst", "Information Technology Officer (Team Leader)", "Information Technology Officer I", "Information Technology Officer II", "Information Technology Officer III", "Institutional Partnership and Development Officer", "Instructor ", "Inter Auditing Assistant", "Internal Auditor I", "Internal Auditor II", "Internal Auditor III", "Internal Auditor IV", "Internal Auditor V", "IO", "IPDO", "JOB ORDER", "Job Placement Officer", "Junior Capacity Building Specialist", "Junior Community Procurement Specialist", "KALAHI CIDSS - Japan Fund for Proverty Reduction", "KM Writer", "Knowledge Management Writer", "Laundry Worker I ", "Laundry Worker II", "Laundry Worker/Cook", "Laundrywoman", "Legal Assistant I", "Legal Assistant II", "LIBRARIAN I", "Librarian II", "Logistic Officer III", "M & E Assistant III", "M & E I", "M & E II", "M & E Specialist", "M & E IV", "M & E V", "M & E Officer III", "Management and Audit Analyst II", "Management Audit Analyst", "Management Audit Analyst II", "Management Audit Analyst IV", "MANPOWER DEVELOPMENT ASSISTANT ", "Manpower Development Officer I", "Manpower Development Officer II", "Manpower Development Officer III", "MCCT Coordinator", "MDO I / PSYCHOMETRICIAN", "Media Officer IV", "Media Production Specialist", "Media Prodcution Specialist III", "MEDICAL OFFICER", "Medical Officer III", "Medical Officer IV", "MFA", "Midwife I", "Minister of Social Service BARMM", "ML PATNANUNGAN", "MOA", "Monitoring & Evaluation Officer I", "Monitoring & Evaluation Officer II", "Monitoring & Evaluation Officer III", "Monitoring & Evaluation III ", "Monitoring & Evaluation Officer ", "Monitoring & Evaluation Officer III (External)", "Monitoring & Evaluation Officer IV", "Monitoring & Evaluation Officer V", "MRB", "Municipal Financial Analyst", "Municipal Financial Analyst/KALAHI-CIDSS", "Municipal Financial Analyst", "Municipal Link", "Minicipal Link Officer", "Municipal Monitoring ", "Municipal Rooving Bookkeeper", "Municipal Roving Bookkeeper", "Municipal Social Welfare Development Officer", "National Capability Building Specialist", "National Community Infrastructure", "National DRRM Support Coordinator", "National Financial Analyst - KCMCC", "National M & E Specialist", "National Training Officer", "NCDS", "NHTO IT-Division Chief/ITO3", "Nurse I", "Nurse II", "Nutritionist-Dietician I", "Nutritionist-Dietician II", "Nutritionist-Dietician III", "Nutritionist-Dietician V", "OASOPG-PP", "ODM Specialist", "OIC ", "OIC - Director IV", "OIC AUDIT TEAM LEADER", "OIC DIVISION Chief - DReMD", "OIC Head, Property & Supply Section", "OIC - Assistant Regional Director for Operations", "OIC - ASEC - OASOSG", "OIC - Assistant Director", "OIC - Assistant Secretary", "OIC - Assistant Service Director", "OIC-Asst. Secretary for OSG", "OIC - Center Head", "OIC - CHIEF", "OIC Director", "OIC - Division Chief", "OIC - GSD", "OIC - Procurement Unit Head", "OIC - Regional Director", "OIC - USEC", "OIC/Chief", "OJT", "On-the-job Trainee", "Operations Program Focal (PDO II - Municipal Link)", "Organizational Development Specialist III", "Organizational Development Specialist IV", "Organizational Training Specialist IV", "Payapa at Masaganang Pamayanan ", "PDO", "PDO I", "PDO I/FMD Cash Grants ", "PDO I/DRMD ", "PDO I/Grievance Officer", "PDO I/provincial Monitoring Evaluation Officer", "PDO II", "PDO II - System coordinator", "PDO II Municipal link", "PDO II (Case Worker)", "PDO II - BUS", "PDO II - BUS Focal Person", "PDO - Coordination to Partner Agencies", "PDO II - CVS", "PDOII - EPAHPH", "PDO II - GAD", "PDO II - GRS", "PDO II - GRS (Cluster) ", "PDO II - Information II", "PDO II - IP", "PDO II - Monitoring & Evaluation Officer", "PDO II - SWAD TL", "PDO II / Capability building ", "PDO II / DRMD CCAM", "PDO II / ML TUAO, CAGAYAN", "PDO II / Municipal Link, Alicia, Isabela", "PDO II / Municipal Link, Ilagan City, Isabela", "PDO II / RMEO", "PDO II / SLP Batanes", "PDO II / SWAD TL", "PDO II / GRS ", "PDO II Municipal Link, Abulug, Cagayan", "PDO II - Institutional Partnership Development Officer", "PDO II - City link, Tuguegarao City, Cagayan", "PDO II - Cluster Benefeciary Data Officer", "PDO II - MCCT Community Facilitator", "PDO II - Municipal Link", "PDO II - Municipal Link Dupax Del Norte,N.V", "PDO II - Municipal Link, Ambaguio", "PDO II - Municipal Link, Buguey, Cagayan", "PDO II - Municipal Link, Diadi, N.V", "PDO II - Municipal Link, Enrile, Cagayan", "PDO II - Municipal Link, Iguig, Cagayan", "PDO II - Municipal Link, Napagtipunan, Quirino", "PDO II - Municipal Link, Saguday, Quirino", "PDO II - Municipal Link, Dupax Del Sur, N.V", "PDO II - Provincial Systems Focal", "PDO II - Regional Monitoring and Evaluation Officer", "PDO II/PMEO SLP ISABELA", "PDO II/Provincial Coordinator", "PDO II/Child Labord Focal Person", "PDO II/DRMD", "PDO II/DRMD CCAM", "PDO II/Geographic Info.System Specialist", "PDO II/Information Officer", "PDO II/LIQUIDATION FOCAL/RMEF", "PDO II/MCCT San Pablo, Isabela", "PDO II/ML APARRI, CAGAYAN", "PDO II/ML TUAO, CAGAYAN", "PDO II/MUNICIPAL LINK", "PDO II/Municipal Link Bambang, NV", "PDO II/Municipal Link Claveri, Cagayan", "PDO II/Municipal Link Diadi, NV", "PDO II/Municipal Link Dinapigue, Isabela", "PDO II/Municipal Link Gattaran, Cagayan", "PDO II/Municipal Link Kayapa, Nueva Viscaya", "PDO II/Municipal Link Pamplano, Cagayan", "PDO II/Municipal Link Peablanca, Cagayan", "PDO II/Municipal Link Quezon, Nueva Viscaya", "PDO II/Municipal LInk Rizal,Cagayan", "PDO II/Municipal Link Roxas,Isabela", "PDO II/Municipal Link San Isidro, Cagayan", "PDO II/Municipal Link San Isidro, Isabela", "PDO II/Municipal Link Sanchez Mira, Cagayan", "PDO II/Municipal Link Solano,NV", "PDO II/Municipal LInk Sta.Fe,NV", "PDO II/Municipal Link Sta.Praxedes,Cagayan", "PDO II/Municipal Link Sto.Nino,Cagayan", "PDO II/Municipal Link Villaverde", "PDO II/Municipal Link, Aparri,Cagayan", "PDO II/Municipal Link, Buguey, Cagayan", "PDO II/Municipal Link, Burgos, Isabela", "PDO II/Municipal Link, Divilacan, Isabela", "PDO II/Municipal Link, Jones,Isabela", "PDO II/Municipal Link,MACONACON, ISABELA", "PDO II/Municipal Link,SAn Agustin,Isabela", "PDo II/Municipal Link,San Mariano,Isabela", "PDO II/Municipal Link,San Mateo,Isabela", "PDO II/Municipal Link,Tumauini,Isabela", "PDO II/Municipal Link,Divilacan,Isabela", "PDO II/Municipal Link,Echague,Isabela", "PDO II/Municipal Link,Maconacon,Isabela", "PDO II/Municipal Link,San Mariano,Isabela", "PDO II/PMEO ISABELA", "PDO II/PMEO NUEVA VIZCAYA", "PDO II/PMEO QUIRINO", "PDO II/Private Sector Partnership Officer", "PDO II/Provincial Coordinator Isabela, Cagayan", "PDO II/Provincial Coordinator SLP Isabela", "PDO II/Provincial Coordinator SLP Quirino", "PDO II/Reports Generation", "PDO III", "PDO III/Area Coordinator", "PDO III/Area Coordinator", "PDO III/Civil Engineer", "PDO III TEchnical Staff/RSCWC", "PDO III/Area Coordinator", "PDO III/Head, CVRRCY", "PDO III/Reg'l Center Coordinator", "PDO III/RSCWC", "PDO IV", "PDO V/ RPC", "PDO V/Division", "PDO V/Regional Field Coordinator UCT", "PDO-I Social Pension", "PDO-II", "PDO-IIDRMMD", "PEO I", "PEO III", "PGO", "Photographer II", "Physical Therapist II", "Planning Officer I", "Planning Officer II", "Planning Officer III", "Planning Officer IV", "Planning Officer V", "Plumber", "PMEO", "PMO-EE", "Policy and Plans Division Chief", "PPG-OSM", "PPO", "Prisedent - SWEAP", "Private Secretary", "Private Secretary I ", "Procurement Assistant", "Procurement Assistant II", "PROCUREMENT ASST.", "Procurement Development Officer III", "Procurement Officer", "Procurement Specialist", "Profect Development Officer II (DRAFTMAN)", "Program Development III", "Project Evaluation Specialist", "Program Manager", "Program Officer", "Project Coordinator", "Project Development Office III", "Project Development Officer", "Project Development Officer I", "Project Development Officer I - KC", "Project Development Officer I - Nurse", "Project Development Officer I - Nutritionist - Dietician I", "Project Development Officer I/CAMP MANAGERS", "Project Development Officer II", "Project Development Officer II (CVS Focal)", "Project Development Officer II - BP2P", "Project Development Officer II - Database Specialist ", "Project Development Officer II - Infrastructure", "Project Development Officer II/SLP", "Project Development Officer II-CVS Focal (POO 2 Isabela)", "Project Development Officer II - MCCT", "Project Development Officer II - MunicipaL Link", "Project Development Officer II/GRS Focal", "Project Development Officer II/SLP", "Project Development Officer III", "Project Development Officer III - FDS Focal", "Project Development Officer III/Centenarian Focal Person", "Project Development Officer III/Regional Program Coordinator", "Project Development Officer IV ", "Project Development Officer V", "Project Development Officer V (Gender Specialist)", "Project Development Officer V (IP Specialist)", "Project Development Officer V - OIC", "Project Evaluation Officer", "Project Evaluation Officer II", "Project Evaluation Officer III", "Project Evaluation Officer IV", "Project Evaluation Officer V", "Project Management Officer", "Project Manager (UCT)", "Project Manager IV", "Project Officer", "Property Officer/Warehouse", "Provincial AA", "Provincial AA II", "Provincial Bus Officer (PDO II)", "PROVINCIAL CL", "Provinvial Coordinator", "Provinvial CVS Officer (PDO II)", "Provincial Grievance Officer", "Provincial Grievance Officer (PDO II)", "Provincial GRS Officer (PDO II)", "Provincial Link", "Psychologist I", "Psychologist II", "Psychologist III", "Psychometrician I", "Public Relations Officer IV", "Quality Management Specialist", "Records Officer ", "Regional Accountant", "Regional bookkeeper", "Regional capability Building Specialist", "Regional Community Development Specialist", "Regional Community Infrastructure Specialist", "Regional Director", "Regional Driver (KC-NCDDP) ", "Regional Executive Assistant ", "Regional Field Coordinator", "Regional Finance Specialist", "Regional Financial Analyst", "Regional Information Officer", "Regional Information Officer II-Head,SMU", "Regional Information Technology Officer ", "Regional Information Technology Officer I", "Regional Information Technology Officer II", "Regional Infrastructure Assistant", "Regional Infrastructure Officer", "Regional Infrastructure Officer II", "Regional Infrastructure Officer III", "Regional Monitoring And Evaluation Specialist", "Regional Procurement Officer", "Regional Procurement For Program", "Regional Procurement Officer For Program Community", "Regional Program coordinator", "Regional Program Coordinator - KALAHI - CIDSS", "Regional Program Coordinator - Operations", "Regional Sub - Committee for the Welfare of Children (RSCWC)", "Regional Training Assistant", "Regional Training Officer", "Regional Training Officer II", "Regional Training Specialist", "Repacker", "Research Officer III", "RIO III", "Roving Area Coordinator", "Roving Municipal Financial Analyst", "Roving technical Facilitator", "RSCWC - Technical Officer", "SA - IV", "SA - IV Audit Team Leader", "SAO", "SAO/DC", "SAO/OIC-DC", "Social Welfare Assistant - MCCT", "Secretary II", "Section Head", "Security Guard I (CT)", "Security Guard I (ICT)", "Security Guard II", "Security Officer II", "Senior Administrative Assistant I", "Senior Administrative Assistant II", "Senior Administrative Assistant III", "Senior Administrative Assistant IV", "Senior Administrative Assistant V", "Senior Administrative Officer", "Senior Bookkeeper", "Senior Bookkeeper (Admin Asst III)", "Senior M & E Assistant V", "Senior MANPOWER DEVELOPMENT OFFICER II", "Senior Statistician IV", "Senior Technical Officer ", "SGV", "Site Engineer", "Social Marketing Officer", "Social Marketing Officer III", "Social Marketing Officer III/KALAHI-CIDSS", "Social Marketing Specialist", "Social Safeguard Officer", "Social Safeguard Specialist", "Social Welfare Aide", "Social Welfare Assistant", "Social Welfare Assistant - CMU", "Social Welfare Assistant - MCCT IP", "Social Welfare Assistant I", "Social Welfare Assistant II", "Social Welfare Assistant - MCCT", "Social Welfare Attache", "Social Welfare Officer I ", "Social Welfare Officer I - OIC Center Head", "Social Welfare Officer II", "Social Welfare Officer II/EO 70 Focal", "Social Welfare Officer II/Family Focal", "Social Welfare Officer II/SWAD Team Leader", "Social Welfare Officer II/Team Leader", "Social Welfare Officer III", "Social Welfare Officer III-Center Head", "Social Welfare Officer III/Act as PL", "Social Welfare Officer III/TARA Focal", "Social Welfare Officer III/Team Leader", "Social Welfare Officer IV", "Social Welfare Officer IV, OIC-Chief,DReMD", "Social Welfare Officer IV - Center Head", "Social Welfare Officer V", "Social Welfare Officer V/OIC ARDO and Concurrent Head PSD", "Special Investigator III", "SPED TEACHER", "Stakeholder Management and Networking Specialist", "State Auditing Examiner", "State Auditing Examiner II", "State Auditor ", "State Auditor and Examiner ", "State Auditor I", "State Auditor II", "State Auditor III", "State Auditor IV", "State Auditor V", "Statistician", "Statistician Aide", "Statistician Aide II", "Statistician I", "Statistician II", "Statistician III", "Statistician IV", "Stockroom/Warehouse", "Storage Room", "Storekeeper", "Sub-Regional Program Coordinator", "Sub-Regional Project Coordinator", "Supervising Administrative I", "Supervising Administrative V", "Supervising Administrative Officer", "Supervising Administrative Officer - KC - NCDDP", "Supervising Administrative Officer/KALAHI - CIDSS", "Supervising Auditor V", "Supervisor", "Supplier", "Supply Officer I", "Supply Procurement Officer I", "SWA", "SWA - Convergence", "SWA AIDE", "SWA San Juan Batangas", "SWA - CMU", "SWI - III", "SWO - I", "SWO - II", "SWO - II/Women Focal Person", "SWO II - SWAD TL", "SWO II - OIC Center Head", "SWO II/Family Focal Person", "SWO II/Older Per & IISO Focal Person", "SWO II/RRPTP", "SWO II/RRPTP,PWD,PLHIV & Youth Focal Person", "SWO II/Women Focal Person", "SWO III", "SWO III/Head, Social Technology Section", "SWO III/Head, Regional Juvenile Justice and Welfare Council", "SWO III/OIC - SLP RPC", "SWO IV", "SWO IV UCT", "SWO V / Chief, Promotive Services Division", "SWO V / Division Chief", "SWO V / OIC ARD for Operations", "System Analyst II", "System Coordinator", "System Coordinator Officer (PDO II)", "System Coordinator Officer PDO II - BUS", "System Coordinator Officer PDO II - CVS", "System Coordinator Officer PDO II - GRS", "Teach for The Philippines Ambasador", "Teacher", "Teacher I", "Team Leader", "Team Leader SWAD Nueva Viscaya", "Techincal Empowerment facilitator", "Technical Facilitator", "Techinal Facilitator/KALAHI-CIDSS", "Technical Specialist", "Technician ", "Training Assistant II", "Training Center Superintendent II", "Training Specialist I", "Training Specialist II", "Training Specialist III", "Training Specialist IV", "TS IV", "UCT - Regional Field Coordinator", "Undersecretary ", "Undersecretary for Administration", "Utility Worker", "Utility Worker I", "Utility Worker II", "WAREHOUSE", "Warehouseman II"})
-        pickEditPosition.Location = New Point(569, 51)
-        pickEditPosition.Name = "pickEditPosition"
-        pickEditPosition.ShadowDecoration.CustomizableEdges = CustomizableEdges91
-        pickEditPosition.Size = New Size(303, 36)
-        pickEditPosition.TabIndex = 2
-        pickEditPosition.TextAlign = HorizontalAlignment.Center
-        ' 
-        ' Label22
-        ' 
-        Label22.AutoSize = True
-        Label22.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label22.Location = New Point(675, 105)
-        Label22.Name = "Label22"
-        Label22.Size = New Size(87, 21)
-        Label22.TabIndex = 6
-        Label22.Text = "Committee"
-        ' 
-        ' pickEditOffice
-        ' 
-        pickEditOffice.BackColor = Color.Transparent
-        pickEditOffice.BorderRadius = 5
-        pickEditOffice.CustomizableEdges = CustomizableEdges92
-        pickEditOffice.DrawMode = DrawMode.OwnerDrawFixed
-        pickEditOffice.DropDownStyle = ComboBoxStyle.DropDownList
-        pickEditOffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditOffice.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickEditOffice.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        pickEditOffice.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        pickEditOffice.ItemHeight = 30
-        pickEditOffice.Items.AddRange(New Object() {"4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
-        pickEditOffice.Location = New Point(185, 51)
-        pickEditOffice.Name = "pickEditOffice"
-        pickEditOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges93
-        pickEditOffice.Size = New Size(303, 36)
-        pickEditOffice.TabIndex = 1
-        pickEditOffice.TextAlign = HorizontalAlignment.Center
+        Me.txtEditAddBen.BorderRadius = 5
+        Me.txtEditAddBen.CustomizableEdges = CustomizableEdges84
+        Me.txtEditAddBen.DefaultText = ""
+        Me.txtEditAddBen.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtEditAddBen.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtEditAddBen.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditAddBen.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtEditAddBen.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditAddBen.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtEditAddBen.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtEditAddBen.Location = New Global.System.Drawing.Point(24, 393)
+        Me.txtEditAddBen.Name = "txtEditAddBen"
+        Me.txtEditAddBen.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtEditAddBen.PlaceholderText = ""
+        Me.txtEditAddBen.SelectedText = ""
+        Me.txtEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges85
+        Me.txtEditAddBen.Size = New Global.System.Drawing.Size(298, 36)
+        Me.txtEditAddBen.TabIndex = 6
+        Me.txtEditAddBen.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
         ' 
         ' Label25
         ' 
-        Label25.AutoSize = True
-        Label25.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label25.Location = New Point(806, 473)
-        Label25.Name = "Label25"
-        Label25.Size = New Size(37, 21)
-        Label25.TabIndex = 6
-        Label25.Text = "Age"
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label25.Location = New Global.System.Drawing.Point(533, 369)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New Global.System.Drawing.Size(37, 21)
+        Me.Label25.TabIndex = 6
+        Me.Label25.Text = "Age"
         ' 
         ' Label24
         ' 
-        Label24.AutoSize = True
-        Label24.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label24.Location = New Point(658, 474)
-        Label24.Name = "Label24"
-        Label24.Size = New Size(96, 21)
-        Label24.TabIndex = 6
-        Label24.Text = "Relationship"
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label24.Location = New Global.System.Drawing.Point(364, 369)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New Global.System.Drawing.Size(96, 21)
+        Me.Label24.TabIndex = 6
+        Me.Label24.Text = "Relationship"
         ' 
         ' Label23
         ' 
-        Label23.AutoSize = True
-        Label23.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label23.Location = New Point(368, 472)
-        Label23.Name = "Label23"
-        Label23.Size = New Size(78, 21)
-        Label23.TabIndex = 6
-        Label23.Text = "Full name"
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label23.Location = New Global.System.Drawing.Point(24, 369)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New Global.System.Drawing.Size(78, 21)
+        Me.Label23.TabIndex = 6
+        Me.Label23.Text = "Full name"
         ' 
         ' Label26
         ' 
-        Label26.AutoSize = True
-        Label26.Font = New Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point)
-        Label26.Location = New Point(425, 269)
-        Label26.Name = "Label26"
-        Label26.Size = New Size(152, 28)
-        Label26.TabIndex = 6
-        Label26.Text = "BENEFICIARIES"
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New Global.System.Drawing.Font("Segoe UI", 15F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label26.Location = New Global.System.Drawing.Point(237, 8)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New Global.System.Drawing.Size(152, 28)
+        Me.Label26.TabIndex = 6
+        Me.Label26.Text = "BENEFICIARIES"
+        ' 
+        ' Panel6
+        ' 
+        Me.Panel6.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
+        Me.Panel6.Controls.Add(Me.pickEditUserStat)
+        Me.Panel6.Controls.Add(Me.pickEditComm)
+        Me.Panel6.Controls.Add(Me.pickEditStatus)
+        Me.Panel6.Controls.Add(Me.Label35)
+        Me.Panel6.Controls.Add(Me.pickEditPosition)
+        Me.Panel6.Controls.Add(Me.Label22)
+        Me.Panel6.Controls.Add(Me.pickEditOffice)
+        Me.Panel6.Controls.Add(Me.Label21)
+        Me.Panel6.Controls.Add(Me.Label20)
+        Me.Panel6.Controls.Add(Me.Label19)
+        Me.Panel6.Location = New Global.System.Drawing.Point(16, 22)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New Global.System.Drawing.Size(352, 514)
+        Me.Panel6.TabIndex = 9
+        ' 
+        ' pickEditUserStat
+        ' 
+        Me.pickEditUserStat.BackColor = Global.System.Drawing.Color.Transparent
+        Me.pickEditUserStat.BorderRadius = 5
+        Me.pickEditUserStat.CustomizableEdges = CustomizableEdges86
+        Me.pickEditUserStat.DrawMode = Global.System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.pickEditUserStat.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.pickEditUserStat.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.pickEditUserStat.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.pickEditUserStat.Font = New Global.System.Drawing.Font("Segoe UI", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.pickEditUserStat.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(68))), CInt(CByte(CByte(88))), CInt(CByte(CByte(112))))
+        Me.pickEditUserStat.ItemHeight = 30
+        Me.pickEditUserStat.Items.AddRange(New System.Object() {"Administrator", "Default"})
+        Me.pickEditUserStat.Location = New Global.System.Drawing.Point(23, 407)
+        Me.pickEditUserStat.Name = "pickEditUserStat"
+        Me.pickEditUserStat.ShadowDecoration.CustomizableEdges = CustomizableEdges87
+        Me.pickEditUserStat.Size = New Global.System.Drawing.Size(303, 36)
+        Me.pickEditUserStat.TabIndex = 5
+        Me.pickEditUserStat.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
+        ' 
+        ' pickEditComm
+        ' 
+        Me.pickEditComm.BackColor = Global.System.Drawing.Color.Transparent
+        Me.pickEditComm.BorderRadius = 5
+        Me.pickEditComm.CustomizableEdges = CustomizableEdges88
+        Me.pickEditComm.DrawMode = Global.System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.pickEditComm.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.pickEditComm.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.pickEditComm.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.pickEditComm.Font = New Global.System.Drawing.Font("Segoe UI", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.pickEditComm.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(68))), CInt(CByte(CByte(88))), CInt(CByte(CByte(112))))
+        Me.pickEditComm.ItemHeight = 30
+        Me.pickEditComm.Items.AddRange(New System.Object() {"Education, Information & Research", "Organizing & Membership", "Grievances", "Welfare", "Finance", "Sports & Culture"})
+        Me.pickEditComm.Location = New Global.System.Drawing.Point(23, 314)
+        Me.pickEditComm.Name = "pickEditComm"
+        Me.pickEditComm.ShadowDecoration.CustomizableEdges = CustomizableEdges89
+        Me.pickEditComm.Size = New Global.System.Drawing.Size(303, 36)
+        Me.pickEditComm.TabIndex = 4
+        Me.pickEditComm.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
+        ' 
+        ' pickEditStatus
+        ' 
+        Me.pickEditStatus.BackColor = Global.System.Drawing.Color.Transparent
+        Me.pickEditStatus.BorderRadius = 5
+        Me.pickEditStatus.CustomizableEdges = CustomizableEdges90
+        Me.pickEditStatus.DrawMode = Global.System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.pickEditStatus.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.pickEditStatus.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.pickEditStatus.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.pickEditStatus.Font = New Global.System.Drawing.Font("Segoe UI", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.pickEditStatus.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(68))), CInt(CByte(CByte(88))), CInt(CByte(CByte(112))))
+        Me.pickEditStatus.ItemHeight = 30
+        Me.pickEditStatus.Items.AddRange(New System.Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
+        Me.pickEditStatus.Location = New Global.System.Drawing.Point(23, 151)
+        Me.pickEditStatus.Name = "pickEditStatus"
+        Me.pickEditStatus.ShadowDecoration.CustomizableEdges = CustomizableEdges91
+        Me.pickEditStatus.Size = New Global.System.Drawing.Size(303, 36)
+        Me.pickEditStatus.TabIndex = 3
+        Me.pickEditStatus.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
+        ' 
+        ' Label35
+        ' 
+        Me.Label35.AutoSize = True
+        Me.Label35.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label35.Location = New Global.System.Drawing.Point(137, 381)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New Global.System.Drawing.Size(88, 21)
+        Me.Label35.TabIndex = 6
+        Me.Label35.Text = "User Status"
+        ' 
+        ' pickEditPosition
+        ' 
+        Me.pickEditPosition.BackColor = Global.System.Drawing.Color.Transparent
+        Me.pickEditPosition.BorderRadius = 5
+        Me.pickEditPosition.CustomizableEdges = CustomizableEdges92
+        Me.pickEditPosition.DrawMode = Global.System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.pickEditPosition.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.pickEditPosition.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.pickEditPosition.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.pickEditPosition.Font = New Global.System.Drawing.Font("Segoe UI", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.pickEditPosition.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(68))), CInt(CByte(CByte(88))), CInt(CByte(CByte(112))))
+        Me.pickEditPosition.ItemHeight = 30
+        Me.pickEditPosition.Items.AddRange(New System.Object() {"AA I", "AA II", "AA II Pantawid Pamilya RPMO", "AA III", "AA III - Sr.Bookkeeper", "AA III / Information Officer NHTS-PR", "AA III-Munipical Roving Bookkeeper", "AA-II ", "AA-II KALAHI-CIDDS", "AA-II KALAHI-CIDDS NCDDP_AF", "AC-KAASA", "Accountant I", "Accountant I/Officer in charge", "Accountant II", "Accountant III", "Accounting Clerk", "Acting Secretary", "Acting Social Welfare Officer III", "Activity Therapist", "Activity Worker I", "Admin Aide I", "Admin AIDE III", "Admin AIDE IIII", "Admin AIDE IV", "Admin AIDE VI ", "Admin Assistant", "Admin Assistant III", "Admin Assistant III (Computer Operator II)", "Admin Assistant V (Private Secretary I)", "Admin cum Finance Officer", "Admin Officer IV-Head, RROS", "Admin. Aide VI", "Admin.Assitant III/Information Officer (Listahanan)", "Admin.Officer IV/Head", "Admin.Officer V-Unit Head ", "Administrative Aide I", "Administrative Aide II", "Administrative Aide III", "Administrative Aide III (Encoder)", "Administrative Aide IV", "Administrative Aide IV (Clerk II)", "Administrative Aide IV (Driver)", "Administrative Aide IV (Encoder)", "Administrative Aide IV/Encoder", "Administrative Aide V", "Administrative Aide V (Chauffer I)", "Administrative Aide VI", "Administrative Aide VI (Clerk III)", "Administrative Assistant I", "Administrative Assistant II", "Administrative Assistant II (Procurement)", "Administrative Assistant II/SLP", "Administrative Assistant III", "Administrative Assistant III (Cash Clerk)", "Administrative Assistant III - Budget", "Administrative Assistant III (Budget Assistant)", "Administrative Assistant III/Senior Bookkeeper", "Administrative Assistant III/Socpen Accounting", "Administrative Assistant IV", "Administrative Assistant V", "Administrative Assistant V (Private Secretary I)", "Administrative Assistant VI ", "Administrative Cum Finance Officer", "Administrative Officer I", "Administrative Officer II", "Administrative Officer II - Infastructure Assistant", "Administrative Officer II - Property & Asset Officer", "Administrative Officer II/Head", "Administrative Officer III", "Administrative Officer IV", "Administrative Officer IV/KALAHI-CIDSS", "Administrative Officer IV/Encoder", "Administrative Officer IV/Head", "Administrative Officer V", "Administrative Officer V/Budget Officer", "Administrative Officer V/Financial Analyst III", "Administrative Officer V/Head", "Administrative Program Focal (PDO II-municipal link)", "Administrative Staff", "Administrative Support Staff", "AO II", "AO II/Financial Analyst II ", "AO II / PSYCHOMETRICIAN", "AO II-OIC Head, Property, Supply & Asset Mngt.Section", "AO II-Pantawid Property Officer", "AO II-Property Officer", "AO II-Property & Asset Officer", "AO II-Property Officer (Mainstream Staff Pantawid)", "AO IV", "AO IV-Financial Analyst II", "AO IV/Financial Analyst II", "AO IV/OIC-Procurement Unit Head", "AO V", "AO V-CASH HEAD", "AO V/Budget Officer NHTS-PR", "AOV-FMD-Cash-Head", "Architect I", "Architect II", "Architect III", "ARDO", "Area Coordinator", "Area Coordinarot/KALAHI CIDSS", "AREA SUPERVISOR", "Assistant Bureau Director", "Assistant Information Officer", "Assistant Regional Director for Administration (ARDA)", "Assistant Regional Director for Operations (ARDO)", "Assistant Secretary", "Assistant Secretary / OIC-IMB", "Assistant Secretary for OASOPG-Protective Programs ", "Assistant Service Director", "Associate Statistician", "Attorney III", "AttorneyIV", "Attorney V", "Audio-Visual Aids Technician III", "Audio-Visual Equipment Operator II", "AUDIT TEAM LEADER", "AUDIT TEAM MEMBER", "AVRC II Center Head", "BAC SEC & Procurement Service", "BAHAY PAG-ASA NG LAGUNA - CENTER HEAD", "BDM", "Beneficiary Update System Focal - PDO I", "Beneficiary Update System Focal - PDO II", "Bookkeeper", "BTMS-ENCODER", "Budget Assistant", "Budget Officer I", "Budget Officer II", "Budget Officer III", "Bureau Director", "CAD Operator", "Caretaker", "Carpenter", "Case Worker for MCCT (PDOII)", "Cash Clerk", "CASH CLERK / KALAHI-CIDSS", "Cashier II", "CDA II", "CEF - KALAHI CIDSS", "CEF / Executive Assistant", "CENTER HEAD", "CENTERS AND RESIDENTIAL CARE FACILITIES (CRCF)", "Chief", "Chief Account", "Chief Admin.Officer / OIC ARD for Administration", "Chief Administrative Officer", "Chief Administrative Officer V", "Chief Infastructure Engineer", "Child Psychologist for MCCT", "City Link", "City Link Officer", "CIVIL ENGINEER", "CL", "Clerk I", "Clerk II", "Clerk III/ HRMDD", "Clerk/Encoder", "Cluster Beneficiary Data Officer", "Cluster Compliance Verification System Focal", "Cluster Focal Person (BDM)", "Cluster Greivance Redress System Focal", "Cluster Greivance Officer", "CMT I", "CMT II", "CMT II - MCCT", "COA AUDITOR", "Comm. Development Officer III", "Commission on Audit XI", "Communication Equipment Operator I", "Communications Specialist", "Communications Officer IV", "Community Development Assistant", "Community Development Assistant II", "Community Development Officer II", "Community Development Officer III", "COMMUNITY DEVELOPMENT OFFICER III - IT", "COMMUNITY DEVELOPMENT OFFICER IV", "COMMUNITY DEVELOPMENT OFFICER IV/KALAHI CIDSS", "Community Empowerment Facilitator", "Community Empowerment Facilitator - Roving ", "Community Facilitator", "Community Facilitator Aide", "Community Facilitator Assistant", "Community Finance Facilitator", "Community Finance Monitor", "Community Financial Analyst", "Community Infastructure Officer ", "Community Infastructure Officer III", "Community Infastructure Specialist ", "Community Organizer", "Community Organizer III", "Community Procurement Officer ", "Community Procurement Officer 3", "Community Procurement Officer III", "Community Procurement Specialist ", "Computer Encoder", "Computer Maintenance Technologist I", "Computer Maintenance Technologist II", "Computer Operator", "Computer Operator I", "Computer Operator II", "Computer Operator III", "Computer Operator IV", "Computer Programmer I", "Computer Programmer II", "Computer Programmer III", "Concurrent Head", "Concurent National Program Manager", "Concurent OIC", "Consultant", "Convergeance Coordinator", "Cook", "Cook I", "Cook II", "CPO", "CPO IV", "Crative Arts Specialist", "DAC - DEPUTY ARE COORDINATOR", "Data Analyst III", "Data Encoder", "Database Specialist", "Day Care Worker I", "Day Care Worker II", "Default", "Dentist II", "Department Assistant Secretary", "Department Legislative Liaison Specialist", "Department Secretary", "Department Undersecretary", "Deputy Area Coordinator - Electrical Engineer", "Deputy Area Coordinator - Geoditic Engineer", "Deputy Area Coordinator - IT", "Deputy Community Development Specialist", "Deputy Director", "Deputy Nat'l Community - Infra. Engr.", "Deputy National M & E Specialist", "Deputy National Program Manager for Operations", "Deputy National Training Specialist", "Deputy NCBS", "Deputy Program Director", "Deputy Program Manager", "Deputy Program Manager Operation", "Deputy Regional Program Manager", "Deputy Regional Project Manager", "Deputy Technical Facilitator", "Derector", "Director III", "Director IV", "Division Chief", "Dormitory Manager I", "Dormitory Manager II", "DPMO", "DPMO/PROPERTY WAREHOUSE", "DPSC", "DRAFTSMAN", "Driver", "Driver II", "DSWD FO CARAGA", "ECCD Teacher", "Echonomist III", "Electrical Engineer", "Electrician I ", "Electrician II ", "Encoder", "Encoder III", "Encoder-BTMS", "Engineer I", "Engineer II", "Engineer III", "Engineer IV", "Engineer AIDE", "Environtmental Safeguard Specialist", "Executive Assistant ", "Executive Assistant I", "Executive Assistant II", "Executive Assistant III", "Executive Assistant IV", "Executive Assistant V", "Executive Assistant VI", "Executive Secretary/ Senior Administrative Assistant III", "FA - MAGSAYSAY", "FA II", "FA III", "Family Welfare Assistant for MCCT", "FDS Coordinator", "Field Program Manager", "Field Office Coordinator", "Field Program Manager", "Finance Officer Cum Administrative Officer", "Finance Officer III", "Financial Analyst", "Financial Analyst I", "Financial Analyst II", "Financial Analyst III", "Financial Analyst III (Budget Officer)", "Financial Analyst III (Cash Grants)", "Financial Analyst III/KALAHI CIDSS", "Financial Analyst IV", "Financial Analyst V", "Financial Analyst V (Project Accountant)", "Financial Assistant III", "FMD Chief", "FOCAL PERSON FOR OSEC", "FOR STORAGE", "FPC", "Gender Specialist", "Geodetic Engineer", "GIS Specialist", "Governance Specialist", "Goverment Intership Program", "Greivance Redress System Focal", "Greivance, Admin Officer", "Handicaft Worker II", "Head ", "Head Executive Assistant", "Head, Accounting Section", "Head, RAMS", "Heavy Equipment Operator I", "HMO Inlife Customer Service Representative", "House Attendant ", "Household Attendant III", "Houseparent I", "HOUSEPARENT II", "houseparent III", "Houseparent IV", "HR - Learning and Development", "HR Specialist", "HRMDD CHIEF", "Human Relations Officer I ", "Human Resource Officer", "Human Resource Officer I", "Human Resource Officer II", "Information analyst I", "Information Officer", "Information Officer I", "Information Officer I/Social Pension Program", "Information Officer I/UCT", "Information Officer II", "Information Officer III ", "Information Officer III (Social Marketing Officer III)", "Information Officer IV", "Information Officer V", "Information Specialist Analyst", "Information System Analyst", "Information System Analyst I", "Information System Analyst III", "Information Systems Analyst", "Information Technology Officer (Team Leader)", "Information Technology Officer I", "Information Technology Officer II", "Information Technology Officer III", "Institutional Partnership and Development Officer", "Instructor ", "Inter Auditing Assistant", "Internal Auditor I", "Internal Auditor II", "Internal Auditor III", "Internal Auditor IV", "Internal Auditor V", "IO", "IPDO", "JOB ORDER", "Job Placement Officer", "Junior Capacity Building Specialist", "Junior Community Procurement Specialist", "KALAHI CIDSS - Japan Fund for Proverty Reduction", "KM Writer", "Knowledge Management Writer", "Laundry Worker I ", "Laundry Worker II", "Laundry Worker/Cook", "Laundrywoman", "Legal Assistant I", "Legal Assistant II", "LIBRARIAN I", "Librarian II", "Logistic Officer III", "M & E Assistant III", "M & E I", "M & E II", "M & E Specialist", "M & E IV", "M & E V", "M & E Officer III", "Management and Audit Analyst II", "Management Audit Analyst", "Management Audit Analyst II", "Management Audit Analyst IV", "MANPOWER DEVELOPMENT ASSISTANT ", "Manpower Development Officer I", "Manpower Development Officer II", "Manpower Development Officer III", "MCCT Coordinator", "MDO I / PSYCHOMETRICIAN", "Media Officer IV", "Media Production Specialist", "Media Prodcution Specialist III", "MEDICAL OFFICER", "Medical Officer III", "Medical Officer IV", "MFA", "Midwife I", "Minister of Social Service BARMM", "ML PATNANUNGAN", "MOA", "Monitoring & Evaluation Officer I", "Monitoring & Evaluation Officer II", "Monitoring & Evaluation Officer III", "Monitoring & Evaluation III ", "Monitoring & Evaluation Officer ", "Monitoring & Evaluation Officer III (External)", "Monitoring & Evaluation Officer IV", "Monitoring & Evaluation Officer V", "MRB", "Municipal Financial Analyst", "Municipal Financial Analyst/KALAHI-CIDSS", "Municipal Financial Analyst", "Municipal Link", "Minicipal Link Officer", "Municipal Monitoring ", "Municipal Rooving Bookkeeper", "Municipal Roving Bookkeeper", "Municipal Social Welfare Development Officer", "National Capability Building Specialist", "National Community Infrastructure", "National DRRM Support Coordinator", "National Financial Analyst - KCMCC", "National M & E Specialist", "National Training Officer", "NCDS", "NHTO IT-Division Chief/ITO3", "Nurse I", "Nurse II", "Nutritionist-Dietician I", "Nutritionist-Dietician II", "Nutritionist-Dietician III", "Nutritionist-Dietician V", "OASOPG-PP", "ODM Specialist", "OIC ", "OIC - Director IV", "OIC AUDIT TEAM LEADER", "OIC DIVISION Chief - DReMD", "OIC Head, Property & Supply Section", "OIC - Assistant Regional Director for Operations", "OIC - ASEC - OASOSG", "OIC - Assistant Director", "OIC - Assistant Secretary", "OIC - Assistant Service Director", "OIC-Asst. Secretary for OSG", "OIC - Center Head", "OIC - CHIEF", "OIC Director", "OIC - Division Chief", "OIC - GSD", "OIC - Procurement Unit Head", "OIC - Regional Director", "OIC - USEC", "OIC/Chief", "OJT", "On-the-job Trainee", "Operations Program Focal (PDO II - Municipal Link)", "Organizational Development Specialist III", "Organizational Development Specialist IV", "Organizational Training Specialist IV", "Payapa at Masaganang Pamayanan ", "PDO", "PDO I", "PDO I/FMD Cash Grants ", "PDO I/DRMD ", "PDO I/Grievance Officer", "PDO I/provincial Monitoring Evaluation Officer", "PDO II", "PDO II - System coordinator", "PDO II Municipal link", "PDO II (Case Worker)", "PDO II - BUS", "PDO II - BUS Focal Person", "PDO - Coordination to Partner Agencies", "PDO II - CVS", "PDOII - EPAHPH", "PDO II - GAD", "PDO II - GRS", "PDO II - GRS (Cluster) ", "PDO II - Information II", "PDO II - IP", "PDO II - Monitoring & Evaluation Officer", "PDO II - SWAD TL", "PDO II / Capability building ", "PDO II / DRMD CCAM", "PDO II / ML TUAO, CAGAYAN", "PDO II / Municipal Link, Alicia, Isabela", "PDO II / Municipal Link, Ilagan City, Isabela", "PDO II / RMEO", "PDO II / SLP Batanes", "PDO II / SWAD TL", "PDO II / GRS ", "PDO II Municipal Link, Abulug, Cagayan", "PDO II - Institutional Partnership Development Officer", "PDO II - City link, Tuguegarao City, Cagayan", "PDO II - Cluster Benefeciary Data Officer", "PDO II - MCCT Community Facilitator", "PDO II - Municipal Link", "PDO II - Municipal Link Dupax Del Norte,N.V", "PDO II - Municipal Link, Ambaguio", "PDO II - Municipal Link, Buguey, Cagayan", "PDO II - Municipal Link, Diadi, N.V", "PDO II - Municipal Link, Enrile, Cagayan", "PDO II - Municipal Link, Iguig, Cagayan", "PDO II - Municipal Link, Napagtipunan, Quirino", "PDO II - Municipal Link, Saguday, Quirino", "PDO II - Municipal Link, Dupax Del Sur, N.V", "PDO II - Provincial Systems Focal", "PDO II - Regional Monitoring and Evaluation Officer", "PDO II/PMEO SLP ISABELA", "PDO II/Provincial Coordinator", "PDO II/Child Labord Focal Person", "PDO II/DRMD", "PDO II/DRMD CCAM", "PDO II/Geographic Info.System Specialist", "PDO II/Information Officer", "PDO II/LIQUIDATION FOCAL/RMEF", "PDO II/MCCT San Pablo, Isabela", "PDO II/ML APARRI, CAGAYAN", "PDO II/ML TUAO, CAGAYAN", "PDO II/MUNICIPAL LINK", "PDO II/Municipal Link Bambang, NV", "PDO II/Municipal Link Claveri, Cagayan", "PDO II/Municipal Link Diadi, NV", "PDO II/Municipal Link Dinapigue, Isabela", "PDO II/Municipal Link Gattaran, Cagayan", "PDO II/Municipal Link Kayapa, Nueva Viscaya", "PDO II/Municipal Link Pamplano, Cagayan", "PDO II/Municipal Link Peablanca, Cagayan", "PDO II/Municipal Link Quezon, Nueva Viscaya", "PDO II/Municipal LInk Rizal,Cagayan", "PDO II/Municipal Link Roxas,Isabela", "PDO II/Municipal Link San Isidro, Cagayan", "PDO II/Municipal Link San Isidro, Isabela", "PDO II/Municipal Link Sanchez Mira, Cagayan", "PDO II/Municipal Link Solano,NV", "PDO II/Municipal LInk Sta.Fe,NV", "PDO II/Municipal Link Sta.Praxedes,Cagayan", "PDO II/Municipal Link Sto.Nino,Cagayan", "PDO II/Municipal Link Villaverde", "PDO II/Municipal Link, Aparri,Cagayan", "PDO II/Municipal Link, Buguey, Cagayan", "PDO II/Municipal Link, Burgos, Isabela", "PDO II/Municipal Link, Divilacan, Isabela", "PDO II/Municipal Link, Jones,Isabela", "PDO II/Municipal Link,MACONACON, ISABELA", "PDO II/Municipal Link,SAn Agustin,Isabela", "PDo II/Municipal Link,San Mariano,Isabela", "PDO II/Municipal Link,San Mateo,Isabela", "PDO II/Municipal Link,Tumauini,Isabela", "PDO II/Municipal Link,Divilacan,Isabela", "PDO II/Municipal Link,Echague,Isabela", "PDO II/Municipal Link,Maconacon,Isabela", "PDO II/Municipal Link,San Mariano,Isabela", "PDO II/PMEO ISABELA", "PDO II/PMEO NUEVA VIZCAYA", "PDO II/PMEO QUIRINO", "PDO II/Private Sector Partnership Officer", "PDO II/Provincial Coordinator Isabela, Cagayan", "PDO II/Provincial Coordinator SLP Isabela", "PDO II/Provincial Coordinator SLP Quirino", "PDO II/Reports Generation", "PDO III", "PDO III/Area Coordinator", "PDO III/Area Coordinator", "PDO III/Civil Engineer", "PDO III TEchnical Staff/RSCWC", "PDO III/Area Coordinator", "PDO III/Head, CVRRCY", "PDO III/Reg'l Center Coordinator", "PDO III/RSCWC", "PDO IV", "PDO V/ RPC", "PDO V/Division", "PDO V/Regional Field Coordinator UCT", "PDO-I Social Pension", "PDO-II", "PDO-IIDRMMD", "PEO I", "PEO III", "PGO", "Photographer II", "Physical Therapist II", "Planning Officer I", "Planning Officer II", "Planning Officer III", "Planning Officer IV", "Planning Officer V", "Plumber", "PMEO", "PMO-EE", "Policy and Plans Division Chief", "PPG-OSM", "PPO", "Prisedent - SWEAP", "Private Secretary", "Private Secretary I ", "Procurement Assistant", "Procurement Assistant II", "PROCUREMENT ASST.", "Procurement Development Officer III", "Procurement Officer", "Procurement Specialist", "Profect Development Officer II (DRAFTMAN)", "Program Development III", "Project Evaluation Specialist", "Program Manager", "Program Officer", "Project Coordinator", "Project Development Office III", "Project Development Officer", "Project Development Officer I", "Project Development Officer I - KC", "Project Development Officer I - Nurse", "Project Development Officer I - Nutritionist - Dietician I", "Project Development Officer I/CAMP MANAGERS", "Project Development Officer II", "Project Development Officer II (CVS Focal)", "Project Development Officer II - BP2P", "Project Development Officer II - Database Specialist ", "Project Development Officer II - Infrastructure", "Project Development Officer II/SLP", "Project Development Officer II-CVS Focal (POO 2 Isabela)", "Project Development Officer II - MCCT", "Project Development Officer II - MunicipaL Link", "Project Development Officer II/GRS Focal", "Project Development Officer II/SLP", "Project Development Officer III", "Project Development Officer III - FDS Focal", "Project Development Officer III/Centenarian Focal Person", "Project Development Officer III/Regional Program Coordinator", "Project Development Officer IV ", "Project Development Officer V", "Project Development Officer V (Gender Specialist)", "Project Development Officer V (IP Specialist)", "Project Development Officer V - OIC", "Project Evaluation Officer", "Project Evaluation Officer II", "Project Evaluation Officer III", "Project Evaluation Officer IV", "Project Evaluation Officer V", "Project Management Officer", "Project Manager (UCT)", "Project Manager IV", "Project Officer", "Property Officer/Warehouse", "Provincial AA", "Provincial AA II", "Provincial Bus Officer (PDO II)", "PROVINCIAL CL", "Provinvial Coordinator", "Provinvial CVS Officer (PDO II)", "Provincial Grievance Officer", "Provincial Grievance Officer (PDO II)", "Provincial GRS Officer (PDO II)", "Provincial Link", "Psychologist I", "Psychologist II", "Psychologist III", "Psychometrician I", "Public Relations Officer IV", "Quality Management Specialist", "Records Officer ", "Regional Accountant", "Regional bookkeeper", "Regional capability Building Specialist", "Regional Community Development Specialist", "Regional Community Infrastructure Specialist", "Regional Director", "Regional Driver (KC-NCDDP) ", "Regional Executive Assistant ", "Regional Field Coordinator", "Regional Finance Specialist", "Regional Financial Analyst", "Regional Information Officer", "Regional Information Officer II-Head,SMU", "Regional Information Technology Officer ", "Regional Information Technology Officer I", "Regional Information Technology Officer II", "Regional Infrastructure Assistant", "Regional Infrastructure Officer", "Regional Infrastructure Officer II", "Regional Infrastructure Officer III", "Regional Monitoring And Evaluation Specialist", "Regional Procurement Officer", "Regional Procurement For Program", "Regional Procurement Officer For Program Community", "Regional Program coordinator", "Regional Program Coordinator - KALAHI - CIDSS", "Regional Program Coordinator - Operations", "Regional Sub - Committee for the Welfare of Children (RSCWC)", "Regional Training Assistant", "Regional Training Officer", "Regional Training Officer II", "Regional Training Specialist", "Repacker", "Research Officer III", "RIO III", "Roving Area Coordinator", "Roving Municipal Financial Analyst", "Roving technical Facilitator", "RSCWC - Technical Officer", "SA - IV", "SA - IV Audit Team Leader", "SAO", "SAO/DC", "SAO/OIC-DC", "Social Welfare Assistant - MCCT", "Secretary II", "Section Head", "Security Guard I (CT)", "Security Guard I (ICT)", "Security Guard II", "Security Officer II", "Senior Administrative Assistant I", "Senior Administrative Assistant II", "Senior Administrative Assistant III", "Senior Administrative Assistant IV", "Senior Administrative Assistant V", "Senior Administrative Officer", "Senior Bookkeeper", "Senior Bookkeeper (Admin Asst III)", "Senior M & E Assistant V", "Senior MANPOWER DEVELOPMENT OFFICER II", "Senior Statistician IV", "Senior Technical Officer ", "SGV", "Site Engineer", "Social Marketing Officer", "Social Marketing Officer III", "Social Marketing Officer III/KALAHI-CIDSS", "Social Marketing Specialist", "Social Safeguard Officer", "Social Safeguard Specialist", "Social Welfare Aide", "Social Welfare Assistant", "Social Welfare Assistant - CMU", "Social Welfare Assistant - MCCT IP", "Social Welfare Assistant I", "Social Welfare Assistant II", "Social Welfare Assistant - MCCT", "Social Welfare Attache", "Social Welfare Officer I ", "Social Welfare Officer I - OIC Center Head", "Social Welfare Officer II", "Social Welfare Officer II/EO 70 Focal", "Social Welfare Officer II/Family Focal", "Social Welfare Officer II/SWAD Team Leader", "Social Welfare Officer II/Team Leader", "Social Welfare Officer III", "Social Welfare Officer III-Center Head", "Social Welfare Officer III/Act as PL", "Social Welfare Officer III/TARA Focal", "Social Welfare Officer III/Team Leader", "Social Welfare Officer IV", "Social Welfare Officer IV, OIC-Chief,DReMD", "Social Welfare Officer IV - Center Head", "Social Welfare Officer V", "Social Welfare Officer V/OIC ARDO and Concurrent Head PSD", "Special Investigator III", "SPED TEACHER", "Stakeholder Management and Networking Specialist", "State Auditing Examiner", "State Auditing Examiner II", "State Auditor ", "State Auditor and Examiner ", "State Auditor I", "State Auditor II", "State Auditor III", "State Auditor IV", "State Auditor V", "Statistician", "Statistician Aide", "Statistician Aide II", "Statistician I", "Statistician II", "Statistician III", "Statistician IV", "Stockroom/Warehouse", "Storage Room", "Storekeeper", "Sub-Regional Program Coordinator", "Sub-Regional Project Coordinator", "Supervising Administrative I", "Supervising Administrative V", "Supervising Administrative Officer", "Supervising Administrative Officer - KC - NCDDP", "Supervising Administrative Officer/KALAHI - CIDSS", "Supervising Auditor V", "Supervisor", "Supplier", "Supply Officer I", "Supply Procurement Officer I", "SWA", "SWA - Convergence", "SWA AIDE", "SWA San Juan Batangas", "SWA - CMU", "SWI - III", "SWO - I", "SWO - II", "SWO - II/Women Focal Person", "SWO II - SWAD TL", "SWO II - OIC Center Head", "SWO II/Family Focal Person", "SWO II/Older Per & IISO Focal Person", "SWO II/RRPTP", "SWO II/RRPTP,PWD,PLHIV & Youth Focal Person", "SWO II/Women Focal Person", "SWO III", "SWO III/Head, Social Technology Section", "SWO III/Head, Regional Juvenile Justice and Welfare Council", "SWO III/OIC - SLP RPC", "SWO IV", "SWO IV UCT", "SWO V / Chief, Promotive Services Division", "SWO V / Division Chief", "SWO V / OIC ARD for Operations", "System Analyst II", "System Coordinator", "System Coordinator Officer (PDO II)", "System Coordinator Officer PDO II - BUS", "System Coordinator Officer PDO II - CVS", "System Coordinator Officer PDO II - GRS", "Teach for The Philippines Ambasador", "Teacher", "Teacher I", "Team Leader", "Team Leader SWAD Nueva Viscaya", "Techincal Empowerment facilitator", "Technical Facilitator", "Techinal Facilitator/KALAHI-CIDSS", "Technical Specialist", "Technician ", "Training Assistant II", "Training Center Superintendent II", "Training Specialist I", "Training Specialist II", "Training Specialist III", "Training Specialist IV", "TS IV", "UCT - Regional Field Coordinator", "Undersecretary ", "Undersecretary for Administration", "Utility Worker", "Utility Worker I", "Utility Worker II", "WAREHOUSE", "Warehouseman II"})
+        Me.pickEditPosition.Location = New Global.System.Drawing.Point(23, 231)
+        Me.pickEditPosition.Name = "pickEditPosition"
+        Me.pickEditPosition.ShadowDecoration.CustomizableEdges = CustomizableEdges93
+        Me.pickEditPosition.Size = New Global.System.Drawing.Size(303, 36)
+        Me.pickEditPosition.TabIndex = 2
+        Me.pickEditPosition.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
+        ' 
+        ' Label22
+        ' 
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label22.Location = New Global.System.Drawing.Point(129, 285)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New Global.System.Drawing.Size(87, 21)
+        Me.Label22.TabIndex = 6
+        Me.Label22.Text = "Committee"
+        ' 
+        ' pickEditOffice
+        ' 
+        Me.pickEditOffice.BackColor = Global.System.Drawing.Color.Transparent
+        Me.pickEditOffice.BorderRadius = 5
+        Me.pickEditOffice.CustomizableEdges = CustomizableEdges94
+        Me.pickEditOffice.DrawMode = Global.System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.pickEditOffice.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.pickEditOffice.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.pickEditOffice.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.pickEditOffice.Font = New Global.System.Drawing.Font("Segoe UI", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.pickEditOffice.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(68))), CInt(CByte(CByte(88))), CInt(CByte(CByte(112))))
+        Me.pickEditOffice.ItemHeight = 30
+        Me.pickEditOffice.Items.AddRange(New System.Object() {"4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
+        Me.pickEditOffice.Location = New Global.System.Drawing.Point(23, 68)
+        Me.pickEditOffice.Name = "pickEditOffice"
+        Me.pickEditOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges95
+        Me.pickEditOffice.Size = New Global.System.Drawing.Size(303, 36)
+        Me.pickEditOffice.TabIndex = 1
+        Me.pickEditOffice.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
         ' 
         ' Label21
         ' 
-        Label21.AutoSize = True
-        Label21.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label21.Location = New Point(274, 104)
-        Label21.Name = "Label21"
-        Label21.Size = New Size(144, 21)
-        Label21.TabIndex = 6
-        Label21.Text = "Employment Status"
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label21.Location = New Global.System.Drawing.Point(112, 121)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New Global.System.Drawing.Size(144, 21)
+        Me.Label21.TabIndex = 6
+        Me.Label21.Text = "Employment Status"
         ' 
         ' Label20
         ' 
-        Label20.AutoSize = True
-        Label20.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label20.Location = New Point(684, 24)
-        Label20.Name = "Label20"
-        Label20.Size = New Size(65, 21)
-        Label20.TabIndex = 6
-        Label20.Text = "Position"
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label20.Location = New Global.System.Drawing.Point(138, 204)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New Global.System.Drawing.Size(65, 21)
+        Me.Label20.TabIndex = 6
+        Me.Label20.Text = "Position"
         ' 
         ' Label19
         ' 
-        Label19.AutoSize = True
-        Label19.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Label19.Location = New Point(306, 24)
-        Label19.Name = "Label19"
-        Label19.Size = New Size(51, 21)
-        Label19.TabIndex = 6
-        Label19.Text = "Office"
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New Global.System.Drawing.Font("Segoe UI", 12F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label19.Location = New Global.System.Drawing.Point(144, 41)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New Global.System.Drawing.Size(51, 21)
+        Me.Label19.TabIndex = 6
+        Me.Label19.Text = "Office"
         ' 
         ' pnlEmployee
         ' 
-        pnlEmployee.Controls.Add(dgMembers)
-        pnlEmployee.Controls.Add(txtSearch)
-        pnlEmployee.Controls.Add(pickOffice)
-        pnlEmployee.Controls.Add(Label29)
-        pnlEmployee.Controls.Add(Label3)
-        pnlEmployee.Dock = DockStyle.Fill
-        pnlEmployee.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
-        pnlEmployee.Location = New Point(3, 3)
-        pnlEmployee.Name = "pnlEmployee"
-        pnlEmployee.Size = New Size(1024, 710)
-        pnlEmployee.TabIndex = 0
+        Me.pnlEmployee.Controls.Add(Me.dgMembers)
+        Me.pnlEmployee.Controls.Add(Me.txtSearch)
+        Me.pnlEmployee.Controls.Add(Me.pickOffice)
+        Me.pnlEmployee.Controls.Add(Me.Label29)
+        Me.pnlEmployee.Controls.Add(Me.Label3)
+        Me.pnlEmployee.Dock = Global.System.Windows.Forms.DockStyle.Fill
+        Me.pnlEmployee.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9.25F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.pnlEmployee.Location = New Global.System.Drawing.Point(3, 3)
+        Me.pnlEmployee.Name = "pnlEmployee"
+        Me.pnlEmployee.Size = New Global.System.Drawing.Size(1024, 710)
+        Me.pnlEmployee.TabIndex = 0
         ' 
         ' dgMembers
         ' 
-        dgMembers.AllowUserToAddRows = False
-        dgMembers.AllowUserToDeleteRows = False
-        DataGridViewCellStyle5.BackColor = Color.FromArgb(CByte(197), CByte(203), CByte(232))
-        dgMembers.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
-        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle6.BackColor = Color.FromArgb(CByte(63), CByte(81), CByte(181))
-        DataGridViewCellStyle6.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle6.ForeColor = Color.White
-        DataGridViewCellStyle6.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle6.WrapMode = DataGridViewTriState.True
-        dgMembers.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
-        dgMembers.ColumnHeadersHeight = 32
-        dgMembers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgMembers.Columns.AddRange(New DataGridViewColumn() {DataGridViewTextBoxColumn1, DataGridViewTextBoxColumn2, DataGridViewTextBoxColumn3, DataGridViewTextBoxColumn4, DataGridViewTextBoxColumn5, DataGridViewTextBoxColumn6, DataGridViewTextBoxColumn7, Column1, Column2})
-        dgMembers.Cursor = Cursors.Hand
-        DataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle7.BackColor = Color.FromArgb(CByte(216), CByte(220), CByte(239))
-        DataGridViewCellStyle7.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle7.ForeColor = Color.Black
-        DataGridViewCellStyle7.Padding = New Padding(4)
-        DataGridViewCellStyle7.SelectionBackColor = Color.FromArgb(CByte(127), CByte(139), CByte(205))
-        DataGridViewCellStyle7.SelectionForeColor = Color.Black
-        DataGridViewCellStyle7.WrapMode = DataGridViewTriState.False
-        dgMembers.DefaultCellStyle = DataGridViewCellStyle7
-        dgMembers.Dock = DockStyle.Bottom
-        dgMembers.GridColor = Color.FromArgb(CByte(194), CByte(201), CByte(231))
-        dgMembers.Location = New Point(0, 137)
-        dgMembers.Name = "dgMembers"
-        dgMembers.ReadOnly = True
-        dgMembers.RowHeadersVisible = False
-        dgMembers.RowTemplate.Height = 30
-        dgMembers.Size = New Size(1024, 573)
-        dgMembers.TabIndex = 17
-        dgMembers.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Indigo
-        dgMembers.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(197), CByte(203), CByte(232))
-        dgMembers.ThemeStyle.AlternatingRowsStyle.Font = Nothing
-        dgMembers.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
-        dgMembers.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
-        dgMembers.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
-        dgMembers.ThemeStyle.BackColor = Color.White
-        dgMembers.ThemeStyle.GridColor = Color.FromArgb(CByte(194), CByte(201), CByte(231))
-        dgMembers.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(63), CByte(81), CByte(181))
-        dgMembers.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
-        dgMembers.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
-        dgMembers.ThemeStyle.HeaderStyle.ForeColor = Color.White
-        dgMembers.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgMembers.ThemeStyle.HeaderStyle.Height = 32
-        dgMembers.ThemeStyle.ReadOnly = True
-        dgMembers.ThemeStyle.RowsStyle.BackColor = Color.FromArgb(CByte(216), CByte(220), CByte(239))
-        dgMembers.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        dgMembers.ThemeStyle.RowsStyle.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
-        dgMembers.ThemeStyle.RowsStyle.ForeColor = Color.Black
-        dgMembers.ThemeStyle.RowsStyle.Height = 30
-        dgMembers.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(127), CByte(139), CByte(205))
-        dgMembers.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black
+        Me.dgMembers.AllowUserToAddRows = False
+        Me.dgMembers.AllowUserToDeleteRows = False
+        DataGridViewCellStyle5.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(194))), CInt(CByte(CByte(200))), CInt(CByte(CByte(207))))
+        Me.dgMembers.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle6.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(52))), CInt(CByte(CByte(73))), CInt(CByte(CByte(94))))
+        DataGridViewCellStyle6.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9.25F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle6.ForeColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle6.SelectionBackColor = Global.System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle6.SelectionForeColor = Global.System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle6.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgMembers.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle6
+        Me.dgMembers.ColumnHeadersHeight = 32
+        Me.dgMembers.ColumnHeadersHeightSizeMode = Global.System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Me.dgMembers.Columns.AddRange(New Global.System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7, Me.Column1, Me.Column2})
+        Me.dgMembers.Cursor = Global.System.Windows.Forms.Cursors.Hand
+        DataGridViewCellStyle7.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle7.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(214))), CInt(CByte(CByte(218))), CInt(CByte(CByte(223))))
+        DataGridViewCellStyle7.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9.25F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle7.ForeColor = Global.System.Drawing.Color.Black
+        DataGridViewCellStyle7.Padding = New Global.System.Windows.Forms.Padding(4)
+        DataGridViewCellStyle7.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(119))), CInt(CByte(CByte(133))), CInt(CByte(CByte(147))))
+        DataGridViewCellStyle7.SelectionForeColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle7.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgMembers.DefaultCellStyle = DataGridViewCellStyle7
+        Me.dgMembers.GridColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(193))), CInt(CByte(CByte(199))), CInt(CByte(CByte(206))))
+        Me.dgMembers.Location = New Global.System.Drawing.Point(21, 140)
+        Me.dgMembers.Name = "dgMembers"
+        Me.dgMembers.[ReadOnly] = True
+        Me.dgMembers.RowHeadersVisible = False
+        Me.dgMembers.RowTemplate.Height = 30
+        Me.dgMembers.Size = New Global.System.Drawing.Size(983, 547)
+        Me.dgMembers.TabIndex = 17
+        Me.dgMembers.Theme = Global.Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt
+        Me.dgMembers.ThemeStyle.AlternatingRowsStyle.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(194))), CInt(CByte(CByte(200))), CInt(CByte(CByte(207))))
+        Me.dgMembers.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        Me.dgMembers.ThemeStyle.AlternatingRowsStyle.ForeColor = Global.System.Drawing.Color.Empty
+        Me.dgMembers.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Global.System.Drawing.Color.Empty
+        Me.dgMembers.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Global.System.Drawing.Color.Empty
+        Me.dgMembers.ThemeStyle.BackColor = Global.System.Drawing.Color.White
+        Me.dgMembers.ThemeStyle.GridColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(193))), CInt(CByte(CByte(199))), CInt(CByte(CByte(206))))
+        Me.dgMembers.ThemeStyle.HeaderStyle.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(52))), CInt(CByte(CByte(73))), CInt(CByte(CByte(94))))
+        Me.dgMembers.ThemeStyle.HeaderStyle.BorderStyle = Global.System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.dgMembers.ThemeStyle.HeaderStyle.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9.25F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.dgMembers.ThemeStyle.HeaderStyle.ForeColor = Global.System.Drawing.Color.White
+        Me.dgMembers.ThemeStyle.HeaderStyle.HeaightSizeMode = Global.System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Me.dgMembers.ThemeStyle.HeaderStyle.Height = 32
+        Me.dgMembers.ThemeStyle.[ReadOnly] = True
+        Me.dgMembers.ThemeStyle.RowsStyle.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(214))), CInt(CByte(CByte(218))), CInt(CByte(CByte(223))))
+        Me.dgMembers.ThemeStyle.RowsStyle.BorderStyle = Global.System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.dgMembers.ThemeStyle.RowsStyle.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9.25F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.dgMembers.ThemeStyle.RowsStyle.ForeColor = Global.System.Drawing.Color.Black
+        Me.dgMembers.ThemeStyle.RowsStyle.Height = 30
+        Me.dgMembers.ThemeStyle.RowsStyle.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(119))), CInt(CByte(CByte(133))), CInt(CByte(CByte(147))))
+        Me.dgMembers.ThemeStyle.RowsStyle.SelectionForeColor = Global.System.Drawing.Color.White
         ' 
         ' DataGridViewTextBoxColumn1
         ' 
-        DataGridViewTextBoxColumn1.AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader
-        DataGridViewTextBoxColumn1.FillWeight = 244.199356F
-        DataGridViewTextBoxColumn1.Frozen = True
-        DataGridViewTextBoxColumn1.HeaderText = "ID"
-        DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
-        DataGridViewTextBoxColumn1.ReadOnly = True
-        DataGridViewTextBoxColumn1.Width = 52
+        Me.DataGridViewTextBoxColumn1.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader
+        Me.DataGridViewTextBoxColumn1.FillWeight = 244.199356F
+        Me.DataGridViewTextBoxColumn1.Frozen = True
+        Me.DataGridViewTextBoxColumn1.HeaderText = "ID"
+        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
+        Me.DataGridViewTextBoxColumn1.[ReadOnly] = True
+        Me.DataGridViewTextBoxColumn1.Width = 52
         ' 
         ' DataGridViewTextBoxColumn2
         ' 
-        DataGridViewTextBoxColumn2.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
-        DataGridViewTextBoxColumn2.FillWeight = 190.185867F
-        DataGridViewTextBoxColumn2.Frozen = True
-        DataGridViewTextBoxColumn2.HeaderText = "Full name"
-        DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
-        DataGridViewTextBoxColumn2.ReadOnly = True
-        DataGridViewTextBoxColumn2.Width = 250
+        Me.DataGridViewTextBoxColumn2.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.DataGridViewTextBoxColumn2.FillWeight = 190.185867F
+        Me.DataGridViewTextBoxColumn2.Frozen = True
+        Me.DataGridViewTextBoxColumn2.HeaderText = "Full name"
+        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
+        Me.DataGridViewTextBoxColumn2.[ReadOnly] = True
+        Me.DataGridViewTextBoxColumn2.Width = 250
         ' 
         ' DataGridViewTextBoxColumn3
         ' 
-        DataGridViewTextBoxColumn3.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
-        DataGridViewTextBoxColumn3.FillWeight = 33.6593857F
-        DataGridViewTextBoxColumn3.Frozen = True
-        DataGridViewTextBoxColumn3.HeaderText = "Office"
-        DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
-        DataGridViewTextBoxColumn3.ReadOnly = True
-        DataGridViewTextBoxColumn3.Width = 180
+        Me.DataGridViewTextBoxColumn3.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.DataGridViewTextBoxColumn3.FillWeight = 33.6593857F
+        Me.DataGridViewTextBoxColumn3.Frozen = True
+        Me.DataGridViewTextBoxColumn3.HeaderText = "Office"
+        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
+        Me.DataGridViewTextBoxColumn3.[ReadOnly] = True
+        Me.DataGridViewTextBoxColumn3.Width = 180
         ' 
         ' DataGridViewTextBoxColumn4
         ' 
-        DataGridViewTextBoxColumn4.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
-        DataGridViewTextBoxColumn4.FillWeight = 120.618546F
-        DataGridViewTextBoxColumn4.Frozen = True
-        DataGridViewTextBoxColumn4.HeaderText = "Position"
-        DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
-        DataGridViewTextBoxColumn4.ReadOnly = True
-        DataGridViewTextBoxColumn4.Width = 120
+        Me.DataGridViewTextBoxColumn4.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.DataGridViewTextBoxColumn4.FillWeight = 120.618546F
+        Me.DataGridViewTextBoxColumn4.Frozen = True
+        Me.DataGridViewTextBoxColumn4.HeaderText = "Position"
+        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
+        Me.DataGridViewTextBoxColumn4.[ReadOnly] = True
+        Me.DataGridViewTextBoxColumn4.Width = 120
         ' 
         ' DataGridViewTextBoxColumn5
         ' 
-        DataGridViewTextBoxColumn5.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
-        DataGridViewTextBoxColumn5.FillWeight = 120.330818F
-        DataGridViewTextBoxColumn5.Frozen = True
-        DataGridViewTextBoxColumn5.HeaderText = "EMP. Stat"
-        DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
-        DataGridViewTextBoxColumn5.ReadOnly = True
-        DataGridViewTextBoxColumn5.Width = 120
+        Me.DataGridViewTextBoxColumn5.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.DataGridViewTextBoxColumn5.FillWeight = 120.330818F
+        Me.DataGridViewTextBoxColumn5.Frozen = True
+        Me.DataGridViewTextBoxColumn5.HeaderText = "EMP. Stat"
+        Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
+        Me.DataGridViewTextBoxColumn5.[ReadOnly] = True
+        Me.DataGridViewTextBoxColumn5.Width = 120
         ' 
         ' DataGridViewTextBoxColumn6
         ' 
-        DataGridViewTextBoxColumn6.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
-        DataGridViewTextBoxColumn6.FillWeight = 120.330818F
-        DataGridViewTextBoxColumn6.Frozen = True
-        DataGridViewTextBoxColumn6.HeaderText = "Email"
-        DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
-        DataGridViewTextBoxColumn6.ReadOnly = True
-        DataGridViewTextBoxColumn6.Width = 120
+        Me.DataGridViewTextBoxColumn6.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.DataGridViewTextBoxColumn6.FillWeight = 120.330818F
+        Me.DataGridViewTextBoxColumn6.Frozen = True
+        Me.DataGridViewTextBoxColumn6.HeaderText = "Email"
+        Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
+        Me.DataGridViewTextBoxColumn6.[ReadOnly] = True
+        Me.DataGridViewTextBoxColumn6.Width = 120
         ' 
         ' DataGridViewTextBoxColumn7
         ' 
-        DataGridViewTextBoxColumn7.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
-        DataGridViewTextBoxColumn7.FillWeight = 33.6593857F
-        DataGridViewTextBoxColumn7.Frozen = True
-        DataGridViewTextBoxColumn7.HeaderText = "Contribution"
-        DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
-        DataGridViewTextBoxColumn7.ReadOnly = True
+        Me.DataGridViewTextBoxColumn7.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.DataGridViewTextBoxColumn7.FillWeight = 33.6593857F
+        Me.DataGridViewTextBoxColumn7.Frozen = True
+        Me.DataGridViewTextBoxColumn7.HeaderText = "Contribution"
+        Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
+        Me.DataGridViewTextBoxColumn7.[ReadOnly] = True
         ' 
         ' Column1
         ' 
-        Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
-        Column1.FillWeight = 17.99091F
-        Column1.Frozen = True
-        Column1.HeaderText = ""
-        Column1.Image = My.Resources.Resources.edit
-        Column1.ImageLayout = DataGridViewImageCellLayout.Zoom
-        Column1.Name = "Column1"
-        Column1.ReadOnly = True
-        Column1.Resizable = DataGridViewTriState.False
-        Column1.Width = 40
+        Me.Column1.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.Column1.FillWeight = 17.99091F
+        Me.Column1.Frozen = True
+        Me.Column1.HeaderText = ""
+        Me.Column1.Image = Global.S.W.E.A.P.My.Resources.Resources.edit
+        Me.Column1.ImageLayout = Global.System.Windows.Forms.DataGridViewImageCellLayout.Zoom
+        Me.Column1.Name = "Column1"
+        Me.Column1.[ReadOnly] = True
+        Me.Column1.Resizable = Global.System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Column1.Width = 40
         ' 
         ' Column2
         ' 
-        Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
-        Column2.FillWeight = 17.99091F
-        Column2.Frozen = True
-        Column2.HeaderText = ""
-        Column2.Image = My.Resources.Resources.delete1
-        Column2.ImageLayout = DataGridViewImageCellLayout.Zoom
-        Column2.Name = "Column2"
-        Column2.ReadOnly = True
-        Column2.Resizable = DataGridViewTriState.False
-        Column2.Width = 40
+        Me.Column2.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
+        Me.Column2.FillWeight = 17.99091F
+        Me.Column2.Frozen = True
+        Me.Column2.HeaderText = ""
+        Me.Column2.Image = Global.S.W.E.A.P.My.Resources.Resources.delete1
+        Me.Column2.ImageLayout = Global.System.Windows.Forms.DataGridViewImageCellLayout.Zoom
+        Me.Column2.Name = "Column2"
+        Me.Column2.[ReadOnly] = True
+        Me.Column2.Resizable = Global.System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Column2.Width = 40
         ' 
         ' txtSearch
         ' 
-        txtSearch.BorderRadius = 5
-        txtSearch.CustomizableEdges = CustomizableEdges94
-        txtSearch.DefaultText = ""
-        txtSearch.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtSearch.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtSearch.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtSearch.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtSearch.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtSearch.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtSearch.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtSearch.IconRight = My.Resources.Resources.loupe
-        txtSearch.IconRightOffset = New Point(5, 0)
-        txtSearch.Location = New Point(696, 33)
-        txtSearch.Name = "txtSearch"
-        txtSearch.PasswordChar = ChrW(0)
-        txtSearch.PlaceholderText = ""
-        txtSearch.SelectedText = ""
-        txtSearch.ShadowDecoration.CustomizableEdges = CustomizableEdges95
-        txtSearch.Size = New Size(323, 36)
-        txtSearch.TabIndex = 12
-        txtSearch.TextAlign = HorizontalAlignment.Center
+        Me.txtSearch.BorderRadius = 5
+        Me.txtSearch.CustomizableEdges = CustomizableEdges96
+        Me.txtSearch.DefaultText = ""
+        Me.txtSearch.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.txtSearch.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.txtSearch.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtSearch.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.txtSearch.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtSearch.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.txtSearch.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.txtSearch.IconRight = Global.S.W.E.A.P.My.Resources.Resources.loupe
+        Me.txtSearch.IconRightOffset = New Global.System.Drawing.Point(5, 0)
+        Me.txtSearch.Location = New Global.System.Drawing.Point(681, 45)
+        Me.txtSearch.Name = "txtSearch"
+        Me.txtSearch.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.txtSearch.PlaceholderText = ""
+        Me.txtSearch.SelectedText = ""
+        Me.txtSearch.ShadowDecoration.CustomizableEdges = CustomizableEdges97
+        Me.txtSearch.Size = New Global.System.Drawing.Size(323, 36)
+        Me.txtSearch.TabIndex = 12
+        Me.txtSearch.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
         ' 
         ' pickOffice
         ' 
-        pickOffice.BackColor = Color.Transparent
-        pickOffice.BorderRadius = 5
-        pickOffice.CustomizableEdges = CustomizableEdges96
-        pickOffice.DrawMode = DrawMode.OwnerDrawFixed
-        pickOffice.DropDownStyle = ComboBoxStyle.DropDownList
-        pickOffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickOffice.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickOffice.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        pickOffice.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        pickOffice.ItemHeight = 30
-        pickOffice.Items.AddRange(New Object() {"All", "4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
-        pickOffice.Location = New Point(696, 78)
-        pickOffice.Name = "pickOffice"
-        pickOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges97
-        pickOffice.Size = New Size(323, 36)
-        pickOffice.TabIndex = 15
+        Me.pickOffice.BackColor = Global.System.Drawing.Color.Transparent
+        Me.pickOffice.BorderRadius = 5
+        Me.pickOffice.CustomizableEdges = CustomizableEdges98
+        Me.pickOffice.DrawMode = Global.System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.pickOffice.DropDownStyle = Global.System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.pickOffice.FocusedColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.pickOffice.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.pickOffice.Font = New Global.System.Drawing.Font("Segoe UI", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.pickOffice.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(68))), CInt(CByte(CByte(88))), CInt(CByte(CByte(112))))
+        Me.pickOffice.ItemHeight = 30
+        Me.pickOffice.Items.AddRange(New System.Object() {"All", "4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
+        Me.pickOffice.Location = New Global.System.Drawing.Point(681, 90)
+        Me.pickOffice.Name = "pickOffice"
+        Me.pickOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges99
+        Me.pickOffice.Size = New Global.System.Drawing.Size(323, 36)
+        Me.pickOffice.TabIndex = 15
         ' 
         ' Label29
         ' 
-        Label29.AutoSize = True
-        Label29.BackColor = Color.Transparent
-        Label29.Font = New Font("Cambria", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label29.Location = New Point(627, 84)
-        Label29.Name = "Label29"
-        Label29.Size = New Size(61, 22)
-        Label29.TabIndex = 13
-        Label29.Text = "Office:"
+        Me.Label29.AutoSize = True
+        Me.Label29.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Label29.Font = New Global.System.Drawing.Font("Cambria", 14.25F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label29.Location = New Global.System.Drawing.Point(612, 96)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New Global.System.Drawing.Size(61, 22)
+        Me.Label29.TabIndex = 13
+        Me.Label29.Text = "Office:"
         ' 
         ' Label3
         ' 
-        Label3.AutoSize = True
-        Label3.BackColor = Color.Transparent
-        Label3.Font = New Font("Cambria", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(627, 39)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(63, 22)
-        Label3.TabIndex = 14
-        Label3.Text = "Search"
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Label3.Font = New Global.System.Drawing.Font("Cambria", 14.25F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label3.Location = New Global.System.Drawing.Point(612, 51)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New Global.System.Drawing.Size(63, 22)
+        Me.Label3.TabIndex = 14
+        Me.Label3.Text = "Search"
         ' 
         ' tabFund
         ' 
-        tabFund.Controls.Add(Guna2TabControl2)
-        tabFund.ImageKey = "funding.png"
-        tabFund.Location = New Point(254, 4)
-        tabFund.Name = "tabFund"
-        tabFund.Size = New Size(1030, 716)
-        tabFund.TabIndex = 2
-        tabFund.Text = "Fund transfer"
-        tabFund.UseVisualStyleBackColor = True
+        Me.tabFund.Controls.Add(Me.Guna2TabControl2)
+        Me.tabFund.ImageKey = "transfer-money.png"
+        Me.tabFund.Location = New Global.System.Drawing.Point(254, 4)
+        Me.tabFund.Name = "tabFund"
+        Me.tabFund.Size = New Global.System.Drawing.Size(1030, 716)
+        Me.tabFund.TabIndex = 2
+        Me.tabFund.Text = "Fund transfer"
+        Me.tabFund.UseVisualStyleBackColor = True
         ' 
         ' Guna2TabControl2
         ' 
-        Guna2TabControl2.Controls.Add(TabPage2)
-        Guna2TabControl2.Controls.Add(TabPage5)
-        Guna2TabControl2.Dock = DockStyle.Fill
-        Guna2TabControl2.ItemSize = New Size(180, 40)
-        Guna2TabControl2.Location = New Point(0, 0)
-        Guna2TabControl2.Name = "Guna2TabControl2"
-        Guna2TabControl2.SelectedIndex = 0
-        Guna2TabControl2.Size = New Size(1030, 716)
-        Guna2TabControl2.TabButtonHoverState.BorderColor = Color.Empty
-        Guna2TabControl2.TabButtonHoverState.FillColor = Color.FromArgb(CByte(40), CByte(52), CByte(70))
-        Guna2TabControl2.TabButtonHoverState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TabControl2.TabButtonHoverState.ForeColor = Color.White
-        Guna2TabControl2.TabButtonHoverState.InnerColor = Color.FromArgb(CByte(40), CByte(52), CByte(70))
-        Guna2TabControl2.TabButtonIdleState.BorderColor = Color.Empty
-        Guna2TabControl2.TabButtonIdleState.FillColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
-        Guna2TabControl2.TabButtonIdleState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TabControl2.TabButtonIdleState.ForeColor = Color.FromArgb(CByte(156), CByte(160), CByte(167))
-        Guna2TabControl2.TabButtonIdleState.InnerColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
-        Guna2TabControl2.TabButtonSelectedState.BorderColor = Color.Empty
-        Guna2TabControl2.TabButtonSelectedState.FillColor = Color.FromArgb(CByte(29), CByte(37), CByte(49))
-        Guna2TabControl2.TabButtonSelectedState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TabControl2.TabButtonSelectedState.ForeColor = Color.White
-        Guna2TabControl2.TabButtonSelectedState.InnerColor = Color.FromArgb(CByte(76), CByte(132), CByte(255))
-        Guna2TabControl2.TabButtonSize = New Size(180, 40)
-        Guna2TabControl2.TabIndex = 1
-        Guna2TabControl2.TabMenuBackColor = Color.Transparent
-        Guna2TabControl2.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop
+        Me.Guna2TabControl2.Controls.Add(Me.TabPage2)
+        Me.Guna2TabControl2.Controls.Add(Me.TabPage5)
+        Me.Guna2TabControl2.Dock = Global.System.Windows.Forms.DockStyle.Fill
+        Me.Guna2TabControl2.ItemSize = New Global.System.Drawing.Size(180, 40)
+        Me.Guna2TabControl2.Location = New Global.System.Drawing.Point(0, 0)
+        Me.Guna2TabControl2.Name = "Guna2TabControl2"
+        Me.Guna2TabControl2.SelectedIndex = 0
+        Me.Guna2TabControl2.Size = New Global.System.Drawing.Size(1030, 716)
+        Me.Guna2TabControl2.TabButtonHoverState.BorderColor = Global.System.Drawing.Color.Empty
+        Me.Guna2TabControl2.TabButtonHoverState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(40))), CInt(CByte(CByte(52))), CInt(CByte(CByte(70))))
+        Me.Guna2TabControl2.TabButtonHoverState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TabControl2.TabButtonHoverState.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2TabControl2.TabButtonHoverState.InnerColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(40))), CInt(CByte(CByte(52))), CInt(CByte(CByte(70))))
+        Me.Guna2TabControl2.TabButtonIdleState.BorderColor = Global.System.Drawing.Color.Empty
+        Me.Guna2TabControl2.TabButtonIdleState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(33))), CInt(CByte(CByte(42))), CInt(CByte(CByte(57))))
+        Me.Guna2TabControl2.TabButtonIdleState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TabControl2.TabButtonIdleState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(156))), CInt(CByte(CByte(160))), CInt(CByte(CByte(167))))
+        Me.Guna2TabControl2.TabButtonIdleState.InnerColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(33))), CInt(CByte(CByte(42))), CInt(CByte(CByte(57))))
+        Me.Guna2TabControl2.TabButtonSelectedState.BorderColor = Global.System.Drawing.Color.Empty
+        Me.Guna2TabControl2.TabButtonSelectedState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(29))), CInt(CByte(CByte(37))), CInt(CByte(CByte(49))))
+        Me.Guna2TabControl2.TabButtonSelectedState.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 10F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TabControl2.TabButtonSelectedState.ForeColor = Global.System.Drawing.Color.White
+        Me.Guna2TabControl2.TabButtonSelectedState.InnerColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(76))), CInt(CByte(CByte(132))), CInt(CByte(CByte(255))))
+        Me.Guna2TabControl2.TabButtonSize = New Global.System.Drawing.Size(180, 40)
+        Me.Guna2TabControl2.TabIndex = 1
+        Me.Guna2TabControl2.TabMenuBackColor = Global.System.Drawing.Color.Transparent
+        Me.Guna2TabControl2.TabMenuOrientation = Global.Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop
         ' 
         ' TabPage2
         ' 
-        TabPage2.Controls.Add(Label42)
-        TabPage2.Controls.Add(Label41)
-        TabPage2.Controls.Add(Label40)
-        TabPage2.Controls.Add(Label39)
-        TabPage2.Controls.Add(Label38)
-        TabPage2.Controls.Add(bttnNext)
-        TabPage2.Controls.Add(Guna2TextBox3)
-        TabPage2.Controls.Add(Guna2TextBox2)
-        TabPage2.Controls.Add(Guna2TextBox1)
-        TabPage2.Controls.Add(Label37)
-        TabPage2.Controls.Add(Guna2PictureBox6)
-        TabPage2.Location = New Point(4, 44)
-        TabPage2.Name = "TabPage2"
-        TabPage2.Padding = New Padding(3)
-        TabPage2.Size = New Size(1022, 668)
-        TabPage2.TabIndex = 0
-        TabPage2.Text = "FUND TRANSFER"
-        TabPage2.UseVisualStyleBackColor = True
+        Me.TabPage2.Controls.Add(Me.Label42)
+        Me.TabPage2.Controls.Add(Me.Label41)
+        Me.TabPage2.Controls.Add(Me.Label40)
+        Me.TabPage2.Controls.Add(Me.Label39)
+        Me.TabPage2.Controls.Add(Me.Label38)
+        Me.TabPage2.Controls.Add(Me.bttnNext)
+        Me.TabPage2.Controls.Add(Me.Guna2TextBox3)
+        Me.TabPage2.Controls.Add(Me.Guna2TextBox2)
+        Me.TabPage2.Controls.Add(Me.Guna2TextBox1)
+        Me.TabPage2.Controls.Add(Me.Label37)
+        Me.TabPage2.Controls.Add(Me.Guna2PictureBox6)
+        Me.TabPage2.Location = New Global.System.Drawing.Point(4, 44)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New Global.System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New Global.System.Drawing.Size(1022, 668)
+        Me.TabPage2.TabIndex = 0
+        Me.TabPage2.Text = "FUND TRANSFER"
+        Me.TabPage2.UseVisualStyleBackColor = True
         ' 
         ' Label42
         ' 
-        Label42.AutoSize = True
-        Label42.BackColor = Color.Transparent
-        Label42.Font = New Font("Cambria", 15.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label42.ForeColor = Color.FromArgb(CByte(0), CByte(192), CByte(0))
-        Label42.Location = New Point(706, 150)
-        Label42.Name = "Label42"
-        Label42.Size = New Size(105, 25)
-        Label42.TabIndex = 84
-        Label42.Text = "BALANCE "
+        Me.Label42.AutoSize = True
+        Me.Label42.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Label42.Font = New Global.System.Drawing.Font("Cambria", 15.75F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label42.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(0))), CInt(CByte(CByte(192))), CInt(CByte(CByte(0))))
+        Me.Label42.Location = New Global.System.Drawing.Point(706, 150)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New Global.System.Drawing.Size(105, 25)
+        Me.Label42.TabIndex = 84
+        Me.Label42.Text = "BALANCE "
         ' 
         ' Label41
         ' 
-        Label41.AutoSize = True
-        Label41.BackColor = Color.Transparent
-        Label41.Font = New Font("Cambria", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
-        Label41.Location = New Point(571, 150)
-        Label41.Name = "Label41"
-        Label41.Size = New Size(115, 25)
-        Label41.TabIndex = 83
-        Label41.Text = "BALANCE :"
+        Me.Label41.AutoSize = True
+        Me.Label41.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Label41.Font = New Global.System.Drawing.Font("Cambria", 15.75F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label41.Location = New Global.System.Drawing.Point(571, 150)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New Global.System.Drawing.Size(115, 25)
+        Me.Label41.TabIndex = 83
+        Me.Label41.Text = "BALANCE :"
         ' 
         ' Label40
         ' 
-        Label40.AutoSize = True
-        Label40.BackColor = Color.Transparent
-        Label40.Font = New Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label40.Location = New Point(61, 296)
-        Label40.Name = "Label40"
-        Label40.Size = New Size(60, 15)
-        Label40.TabIndex = 82
-        Label40.Text = "AMOUNT"
+        Me.Label40.AutoSize = True
+        Me.Label40.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Label40.Font = New Global.System.Drawing.Font("Cambria", 9.75F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label40.Location = New Global.System.Drawing.Point(61, 296)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New Global.System.Drawing.Size(60, 15)
+        Me.Label40.TabIndex = 82
+        Me.Label40.Text = "AMOUNT"
         ' 
         ' Label39
         ' 
-        Label39.AutoSize = True
-        Label39.BackColor = Color.Transparent
-        Label39.Font = New Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label39.Location = New Point(61, 219)
-        Label39.Name = "Label39"
-        Label39.Size = New Size(42, 15)
-        Label39.TabIndex = 81
-        Label39.Text = "NAME"
+        Me.Label39.AutoSize = True
+        Me.Label39.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Label39.Font = New Global.System.Drawing.Font("Cambria", 9.75F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label39.Location = New Global.System.Drawing.Point(61, 219)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New Global.System.Drawing.Size(42, 15)
+        Me.Label39.TabIndex = 81
+        Me.Label39.Text = "NAME"
         ' 
         ' Label38
         ' 
-        Label38.AutoSize = True
-        Label38.BackColor = Color.Transparent
-        Label38.Font = New Font("Cambria", 9.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label38.Location = New Point(61, 144)
-        Label38.Name = "Label38"
-        Label38.Size = New Size(52, 15)
-        Label38.TabIndex = 80
-        Label38.Text = "USER ID"
+        Me.Label38.AutoSize = True
+        Me.Label38.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Label38.Font = New Global.System.Drawing.Font("Cambria", 9.75F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label38.Location = New Global.System.Drawing.Point(61, 144)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New Global.System.Drawing.Size(52, 15)
+        Me.Label38.TabIndex = 80
+        Me.Label38.Text = "USER ID"
         ' 
         ' bttnNext
         ' 
-        bttnNext.Anchor = AnchorStyles.Bottom
-        bttnNext.BorderRadius = 10
-        bttnNext.CustomizableEdges = CustomizableEdges98
-        bttnNext.DisabledState.BorderColor = Color.DarkGray
-        bttnNext.DisabledState.CustomBorderColor = Color.DarkGray
-        bttnNext.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        bttnNext.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        bttnNext.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        bttnNext.ForeColor = Color.White
-        bttnNext.ImageAlign = HorizontalAlignment.Right
-        bttnNext.Location = New Point(682, 931)
-        bttnNext.Name = "bttnNext"
-        bttnNext.ShadowDecoration.CustomizableEdges = CustomizableEdges99
-        bttnNext.Size = New Size(133, 37)
-        bttnNext.TabIndex = 79
-        bttnNext.Text = "PROCEED"
+        Me.bttnNext.Anchor = Global.System.Windows.Forms.AnchorStyles.Bottom
+        Me.bttnNext.BorderRadius = 10
+        Me.bttnNext.CustomizableEdges = CustomizableEdges100
+        Me.bttnNext.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
+        Me.bttnNext.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
+        Me.bttnNext.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
+        Me.bttnNext.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(141))), CInt(CByte(CByte(141))), CInt(CByte(CByte(141))))
+        Me.bttnNext.Font = New Global.System.Drawing.Font("Segoe UI", 14.25F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.bttnNext.ForeColor = Global.System.Drawing.Color.White
+        Me.bttnNext.ImageAlign = Global.System.Windows.Forms.HorizontalAlignment.Right
+        Me.bttnNext.Location = New Global.System.Drawing.Point(682, 931)
+        Me.bttnNext.Name = "bttnNext"
+        Me.bttnNext.ShadowDecoration.CustomizableEdges = CustomizableEdges101
+        Me.bttnNext.Size = New Global.System.Drawing.Size(133, 37)
+        Me.bttnNext.TabIndex = 79
+        Me.bttnNext.Text = "PROCEED"
         ' 
         ' Guna2TextBox3
         ' 
-        Guna2TextBox3.BorderRadius = 5
-        Guna2TextBox3.CustomizableEdges = CustomizableEdges100
-        Guna2TextBox3.DefaultText = ""
-        Guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox3.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.IconRightOffset = New Point(5, 0)
-        Guna2TextBox3.Location = New Point(58, 313)
-        Guna2TextBox3.Name = "Guna2TextBox3"
-        Guna2TextBox3.PasswordChar = ChrW(0)
-        Guna2TextBox3.PlaceholderText = ""
-        Guna2TextBox3.SelectedText = ""
-        Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges101
-        Guna2TextBox3.Size = New Size(323, 36)
-        Guna2TextBox3.TabIndex = 12
-        Guna2TextBox3.TextAlign = HorizontalAlignment.Center
+        Me.Guna2TextBox3.BorderRadius = 5
+        Me.Guna2TextBox3.CustomizableEdges = CustomizableEdges102
+        Me.Guna2TextBox3.DefaultText = ""
+        Me.Guna2TextBox3.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.Guna2TextBox3.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.Guna2TextBox3.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.Guna2TextBox3.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.Guna2TextBox3.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.Guna2TextBox3.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TextBox3.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.Guna2TextBox3.IconRightOffset = New Global.System.Drawing.Point(5, 0)
+        Me.Guna2TextBox3.Location = New Global.System.Drawing.Point(58, 313)
+        Me.Guna2TextBox3.Name = "Guna2TextBox3"
+        Me.Guna2TextBox3.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.Guna2TextBox3.PlaceholderText = ""
+        Me.Guna2TextBox3.SelectedText = ""
+        Me.Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges103
+        Me.Guna2TextBox3.Size = New Global.System.Drawing.Size(323, 36)
+        Me.Guna2TextBox3.TabIndex = 12
+        Me.Guna2TextBox3.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
         ' 
         ' Guna2TextBox2
         ' 
-        Guna2TextBox2.BorderRadius = 5
-        Guna2TextBox2.CustomizableEdges = CustomizableEdges102
-        Guna2TextBox2.DefaultText = ""
-        Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.IconRightOffset = New Point(5, 0)
-        Guna2TextBox2.Location = New Point(58, 237)
-        Guna2TextBox2.Name = "Guna2TextBox2"
-        Guna2TextBox2.PasswordChar = ChrW(0)
-        Guna2TextBox2.PlaceholderText = ""
-        Guna2TextBox2.SelectedText = ""
-        Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges103
-        Guna2TextBox2.Size = New Size(323, 36)
-        Guna2TextBox2.TabIndex = 11
-        Guna2TextBox2.TextAlign = HorizontalAlignment.Center
+        Me.Guna2TextBox2.BorderRadius = 5
+        Me.Guna2TextBox2.CustomizableEdges = CustomizableEdges104
+        Me.Guna2TextBox2.DefaultText = ""
+        Me.Guna2TextBox2.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.Guna2TextBox2.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.Guna2TextBox2.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.Guna2TextBox2.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.Guna2TextBox2.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.Guna2TextBox2.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TextBox2.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.Guna2TextBox2.IconRightOffset = New Global.System.Drawing.Point(5, 0)
+        Me.Guna2TextBox2.Location = New Global.System.Drawing.Point(58, 237)
+        Me.Guna2TextBox2.Name = "Guna2TextBox2"
+        Me.Guna2TextBox2.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.Guna2TextBox2.PlaceholderText = ""
+        Me.Guna2TextBox2.SelectedText = ""
+        Me.Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges105
+        Me.Guna2TextBox2.Size = New Global.System.Drawing.Size(323, 36)
+        Me.Guna2TextBox2.TabIndex = 11
+        Me.Guna2TextBox2.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
         ' 
         ' Guna2TextBox1
         ' 
-        Guna2TextBox1.BorderRadius = 5
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges104
-        Guna2TextBox1.DefaultText = ""
-        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.IconRightOffset = New Point(5, 0)
-        Guna2TextBox1.Location = New Point(58, 161)
-        Guna2TextBox1.Name = "Guna2TextBox1"
-        Guna2TextBox1.PasswordChar = ChrW(0)
-        Guna2TextBox1.PlaceholderText = ""
-        Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges105
-        Guna2TextBox1.Size = New Size(323, 36)
-        Guna2TextBox1.TabIndex = 9
-        Guna2TextBox1.TextAlign = HorizontalAlignment.Center
+        Me.Guna2TextBox1.BorderRadius = 5
+        Me.Guna2TextBox1.CustomizableEdges = CustomizableEdges106
+        Me.Guna2TextBox1.DefaultText = ""
+        Me.Guna2TextBox1.DisabledState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(208))), CInt(CByte(CByte(208))), CInt(CByte(CByte(208))))
+        Me.Guna2TextBox1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(226))), CInt(CByte(CByte(226))), CInt(CByte(CByte(226))))
+        Me.Guna2TextBox1.DisabledState.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.Guna2TextBox1.DisabledState.PlaceholderForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(138))), CInt(CByte(CByte(138))), CInt(CByte(CByte(138))))
+        Me.Guna2TextBox1.FocusedState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.Guna2TextBox1.Font = New Global.System.Drawing.Font("Segoe UI", 9F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Guna2TextBox1.HoverState.BorderColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(94))), CInt(CByte(CByte(148))), CInt(CByte(CByte(255))))
+        Me.Guna2TextBox1.IconRightOffset = New Global.System.Drawing.Point(5, 0)
+        Me.Guna2TextBox1.Location = New Global.System.Drawing.Point(58, 161)
+        Me.Guna2TextBox1.Name = "Guna2TextBox1"
+        Me.Guna2TextBox1.PasswordChar = Global.Microsoft.VisualBasic.Strings.ChrW(0)
+        Me.Guna2TextBox1.PlaceholderText = ""
+        Me.Guna2TextBox1.SelectedText = ""
+        Me.Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges107
+        Me.Guna2TextBox1.Size = New Global.System.Drawing.Size(323, 36)
+        Me.Guna2TextBox1.TabIndex = 9
+        Me.Guna2TextBox1.TextAlign = Global.System.Windows.Forms.HorizontalAlignment.Center
         ' 
         ' Label37
         ' 
-        Label37.AutoSize = True
-        Label37.BackColor = Color.Transparent
-        Label37.Font = New Font("Cambria", 15.75F, FontStyle.Bold, GraphicsUnit.Point)
-        Label37.Location = New Point(58, 48)
-        Label37.Name = "Label37"
-        Label37.Size = New Size(176, 25)
-        Label37.TabIndex = 10
-        Label37.Text = "FUND TRANSFER"
+        Me.Label37.AutoSize = True
+        Me.Label37.BackColor = Global.System.Drawing.Color.Transparent
+        Me.Label37.Font = New Global.System.Drawing.Font("Cambria", 15.75F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.Label37.Location = New Global.System.Drawing.Point(58, 48)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New Global.System.Drawing.Size(176, 25)
+        Me.Label37.TabIndex = 10
+        Me.Label37.Text = "FUND TRANSFER"
         ' 
         ' Guna2PictureBox6
         ' 
-        Guna2PictureBox6.CustomizableEdges = CustomizableEdges106
-        Guna2PictureBox6.Image = CType(resources.GetObject("Guna2PictureBox6.Image"), Image)
-        Guna2PictureBox6.ImageRotate = 0F
-        Guna2PictureBox6.Location = New Point(526, 144)
-        Guna2PictureBox6.Name = "Guna2PictureBox6"
-        Guna2PictureBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges107
-        Guna2PictureBox6.Size = New Size(370, 385)
-        Guna2PictureBox6.SizeMode = PictureBoxSizeMode.StretchImage
-        Guna2PictureBox6.TabIndex = 0
-        Guna2PictureBox6.TabStop = False
+        Me.Guna2PictureBox6.CustomizableEdges = CustomizableEdges108
+        Me.Guna2PictureBox6.Image = CType(resources.GetObject("Guna2PictureBox6.Image"), Global.System.Drawing.Image)
+        Me.Guna2PictureBox6.ImageRotate = 0F
+        Me.Guna2PictureBox6.Location = New Global.System.Drawing.Point(526, 144)
+        Me.Guna2PictureBox6.Name = "Guna2PictureBox6"
+        Me.Guna2PictureBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges109
+        Me.Guna2PictureBox6.Size = New Global.System.Drawing.Size(370, 385)
+        Me.Guna2PictureBox6.SizeMode = Global.System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.Guna2PictureBox6.TabIndex = 0
+        Me.Guna2PictureBox6.TabStop = False
         ' 
         ' TabPage5
         ' 
-        TabPage5.Location = New Point(4, 44)
-        TabPage5.Name = "TabPage5"
-        TabPage5.Padding = New Padding(3)
-        TabPage5.Size = New Size(1022, 668)
-        TabPage5.TabIndex = 1
-        TabPage5.Text = "LOAN"
-        TabPage5.UseVisualStyleBackColor = True
+        Me.TabPage5.Location = New Global.System.Drawing.Point(4, 44)
+        Me.TabPage5.Name = "TabPage5"
+        Me.TabPage5.Padding = New Global.System.Windows.Forms.Padding(3)
+        Me.TabPage5.Size = New Global.System.Drawing.Size(1022, 668)
+        Me.TabPage5.TabIndex = 1
+        Me.TabPage5.Text = "LOAN"
+        Me.TabPage5.UseVisualStyleBackColor = True
+        ' 
+        ' tabContri
+        ' 
+        Me.tabContri.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(237))), CInt(CByte(CByte(231))), CInt(CByte(CByte(230))))
+        Me.tabContri.Controls.Add(Me.dgContributions)
+        Me.tabContri.ImageKey = "give-money.png"
+        Me.tabContri.Location = New Global.System.Drawing.Point(254, 4)
+        Me.tabContri.Name = "tabContri"
+        Me.tabContri.Padding = New Global.System.Windows.Forms.Padding(3)
+        Me.tabContri.Size = New Global.System.Drawing.Size(1030, 716)
+        Me.tabContri.TabIndex = 4
+        Me.tabContri.Text = "Contributions"
         ' 
         ' TabPage3
         ' 
-        TabPage3.Location = New Point(0, 0)
-        TabPage3.Name = "TabPage3"
-        TabPage3.Size = New Size(200, 100)
-        TabPage3.TabIndex = 0
-        TabPage3.Text = "Fund Transfer"
+        Me.TabPage3.Location = New Global.System.Drawing.Point(0, 0)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Size = New Global.System.Drawing.Size(200, 100)
+        Me.TabPage3.TabIndex = 0
+        Me.TabPage3.Text = "Fund Transfer"
         ' 
         ' ImageList2
         ' 
-        ImageList2.ColorDepth = ColorDepth.Depth32Bit
-        ImageList2.ImageStream = CType(resources.GetObject("ImageList2.ImageStream"), ImageListStreamer)
-        ImageList2.TransparentColor = Color.WhiteSmoke
-        ImageList2.Images.SetKeyName(0, "logout.png")
-        ImageList2.Images.SetKeyName(1, "image-removebg-preview (1).png")
-        ImageList2.Images.SetKeyName(2, "data-report.png")
-        ImageList2.Images.SetKeyName(3, "employees.png")
-        ImageList2.Images.SetKeyName(4, "funding.png")
+        Me.ImageList2.ColorDepth = Global.System.Windows.Forms.ColorDepth.Depth32Bit
+        Me.ImageList2.ImageStream = CType(resources.GetObject("ImageList2.ImageStream"), Global.System.Windows.Forms.ImageListStreamer)
+        Me.ImageList2.TransparentColor = Global.System.Drawing.Color.WhiteSmoke
+        Me.ImageList2.Images.SetKeyName(0, "logout.png")
+        Me.ImageList2.Images.SetKeyName(1, "image-removebg-preview (1).png")
+        Me.ImageList2.Images.SetKeyName(2, "data-report.png")
+        Me.ImageList2.Images.SetKeyName(3, "employees.png")
+        Me.ImageList2.Images.SetKeyName(4, "funding.png")
+        ' 
+        ' dgContributions
+        ' 
+        DataGridViewCellStyle8.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(194))), CInt(CByte(CByte(200))), CInt(CByte(CByte(207))))
+        Me.dgContributions.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle9.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle9.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(52))), CInt(CByte(CByte(73))), CInt(CByte(CByte(94))))
+        DataGridViewCellStyle9.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle9.ForeColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle9.SelectionBackColor = Global.System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle9.SelectionForeColor = Global.System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle9.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[True]
+        Me.dgContributions.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle9
+        Me.dgContributions.ColumnHeadersHeightSizeMode = Global.System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgContributions.Columns.AddRange(New Global.System.Windows.Forms.DataGridViewColumn() {Me.Column3, Me.Column5, Me.Column6, Me.Column7, Me.Column13, Me.Column14, Me.Column12, Me.Column15, Me.Column16})
+        DataGridViewCellStyle10.Alignment = Global.System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle10.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(214))), CInt(CByte(CByte(218))), CInt(CByte(CByte(223))))
+        DataGridViewCellStyle10.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 14.25F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        DataGridViewCellStyle10.ForeColor = Global.System.Drawing.Color.Black
+        DataGridViewCellStyle10.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(119))), CInt(CByte(CByte(133))), CInt(CByte(CByte(147))))
+        DataGridViewCellStyle10.SelectionForeColor = Global.System.Drawing.Color.White
+        DataGridViewCellStyle10.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[False]
+        Me.dgContributions.DefaultCellStyle = DataGridViewCellStyle10
+        Me.dgContributions.GridColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(193))), CInt(CByte(CByte(199))), CInt(CByte(CByte(206))))
+        Me.dgContributions.Location = New Global.System.Drawing.Point(26, 300)
+        Me.dgContributions.Name = "dgContributions"
+        Me.dgContributions.RowHeadersVisible = False
+        Me.dgContributions.RowTemplate.Height = 25
+        Me.dgContributions.Size = New Global.System.Drawing.Size(980, 389)
+        Me.dgContributions.TabIndex = 0
+        Me.dgContributions.Theme = Global.Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt
+        Me.dgContributions.ThemeStyle.AlternatingRowsStyle.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(194))), CInt(CByte(CByte(200))), CInt(CByte(CByte(207))))
+        Me.dgContributions.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        Me.dgContributions.ThemeStyle.AlternatingRowsStyle.ForeColor = Global.System.Drawing.Color.Empty
+        Me.dgContributions.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Global.System.Drawing.Color.Empty
+        Me.dgContributions.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Global.System.Drawing.Color.Empty
+        Me.dgContributions.ThemeStyle.BackColor = Global.System.Drawing.Color.White
+        Me.dgContributions.ThemeStyle.GridColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(193))), CInt(CByte(CByte(199))), CInt(CByte(CByte(206))))
+        Me.dgContributions.ThemeStyle.HeaderStyle.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(52))), CInt(CByte(CByte(73))), CInt(CByte(CByte(94))))
+        Me.dgContributions.ThemeStyle.HeaderStyle.BorderStyle = Global.System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.dgContributions.ThemeStyle.HeaderStyle.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 9F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.dgContributions.ThemeStyle.HeaderStyle.ForeColor = Global.System.Drawing.Color.White
+        Me.dgContributions.ThemeStyle.HeaderStyle.HeaightSizeMode = Global.System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgContributions.ThemeStyle.HeaderStyle.Height = 32
+        Me.dgContributions.ThemeStyle.[ReadOnly] = False
+        Me.dgContributions.ThemeStyle.RowsStyle.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(214))), CInt(CByte(CByte(218))), CInt(CByte(CByte(223))))
+        Me.dgContributions.ThemeStyle.RowsStyle.BorderStyle = Global.System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.dgContributions.ThemeStyle.RowsStyle.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 14.25F, Global.System.Drawing.FontStyle.Bold, Global.System.Drawing.GraphicsUnit.Point)
+        Me.dgContributions.ThemeStyle.RowsStyle.ForeColor = Global.System.Drawing.Color.Black
+        Me.dgContributions.ThemeStyle.RowsStyle.Height = 25
+        Me.dgContributions.ThemeStyle.RowsStyle.SelectionBackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(119))), CInt(CByte(CByte(133))), CInt(CByte(CByte(147))))
+        Me.dgContributions.ThemeStyle.RowsStyle.SelectionForeColor = Global.System.Drawing.Color.White
+        ' 
+        ' Column3
+        ' 
+        Me.Column3.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Column3.HeaderText = "ID"
+        Me.Column3.Name = "Column3"
+        Me.Column3.Width = 43
+        ' 
+        ' Column5
+        ' 
+        Me.Column5.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column5.HeaderText = "Full Name"
+        Me.Column5.Name = "Column5"
+        ' 
+        ' Column6
+        ' 
+        Me.Column6.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column6.HeaderText = "Position"
+        Me.Column6.Name = "Column6"
+        ' 
+        ' Column7
+        ' 
+        Me.Column7.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column7.HeaderText = "Office"
+        Me.Column7.Name = "Column7"
+        ' 
+        ' Column13
+        ' 
+        Me.Column13.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Column13.HeaderText = "Union Dues"
+        Me.Column13.Name = "Column13"
+        Me.Column13.Width = 85
+        ' 
+        ' Column14
+        ' 
+        Me.Column14.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Column14.HeaderText = "Bereavement"
+        Me.Column14.Name = "Column14"
+        Me.Column14.Width = 99
+        ' 
+        ' Column12
+        ' 
+        Me.Column12.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Column12.HeaderText = "Membership Fee"
+        Me.Column12.Name = "Column12"
+        Me.Column12.Width = 108
+        ' 
+        ' Column15
+        ' 
+        Me.Column15.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Column15.HeaderText = "Contribution4"
+        Me.Column15.Name = "Column15"
+        Me.Column15.Width = 104
+        ' 
+        ' Column16
+        ' 
+        Me.Column16.AutoSizeMode = Global.System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Column16.HeaderText = "Contribution5"
+        Me.Column16.Name = "Column16"
+        Me.Column16.Width = 104
         ' 
         ' admindash
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
-        AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1288, 764)
-        Controls.Add(Guna2TabControl1)
-        Controls.Add(Panel1)
-        FormBorderStyle = FormBorderStyle.None
-        Name = "admindash"
-        StartPosition = FormStartPosition.CenterScreen
-        Text = "admindash"
-        Panel1.ResumeLayout(False)
-        Guna2TabControl1.ResumeLayout(False)
-        TabPage6.ResumeLayout(False)
-        pnlHome.ResumeLayout(False)
-        Panel2.ResumeLayout(False)
-        Panel2.PerformLayout()
-        CType(Guna2PictureBox4, ComponentModel.ISupportInitialize).EndInit()
-        CType(Guna2PictureBox5, ComponentModel.ISupportInitialize).EndInit()
-        Guna2Panel4.ResumeLayout(False)
-        Guna2Panel4.PerformLayout()
-        CType(Guna2PictureBox3, ComponentModel.ISupportInitialize).EndInit()
-        tabDashboard.ResumeLayout(False)
-        pnlDashboard.ResumeLayout(False)
-        pnlDashboard.PerformLayout()
-        Guna2Panel3.ResumeLayout(False)
-        Guna2Panel2.ResumeLayout(False)
-        Guna2Panel2.PerformLayout()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
-        Guna2Panel1.ResumeLayout(False)
-        Guna2Panel1.PerformLayout()
-        CType(Guna2PictureBox2, ComponentModel.ISupportInitialize).EndInit()
-        tabEmployee.ResumeLayout(False)
-        tabEdit.ResumeLayout(False)
-        tabEditMember.ResumeLayout(False)
-        personal.ResumeLayout(False)
-        personal.PerformLayout()
-        CType(pBoxEditProfile, ComponentModel.ISupportInitialize).EndInit()
-        other.ResumeLayout(False)
-        other.PerformLayout()
-        CType(dgBeneficiaries, ComponentModel.ISupportInitialize).EndInit()
-        pnlEmployee.ResumeLayout(False)
-        pnlEmployee.PerformLayout()
-        CType(dgMembers, ComponentModel.ISupportInitialize).EndInit()
-        tabFund.ResumeLayout(False)
-        Guna2TabControl2.ResumeLayout(False)
-        TabPage2.ResumeLayout(False)
-        TabPage2.PerformLayout()
-        CType(Guna2PictureBox6, ComponentModel.ISupportInitialize).EndInit()
-        ResumeLayout(False)
+        Me.AutoScaleDimensions = New Global.System.Drawing.SizeF(7F, 15F)
+        Me.AutoScaleMode = Global.System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New Global.System.Drawing.Size(1288, 764)
+        Me.Controls.Add(Me.Guna2TabControl1)
+        Me.Controls.Add(Me.Panel1)
+        Me.FormBorderStyle = Global.System.Windows.Forms.FormBorderStyle.None
+        Me.Name = "admindash"
+        Me.StartPosition = Global.System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "admindash"
+        Me.Panel1.ResumeLayout(False)
+        Me.Guna2TabControl1.ResumeLayout(False)
+        Me.TabPage6.ResumeLayout(False)
+        Me.pnlHome.ResumeLayout(False)
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
+        (CType(Me.Guna2PictureBox4, Global.System.ComponentModel.ISupportInitialize)).EndInit()
+        (CType(Me.Guna2PictureBox5, Global.System.ComponentModel.ISupportInitialize)).EndInit()
+        Me.Guna2Panel4.ResumeLayout(False)
+        Me.Guna2Panel4.PerformLayout()
+        (CType(Me.Guna2PictureBox3, Global.System.ComponentModel.ISupportInitialize)).EndInit()
+        Me.tabDashboard.ResumeLayout(False)
+        Me.pnlDashboard.ResumeLayout(False)
+        Me.pnlDashboard.PerformLayout()
+        Me.Guna2Panel3.ResumeLayout(False)
+        Me.Guna2Panel2.ResumeLayout(False)
+        Me.Guna2Panel2.PerformLayout()
+        (CType(Me.PictureBox2, Global.System.ComponentModel.ISupportInitialize)).EndInit()
+        Me.Guna2Panel1.ResumeLayout(False)
+        Me.Guna2Panel1.PerformLayout()
+        (CType(Me.Guna2PictureBox2, Global.System.ComponentModel.ISupportInitialize)).EndInit()
+        Me.tabEmployee.ResumeLayout(False)
+        Me.tabEdit.ResumeLayout(False)
+        Me.tabEditMember.ResumeLayout(False)
+        Me.personal.ResumeLayout(False)
+        Me.Panel5.ResumeLayout(False)
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel4.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
+        (CType(Me.pBoxEditProfile, Global.System.ComponentModel.ISupportInitialize)).EndInit()
+        Me.other.ResumeLayout(False)
+        Me.Panel8.ResumeLayout(False)
+        Me.Panel7.ResumeLayout(False)
+        Me.Panel7.PerformLayout()
+        (CType(Me.dgBeneficiaries, Global.System.ComponentModel.ISupportInitialize)).EndInit()
+        Me.Panel6.ResumeLayout(False)
+        Me.Panel6.PerformLayout()
+        Me.pnlEmployee.ResumeLayout(False)
+        Me.pnlEmployee.PerformLayout()
+        (CType(Me.dgMembers, Global.System.ComponentModel.ISupportInitialize)).EndInit()
+        Me.tabFund.ResumeLayout(False)
+        Me.Guna2TabControl2.ResumeLayout(False)
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage2.PerformLayout()
+        (CType(Me.Guna2PictureBox6, Global.System.ComponentModel.ISupportInitialize)).EndInit()
+        Me.tabContri.ResumeLayout(False)
+        (CType(Me.dgContributions, Global.System.ComponentModel.ISupportInitialize)).EndInit()
+        Me.ResumeLayout(False)
     End Sub
 
     Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
@@ -2636,7 +2886,6 @@ Partial Class admindash
     Friend WithEvents txtEditFname As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label10 As Label
     Friend WithEvents txtEditLname As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Label13 As Label
     Friend WithEvents txtEditPw As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label16 As Label
     Friend WithEvents txtEditAddress As Guna.UI2.WinForms.Guna2TextBox
@@ -2733,4 +2982,24 @@ Partial Class admindash
     Friend WithEvents Column10 As DataGridViewTextBoxColumn
     Friend WithEvents Column11 As DataGridViewTextBoxColumn
     Friend WithEvents Column4 As DataGridViewImageColumn
+    Friend WithEvents tabContri As TabPage
+    Friend WithEvents Panel5 As Panel
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents Guna2Button7 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Panel8 As Panel
+    Friend WithEvents btnEmBack2 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Panel7 As Panel
+    Friend WithEvents Panel6 As Panel
+    Friend WithEvents dgContributions As Global.Guna.UI2.WinForms.Guna2DataGridView
+    Friend WithEvents Column3 As Global.System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column5 As Global.System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column6 As Global.System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column7 As Global.System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column13 As Global.System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column14 As Global.System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column12 As Global.System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column15 As Global.System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Column16 As Global.System.Windows.Forms.DataGridViewTextBoxColumn
 End Class
