@@ -380,47 +380,47 @@ Public Class admindash
 
     Private Sub liveTimer_Tick(sender As Object, e As EventArgs) Handles liveTimer.Tick '--------------------TIMER
 
-        Dim timeZone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("Singapore Standard Time")
-        Dim currentTime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timeZone)
-        Dim currentDate As DateTime = currentTime
+        Dim timezone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("singapore standard time")
+        Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
+        Dim currentdate As DateTime = currenttime
         Dim remainer As Integer
-        lblTime.Text = "AS OF " & currentDate.Hour & " : " & currentDate.Minute & " : " & currentDate.Second
-        Static previousMonth As Integer
-        Try
-            conn.Open()
-            Dim cmd As New MySqlCommand("select month(updated_at) as month from contributions", conn) '--------TO GET THE UPDATED DATE
-            rid = cmd.ExecuteReader
-            While rid.Read
-                previousMonth = rid.GetInt32("month")
-            End While
-            MsgBox("time worked")
-        Catch ex As Exception
-            MsgBox("time doesn't work")
-        Finally
+        lblTime.Text = "as of " & currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
+        'Static previousmonth As Integer
+        'Try
+        '    conn.Open()
+        '    Dim cmd As New MySqlCommand("select month(updated_at) as month from contributions", conn) '--------to get the updated date
+        '    rid = cmd.ExecuteReader
+        '    While rid.Read
+        '        previousmonth = rid.GetInt32("month")
+        '    End While
+        '    MsgBox("time worked")
+        'Catch ex As Exception
+        '    MsgBox("time doesn't work")
+        'Finally
 
-        End Try
+        'End Try
 
-        previousMonth = 5
-        If currentDate.Month <> previousMonth Then
-            remainer = currentDate.Month - previousMonth
-            Dim added As Integer
-            Try
+        'previousmonth = 5
+        'If currentdate.Month <> previousmonth Then
+        '    remainer = currentdate.Month - previousmonth
+        '    Dim added As Integer
+        '    Try
 
-                Dim cmd As New MySqlCommand("select * from contributions", conn)
-                rid = cmd.ExecuteReader
-                While rid.Read
-                    added = rid.GetInt32("union_dues") + (unionDue * remainer)
-                    Dim cmd2 As New MySqlCommand("update contributions set union_dues=@SET where user_id=@ID", conn)
-                    cmd.Parameters.AddWithValue("@SET", added)
-                    cmd.Parameters.AddWithValue("@ID", rid.GetInt32("id"))
-                    cmd.ExecuteNonQuery()
-                    MsgBox("it worked lol")
-                End While
-            Catch ex As Exception
-                MsgBox("Everything doesn't work")
-            End Try
-        End If
-        conn.Close()
+        '        Dim cmd As New MySqlCommand("select * from contributions", conn)
+        '        rid = cmd.ExecuteReader
+        '        While rid.Read
+        '            added = rid.GetInt32("union_dues") + (unionDue * remainer)
+        '            Dim cmd2 As New MySqlCommand("update contributions set union_dues=@set where user_id=@id", conn)
+        '            cmd.Parameters.AddWithValue("@set", added)
+        '            cmd.Parameters.AddWithValue("@id", rid.GetInt32("id"))
+        '            cmd.ExecuteNonQuery()
+        '            MsgBox("it worked lol")
+        '        End While
+        '    Catch ex As Exception
+        '        MsgBox("everything doesn't work")
+        '    End Try
+        'End If
+        'conn.Close()
     End Sub
 
 
