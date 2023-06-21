@@ -37,6 +37,8 @@ Public Class Userdashboardform
 
         If AnswerYes = vbYes Then
             Form2.Show()
+            Panel6.Hide()
+            pnlDash.Hide()
             Me.Hide()
         End If
     End Sub
