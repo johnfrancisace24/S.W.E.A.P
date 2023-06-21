@@ -1,9 +1,10 @@
 ﻿Imports System.IO
+Imports DocumentFormat.OpenXml.Presentation
 Imports MySql.Data.MySqlClient
 Imports OfficeOpenXml
 Imports OfficeOpenXml.Style
-Public Class Userdashboardform
 
+Public Class user_dashboard
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim dr As MySqlDataReader
 
@@ -20,114 +21,42 @@ Public Class Userdashboardform
     Dim benefPath As String = "beneficiary (2).png"
     Dim settingPath As String = "settings.png"
     Dim Home As String = "house (1).png"
-    Private Sub Userdashboardform_Load(sender As Object, e As EventArgs) Handles MyBase.Load '-------------FORM LOAD-------------'
-        pnlDash.Visible = True
-        pnlProfile.Hide()
-        pnlAccount.Hide()
-        pnlContribute.Hide()
-        btnAccSetting.Hide()
-        btnLogout.Hide()
 
-
-
-        DG_Load()
+    Private Sub user_dashboard_load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Get_info()
     End Sub
-    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles SettingIcon.Click '------SETTING ICON-----------'
-        btnAccSetting.Visible = Not btnAccSetting.Visible
-        btnLogout.Visible = Not btnLogout.Visible
-    End Sub
-    Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles btnLogout.Click
+    Private Sub btnLogOut_Click(sender As Object, e As EventArgs) Handles btnLogOut.Click
         Dim AnswerYes As String
         AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "Information")
 
         If AnswerYes = vbYes Then
+            Me.Hide()
             Form2.Show()
-            btnAccSetting.Hide()
-            btnLogout.Hide()
-            pnlDash.Show()
             lblFromTitle.Text = "Home"
             iconFromtitle.Image = Image.FromFile(destinationIconPath + Home)
-            Me.Hide()
         End If
     End Sub
-    Private Sub bttnDash_Click(sender As Object, e As EventArgs) Handles bttnDash.Click '----------------DASHBOARD--------------'
-        pnlDash.Visible = True
-        pnlProfile.Hide()
-        pnlAccount.Hide()
-        pnlContribute.Hide()
-        btnAccSetting.Hide()
-        btnLogout.Hide()
-        iconFromtitle.Image = Image.FromFile(destinationIconPath + dashPath)
-        lblFromTitle.Text = "Dashboard"
+
+    Private Sub Guna2TabControl1_Selected(sender As Object, e As TabControlEventArgs) Handles Guna2TabControl1.Selected
+        If Guna2TabControl1.SelectedTab Is tabDashboard Then
+            lblFromTitle.Text = "Dashboard"
+            iconFromtitle.Image = Image.FromFile(destinationIconPath + dashPath)
+        ElseIf Guna2TabControl1.SelectedTab Is tabProfile Then
+            lblFromTitle.Text = "Profile"
+            iconFromtitle.Image = Image.FromFile(destinationIconPath + profPath)
+            Get_info()
+        ElseIf Guna2TabControl1.SelectedTab Is tabBeneficiary Then
+            lblFromTitle.Text = "Beneficiary"
+            iconFromtitle.Image = Image.FromFile(destinationIconPath + benefPath)
+            DG_Load()
+        ElseIf Guna2TabControl1.SelectedTab Is tabSetting Then
+            lblFromTitle.Text = "Account Setting"
+            iconFromtitle.Image = Image.FromFile(destinationIconPath + settingPath)
+        Else
+            lblFromTitle.Text = "Home"
+            iconFromtitle.Image = Image.FromFile(destinationIconPath + Home)
+        End If
     End Sub
-    Private Sub bttnProf_Click(sender As Object, e As EventArgs) Handles bttnProf.Click '--------------------PROFILE INFORMATION-----------------'
-        pnlProfile.Visible = True
-        pnlAccount.Hide()
-        pnlDash.Hide()
-        pnlContribute.Hide()
-        btnAccSetting.Hide()
-        btnLogout.Hide()
-
-        Get_info()
-        iconFromtitle.Image = Image.FromFile(destinationIconPath + profPath)
-        lblFromTitle.Text = "Profile"
-    End Sub
-    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click   '--------------------BENEFICIARIES---------'
-        pnlContribute.Visible = True
-        pnlProfile.Hide()
-        pnlDash.Hide()
-        pnlAccount.Hide()
-        btnAccSetting.Hide()
-        btnLogout.Hide()
-
-
-        DG_Load()
-        iconFromtitle.Image = Image.FromFile(destinationIconPath + benefPath)
-        lblFromTitle.Text = "Beneficiary"
-    End Sub
-    Private Sub Guna2Button7_Click(sender As Object, e As EventArgs) Handles Guna2Button7.Click '-------------VIEW-------BENEFICIARIES---------'
-        pnlContribute.Visible = True
-        pnlProfile.Hide()
-        pnlDash.Hide()
-        pnlAccount.Hide()
-        btnAccSetting.Hide()
-        btnLogout.Hide()
-
-        DG_Load()
-        iconFromtitle.Image = Image.FromFile(destinationIconPath + benefPath)
-        lblFromTitle.Text = "Beneficiary"
-    End Sub
-
-    Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles btnAccSetting.Click   '-----------ACOUNT SETTINGS----------------'
-        pnlAccount.Visible = True
-        pnlProfile.Hide()
-        pnlDash.Hide()
-        pnlContribute.Hide()
-        btnAccSetting.Hide()
-        btnLogout.Hide()
-
-        iconFromtitle.Image = Image.FromFile(destinationIconPath + settingPath)
-        lblFromTitle.Text = "Account Settings"
-    End Sub
-    Private Sub search_TextChanged(sender As Object, e As EventArgs) Handles search.TextChanged
-        BeneficiariesDGV.Rows.Clear()
-        Try
-            conn.Open()
-            Dim cmd As New MySqlCommand("SELECT * FROM beneficiaries WHERE full_name LIKE '%" & search.Text & "%' AND user_id = @ID", conn)
-            cmd.Parameters.AddWithValue("@ID", Form2.log_id)
-            dr = cmd.ExecuteReader
-
-            While dr.Read
-                BeneficiariesDGV.Rows.Add(dr.Item("user_id"), dr.Item("full_name"), dr.Item("age"), dr.Item("relationship"))
-            End While
-        Catch ex As Exception
-            MsgBox(ex.Message)
-        Finally
-            conn.Close()
-        End Try
-    End Sub
-
-
     Public Sub DG_Load()
         BeneficiariesDGV.Rows.Clear()
         Try
@@ -152,74 +81,85 @@ Public Class Userdashboardform
     End Sub
 
     Public Sub Get_info()
-
-
         Try
-
             conn.Open()
-            Dim cmd As New MySqlCommand("SELECT *, CONCAT(users.first_name, ' ', users.last_name) AS fullName
+            Dim cmd As New MySqlCommand("SELECT *
                             FROM users 
                             INNER JOIN user_info ON users.id = user_info.user_id  
                             WHERE users.id = @ID", conn)
 
             cmd.Parameters.AddWithValue("@ID", Form2.log_id)
             dr = cmd.ExecuteReader
-            If dr.Read() Then
+            While dr.Read
                 Dim imagePath As String = dr.GetString("image")
                 Dim imagePathInResources As String = (destinationPath + imagePath)
-                Dim Gooday As String = "Hello! " + dr.GetString("first_name") + " Welcome back"
-
-
-                lblFname.Text = dr.GetString("fullName")
-                lblPosition.Text = dr.GetString("position")
-                lblFirsts.Text = Gooday
-
-                Pfname.Text = dr.GetString("fullName")
-                Padd.Text = dr.GetString("address")
-                Pcntact.Text = dr.GetString("contact")
-                Pemail.Text = dr.GetString("email")
-                Pbdate.Text = dr.GetDateTime("birthdate")
-
-
-                Peducational.Text = dr.GetString("educational")
-                Pemployment.Text = dr.GetString("employment_status")
-                Poffice.Text = dr.GetString("office")
-                Pposition.Text = dr.GetString("position")
-                Pcommittee.Text = dr.GetString("committee")
-                PSex.Text = dr.GetString("sex")
-
-                txtbxusername.Text = dr.GetString("username")
-                txtbxpassword.Text = dr.GetString("password")
-                txtbxfname.Text = dr.GetString("first_name")
-                txtbxmname.Text = dr.GetString("middle_name")
-                txtbxlname.Text = dr.GetString("last_name")
-                txtbxadds.Text = dr.GetString("address")
-                txtbxcontact.Text = dr.GetString("contact")
-                txtbxemail.Text = dr.GetString("email")
-                cmboSex.SelectedItem = dr.GetString("sex")
-                txtbxeduc.Text = dr.GetString("educational")
-                txtbxbdate.Value = dr.GetString("birthdate")
-                cmbxposition.SelectedItem = dr.GetString("position")
-                cmbxemployment.SelectedItem = dr.GetString("employment_status")
-                cmbxoffice.SelectedItem = dr.GetString("office")
-                cmbxcomm.SelectedItem = dr.GetString("committee")
-                cmbxcomm.SelectedItem = dr.GetString("committee")
+                Dim Gooday As String = "Mr. " + dr.GetString("first_name")
 
                 If File.Exists(imagePathInResources) Then
                     userProfile.Image = Image.FromFile(imagePathInResources)
-
                     user_Profile.Image = Image.FromFile(imagePathInResources)
-
                     ImgProfile.Image = Image.FromFile(imagePathInResources)
+
+                    lblFname.Text = dr.GetString("fullName")
+                    lblFirsts.Text = Gooday
+
+                    Pfname.Text = dr.GetString("fullName")
+                    Padd.Text = dr.GetString("address")
+                    Pcntact.Text = dr.GetString("contact")
+                    Pemail.Text = dr.GetString("email")
+                    Pbdate.Text = dr.GetDateTime("birthdate")
+
+
+                    Peducational.Text = dr.GetString("educational")
+                    Pemployment.Text = dr.GetString("employment_status")
+                    Poffice.Text = dr.GetString("office")
+                    Pposition.Text = dr.GetString("position")
+                    Pcommittee.Text = dr.GetString("committee")
+                    PSex.Text = dr.GetString("sex")
+
+                    txtbxusername.Text = dr.GetString("username")
+                    txtbxpassword.Text = dr.GetString("password")
+                    txtbxfname.Text = dr.GetString("first_name")
+                    txtbxmname.Text = dr.GetString("middle_name")
+                    txtbxlname.Text = dr.GetString("last_name")
+                    txtbxadds.Text = dr.GetString("address")
+                    txtbxcontact.Text = dr.GetString("contact")
+                    txtbxemail.Text = dr.GetString("email")
+                    cmboSex.SelectedItem = dr.GetString("sex")
+                    txtbxeduc.Text = dr.GetString("educational")
+                    txtbxbdate.Value = dr.GetString("birthdate")
+                    cmbxposition.SelectedItem = dr.GetString("position")
+                    cmbxemployment.SelectedItem = dr.GetString("employment_status")
+                    cmbxoffice.SelectedItem = dr.GetString("office")
+                    cmbxcomm.SelectedItem = dr.GetString("committee")
+                    cmbxcomm.SelectedItem = dr.GetString("committee")
                 Else
                     ImgProfile.Image = Nothing
                     userProfile.Image = Nothing
                     user_Profile.Image = Nothing
                 End If
 
-            End If
+            End While
         Catch ex As Exception
             MsgBox("Doesn't work. LOL!")
+        Finally
+            conn.Close()
+        End Try
+    End Sub
+
+    Private Sub search_TextChanged(sender As Object, e As EventArgs) Handles search.TextChanged
+        BeneficiariesDGV.Rows.Clear()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("SELECT * FROM beneficiaries WHERE full_name LIKE '%" & search.Text & "%' AND user_id = @ID", conn)
+            cmd.Parameters.AddWithValue("@ID", Form2.log_id)
+            dr = cmd.ExecuteReader
+
+            While dr.Read
+                BeneficiariesDGV.Rows.Add(dr.Item("user_id"), dr.Item("full_name"), dr.Item("age"), dr.Item("relationship"))
+            End While
+        Catch ex As Exception
+            MsgBox(ex.Message)
         Finally
             conn.Close()
         End Try
@@ -260,12 +200,13 @@ Public Class Userdashboardform
             conn.Close()
         End Try
     End Sub
-    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
-        Update()
-    End Sub
 
     Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
         Get_info()
+    End Sub
+
+    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles btnUpdate.Click
+        Update()
     End Sub
 
     Public Sub SetEPPlusLicenseContext()
@@ -344,8 +285,7 @@ Public Class Userdashboardform
     End Sub
     Private Const SW_SHOWDEFAULT As Integer = 10
 
-
-    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
+    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles btnExport.Click
         Try
             Dim documentsPath As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
             Dim filePath As String = Path.Combine(documentsPath, "employee.xlsx")
@@ -356,7 +296,6 @@ Public Class Userdashboardform
             MsgBox(ex.Message)
         End Try
     End Sub
-
 
 
     '---------NUMBER ONLY AND LETTER ONLY------------'
@@ -377,15 +316,6 @@ Public Class Userdashboardform
         txtbxfname_KeyPress(sender, e)
     End Sub
 
-    Private Sub Guna2Button4_Click_1(sender As Object, e As EventArgs) Handles Guna2Button4.Click
-        Dim opf As New OpenFileDialog
 
-        opf.Filter = "Choose Image(*.jpg; *.png; *.gif) | * .jpg; *.png; *.gif"
-        If opf.ShowDialog = DialogResult.OK Then
-            'imageInput = System.IO.Path.GetFullPath(opf.FileName)
-            sourceFilePath = Path.GetFullPath(opf.FileName)
-            user_Profile.Image = Image.FromFile(sourceFilePath)
-            getExtension = Path.GetExtension(opf.FileName)
-        End If
-    End Sub
+
 End Class
