@@ -6,6 +6,7 @@ Imports OfficeOpenXml
 Imports OfficeOpenXml.Style
 Imports System.Text.RegularExpressions
 Imports DocumentFormat.OpenXml.Office2021.Excel.Pivot
+Imports Org.BouncyCastle.Crypto.IO
 
 Public Class admindash
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -13,13 +14,27 @@ Public Class admindash
     Dim selectedId As Integer = 0
     Dim selectedBenId As Integer
     Dim currentBen As Integer
-    Private Sub admindash_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Dim unionDue As Integer
+    Private Sub admindash_Load(sender As Object, e As EventArgs) Handles MyBase.Load '---------------AUTOLOAD
         liveTimer.Start()
         If Guna2TabControl1.SelectedTab Is tabEmployee Then
             pnlEmployee.Visible = True ' Show the employeepanel
         Else
             tabEdit.Visible = False ' Hide the employeepanel
         End If
+
+
+        Try
+            Dim cmd As New MySqlCommand("select * from contri_types where contribution_name = 'Union Due'", conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                unionDue = rid.GetInt32("amount")
+            End While
+        Catch ex As Exception
+        Finally
+            conn.Close()
+        End Try
+
     End Sub
 
     Private Sub Guna2Tabcontrol1_Click(sender As Object, e As EventArgs) Handles Guna2TabControl1.Click
@@ -363,16 +378,49 @@ Public Class admindash
         Me.Close()
     End Sub
 
-    Private Sub liveTimer_Tick(sender As Object, e As EventArgs) Handles liveTimer.Tick
-        Dim timeZone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("Singapore Standard Time")
-        Dim currentTime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timeZone)
-        Dim currentDate As DateTime = currentTime
-        lblTime.Text = currentDate
-        Static previousMonth As Integer = currentDate.Month
+    Private Sub liveTimer_Tick(sender As Object, e As EventArgs) Handles liveTimer.Tick '--------------------TIMER
 
-        If currentDate.Month <> previousMonth Then
-            previousMonth = currentDate.Month
-        End If
+        Dim timezone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("singapore standard time")
+        Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
+        Dim currentdate As DateTime = currenttime
+        Dim remainer As Integer
+        lblTime.Text = "as of " & currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
+        'Static previousmonth As Integer
+        'Try
+        '    conn.Open()
+        '    Dim cmd As New MySqlCommand("select month(updated_at) as month from contributions", conn) '--------to get the updated date
+        '    rid = cmd.ExecuteReader
+        '    While rid.Read
+        '        previousmonth = rid.GetInt32("month")
+        '    End While
+        '    MsgBox("time worked")
+        'Catch ex As Exception
+        '    MsgBox("time doesn't work")
+        'Finally
+
+        'End Try
+
+        'previousmonth = 5
+        'If currentdate.Month <> previousmonth Then
+        '    remainer = currentdate.Month - previousmonth
+        '    Dim added As Integer
+        '    Try
+
+        '        Dim cmd As New MySqlCommand("select * from contributions", conn)
+        '        rid = cmd.ExecuteReader
+        '        While rid.Read
+        '            added = rid.GetInt32("union_dues") + (unionDue * remainer)
+        '            Dim cmd2 As New MySqlCommand("update contributions set union_dues=@set where user_id=@id", conn)
+        '            cmd.Parameters.AddWithValue("@set", added)
+        '            cmd.Parameters.AddWithValue("@id", rid.GetInt32("id"))
+        '            cmd.ExecuteNonQuery()
+        '            MsgBox("it worked lol")
+        '        End While
+        '    Catch ex As Exception
+        '        MsgBox("everything doesn't work")
+        '    End Try
+        'End If
+        'conn.Close()
     End Sub
 
 
