@@ -19,6 +19,7 @@ Public Class Userdashboardform
     Dim profPath As String = "man.png"
     Dim benefPath As String = "beneficiary (2).png"
     Dim settingPath As String = "settings.png"
+    Dim Home As String = "house (1).png"
     Private Sub Userdashboardform_Load(sender As Object, e As EventArgs) Handles MyBase.Load '-------------FORM LOAD-------------'
         pnlDash.Visible = True
         pnlProfile.Hide()
@@ -44,6 +45,8 @@ Public Class Userdashboardform
             btnAccSetting.Hide()
             btnLogout.Hide()
             pnlDash.Show()
+            lblFromTitle.Text = "Home"
+            iconFromtitle.Image = Image.FromFile(destinationIconPath + Home)
             Me.Hide()
         End If
     End Sub
