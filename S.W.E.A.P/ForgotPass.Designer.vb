@@ -23,37 +23,37 @@ Partial Class ForgotPass
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(ForgotPass))
-        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges59 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges60 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
         Page1 = New TabPage()
@@ -153,7 +153,7 @@ Partial Class ForgotPass
         ' 
         bttnbckLogin.Animated = True
         bttnbckLogin.BorderRadius = 5
-        bttnbckLogin.CustomizableEdges = CustomizableEdges31
+        bttnbckLogin.CustomizableEdges = CustomizableEdges3
         bttnbckLogin.DisabledState.BorderColor = Color.DarkGray
         bttnbckLogin.DisabledState.CustomBorderColor = Color.DarkGray
         bttnbckLogin.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -162,7 +162,7 @@ Partial Class ForgotPass
         bttnbckLogin.ForeColor = Color.White
         bttnbckLogin.Location = New Point(75, 348)
         bttnbckLogin.Name = "bttnbckLogin"
-        bttnbckLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges32
+        bttnbckLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         bttnbckLogin.Size = New Size(173, 45)
         bttnbckLogin.TabIndex = 118
         bttnbckLogin.Text = "BACK"
@@ -171,7 +171,7 @@ Partial Class ForgotPass
         ' 
         bttnNextCred.Animated = True
         bttnNextCred.BorderRadius = 5
-        bttnNextCred.CustomizableEdges = CustomizableEdges33
+        bttnNextCred.CustomizableEdges = CustomizableEdges5
         bttnNextCred.DisabledState.BorderColor = Color.DarkGray
         bttnNextCred.DisabledState.CustomBorderColor = Color.DarkGray
         bttnNextCred.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -180,20 +180,20 @@ Partial Class ForgotPass
         bttnNextCred.ForeColor = Color.White
         bttnNextCred.Location = New Point(291, 348)
         bttnNextCred.Name = "bttnNextCred"
-        bttnNextCred.ShadowDecoration.CustomizableEdges = CustomizableEdges34
+        bttnNextCred.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         bttnNextCred.Size = New Size(173, 45)
         bttnNextCred.TabIndex = 117
         bttnNextCred.Text = "NEXT"
         ' 
         ' Guna2PictureBox2
         ' 
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges35
+        Guna2PictureBox2.CustomizableEdges = CustomizableEdges7
         Guna2PictureBox2.FillColor = Color.Transparent
         Guna2PictureBox2.Image = CType(resources.GetObject("Guna2PictureBox2.Image"), Image)
         Guna2PictureBox2.ImageRotate = 0F
         Guna2PictureBox2.Location = New Point(213, 11)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges36
+        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         Guna2PictureBox2.Size = New Size(102, 73)
         Guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox2.TabIndex = 105
@@ -215,7 +215,7 @@ Partial Class ForgotPass
         ' 
         txtEmail.BorderColor = SystemColors.ButtonShadow
         txtEmail.BorderRadius = 5
-        txtEmail.CustomizableEdges = CustomizableEdges37
+        txtEmail.CustomizableEdges = CustomizableEdges9
         txtEmail.DefaultText = ""
         txtEmail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEmail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -232,7 +232,7 @@ Partial Class ForgotPass
         txtEmail.PlaceholderText = ""
         txtEmail.ReadOnly = True
         txtEmail.SelectedText = ""
-        txtEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges38
+        txtEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         txtEmail.Size = New Size(325, 36)
         txtEmail.TabIndex = 102
         ' 
@@ -251,7 +251,7 @@ Partial Class ForgotPass
         ' 
         txtUname.BorderColor = SystemColors.ButtonShadow
         txtUname.BorderRadius = 5
-        txtUname.CustomizableEdges = CustomizableEdges39
+        txtUname.CustomizableEdges = CustomizableEdges11
         txtUname.DefaultText = ""
         txtUname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtUname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -267,7 +267,7 @@ Partial Class ForgotPass
         txtUname.PasswordChar = ChrW(0)
         txtUname.PlaceholderText = ""
         txtUname.SelectedText = ""
-        txtUname.ShadowDecoration.CustomizableEdges = CustomizableEdges40
+        txtUname.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         txtUname.Size = New Size(325, 36)
         txtUname.TabIndex = 100
         ' 
@@ -301,12 +301,13 @@ Partial Class ForgotPass
         ' 
         txtOtpVerify.BorderColor = SystemColors.ButtonShadow
         txtOtpVerify.BorderRadius = 5
-        txtOtpVerify.CustomizableEdges = CustomizableEdges41
+        txtOtpVerify.CustomizableEdges = CustomizableEdges13
         txtOtpVerify.DefaultText = ""
         txtOtpVerify.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtOtpVerify.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtOtpVerify.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtOtpVerify.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtOtpVerify.Enabled = False
         txtOtpVerify.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtOtpVerify.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtOtpVerify.ForeColor = Color.Black
@@ -317,7 +318,7 @@ Partial Class ForgotPass
         txtOtpVerify.PasswordChar = ChrW(0)
         txtOtpVerify.PlaceholderText = ""
         txtOtpVerify.SelectedText = ""
-        txtOtpVerify.ShadowDecoration.CustomizableEdges = CustomizableEdges42
+        txtOtpVerify.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         txtOtpVerify.Size = New Size(325, 36)
         txtOtpVerify.TabIndex = 117
         ' 
@@ -334,13 +335,13 @@ Partial Class ForgotPass
         ' 
         ' Guna2PictureBox4
         ' 
-        Guna2PictureBox4.CustomizableEdges = CustomizableEdges43
+        Guna2PictureBox4.CustomizableEdges = CustomizableEdges15
         Guna2PictureBox4.FillColor = Color.Transparent
         Guna2PictureBox4.Image = CType(resources.GetObject("Guna2PictureBox4.Image"), Image)
         Guna2PictureBox4.ImageRotate = 0F
         Guna2PictureBox4.Location = New Point(213, 11)
         Guna2PictureBox4.Name = "Guna2PictureBox4"
-        Guna2PictureBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges44
+        Guna2PictureBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         Guna2PictureBox4.Size = New Size(102, 73)
         Guna2PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox4.TabIndex = 107
@@ -350,7 +351,7 @@ Partial Class ForgotPass
         ' 
         Guna2Button5.Animated = True
         Guna2Button5.BorderRadius = 5
-        Guna2Button5.CustomizableEdges = CustomizableEdges45
+        Guna2Button5.CustomizableEdges = CustomizableEdges17
         Guna2Button5.DisabledState.BorderColor = Color.DarkGray
         Guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button5.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -359,7 +360,7 @@ Partial Class ForgotPass
         Guna2Button5.ForeColor = Color.White
         Guna2Button5.Location = New Point(75, 348)
         Guna2Button5.Name = "Guna2Button5"
-        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges46
+        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         Guna2Button5.Size = New Size(173, 45)
         Guna2Button5.TabIndex = 116
         Guna2Button5.Text = "BACK"
@@ -380,7 +381,7 @@ Partial Class ForgotPass
         ' 
         Guna2Button1.Animated = True
         Guna2Button1.BorderRadius = 5
-        Guna2Button1.CustomizableEdges = CustomizableEdges47
+        Guna2Button1.CustomizableEdges = CustomizableEdges19
         Guna2Button1.DisabledState.BorderColor = Color.DarkGray
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -389,7 +390,7 @@ Partial Class ForgotPass
         Guna2Button1.ForeColor = Color.White
         Guna2Button1.Location = New Point(291, 348)
         Guna2Button1.Name = "Guna2Button1"
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges48
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         Guna2Button1.Size = New Size(173, 45)
         Guna2Button1.TabIndex = 115
         Guna2Button1.Text = "NEXT"
@@ -426,7 +427,7 @@ Partial Class ForgotPass
         ' 
         Guna2Button4.Animated = True
         Guna2Button4.BorderRadius = 5
-        Guna2Button4.CustomizableEdges = CustomizableEdges49
+        Guna2Button4.CustomizableEdges = CustomizableEdges21
         Guna2Button4.DisabledState.BorderColor = Color.DarkGray
         Guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button4.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -435,7 +436,7 @@ Partial Class ForgotPass
         Guna2Button4.ForeColor = Color.White
         Guna2Button4.Location = New Point(75, 348)
         Guna2Button4.Name = "Guna2Button4"
-        Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges50
+        Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         Guna2Button4.Size = New Size(173, 45)
         Guna2Button4.TabIndex = 118
         Guna2Button4.Text = "BACK"
@@ -444,7 +445,7 @@ Partial Class ForgotPass
         ' 
         Guna2Button6.Animated = True
         Guna2Button6.BorderRadius = 5
-        Guna2Button6.CustomizableEdges = CustomizableEdges51
+        Guna2Button6.CustomizableEdges = CustomizableEdges23
         Guna2Button6.DisabledState.BorderColor = Color.DarkGray
         Guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button6.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -453,20 +454,20 @@ Partial Class ForgotPass
         Guna2Button6.ForeColor = Color.White
         Guna2Button6.Location = New Point(291, 348)
         Guna2Button6.Name = "Guna2Button6"
-        Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges52
+        Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         Guna2Button6.Size = New Size(173, 45)
         Guna2Button6.TabIndex = 117
-        Guna2Button6.Text = "NEXT"
+        Guna2Button6.Text = "SUBMIT"
         ' 
         ' Guna2PictureBox3
         ' 
-        Guna2PictureBox3.CustomizableEdges = CustomizableEdges53
+        Guna2PictureBox3.CustomizableEdges = CustomizableEdges25
         Guna2PictureBox3.FillColor = Color.Transparent
         Guna2PictureBox3.Image = CType(resources.GetObject("Guna2PictureBox3.Image"), Image)
         Guna2PictureBox3.ImageRotate = 0F
         Guna2PictureBox3.Location = New Point(209, 11)
         Guna2PictureBox3.Name = "Guna2PictureBox3"
-        Guna2PictureBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges54
+        Guna2PictureBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         Guna2PictureBox3.Size = New Size(106, 91)
         Guna2PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox3.TabIndex = 111
@@ -488,12 +489,13 @@ Partial Class ForgotPass
         ' 
         txtConfirmPass.BorderColor = SystemColors.ButtonShadow
         txtConfirmPass.BorderRadius = 5
-        txtConfirmPass.CustomizableEdges = CustomizableEdges55
+        txtConfirmPass.CustomizableEdges = CustomizableEdges27
         txtConfirmPass.DefaultText = ""
         txtConfirmPass.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtConfirmPass.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtConfirmPass.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtConfirmPass.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtConfirmPass.Enabled = False
         txtConfirmPass.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtConfirmPass.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtConfirmPass.ForeColor = Color.Black
@@ -504,7 +506,7 @@ Partial Class ForgotPass
         txtConfirmPass.PasswordChar = "*"c
         txtConfirmPass.PlaceholderText = ""
         txtConfirmPass.SelectedText = ""
-        txtConfirmPass.ShadowDecoration.CustomizableEdges = CustomizableEdges56
+        txtConfirmPass.ShadowDecoration.CustomizableEdges = CustomizableEdges28
         txtConfirmPass.Size = New Size(325, 36)
         txtConfirmPass.TabIndex = 108
         ' 
@@ -523,12 +525,13 @@ Partial Class ForgotPass
         ' 
         txtNewPass.BorderColor = SystemColors.ButtonShadow
         txtNewPass.BorderRadius = 5
-        txtNewPass.CustomizableEdges = CustomizableEdges57
+        txtNewPass.CustomizableEdges = CustomizableEdges29
         txtNewPass.DefaultText = ""
         txtNewPass.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtNewPass.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
         txtNewPass.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtNewPass.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtNewPass.Enabled = False
         txtNewPass.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtNewPass.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtNewPass.ForeColor = Color.Black
@@ -539,7 +542,7 @@ Partial Class ForgotPass
         txtNewPass.PasswordChar = "*"c
         txtNewPass.PlaceholderText = ""
         txtNewPass.SelectedText = ""
-        txtNewPass.ShadowDecoration.CustomizableEdges = CustomizableEdges58
+        txtNewPass.ShadowDecoration.CustomizableEdges = CustomizableEdges30
         txtNewPass.Size = New Size(325, 36)
         txtNewPass.TabIndex = 106
         ' 
@@ -587,12 +590,12 @@ Partial Class ForgotPass
         ' 
         ' Guna2PictureBox1
         ' 
-        Guna2PictureBox1.CustomizableEdges = CustomizableEdges59
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges1
         Guna2PictureBox1.Image = My.Resources.Resources.close
         Guna2PictureBox1.ImageRotate = 0F
         Guna2PictureBox1.Location = New Point(771, 5)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges60
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2PictureBox1.Size = New Size(24, 24)
         Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox1.TabIndex = 117
