@@ -287,17 +287,17 @@ Partial Class signups
         Guna2TabControl1.Size = New Size(1043, 412)
         Guna2TabControl1.TabButtonHoverState.BorderColor = Color.Empty
         Guna2TabControl1.TabButtonHoverState.FillColor = Color.FromArgb(CByte(40), CByte(52), CByte(70))
-        Guna2TabControl1.TabButtonHoverState.Font = New Font("Segoe UI Semibold", 10.0F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TabControl1.TabButtonHoverState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TabControl1.TabButtonHoverState.ForeColor = Color.White
         Guna2TabControl1.TabButtonHoverState.InnerColor = Color.FromArgb(CByte(40), CByte(52), CByte(70))
         Guna2TabControl1.TabButtonIdleState.BorderColor = Color.Empty
         Guna2TabControl1.TabButtonIdleState.FillColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
-        Guna2TabControl1.TabButtonIdleState.Font = New Font("Segoe UI Semibold", 10.0F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TabControl1.TabButtonIdleState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TabControl1.TabButtonIdleState.ForeColor = Color.FromArgb(CByte(156), CByte(160), CByte(167))
         Guna2TabControl1.TabButtonIdleState.InnerColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
         Guna2TabControl1.TabButtonSelectedState.BorderColor = Color.Empty
         Guna2TabControl1.TabButtonSelectedState.FillColor = Color.FromArgb(CByte(29), CByte(37), CByte(49))
-        Guna2TabControl1.TabButtonSelectedState.Font = New Font("Segoe UI Semibold", 10.0F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TabControl1.TabButtonSelectedState.Font = New Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TabControl1.TabButtonSelectedState.ForeColor = Color.White
         Guna2TabControl1.TabButtonSelectedState.InnerColor = Color.FromArgb(CByte(76), CByte(132), CByte(255))
         Guna2TabControl1.TabButtonSize = New Size(180, 40)
@@ -353,7 +353,7 @@ Partial Class signups
         Guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button5.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button5.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button5.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2Button5.ForeColor = Color.White
         Guna2Button5.Location = New Point(621, 272)
         Guna2Button5.Name = "Guna2Button5"
@@ -371,7 +371,7 @@ Partial Class signups
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button1.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2Button1.ForeColor = Color.White
         Guna2Button1.Location = New Point(809, 272)
         Guna2Button1.Name = "Guna2Button1"
@@ -385,7 +385,7 @@ Partial Class signups
         dateBday.BorderRadius = 5
         dateBday.Checked = True
         dateBday.CustomizableEdges = CustomizableEdges5
-        dateBday.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
+        dateBday.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         dateBday.Format = DateTimePickerFormat.Long
         dateBday.Location = New Point(33, 272)
         dateBday.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
@@ -418,7 +418,7 @@ Partial Class signups
         txtEduc.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtEduc.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtEduc.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEduc.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtEduc.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtEduc.ForeColor = Color.Black
         txtEduc.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtEduc.Location = New Point(666, 191)
@@ -442,7 +442,7 @@ Partial Class signups
         txtEmail.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtEmail.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtEmail.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtEmail.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtEmail.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtEmail.ForeColor = Color.Black
         txtEmail.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtEmail.Location = New Point(358, 191)
@@ -466,7 +466,7 @@ Partial Class signups
         txtContact.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtContact.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtContact.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtContact.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtContact.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtContact.ForeColor = Color.Black
         txtContact.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtContact.Location = New Point(34, 191)
@@ -490,7 +490,7 @@ Partial Class signups
         txtAddress.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtAddress.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtAddress.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtAddress.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtAddress.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtAddress.ForeColor = Color.Black
         txtAddress.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtAddress.Location = New Point(34, 117)
@@ -590,7 +590,7 @@ Partial Class signups
         txtLname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtLname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtLname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtLname.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtLname.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtLname.ForeColor = Color.Black
         txtLname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtLname.Location = New Point(564, 44)
@@ -614,7 +614,7 @@ Partial Class signups
         txtMname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtMname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtMname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtMname.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtMname.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtMname.ForeColor = Color.Black
         txtMname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtMname.Location = New Point(299, 44)
@@ -649,7 +649,7 @@ Partial Class signups
         txtFname.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtFname.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtFname.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtFname.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtFname.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtFname.ForeColor = Color.Black
         txtFname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtFname.Location = New Point(34, 44)
@@ -713,7 +713,7 @@ Partial Class signups
         Guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button6.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button6.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button6.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2Button6.ForeColor = Color.White
         Guna2Button6.Location = New Point(647, 295)
         Guna2Button6.Name = "Guna2Button6"
@@ -731,7 +731,7 @@ Partial Class signups
         Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button2.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2Button2.ForeColor = Color.White
         Guna2Button2.Location = New Point(826, 295)
         Guna2Button2.Name = "Guna2Button2"
@@ -749,7 +749,7 @@ Partial Class signups
         comboCommit.DropDownStyle = ComboBoxStyle.DropDownList
         comboCommit.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         comboCommit.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        comboCommit.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        comboCommit.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         comboCommit.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         comboCommit.ItemHeight = 30
         comboCommit.Items.AddRange(New Object() {"Education, Information & Research", "Organizing & Membership", "Grievances", "Welfare", "Finance", "Sports & Culture"})
@@ -768,7 +768,7 @@ Partial Class signups
         comboEmployStat.DropDownStyle = ComboBoxStyle.DropDownList
         comboEmployStat.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         comboEmployStat.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        comboEmployStat.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        comboEmployStat.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         comboEmployStat.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         comboEmployStat.ItemHeight = 30
         comboEmployStat.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
@@ -787,7 +787,7 @@ Partial Class signups
         comboPos.DropDownStyle = ComboBoxStyle.DropDownList
         comboPos.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         comboPos.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        comboPos.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        comboPos.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         comboPos.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         comboPos.ItemHeight = 30
         comboPos.Items.AddRange(New Object() {"AA I", "AA II", "AA II Pantawid Pamilya RPMO", "AA III", "AA III - Sr.Bookkeeper", "AA III / Information Officer NHTS-PR", "AA III-Munipical Roving Bookkeeper", "AA-II ", "AA-II KALAHI-CIDDS", "AA-II KALAHI-CIDDS NCDDP_AF", "AC-KAASA", "Accountant I", "Accountant I/Officer in charge", "Accountant II", "Accountant III", "Accounting Clerk", "Acting Secretary", "Acting Social Welfare Officer III", "Activity Therapist", "Activity Worker I", "Admin Aide I", "Admin AIDE III", "Admin AIDE IIII", "Admin AIDE IV", "Admin AIDE VI ", "Admin Assistant", "Admin Assistant III", "Admin Assistant III (Computer Operator II)", "Admin Assistant V (Private Secretary I)", "Admin cum Finance Officer", "Admin Officer IV-Head, RROS", "Admin. Aide VI", "Admin.Assitant III/Information Officer (Listahanan)", "Admin.Officer IV/Head", "Admin.Officer V-Unit Head ", "Administrative Aide I", "Administrative Aide II", "Administrative Aide III", "Administrative Aide III (Encoder)", "Administrative Aide IV", "Administrative Aide IV (Clerk II)", "Administrative Aide IV (Driver)", "Administrative Aide IV (Encoder)", "Administrative Aide IV/Encoder", "Administrative Aide V", "Administrative Aide V (Chauffer I)", "Administrative Aide VI", "Administrative Aide VI (Clerk III)", "Administrative Assistant I", "Administrative Assistant II", "Administrative Assistant II (Procurement)", "Administrative Assistant II/SLP", "Administrative Assistant III", "Administrative Assistant III (Cash Clerk)", "Administrative Assistant III - Budget", "Administrative Assistant III (Budget Assistant)", "Administrative Assistant III/Senior Bookkeeper", "Administrative Assistant III/Socpen Accounting", "Administrative Assistant IV", "Administrative Assistant V", "Administrative Assistant V (Private Secretary I)", "Administrative Assistant VI ", "Administrative Cum Finance Officer", "Administrative Officer I", "Administrative Officer II", "Administrative Officer II - Infastructure Assistant", "Administrative Officer II - Property & Asset Officer", "Administrative Officer II/Head", "Administrative Officer III", "Administrative Officer IV", "Administrative Officer IV/KALAHI-CIDSS", "Administrative Officer IV/Encoder", "Administrative Officer IV/Head", "Administrative Officer V", "Administrative Officer V/Budget Officer", "Administrative Officer V/Financial Analyst III", "Administrative Officer V/Head", "Administrative Program Focal (PDO II-municipal link)", "Administrative Staff", "Administrative Support Staff", "AO II", "AO II/Financial Analyst II ", "AO II / PSYCHOMETRICIAN", "AO II-OIC Head, Property, Supply & Asset Mngt.Section", "AO II-Pantawid Property Officer", "AO II-Property Officer", "AO II-Property & Asset Officer", "AO II-Property Officer (Mainstream Staff Pantawid)", "AO IV", "AO IV-Financial Analyst II", "AO IV/Financial Analyst II", "AO IV/OIC-Procurement Unit Head", "AO V", "AO V-CASH HEAD", "AO V/Budget Officer NHTS-PR", "AOV-FMD-Cash-Head", "Architect I", "Architect II", "Architect III", "ARDO", "Area Coordinator", "Area Coordinarot/KALAHI CIDSS", "AREA SUPERVISOR", "Assistant Bureau Director", "Assistant Information Officer", "Assistant Regional Director for Administration (ARDA)", "Assistant Regional Director for Operations (ARDO)", "Assistant Secretary", "Assistant Secretary / OIC-IMB", "Assistant Secretary for OASOPG-Protective Programs ", "Assistant Service Director", "Associate Statistician", "Attorney III", "AttorneyIV", "Attorney V", "Audio-Visual Aids Technician III", "Audio-Visual Equipment Operator II", "AUDIT TEAM LEADER", "AUDIT TEAM MEMBER", "AVRC II Center Head", "BAC SEC & Procurement Service", "BAHAY PAG-ASA NG LAGUNA - CENTER HEAD", "BDM", "Beneficiary Update System Focal - PDO I", "Beneficiary Update System Focal - PDO II", "Bookkeeper", "BTMS-ENCODER", "Budget Assistant", "Budget Officer I", "Budget Officer II", "Budget Officer III", "Bureau Director", "CAD Operator", "Caretaker", "Carpenter", "Case Worker for MCCT (PDOII)", "Cash Clerk", "CASH CLERK / KALAHI-CIDSS", "Cashier II", "CDA II", "CEF - KALAHI CIDSS", "CEF / Executive Assistant", "CENTER HEAD", "CENTERS AND RESIDENTIAL CARE FACILITIES (CRCF)", "Chief", "Chief Account", "Chief Admin.Officer / OIC ARD for Administration", "Chief Administrative Officer", "Chief Administrative Officer V", "Chief Infastructure Engineer", "Child Psychologist for MCCT", "City Link", "City Link Officer", "CIVIL ENGINEER", "CL", "Clerk I", "Clerk II", "Clerk III/ HRMDD", "Clerk/Encoder", "Cluster Beneficiary Data Officer", "Cluster Compliance Verification System Focal", "Cluster Focal Person (BDM)", "Cluster Greivance Redress System Focal", "Cluster Greivance Officer", "CMT I", "CMT II", "CMT II - MCCT", "COA AUDITOR", "Comm. Development Officer III", "Commission on Audit XI", "Communication Equipment Operator I", "Communications Specialist", "Communications Officer IV", "Community Development Assistant", "Community Development Assistant II", "Community Development Officer II", "Community Development Officer III", "COMMUNITY DEVELOPMENT OFFICER III - IT", "COMMUNITY DEVELOPMENT OFFICER IV", "COMMUNITY DEVELOPMENT OFFICER IV/KALAHI CIDSS", "Community Empowerment Facilitator", "Community Empowerment Facilitator - Roving ", "Community Facilitator", "Community Facilitator Aide", "Community Facilitator Assistant", "Community Finance Facilitator", "Community Finance Monitor", "Community Financial Analyst", "Community Infastructure Officer ", "Community Infastructure Officer III", "Community Infastructure Specialist ", "Community Organizer", "Community Organizer III", "Community Procurement Officer ", "Community Procurement Officer 3", "Community Procurement Officer III", "Community Procurement Specialist ", "Computer Encoder", "Computer Maintenance Technologist I", "Computer Maintenance Technologist II", "Computer Operator", "Computer Operator I", "Computer Operator II", "Computer Operator III", "Computer Operator IV", "Computer Programmer I", "Computer Programmer II", "Computer Programmer III", "Concurrent Head", "Concurent National Program Manager", "Concurent OIC", "Consultant", "Convergeance Coordinator", "Cook", "Cook I", "Cook II", "CPO", "CPO IV", "Crative Arts Specialist", "DAC - DEPUTY ARE COORDINATOR", "Data Analyst III", "Data Encoder", "Database Specialist", "Day Care Worker I", "Day Care Worker II", "Default", "Dentist II", "Department Assistant Secretary", "Department Legislative Liaison Specialist", "Department Secretary", "Department Undersecretary", "Deputy Area Coordinator - Electrical Engineer", "Deputy Area Coordinator - Geoditic Engineer", "Deputy Area Coordinator - IT", "Deputy Community Development Specialist", "Deputy Director", "Deputy Nat'l Community - Infra. Engr.", "Deputy National M & E Specialist", "Deputy National Program Manager for Operations", "Deputy National Training Specialist", "Deputy NCBS", "Deputy Program Director", "Deputy Program Manager", "Deputy Program Manager Operation", "Deputy Regional Program Manager", "Deputy Regional Project Manager", "Deputy Technical Facilitator", "Derector", "Director III", "Director IV", "Division Chief", "Dormitory Manager I", "Dormitory Manager II", "DPMO", "DPMO/PROPERTY WAREHOUSE", "DPSC", "DRAFTSMAN", "Driver", "Driver II", "DSWD FO CARAGA", "ECCD Teacher", "Echonomist III", "Electrical Engineer", "Electrician I ", "Electrician II ", "Encoder", "Encoder III", "Encoder-BTMS", "Engineer I", "Engineer II", "Engineer III", "Engineer IV", "Engineer AIDE", "Environtmental Safeguard Specialist", "Executive Assistant ", "Executive Assistant I", "Executive Assistant II", "Executive Assistant III", "Executive Assistant IV", "Executive Assistant V", "Executive Assistant VI", "Executive Secretary/ Senior Administrative Assistant III", "FA - MAGSAYSAY", "FA II", "FA III", "Family Welfare Assistant for MCCT", "FDS Coordinator", "Field Program Manager", "Field Office Coordinator", "Field Program Manager", "Finance Officer Cum Administrative Officer", "Finance Officer III", "Financial Analyst", "Financial Analyst I", "Financial Analyst II", "Financial Analyst III", "Financial Analyst III (Budget Officer)", "Financial Analyst III (Cash Grants)", "Financial Analyst III/KALAHI CIDSS", "Financial Analyst IV", "Financial Analyst V", "Financial Analyst V (Project Accountant)", "Financial Assistant III", "FMD Chief", "FOCAL PERSON FOR OSEC", "FOR STORAGE", "FPC", "Gender Specialist", "Geodetic Engineer", "GIS Specialist", "Governance Specialist", "Goverment Intership Program", "Greivance Redress System Focal", "Greivance, Admin Officer", "Handicaft Worker II", "Head ", "Head Executive Assistant", "Head, Accounting Section", "Head, RAMS", "Heavy Equipment Operator I", "HMO Inlife Customer Service Representative", "House Attendant ", "Household Attendant III", "Houseparent I", "HOUSEPARENT II", "houseparent III", "Houseparent IV", "HR - Learning and Development", "HR Specialist", "HRMDD CHIEF", "Human Relations Officer I ", "Human Resource Officer", "Human Resource Officer I", "Human Resource Officer II", "Information analyst I", "Information Officer", "Information Officer I", "Information Officer I/Social Pension Program", "Information Officer I/UCT", "Information Officer II", "Information Officer III ", "Information Officer III (Social Marketing Officer III)", "Information Officer IV", "Information Officer V", "Information Specialist Analyst", "Information System Analyst", "Information System Analyst I", "Information System Analyst III", "Information Systems Analyst", "Information Technology Officer (Team Leader)", "Information Technology Officer I", "Information Technology Officer II", "Information Technology Officer III", "Institutional Partnership and Development Officer", "Instructor ", "Inter Auditing Assistant", "Internal Auditor I", "Internal Auditor II", "Internal Auditor III", "Internal Auditor IV", "Internal Auditor V", "IO", "IPDO", "JOB ORDER", "Job Placement Officer", "Junior Capacity Building Specialist", "Junior Community Procurement Specialist", "KALAHI CIDSS - Japan Fund for Proverty Reduction", "KM Writer", "Knowledge Management Writer", "Laundry Worker I ", "Laundry Worker II", "Laundry Worker/Cook", "Laundrywoman", "Legal Assistant I", "Legal Assistant II", "LIBRARIAN I", "Librarian II", "Logistic Officer III", "M & E Assistant III", "M & E I", "M & E II", "M & E Specialist", "M & E IV", "M & E V", "M & E Officer III", "Management and Audit Analyst II", "Management Audit Analyst", "Management Audit Analyst II", "Management Audit Analyst IV", "MANPOWER DEVELOPMENT ASSISTANT ", "Manpower Development Officer I", "Manpower Development Officer II", "Manpower Development Officer III", "MCCT Coordinator", "MDO I / PSYCHOMETRICIAN", "Media Officer IV", "Media Production Specialist", "Media Prodcution Specialist III", "MEDICAL OFFICER", "Medical Officer III", "Medical Officer IV", "MFA", "Midwife I", "Minister of Social Service BARMM", "ML PATNANUNGAN", "MOA", "Monitoring & Evaluation Officer I", "Monitoring & Evaluation Officer II", "Monitoring & Evaluation Officer III", "Monitoring & Evaluation III ", "Monitoring & Evaluation Officer ", "Monitoring & Evaluation Officer III (External)", "Monitoring & Evaluation Officer IV", "Monitoring & Evaluation Officer V", "MRB", "Municipal Financial Analyst", "Municipal Financial Analyst/KALAHI-CIDSS", "Municipal Financial Analyst", "Municipal Link", "Minicipal Link Officer", "Municipal Monitoring ", "Municipal Rooving Bookkeeper", "Municipal Roving Bookkeeper", "Municipal Social Welfare Development Officer", "National Capability Building Specialist", "National Community Infrastructure", "National DRRM Support Coordinator", "National Financial Analyst - KCMCC", "National M & E Specialist", "National Training Officer", "NCDS", "NHTO IT-Division Chief/ITO3", "Nurse I", "Nurse II", "Nutritionist-Dietician I", "Nutritionist-Dietician II", "Nutritionist-Dietician III", "Nutritionist-Dietician V", "OASOPG-PP", "ODM Specialist", "OIC ", "OIC - Director IV", "OIC AUDIT TEAM LEADER", "OIC DIVISION Chief - DReMD", "OIC Head, Property & Supply Section", "OIC - Assistant Regional Director for Operations", "OIC - ASEC - OASOSG", "OIC - Assistant Director", "OIC - Assistant Secretary", "OIC - Assistant Service Director", "OIC-Asst. Secretary for OSG", "OIC - Center Head", "OIC - CHIEF", "OIC Director", "OIC - Division Chief", "OIC - GSD", "OIC - Procurement Unit Head", "OIC - Regional Director", "OIC - USEC", "OIC/Chief", "OJT", "On-the-job Trainee", "Operations Program Focal (PDO II - Municipal Link)", "Organizational Development Specialist III", "Organizational Development Specialist IV", "Organizational Training Specialist IV", "Payapa at Masaganang Pamayanan ", "PDO", "PDO I", "PDO I/FMD Cash Grants ", "PDO I/DRMD ", "PDO I/Grievance Officer", "PDO I/provincial Monitoring Evaluation Officer", "PDO II", "PDO II - System coordinator", "PDO II Municipal link", "PDO II (Case Worker)", "PDO II - BUS", "PDO II - BUS Focal Person", "PDO - Coordination to Partner Agencies", "PDO II - CVS", "PDOII - EPAHPH", "PDO II - GAD", "PDO II - GRS", "PDO II - GRS (Cluster) ", "PDO II - Information II", "PDO II - IP", "PDO II - Monitoring & Evaluation Officer", "PDO II - SWAD TL", "PDO II / Capability building ", "PDO II / DRMD CCAM", "PDO II / ML TUAO, CAGAYAN", "PDO II / Municipal Link, Alicia, Isabela", "PDO II / Municipal Link, Ilagan City, Isabela", "PDO II / RMEO", "PDO II / SLP Batanes", "PDO II / SWAD TL", "PDO II / GRS ", "PDO II Municipal Link, Abulug, Cagayan", "PDO II - Institutional Partnership Development Officer", "PDO II - City link, Tuguegarao City, Cagayan", "PDO II - Cluster Benefeciary Data Officer", "PDO II - MCCT Community Facilitator", "PDO II - Municipal Link", "PDO II - Municipal Link Dupax Del Norte,N.V", "PDO II - Municipal Link, Ambaguio", "PDO II - Municipal Link, Buguey, Cagayan", "PDO II - Municipal Link, Diadi, N.V", "PDO II - Municipal Link, Enrile, Cagayan", "PDO II - Municipal Link, Iguig, Cagayan", "PDO II - Municipal Link, Napagtipunan, Quirino", "PDO II - Municipal Link, Saguday, Quirino", "PDO II - Municipal Link, Dupax Del Sur, N.V", "PDO II - Provincial Systems Focal", "PDO II - Regional Monitoring and Evaluation Officer", "PDO II/PMEO SLP ISABELA", "PDO II/Provincial Coordinator", "PDO II/Child Labord Focal Person", "PDO II/DRMD", "PDO II/DRMD CCAM", "PDO II/Geographic Info.System Specialist", "PDO II/Information Officer", "PDO II/LIQUIDATION FOCAL/RMEF", "PDO II/MCCT San Pablo, Isabela", "PDO II/ML APARRI, CAGAYAN", "PDO II/ML TUAO, CAGAYAN", "PDO II/MUNICIPAL LINK", "PDO II/Municipal Link Bambang, NV", "PDO II/Municipal Link Claveri, Cagayan", "PDO II/Municipal Link Diadi, NV", "PDO II/Municipal Link Dinapigue, Isabela", "PDO II/Municipal Link Gattaran, Cagayan", "PDO II/Municipal Link Kayapa, Nueva Viscaya", "PDO II/Municipal Link Pamplano, Cagayan", "PDO II/Municipal Link Peablanca, Cagayan", "PDO II/Municipal Link Quezon, Nueva Viscaya", "PDO II/Municipal LInk Rizal,Cagayan", "PDO II/Municipal Link Roxas,Isabela", "PDO II/Municipal Link San Isidro, Cagayan", "PDO II/Municipal Link San Isidro, Isabela", "PDO II/Municipal Link Sanchez Mira, Cagayan", "PDO II/Municipal Link Solano,NV", "PDO II/Municipal LInk Sta.Fe,NV", "PDO II/Municipal Link Sta.Praxedes,Cagayan", "PDO II/Municipal Link Sto.Nino,Cagayan", "PDO II/Municipal Link Villaverde", "PDO II/Municipal Link, Aparri,Cagayan", "PDO II/Municipal Link, Buguey, Cagayan", "PDO II/Municipal Link, Burgos, Isabela", "PDO II/Municipal Link, Divilacan, Isabela", "PDO II/Municipal Link, Jones,Isabela", "PDO II/Municipal Link,MACONACON, ISABELA", "PDO II/Municipal Link,SAn Agustin,Isabela", "PDo II/Municipal Link,San Mariano,Isabela", "PDO II/Municipal Link,San Mateo,Isabela", "PDO II/Municipal Link,Tumauini,Isabela", "PDO II/Municipal Link,Divilacan,Isabela", "PDO II/Municipal Link,Echague,Isabela", "PDO II/Municipal Link,Maconacon,Isabela", "PDO II/Municipal Link,San Mariano,Isabela", "PDO II/PMEO ISABELA", "PDO II/PMEO NUEVA VIZCAYA", "PDO II/PMEO QUIRINO", "PDO II/Private Sector Partnership Officer", "PDO II/Provincial Coordinator Isabela, Cagayan", "PDO II/Provincial Coordinator SLP Isabela", "PDO II/Provincial Coordinator SLP Quirino", "PDO II/Reports Generation", "PDO III", "PDO III/Area Coordinator", "PDO III/Area Coordinator", "PDO III/Civil Engineer", "PDO III TEchnical Staff/RSCWC", "PDO III/Area Coordinator", "PDO III/Head, CVRRCY", "PDO III/Reg'l Center Coordinator", "PDO III/RSCWC", "PDO IV", "PDO V/ RPC", "PDO V/Division", "PDO V/Regional Field Coordinator UCT", "PDO-I Social Pension", "PDO-II", "PDO-IIDRMMD", "PEO I", "PEO III", "PGO", "Photographer II", "Physical Therapist II", "Planning Officer I", "Planning Officer II", "Planning Officer III", "Planning Officer IV", "Planning Officer V", "Plumber", "PMEO", "PMO-EE", "Policy and Plans Division Chief", "PPG-OSM", "PPO", "Prisedent - SWEAP", "Private Secretary", "Private Secretary I ", "Procurement Assistant", "Procurement Assistant II", "PROCUREMENT ASST.", "Procurement Development Officer III", "Procurement Officer", "Procurement Specialist", "Profect Development Officer II (DRAFTMAN)", "Program Development III", "Project Evaluation Specialist", "Program Manager", "Program Officer", "Project Coordinator", "Project Development Office III", "Project Development Officer", "Project Development Officer I", "Project Development Officer I - KC", "Project Development Officer I - Nurse", "Project Development Officer I - Nutritionist - Dietician I", "Project Development Officer I/CAMP MANAGERS", "Project Development Officer II", "Project Development Officer II (CVS Focal)", "Project Development Officer II - BP2P", "Project Development Officer II - Database Specialist ", "Project Development Officer II - Infrastructure", "Project Development Officer II/SLP", "Project Development Officer II-CVS Focal (POO 2 Isabela)", "Project Development Officer II - MCCT", "Project Development Officer II - MunicipaL Link", "Project Development Officer II/GRS Focal", "Project Development Officer II/SLP", "Project Development Officer III", "Project Development Officer III - FDS Focal", "Project Development Officer III/Centenarian Focal Person", "Project Development Officer III/Regional Program Coordinator", "Project Development Officer IV ", "Project Development Officer V", "Project Development Officer V (Gender Specialist)", "Project Development Officer V (IP Specialist)", "Project Development Officer V - OIC", "Project Evaluation Officer", "Project Evaluation Officer II", "Project Evaluation Officer III", "Project Evaluation Officer IV", "Project Evaluation Officer V", "Project Management Officer", "Project Manager (UCT)", "Project Manager IV", "Project Officer", "Property Officer/Warehouse", "Provincial AA", "Provincial AA II", "Provincial Bus Officer (PDO II)", "PROVINCIAL CL", "Provinvial Coordinator", "Provinvial CVS Officer (PDO II)", "Provincial Grievance Officer", "Provincial Grievance Officer (PDO II)", "Provincial GRS Officer (PDO II)", "Provincial Link", "Psychologist I", "Psychologist II", "Psychologist III", "Psychometrician I", "Public Relations Officer IV", "Quality Management Specialist", "Records Officer ", "Regional Accountant", "Regional bookkeeper", "Regional capability Building Specialist", "Regional Community Development Specialist", "Regional Community Infrastructure Specialist", "Regional Director", "Regional Driver (KC-NCDDP) ", "Regional Executive Assistant ", "Regional Field Coordinator", "Regional Finance Specialist", "Regional Financial Analyst", "Regional Information Officer", "Regional Information Officer II-Head,SMU", "Regional Information Technology Officer ", "Regional Information Technology Officer I", "Regional Information Technology Officer II", "Regional Infrastructure Assistant", "Regional Infrastructure Officer", "Regional Infrastructure Officer II", "Regional Infrastructure Officer III", "Regional Monitoring And Evaluation Specialist", "Regional Procurement Officer", "Regional Procurement For Program", "Regional Procurement Officer For Program Community", "Regional Program coordinator", "Regional Program Coordinator - KALAHI - CIDSS", "Regional Program Coordinator - Operations", "Regional Sub - Committee for the Welfare of Children (RSCWC)", "Regional Training Assistant", "Regional Training Officer", "Regional Training Officer II", "Regional Training Specialist", "Repacker", "Research Officer III", "RIO III", "Roving Area Coordinator", "Roving Municipal Financial Analyst", "Roving technical Facilitator", "RSCWC - Technical Officer", "SA - IV", "SA - IV Audit Team Leader", "SAO", "SAO/DC", "SAO/OIC-DC", "Social Welfare Assistant - MCCT", "Secretary II", "Section Head", "Security Guard I (CT)", "Security Guard I (ICT)", "Security Guard II", "Security Officer II", "Senior Administrative Assistant I", "Senior Administrative Assistant II", "Senior Administrative Assistant III", "Senior Administrative Assistant IV", "Senior Administrative Assistant V", "Senior Administrative Officer", "Senior Bookkeeper", "Senior Bookkeeper (Admin Asst III)", "Senior M & E Assistant V", "Senior MANPOWER DEVELOPMENT OFFICER II", "Senior Statistician IV", "Senior Technical Officer ", "SGV", "Site Engineer", "Social Marketing Officer", "Social Marketing Officer III", "Social Marketing Officer III/KALAHI-CIDSS", "Social Marketing Specialist", "Social Safeguard Officer", "Social Safeguard Specialist", "Social Welfare Aide", "Social Welfare Assistant", "Social Welfare Assistant - CMU", "Social Welfare Assistant - MCCT IP", "Social Welfare Assistant I", "Social Welfare Assistant II", "Social Welfare Assistant - MCCT", "Social Welfare Attache", "Social Welfare Officer I ", "Social Welfare Officer I - OIC Center Head", "Social Welfare Officer II", "Social Welfare Officer II/EO 70 Focal", "Social Welfare Officer II/Family Focal", "Social Welfare Officer II/SWAD Team Leader", "Social Welfare Officer II/Team Leader", "Social Welfare Officer III", "Social Welfare Officer III-Center Head", "Social Welfare Officer III/Act as PL", "Social Welfare Officer III/TARA Focal", "Social Welfare Officer III/Team Leader", "Social Welfare Officer IV", "Social Welfare Officer IV, OIC-Chief,DReMD", "Social Welfare Officer IV - Center Head", "Social Welfare Officer V", "Social Welfare Officer V/OIC ARDO and Concurrent Head PSD", "Special Investigator III", "SPED TEACHER", "Stakeholder Management and Networking Specialist", "State Auditing Examiner", "State Auditing Examiner II", "State Auditor ", "State Auditor and Examiner ", "State Auditor I", "State Auditor II", "State Auditor III", "State Auditor IV", "State Auditor V", "Statistician", "Statistician Aide", "Statistician Aide II", "Statistician I", "Statistician II", "Statistician III", "Statistician IV", "Stockroom/Warehouse", "Storage Room", "Storekeeper", "Sub-Regional Program Coordinator", "Sub-Regional Project Coordinator", "Supervising Administrative I", "Supervising Administrative V", "Supervising Administrative Officer", "Supervising Administrative Officer - KC - NCDDP", "Supervising Administrative Officer/KALAHI - CIDSS", "Supervising Auditor V", "Supervisor", "Supplier", "Supply Officer I", "Supply Procurement Officer I", "SWA", "SWA - Convergence", "SWA AIDE", "SWA San Juan Batangas", "SWA - CMU", "SWI - III", "SWO - I", "SWO - II", "SWO - II/Women Focal Person", "SWO II - SWAD TL", "SWO II - OIC Center Head", "SWO II/Family Focal Person", "SWO II/Older Per & IISO Focal Person", "SWO II/RRPTP", "SWO II/RRPTP,PWD,PLHIV & Youth Focal Person", "SWO II/Women Focal Person", "SWO III", "SWO III/Head, Social Technology Section", "SWO III/Head, Regional Juvenile Justice and Welfare Council", "SWO III/OIC - SLP RPC", "SWO IV", "SWO IV UCT", "SWO V / Chief, Promotive Services Division", "SWO V / Division Chief", "SWO V / OIC ARD for Operations", "System Analyst II", "System Coordinator", "System Coordinator Officer (PDO II)", "System Coordinator Officer PDO II - BUS", "System Coordinator Officer PDO II - CVS", "System Coordinator Officer PDO II - GRS", "Teach for The Philippines Ambasador", "Teacher", "Teacher I", "Team Leader", "Team Leader SWAD Nueva Viscaya", "Techincal Empowerment facilitator", "Technical Facilitator", "Techinal Facilitator/KALAHI-CIDSS", "Technical Specialist", "Technician ", "Training Assistant II", "Training Center Superintendent II", "Training Specialist I", "Training Specialist II", "Training Specialist III", "Training Specialist IV", "TS IV", "UCT - Regional Field Coordinator", "Undersecretary ", "Undersecretary for Administration", "Utility Worker", "Utility Worker I", "Utility Worker II", "WAREHOUSE", "Warehouseman II"})
@@ -839,7 +839,7 @@ Partial Class signups
         comboOffice.DropDownStyle = ComboBoxStyle.DropDownList
         comboOffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         comboOffice.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        comboOffice.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        comboOffice.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         comboOffice.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         comboOffice.ItemHeight = 30
         comboOffice.Items.AddRange(New Object() {"4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
@@ -907,7 +907,7 @@ Partial Class signups
         Guna2Button7.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button7.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button7.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button7.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2Button7.ForeColor = Color.White
         Guna2Button7.Location = New Point(576, 272)
         Guna2Button7.Name = "Guna2Button7"
@@ -925,7 +925,7 @@ Partial Class signups
         Guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button3.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button3.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2Button3.ForeColor = Color.White
         Guna2Button3.Location = New Point(755, 272)
         Guna2Button3.Name = "Guna2Button3"
@@ -945,7 +945,7 @@ Partial Class signups
         txtBA5.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtBA5.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtBA5.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtBA5.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtBA5.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtBA5.ForeColor = Color.Black
         txtBA5.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtBA5.Location = New Point(758, 220)
@@ -969,7 +969,7 @@ Partial Class signups
         txtBA4.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtBA4.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtBA4.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtBA4.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtBA4.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtBA4.ForeColor = Color.Black
         txtBA4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtBA4.Location = New Point(758, 175)
@@ -993,7 +993,7 @@ Partial Class signups
         txtBA3.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtBA3.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtBA3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtBA3.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtBA3.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtBA3.ForeColor = Color.Black
         txtBA3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtBA3.Location = New Point(758, 131)
@@ -1017,7 +1017,7 @@ Partial Class signups
         txtbxBR5.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBR5.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBR5.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxBR5.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxBR5.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxBR5.ForeColor = Color.Black
         txtbxBR5.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxBR5.Location = New Point(461, 220)
@@ -1041,7 +1041,7 @@ Partial Class signups
         txtbxBR4.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBR4.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBR4.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxBR4.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxBR4.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxBR4.ForeColor = Color.Black
         txtbxBR4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxBR4.Location = New Point(461, 175)
@@ -1065,7 +1065,7 @@ Partial Class signups
         txtbxBR3.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBR3.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBR3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxBR3.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxBR3.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxBR3.ForeColor = Color.Black
         txtbxBR3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxBR3.Location = New Point(461, 131)
@@ -1089,7 +1089,7 @@ Partial Class signups
         txtbxBF5.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBF5.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBF5.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxBF5.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxBF5.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxBF5.ForeColor = Color.Black
         txtbxBF5.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxBF5.Location = New Point(59, 220)
@@ -1113,7 +1113,7 @@ Partial Class signups
         txtbxBF4.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBF4.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBF4.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxBF4.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxBF4.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxBF4.ForeColor = Color.Black
         txtbxBF4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxBF4.Location = New Point(59, 174)
@@ -1137,7 +1137,7 @@ Partial Class signups
         txtbxBF3.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBF3.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBF3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxBF3.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxBF3.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxBF3.ForeColor = Color.Black
         txtbxBF3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxBF3.Location = New Point(59, 131)
@@ -1161,7 +1161,7 @@ Partial Class signups
         txtBA2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtBA2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtBA2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtBA2.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtBA2.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtBA2.ForeColor = Color.Black
         txtBA2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtBA2.Location = New Point(758, 88)
@@ -1185,7 +1185,7 @@ Partial Class signups
         txtbxBR2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBR2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBR2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxBR2.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxBR2.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxBR2.ForeColor = Color.Black
         txtbxBR2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxBR2.Location = New Point(461, 88)
@@ -1209,7 +1209,7 @@ Partial Class signups
         txtbxBF2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBF2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBF2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxBF2.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxBF2.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxBF2.ForeColor = Color.Black
         txtbxBF2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxBF2.Location = New Point(59, 88)
@@ -1233,7 +1233,7 @@ Partial Class signups
         txtBA1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtBA1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtBA1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtBA1.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtBA1.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtBA1.ForeColor = Color.Black
         txtBA1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtBA1.Location = New Point(758, 45)
@@ -1257,7 +1257,7 @@ Partial Class signups
         txtbxBR1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBR1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBR1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxBR1.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxBR1.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxBR1.ForeColor = Color.Black
         txtbxBR1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxBR1.Location = New Point(461, 45)
@@ -1281,7 +1281,7 @@ Partial Class signups
         txtbxBF1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBF1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxBF1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxBF1.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxBF1.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxBF1.ForeColor = Color.Black
         txtbxBF1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxBF1.Location = New Point(59, 45)
@@ -1352,7 +1352,7 @@ Partial Class signups
         Guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button4.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button4.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button4.Font = New Font("Segoe UI", 9.0F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2Button4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2Button4.ForeColor = Color.White
         Guna2Button4.Location = New Point(173, 276)
         Guna2Button4.Name = "Guna2Button4"
@@ -1372,7 +1372,7 @@ Partial Class signups
         txtbxPass.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxPass.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxPass.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxPass.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxPass.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxPass.ForeColor = Color.Black
         txtbxPass.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxPass.Location = New Point(173, 201)
@@ -1396,7 +1396,7 @@ Partial Class signups
         txtbxUser.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxUser.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
         txtbxUser.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtbxUser.Font = New Font("Calisto MT", 12.0F, FontStyle.Regular, GraphicsUnit.Point)
+        txtbxUser.Font = New Font("Calisto MT", 12F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxUser.ForeColor = Color.Black
         txtbxUser.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxUser.Location = New Point(173, 106)
@@ -1466,7 +1466,7 @@ Partial Class signups
         ' 
         ' signups
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1043, 485)
         Controls.Add(Guna2TabControl1)

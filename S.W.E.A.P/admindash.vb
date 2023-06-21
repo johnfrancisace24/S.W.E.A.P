@@ -5,6 +5,7 @@ Imports System.IO
 Imports OfficeOpenXml
 Imports OfficeOpenXml.Style
 Imports System.Text.RegularExpressions
+Imports DocumentFormat.OpenXml.Office2021.Excel.Pivot
 
 Public Class admindash
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -324,20 +325,19 @@ Public Class admindash
     End Sub
 
     ''Email validation
-    Private Function IsValidGmail(email As String) As Boolean
-        Dim gmailRegex As New Regex("^[a-zA-Z0-9_.+-]+@gmail\.com$", RegexOptions.IgnoreCase)
-        Return gmailRegex.IsMatch(email)
+    Private Function IsValidEmail(email As String) As Boolean
+        Dim emailRegex As New Regex("^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$")
+        Return emailRegex.IsMatch(email)
     End Function
 
-    Private Sub txtEditEmail_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles txtEditEmail.Validating
+    Private Sub txtEmail_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles txtEditEmail.Validating
         Dim inputEmail As String = txtEditEmail.Text.Trim()
+
         If txtEditEmail.Text = "" Then
-            MessageBox.Show("Email can't be blank" & vbCrLf & "Please enter a valid email adress", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Hand)
-
-
-        ElseIf Not IsValidGmail(inputEmail) Then
-            MessageBox.Show("Invalid Email account." & vbCrLf & "Please enter a valid Email address.", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Hand)
-
+            txtEditEmail.Text = txtEditEmail.Text
+        ElseIf Not IsValidEmail(inputEmail) Then
+            MessageBox.Show("Invalid email address." & vbCrLf & "Please enter a valid email address.", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Hand)
+            e.Cancel = True
 
         End If
     End Sub
@@ -361,4 +361,6 @@ Public Class admindash
         Loan.Show()
         Me.Close()
     End Sub
+
+
 End Class

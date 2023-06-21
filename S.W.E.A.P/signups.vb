@@ -266,23 +266,24 @@ Public Class signups
 
 
     ''Email validation
-    Private Function IsValidGmail(email As String) As Boolean
-        Dim gmailRegex As New Regex("^[a-zA-Z0-9_.+-]+@gmail\.com$", RegexOptions.IgnoreCase)
-        Return gmailRegex.IsMatch(email)
+    Private Function IsValidEmail(email As String) As Boolean
+        Dim emailRegex As New Regex("^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$")
+        Return emailRegex.IsMatch(email)
     End Function
 
     Private Sub txtEmail_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles txtEmail.Validating
         Dim inputEmail As String = txtEmail.Text.Trim()
+
         If txtEmail.Text = "" Then
             txtEmail.Text = txtEmail.Text
 
-
-        ElseIf Not IsValidGmail(inputEmail) Then
-            MessageBox.Show("Invalid Email account." & vbCrLf & "Please enter a valid Email address.", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Hand)
+        ElseIf Not IsValidEmail(inputEmail) Then
+            MessageBox.Show("Invalid email address." & vbCrLf & "Please enter a valid email address.", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Hand)
             e.Cancel = True
 
         End If
     End Sub
+
 
 
     '' KEY PRESS LANG TO PRE
@@ -356,6 +357,5 @@ Public Class signups
     Private Sub Guna2Button7_Click(sender As Object, e As EventArgs) Handles Guna2Button7.Click
         Guna2TabControl1.SelectedTab = TabPage2
     End Sub
-
 
 End Class
