@@ -1,5 +1,7 @@
 ﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 Imports MySql.Data.MySqlClient
+Imports System.Net
+Imports System.Net.Mail
 
 Public Class ForgotPass
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -57,6 +59,37 @@ Public Class ForgotPass
             message = ""
             Array.Clear(error_msg, 0, error_msg.Length)
         End If
+
+
+        '-------------------------Sending Email Otp-----------------------------------'
+        Dim otp As String = Guid.NewGuid().ToString
+        Dim smtpUsername As String = "condradssalon@gmail.com"
+        Dim smtpPassword As String = "ihlmujssjncwlcaq"
+
+        Try
+            Dim fromAddress As New MailAddress("condradssalon@gmail.com", "condradssalon")
+            Dim toAddress As New MailAddress(txtUname.Text)
+            Dim subject As String = "One-Time Password (OTP)"
+            Dim body As String = String.Format("Your OTP is : {0}", otp)
+
+
+            Dim smtp As New SmtpClient
+            smtp.Host = "smtp.gmail.com"
+            smtp.Port = 587
+            smtp.EnableSsl = True
+            smtp.UseDefaultCredentials = False
+            smtp.Credentials = New NetworkCredential(smtpUsername, smtpPassword)
+            Dim message As New MailMessage(fromAddress, toAddress)
+            message.Subject = subject
+            message.Body = body
+
+
+        Catch ex As Exception
+            MsgBox("Failed to send OTP code" & ex.Message)
+        End Try
+
+
+
     End Sub
 
     Private Sub txtUname_TextChanged(sender As Object, e As EventArgs) Handles txtUname.TextChanged
