@@ -250,10 +250,10 @@ Partial Class user_dashboard
         Label1.Location = New Point(0, 0)
         Label1.Name = "Label1"
         Label1.Padding = New Padding(10, 0, 0, 0)
-        Label1.Size = New Size(603, 40)
+        Label1.Size = New Size(852, 40)
         Label1.TabIndex = 4
         Label1.Text = "SOCIAL WELFARE EMPLOYEES ASSOCIATION OF THE PHILIPPINES"
-        Label1.TextAlign = ContentAlignment.MiddleCenter
+        Label1.TextAlign = ContentAlignment.MiddleLeft
         ' 
         ' Guna2ControlBox3
         ' 
