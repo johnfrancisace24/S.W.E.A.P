@@ -211,33 +211,6 @@ Public Class Userdashboardform
     End Sub
     Public Sub Update()
         '----------------------------GETTING IMAGE-------------------------------------------------
-        Dim locateProject As String = My.Application.Info.DirectoryPath
-        Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
-        Dim location As String = locateProject.Substring(0, indext)
-        Dim opf As New OpenFileDialog
-
-        Dim extension As String = getExtension
-        Dim fileName As String = txtbxusername.Text & extension
-        Dim destinationPath As String = Path.Combine(location, "Resources\user_profile", fileName)
-
-        Dim retryAttempts As Integer = 3
-        Dim delayMilliseconds As Integer = 100
-
-        For attempt As Integer = 1 To retryAttempts
-            Try
-                File.Copy(sourceFilePath, destinationPath, True)
-                Exit For ' File copied successfully, exit the loop
-            Catch ex As IOException
-                If attempt = retryAttempts Then
-                    MsgBox("Error: The file is being used by another process.")
-                    Exit Sub ' Exit the subroutine or method
-                Else
-                    System.Threading.Thread.Sleep(delayMilliseconds)
-                End If
-            End Try
-        Next
-
-        Dim imageInput As String = "\" & fileName
         Try
             conn.Open()
             Dim cmd As New MySqlCommand("UPDATE users " &
@@ -245,7 +218,7 @@ Public Class Userdashboardform
                                         "SET users.image = @img, users.username = @username, users.password = @password, users.first_name = @first, users.middle_name = @mid, users.last_name = @last, users.position = @pos, users.sex = @sex, user_info.address = @adds, user_info.contact = @contact, user_info.email = @email, user_info.educational = @educ, user_info.birthdate = @birthdate, user_info.office = @office, user_info.employment_status = @employ, user_info.committee = @comm " &
                                         "WHERE users.id = @ID", conn)
             cmd.Parameters.Clear()
-            cmd.Parameters.AddWithValue("@img", imageInput)
+            'cmd.Parameters.AddWithValue("@img", imageInput)
             cmd.Parameters.AddWithValue("@ID", Form2.log_id)
             cmd.Parameters.AddWithValue("@username", txtbxusername.Text)
             cmd.Parameters.AddWithValue("@password", txtbxpassword.Text)
