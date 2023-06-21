@@ -2,27 +2,16 @@
 Imports MySql.Data.MySqlClient
 Imports OfficeOpenXml
 Imports OfficeOpenXml.Style
+
+
+
 Public Class Userdash
 
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim dr As MySqlDataReader
 
-    Private isPanelVisible As Boolean = False
-    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
-        If isPanelVisible Then
-            Panel6.Visible = False
-            isPanelVisible = False
-        Else
-            Panel6.Visible = True
-            isPanelVisible = True
-        End If
-    End Sub
-    Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Guna2Button6.Click
-        pnlAccount.Visible = True
-        pnlProfile.Hide()
-        pnlDash.Hide()
-        pnlContribute.Hide()
-        Panel6.Hide()
+    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles SettingIcon.Click
+        Panel6.Visible = Not Panel6.Visible
     End Sub
     Private Sub Userdash_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         pnlDash.Visible = True
@@ -33,6 +22,14 @@ Public Class Userdash
 
         DG_Load()
     End Sub
+    Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Guna2Button6.Click
+        pnlAccount.Visible = True
+        pnlProfile.Hide()
+        pnlDash.Hide()
+        pnlContribute.Hide()
+        Panel6.Hide()
+    End Sub
+
     Private Sub bttnDash_Click(sender As Object, e As EventArgs) Handles bttnDash.Click
         pnlDash.Visible = True
         pnlProfile.Hide()
@@ -51,6 +48,16 @@ Public Class Userdash
     End Sub
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
+        pnlContribute.Visible = True
+        pnlProfile.Hide()
+        pnlDash.Hide()
+        pnlAccount.Hide()
+        Panel6.Hide()
+
+
+        DG_Load()
+    End Sub
+    Private Sub Guna2Button7_Click(sender As Object, e As EventArgs) Handles Guna2Button7.Click
         pnlContribute.Visible = True
         pnlProfile.Hide()
         pnlDash.Hide()
@@ -79,19 +86,23 @@ Public Class Userdash
         End Try
     End Sub
 
+
     Public Sub DG_Load()
         BeneficiariesDGV.Rows.Clear()
         Try
             conn.Open()
-            Dim cmd As New MySqlCommand("SELECT * FROM users 
-                            INNER JOIN beneficiaries ON users.id = beneficiaries.user_id
-                            WHERE users.id = @ID", conn)
+            Dim cmd As New MySqlCommand("SELECT beneficiaries.user_id, beneficiaries.full_name, beneficiaries.age, beneficiaries.relationship, COUNT(*) AS cnt FROM users 
+                                INNER JOIN beneficiaries ON users.id = beneficiaries.user_id
+                                WHERE users.id = @ID", conn)
 
             cmd.Parameters.AddWithValue("@ID", Form2.log_id)
-            dr = cmd.ExecuteReader
-            While dr.Read
+            dr = cmd.ExecuteReader()
+            If dr.Read() Then
+                Dim count1 As Integer = dr.GetInt32("cnt")
+                lblCnt.Text = count1.ToString()
+
                 BeneficiariesDGV.Rows.Add(dr.Item("user_id"), dr.Item("full_name"), dr.Item("age"), dr.Item("relationship"))
-            End While
+            End If
         Catch ex As Exception
             MsgBox(ex.Message)
         Finally
@@ -131,12 +142,13 @@ Public Class Userdash
                 Pemail.Text = dr.GetString("email")
                 Pbdate.Text = dr.GetDateTime("birthdate")
 
+
                 Peducational.Text = dr.GetString("educational")
                 Pemployment.Text = dr.GetString("employment_status")
                 Poffice.Text = dr.GetString("office")
                 Pposition.Text = dr.GetString("position")
                 Pcommittee.Text = dr.GetString("committee")
-                Pgender.Text = dr.GetString("sex")
+                PSex.Text = dr.GetString("sex")
 
                 txtbxusername.Text = dr.GetString("username")
                 txtbxpassword.Text = dr.GetString("password")
@@ -146,6 +158,7 @@ Public Class Userdash
                 txtbxadds.Text = dr.GetString("address")
                 txtbxcontact.Text = dr.GetString("contact")
                 txtbxemail.Text = dr.GetString("email")
+                cmboSex.SelectedItem = dr.GetString("sex")
                 txtbxeduc.Text = dr.GetString("educational")
                 txtbxbdate.Value = dr.GetString("birthdate")
                 cmbxposition.SelectedItem = dr.GetString("position")
@@ -155,10 +168,12 @@ Public Class Userdash
                 cmbxcomm.SelectedItem = dr.GetString("committee")
 
                 If File.Exists(imagePathInResources) Then
+                    userProfile.Image = Image.FromFile(imagePathInResources)
 
                     ImgProfile.Image = Image.FromFile(imagePathInResources)
                 Else
                     ImgProfile.Image = Nothing
+                    userProfile.Image = Nothing
                 End If
 
             End If
@@ -174,7 +189,7 @@ Public Class Userdash
     End Sub
     Public Sub ExportToExcel(BenefeciariesDGV As DataGridView, filePath As String)
 
-        ExcelPackage.LicenseContext = LicenseContext.NonCommercial
+        SetEPPlusLicenseContext()
         ' Create a new Excel package
         Using package As New ExcelPackage()
             Dim worksheet As ExcelWorksheet = package.Workbook.Worksheets.Add("Employees")
@@ -328,7 +343,4 @@ Public Class Userdash
         End If
     End Sub
 
-    Private Sub Guna2PictureBox2_Click(sender As Object, e As EventArgs) Handles Guna2PictureBox2.Click
-
-    End Sub
 End Class
