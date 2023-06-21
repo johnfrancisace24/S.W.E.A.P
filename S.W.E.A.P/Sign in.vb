@@ -43,7 +43,7 @@ Public Class Form2
                 admindash.Show()
                 Me.Hide()
             ElseIf (status = 0) Then
-                Userdashboardform.Show()
+                user_dashboard.Show()
                 txtUsername.Clear()
                 txtPassword.Clear()
                 Me.Hide()
