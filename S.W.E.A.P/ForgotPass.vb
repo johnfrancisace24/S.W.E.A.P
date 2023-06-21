@@ -3,6 +3,8 @@ Imports MySql.Data.MySqlClient
 Imports System.Net
 Imports System.Net.Mail
 Imports Guna.UI2.WinForms
+Imports System.Text.RegularExpressions
+Imports System.IO
 
 Public Class ForgotPass
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -159,8 +161,8 @@ Public Class ForgotPass
                 cmd.ExecuteNonQuery()
 
                 MessageBox.Show("Password Updated successfully!", "ALERT", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                Form2.show
-                ClearAllTextboxes()
+                Form2.Show
+                signups.ClearAllTextboxes(Me)
             Else
                 MessageBox.Show("Password cannot be Updated!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 lblNotmatch.Text = "Password didn't matched!"
@@ -171,15 +173,5 @@ Public Class ForgotPass
             conn.Close()
         End Try
 
-    End Sub
-    Private Sub ClearAllTextboxes(ByVal control As Control)
-        For Each ctrl As Control In control.Controls
-            If TypeOf ctrl Is TextBox Then
-                Dim txtBox As TextBox = DirectCast(ctrl, TextBox)
-                txtBox.Text = String.Empty
-            ElseIf ctrl.HasChildren Then
-                ClearAllTextboxes(ctrl) ' Recursive call to handle child controls
-            End If
-        Next
     End Sub
 End Class

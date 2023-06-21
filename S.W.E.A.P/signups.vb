@@ -214,7 +214,7 @@ Public Class signups
         End If
     End Sub
 
-    Private Sub ClearAllTextboxes(ByVal control As Control)
+    Public Shared Sub ClearAllTextboxes(ByVal control As Control)
         For Each ctrl As Control In control.Controls
             If TypeOf ctrl Is TextBox Then
                 Dim txtBox As TextBox = DirectCast(ctrl, TextBox)
@@ -358,4 +358,7 @@ Public Class signups
         Guna2TabControl1.SelectedTab = TabPage2
     End Sub
 
+    Private Sub Panel3_Paint(sender As Object, e As PaintEventArgs) Handles Panel3.Paint
+
+    End Sub
 End Class
