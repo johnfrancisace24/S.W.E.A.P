@@ -68,7 +68,7 @@ Public Class ForgotPass
         If message = "" Then
             '----------------------------NEXT-FORM-------2------------------------------------------'
             Guna2TabControl1.SelectedTab = Page2
-            Page2.Enabled = True
+            txtOtpVerify.Enabled = True
         Else
             MsgBox(message)
             i = 0
@@ -132,7 +132,8 @@ Public Class ForgotPass
         If entercode.Equals(otp, StringComparison.OrdinalIgnoreCase) Then
             MsgBox("One-Time Password is matched!")
             Guna2TabControl1.SelectedTab = Page3
-            Page3.Enabled = True
+            txtNewPass.Enabled = True
+            txtConfirmPass.Enabled = True
         Else
             MsgBox("Please enter a valid OTP!")
         End If
@@ -151,7 +152,8 @@ Public Class ForgotPass
 
         Try
             If txtNewPass.Text = txtConfirmPass.Text Then
-                lblNotmatch.text = "Password Matched!"
+                lblNotmatch.Text = "Password Matched!"
+                lblNotmatch.ForeColor = Color.Blue
                 conn.Open()
                 Dim cmd As New MySqlCommand("UPDATE users SET password = @NewPassword WHERE username = @Username", conn)
                 cmd.Parameters.Clear()
@@ -160,8 +162,9 @@ Public Class ForgotPass
 
                 cmd.ExecuteNonQuery()
 
-                MessageBox.Show("Password Updated successfully!", "ALERT", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                Form2.Show
+                MessageBox.Show("Password Updated successfully!", "SUCCESSFULL", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                Me.Close()
+                Form2.Show()
                 signups.ClearAllTextboxes(Me)
             Else
                 MessageBox.Show("Password cannot be Updated!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning)
