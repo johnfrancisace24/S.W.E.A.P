@@ -219,7 +219,23 @@ Public Class Userdashboardform
         Dim extension As String = getExtension
         Dim fileName As String = txtbxusername.Text & extension
         Dim destinationPath As String = Path.Combine(location, "Resources\user_profile", fileName)
-        File.Copy(sourceFilePath, destinationPath, True)
+
+        Dim retryAttempts As Integer = 3
+        Dim delayMilliseconds As Integer = 100
+
+        For attempt As Integer = 1 To retryAttempts
+            Try
+                File.Copy(sourceFilePath, destinationPath, True)
+                Exit For ' File copied successfully, exit the loop
+            Catch ex As IOException
+                If attempt = retryAttempts Then
+                    MsgBox("Error: The file is being used by another process.")
+                    Exit Sub ' Exit the subroutine or method
+                Else
+                    System.Threading.Thread.Sleep(delayMilliseconds)
+                End If
+            End Try
+        Next
 
         Dim imageInput As String = "\" & fileName
         Try
