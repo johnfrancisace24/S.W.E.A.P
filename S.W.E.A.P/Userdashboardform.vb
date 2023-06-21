@@ -24,24 +24,27 @@ Public Class Userdashboardform
         pnlProfile.Hide()
         pnlAccount.Hide()
         pnlContribute.Hide()
-        Panel6.Hide()
+        btnAccSetting.Hide()
+        btnLogout.Hide()
+
+
 
         DG_Load()
     End Sub
     Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles SettingIcon.Click '------SETTING ICON-----------'
-        Panel6.Visible = Not Panel6.Visible
+        btnAccSetting.Visible = Not btnAccSetting.Visible
+        btnLogout.Visible = Not btnLogout.Visible
     End Sub
-    Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
+    Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles btnLogout.Click
         Dim AnswerYes As String
         AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "Information")
 
         If AnswerYes = vbYes Then
             Form2.Show()
-            Panel6.Hide()
-            pnlDash.Hide()
-            Me.Hide()
-            Panel6.Hide()
+            btnAccSetting.Hide()
+            btnLogout.Hide()
             pnlDash.Show()
+            Me.Hide()
         End If
     End Sub
     Private Sub bttnDash_Click(sender As Object, e As EventArgs) Handles bttnDash.Click '----------------DASHBOARD--------------'
@@ -49,7 +52,8 @@ Public Class Userdashboardform
         pnlProfile.Hide()
         pnlAccount.Hide()
         pnlContribute.Hide()
-        Panel6.Hide()
+        btnAccSetting.Hide()
+        btnLogout.Hide()
         iconFromtitle.Image = Image.FromFile(destinationIconPath + dashPath)
         lblFromTitle.Text = "Dashboard"
     End Sub
@@ -58,7 +62,8 @@ Public Class Userdashboardform
         pnlAccount.Hide()
         pnlDash.Hide()
         pnlContribute.Hide()
-        Panel6.Hide()
+        btnAccSetting.Hide()
+        btnLogout.Hide()
 
         Get_info()
         iconFromtitle.Image = Image.FromFile(destinationIconPath + profPath)
@@ -69,7 +74,8 @@ Public Class Userdashboardform
         pnlProfile.Hide()
         pnlDash.Hide()
         pnlAccount.Hide()
-        Panel6.Hide()
+        btnAccSetting.Hide()
+        btnLogout.Hide()
 
 
         DG_Load()
@@ -81,19 +87,21 @@ Public Class Userdashboardform
         pnlProfile.Hide()
         pnlDash.Hide()
         pnlAccount.Hide()
-        Panel6.Hide()
+        btnAccSetting.Hide()
+        btnLogout.Hide()
 
         DG_Load()
         iconFromtitle.Image = Image.FromFile(destinationIconPath + benefPath)
         lblFromTitle.Text = "Beneficiary"
     End Sub
 
-    Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Guna2Button6.Click   '-----------ACOUNT SETTINGS----------------'
+    Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles btnAccSetting.Click   '-----------ACOUNT SETTINGS----------------'
         pnlAccount.Visible = True
         pnlProfile.Hide()
         pnlDash.Hide()
         pnlContribute.Hide()
-        Panel6.Hide()
+        btnAccSetting.Hide()
+        btnLogout.Hide()
 
         iconFromtitle.Image = Image.FromFile(destinationIconPath + settingPath)
         lblFromTitle.Text = "Account Settings"
