@@ -125,9 +125,6 @@ Public Class ForgotPass
         valid_blank(txtOtpVerify.Text, "Username", txtOtpVerify)
 
 
-
-
-
         '------------------OTP VERIFICATION----------------------
         Dim entercode As String = txtOtpVerify.Text
         If entercode.Equals(otp, StringComparison.OrdinalIgnoreCase) Then
@@ -147,10 +144,12 @@ Public Class ForgotPass
         Guna2TabControl1.SelectedTab = Page2
     End Sub
 
+
     Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Guna2Button6.Click
 
         Try
             If txtNewPass.Text = txtConfirmPass.Text Then
+                lblNotmatch.text = "Password Matched!"
                 conn.Open()
                 Dim cmd As New MySqlCommand("UPDATE users SET password = @NewPassword WHERE username = @Username", conn)
                 cmd.Parameters.Clear()
@@ -160,6 +159,8 @@ Public Class ForgotPass
                 cmd.ExecuteNonQuery()
 
                 MessageBox.Show("Password Updated successfully!", "ALERT", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                Form2.show
+                ClearAllTextboxes()
             Else
                 MessageBox.Show("Password cannot be Updated!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 lblNotmatch.Text = "Password didn't matched!"
@@ -170,5 +171,15 @@ Public Class ForgotPass
             conn.Close()
         End Try
 
+    End Sub
+    Private Sub ClearAllTextboxes(ByVal control As Control)
+        For Each ctrl As Control In control.Controls
+            If TypeOf ctrl Is TextBox Then
+                Dim txtBox As TextBox = DirectCast(ctrl, TextBox)
+                txtBox.Text = String.Empty
+            ElseIf ctrl.HasChildren Then
+                ClearAllTextboxes(ctrl) ' Recursive call to handle child controls
+            End If
+        Next
     End Sub
 End Class
