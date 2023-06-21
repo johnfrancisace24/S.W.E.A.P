@@ -33,7 +33,7 @@ Public Class Userdashboardform
     End Sub
     Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
         Dim AnswerYes As String
-        AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "User Repsonse")
+        AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "Information")
 
         If AnswerYes = vbYes Then
             Form2.Show()
