@@ -7,6 +7,8 @@ Public Class Userdashboardform
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim dr As MySqlDataReader
 
+    Dim sourceFilePath As String
+    Dim getExtension As String
     Dim locateProject As String = My.Application.Info.DirectoryPath
     Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
     Dim location As String = locateProject.Substring(0, indext)
@@ -191,10 +193,13 @@ Public Class Userdashboardform
                 If File.Exists(imagePathInResources) Then
                     userProfile.Image = Image.FromFile(imagePathInResources)
 
+                    user_Profile.Image = Image.FromFile(imagePathInResources)
+
                     ImgProfile.Image = Image.FromFile(imagePathInResources)
                 Else
                     ImgProfile.Image = Nothing
                     userProfile.Image = Nothing
+                    user_Profile.Image = Nothing
                 End If
 
             End If
@@ -205,13 +210,26 @@ Public Class Userdashboardform
         End Try
     End Sub
     Public Sub Update()
+        '----------------------------GETTING IMAGE-------------------------------------------------
+        Dim locateProject As String = My.Application.Info.DirectoryPath
+        Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
+        Dim location As String = locateProject.Substring(0, indext)
+        Dim opf As New OpenFileDialog
+
+        Dim extension As String = getExtension
+        Dim fileName As String = txtbxusername.Text & extension
+        Dim destinationPath As String = Path.Combine(location, "Resources\user_profile", fileName)
+        File.Copy(sourceFilePath, destinationPath, True)
+
+        Dim imageInput As String = "\" & fileName
         Try
             conn.Open()
             Dim cmd As New MySqlCommand("UPDATE users " &
                                         "INNER JOIN user_info ON users.id = user_info.user_id " &
-                                        "SET users.username = @username, users.password = @password, users.first_name = @first, users.middle_name = @mid, users.last_name = @last, users.position = @pos, user_info.address = @adds, user_info.contact = @contact, user_info.email = @email, user_info.educational = @educ, user_info.birthdate = @birthdate, user_info.office = @office, user_info.employment_status = @employ, user_info.committee = @comm " &
-                                        "WHERE users.id     = @ID", conn)
+                                        "SET users.image = @img, users.username = @username, users.password = @password, users.first_name = @first, users.middle_name = @mid, users.last_name = @last, users.position = @pos, users.sex = @sex, user_info.address = @adds, user_info.contact = @contact, user_info.email = @email, user_info.educational = @educ, user_info.birthdate = @birthdate, user_info.office = @office, user_info.employment_status = @employ, user_info.committee = @comm " &
+                                        "WHERE users.id = @ID", conn)
             cmd.Parameters.Clear()
+            cmd.Parameters.AddWithValue("@img", imageInput)
             cmd.Parameters.AddWithValue("@ID", Form2.log_id)
             cmd.Parameters.AddWithValue("@username", txtbxusername.Text)
             cmd.Parameters.AddWithValue("@password", txtbxpassword.Text)
@@ -221,13 +239,14 @@ Public Class Userdashboardform
             cmd.Parameters.AddWithValue("@pos", cmbxposition.Text)
 
             cmd.Parameters.AddWithValue("@adds", txtbxadds.Text)
+            cmd.Parameters.AddWithValue("@sex", cmboSex.SelectedItem)
             cmd.Parameters.AddWithValue("@contact", txtbxcontact.Text)
             cmd.Parameters.AddWithValue("@email", txtbxemail.Text)
             cmd.Parameters.AddWithValue("@educ", txtbxeduc.Text)
             cmd.Parameters.AddWithValue("@birthdate", txtbxbdate.Value)
-            cmd.Parameters.AddWithValue("@office", cmbxoffice.Text)
-            cmd.Parameters.AddWithValue("@employ", cmbxemployment.Text)
-            cmd.Parameters.AddWithValue("@comm", cmbxcomm.Text)
+            cmd.Parameters.AddWithValue("@office", cmbxoffice.SelectedItem)
+            cmd.Parameters.AddWithValue("@employ", cmbxemployment.SelectedItem)
+            cmd.Parameters.AddWithValue("@comm", cmbxcomm.SelectedItem)
 
             cmd.ExecuteNonQuery()
             MessageBox.Show("Updated successfully!", "ALERT", MessageBoxButtons.OK, MessageBoxIcon.Information)
@@ -352,5 +371,17 @@ Public Class Userdashboardform
     End Sub
     Private Sub txtbxlname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxlname.KeyPress
         txtbxfname_KeyPress(sender, e)
+    End Sub
+
+    Private Sub Guna2Button4_Click_1(sender As Object, e As EventArgs) Handles Guna2Button4.Click
+        Dim opf As New OpenFileDialog
+
+        opf.Filter = "Choose Image(*.jpg; *.png; *.gif) | * .jpg; *.png; *.gif"
+        If opf.ShowDialog = DialogResult.OK Then
+            'imageInput = System.IO.Path.GetFullPath(opf.FileName)
+            sourceFilePath = Path.GetFullPath(opf.FileName)
+            user_Profile.Image = Image.FromFile(sourceFilePath)
+            getExtension = Path.GetExtension(opf.FileName)
+        End If
     End Sub
 End Class
