@@ -23,16 +23,12 @@ Partial Class Userdash
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges77 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges78 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges79 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges80 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges81 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges63 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges64 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges65 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges66 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges82 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges83 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges84 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges85 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges67 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges68 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges69 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -41,18 +37,18 @@ Partial Class Userdash
         Dim CustomizableEdges72 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges73 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges74 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Userdash))
         Dim CustomizableEdges75 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges77 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges78 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Userdash))
+        Dim CustomizableEdges79 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -97,17 +93,25 @@ Partial Class Userdash
         Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges61 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges62 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges59 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges60 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges61 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges62 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges63 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges64 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges65 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges66 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2ShadowForm1 = New Guna.UI2.WinForms.Guna2ShadowForm(components)
         Panel1 = New Panel()
@@ -125,12 +129,21 @@ Partial Class Userdash
         Panel6 = New Panel()
         Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
         Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
+        SettingIcon = New Guna.UI2.WinForms.Guna2Button()
         ImgProfile = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Panel4 = New Panel()
+        pnlDash = New Panel()
+        Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
+        Guna2Button7 = New Guna.UI2.WinForms.Guna2Button()
+        lblCnt = New Label()
+        Label26 = New Label()
+        Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Label27 = New Label()
+        lblFirsts = New Label()
         pnlProfile = New Panel()
         Panel5 = New Panel()
-        Pgender = New Guna.UI2.WinForms.Guna2TextBox()
+        userProfile = New Guna.UI2.WinForms.Guna2PictureBox()
+        PSex = New Guna.UI2.WinForms.Guna2TextBox()
         Label31 = New Label()
         Pcommittee = New Guna.UI2.WinForms.Guna2TextBox()
         Label30 = New Label()
@@ -154,6 +167,8 @@ Partial Class Userdash
         Label3 = New Label()
         Label2 = New Label()
         pnlAccount = New Panel()
+        cmboSex = New Guna.UI2.WinForms.Guna2ComboBox()
+        Label34 = New Label()
         Label28 = New Label()
         cmbxoffice = New Guna.UI2.WinForms.Guna2ComboBox()
         cmbxposition = New Guna.UI2.WinForms.Guna2ComboBox()
@@ -196,28 +211,22 @@ Partial Class Userdash
         search = New Guna.UI2.WinForms.Guna2TextBox()
         Label33 = New Label()
         Label32 = New Label()
-        pnlDash = New Panel()
-        Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
-        Guna2Button7 = New Guna.UI2.WinForms.Guna2Button()
-        Label25 = New Label()
-        Label26 = New Label()
-        Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Label27 = New Label()
-        lblFirsts = New Label()
+        Timer1 = New Timer(components)
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
         Panel3.SuspendLayout()
         Panel6.SuspendLayout()
         CType(ImgProfile, ComponentModel.ISupportInitialize).BeginInit()
         Panel4.SuspendLayout()
-        pnlProfile.SuspendLayout()
-        Panel5.SuspendLayout()
-        pnlAccount.SuspendLayout()
-        pnlContribute.SuspendLayout()
-        CType(BeneficiariesDGV, ComponentModel.ISupportInitialize).BeginInit()
         pnlDash.SuspendLayout()
         Guna2Panel2.SuspendLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        pnlProfile.SuspendLayout()
+        Panel5.SuspendLayout()
+        CType(userProfile, ComponentModel.ISupportInitialize).BeginInit()
+        pnlAccount.SuspendLayout()
+        pnlContribute.SuspendLayout()
+        CType(BeneficiariesDGV, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -258,13 +267,13 @@ Partial Class Userdash
         ' 
         Guna2ControlBox3.Animated = True
         Guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
-        Guna2ControlBox3.CustomizableEdges = CustomizableEdges76
+        Guna2ControlBox3.CustomizableEdges = CustomizableEdges80
         Guna2ControlBox3.Dock = DockStyle.Right
         Guna2ControlBox3.FillColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
         Guna2ControlBox3.IconColor = Color.White
         Guna2ControlBox3.Location = New Point(1168, 0)
         Guna2ControlBox3.Name = "Guna2ControlBox3"
-        Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges77
+        Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges81
         Guna2ControlBox3.Size = New Size(40, 35)
         Guna2ControlBox3.TabIndex = 2
         ' 
@@ -272,20 +281,20 @@ Partial Class Userdash
         ' 
         Guna2ControlBox2.Animated = True
         Guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox
-        Guna2ControlBox2.CustomizableEdges = CustomizableEdges78
+        Guna2ControlBox2.CustomizableEdges = CustomizableEdges82
         Guna2ControlBox2.Dock = DockStyle.Right
         Guna2ControlBox2.FillColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
         Guna2ControlBox2.IconColor = Color.White
         Guna2ControlBox2.Location = New Point(1208, 0)
         Guna2ControlBox2.Name = "Guna2ControlBox2"
-        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges79
+        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges83
         Guna2ControlBox2.Size = New Size(40, 35)
         Guna2ControlBox2.TabIndex = 1
         ' 
         ' Guna2ControlBox1
         ' 
         Guna2ControlBox1.Animated = True
-        Guna2ControlBox1.CustomizableEdges = CustomizableEdges80
+        Guna2ControlBox1.CustomizableEdges = CustomizableEdges84
         Guna2ControlBox1.Dock = DockStyle.Right
         Guna2ControlBox1.FillColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
         Guna2ControlBox1.HoverState.FillColor = Color.FromArgb(CByte(255), CByte(128), CByte(128))
@@ -293,7 +302,7 @@ Partial Class Userdash
         Guna2ControlBox1.IconColor = Color.White
         Guna2ControlBox1.Location = New Point(1248, 0)
         Guna2ControlBox1.Name = "Guna2ControlBox1"
-        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges81
+        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges85
         Guna2ControlBox1.Size = New Size(40, 35)
         Guna2ControlBox1.TabIndex = 0
         ' 
@@ -315,7 +324,7 @@ Partial Class Userdash
         Guna2Button1.Animated = True
         Guna2Button1.BorderColor = Color.White
         Guna2Button1.Cursor = Cursors.Hand
-        Guna2Button1.CustomizableEdges = CustomizableEdges63
+        Guna2Button1.CustomizableEdges = CustomizableEdges67
         Guna2Button1.DisabledState.BorderColor = Color.DarkGray
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -331,12 +340,12 @@ Partial Class Userdash
         Guna2Button1.ImageAlign = HorizontalAlignment.Left
         Guna2Button1.ImageOffset = New Point(12, 0)
         Guna2Button1.ImageSize = New Size(30, 30)
-        Guna2Button1.Location = New Point(0, 306)
+        Guna2Button1.Location = New Point(0, 330)
         Guna2Button1.Margin = New Padding(4, 3, 4, 3)
         Guna2Button1.Name = "Guna2Button1"
         Guna2Button1.Padding = New Padding(30, 0, 0, 0)
         Guna2Button1.PressedColor = Color.Yellow
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges64
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges68
         Guna2Button1.Size = New Size(304, 49)
         Guna2Button1.TabIndex = 13
         Guna2Button1.Text = "Beneficiaries"
@@ -347,7 +356,7 @@ Partial Class Userdash
         bttnProf.Animated = True
         bttnProf.BorderColor = Color.White
         bttnProf.Cursor = Cursors.Hand
-        bttnProf.CustomizableEdges = CustomizableEdges65
+        bttnProf.CustomizableEdges = CustomizableEdges69
         bttnProf.DisabledState.BorderColor = Color.DarkGray
         bttnProf.DisabledState.CustomBorderColor = Color.DarkGray
         bttnProf.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -363,12 +372,12 @@ Partial Class Userdash
         bttnProf.ImageAlign = HorizontalAlignment.Left
         bttnProf.ImageOffset = New Point(12, 0)
         bttnProf.ImageSize = New Size(30, 30)
-        bttnProf.Location = New Point(0, 257)
+        bttnProf.Location = New Point(0, 281)
         bttnProf.Margin = New Padding(4, 3, 4, 3)
         bttnProf.Name = "bttnProf"
         bttnProf.Padding = New Padding(30, 0, 0, 0)
         bttnProf.PressedColor = Color.Yellow
-        bttnProf.ShadowDecoration.CustomizableEdges = CustomizableEdges66
+        bttnProf.ShadowDecoration.CustomizableEdges = CustomizableEdges70
         bttnProf.Size = New Size(304, 49)
         bttnProf.TabIndex = 9
         bttnProf.Text = "Profile"
@@ -379,7 +388,7 @@ Partial Class Userdash
         bttnDash.Animated = True
         bttnDash.BorderColor = Color.White
         bttnDash.Cursor = Cursors.Hand
-        bttnDash.CustomizableEdges = CustomizableEdges67
+        bttnDash.CustomizableEdges = CustomizableEdges71
         bttnDash.DisabledState.BorderColor = Color.DarkGray
         bttnDash.DisabledState.CustomBorderColor = Color.DarkGray
         bttnDash.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -395,12 +404,12 @@ Partial Class Userdash
         bttnDash.ImageAlign = HorizontalAlignment.Left
         bttnDash.ImageOffset = New Point(12, 0)
         bttnDash.ImageSize = New Size(30, 30)
-        bttnDash.Location = New Point(0, 208)
+        bttnDash.Location = New Point(0, 232)
         bttnDash.Margin = New Padding(4, 3, 4, 3)
         bttnDash.Name = "bttnDash"
         bttnDash.Padding = New Padding(30, 0, 0, 0)
         bttnDash.PressedColor = Color.Yellow
-        bttnDash.ShadowDecoration.CustomizableEdges = CustomizableEdges68
+        bttnDash.ShadowDecoration.CustomizableEdges = CustomizableEdges72
         bttnDash.Size = New Size(304, 49)
         bttnDash.TabIndex = 5
         bttnDash.Text = "Dashboard"
@@ -411,34 +420,33 @@ Partial Class Userdash
         Panel3.Controls.Add(lblPosition)
         Panel3.Controls.Add(lblFname)
         Panel3.Controls.Add(Panel6)
-        Panel3.Controls.Add(Guna2Button4)
+        Panel3.Controls.Add(SettingIcon)
         Panel3.Controls.Add(ImgProfile)
         Panel3.Dock = DockStyle.Top
         Panel3.Location = New Point(0, 0)
         Panel3.Name = "Panel3"
-        Panel3.Size = New Size(304, 208)
+        Panel3.Size = New Size(304, 232)
         Panel3.TabIndex = 0
         ' 
         ' lblPosition
         ' 
-        lblPosition.Dock = DockStyle.Top
+        lblPosition.Dock = DockStyle.Bottom
         lblPosition.Font = New Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point)
         lblPosition.ForeColor = Color.Lime
-        lblPosition.Location = New Point(0, 167)
+        lblPosition.Location = New Point(0, 201)
         lblPosition.Name = "lblPosition"
-        lblPosition.Size = New Size(304, 27)
+        lblPosition.Size = New Size(304, 31)
         lblPosition.TabIndex = 10
         lblPosition.Text = "OJT"
         lblPosition.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' lblFname
         ' 
-        lblFname.Dock = DockStyle.Top
         lblFname.Font = New Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point)
         lblFname.ForeColor = SystemColors.Control
-        lblFname.Location = New Point(0, 128)
+        lblFname.Location = New Point(0, 173)
         lblFname.Name = "lblFname"
-        lblFname.Size = New Size(304, 39)
+        lblFname.Size = New Size(304, 26)
         lblFname.TabIndex = 9
         lblFname.Text = "Monkey D. Luffy"
         lblFname.TextAlign = ContentAlignment.MiddleCenter
@@ -456,7 +464,7 @@ Partial Class Userdash
         ' Guna2Button6
         ' 
         Guna2Button6.Cursor = Cursors.Hand
-        Guna2Button6.CustomizableEdges = CustomizableEdges69
+        Guna2Button6.CustomizableEdges = CustomizableEdges73
         Guna2Button6.DisabledState.BorderColor = Color.DarkGray
         Guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button6.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -468,7 +476,7 @@ Partial Class Userdash
         Guna2Button6.HoverState.FillColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
         Guna2Button6.Location = New Point(0, 0)
         Guna2Button6.Name = "Guna2Button6"
-        Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges70
+        Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges74
         Guna2Button6.Size = New Size(120, 33)
         Guna2Button6.TabIndex = 1
         Guna2Button6.Text = "Setting"
@@ -476,7 +484,7 @@ Partial Class Userdash
         ' Guna2Button5
         ' 
         Guna2Button5.Cursor = Cursors.Hand
-        Guna2Button5.CustomizableEdges = CustomizableEdges71
+        Guna2Button5.CustomizableEdges = CustomizableEdges75
         Guna2Button5.DisabledState.BorderColor = Color.DarkGray
         Guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button5.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -488,58 +496,163 @@ Partial Class Userdash
         Guna2Button5.HoverState.FillColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
         Guna2Button5.Location = New Point(0, 37)
         Guna2Button5.Name = "Guna2Button5"
-        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges72
+        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges76
         Guna2Button5.Size = New Size(120, 33)
         Guna2Button5.TabIndex = 0
         Guna2Button5.Text = "Log out"
         ' 
-        ' Guna2Button4
+        ' SettingIcon
         ' 
-        Guna2Button4.BackColor = Color.Transparent
-        Guna2Button4.Cursor = Cursors.Hand
-        Guna2Button4.CustomizableEdges = CustomizableEdges73
-        Guna2Button4.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button4.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button4.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button4.FillColor = Color.Transparent
-        Guna2Button4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2Button4.ForeColor = Color.White
-        Guna2Button4.Image = My.Resources.Resources.setting
-        Guna2Button4.Location = New Point(12, 17)
-        Guna2Button4.Name = "Guna2Button4"
-        Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges74
-        Guna2Button4.Size = New Size(44, 25)
-        Guna2Button4.TabIndex = 6
+        SettingIcon.BackColor = Color.Transparent
+        SettingIcon.Cursor = Cursors.Hand
+        SettingIcon.CustomizableEdges = CustomizableEdges77
+        SettingIcon.DisabledState.BorderColor = Color.DarkGray
+        SettingIcon.DisabledState.CustomBorderColor = Color.DarkGray
+        SettingIcon.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        SettingIcon.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        SettingIcon.FillColor = Color.Transparent
+        SettingIcon.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        SettingIcon.ForeColor = Color.White
+        SettingIcon.Image = My.Resources.Resources.setting
+        SettingIcon.Location = New Point(12, 17)
+        SettingIcon.Name = "SettingIcon"
+        SettingIcon.ShadowDecoration.CustomizableEdges = CustomizableEdges78
+        SettingIcon.Size = New Size(44, 25)
+        SettingIcon.TabIndex = 6
         ' 
         ' ImgProfile
         ' 
         ImgProfile.BackColor = Color.Transparent
         ImgProfile.BackgroundImageLayout = ImageLayout.None
-        ImgProfile.Dock = DockStyle.Top
         ImgProfile.FillColor = Color.Transparent
         ImgProfile.Image = CType(resources.GetObject("ImgProfile.Image"), Image)
         ImgProfile.ImageRotate = 0F
-        ImgProfile.Location = New Point(0, 0)
+        ImgProfile.Location = New Point(63, 3)
         ImgProfile.Name = "ImgProfile"
-        ImgProfile.ShadowDecoration.CustomizableEdges = CustomizableEdges75
+        ImgProfile.ShadowDecoration.CustomizableEdges = CustomizableEdges79
         ImgProfile.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        ImgProfile.Size = New Size(304, 128)
-        ImgProfile.SizeMode = PictureBoxSizeMode.CenterImage
+        ImgProfile.Size = New Size(178, 158)
+        ImgProfile.SizeMode = PictureBoxSizeMode.StretchImage
         ImgProfile.TabIndex = 0
         ImgProfile.TabStop = False
         ' 
         ' Panel4
         ' 
-        Panel4.Controls.Add(pnlProfile)
-        Panel4.Controls.Add(pnlAccount)
         Panel4.Controls.Add(pnlContribute)
         Panel4.Controls.Add(pnlDash)
+        Panel4.Controls.Add(pnlProfile)
+        Panel4.Controls.Add(pnlAccount)
         Panel4.Dock = DockStyle.Fill
         Panel4.Location = New Point(304, 35)
         Panel4.Name = "Panel4"
         Panel4.Size = New Size(984, 655)
         Panel4.TabIndex = 2
+        ' 
+        ' pnlDash
+        ' 
+        pnlDash.BackColor = Color.FromArgb(CByte(254), CByte(255), CByte(250))
+        pnlDash.Controls.Add(Guna2Panel2)
+        pnlDash.Controls.Add(Label27)
+        pnlDash.Controls.Add(lblFirsts)
+        pnlDash.Dock = DockStyle.Fill
+        pnlDash.Location = New Point(0, 0)
+        pnlDash.Name = "pnlDash"
+        pnlDash.Size = New Size(984, 655)
+        pnlDash.TabIndex = 59
+        ' 
+        ' Guna2Panel2
+        ' 
+        Guna2Panel2.BackColor = Color.Transparent
+        Guna2Panel2.BorderRadius = 18
+        Guna2Panel2.Controls.Add(Guna2Button7)
+        Guna2Panel2.Controls.Add(lblCnt)
+        Guna2Panel2.Controls.Add(Label26)
+        Guna2Panel2.Controls.Add(Guna2PictureBox1)
+        Guna2Panel2.CustomizableEdges = CustomizableEdges9
+        Guna2Panel2.FillColor = Color.FromArgb(CByte(255), CByte(244), CByte(241))
+        Guna2Panel2.Location = New Point(83, 192)
+        Guna2Panel2.Name = "Guna2Panel2"
+        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Guna2Panel2.Size = New Size(254, 271)
+        Guna2Panel2.TabIndex = 5
+        ' 
+        ' Guna2Button7
+        ' 
+        Guna2Button7.Animated = True
+        Guna2Button7.BorderRadius = 4
+        Guna2Button7.Cursor = Cursors.Hand
+        Guna2Button7.CustomizableEdges = CustomizableEdges5
+        Guna2Button7.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button7.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button7.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button7.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button7.FillColor = Color.LimeGreen
+        Guna2Button7.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Guna2Button7.ForeColor = Color.White
+        Guna2Button7.HoverState.FillColor = Color.Green
+        Guna2Button7.Location = New Point(154, 240)
+        Guna2Button7.Name = "Guna2Button7"
+        Guna2Button7.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        Guna2Button7.Size = New Size(97, 28)
+        Guna2Button7.TabIndex = 5
+        Guna2Button7.Text = "View"
+        ' 
+        ' lblCnt
+        ' 
+        lblCnt.AutoSize = True
+        lblCnt.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        lblCnt.ForeColor = SystemColors.MenuText
+        lblCnt.Location = New Point(22, 233)
+        lblCnt.Name = "lblCnt"
+        lblCnt.Size = New Size(19, 21)
+        lblCnt.TabIndex = 4
+        lblCnt.Text = "0"
+        ' 
+        ' Label26
+        ' 
+        Label26.AutoSize = True
+        Label26.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label26.ForeColor = SystemColors.MenuText
+        Label26.Location = New Point(22, 203)
+        Label26.Name = "Label26"
+        Label26.Size = New Size(92, 21)
+        Label26.TabIndex = 3
+        Label26.Text = "Beneficiary"
+        ' 
+        ' Guna2PictureBox1
+        ' 
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges7
+        Guna2PictureBox1.Image = My.Resources.Resources.beneficiary__1_
+        Guna2PictureBox1.ImageRotate = 0F
+        Guna2PictureBox1.Location = New Point(22, 34)
+        Guna2PictureBox1.Name = "Guna2PictureBox1"
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        Guna2PictureBox1.Size = New Size(211, 142)
+        Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        Guna2PictureBox1.TabIndex = 0
+        Guna2PictureBox1.TabStop = False
+        ' 
+        ' Label27
+        ' 
+        Label27.AutoSize = True
+        Label27.Font = New Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point)
+        Label27.ForeColor = SystemColors.MenuText
+        Label27.Location = New Point(71, 113)
+        Label27.Name = "Label27"
+        Label27.Size = New Size(132, 32)
+        Label27.TabIndex = 4
+        Label27.Text = "Dashboard"
+        ' 
+        ' lblFirsts
+        ' 
+        lblFirsts.AutoSize = True
+        lblFirsts.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
+        lblFirsts.ForeColor = SystemColors.WindowFrame
+        lblFirsts.Location = New Point(71, 78)
+        lblFirsts.Name = "lblFirsts"
+        lblFirsts.Size = New Size(266, 25)
+        lblFirsts.TabIndex = 3
+        lblFirsts.Text = "Hello Monkey, Welcome back"
         ' 
         ' pnlProfile
         ' 
@@ -555,7 +668,8 @@ Partial Class Userdash
         ' Panel5
         ' 
         Panel5.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        Panel5.Controls.Add(Pgender)
+        Panel5.Controls.Add(userProfile)
+        Panel5.Controls.Add(PSex)
         Panel5.Controls.Add(Label31)
         Panel5.Controls.Add(Pcommittee)
         Panel5.Controls.Add(Label30)
@@ -580,47 +694,61 @@ Partial Class Userdash
         Panel5.Location = New Point(28, 88)
         Panel5.Margin = New Padding(3, 2, 3, 2)
         Panel5.Name = "Panel5"
-        Panel5.Size = New Size(930, 474)
+        Panel5.Size = New Size(930, 536)
         Panel5.TabIndex = 39
         ' 
-        ' Pgender
+        ' userProfile
         ' 
-        Pgender.BorderRadius = 8
-        Pgender.CustomizableEdges = CustomizableEdges1
-        Pgender.DefaultText = ""
-        Pgender.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Pgender.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Pgender.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Pgender.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Pgender.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pgender.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        Pgender.ForeColor = Color.Black
-        Pgender.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pgender.Location = New Point(46, 390)
-        Pgender.Name = "Pgender"
-        Pgender.PasswordChar = ChrW(0)
-        Pgender.PlaceholderText = ""
-        Pgender.ReadOnly = True
-        Pgender.SelectedText = ""
-        Pgender.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Pgender.Size = New Size(378, 32)
-        Pgender.TabIndex = 100
+        userProfile.BackgroundImageLayout = ImageLayout.Center
+        userProfile.BorderStyle = BorderStyle.Fixed3D
+        userProfile.CustomizableEdges = CustomizableEdges11
+        userProfile.ImageRotate = 0F
+        userProfile.Location = New Point(58, 85)
+        userProfile.Name = "userProfile"
+        userProfile.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        userProfile.Size = New Size(251, 177)
+        userProfile.SizeMode = PictureBoxSizeMode.StretchImage
+        userProfile.TabIndex = 101
+        userProfile.TabStop = False
+        ' 
+        ' PSex
+        ' 
+        PSex.BorderRadius = 8
+        PSex.CustomizableEdges = CustomizableEdges13
+        PSex.DefaultText = ""
+        PSex.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        PSex.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        PSex.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        PSex.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        PSex.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        PSex.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        PSex.ForeColor = Color.Black
+        PSex.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        PSex.Location = New Point(765, 147)
+        PSex.Name = "PSex"
+        PSex.PasswordChar = ChrW(0)
+        PSex.PlaceholderText = ""
+        PSex.ReadOnly = True
+        PSex.SelectedText = ""
+        PSex.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        PSex.Size = New Size(111, 32)
+        PSex.TabIndex = 100
         ' 
         ' Label31
         ' 
         Label31.AutoSize = True
         Label31.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label31.Location = New Point(46, 366)
+        Label31.Location = New Point(765, 123)
         Label31.Name = "Label31"
-        Label31.Size = New Size(70, 21)
+        Label31.Size = New Size(36, 21)
         Label31.TabIndex = 99
-        Label31.Text = "GENDER"
+        Label31.Text = "Sex"
         ' 
         ' Pcommittee
         ' 
         Pcommittee.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Pcommittee.BorderRadius = 8
-        Pcommittee.CustomizableEdges = CustomizableEdges3
+        Pcommittee.CustomizableEdges = CustomizableEdges15
         Pcommittee.DefaultText = ""
         Pcommittee.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pcommittee.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -630,14 +758,14 @@ Partial Class Userdash
         Pcommittee.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Pcommittee.ForeColor = Color.Black
         Pcommittee.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pcommittee.Location = New Point(504, 330)
+        Pcommittee.Location = New Point(478, 420)
         Pcommittee.Name = "Pcommittee"
         Pcommittee.PasswordChar = ChrW(0)
         Pcommittee.PlaceholderText = ""
         Pcommittee.ReadOnly = True
         Pcommittee.SelectedText = ""
-        Pcommittee.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Pcommittee.Size = New Size(378, 32)
+        Pcommittee.ShadowDecoration.CustomizableEdges = CustomizableEdges16
+        Pcommittee.Size = New Size(398, 32)
         Pcommittee.TabIndex = 98
         ' 
         ' Label30
@@ -645,7 +773,7 @@ Partial Class Userdash
         Label30.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label30.AutoSize = True
         Label30.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label30.Location = New Point(504, 306)
+        Label30.Location = New Point(478, 396)
         Label30.Name = "Label30"
         Label30.Size = New Size(101, 21)
         Label30.TabIndex = 97
@@ -655,7 +783,7 @@ Partial Class Userdash
         ' 
         Pposition.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Pposition.BorderRadius = 8
-        Pposition.CustomizableEdges = CustomizableEdges5
+        Pposition.CustomizableEdges = CustomizableEdges17
         Pposition.DefaultText = ""
         Pposition.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pposition.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -665,14 +793,14 @@ Partial Class Userdash
         Pposition.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Pposition.ForeColor = Color.Black
         Pposition.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pposition.Location = New Point(504, 272)
+        Pposition.Location = New Point(55, 420)
         Pposition.Name = "Pposition"
         Pposition.PasswordChar = ChrW(0)
         Pposition.PlaceholderText = ""
         Pposition.ReadOnly = True
         Pposition.SelectedText = ""
-        Pposition.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Pposition.Size = New Size(378, 32)
+        Pposition.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        Pposition.Size = New Size(417, 32)
         Pposition.TabIndex = 96
         ' 
         ' Label29
@@ -680,7 +808,7 @@ Partial Class Userdash
         Label29.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label29.AutoSize = True
         Label29.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label29.Location = New Point(504, 248)
+        Label29.Location = New Point(55, 396)
         Label29.Name = "Label29"
         Label29.Size = New Size(83, 21)
         Label29.TabIndex = 95
@@ -690,7 +818,7 @@ Partial Class Userdash
         ' 
         Poffice.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Poffice.BorderRadius = 8
-        Poffice.CustomizableEdges = CustomizableEdges7
+        Poffice.CustomizableEdges = CustomizableEdges19
         Poffice.DefaultText = ""
         Poffice.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Poffice.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -700,14 +828,14 @@ Partial Class Userdash
         Poffice.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Poffice.ForeColor = Color.Black
         Poffice.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Poffice.Location = New Point(504, 212)
+        Poffice.Location = New Point(651, 355)
         Poffice.Name = "Poffice"
         Poffice.PasswordChar = ChrW(0)
         Poffice.PlaceholderText = ""
         Poffice.ReadOnly = True
         Poffice.SelectedText = ""
-        Poffice.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Poffice.Size = New Size(378, 32)
+        Poffice.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        Poffice.Size = New Size(225, 32)
         Poffice.TabIndex = 94
         ' 
         ' Label10
@@ -715,7 +843,7 @@ Partial Class Userdash
         Label10.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label10.AutoSize = True
         Label10.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label10.Location = New Point(504, 188)
+        Label10.Location = New Point(649, 331)
         Label10.Name = "Label10"
         Label10.Size = New Size(61, 21)
         Label10.TabIndex = 93
@@ -725,7 +853,7 @@ Partial Class Userdash
         ' 
         Pemployment.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Pemployment.BorderRadius = 8
-        Pemployment.CustomizableEdges = CustomizableEdges9
+        Pemployment.CustomizableEdges = CustomizableEdges21
         Pemployment.DefaultText = ""
         Pemployment.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pemployment.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -735,14 +863,14 @@ Partial Class Userdash
         Pemployment.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Pemployment.ForeColor = Color.Black
         Pemployment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pemployment.Location = New Point(504, 153)
+        Pemployment.Location = New Point(359, 355)
         Pemployment.Name = "Pemployment"
         Pemployment.PasswordChar = ChrW(0)
         Pemployment.PlaceholderText = ""
         Pemployment.ReadOnly = True
         Pemployment.SelectedText = ""
-        Pemployment.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Pemployment.Size = New Size(378, 32)
+        Pemployment.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        Pemployment.Size = New Size(283, 32)
         Pemployment.TabIndex = 92
         ' 
         ' Label9
@@ -750,7 +878,7 @@ Partial Class Userdash
         Label9.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label9.AutoSize = True
         Label9.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label9.Location = New Point(504, 129)
+        Label9.Location = New Point(359, 331)
         Label9.Name = "Label9"
         Label9.Size = New Size(175, 21)
         Label9.TabIndex = 91
@@ -759,7 +887,7 @@ Partial Class Userdash
         ' Pemail
         ' 
         Pemail.BorderRadius = 8
-        Pemail.CustomizableEdges = CustomizableEdges11
+        Pemail.CustomizableEdges = CustomizableEdges23
         Pemail.DefaultText = ""
         Pemail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pemail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -769,21 +897,21 @@ Partial Class Userdash
         Pemail.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Pemail.ForeColor = Color.Black
         Pemail.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pemail.Location = New Point(46, 272)
+        Pemail.Location = New Point(351, 291)
         Pemail.Name = "Pemail"
         Pemail.PasswordChar = ChrW(0)
         Pemail.PlaceholderText = ""
         Pemail.ReadOnly = True
         Pemail.SelectedText = ""
-        Pemail.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Pemail.Size = New Size(378, 32)
+        Pemail.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        Pemail.Size = New Size(291, 32)
         Pemail.TabIndex = 90
         ' 
         ' Label8
         ' 
         Label8.AutoSize = True
         Label8.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label8.Location = New Point(46, 248)
+        Label8.Location = New Point(351, 267)
         Label8.Name = "Label8"
         Label8.Size = New Size(130, 21)
         Label8.TabIndex = 89
@@ -793,7 +921,7 @@ Partial Class Userdash
         ' 
         Peducational.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Peducational.BorderRadius = 8
-        Peducational.CustomizableEdges = CustomizableEdges13
+        Peducational.CustomizableEdges = CustomizableEdges25
         Peducational.DefaultText = ""
         Peducational.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Peducational.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -803,14 +931,14 @@ Partial Class Userdash
         Peducational.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Peducational.ForeColor = Color.Black
         Peducational.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Peducational.Location = New Point(504, 94)
+        Peducational.Location = New Point(56, 355)
         Peducational.Name = "Peducational"
         Peducational.PasswordChar = ChrW(0)
         Peducational.PlaceholderText = ""
         Peducational.ReadOnly = True
         Peducational.SelectedText = ""
-        Peducational.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        Peducational.Size = New Size(378, 32)
+        Peducational.ShadowDecoration.CustomizableEdges = CustomizableEdges26
+        Peducational.Size = New Size(289, 32)
         Peducational.TabIndex = 88
         ' 
         ' Label7
@@ -818,7 +946,7 @@ Partial Class Userdash
         Label7.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label7.AutoSize = True
         Label7.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label7.Location = New Point(504, 70)
+        Label7.Location = New Point(56, 331)
         Label7.Name = "Label7"
         Label7.Size = New Size(220, 21)
         Label7.TabIndex = 87
@@ -827,7 +955,7 @@ Partial Class Userdash
         ' Pbdate
         ' 
         Pbdate.BorderRadius = 8
-        Pbdate.CustomizableEdges = CustomizableEdges15
+        Pbdate.CustomizableEdges = CustomizableEdges27
         Pbdate.DefaultText = ""
         Pbdate.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pbdate.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -837,21 +965,21 @@ Partial Class Userdash
         Pbdate.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Pbdate.ForeColor = Color.Black
         Pbdate.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pbdate.Location = New Point(46, 330)
+        Pbdate.Location = New Point(649, 291)
         Pbdate.Name = "Pbdate"
         Pbdate.PasswordChar = ChrW(0)
         Pbdate.PlaceholderText = ""
         Pbdate.ReadOnly = True
         Pbdate.SelectedText = ""
-        Pbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        Pbdate.Size = New Size(378, 32)
+        Pbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges28
+        Pbdate.Size = New Size(227, 32)
         Pbdate.TabIndex = 86
         ' 
         ' Label6
         ' 
         Label6.AutoSize = True
         Label6.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label6.Location = New Point(46, 306)
+        Label6.Location = New Point(649, 267)
         Label6.Name = "Label6"
         Label6.Size = New Size(94, 21)
         Label6.TabIndex = 85
@@ -860,7 +988,7 @@ Partial Class Userdash
         ' Pcntact
         ' 
         Pcntact.BorderRadius = 8
-        Pcntact.CustomizableEdges = CustomizableEdges17
+        Pcntact.CustomizableEdges = CustomizableEdges29
         Pcntact.DefaultText = ""
         Pcntact.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pcntact.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -870,21 +998,21 @@ Partial Class Userdash
         Pcntact.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Pcntact.ForeColor = Color.Black
         Pcntact.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pcntact.Location = New Point(46, 212)
+        Pcntact.Location = New Point(56, 291)
         Pcntact.Name = "Pcntact"
         Pcntact.PasswordChar = ChrW(0)
         Pcntact.PlaceholderText = ""
         Pcntact.ReadOnly = True
         Pcntact.SelectedText = ""
-        Pcntact.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        Pcntact.Size = New Size(378, 32)
+        Pcntact.ShadowDecoration.CustomizableEdges = CustomizableEdges30
+        Pcntact.Size = New Size(289, 32)
         Pcntact.TabIndex = 84
         ' 
         ' Label5
         ' 
         Label5.AutoSize = True
         Label5.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label5.Location = New Point(46, 188)
+        Label5.Location = New Point(56, 267)
         Label5.Name = "Label5"
         Label5.Size = New Size(82, 21)
         Label5.TabIndex = 83
@@ -893,7 +1021,7 @@ Partial Class Userdash
         ' Padd
         ' 
         Padd.BorderRadius = 8
-        Padd.CustomizableEdges = CustomizableEdges19
+        Padd.CustomizableEdges = CustomizableEdges31
         Padd.DefaultText = ""
         Padd.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Padd.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -903,21 +1031,21 @@ Partial Class Userdash
         Padd.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Padd.ForeColor = Color.Black
         Padd.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Padd.Location = New Point(46, 153)
+        Padd.Location = New Point(351, 206)
         Padd.Name = "Padd"
         Padd.PasswordChar = ChrW(0)
         Padd.PlaceholderText = ""
         Padd.ReadOnly = True
         Padd.SelectedText = ""
-        Padd.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        Padd.Size = New Size(378, 32)
+        Padd.ShadowDecoration.CustomizableEdges = CustomizableEdges32
+        Padd.Size = New Size(525, 32)
         Padd.TabIndex = 82
         ' 
         ' Label4
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label4.Location = New Point(46, 129)
+        Label4.Location = New Point(351, 182)
         Label4.Name = "Label4"
         Label4.Size = New Size(79, 21)
         Label4.TabIndex = 81
@@ -926,7 +1054,7 @@ Partial Class Userdash
         ' Pfname
         ' 
         Pfname.BorderRadius = 8
-        Pfname.CustomizableEdges = CustomizableEdges21
+        Pfname.CustomizableEdges = CustomizableEdges33
         Pfname.DefaultText = ""
         Pfname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         Pfname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -936,21 +1064,21 @@ Partial Class Userdash
         Pfname.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Pfname.ForeColor = Color.Black
         Pfname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Pfname.Location = New Point(46, 94)
+        Pfname.Location = New Point(351, 147)
         Pfname.Name = "Pfname"
         Pfname.PasswordChar = ChrW(0)
         Pfname.PlaceholderText = ""
         Pfname.ReadOnly = True
         Pfname.SelectedText = ""
-        Pfname.ShadowDecoration.CustomizableEdges = CustomizableEdges22
-        Pfname.Size = New Size(378, 32)
+        Pfname.ShadowDecoration.CustomizableEdges = CustomizableEdges34
+        Pfname.Size = New Size(408, 32)
         Pfname.TabIndex = 80
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label3.Location = New Point(46, 70)
+        Label3.Location = New Point(351, 123)
         Label3.Name = "Label3"
         Label3.Size = New Size(56, 21)
         Label3.TabIndex = 79
@@ -960,7 +1088,7 @@ Partial Class Userdash
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
-        Label2.Location = New Point(48, 43)
+        Label2.Location = New Point(23, 48)
         Label2.Name = "Label2"
         Label2.Size = New Size(304, 25)
         Label2.TabIndex = 38
@@ -969,6 +1097,8 @@ Partial Class Userdash
         ' pnlAccount
         ' 
         pnlAccount.BackColor = SystemColors.ControlLightLight
+        pnlAccount.Controls.Add(cmboSex)
+        pnlAccount.Controls.Add(Label34)
         pnlAccount.Controls.Add(Label28)
         pnlAccount.Controls.Add(cmbxoffice)
         pnlAccount.Controls.Add(cmbxposition)
@@ -1005,11 +1135,43 @@ Partial Class Userdash
         pnlAccount.Size = New Size(984, 655)
         pnlAccount.TabIndex = 0
         ' 
+        ' cmboSex
+        ' 
+        cmboSex.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        cmboSex.BackColor = Color.Transparent
+        cmboSex.BorderRadius = 6
+        cmboSex.CustomizableEdges = CustomizableEdges35
+        cmboSex.DrawMode = DrawMode.OwnerDrawFixed
+        cmboSex.DropDownStyle = ComboBoxStyle.DropDownList
+        cmboSex.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cmboSex.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cmboSex.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        cmboSex.ForeColor = Color.Black
+        cmboSex.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        cmboSex.ItemHeight = 30
+        cmboSex.Items.AddRange(New Object() {"Male", "Female", "Refer not to say"})
+        cmboSex.Location = New Point(662, 281)
+        cmboSex.Name = "cmboSex"
+        cmboSex.ShadowDecoration.CustomizableEdges = CustomizableEdges36
+        cmboSex.Size = New Size(273, 36)
+        cmboSex.TabIndex = 97
+        ' 
+        ' Label34
+        ' 
+        Label34.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        Label34.AutoSize = True
+        Label34.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label34.Location = New Point(657, 252)
+        Label34.Name = "Label34"
+        Label34.Size = New Size(41, 25)
+        Label34.TabIndex = 96
+        Label34.Text = "Sex"
+        ' 
         ' Label28
         ' 
         Label28.AutoSize = True
         Label28.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
-        Label28.Location = New Point(48, 48)
+        Label28.Location = New Point(49, 37)
         Label28.Name = "Label28"
         Label28.Size = New Size(383, 25)
         Label28.TabIndex = 95
@@ -1020,7 +1182,7 @@ Partial Class Userdash
         cmbxoffice.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         cmbxoffice.BackColor = Color.Transparent
         cmbxoffice.BorderRadius = 6
-        cmbxoffice.CustomizableEdges = CustomizableEdges23
+        cmbxoffice.CustomizableEdges = CustomizableEdges37
         cmbxoffice.DrawMode = DrawMode.OwnerDrawFixed
         cmbxoffice.DropDownStyle = ComboBoxStyle.DropDownList
         cmbxoffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -1030,10 +1192,10 @@ Partial Class Userdash
         cmbxoffice.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         cmbxoffice.ItemHeight = 30
         cmbxoffice.Items.AddRange(New Object() {"4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
-        cmbxoffice.Location = New Point(497, 322)
+        cmbxoffice.Location = New Point(310, 440)
         cmbxoffice.Name = "cmbxoffice"
-        cmbxoffice.ShadowDecoration.CustomizableEdges = CustomizableEdges24
-        cmbxoffice.Size = New Size(344, 36)
+        cmbxoffice.ShadowDecoration.CustomizableEdges = CustomizableEdges38
+        cmbxoffice.Size = New Size(341, 36)
         cmbxoffice.TabIndex = 94
         ' 
         ' cmbxposition
@@ -1041,7 +1203,7 @@ Partial Class Userdash
         cmbxposition.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         cmbxposition.BackColor = Color.Transparent
         cmbxposition.BorderRadius = 6
-        cmbxposition.CustomizableEdges = CustomizableEdges25
+        cmbxposition.CustomizableEdges = CustomizableEdges39
         cmbxposition.DrawMode = DrawMode.OwnerDrawFixed
         cmbxposition.DropDownStyle = ComboBoxStyle.DropDownList
         cmbxposition.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -1050,11 +1212,11 @@ Partial Class Userdash
         cmbxposition.ForeColor = Color.Black
         cmbxposition.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         cmbxposition.ItemHeight = 30
-        cmbxposition.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
-        cmbxposition.Location = New Point(497, 390)
+        cmbxposition.Items.AddRange(New Object() {"AA I", "AA II", "AA II Pantawid Pamilya RPMO", "AA III", "AA III - Sr.Bookkeeper", "AA III / Information Officer NHTS-PR", "AA III-Munipical Roving Bookkeeper", "AA-II ", "AA-II KALAHI-CIDDS", "AA-II KALAHI-CIDDS NCDDP_AF", "AC-KAASA", "Accountant I", "Accountant I/Officer in charge", "Accountant II", "Accountant III", "Accounting Clerk", "Acting Secretary", "Acting Social Welfare Officer III", "Activity Therapist", "Activity Worker I", "Admin Aide I", "Admin AIDE III", "Admin AIDE IIII", "Admin AIDE IV", "Admin AIDE VI ", "Admin Assistant", "Admin Assistant III", "Admin Assistant III (Computer Operator II)", "Admin Assistant V (Private Secretary I)", "Admin cum Finance Officer", "Admin Officer IV-Head, RROS", "Admin. Aide VI", "Admin.Assitant III/Information Officer (Listahanan)", "Admin.Officer IV/Head", "Admin.Officer V-Unit Head ", "Administrative Aide I", "Administrative Aide II", "Administrative Aide III", "Administrative Aide III (Encoder)", "Administrative Aide IV", "Administrative Aide IV (Clerk II)", "Administrative Aide IV (Driver)", "Administrative Aide IV (Encoder)", "Administrative Aide IV/Encoder", "Administrative Aide V", "Administrative Aide V (Chauffer I)", "Administrative Aide VI", "Administrative Aide VI (Clerk III)", "Administrative Assistant I", "Administrative Assistant II", "Administrative Assistant II (Procurement)", "Administrative Assistant II/SLP", "Administrative Assistant III", "Administrative Assistant III (Cash Clerk)", "Administrative Assistant III - Budget", "Administrative Assistant III (Budget Assistant)", "Administrative Assistant III/Senior Bookkeeper", "Administrative Assistant III/Socpen Accounting", "Administrative Assistant IV", "Administrative Assistant V", "Administrative Assistant V (Private Secretary I)", "Administrative Assistant VI ", "Administrative Cum Finance Officer", "Administrative Officer I", "Administrative Officer II", "Administrative Officer II - Infastructure Assistant", "Administrative Officer II - Property & Asset Officer", "Administrative Officer II/Head", "Administrative Officer III", "Administrative Officer IV", "Administrative Officer IV/KALAHI-CIDSS", "Administrative Officer IV/Encoder", "Administrative Officer IV/Head", "Administrative Officer V", "Administrative Officer V/Budget Officer", "Administrative Officer V/Financial Analyst III", "Administrative Officer V/Head", "Administrative Program Focal (PDO II-municipal link)", "Administrative Staff", "Administrative Support Staff", "AO II", "AO II/Financial Analyst II ", "AO II / PSYCHOMETRICIAN", "AO II-OIC Head, Property, Supply & Asset Mngt.Section", "AO II-Pantawid Property Officer", "AO II-Property Officer", "AO II-Property & Asset Officer", "AO II-Property Officer (Mainstream Staff Pantawid)", "AO IV", "AO IV-Financial Analyst II", "AO IV/Financial Analyst II", "AO IV/OIC-Procurement Unit Head", "AO V", "AO V-CASH HEAD", "AO V/Budget Officer NHTS-PR", "AOV-FMD-Cash-Head", "Architect I", "Architect II", "Architect III", "ARDO", "Area Coordinator", "Area Coordinarot/KALAHI CIDSS", "AREA SUPERVISOR", "Assistant Bureau Director", "Assistant Information Officer", "Assistant Regional Director for Administration (ARDA)", "Assistant Regional Director for Operations (ARDO)", "Assistant Secretary", "Assistant Secretary / OIC-IMB", "Assistant Secretary for OASOPG-Protective Programs ", "Assistant Service Director", "Associate Statistician", "Attorney III", "AttorneyIV", "Attorney V", "Audio-Visual Aids Technician III", "Audio-Visual Equipment Operator II", "AUDIT TEAM LEADER", "AUDIT TEAM MEMBER", "AVRC II Center Head", "BAC SEC & Procurement Service", "BAHAY PAG-ASA NG LAGUNA - CENTER HEAD", "BDM", "Beneficiary Update System Focal - PDO I", "Beneficiary Update System Focal - PDO II", "Bookkeeper", "BTMS-ENCODER", "Budget Assistant", "Budget Officer I", "Budget Officer II", "Budget Officer III", "Bureau Director", "CAD Operator", "Caretaker", "Carpenter", "Case Worker for MCCT (PDOII)", "Cash Clerk", "CASH CLERK / KALAHI-CIDSS", "Cashier II", "CDA II", "CEF - KALAHI CIDSS", "CEF / Executive Assistant", "CENTER HEAD", "CENTERS AND RESIDENTIAL CARE FACILITIES (CRCF)", "Chief", "Chief Account", "Chief Admin.Officer / OIC ARD for Administration", "Chief Administrative Officer", "Chief Administrative Officer V", "Chief Infastructure Engineer", "Child Psychologist for MCCT", "City Link", "City Link Officer", "CIVIL ENGINEER", "CL", "Clerk I", "Clerk II", "Clerk III/ HRMDD", "Clerk/Encoder", "Cluster Beneficiary Data Officer", "Cluster Compliance Verification System Focal", "Cluster Focal Person (BDM)", "Cluster Greivance Redress System Focal", "Cluster Greivance Officer", "CMT I", "CMT II", "CMT II - MCCT", "COA AUDITOR", "Comm. Development Officer III", "Commission on Audit XI", "Communication Equipment Operator I", "Communications Specialist", "Communications Officer IV", "Community Development Assistant", "Community Development Assistant II", "Community Development Officer II", "Community Development Officer III", "COMMUNITY DEVELOPMENT OFFICER III - IT", "COMMUNITY DEVELOPMENT OFFICER IV", "COMMUNITY DEVELOPMENT OFFICER IV/KALAHI CIDSS", "Community Empowerment Facilitator", "Community Empowerment Facilitator - Roving ", "Community Facilitator", "Community Facilitator Aide", "Community Facilitator Assistant", "Community Finance Facilitator", "Community Finance Monitor", "Community Financial Analyst", "Community Infastructure Officer ", "Community Infastructure Officer III", "Community Infastructure Specialist ", "Community Organizer", "Community Organizer III", "Community Procurement Officer ", "Community Procurement Officer 3", "Community Procurement Officer III", "Community Procurement Specialist ", "Computer Encoder", "Computer Maintenance Technologist I", "Computer Maintenance Technologist II", "Computer Operator", "Computer Operator I", "Computer Operator II", "Computer Operator III", "Computer Operator IV", "Computer Programmer I", "Computer Programmer II", "Computer Programmer III", "Concurrent Head", "Concurent National Program Manager", "Concurent OIC", "Consultant", "Convergeance Coordinator", "Cook", "Cook I", "Cook II", "CPO", "CPO IV", "Crative Arts Specialist", "DAC - DEPUTY ARE COORDINATOR", "Data Analyst III", "Data Encoder", "Database Specialist", "Day Care Worker I", "Day Care Worker II", "Default", "Dentist II", "Department Assistant Secretary", "Department Legislative Liaison Specialist", "Department Secretary", "Department Undersecretary", "Deputy Area Coordinator - Electrical Engineer", "Deputy Area Coordinator - Geoditic Engineer", "Deputy Area Coordinator - IT", "Deputy Community Development Specialist", "Deputy Director", "Deputy Nat'l Community - Infra. Engr.", "Deputy National M & E Specialist", "Deputy National Program Manager for Operations", "Deputy National Training Specialist", "Deputy NCBS", "Deputy Program Director", "Deputy Program Manager", "Deputy Program Manager Operation", "Deputy Regional Program Manager", "Deputy Regional Project Manager", "Deputy Technical Facilitator", "Derector", "Director III", "Director IV", "Division Chief", "Dormitory Manager I", "Dormitory Manager II", "DPMO", "DPMO/PROPERTY WAREHOUSE", "DPSC", "DRAFTSMAN", "Driver", "Driver II", "DSWD FO CARAGA", "ECCD Teacher", "Echonomist III", "Electrical Engineer", "Electrician I ", "Electrician II ", "Encoder", "Encoder III", "Encoder-BTMS", "Engineer I", "Engineer II", "Engineer III", "Engineer IV", "Engineer AIDE", "Environtmental Safeguard Specialist", "Executive Assistant ", "Executive Assistant I", "Executive Assistant II", "Executive Assistant III", "Executive Assistant IV", "Executive Assistant V", "Executive Assistant VI", "Executive Secretary/ Senior Administrative Assistant III", "FA - MAGSAYSAY", "FA II", "FA III", "Family Welfare Assistant for MCCT", "FDS Coordinator", "Field Program Manager", "Field Office Coordinator", "Field Program Manager", "Finance Officer Cum Administrative Officer", "Finance Officer III", "Financial Analyst", "Financial Analyst I", "Financial Analyst II", "Financial Analyst III", "Financial Analyst III (Budget Officer)", "Financial Analyst III (Cash Grants)", "Financial Analyst III/KALAHI CIDSS", "Financial Analyst IV", "Financial Analyst V", "Financial Analyst V (Project Accountant)", "Financial Assistant III", "FMD Chief", "FOCAL PERSON FOR OSEC", "FOR STORAGE", "FPC", "Gender Specialist", "Geodetic Engineer", "GIS Specialist", "Governance Specialist", "Goverment Intership Program", "Greivance Redress System Focal", "Greivance, Admin Officer", "Handicaft Worker II", "Head ", "Head Executive Assistant", "Head, Accounting Section", "Head, RAMS", "Heavy Equipment Operator I", "HMO Inlife Customer Service Representative", "House Attendant ", "Household Attendant III", "Houseparent I", "HOUSEPARENT II", "houseparent III", "Houseparent IV", "HR - Learning and Development", "HR Specialist", "HRMDD CHIEF", "Human Relations Officer I ", "Human Resource Officer", "Human Resource Officer I", "Human Resource Officer II", "Information analyst I", "Information Officer", "Information Officer I", "Information Officer I/Social Pension Program", "Information Officer I/UCT", "Information Officer II", "Information Officer III ", "Information Officer III (Social Marketing Officer III)", "Information Officer IV", "Information Officer V", "Information Specialist Analyst", "Information System Analyst", "Information System Analyst I", "Information System Analyst III", "Information Systems Analyst", "Information Technology Officer (Team Leader)", "Information Technology Officer I", "Information Technology Officer II", "Information Technology Officer III", "Institutional Partnership and Development Officer", "Instructor ", "Inter Auditing Assistant", "Internal Auditor I", "Internal Auditor II", "Internal Auditor III", "Internal Auditor IV", "Internal Auditor V", "IO", "IPDO", "JOB ORDER", "Job Placement Officer", "Junior Capacity Building Specialist", "Junior Community Procurement Specialist", "KALAHI CIDSS - Japan Fund for Proverty Reduction", "KM Writer", "Knowledge Management Writer", "Laundry Worker I ", "Laundry Worker II", "Laundry Worker/Cook", "Laundrywoman", "Legal Assistant I", "Legal Assistant II", "LIBRARIAN I", "Librarian II", "Logistic Officer III", "M & E Assistant III", "M & E I", "M & E II", "M & E Specialist", "M & E IV", "M & E V", "M & E Officer III", "Management and Audit Analyst II", "Management Audit Analyst", "Management Audit Analyst II", "Management Audit Analyst IV", "MANPOWER DEVELOPMENT ASSISTANT ", "Manpower Development Officer I", "Manpower Development Officer II", "Manpower Development Officer III", "MCCT Coordinator", "MDO I / PSYCHOMETRICIAN", "Media Officer IV", "Media Production Specialist", "Media Prodcution Specialist III", "MEDICAL OFFICER", "Medical Officer III", "Medical Officer IV", "MFA", "Midwife I", "Minister of Social Service BARMM", "ML PATNANUNGAN", "MOA", "Monitoring & Evaluation Officer I", "Monitoring & Evaluation Officer II", "Monitoring & Evaluation Officer III", "Monitoring & Evaluation III ", "Monitoring & Evaluation Officer ", "Monitoring & Evaluation Officer III (External)", "Monitoring & Evaluation Officer IV", "Monitoring & Evaluation Officer V", "MRB", "Municipal Financial Analyst", "Municipal Financial Analyst/KALAHI-CIDSS", "Municipal Financial Analyst", "Municipal Link", "Minicipal Link Officer", "Municipal Monitoring ", "Municipal Rooving Bookkeeper", "Municipal Roving Bookkeeper", "Municipal Social Welfare Development Officer", "National Capability Building Specialist", "National Community Infrastructure", "National DRRM Support Coordinator", "National Financial Analyst - KCMCC", "National M & E Specialist", "National Training Officer", "NCDS", "NHTO IT-Division Chief/ITO3", "Nurse I", "Nurse II", "Nutritionist-Dietician I", "Nutritionist-Dietician II", "Nutritionist-Dietician III", "Nutritionist-Dietician V", "OASOPG-PP", "ODM Specialist", "OIC ", "OIC - Director IV", "OIC AUDIT TEAM LEADER", "OIC DIVISION Chief - DReMD", "OIC Head, Property & Supply Section", "OIC - Assistant Regional Director for Operations", "OIC - ASEC - OASOSG", "OIC - Assistant Director", "OIC - Assistant Secretary", "OIC - Assistant Service Director", "OIC-Asst. Secretary for OSG", "OIC - Center Head", "OIC - CHIEF", "OIC Director", "OIC - Division Chief", "OIC - GSD", "OIC - Procurement Unit Head", "OIC - Regional Director", "OIC - USEC", "OIC/Chief", "OJT", "On-the-job Trainee", "Operations Program Focal (PDO II - Municipal Link)", "Organizational Development Specialist III", "Organizational Development Specialist IV", "Organizational Training Specialist IV", "Payapa at Masaganang Pamayanan ", "PDO", "PDO I", "PDO I/FMD Cash Grants ", "PDO I/DRMD ", "PDO I/Grievance Officer", "PDO I/provincial Monitoring Evaluation Officer", "PDO II", "PDO II - System coordinator", "PDO II Municipal link", "PDO II (Case Worker)", "PDO II - BUS", "PDO II - BUS Focal Person", "PDO - Coordination to Partner Agencies", "PDO II - CVS", "PDOII - EPAHPH", "PDO II - GAD", "PDO II - GRS", "PDO II - GRS (Cluster) ", "PDO II - Information II", "PDO II - IP", "PDO II - Monitoring & Evaluation Officer", "PDO II - SWAD TL", "PDO II / Capability building ", "PDO II / DRMD CCAM", "PDO II / ML TUAO, CAGAYAN", "PDO II / Municipal Link, Alicia, Isabela", "PDO II / Municipal Link, Ilagan City, Isabela", "PDO II / RMEO", "PDO II / SLP Batanes", "PDO II / SWAD TL", "PDO II / GRS ", "PDO II Municipal Link, Abulug, Cagayan", "PDO II - Institutional Partnership Development Officer", "PDO II - City link, Tuguegarao City, Cagayan", "PDO II - Cluster Benefeciary Data Officer", "PDO II - MCCT Community Facilitator", "PDO II - Municipal Link", "PDO II - Municipal Link Dupax Del Norte,N.V", "PDO II - Municipal Link, Ambaguio", "PDO II - Municipal Link, Buguey, Cagayan", "PDO II - Municipal Link, Diadi, N.V", "PDO II - Municipal Link, Enrile, Cagayan", "PDO II - Municipal Link, Iguig, Cagayan", "PDO II - Municipal Link, Napagtipunan, Quirino", "PDO II - Municipal Link, Saguday, Quirino", "PDO II - Municipal Link, Dupax Del Sur, N.V", "PDO II - Provincial Systems Focal", "PDO II - Regional Monitoring and Evaluation Officer", "PDO II/PMEO SLP ISABELA", "PDO II/Provincial Coordinator", "PDO II/Child Labord Focal Person", "PDO II/DRMD", "PDO II/DRMD CCAM", "PDO II/Geographic Info.System Specialist", "PDO II/Information Officer", "PDO II/LIQUIDATION FOCAL/RMEF", "PDO II/MCCT San Pablo, Isabela", "PDO II/ML APARRI, CAGAYAN", "PDO II/ML TUAO, CAGAYAN", "PDO II/MUNICIPAL LINK", "PDO II/Municipal Link Bambang, NV", "PDO II/Municipal Link Claveri, Cagayan", "PDO II/Municipal Link Diadi, NV", "PDO II/Municipal Link Dinapigue, Isabela", "PDO II/Municipal Link Gattaran, Cagayan", "PDO II/Municipal Link Kayapa, Nueva Viscaya", "PDO II/Municipal Link Pamplano, Cagayan", "PDO II/Municipal Link Peablanca, Cagayan", "PDO II/Municipal Link Quezon, Nueva Viscaya", "PDO II/Municipal LInk Rizal,Cagayan", "PDO II/Municipal Link Roxas,Isabela", "PDO II/Municipal Link San Isidro, Cagayan", "PDO II/Municipal Link San Isidro, Isabela", "PDO II/Municipal Link Sanchez Mira, Cagayan", "PDO II/Municipal Link Solano,NV", "PDO II/Municipal LInk Sta.Fe,NV", "PDO II/Municipal Link Sta.Praxedes,Cagayan", "PDO II/Municipal Link Sto.Nino,Cagayan", "PDO II/Municipal Link Villaverde", "PDO II/Municipal Link, Aparri,Cagayan", "PDO II/Municipal Link, Buguey, Cagayan", "PDO II/Municipal Link, Burgos, Isabela", "PDO II/Municipal Link, Divilacan, Isabela", "PDO II/Municipal Link, Jones,Isabela", "PDO II/Municipal Link,MACONACON, ISABELA", "PDO II/Municipal Link,SAn Agustin,Isabela", "PDo II/Municipal Link,San Mariano,Isabela", "PDO II/Municipal Link,San Mateo,Isabela", "PDO II/Municipal Link,Tumauini,Isabela", "PDO II/Municipal Link,Divilacan,Isabela", "PDO II/Municipal Link,Echague,Isabela", "PDO II/Municipal Link,Maconacon,Isabela", "PDO II/Municipal Link,San Mariano,Isabela", "PDO II/PMEO ISABELA", "PDO II/PMEO NUEVA VIZCAYA", "PDO II/PMEO QUIRINO", "PDO II/Private Sector Partnership Officer", "PDO II/Provincial Coordinator Isabela, Cagayan", "PDO II/Provincial Coordinator SLP Isabela", "PDO II/Provincial Coordinator SLP Quirino", "PDO II/Reports Generation", "PDO III", "PDO III/Area Coordinator", "PDO III/Area Coordinator", "PDO III/Civil Engineer", "PDO III TEchnical Staff/RSCWC", "PDO III/Area Coordinator", "PDO III/Head, CVRRCY", "PDO III/Reg'l Center Coordinator", "PDO III/RSCWC", "PDO IV", "PDO V/ RPC", "PDO V/Division", "PDO V/Regional Field Coordinator UCT", "PDO-I Social Pension", "PDO-II", "PDO-IIDRMMD", "PEO I", "PEO III", "PGO", "Photographer II", "Physical Therapist II", "Planning Officer I", "Planning Officer II", "Planning Officer III", "Planning Officer IV", "Planning Officer V", "Plumber", "PMEO", "PMO-EE", "Policy and Plans Division Chief", "PPG-OSM", "PPO", "Prisedent - SWEAP", "Private Secretary", "Private Secretary I ", "Procurement Assistant", "Procurement Assistant II", "PROCUREMENT ASST.", "Procurement Development Officer III", "Procurement Officer", "Procurement Specialist", "Profect Development Officer II (DRAFTMAN)", "Program Development III", "Project Evaluation Specialist", "Program Manager", "Program Officer", "Project Coordinator", "Project Development Office III", "Project Development Officer", "Project Development Officer I", "Project Development Officer I - KC", "Project Development Officer I - Nurse", "Project Development Officer I - Nutritionist - Dietician I", "Project Development Officer I/CAMP MANAGERS", "Project Development Officer II", "Project Development Officer II (CVS Focal)", "Project Development Officer II - BP2P", "Project Development Officer II - Database Specialist ", "Project Development Officer II - Infrastructure", "Project Development Officer II/SLP", "Project Development Officer II-CVS Focal (POO 2 Isabela)", "Project Development Officer II - MCCT", "Project Development Officer II - MunicipaL Link", "Project Development Officer II/GRS Focal", "Project Development Officer II/SLP", "Project Development Officer III", "Project Development Officer III - FDS Focal", "Project Development Officer III/Centenarian Focal Person", "Project Development Officer III/Regional Program Coordinator", "Project Development Officer IV ", "Project Development Officer V", "Project Development Officer V (Gender Specialist)", "Project Development Officer V (IP Specialist)", "Project Development Officer V - OIC", "Project Evaluation Officer", "Project Evaluation Officer II", "Project Evaluation Officer III", "Project Evaluation Officer IV", "Project Evaluation Officer V", "Project Management Officer", "Project Manager (UCT)", "Project Manager IV", "Project Officer", "Property Officer/Warehouse", "Provincial AA", "Provincial AA II", "Provincial Bus Officer (PDO II)", "PROVINCIAL CL", "Provinvial Coordinator", "Provinvial CVS Officer (PDO II)", "Provincial Grievance Officer", "Provincial Grievance Officer (PDO II)", "Provincial GRS Officer (PDO II)", "Provincial Link", "Psychologist I", "Psychologist II", "Psychologist III", "Psychometrician I", "Public Relations Officer IV", "Quality Management Specialist", "Records Officer ", "Regional Accountant", "Regional bookkeeper", "Regional capability Building Specialist", "Regional Community Development Specialist", "Regional Community Infrastructure Specialist", "Regional Director", "Regional Driver (KC-NCDDP) ", "Regional Executive Assistant ", "Regional Field Coordinator", "Regional Finance Specialist", "Regional Financial Analyst", "Regional Information Officer", "Regional Information Officer II-Head,SMU", "Regional Information Technology Officer ", "Regional Information Technology Officer I", "Regional Information Technology Officer II", "Regional Infrastructure Assistant", "Regional Infrastructure Officer", "Regional Infrastructure Officer II", "Regional Infrastructure Officer III", "Regional Monitoring And Evaluation Specialist", "Regional Procurement Officer", "Regional Procurement For Program", "Regional Procurement Officer For Program Community", "Regional Program coordinator", "Regional Program Coordinator - KALAHI - CIDSS", "Regional Program Coordinator - Operations", "Regional Sub - Committee for the Welfare of Children (RSCWC)", "Regional Training Assistant", "Regional Training Officer", "Regional Training Officer II", "Regional Training Specialist", "Repacker", "Research Officer III", "RIO III", "Roving Area Coordinator", "Roving Municipal Financial Analyst", "Roving technical Facilitator", "RSCWC - Technical Officer", "SA - IV", "SA - IV Audit Team Leader", "SAO", "SAO/DC", "SAO/OIC-DC", "Social Welfare Assistant - MCCT", "Secretary II", "Section Head", "Security Guard I (CT)", "Security Guard I (ICT)", "Security Guard II", "Security Officer II", "Senior Administrative Assistant I", "Senior Administrative Assistant II", "Senior Administrative Assistant III", "Senior Administrative Assistant IV", "Senior Administrative Assistant V", "Senior Administrative Officer", "Senior Bookkeeper", "Senior Bookkeeper (Admin Asst III)", "Senior M & E Assistant V", "Senior MANPOWER DEVELOPMENT OFFICER II", "Senior Statistician IV", "Senior Technical Officer ", "SGV", "Site Engineer", "Social Marketing Officer", "Social Marketing Officer III", "Social Marketing Officer III/KALAHI-CIDSS", "Social Marketing Specialist", "Social Safeguard Officer", "Social Safeguard Specialist", "Social Welfare Aide", "Social Welfare Assistant", "Social Welfare Assistant - CMU", "Social Welfare Assistant - MCCT IP", "Social Welfare Assistant I", "Social Welfare Assistant II", "Social Welfare Assistant - MCCT", "Social Welfare Attache", "Social Welfare Officer I ", "Social Welfare Officer I - OIC Center Head", "Social Welfare Officer II", "Social Welfare Officer II/EO 70 Focal", "Social Welfare Officer II/Family Focal", "Social Welfare Officer II/SWAD Team Leader", "Social Welfare Officer II/Team Leader", "Social Welfare Officer III", "Social Welfare Officer III-Center Head", "Social Welfare Officer III/Act as PL", "Social Welfare Officer III/TARA Focal", "Social Welfare Officer III/Team Leader", "Social Welfare Officer IV", "Social Welfare Officer IV, OIC-Chief,DReMD", "Social Welfare Officer IV - Center Head", "Social Welfare Officer V", "Social Welfare Officer V/OIC ARDO and Concurrent Head PSD", "Special Investigator III", "SPED TEACHER", "Stakeholder Management and Networking Specialist", "State Auditing Examiner", "State Auditing Examiner II", "State Auditor ", "State Auditor and Examiner ", "State Auditor I", "State Auditor II", "State Auditor III", "State Auditor IV", "State Auditor V", "Statistician", "Statistician Aide", "Statistician Aide II", "Statistician I", "Statistician II", "Statistician III", "Statistician IV", "Stockroom/Warehouse", "Storage Room", "Storekeeper", "Sub-Regional Program Coordinator", "Sub-Regional Project Coordinator", "Supervising Administrative I", "Supervising Administrative V", "Supervising Administrative Officer", "Supervising Administrative Officer - KC - NCDDP", "Supervising Administrative Officer/KALAHI - CIDSS", "Supervising Auditor V", "Supervisor", "Supplier", "Supply Officer I", "Supply Procurement Officer I", "SWA", "SWA - Convergence", "SWA AIDE", "SWA San Juan Batangas", "SWA - CMU", "SWI - III", "SWO - I", "SWO - II", "SWO - II/Women Focal Person", "SWO II - SWAD TL", "SWO II - OIC Center Head", "SWO II/Family Focal Person", "SWO II/Older Per & IISO Focal Person", "SWO II/RRPTP", "SWO II/RRPTP,PWD,PLHIV & Youth Focal Person", "SWO II/Women Focal Person", "SWO III", "SWO III/Head, Social Technology Section", "SWO III/Head, Regional Juvenile Justice and Welfare Council", "SWO III/OIC - SLP RPC", "SWO IV", "SWO IV UCT", "SWO V / Chief, Promotive Services Division", "SWO V / Division Chief", "SWO V / OIC ARD for Operations", "System Analyst II", "System Coordinator", "System Coordinator Officer (PDO II)", "System Coordinator Officer PDO II - BUS", "System Coordinator Officer PDO II - CVS", "System Coordinator Officer PDO II - GRS", "Teach for The Philippines Ambasador", "Teacher", "Teacher I", "Team Leader", "Team Leader SWAD Nueva Viscaya", "Techincal Empowerment facilitator", "Technical Facilitator", "Techinal Facilitator/KALAHI-CIDSS", "Technical Specialist", "Technician ", "Training Assistant II", "Training Center Superintendent II", "Training Specialist I", "Training Specialist II", "Training Specialist III", "Training Specialist IV", "TS IV", "UCT - Regional Field Coordinator", "Undersecretary ", "Undersecretary for Administration", "Utility Worker", "Utility Worker I", "Utility Worker II", "WAREHOUSE", "Warehouseman II"})
+        cmbxposition.Location = New Point(662, 440)
         cmbxposition.Name = "cmbxposition"
-        cmbxposition.ShadowDecoration.CustomizableEdges = CustomizableEdges26
-        cmbxposition.Size = New Size(344, 36)
+        cmbxposition.ShadowDecoration.CustomizableEdges = CustomizableEdges40
+        cmbxposition.Size = New Size(273, 36)
         cmbxposition.TabIndex = 93
         ' 
         ' txtbxbdate
@@ -1062,18 +1224,18 @@ Partial Class Userdash
         txtbxbdate.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         txtbxbdate.BorderRadius = 6
         txtbxbdate.Checked = True
-        txtbxbdate.CustomizableEdges = CustomizableEdges27
+        txtbxbdate.CustomizableEdges = CustomizableEdges41
         txtbxbdate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtbxbdate.ForeColor = Color.Black
         txtbxbdate.Format = DateTimePickerFormat.Long
         txtbxbdate.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxbdate.HoverState.ForeColor = Color.Black
-        txtbxbdate.Location = New Point(497, 118)
+        txtbxbdate.Location = New Point(662, 356)
         txtbxbdate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         txtbxbdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         txtbxbdate.Name = "txtbxbdate"
-        txtbxbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges28
-        txtbxbdate.Size = New Size(344, 36)
+        txtbxbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges42
+        txtbxbdate.Size = New Size(273, 36)
         txtbxbdate.TabIndex = 92
         txtbxbdate.Value = New Date(2023, 6, 6, 13, 54, 41, 766)
         ' 
@@ -1082,7 +1244,7 @@ Partial Class Userdash
         Label18.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label18.AutoSize = True
         Label18.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label18.Location = New Point(497, 292)
+        Label18.Location = New Point(307, 410)
         Label18.Name = "Label18"
         Label18.Size = New Size(61, 25)
         Label18.TabIndex = 91
@@ -1093,7 +1255,7 @@ Partial Class Userdash
         cmbxcomm.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         cmbxcomm.BackColor = Color.Transparent
         cmbxcomm.BorderRadius = 6
-        cmbxcomm.CustomizableEdges = CustomizableEdges29
+        cmbxcomm.CustomizableEdges = CustomizableEdges43
         cmbxcomm.DrawMode = DrawMode.OwnerDrawFixed
         cmbxcomm.DropDownStyle = ComboBoxStyle.DropDownList
         cmbxcomm.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -1103,10 +1265,10 @@ Partial Class Userdash
         cmbxcomm.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         cmbxcomm.ItemHeight = 30
         cmbxcomm.Items.AddRange(New Object() {"Education, Information & Research", "Organizing & Membership", "Grievances", "Welfare", "Finance", "Sports & Culture"})
-        cmbxcomm.Location = New Point(497, 526)
+        cmbxcomm.Location = New Point(310, 522)
         cmbxcomm.Name = "cmbxcomm"
-        cmbxcomm.ShadowDecoration.CustomizableEdges = CustomizableEdges30
-        cmbxcomm.Size = New Size(344, 36)
+        cmbxcomm.ShadowDecoration.CustomizableEdges = CustomizableEdges44
+        cmbxcomm.Size = New Size(341, 36)
         cmbxcomm.TabIndex = 90
         ' 
         ' Label19
@@ -1114,7 +1276,7 @@ Partial Class Userdash
         Label19.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label19.AutoSize = True
         Label19.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label19.Location = New Point(497, 496)
+        Label19.Location = New Point(307, 494)
         Label19.Name = "Label19"
         Label19.Size = New Size(105, 25)
         Label19.TabIndex = 89
@@ -1125,7 +1287,7 @@ Partial Class Userdash
         Label20.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label20.AutoSize = True
         Label20.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label20.Location = New Point(497, 88)
+        Label20.Location = New Point(657, 327)
         Label20.Name = "Label20"
         Label20.Size = New Size(90, 25)
         Label20.TabIndex = 88
@@ -1135,7 +1297,7 @@ Partial Class Userdash
         ' 
         txtbxeduc.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         txtbxeduc.BorderRadius = 6
-        txtbxeduc.CustomizableEdges = CustomizableEdges31
+        txtbxeduc.CustomizableEdges = CustomizableEdges45
         txtbxeduc.DefaultText = ""
         txtbxeduc.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxeduc.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1146,13 +1308,13 @@ Partial Class Userdash
         txtbxeduc.ForeColor = Color.Black
         txtbxeduc.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxeduc.HoverState.ForeColor = Color.Black
-        txtbxeduc.Location = New Point(497, 254)
+        txtbxeduc.Location = New Point(49, 440)
         txtbxeduc.Name = "txtbxeduc"
         txtbxeduc.PasswordChar = ChrW(0)
         txtbxeduc.PlaceholderText = ""
         txtbxeduc.SelectedText = ""
-        txtbxeduc.ShadowDecoration.CustomizableEdges = CustomizableEdges32
-        txtbxeduc.Size = New Size(344, 36)
+        txtbxeduc.ShadowDecoration.CustomizableEdges = CustomizableEdges46
+        txtbxeduc.Size = New Size(249, 36)
         txtbxeduc.TabIndex = 87
         ' 
         ' Label21
@@ -1160,7 +1322,7 @@ Partial Class Userdash
         Label21.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label21.AutoSize = True
         Label21.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label21.Location = New Point(497, 225)
+        Label21.Location = New Point(49, 410)
         Label21.Name = "Label21"
         Label21.Size = New Size(208, 25)
         Label21.TabIndex = 86
@@ -1170,7 +1332,7 @@ Partial Class Userdash
         ' 
         txtbxemail.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         txtbxemail.BorderRadius = 6
-        txtbxemail.CustomizableEdges = CustomizableEdges33
+        txtbxemail.CustomizableEdges = CustomizableEdges47
         txtbxemail.DefaultText = ""
         txtbxemail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxemail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1181,12 +1343,12 @@ Partial Class Userdash
         txtbxemail.ForeColor = Color.Black
         txtbxemail.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxemail.HoverState.ForeColor = Color.Black
-        txtbxemail.Location = New Point(497, 186)
+        txtbxemail.Location = New Point(307, 356)
         txtbxemail.Name = "txtbxemail"
         txtbxemail.PasswordChar = ChrW(0)
         txtbxemail.PlaceholderText = ""
         txtbxemail.SelectedText = ""
-        txtbxemail.ShadowDecoration.CustomizableEdges = CustomizableEdges34
+        txtbxemail.ShadowDecoration.CustomizableEdges = CustomizableEdges48
         txtbxemail.Size = New Size(344, 36)
         txtbxemail.TabIndex = 85
         ' 
@@ -1195,7 +1357,7 @@ Partial Class Userdash
         Label22.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label22.AutoSize = True
         Label22.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label22.Location = New Point(497, 157)
+        Label22.Location = New Point(307, 327)
         Label22.Name = "Label22"
         Label22.Size = New Size(125, 25)
         Label22.TabIndex = 84
@@ -1204,7 +1366,7 @@ Partial Class Userdash
         ' txtbxcontact
         ' 
         txtbxcontact.BorderRadius = 6
-        txtbxcontact.CustomizableEdges = CustomizableEdges35
+        txtbxcontact.CustomizableEdges = CustomizableEdges49
         txtbxcontact.DefaultText = ""
         txtbxcontact.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxcontact.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1215,20 +1377,20 @@ Partial Class Userdash
         txtbxcontact.ForeColor = Color.Black
         txtbxcontact.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxcontact.HoverState.ForeColor = Color.Black
-        txtbxcontact.Location = New Point(144, 526)
+        txtbxcontact.Location = New Point(52, 357)
         txtbxcontact.Name = "txtbxcontact"
         txtbxcontact.PasswordChar = ChrW(0)
         txtbxcontact.PlaceholderText = ""
         txtbxcontact.SelectedText = ""
-        txtbxcontact.ShadowDecoration.CustomizableEdges = CustomizableEdges36
-        txtbxcontact.Size = New Size(344, 36)
+        txtbxcontact.ShadowDecoration.CustomizableEdges = CustomizableEdges50
+        txtbxcontact.Size = New Size(248, 36)
         txtbxcontact.TabIndex = 83
         ' 
         ' Label23
         ' 
         Label23.AutoSize = True
         Label23.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label23.Location = New Point(144, 496)
+        Label23.Location = New Point(49, 327)
         Label23.Name = "Label23"
         Label23.Size = New Size(76, 25)
         Label23.TabIndex = 82
@@ -1237,7 +1399,7 @@ Partial Class Userdash
         ' txtbxadds
         ' 
         txtbxadds.BorderRadius = 6
-        txtbxadds.CustomizableEdges = CustomizableEdges37
+        txtbxadds.CustomizableEdges = CustomizableEdges51
         txtbxadds.DefaultText = ""
         txtbxadds.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxadds.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1248,20 +1410,20 @@ Partial Class Userdash
         txtbxadds.ForeColor = Color.Black
         txtbxadds.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxadds.HoverState.ForeColor = Color.Black
-        txtbxadds.Location = New Point(144, 458)
+        txtbxadds.Location = New Point(49, 281)
         txtbxadds.Name = "txtbxadds"
         txtbxadds.PasswordChar = ChrW(0)
         txtbxadds.PlaceholderText = ""
         txtbxadds.SelectedText = ""
-        txtbxadds.ShadowDecoration.CustomizableEdges = CustomizableEdges38
-        txtbxadds.Size = New Size(344, 36)
+        txtbxadds.ShadowDecoration.CustomizableEdges = CustomizableEdges52
+        txtbxadds.Size = New Size(602, 36)
         txtbxadds.TabIndex = 81
         ' 
         ' Label24
         ' 
         Label24.AutoSize = True
         Label24.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label24.Location = New Point(144, 429)
+        Label24.Location = New Point(49, 252)
         Label24.Name = "Label24"
         Label24.Size = New Size(79, 25)
         Label24.TabIndex = 80
@@ -1272,7 +1434,7 @@ Partial Class Userdash
         cmbxemployment.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         cmbxemployment.BackColor = Color.Transparent
         cmbxemployment.BorderRadius = 6
-        cmbxemployment.CustomizableEdges = CustomizableEdges39
+        cmbxemployment.CustomizableEdges = CustomizableEdges53
         cmbxemployment.DrawMode = DrawMode.OwnerDrawFixed
         cmbxemployment.DropDownStyle = ComboBoxStyle.DropDownList
         cmbxemployment.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -1282,10 +1444,10 @@ Partial Class Userdash
         cmbxemployment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         cmbxemployment.ItemHeight = 30
         cmbxemployment.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
-        cmbxemployment.Location = New Point(497, 458)
+        cmbxemployment.Location = New Point(52, 523)
         cmbxemployment.Name = "cmbxemployment"
-        cmbxemployment.ShadowDecoration.CustomizableEdges = CustomizableEdges40
-        cmbxemployment.Size = New Size(344, 36)
+        cmbxemployment.ShadowDecoration.CustomizableEdges = CustomizableEdges54
+        cmbxemployment.Size = New Size(246, 36)
         cmbxemployment.TabIndex = 79
         ' 
         ' Label17
@@ -1293,7 +1455,7 @@ Partial Class Userdash
         Label17.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label17.AutoSize = True
         Label17.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label17.Location = New Point(497, 429)
+        Label17.Location = New Point(49, 494)
         Label17.Name = "Label17"
         Label17.Size = New Size(172, 25)
         Label17.TabIndex = 78
@@ -1304,7 +1466,7 @@ Partial Class Userdash
         Label16.Anchor = AnchorStyles.Top Or AnchorStyles.Right
         Label16.AutoSize = True
         Label16.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label16.Location = New Point(497, 361)
+        Label16.Location = New Point(657, 412)
         Label16.Name = "Label16"
         Label16.Size = New Size(80, 25)
         Label16.TabIndex = 77
@@ -1313,7 +1475,7 @@ Partial Class Userdash
         ' txtbxlname
         ' 
         txtbxlname.BorderRadius = 6
-        txtbxlname.CustomizableEdges = CustomizableEdges41
+        txtbxlname.CustomizableEdges = CustomizableEdges55
         txtbxlname.DefaultText = ""
         txtbxlname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxlname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1324,20 +1486,20 @@ Partial Class Userdash
         txtbxlname.ForeColor = Color.Black
         txtbxlname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxlname.HoverState.ForeColor = Color.Black
-        txtbxlname.Location = New Point(144, 390)
+        txtbxlname.Location = New Point(657, 205)
         txtbxlname.Name = "txtbxlname"
         txtbxlname.PasswordChar = ChrW(0)
         txtbxlname.PlaceholderText = ""
         txtbxlname.SelectedText = ""
-        txtbxlname.ShadowDecoration.CustomizableEdges = CustomizableEdges42
-        txtbxlname.Size = New Size(344, 36)
+        txtbxlname.ShadowDecoration.CustomizableEdges = CustomizableEdges56
+        txtbxlname.Size = New Size(278, 36)
         txtbxlname.TabIndex = 76
         ' 
         ' Label15
         ' 
         Label15.AutoSize = True
         Label15.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label15.Location = New Point(144, 361)
+        Label15.Location = New Point(657, 177)
         Label15.Name = "Label15"
         Label15.Size = New Size(99, 25)
         Label15.TabIndex = 75
@@ -1346,7 +1508,7 @@ Partial Class Userdash
         ' txtbxmname
         ' 
         txtbxmname.BorderRadius = 6
-        txtbxmname.CustomizableEdges = CustomizableEdges43
+        txtbxmname.CustomizableEdges = CustomizableEdges57
         txtbxmname.DefaultText = ""
         txtbxmname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxmname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1357,12 +1519,12 @@ Partial Class Userdash
         txtbxmname.ForeColor = Color.Black
         txtbxmname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxmname.HoverState.ForeColor = Color.Black
-        txtbxmname.Location = New Point(144, 322)
+        txtbxmname.Location = New Point(307, 206)
         txtbxmname.Name = "txtbxmname"
         txtbxmname.PasswordChar = ChrW(0)
         txtbxmname.PlaceholderText = ""
         txtbxmname.SelectedText = ""
-        txtbxmname.ShadowDecoration.CustomizableEdges = CustomizableEdges44
+        txtbxmname.ShadowDecoration.CustomizableEdges = CustomizableEdges58
         txtbxmname.Size = New Size(344, 36)
         txtbxmname.TabIndex = 74
         ' 
@@ -1370,7 +1532,7 @@ Partial Class Userdash
         ' 
         Label14.AutoSize = True
         Label14.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label14.Location = New Point(144, 292)
+        Label14.Location = New Point(307, 177)
         Label14.Name = "Label14"
         Label14.Size = New Size(125, 25)
         Label14.TabIndex = 73
@@ -1379,7 +1541,7 @@ Partial Class Userdash
         ' txtbxfname
         ' 
         txtbxfname.BorderRadius = 6
-        txtbxfname.CustomizableEdges = CustomizableEdges45
+        txtbxfname.CustomizableEdges = CustomizableEdges59
         txtbxfname.DefaultText = ""
         txtbxfname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxfname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1390,20 +1552,20 @@ Partial Class Userdash
         txtbxfname.ForeColor = Color.Black
         txtbxfname.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxfname.HoverState.ForeColor = Color.Black
-        txtbxfname.Location = New Point(144, 254)
+        txtbxfname.Location = New Point(49, 206)
         txtbxfname.Name = "txtbxfname"
         txtbxfname.PasswordChar = ChrW(0)
         txtbxfname.PlaceholderText = ""
         txtbxfname.SelectedText = ""
-        txtbxfname.ShadowDecoration.CustomizableEdges = CustomizableEdges46
-        txtbxfname.Size = New Size(344, 36)
+        txtbxfname.ShadowDecoration.CustomizableEdges = CustomizableEdges60
+        txtbxfname.Size = New Size(252, 36)
         txtbxfname.TabIndex = 72
         ' 
         ' Label13
         ' 
         Label13.AutoSize = True
         Label13.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label13.Location = New Point(144, 225)
+        Label13.Location = New Point(49, 177)
         Label13.Name = "Label13"
         Label13.Size = New Size(102, 25)
         Label13.TabIndex = 71
@@ -1412,7 +1574,7 @@ Partial Class Userdash
         ' txtbxpassword
         ' 
         txtbxpassword.BorderRadius = 6
-        txtbxpassword.CustomizableEdges = CustomizableEdges47
+        txtbxpassword.CustomizableEdges = CustomizableEdges61
         txtbxpassword.DefaultText = ""
         txtbxpassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxpassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1423,12 +1585,12 @@ Partial Class Userdash
         txtbxpassword.ForeColor = Color.Black
         txtbxpassword.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxpassword.HoverState.ForeColor = Color.Black
-        txtbxpassword.Location = New Point(144, 186)
+        txtbxpassword.Location = New Point(399, 125)
         txtbxpassword.Name = "txtbxpassword"
         txtbxpassword.PasswordChar = ChrW(0)
         txtbxpassword.PlaceholderText = ""
         txtbxpassword.SelectedText = ""
-        txtbxpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges48
+        txtbxpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges62
         txtbxpassword.Size = New Size(344, 36)
         txtbxpassword.TabIndex = 70
         ' 
@@ -1436,7 +1598,7 @@ Partial Class Userdash
         ' 
         Label12.AutoSize = True
         Label12.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label12.Location = New Point(144, 157)
+        Label12.Location = New Point(399, 96)
         Label12.Name = "Label12"
         Label12.Size = New Size(90, 25)
         Label12.TabIndex = 69
@@ -1445,7 +1607,7 @@ Partial Class Userdash
         ' txtbxusername
         ' 
         txtbxusername.BorderRadius = 6
-        txtbxusername.CustomizableEdges = CustomizableEdges49
+        txtbxusername.CustomizableEdges = CustomizableEdges63
         txtbxusername.DefaultText = ""
         txtbxusername.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtbxusername.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1456,12 +1618,12 @@ Partial Class Userdash
         txtbxusername.ForeColor = Color.Black
         txtbxusername.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxusername.HoverState.ForeColor = Color.Black
-        txtbxusername.Location = New Point(144, 118)
+        txtbxusername.Location = New Point(49, 126)
         txtbxusername.Name = "txtbxusername"
         txtbxusername.PasswordChar = ChrW(0)
         txtbxusername.PlaceholderText = ""
         txtbxusername.SelectedText = ""
-        txtbxusername.ShadowDecoration.CustomizableEdges = CustomizableEdges50
+        txtbxusername.ShadowDecoration.CustomizableEdges = CustomizableEdges64
         txtbxusername.Size = New Size(344, 36)
         txtbxusername.TabIndex = 68
         ' 
@@ -1469,7 +1631,7 @@ Partial Class Userdash
         ' 
         Label11.AutoSize = True
         Label11.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label11.Location = New Point(144, 88)
+        Label11.Location = New Point(49, 96)
         Label11.Name = "Label11"
         Label11.Size = New Size(96, 25)
         Label11.TabIndex = 67
@@ -1478,17 +1640,17 @@ Partial Class Userdash
         ' Guna2Button3
         ' 
         Guna2Button3.BorderRadius = 6
-        Guna2Button3.CustomizableEdges = CustomizableEdges51
+        Guna2Button3.CustomizableEdges = CustomizableEdges65
         Guna2Button3.DisabledState.BorderColor = Color.DarkGray
         Guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button3.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Guna2Button3.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button3.ForeColor = Color.White
-        Guna2Button3.Location = New Point(144, 581)
+        Guna2Button3.Location = New Point(721, 519)
         Guna2Button3.Name = "Guna2Button3"
-        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges52
-        Guna2Button3.Size = New Size(183, 33)
+        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges66
+        Guna2Button3.Size = New Size(183, 40)
         Guna2Button3.TabIndex = 66
         Guna2Button3.Text = "Update"
         ' 
@@ -1508,16 +1670,16 @@ Partial Class Userdash
         ' Guna2Button2
         ' 
         Guna2Button2.Animated = True
-        Guna2Button2.CustomizableEdges = CustomizableEdges53
+        Guna2Button2.CustomizableEdges = CustomizableEdges1
         Guna2Button2.DisabledState.BorderColor = Color.DarkGray
         Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Guna2Button2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2Button2.ForeColor = Color.White
-        Guna2Button2.Location = New Point(6, 126)
+        Guna2Button2.Location = New Point(3, 138)
         Guna2Button2.Name = "Guna2Button2"
-        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges54
+        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2Button2.Size = New Size(144, 29)
         Guna2Button2.TabIndex = 29
         Guna2Button2.Text = "Export to excel"
@@ -1546,12 +1708,13 @@ Partial Class Userdash
         DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
         DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
         BeneficiariesDGV.DefaultCellStyle = DataGridViewCellStyle3
+        BeneficiariesDGV.Dock = DockStyle.Bottom
         BeneficiariesDGV.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        BeneficiariesDGV.Location = New Point(7, 163)
+        BeneficiariesDGV.Location = New Point(0, 175)
         BeneficiariesDGV.Name = "BeneficiariesDGV"
         BeneficiariesDGV.RowHeadersVisible = False
         BeneficiariesDGV.RowTemplate.Height = 25
-        BeneficiariesDGV.Size = New Size(993, 480)
+        BeneficiariesDGV.Size = New Size(984, 480)
         BeneficiariesDGV.TabIndex = 28
         BeneficiariesDGV.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
         BeneficiariesDGV.ThemeStyle.AlternatingRowsStyle.Font = Nothing
@@ -1609,7 +1772,7 @@ Partial Class Userdash
         ' 
         search.Animated = True
         search.BorderRadius = 5
-        search.CustomizableEdges = CustomizableEdges55
+        search.CustomizableEdges = CustomizableEdges3
         search.DefaultText = ""
         search.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         search.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1620,12 +1783,12 @@ Partial Class Userdash
         search.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         search.IconRight = My.Resources.Resources.loupe
         search.IconRightOffset = New Point(5, 0)
-        search.Location = New Point(723, 119)
+        search.Location = New Point(699, 130)
         search.Name = "search"
         search.PasswordChar = ChrW(0)
         search.PlaceholderText = ""
         search.SelectedText = ""
-        search.ShadowDecoration.CustomizableEdges = CustomizableEdges56
+        search.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         search.Size = New Size(277, 36)
         search.TabIndex = 27
         ' 
@@ -1633,7 +1796,7 @@ Partial Class Userdash
         ' 
         Label33.AutoSize = True
         Label33.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label33.Location = New Point(647, 123)
+        Label33.Location = New Point(623, 137)
         Label33.Name = "Label33"
         Label33.Size = New Size(70, 25)
         Label33.TabIndex = 26
@@ -1648,109 +1811,6 @@ Partial Class Userdash
         Label32.Size = New Size(357, 25)
         Label32.TabIndex = 25
         Label32.Text = "Contribution | Sweap monitoring system"
-        ' 
-        ' pnlDash
-        ' 
-        pnlDash.BackColor = Color.FromArgb(CByte(254), CByte(255), CByte(250))
-        pnlDash.Controls.Add(Guna2Panel2)
-        pnlDash.Controls.Add(Label27)
-        pnlDash.Controls.Add(lblFirsts)
-        pnlDash.Dock = DockStyle.Fill
-        pnlDash.Location = New Point(0, 0)
-        pnlDash.Name = "pnlDash"
-        pnlDash.Size = New Size(984, 655)
-        pnlDash.TabIndex = 59
-        ' 
-        ' Guna2Panel2
-        ' 
-        Guna2Panel2.BackColor = Color.Transparent
-        Guna2Panel2.BorderRadius = 18
-        Guna2Panel2.Controls.Add(Guna2Button7)
-        Guna2Panel2.Controls.Add(Label25)
-        Guna2Panel2.Controls.Add(Label26)
-        Guna2Panel2.Controls.Add(Guna2PictureBox1)
-        Guna2Panel2.CustomizableEdges = CustomizableEdges61
-        Guna2Panel2.FillColor = Color.FromArgb(CByte(255), CByte(244), CByte(241))
-        Guna2Panel2.Location = New Point(83, 192)
-        Guna2Panel2.Name = "Guna2Panel2"
-        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges62
-        Guna2Panel2.Size = New Size(254, 271)
-        Guna2Panel2.TabIndex = 5
-        ' 
-        ' Guna2Button7
-        ' 
-        Guna2Button7.Animated = True
-        Guna2Button7.CustomizableEdges = CustomizableEdges57
-        Guna2Button7.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button7.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button7.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button7.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button7.FillColor = Color.Transparent
-        Guna2Button7.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2Button7.ForeColor = Color.Green
-        Guna2Button7.Location = New Point(176, 240)
-        Guna2Button7.Name = "Guna2Button7"
-        Guna2Button7.ShadowDecoration.CustomizableEdges = CustomizableEdges58
-        Guna2Button7.Size = New Size(75, 28)
-        Guna2Button7.TabIndex = 5
-        Guna2Button7.Text = "View"
-        ' 
-        ' Label25
-        ' 
-        Label25.AutoSize = True
-        Label25.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label25.ForeColor = SystemColors.MenuText
-        Label25.Location = New Point(22, 233)
-        Label25.Name = "Label25"
-        Label25.Size = New Size(19, 21)
-        Label25.TabIndex = 4
-        Label25.Text = "0"
-        ' 
-        ' Label26
-        ' 
-        Label26.AutoSize = True
-        Label26.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
-        Label26.ForeColor = SystemColors.MenuText
-        Label26.Location = New Point(22, 203)
-        Label26.Name = "Label26"
-        Label26.Size = New Size(92, 21)
-        Label26.TabIndex = 3
-        Label26.Text = "Beneficiary"
-        ' 
-        ' Guna2PictureBox1
-        ' 
-        Guna2PictureBox1.CustomizableEdges = CustomizableEdges59
-        Guna2PictureBox1.Image = My.Resources.Resources.beneficiary__1_
-        Guna2PictureBox1.ImageRotate = 0F
-        Guna2PictureBox1.Location = New Point(22, 34)
-        Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges60
-        Guna2PictureBox1.Size = New Size(211, 142)
-        Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        Guna2PictureBox1.TabIndex = 0
-        Guna2PictureBox1.TabStop = False
-        ' 
-        ' Label27
-        ' 
-        Label27.AutoSize = True
-        Label27.Font = New Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point)
-        Label27.ForeColor = SystemColors.MenuText
-        Label27.Location = New Point(71, 113)
-        Label27.Name = "Label27"
-        Label27.Size = New Size(132, 32)
-        Label27.TabIndex = 4
-        Label27.Text = "Dashboard"
-        ' 
-        ' lblFirsts
-        ' 
-        lblFirsts.AutoSize = True
-        lblFirsts.Font = New Font("Segoe UI Semibold", 14F, FontStyle.Bold, GraphicsUnit.Point)
-        lblFirsts.ForeColor = SystemColors.WindowFrame
-        lblFirsts.Location = New Point(71, 78)
-        lblFirsts.Name = "lblFirsts"
-        lblFirsts.Size = New Size(266, 25)
-        lblFirsts.TabIndex = 3
-        lblFirsts.Text = "Hello Monkey, Welcome back"
         ' 
         ' Userdash
         ' 
@@ -1771,20 +1831,21 @@ Partial Class Userdash
         Panel6.ResumeLayout(False)
         CType(ImgProfile, ComponentModel.ISupportInitialize).EndInit()
         Panel4.ResumeLayout(False)
-        pnlProfile.ResumeLayout(False)
-        pnlProfile.PerformLayout()
-        Panel5.ResumeLayout(False)
-        Panel5.PerformLayout()
-        pnlAccount.ResumeLayout(False)
-        pnlAccount.PerformLayout()
-        pnlContribute.ResumeLayout(False)
-        pnlContribute.PerformLayout()
-        CType(BeneficiariesDGV, ComponentModel.ISupportInitialize).EndInit()
         pnlDash.ResumeLayout(False)
         pnlDash.PerformLayout()
         Guna2Panel2.ResumeLayout(False)
         Guna2Panel2.PerformLayout()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        pnlProfile.ResumeLayout(False)
+        pnlProfile.PerformLayout()
+        Panel5.ResumeLayout(False)
+        Panel5.PerformLayout()
+        CType(userProfile, ComponentModel.ISupportInitialize).EndInit()
+        pnlAccount.ResumeLayout(False)
+        pnlAccount.PerformLayout()
+        pnlContribute.ResumeLayout(False)
+        pnlContribute.PerformLayout()
+        CType(BeneficiariesDGV, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -1800,7 +1861,7 @@ Partial Class Userdash
     Friend WithEvents lblFname As Label
     Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Button7 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Label25 As Label
+    Friend WithEvents lblCnt As Label
     Friend WithEvents Label26 As Label
     Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Label27 As Label
@@ -1883,9 +1944,12 @@ Partial Class Userdash
     Friend WithEvents Panel6 As Panel
     Friend WithEvents Guna2Button6 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents SettingIcon As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Label34 As Label
     Friend WithEvents Label35 As Label
-    Friend WithEvents Pgender As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents PSex As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label31 As Label
+    Friend WithEvents userProfile As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents cmboSex As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents Timer1 As Timer
 End Class
