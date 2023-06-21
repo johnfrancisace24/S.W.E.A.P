@@ -2,6 +2,7 @@
 Imports MySql.Data.MySqlClient
 Imports System.Net
 Imports System.Net.Mail
+Imports Guna.UI2.WinForms
 
 Public Class ForgotPass
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -41,6 +42,19 @@ Public Class ForgotPass
     End Sub
 
 
+
+    Dim otp As String = generateOTP()
+    Dim smtpUsername As String = "condradssalon@gmail.com"
+    Dim smtpPassword As String = "ihlmujssjncwlcaq"
+
+    Function generateOTP() As String
+        Dim random As New Random()
+        Dim otp As Integer = random.Next(1000, 9999)
+        Return otp.ToString()
+    End Function
+
+
+
     Private Sub bttnNextCred_Click(sender As Object, e As EventArgs) Handles bttnNextCred.Click
         valid_blank(txtUname.Text, "Username", txtUname)
         valid_blank(txtEmail.Text, "Email", txtUname)
@@ -62,34 +76,29 @@ Public Class ForgotPass
 
 
         '-------------------------Sending Email Otp-----------------------------------'
-        Dim otp As String = Guid.NewGuid().ToString
-        Dim smtpUsername As String = "condradssalon@gmail.com"
-        Dim smtpPassword As String = "ihlmujssjncwlcaq"
+
 
         Try
-            Dim fromAddress As New MailAddress("condradssalon@gmail.com", "condradssalon")
-            Dim toAddress As New MailAddress(txtUname.Text)
+            Dim fromAddress As New MailAddress("noreply@sweap.com", "SWEAP")
+            Dim toAddress As New MailAddress(txtEmail.Text)
             Dim subject As String = "One-Time Password (OTP)"
-            Dim body As String = String.Format("Your OTP is : {0}", otp)
+            Dim body As String = String.Format("To reset your password use this 4 digits OTP : {0}", otp)
 
 
-            Dim smtp As New SmtpClient
+            Dim smtp As New SmtpClient()
             smtp.Host = "smtp.gmail.com"
             smtp.Port = 587
             smtp.EnableSsl = True
-            smtp.UseDefaultCredentials = False
             smtp.Credentials = New NetworkCredential(smtpUsername, smtpPassword)
             Dim message As New MailMessage(fromAddress, toAddress)
             message.Subject = subject
             message.Body = body
 
+            smtp.Send(message)
 
         Catch ex As Exception
             MsgBox("Failed to send OTP code" & ex.Message)
         End Try
-
-
-
     End Sub
 
     Private Sub txtUname_TextChanged(sender As Object, e As EventArgs) Handles txtUname.TextChanged
@@ -110,5 +119,56 @@ Public Class ForgotPass
         Finally
             conn.Close()
         End Try
+    End Sub
+
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
+        valid_blank(txtOtpVerify.Text, "Username", txtOtpVerify)
+
+
+
+
+
+        '------------------OTP VERIFICATION----------------------
+        Dim entercode As String = txtOtpVerify.Text
+        If entercode.Equals(otp, StringComparison.OrdinalIgnoreCase) Then
+            MsgBox("One-Time Password is matched!")
+            Guna2TabControl1.SelectedTab = Page3
+            Page3.Enabled = True
+        Else
+            MsgBox("Please enter a valid OTP!")
+        End If
+    End Sub
+
+    Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
+        Guna2TabControl1.SelectedTab = Page1
+    End Sub
+
+    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
+        Guna2TabControl1.SelectedTab = Page2
+    End Sub
+
+    Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Guna2Button6.Click
+
+        Try
+            If txtNewPass.Text = txtConfirmPass.Text Then
+                conn.Open()
+                Dim cmd As New MySqlCommand("UPDATE users SET password = @NewPassword WHERE username = @Username", conn)
+                cmd.Parameters.Clear()
+                cmd.Parameters.AddWithValue("@Username", txtUname.Text)
+                cmd.Parameters.AddWithValue("@NewPassword", txtConfirmPass.Text)
+
+                cmd.ExecuteNonQuery()
+
+                MessageBox.Show("Password Updated successfully!", "ALERT", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Else
+                MessageBox.Show("Password cannot be Updated!", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                lblNotmatch.Text = "Password didn't matched!"
+            End If
+        Catch ex As Exception
+            MsgBox("Error: " & ex.Message)
+        Finally
+            conn.Close()
+        End Try
+
     End Sub
 End Class
