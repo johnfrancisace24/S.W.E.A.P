@@ -23,7 +23,7 @@ Public Class user_dashboard
     Dim Home As String = "house (1).png"
 
     Private Sub user_dashboard_load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Get_info()
+        'Get_info()
     End Sub
     Private Sub btnLogOut_Click(sender As Object, e As EventArgs) Handles btnLogOut.Click
         Dim AnswerYes As String
@@ -83,63 +83,70 @@ Public Class user_dashboard
     Public Sub Get_info()
         Try
             conn.Open()
-            Dim cmd As New MySqlCommand("SELECT *
-                            FROM users 
+            Dim cmd As New MySqlCommand("SELECT * FROM users 
                             INNER JOIN user_info ON users.id = user_info.user_id  
                             WHERE users.id = @ID", conn)
 
             cmd.Parameters.AddWithValue("@ID", Form2.log_id)
             dr = cmd.ExecuteReader
-            While dr.Read
+            If dr.Read() Then
                 Dim imagePath As String = dr.GetString("image")
-                Dim imagePathInResources As String = (destinationPath + imagePath)
                 Dim Gooday As String = "Mr. " + dr.GetString("first_name")
 
-                If File.Exists(imagePathInResources) Then
-                    userProfile.Image = Image.FromFile(imagePathInResources)
-                    user_Profile.Image = Image.FromFile(imagePathInResources)
-                    ImgProfile.Image = Image.FromFile(imagePathInResources)
+                lblFname.Text = Gooday
 
-                    lblFname.Text = dr.GetString("fullName")
-                    lblFirsts.Text = Gooday
-
-                    Pfname.Text = dr.GetString("fullName")
-                    Padd.Text = dr.GetString("address")
-                    Pcntact.Text = dr.GetString("contact")
-                    Pemail.Text = dr.GetString("email")
-                    Pbdate.Text = dr.GetDateTime("birthdate")
+                Pfname.Text = dr.GetString("fullName")
+                Padd.Text = dr.GetString("address")
+                Pcntact.Text = dr.GetString("contact")
+                Pemail.Text = dr.GetString("email")
+                Pbdate.Text = dr.GetDateTime("birthdate")
 
 
-                    Peducational.Text = dr.GetString("educational")
-                    Pemployment.Text = dr.GetString("employment_status")
-                    Poffice.Text = dr.GetString("office")
-                    Pposition.Text = dr.GetString("position")
-                    Pcommittee.Text = dr.GetString("committee")
-                    PSex.Text = dr.GetString("sex")
+                Peducational.Text = dr.GetString("educational")
+                Pemployment.Text = dr.GetString("employment_status")
+                Poffice.Text = dr.GetString("office")
+                Pposition.Text = dr.GetString("position")
+                Pcommittee.Text = dr.GetString("committee")
+                PSex.Text = dr.GetString("sex")
 
-                    txtbxusername.Text = dr.GetString("username")
-                    txtbxpassword.Text = dr.GetString("password")
-                    txtbxfname.Text = dr.GetString("first_name")
-                    txtbxmname.Text = dr.GetString("middle_name")
-                    txtbxlname.Text = dr.GetString("last_name")
-                    txtbxadds.Text = dr.GetString("address")
-                    txtbxcontact.Text = dr.GetString("contact")
-                    txtbxemail.Text = dr.GetString("email")
-                    cmboSex.SelectedItem = dr.GetString("sex")
-                    txtbxeduc.Text = dr.GetString("educational")
-                    txtbxbdate.Value = dr.GetString("birthdate")
-                    cmbxposition.SelectedItem = dr.GetString("position")
-                    cmbxemployment.SelectedItem = dr.GetString("employment_status")
-                    cmbxoffice.SelectedItem = dr.GetString("office")
-                    cmbxcomm.SelectedItem = dr.GetString("committee")
-                    cmbxcomm.SelectedItem = dr.GetString("committee")
+                txtbxusername.Text = dr.GetString("username")
+                txtbxpassword.Text = dr.GetString("password")
+                txtbxfname.Text = dr.GetString("first_name")
+                txtbxmname.Text = dr.GetString("middle_name")
+                txtbxlname.Text = dr.GetString("last_name")
+                txtbxadds.Text = dr.GetString("address")
+                txtbxcontact.Text = dr.GetString("contact")
+                txtbxemail.Text = dr.GetString("email")
+                cmboSex.SelectedItem = dr.GetString("sex")
+                txtbxeduc.Text = dr.GetString("educational")
+                txtbxbdate.Value = dr.GetString("birthdate")
+                cmbxposition.SelectedItem = dr.GetString("position")
+                cmbxemployment.SelectedItem = dr.GetString("employment_status")
+                cmbxoffice.SelectedItem = dr.GetString("office")
+                cmbxcomm.SelectedItem = dr.GetString("committee")
+                cmbxcomm.SelectedItem = dr.GetString("committee")
+
+                If Not String.IsNullOrEmpty(imagePath) Then
+                    Dim imagePathInResources As String = Path.Combine(destinationPath, imagePath)
+
+                    If File.Exists(imagePathInResources) Then
+                        userProfile.Image = Image.FromFile(imagePathInResources)
+                        user_Profile.Image = Image.FromFile(imagePathInResources)
+                        ImgProfile.Image = Image.FromFile(imagePathInResources)
+                    Else
+                        ImgProfile.Image = Nothing
+                        userProfile.Image = Nothing
+                        user_Profile.Image = Nothing
+                    End If
                 Else
                     ImgProfile.Image = Nothing
                     userProfile.Image = Nothing
                     user_Profile.Image = Nothing
+
                 End If
 
-            End While
+            End If
+
         Catch ex As Exception
             MsgBox("Doesn't work. LOL!")
         Finally
@@ -204,7 +211,6 @@ Public Class user_dashboard
     Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
         Get_info()
     End Sub
-
     Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles btnUpdate.Click
         Update()
     End Sub
@@ -315,7 +321,6 @@ Public Class user_dashboard
     Private Sub txtbxlname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxlname.KeyPress
         txtbxfname_KeyPress(sender, e)
     End Sub
-
 
 
 End Class
