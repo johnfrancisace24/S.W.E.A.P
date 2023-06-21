@@ -14,6 +14,7 @@ Public Class admindash
     Dim selectedBenId As Integer
     Dim currentBen As Integer
     Private Sub admindash_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        liveTimer.Start()
         If Guna2TabControl1.SelectedTab Is tabEmployee Then
             pnlEmployee.Visible = True ' Show the employeepanel
         Else
@@ -360,6 +361,18 @@ Public Class admindash
         Loan.tabconLoan.SelectedTab = Loan.viewLoan
         Loan.Show()
         Me.Close()
+    End Sub
+
+    Private Sub liveTimer_Tick(sender As Object, e As EventArgs) Handles liveTimer.Tick
+        Dim timeZone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("Singapore Standard Time")
+        Dim currentTime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timeZone)
+        Dim currentDate As DateTime = currentTime
+        lblTime.Text = currentDate
+        Static previousMonth As Integer = currentDate.Month
+
+        If currentDate.Month <> previousMonth Then
+            previousMonth = currentDate.Month
+        End If
     End Sub
 
 
