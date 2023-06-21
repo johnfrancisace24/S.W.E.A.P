@@ -38,6 +38,8 @@ Public Class Userdashboardform
         If AnswerYes = vbYes Then
             Form2.Show()
             Me.Hide()
+            Panel6.Hide()
+            pnlDash.Show()
         End If
     End Sub
     Private Sub bttnDash_Click(sender As Object, e As EventArgs) Handles bttnDash.Click '----------------DASHBOARD--------------'
