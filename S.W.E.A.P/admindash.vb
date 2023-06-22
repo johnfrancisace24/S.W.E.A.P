@@ -186,6 +186,7 @@ Public Class admindash
         AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "User Repsonse")
 
         If AnswerYes = vbYes Then
+            Guna2TabControl1.SelectedTab = TabPage6
             Form2.Show()
             Me.Hide()
         End If
