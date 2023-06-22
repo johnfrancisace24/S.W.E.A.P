@@ -117,11 +117,12 @@ Partial Class user_dashboard
         Guna2ControlBox1 = New Guna.UI2.WinForms.Guna2ControlBox()
         btnLogOut = New Guna.UI2.WinForms.Guna2Button()
         Panel2 = New Panel()
-        lblFname = New Label()
+        lblDateTime = New Label()
         iconFromtitle = New PictureBox()
         lblFromTitle = New Label()
         Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
         tabDashboard = New TabPage()
+        lblTime = New Label()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Label3 = New Label()
         Guna2TrackBar1 = New Guna.UI2.WinForms.Guna2TrackBar()
@@ -135,6 +136,8 @@ Partial Class user_dashboard
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         lblFirsts = New Label()
         tabProfile = New TabPage()
+        Label27 = New Label()
+        Label2 = New Label()
         userProfile = New Guna.UI2.WinForms.Guna2PictureBox()
         PSex = New Guna.UI2.WinForms.Guna2TextBox()
         Pcommittee = New Guna.UI2.WinForms.Guna2TextBox()
@@ -202,6 +205,7 @@ Partial Class user_dashboard
         Label11 = New Label()
         btnUpdate = New Guna.UI2.WinForms.Guna2Button()
         ImageList1 = New ImageList(components)
+        Timer1 = New Timer(components)
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
         CType(iconFromtitle, ComponentModel.ISupportInitialize).BeginInit()
@@ -324,7 +328,8 @@ Partial Class user_dashboard
         ' Panel2
         ' 
         Panel2.BackColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
-        Panel2.Controls.Add(lblFname)
+        Panel2.Controls.Add(lblTime)
+        Panel2.Controls.Add(lblDateTime)
         Panel2.Controls.Add(iconFromtitle)
         Panel2.Controls.Add(lblFromTitle)
         Panel2.Dock = DockStyle.Top
@@ -334,16 +339,17 @@ Partial Class user_dashboard
         Panel2.Size = New Size(1257, 56)
         Panel2.TabIndex = 2
         ' 
-        ' lblFname
+        ' lblDateTime
         ' 
-        lblFname.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        lblFname.ForeColor = SystemColors.Control
-        lblFname.Location = New Point(877, 17)
-        lblFname.Name = "lblFname"
-        lblFname.Size = New Size(133, 23)
-        lblFname.TabIndex = 11
-        lblFname.Text = "Mr. John"
-        lblFname.TextAlign = ContentAlignment.MiddleRight
+        lblDateTime.Dock = DockStyle.Right
+        lblDateTime.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        lblDateTime.ForeColor = SystemColors.Control
+        lblDateTime.Location = New Point(876, 8)
+        lblDateTime.Name = "lblDateTime"
+        lblDateTime.Size = New Size(373, 40)
+        lblDateTime.TabIndex = 12
+        lblDateTime.Text = "10 : 34 : 01 AM"
+        lblDateTime.TextAlign = ContentAlignment.MiddleRight
         ' 
         ' iconFromtitle
         ' 
@@ -424,6 +430,17 @@ Partial Class user_dashboard
         tabDashboard.TabIndex = 0
         tabDashboard.Text = "Dashboard"
         tabDashboard.UseVisualStyleBackColor = True
+        ' 
+        ' lblTime
+        ' 
+        lblTime.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        lblTime.ForeColor = Color.Cyan
+        lblTime.Location = New Point(205, 17)
+        lblTime.Name = "lblTime"
+        lblTime.Size = New Size(133, 23)
+        lblTime.TabIndex = 13
+        lblTime.Text = "10 : 34 : 01 AM"
+        lblTime.TextAlign = ContentAlignment.MiddleRight
         ' 
         ' Guna2Panel1
         ' 
@@ -583,6 +600,8 @@ Partial Class user_dashboard
         ' 
         ' tabProfile
         ' 
+        tabProfile.Controls.Add(Label27)
+        tabProfile.Controls.Add(Label2)
         tabProfile.Controls.Add(userProfile)
         tabProfile.Controls.Add(PSex)
         tabProfile.Controls.Add(Pcommittee)
@@ -611,6 +630,26 @@ Partial Class user_dashboard
         tabProfile.TabIndex = 1
         tabProfile.Text = "Profile"
         tabProfile.UseVisualStyleBackColor = True
+        ' 
+        ' Label27
+        ' 
+        Label27.AutoSize = True
+        Label27.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label27.Location = New Point(799, 155)
+        Label27.Name = "Label27"
+        Label27.Size = New Size(70, 21)
+        Label27.TabIndex = 147
+        Label27.Text = "GENDER"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label2.Location = New Point(385, 155)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(95, 21)
+        Label2.TabIndex = 146
+        Label2.Text = "FULL NAME"
         ' 
         ' userProfile
         ' 
@@ -1721,6 +1760,9 @@ Partial Class user_dashboard
         ImageList1.Images.SetKeyName(3, "house (1).png")
         ImageList1.Images.SetKeyName(4, "settings.png")
         ' 
+        ' Timer1
+        ' 
+        ' 
         ' user_dashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -1767,7 +1809,6 @@ Partial Class user_dashboard
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Guna2TabControl1 As Guna.UI2.WinForms.Guna2TabControl
     Friend WithEvents tabDashboard As TabPage
-    Friend WithEvents lblFname As Label
     Friend WithEvents iconFromtitle As PictureBox
     Friend WithEvents lblFromTitle As Label
     Friend WithEvents tabProfile As TabPage
@@ -1850,4 +1891,9 @@ Partial Class user_dashboard
     Friend WithEvents txtbxusername As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label11 As Label
     Friend WithEvents btnUpdate As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents lblDateTime As Label
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents lblTime As Label
 End Class
