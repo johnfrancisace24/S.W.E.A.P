@@ -15,6 +15,7 @@ Public Class user_dashboard
     Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
     Dim location As String = locateProject.Substring(0, indext)
     Dim destinationPath As String = location & "\Resources\user_profile"
+    Dim destinationMan As String = location & "\Resources\manAndwoman"
     Dim destinationIconPath As String = location & "\Resources\"
 
     Dim dashPath As String = "dashboard (3).png"
@@ -22,15 +23,19 @@ Public Class user_dashboard
     Dim benefPath As String = "beneficiary (2).png"
     Dim settingPath As String = "settings.png"
     Dim Home As String = "house (1).png"
+    'Dim men As String = "\man (1).png"
+    'Dim women As String = "\woman.png"
 
     Private Sub user_dashboard_load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'Get_info()
+
+
     End Sub
     Private Sub btnLogOut_Click(sender As Object, e As EventArgs) Handles btnLogOut.Click
         Dim AnswerYes As String
         AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "Information")
 
         If AnswerYes = vbYes Then
+            Guna2TabControl1.SelectedTab = tabDashboard
             Me.Hide()
             Form2.Show()
             lblFromTitle.Text = "Home"
@@ -91,8 +96,26 @@ Public Class user_dashboard
             cmd.Parameters.AddWithValue("@ID", Form2.log_id)
             dr = cmd.ExecuteReader
             While dr.Read
+                Dim imagepathResources As String = destinationPath + dr.GetString("image")
+                If File.Exists(imagepathResources) Then
+                    userProfile.Image = Image.FromFile(imagepathResources)
+                    user_Profile.Image = Image.FromFile(imagepathResources)
+                Else
+                    userProfile.Image = Nothing
+                    user_Profile.Image = Nothing
+                End If
 
-                'lblFname.Text = "Mr. " + dr.GetString("first_name")
+                If cmboSex.SelectedIndex = 0 Then
+                    lblFname.Text = "Mr. " + dr.GetString("first_name")
+                    'ImgProfile.Image = Image.FromFile(destinationMan + men)
+                ElseIf cmboSex.SelectedIndex = 1 Then
+                    lblFname.Text = "Ms. " + dr.GetString("first_name")
+                    'ImgProfile.Image = Image.FromFile(destinationMan + women)
+                ElseIf cmboSex.SelectedIndex = 2 Then
+                    lblFname.Text = "Hi " + dr.GetString("first_name")
+                    'ImgProfile.Image = Image.FromFile(destinationMan + men)
+                End If
+
                 Pfname.Text = dr.GetString("fullName")
                 Padd.Text = dr.GetString("address")
                 Pcntact.Text = dr.GetString("contact")
