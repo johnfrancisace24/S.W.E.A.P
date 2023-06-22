@@ -199,7 +199,8 @@ Public Class user_dashboard
             cmd.Parameters.AddWithValue("@comm", cmbxcomm.SelectedItem)
 
             cmd.ExecuteNonQuery()
-            MessageBox.Show("Updated successfully!", "ALERT", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            MessageBox.Show("Updated successfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            signups.ClearAllTextboxes(Me)
         Catch ex As Exception
             MsgBox("Error: " & ex.Message)
         Finally
