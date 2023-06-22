@@ -29,16 +29,17 @@ Public Class user_dashboard
     'Dim women As String = "\woman.png"
 
 
-    Dim DateAndTime As String = DateTime.Now.ToString()
-    Private Sub user_dashboard_load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Timer1_Tick(sender, e)
-        MsgBox(DateAndTime)
-        Get_info()
-    End Sub
-    Private Shared lblTimes As Label
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick '--------------------TIMER
 
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        lblTime.Text = DateTime.Now.ToString("HH:mm:ss")
+        Dim timezone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("singapore standard time")
+        Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
+        Dim currentdate As DateTime = currenttime
+        Dim remainer As Integer
+        lblTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
+    End Sub
+    Private Sub user_dashboard_load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Timer1.Start()
+        Get_info()
     End Sub
     Private Sub btnLogOut_Click(sender As Object, e As EventArgs) Handles btnLogOut.Click
         Dim AnswerYes As String
@@ -116,13 +117,13 @@ Public Class user_dashboard
                 End If
 
                 If cmboSex.SelectedIndex = 0 Then
-                    lblDateTime.Text = "Mr. " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("Log")
+                    lblDateTime.Text = "Mr. " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("last_logout")
                     'ImgProfile.Image = Image.FromFile(destinationMan + men)
                 ElseIf cmboSex.SelectedIndex = 1 Then
-                    lblDateTime.Text = "Ms. " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("Log")
+                    lblDateTime.Text = "Ms. " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("last_logout")
                     'ImgProfile.Image = Image.FromFile(destinationMan + women)
                 ElseIf cmboSex.SelectedIndex = 2 Then
-                    lblDateTime.Text = "Hi " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("Log")
+                    lblDateTime.Text = "Hi " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("last_logout")
                     'ImgProfile.Image = Image.FromFile(destinationMan + men)
                 End If
 
