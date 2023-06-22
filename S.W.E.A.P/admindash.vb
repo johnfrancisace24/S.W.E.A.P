@@ -247,6 +247,7 @@ Public Class admindash
                     Else
                         pBoxEditProfile.BackgroundImage = Nothing
                     End If
+
                     txtEditUsername.Text = rid.GetString("username")
                     txtEditPw.Text = rid.GetString("password")
                     txtEditFname.Text = rid.GetString("first_name")
@@ -424,5 +425,7 @@ Public Class admindash
         'conn.Close()
     End Sub
 
-
+    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
+        Guna2TabControl1.SelectedTab = tabEmployee
+    End Sub
 End Class
