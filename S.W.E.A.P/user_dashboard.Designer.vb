@@ -1588,6 +1588,8 @@ Partial Class user_dashboard
         ImageList1.Images.SetKeyName(3, "house (1).png")
         ImageList1.Images.SetKeyName(4, "settings.png")
         ImageList1.Images.SetKeyName(5, "welcome-back.png")
+        ImageList1.Images.SetKeyName(6, "man (1).png")
+        ImageList1.Images.SetKeyName(7, "woman.png")
         ' 
         ' Timer1
         ' 

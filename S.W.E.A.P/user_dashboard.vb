@@ -119,15 +119,19 @@ Public Class user_dashboard
 
                 If cmboSex.SelectedIndex = 0 Then
                     lblDateTime.Text = "Mr. " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("last_logout")
+                    tabDashboard.ImageKey = "man (1).png"
                     'ImgProfile.Image = Image.FromFile(destinationMan + men)
                 ElseIf cmboSex.SelectedIndex = 1 Then
                     lblDateTime.Text = "Ms. " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("last_logout")
+                    tabDashboard.ImageKey = "women.png"
                     'ImgProfile.Image = Image.FromFile(destinationMan + women)
                 ElseIf cmboSex.SelectedIndex = 2 Then
                     lblDateTime.Text = "Hi " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("last_logout")
+                    tabDashboard.ImageKey = "man (1).png"
                     'ImgProfile.Image = Image.FromFile(destinationMan + men)
                 End If
 
+                tabDashboard.Text = dr.GetString("first_name")
                 Pfname.Text = dr.GetString("fullName")
                 Padd.Text = dr.GetString("address")
                 Pcntact.Text = dr.GetString("contact")
