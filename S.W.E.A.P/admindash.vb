@@ -208,7 +208,7 @@ Public Class admindash
 
     Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Guna2Button6.Click
         Dim AnswerYes As String
-        AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "User Repsonse")
+        AnswerYes = MessageBox.Show("Are you sure you want to Log out", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
 
         If AnswerYes = vbYes Then
             Guna2TabControl1.SelectedTab = TabPage6
@@ -411,6 +411,7 @@ Public Class admindash
         Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
         Dim currentdate As DateTime = currenttime
         Dim remainer As Integer
+        lblDateTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
         lblTime.Text = "as of " & currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
         'Static previousmonth As Integer
         'Try
@@ -485,5 +486,26 @@ Public Class admindash
         End With
     End Sub
 
-
+    Private Sub pickSex_SelectedIndexChanged(sender As Object, e As EventArgs) Handles pickSex.SelectedIndexChanged
+        If pickSex.SelectedIndex = 0 Then
+            viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
+                                            email from users left join user_info on users.id = user_info.user_id")
+        Else
+            dgMembers.Rows.Clear()
+            Try
+                conn.Open()
+                Dim cmd As New MySqlCommand("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
+                                            email from users left join user_info on users.id = user_info.user_id where sex=@sex", conn)
+                cmd.Parameters.AddWithValue("@sex", pickSex.SelectedItem)
+                rid = cmd.ExecuteReader
+                While rid.Read
+                    dgMembers.Rows.Add(rid.Item("id"), rid.Item("full_name"), rid.Item("office"), rid.Item("position"), rid.Item("employment_status"), rid.Item("email"))
+                End While
+            Catch ex As Exception
+                MsgBox("doesn't Work")
+            Finally
+                conn.Close()
+            End Try
+        End If
+    End Sub
 End Class
