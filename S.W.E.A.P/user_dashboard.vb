@@ -4,10 +4,12 @@ Imports MySql.Data.MySqlClient
 Imports OfficeOpenXml
 Imports OfficeOpenXml.Style
 Imports System.Text.RegularExpressions
+Imports System.Threading
 
 Public Class user_dashboard
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim dr As MySqlDataReader
+
 
     Dim sourceFilePath As String
     Dim getExtension As String
@@ -26,9 +28,17 @@ Public Class user_dashboard
     'Dim men As String = "\man (1).png"
     'Dim women As String = "\woman.png"
 
+
+    Dim DateAndTime As String = DateTime.Now.ToString()
     Private Sub user_dashboard_load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Timer1_Tick(sender, e)
+        MsgBox(DateAndTime)
+        Get_info()
+    End Sub
+    Private Shared lblTimes As Label
 
-
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        lblTime.Text = DateTime.Now.ToString("HH:mm:ss")
     End Sub
     Private Sub btnLogOut_Click(sender As Object, e As EventArgs) Handles btnLogOut.Click
         Dim AnswerYes As String
@@ -106,13 +116,13 @@ Public Class user_dashboard
                 End If
 
                 If cmboSex.SelectedIndex = 0 Then
-                    lblFname.Text = "Mr. " + dr.GetString("first_name")
+                    lblDateTime.Text = "Mr. " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("Log")
                     'ImgProfile.Image = Image.FromFile(destinationMan + men)
                 ElseIf cmboSex.SelectedIndex = 1 Then
-                    lblFname.Text = "Ms. " + dr.GetString("first_name")
+                    lblDateTime.Text = "Ms. " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("Log")
                     'ImgProfile.Image = Image.FromFile(destinationMan + women)
                 ElseIf cmboSex.SelectedIndex = 2 Then
-                    lblFname.Text = "Hi " + dr.GetString("first_name")
+                    lblDateTime.Text = "Hi " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("Log")
                     'ImgProfile.Image = Image.FromFile(destinationMan + men)
                 End If
 
@@ -340,5 +350,9 @@ Public Class user_dashboard
             e.Cancel = True
 
         End If
+    End Sub
+
+    Private Sub Label28_Click(sender As Object, e As EventArgs) Handles lblDateTime.Click
+
     End Sub
 End Class

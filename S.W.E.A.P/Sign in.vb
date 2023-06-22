@@ -16,6 +16,8 @@ Public Class Form2
     End Sub
 
     Private Sub PerformLogin()
+        Dim DateAndTime As String = DateTime.Now.ToString()
+
         If (txtUsername.Text = "") Then
             MsgBox("Username can't be blank.")
         ElseIf (txtPassword.Text = "") Then
@@ -45,12 +47,20 @@ Public Class Form2
                 Else
                     MsgBox("Invalid username or password.")
                 End If
+                rid.Close() ' Close the data reader
+
+                ' Update the last_logout column for the logged-in user
+                Dim cmdd As New MySqlCommand("UPDATE users SET last_logout=@now WHERE id = @ID", conn)
+                cmdd.Parameters.AddWithValue("@ID", log_id)
+                cmdd.Parameters.AddWithValue("@now", DateAndTime)
+                cmdd.ExecuteNonQuery()
             Catch ex As Exception
-                MsgBox("Account doesn't exist.")
+                MsgBox(ex.Message)
             Finally
                 conn.Close()
             End Try
         End If
+
     End Sub
 
 
