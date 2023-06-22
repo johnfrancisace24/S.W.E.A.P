@@ -39,6 +39,7 @@ Public Class user_dashboard
     End Sub
     Private Sub user_dashboard_load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Start()
+        lblDate.Text = Date.Today
         Get_info()
     End Sub
     Private Sub btnLogOut_Click(sender As Object, e As EventArgs) Handles btnLogOut.Click
@@ -86,7 +87,7 @@ Public Class user_dashboard
             dr = cmd.ExecuteReader()
             If dr.Read() Then
                 Dim count1 As Integer = dr.GetInt32("cnt")
-                lblCnt.Text = count1.ToString()
+                'lblCnt.Text = count1.ToString()
 
                 BeneficiariesDGV.Rows.Add(dr.Item("user_id"), dr.Item("full_name"), dr.Item("age"), dr.Item("relationship"))
             End If
@@ -342,7 +343,6 @@ Public Class user_dashboard
 
     Private Sub txtEmail_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles txtbxemail.Validating
         Dim inputEmail As String = txtbxemail.Text.Trim()
-
         If txtbxemail.Text = "" Then
             txtbxemail.Text = txtbxemail.Text
 
@@ -351,9 +351,5 @@ Public Class user_dashboard
             e.Cancel = True
 
         End If
-    End Sub
-
-    Private Sub Label28_Click(sender As Object, e As EventArgs) Handles lblDateTime.Click
-
     End Sub
 End Class
