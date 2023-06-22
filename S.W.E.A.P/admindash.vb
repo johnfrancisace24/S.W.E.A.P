@@ -237,7 +237,7 @@ Public Class admindash
             Dim location As String = locateProject.Substring(0, indext)
             Try
                 conn.Open()
-                Dim cmd As New MySqlCommand("select count(*) from users left join user_info on users.id = user_info.user_id where users.id=@ID", conn)
+                Dim cmd As New MySqlCommand("select * from users left join user_info on users.id = user_info.user_id where users.id=@ID", conn)
                 cmd.Parameters.AddWithValue("@ID", selectedId)
                 rid = cmd.ExecuteReader
                 While rid.Read
@@ -246,8 +246,7 @@ Public Class admindash
                     Else
                         pBoxEditProfile.BackgroundImage = Nothing
                     End If
-                    Dim cnt As Integer = rid.GetInt32("count")
-                    Label36.Text = cnt.ToString()
+
                     txtEditUsername.Text = rid.GetString("username")
                     txtEditPw.Text = rid.GetString("password")
                     txtEditFname.Text = rid.GetString("first_name")
