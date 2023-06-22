@@ -35,7 +35,7 @@ Public Class user_dashboard
         Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
         Dim currentdate As DateTime = currenttime
         Dim remainer As Integer
-        lblTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
+        lblTime.Text = currentdate.Hour - 12 & " : " & currentdate.Minute & " : " & currentdate.Second
     End Sub
     Private Sub user_dashboard_load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Start()
@@ -233,23 +233,19 @@ Public Class user_dashboard
     Public Sub ExportToExcel(BenefeciariesDGV As DataGridView, filePath As String)
 
         SetEPPlusLicenseContext()
-        ' Create a new Excel package
         Using package As New ExcelPackage()
             Dim worksheet As ExcelWorksheet = package.Workbook.Worksheets.Add("Employees")
 
-            ' Add headers
             For j = 0 To BenefeciariesDGV.Columns.Count - 1
                 worksheet.Cells(1, j + 1).Value = BenefeciariesDGV.Columns(j).HeaderText
             Next
 
-            ' Add data rows
             For i = 0 To BenefeciariesDGV.Rows.Count - 1
                 For j = 0 To BenefeciariesDGV.Columns.Count - 1
                     worksheet.Cells(i + 2, j + 1).Value = BenefeciariesDGV.Rows(i).Cells(j).Value
                 Next
             Next
 
-            ' Apply auto-design
             Dim range As ExcelRange = worksheet.Cells(1, 1, BenefeciariesDGV.Rows.Count + 1, BenefeciariesDGV.Columns.Count)
             range.Style.HorizontalAlignment = ExcelHorizontalAlignment.Center
             range.Style.Font.Bold = True
@@ -258,35 +254,28 @@ Public Class user_dashboard
             range.Style.Border.Left.Style = ExcelBorderStyle.Thin
             range.Style.Border.Right.Style = ExcelBorderStyle.Thin
 
-            ' Set background color for header
+            'background color for header
             Dim headerRange As ExcelRange = worksheet.Cells(1, 1, 1, BenefeciariesDGV.Columns.Count)
             headerRange.Style.Fill.PatternType = ExcelFillStyle.Solid
             headerRange.Style.Fill.BackgroundColor.SetColor(Color.LightGreen)
             headerRange.Style.Font.Color.SetColor(Color.Black)
 
-            ' Set background color for rows
+            'background color for rows
             Dim dataRange As ExcelRange = worksheet.Cells(2, 1, BenefeciariesDGV.Rows.Count + 1, BenefeciariesDGV.Columns.Count)
             dataRange.Style.Fill.PatternType = ExcelFillStyle.Solid
             dataRange.Style.Fill.BackgroundColor.SetColor(Color.LightGray)
             dataRange.Style.Font.Color.SetColor(Color.Black)
 
-            'worksheet.Cells.AutoFitColumns()
-
-            ' Set custom column width
             worksheet.Column(1).Width = 7.43 ' Column A
             worksheet.Column(2).Width = 32 ' Column B
             worksheet.Column(3).Width = 8 ' Column C
             worksheet.Column(4).Width = 18.57 ' Column D
             worksheet.Column(5).Width = 20 ' Column E
             worksheet.Column(6).Width = 24 ' Column F
-
-
-            ' Save the Excel package to a file
             Dim fileInfo As New FileInfo(filePath)
             package.SaveAs(fileInfo)
         End Using
 
-        ' Open the file
         Dim processStartInfo As New ProcessStartInfo()
         processStartInfo.FileName = filePath
         processStartInfo.UseShellExecute = True
@@ -352,4 +341,5 @@ Public Class user_dashboard
 
         End If
     End Sub
+
 End Class
