@@ -1307,13 +1307,13 @@ Partial Class user_dashboard
         txtbxbdate.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxbdate.HoverState.ForeColor = Color.Black
         txtbxbdate.Location = New Point(664, 386)
-        txtbxbdate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
-        txtbxbdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        txtbxbdate.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
+        txtbxbdate.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
         txtbxbdate.Name = "txtbxbdate"
         txtbxbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges50
         txtbxbdate.Size = New Size(273, 36)
         txtbxbdate.TabIndex = 157
-        txtbxbdate.Value = New Date(2023, 6, 6, 13, 54, 41, 766)
+        txtbxbdate.Value = New DateTime(2023, 6, 6, 13, 54, 41, 766)
         ' 
         ' Label18
         ' 

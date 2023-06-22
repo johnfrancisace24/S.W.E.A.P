@@ -3,6 +3,7 @@ Imports System.Drawing
 Imports MySql.Data.MySqlClient
 Imports OfficeOpenXml
 Imports OfficeOpenXml.Style
+Imports System.Text.RegularExpressions
 
 Public Class user_dashboard
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -298,4 +299,22 @@ Public Class user_dashboard
     End Sub
 
 
+    ''Email Edit Validation
+    Private Function IsValidEmail(email As String) As Boolean
+        Dim emailRegex As New Regex("^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$")
+        Return emailRegex.IsMatch(email)
+    End Function
+
+    Private Sub txtEmail_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles txtbxemail.Validating
+        Dim inputEmail As String = txtbxemail.Text.Trim()
+
+        If txtbxemail.Text = "" Then
+            txtbxemail.Text = txtbxemail.Text
+
+        ElseIf Not IsValidEmail(inputEmail) Then
+            MessageBox.Show("Invalid email address." & vbCrLf & "Please enter a valid email address.", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Hand)
+            e.Cancel = True
+
+        End If
+    End Sub
 End Class
