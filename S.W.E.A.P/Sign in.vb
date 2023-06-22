@@ -32,24 +32,24 @@ Public Class Form2
                     status = rid.GetInt32("is_admin")
                     log_id = rid.GetInt32("id")
                 End While
+                If (status = 1) Then
+                    txtUsername.Clear()
+                    txtPassword.Clear()
+                    admindash.Show()
+                    Me.Hide()
+                ElseIf (status = 0) Then
+                    txtUsername.Clear()
+                    txtPassword.Clear()
+                    Me.Hide()
+                    user_dashboard.Show()
+                Else
+                    MsgBox("Invalid username or password.")
+                End If
             Catch ex As Exception
                 MsgBox("Account doesn't exist.")
             Finally
                 conn.Close()
             End Try
-            If (status = 1) Then
-                txtUsername.Clear()
-                txtPassword.Clear()
-                admindash.Show()
-                Me.Hide()
-            ElseIf (status = 0) Then
-                user_dashboard.Show()
-                txtUsername.Clear()
-                txtPassword.Clear()
-                Me.Hide()
-            Else
-                MsgBox("Invalid username or password.")
-            End If
         End If
     End Sub
 

@@ -358,7 +358,7 @@ Partial Class user_dashboard
         ' 
         lblFname.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         lblFname.ForeColor = SystemColors.Control
-        lblFname.Location = New Point(1053, 12)
+        lblFname.Location = New Point(1043, 12)
         lblFname.Name = "lblFname"
         lblFname.Size = New Size(133, 23)
         lblFname.TabIndex = 11
@@ -368,6 +368,7 @@ Partial Class user_dashboard
         ' iconFromtitle
         ' 
         iconFromtitle.Dock = DockStyle.Left
+        iconFromtitle.Image = My.Resources.Resources.house__1_
         iconFromtitle.Location = New Point(5, 5)
         iconFromtitle.Name = "iconFromtitle"
         iconFromtitle.Size = New Size(106, 36)

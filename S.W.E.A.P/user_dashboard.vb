@@ -83,24 +83,20 @@ Public Class user_dashboard
     Public Sub Get_info()
         Try
             conn.Open()
-            Dim cmd As New MySqlCommand("SELECT * FROM users 
+            Dim cmd As New MySqlCommand("SELECT *, CONCAT(first_name, ' ', middle_name, ' ', last_name) AS fullName FROM users 
                             INNER JOIN user_info ON users.id = user_info.user_id  
                             WHERE users.id = @ID", conn)
 
             cmd.Parameters.AddWithValue("@ID", Form2.log_id)
             dr = cmd.ExecuteReader
-            If dr.Read() Then
-                Dim imagePath As String = dr.GetString("image")
-                Dim Gooday As String = "Mr. " + dr.GetString("first_name")
+            While dr.Read
 
-                lblFname.Text = Gooday
-
+                'lblFname.Text = "Mr. " + dr.GetString("first_name")
                 Pfname.Text = dr.GetString("fullName")
                 Padd.Text = dr.GetString("address")
                 Pcntact.Text = dr.GetString("contact")
                 Pemail.Text = dr.GetString("email")
                 Pbdate.Text = dr.GetDateTime("birthdate")
-
 
                 Peducational.Text = dr.GetString("educational")
                 Pemployment.Text = dr.GetString("employment_status")
@@ -125,30 +121,9 @@ Public Class user_dashboard
                 cmbxoffice.SelectedItem = dr.GetString("office")
                 cmbxcomm.SelectedItem = dr.GetString("committee")
                 cmbxcomm.SelectedItem = dr.GetString("committee")
-
-                If Not String.IsNullOrEmpty(imagePath) Then
-                    Dim imagePathInResources As String = Path.Combine(destinationPath, imagePath)
-
-                    If File.Exists(imagePathInResources) Then
-                        userProfile.Image = Image.FromFile(imagePathInResources)
-                        user_Profile.Image = Image.FromFile(imagePathInResources)
-                        ImgProfile.Image = Image.FromFile(imagePathInResources)
-                    Else
-                        ImgProfile.Image = Nothing
-                        userProfile.Image = Nothing
-                        user_Profile.Image = Nothing
-                    End If
-                Else
-                    ImgProfile.Image = Nothing
-                    userProfile.Image = Nothing
-                    user_Profile.Image = Nothing
-
-                End If
-
-            End If
-
+            End While
         Catch ex As Exception
-            MsgBox("Doesn't work. LOL!")
+            MsgBox(ex.Message)
         Finally
             conn.Close()
         End Try
