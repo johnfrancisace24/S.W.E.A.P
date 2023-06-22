@@ -7,6 +7,7 @@ Imports OfficeOpenXml.Style
 Imports System.Text.RegularExpressions
 Imports DocumentFormat.OpenXml.Office2021.Excel.Pivot
 Imports Org.BouncyCastle.Crypto.IO
+Imports DocumentFormat.OpenXml.Vml.Spreadsheet
 
 Public Class admindash
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -16,6 +17,7 @@ Public Class admindash
     Dim currentBen As Integer
     Dim unionDue As Integer
     Private Sub admindash_Load(sender As Object, e As EventArgs) Handles MyBase.Load '---------------AUTOLOAD
+        countmember()
         liveTimer.Start()
         If Guna2TabControl1.SelectedTab Is tabEmployee Then
             pnlEmployee.Visible = True ' Show the employeepanel
@@ -55,6 +57,22 @@ Public Class admindash
                 currentBen = rid.GetInt32("counted")
             End While
         Catch ex As Exception
+        Finally
+            conn.Close()
+        End Try
+    End Sub
+
+    Public Sub countmember()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("Select count(*) as counts from users", conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                lblCntMember.Text = rid.GetInt32("counts")
+            End While
+
+        Catch ex As Exception
+            MsgBox(ex.Message)
         Finally
             conn.Close()
         End Try
@@ -147,6 +165,7 @@ Public Class admindash
     End Sub
 
 
+
     Private Sub pickOffice_SelectedIndexChanged(sender As Object, e As EventArgs) Handles pickOffice.SelectedIndexChanged
         ' viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
         '                                    email from users left join user_info on users.id = user_info.user_id where office=" & pickOffice.SelectedItem)
@@ -165,7 +184,7 @@ Public Class admindash
                     dgMembers.Rows.Add(rid.Item("id"), rid.Item("full_name"), rid.Item("office"), rid.Item("position"), rid.Item("employment_status"), rid.Item("email"))
                 End While
             Catch ex As Exception
-                MsgBox("doesn't work lmao")
+                MsgBox("doesn't Work")
             Finally
                 conn.Close()
             End Try
