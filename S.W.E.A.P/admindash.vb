@@ -17,6 +17,7 @@ Public Class admindash
     Dim selectedBenId As Integer
     Dim currentBen As Integer
     Dim unionDue As Integer
+    Dim countMembers As Integer
     Private Sub admindash_Load(sender As Object, e As EventArgs) Handles MyBase.Load '---------------AUTOLOAD
 
         LoadChart()
@@ -43,6 +44,30 @@ Public Class admindash
             conn.Close()
         End Try
 
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select concat(first_name, ' ', middle_name, ' ', last_name) as fullname, position, contributions.* from users left join contributions on users.id = contributions.user_id", conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                dgContributions.Rows.Add(rid.Item("user_id"), rid.Item("fullname"), rid.Item("position"), rid.Item("union_dues"), rid.Item("bereavement"), rid.Item("membership_fee"), rid.Item("contribution4"), rid.Item("contribution5"))
+            End While
+        Catch ex As Exception
+            MsgBox("this doesn't work")
+        Finally
+            conn.Close()
+        End Try
+
+        'Try
+        '    Dim cmd As New MySqlCommand("select count(id) as members from contributions", conn)
+        '    rid = cmd.ExecuteReader
+        '    While rid.Read
+        '        countMembers = rid.GetInt32("members")
+        '    End While
+        'Catch ex As Exception
+        '    MsgBox("Counting doesn't work")
+        'Finally
+        '    conn.Close()
+        'End Try
     End Sub
 
     Private Sub Guna2Tabcontrol1_Click(sender As Object, e As EventArgs) Handles Guna2TabControl1.Click
@@ -413,6 +438,20 @@ Public Class admindash
         Dim remainer As Integer
         lblDateTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
         lblTime.Text = "as of " & currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
+
+        'While countMembers >= 0
+        '    Try
+        '        conn.Open()
+        '        Dim cmd As New MySqlCommand("insert into contributions()", conn)
+        '        cmd.ExecuteNonQuery()
+        '    Catch ex As Exception
+        '        MsgBox("insertion doesn't work")
+        '    Finally
+        '        conn.Close()
+        '    End Try
+        '    countMembers = countMembers - 1
+        'End While
+
         'Static previousmonth As Integer
         'Try
         '    conn.Open()

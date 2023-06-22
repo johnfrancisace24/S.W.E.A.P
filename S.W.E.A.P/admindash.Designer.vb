@@ -57,6 +57,8 @@ Partial Class admindash
         Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
@@ -133,8 +135,6 @@ Partial Class admindash
         Dim DataGridViewCellStyle8 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle9 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle10 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Panel1 = New Panel()
         lblDateTime = New Label()
@@ -176,6 +176,8 @@ Partial Class admindash
         Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
         tabEmployee = New TabPage()
         pnlEmployee = New Panel()
+        Label4 = New Label()
+        pickSex = New Guna.UI2.WinForms.Guna2ComboBox()
         dgMembers = New Guna.UI2.WinForms.Guna2DataGridView()
         DataGridViewTextBoxColumn1 = New DataGridViewTextBoxColumn()
         DataGridViewTextBoxColumn2 = New DataGridViewTextBoxColumn()
@@ -270,20 +272,17 @@ Partial Class admindash
         btnEditContri = New Guna.UI2.WinForms.Guna2Button()
         btnLoan = New Guna.UI2.WinForms.Guna2Button()
         dgContributions = New Guna.UI2.WinForms.Guna2DataGridView()
+        TabPage3 = New TabPage()
+        ImageList2 = New ImageList(components)
+        liveTimer = New Timer(components)
         Column3 = New DataGridViewTextBoxColumn()
         Column5 = New DataGridViewTextBoxColumn()
         Column6 = New DataGridViewTextBoxColumn()
-        Column7 = New DataGridViewTextBoxColumn()
         Column13 = New DataGridViewTextBoxColumn()
         Column14 = New DataGridViewTextBoxColumn()
         Column12 = New DataGridViewTextBoxColumn()
         Column15 = New DataGridViewTextBoxColumn()
         Column16 = New DataGridViewTextBoxColumn()
-        TabPage3 = New TabPage()
-        ImageList2 = New ImageList(components)
-        liveTimer = New Timer(components)
-        pickSex = New Guna.UI2.WinForms.Guna2ComboBox()
-        Label4 = New Label()
         Panel1.SuspendLayout()
         Guna2TabControl1.SuspendLayout()
         TabPage6.SuspendLayout()
@@ -916,6 +915,38 @@ Partial Class admindash
         pnlEmployee.Size = New Size(1024, 710)
         pnlEmployee.TabIndex = 0
         ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.BackColor = Color.Transparent
+        Label4.Font = New Font("Cambria", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.Location = New Point(378, 98)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(75, 22)
+        Label4.TabIndex = 19
+        Label4.Text = "Gender:"
+        ' 
+        ' pickSex
+        ' 
+        pickSex.BackColor = Color.Transparent
+        pickSex.BorderColor = Color.DimGray
+        pickSex.BorderRadius = 5
+        pickSex.CustomizableEdges = CustomizableEdges23
+        pickSex.DrawMode = DrawMode.OwnerDrawFixed
+        pickSex.DropDownStyle = ComboBoxStyle.DropDownList
+        pickSex.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickSex.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickSex.Font = New Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
+        pickSex.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        pickSex.ItemHeight = 30
+        pickSex.Items.AddRange(New Object() {"Male", "Female", "Refer not to say"})
+        pickSex.Location = New Point(456, 90)
+        pickSex.Name = "pickSex"
+        pickSex.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        pickSex.Size = New Size(127, 36)
+        pickSex.TabIndex = 18
+        pickSex.TextAlign = HorizontalAlignment.Center
+        ' 
         ' dgMembers
         ' 
         dgMembers.AllowUserToAddRows = False
@@ -1325,14 +1356,14 @@ Partial Class admindash
         pickEditBdate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         pickEditBdate.Format = DateTimePickerFormat.Long
         pickEditBdate.Location = New Point(221, 404)
-        pickEditBdate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
-        pickEditBdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        pickEditBdate.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
+        pickEditBdate.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
         pickEditBdate.Name = "pickEditBdate"
         pickEditBdate.ShadowDecoration.CustomizableEdges = CustomizableEdges38
         pickEditBdate.Size = New Size(384, 36)
         pickEditBdate.TabIndex = 3
         pickEditBdate.TextAlign = HorizontalAlignment.Center
-        pickEditBdate.Value = New Date(2023, 6, 6, 9, 2, 45, 794)
+        pickEditBdate.Value = New DateTime(2023, 6, 6, 9, 2, 45, 794)
         ' 
         ' txtEditAddress
         ' 
@@ -2391,6 +2422,8 @@ Partial Class admindash
         ' 
         ' dgContributions
         ' 
+        dgContributions.AllowUserToAddRows = False
+        dgContributions.AllowUserToDeleteRows = False
         DataGridViewCellStyle8.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
         dgContributions.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle8
         DataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft
@@ -2403,7 +2436,7 @@ Partial Class admindash
         dgContributions.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle9
         dgContributions.ColumnHeadersHeight = 32
         dgContributions.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgContributions.Columns.AddRange(New DataGridViewColumn() {Column3, Column5, Column6, Column7, Column13, Column14, Column12, Column15, Column16})
+        dgContributions.Columns.AddRange(New DataGridViewColumn() {Column3, Column5, Column6, Column13, Column14, Column12, Column15, Column16})
         DataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle10.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
         DataGridViewCellStyle10.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
@@ -2415,6 +2448,7 @@ Partial Class admindash
         dgContributions.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
         dgContributions.Location = New Point(26, 300)
         dgContributions.Name = "dgContributions"
+        dgContributions.ReadOnly = True
         dgContributions.RowHeadersVisible = False
         dgContributions.RowTemplate.Height = 25
         dgContributions.Size = New Size(980, 389)
@@ -2433,7 +2467,7 @@ Partial Class admindash
         dgContributions.ThemeStyle.HeaderStyle.ForeColor = Color.White
         dgContributions.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         dgContributions.ThemeStyle.HeaderStyle.Height = 32
-        dgContributions.ThemeStyle.ReadOnly = False
+        dgContributions.ThemeStyle.ReadOnly = True
         dgContributions.ThemeStyle.RowsStyle.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
         dgContributions.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
         dgContributions.ThemeStyle.RowsStyle.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
@@ -2441,66 +2475,6 @@ Partial Class admindash
         dgContributions.ThemeStyle.RowsStyle.Height = 25
         dgContributions.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
         dgContributions.ThemeStyle.RowsStyle.SelectionForeColor = Color.White
-        ' 
-        ' Column3
-        ' 
-        Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column3.HeaderText = "ID"
-        Column3.Name = "Column3"
-        Column3.Width = 43
-        ' 
-        ' Column5
-        ' 
-        Column5.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column5.HeaderText = "Full Name"
-        Column5.Name = "Column5"
-        ' 
-        ' Column6
-        ' 
-        Column6.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column6.HeaderText = "Position"
-        Column6.Name = "Column6"
-        ' 
-        ' Column7
-        ' 
-        Column7.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column7.HeaderText = "Office"
-        Column7.Name = "Column7"
-        ' 
-        ' Column13
-        ' 
-        Column13.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column13.HeaderText = "Union Dues"
-        Column13.Name = "Column13"
-        Column13.Width = 85
-        ' 
-        ' Column14
-        ' 
-        Column14.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column14.HeaderText = "Bereavement"
-        Column14.Name = "Column14"
-        Column14.Width = 99
-        ' 
-        ' Column12
-        ' 
-        Column12.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column12.HeaderText = "Membership Fee"
-        Column12.Name = "Column12"
-        Column12.Width = 108
-        ' 
-        ' Column15
-        ' 
-        Column15.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column15.HeaderText = "Contribution4"
-        Column15.Name = "Column15"
-        Column15.Width = 104
-        ' 
-        ' Column16
-        ' 
-        Column16.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column16.HeaderText = "Contribution5"
-        Column16.Name = "Column16"
-        Column16.Width = 104
         ' 
         ' TabPage3
         ' 
@@ -2525,37 +2499,67 @@ Partial Class admindash
         ' 
         liveTimer.Interval = 1000
         ' 
-        ' pickSex
+        ' Column3
         ' 
-        pickSex.BackColor = Color.Transparent
-        pickSex.BorderColor = Color.DimGray
-        pickSex.BorderRadius = 5
-        pickSex.CustomizableEdges = CustomizableEdges23
-        pickSex.DrawMode = DrawMode.OwnerDrawFixed
-        pickSex.DropDownStyle = ComboBoxStyle.DropDownList
-        pickSex.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickSex.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickSex.Font = New Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point)
-        pickSex.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        pickSex.ItemHeight = 30
-        pickSex.Items.AddRange(New Object() {"Male", "Female", "Refer not to say"})
-        pickSex.Location = New Point(456, 90)
-        pickSex.Name = "pickSex"
-        pickSex.ShadowDecoration.CustomizableEdges = CustomizableEdges24
-        pickSex.Size = New Size(127, 36)
-        pickSex.TabIndex = 18
-        pickSex.TextAlign = HorizontalAlignment.Center
+        Column3.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column3.HeaderText = "ID"
+        Column3.Name = "Column3"
+        Column3.ReadOnly = True
+        Column3.Width = 43
         ' 
-        ' Label4
+        ' Column5
         ' 
-        Label4.AutoSize = True
-        Label4.BackColor = Color.Transparent
-        Label4.Font = New Font("Cambria", 14.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(378, 98)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(75, 22)
-        Label4.TabIndex = 19
-        Label4.Text = "Gender:"
+        Column5.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column5.HeaderText = "Full Name"
+        Column5.Name = "Column5"
+        Column5.ReadOnly = True
+        ' 
+        ' Column6
+        ' 
+        Column6.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column6.HeaderText = "Position"
+        Column6.Name = "Column6"
+        Column6.ReadOnly = True
+        ' 
+        ' Column13
+        ' 
+        Column13.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column13.HeaderText = "Union Dues"
+        Column13.Name = "Column13"
+        Column13.ReadOnly = True
+        Column13.Width = 85
+        ' 
+        ' Column14
+        ' 
+        Column14.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column14.HeaderText = "Bereavement"
+        Column14.Name = "Column14"
+        Column14.ReadOnly = True
+        Column14.Width = 99
+        ' 
+        ' Column12
+        ' 
+        Column12.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column12.HeaderText = "Membership Fee"
+        Column12.Name = "Column12"
+        Column12.ReadOnly = True
+        Column12.Width = 108
+        ' 
+        ' Column15
+        ' 
+        Column15.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column15.HeaderText = "Contribution4"
+        Column15.Name = "Column15"
+        Column15.ReadOnly = True
+        Column15.Width = 104
+        ' 
+        ' Column16
+        ' 
+        Column16.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column16.HeaderText = "Contribution5"
+        Column16.Name = "Column16"
+        Column16.ReadOnly = True
+        Column16.Width = 104
         ' 
         ' admindash
         ' 
@@ -2755,15 +2759,6 @@ Partial Class admindash
     Friend WithEvents Panel7 As Panel
     Friend WithEvents Panel6 As Panel
     Friend WithEvents dgContributions As Global.Guna.UI2.WinForms.Guna2DataGridView
-    Friend WithEvents Column3 As DataGridViewTextBoxColumn
-    Friend WithEvents Column5 As DataGridViewTextBoxColumn
-    Friend WithEvents Column6 As DataGridViewTextBoxColumn
-    Friend WithEvents Column7 As DataGridViewTextBoxColumn
-    Friend WithEvents Column13 As DataGridViewTextBoxColumn
-    Friend WithEvents Column14 As DataGridViewTextBoxColumn
-    Friend WithEvents Column12 As DataGridViewTextBoxColumn
-    Friend WithEvents Column15 As DataGridViewTextBoxColumn
-    Friend WithEvents Column16 As DataGridViewTextBoxColumn
     Friend WithEvents btnEditContri As Global.Guna.UI2.WinForms.Guna2Button
     Friend WithEvents btnLoan As Global.Guna.UI2.WinForms.Guna2Button
     Friend WithEvents liveTimer As Timer
@@ -2773,4 +2768,12 @@ Partial Class admindash
     Friend WithEvents lblDateTime As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents pickSex As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents Column3 As DataGridViewTextBoxColumn
+    Friend WithEvents Column5 As DataGridViewTextBoxColumn
+    Friend WithEvents Column6 As DataGridViewTextBoxColumn
+    Friend WithEvents Column13 As DataGridViewTextBoxColumn
+    Friend WithEvents Column14 As DataGridViewTextBoxColumn
+    Friend WithEvents Column12 As DataGridViewTextBoxColumn
+    Friend WithEvents Column15 As DataGridViewTextBoxColumn
+    Friend WithEvents Column16 As DataGridViewTextBoxColumn
 End Class
