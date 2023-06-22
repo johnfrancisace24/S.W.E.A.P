@@ -23,6 +23,7 @@ Partial Class user_dashboard
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
+        Dim CustomizableEdges75 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges77 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges78 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -30,7 +31,6 @@ Partial Class user_dashboard
         Dim CustomizableEdges80 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges81 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges82 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges83 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -109,7 +109,6 @@ Partial Class user_dashboard
         Dim CustomizableEdges73 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges74 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(user_dashboard))
-        Dim CustomizableEdges75 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Panel1 = New Panel()
         Label1 = New Label()
@@ -118,11 +117,12 @@ Partial Class user_dashboard
         Guna2ControlBox1 = New Guna.UI2.WinForms.Guna2ControlBox()
         btnLogOut = New Guna.UI2.WinForms.Guna2Button()
         Panel2 = New Panel()
-        lblFname = New Label()
+        lblDateTime = New Label()
         iconFromtitle = New PictureBox()
         lblFromTitle = New Label()
         Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
         tabDashboard = New TabPage()
+        lblTime = New Label()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         Label3 = New Label()
         Guna2TrackBar1 = New Guna.UI2.WinForms.Guna2TrackBar()
@@ -136,6 +136,8 @@ Partial Class user_dashboard
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         lblFirsts = New Label()
         tabProfile = New TabPage()
+        Label27 = New Label()
+        Label2 = New Label()
         userProfile = New Guna.UI2.WinForms.Guna2PictureBox()
         PSex = New Guna.UI2.WinForms.Guna2TextBox()
         Pcommittee = New Guna.UI2.WinForms.Guna2TextBox()
@@ -203,7 +205,7 @@ Partial Class user_dashboard
         Label11 = New Label()
         btnUpdate = New Guna.UI2.WinForms.Guna2Button()
         ImageList1 = New ImageList(components)
-        ImgProfile = New Guna.UI2.WinForms.Guna2CirclePictureBox()
+        Timer1 = New Timer(components)
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
         CType(iconFromtitle, ComponentModel.ISupportInitialize).BeginInit()
@@ -219,7 +221,6 @@ Partial Class user_dashboard
         CType(BeneficiariesDGV, ComponentModel.ISupportInitialize).BeginInit()
         tabSetting.SuspendLayout()
         CType(user_Profile, ComponentModel.ISupportInitialize).BeginInit()
-        CType(ImgProfile, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -260,14 +261,14 @@ Partial Class user_dashboard
         Guna2ControlBox3.Animated = True
         Guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
         Guna2ControlBox3.Cursor = Cursors.Hand
-        Guna2ControlBox3.CustomizableEdges = CustomizableEdges76
+        Guna2ControlBox3.CustomizableEdges = CustomizableEdges75
         Guna2ControlBox3.Dock = DockStyle.Right
         Guna2ControlBox3.FillColor = Color.Transparent
         Guna2ControlBox3.ForeColor = SystemColors.ControlText
         Guna2ControlBox3.IconColor = Color.WhiteSmoke
         Guna2ControlBox3.Location = New Point(1137, 0)
         Guna2ControlBox3.Name = "Guna2ControlBox3"
-        Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges77
+        Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges76
         Guna2ControlBox3.Size = New Size(40, 40)
         Guna2ControlBox3.TabIndex = 2
         ' 
@@ -276,14 +277,14 @@ Partial Class user_dashboard
         Guna2ControlBox2.Animated = True
         Guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox
         Guna2ControlBox2.Cursor = Cursors.Hand
-        Guna2ControlBox2.CustomizableEdges = CustomizableEdges78
+        Guna2ControlBox2.CustomizableEdges = CustomizableEdges77
         Guna2ControlBox2.Dock = DockStyle.Right
         Guna2ControlBox2.FillColor = Color.Transparent
         Guna2ControlBox2.ForeColor = SystemColors.ControlText
         Guna2ControlBox2.IconColor = Color.WhiteSmoke
         Guna2ControlBox2.Location = New Point(1177, 0)
         Guna2ControlBox2.Name = "Guna2ControlBox2"
-        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges79
+        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges78
         Guna2ControlBox2.Size = New Size(40, 40)
         Guna2ControlBox2.TabIndex = 1
         ' 
@@ -291,7 +292,7 @@ Partial Class user_dashboard
         ' 
         Guna2ControlBox1.Animated = True
         Guna2ControlBox1.Cursor = Cursors.Hand
-        Guna2ControlBox1.CustomizableEdges = CustomizableEdges80
+        Guna2ControlBox1.CustomizableEdges = CustomizableEdges79
         Guna2ControlBox1.Dock = DockStyle.Right
         Guna2ControlBox1.FillColor = Color.Transparent
         Guna2ControlBox1.ForeColor = SystemColors.ControlText
@@ -300,7 +301,7 @@ Partial Class user_dashboard
         Guna2ControlBox1.IconColor = Color.WhiteSmoke
         Guna2ControlBox1.Location = New Point(1217, 0)
         Guna2ControlBox1.Name = "Guna2ControlBox1"
-        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges81
+        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges80
         Guna2ControlBox1.Size = New Size(40, 40)
         Guna2ControlBox1.TabIndex = 0
         ' 
@@ -309,7 +310,7 @@ Partial Class user_dashboard
         btnLogOut.Animated = True
         btnLogOut.BorderRadius = 5
         btnLogOut.Cursor = Cursors.Hand
-        btnLogOut.CustomizableEdges = CustomizableEdges82
+        btnLogOut.CustomizableEdges = CustomizableEdges81
         btnLogOut.DisabledState.BorderColor = Color.DarkGray
         btnLogOut.DisabledState.CustomBorderColor = Color.DarkGray
         btnLogOut.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -319,7 +320,7 @@ Partial Class user_dashboard
         btnLogOut.ForeColor = Color.White
         btnLogOut.Location = New Point(1026, 5)
         btnLogOut.Name = "btnLogOut"
-        btnLogOut.ShadowDecoration.CustomizableEdges = CustomizableEdges83
+        btnLogOut.ShadowDecoration.CustomizableEdges = CustomizableEdges82
         btnLogOut.Size = New Size(92, 31)
         btnLogOut.TabIndex = 5
         btnLogOut.Text = "Log out"
@@ -327,8 +328,8 @@ Partial Class user_dashboard
         ' Panel2
         ' 
         Panel2.BackColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
-        Panel2.Controls.Add(ImgProfile)
-        Panel2.Controls.Add(lblFname)
+        Panel2.Controls.Add(lblTime)
+        Panel2.Controls.Add(lblDateTime)
         Panel2.Controls.Add(iconFromtitle)
         Panel2.Controls.Add(lblFromTitle)
         Panel2.Dock = DockStyle.Top
@@ -338,16 +339,17 @@ Partial Class user_dashboard
         Panel2.Size = New Size(1257, 56)
         Panel2.TabIndex = 2
         ' 
-        ' lblFname
+        ' lblDateTime
         ' 
-        lblFname.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        lblFname.ForeColor = SystemColors.Control
-        lblFname.Location = New Point(1043, 17)
-        lblFname.Name = "lblFname"
-        lblFname.Size = New Size(133, 23)
-        lblFname.TabIndex = 11
-        lblFname.Text = "Mr. John"
-        lblFname.TextAlign = ContentAlignment.MiddleRight
+        lblDateTime.Dock = DockStyle.Right
+        lblDateTime.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        lblDateTime.ForeColor = SystemColors.Control
+        lblDateTime.Location = New Point(876, 8)
+        lblDateTime.Name = "lblDateTime"
+        lblDateTime.Size = New Size(373, 40)
+        lblDateTime.TabIndex = 12
+        lblDateTime.Text = "10 : 34 : 01 AM"
+        lblDateTime.TextAlign = ContentAlignment.MiddleRight
         ' 
         ' iconFromtitle
         ' 
@@ -428,6 +430,17 @@ Partial Class user_dashboard
         tabDashboard.TabIndex = 0
         tabDashboard.Text = "Dashboard"
         tabDashboard.UseVisualStyleBackColor = True
+        ' 
+        ' lblTime
+        ' 
+        lblTime.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        lblTime.ForeColor = Color.Cyan
+        lblTime.Location = New Point(205, 17)
+        lblTime.Name = "lblTime"
+        lblTime.Size = New Size(133, 23)
+        lblTime.TabIndex = 13
+        lblTime.Text = "10 : 34 : 01 AM"
+        lblTime.TextAlign = ContentAlignment.MiddleRight
         ' 
         ' Guna2Panel1
         ' 
@@ -587,6 +600,8 @@ Partial Class user_dashboard
         ' 
         ' tabProfile
         ' 
+        tabProfile.Controls.Add(Label27)
+        tabProfile.Controls.Add(Label2)
         tabProfile.Controls.Add(userProfile)
         tabProfile.Controls.Add(PSex)
         tabProfile.Controls.Add(Pcommittee)
@@ -615,6 +630,26 @@ Partial Class user_dashboard
         tabProfile.TabIndex = 1
         tabProfile.Text = "Profile"
         tabProfile.UseVisualStyleBackColor = True
+        ' 
+        ' Label27
+        ' 
+        Label27.AutoSize = True
+        Label27.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label27.Location = New Point(799, 155)
+        Label27.Name = "Label27"
+        Label27.Size = New Size(70, 21)
+        Label27.TabIndex = 147
+        Label27.Text = "GENDER"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point)
+        Label2.Location = New Point(385, 155)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(95, 21)
+        Label2.TabIndex = 146
+        Label2.Text = "FULL NAME"
         ' 
         ' userProfile
         ' 
@@ -1725,22 +1760,8 @@ Partial Class user_dashboard
         ImageList1.Images.SetKeyName(3, "house (1).png")
         ImageList1.Images.SetKeyName(4, "settings.png")
         ' 
-        ' ImgProfile
+        ' Timer1
         ' 
-        ImgProfile.BackColor = Color.Transparent
-        ImgProfile.BackgroundImageLayout = ImageLayout.None
-        ImgProfile.Dock = DockStyle.Right
-        ImgProfile.FillColor = Color.Transparent
-        ImgProfile.Image = CType(resources.GetObject("ImgProfile.Image"), Image)
-        ImgProfile.ImageRotate = 0F
-        ImgProfile.Location = New Point(1196, 8)
-        ImgProfile.Name = "ImgProfile"
-        ImgProfile.ShadowDecoration.CustomizableEdges = CustomizableEdges75
-        ImgProfile.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        ImgProfile.Size = New Size(53, 40)
-        ImgProfile.SizeMode = PictureBoxSizeMode.StretchImage
-        ImgProfile.TabIndex = 12
-        ImgProfile.TabStop = False
         ' 
         ' user_dashboard
         ' 
@@ -1775,7 +1796,6 @@ Partial Class user_dashboard
         tabSetting.ResumeLayout(False)
         tabSetting.PerformLayout()
         CType(user_Profile, ComponentModel.ISupportInitialize).EndInit()
-        CType(ImgProfile, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -1789,7 +1809,6 @@ Partial Class user_dashboard
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Guna2TabControl1 As Guna.UI2.WinForms.Guna2TabControl
     Friend WithEvents tabDashboard As TabPage
-    Friend WithEvents lblFname As Label
     Friend WithEvents iconFromtitle As PictureBox
     Friend WithEvents lblFromTitle As Label
     Friend WithEvents tabProfile As TabPage
@@ -1872,5 +1891,9 @@ Partial Class user_dashboard
     Friend WithEvents txtbxusername As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label11 As Label
     Friend WithEvents btnUpdate As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents ImgProfile As Guna.UI2.WinForms.Guna2CirclePictureBox
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents lblDateTime As Label
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents lblTime As Label
 End Class

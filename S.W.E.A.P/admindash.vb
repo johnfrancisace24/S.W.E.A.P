@@ -18,7 +18,11 @@ Public Class admindash
     Dim currentBen As Integer
     Dim unionDue As Integer
     Private Sub admindash_Load(sender As Object, e As EventArgs) Handles MyBase.Load '---------------AUTOLOAD
+
         LoadChart()
+        viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
+                                            email from users left join user_info on users.id = user_info.user_id")
+
         countmember()
         liveTimer.Start()
         If Guna2TabControl1.SelectedTab Is tabEmployee Then
