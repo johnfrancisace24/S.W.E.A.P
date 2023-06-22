@@ -8,6 +8,7 @@ Imports System.Text.RegularExpressions
 Imports DocumentFormat.OpenXml.Office2021.Excel.Pivot
 Imports Org.BouncyCastle.Crypto.IO
 Imports DocumentFormat.OpenXml.Vml.Spreadsheet
+Imports System.Windows.Forms.DataVisualization.Charting
 
 Public Class admindash
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -17,8 +18,11 @@ Public Class admindash
     Dim currentBen As Integer
     Dim unionDue As Integer
     Private Sub admindash_Load(sender As Object, e As EventArgs) Handles MyBase.Load '---------------AUTOLOAD
+
+        LoadChart()
         viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
                                             email from users left join user_info on users.id = user_info.user_id")
+
         countmember()
         liveTimer.Start()
         If Guna2TabControl1.SelectedTab Is tabEmployee Then
@@ -355,11 +359,11 @@ Public Class admindash
         tabEditMember.SelectedTab = personal
     End Sub
 
-    Private Sub txtEditMname_KeyPress(sender As Object, e As EventArgs) Handles txtEditMname.KeyPress
+    Private Sub txtEditMname_KeyPress(sender As Object, e As EventArgs)
         txtEditFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtEditLname_KeyPress(sender As Object, e As EventArgs) Handles txtEditLname.KeyPress
+    Private Sub txtEditLname_KeyPress(sender As Object, e As EventArgs)
         txtEditFname_KeyPress(sender, e)
     End Sub
 
@@ -449,4 +453,37 @@ Public Class admindash
     Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
         Guna2TabControl1.SelectedTab = tabEmployee
     End Sub
+
+
+    Sub LoadChart()
+        With ChartMemberCount
+            .Series.Clear()
+            .Series.Add("Series1")
+        End With
+
+        Dim da As New MySqlDataAdapter("SELECT office, COUNT(*) AS count FROM user_info GROUP BY office", conn)
+        Dim ds As New DataSet
+
+        da.Fill(ds, "Members")
+        ChartMemberCount.DataSource = ds.Tables("Members")
+        Dim series1 As Series = ChartMemberCount.Series("Series1")
+        series1.ChartType = SeriesChartType.Pie
+
+        series1.Name = "MEMBERS"
+
+        With ChartMemberCount
+            .Series(0)("PieLabelStyle") = "Outside"
+            .Series(0).BorderWidth = 1
+            .Series(0).BorderColor = System.Drawing.Color.Black
+
+            .Series(series1.Name).XValueMember = "office"
+            .Series(series1.Name).YValueMembers = "count"
+            .Series(0).LabelFormat = "{#,##0}"
+            .ChartAreas(0).Area3DStyle.Enable3D = True
+            .Series(0).IsValueShownAsLabel = True
+
+        End With
+    End Sub
+
+
 End Class
