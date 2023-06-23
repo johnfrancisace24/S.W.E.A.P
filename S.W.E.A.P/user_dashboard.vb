@@ -18,7 +18,7 @@ Public Class user_dashboard
     Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
     Dim location As String = locateProject.Substring(0, indext)
     Dim destinationPath As String = location & "\Resources\user_profile"
-    Dim destinationMan As String = location & "\Resources\manAndwoman"
+    'Dim destinationMan As String = location & "\Resources\manAndwoman"
     Dim destinationIconPath As String = location & "\Resources\"
 
     Dim dashPath As String = "dashboard (3).png"
@@ -34,14 +34,14 @@ Public Class user_dashboard
         Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
         Dim currentdate As DateTime = currenttime
         Dim remainer As Integer
-        lblTime.Text = currentdate.Hour - 12 & " : " & currentdate.Minute & " : " & currentdate.Second
+        lblTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
     End Sub
 
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
         Panel3.Left += 40
 
         If Panel3.Left >= 993 Then
-            Timer1.Stop()
+            Timer2.Stop()
             Panel3.Left = 993
         End If
     End Sub
@@ -51,6 +51,7 @@ Public Class user_dashboard
         Get_info()
 
         Label3.ForeColor = Color.FromArgb(CInt(opacity * 255), Label1.ForeColor)
+        Label25.ForeColor = Color.FromArgb(CInt(opacity * 255), Label1.ForeColor)
     End Sub
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
@@ -359,5 +360,6 @@ Public Class user_dashboard
 
         End If
     End Sub
+
 
 End Class
