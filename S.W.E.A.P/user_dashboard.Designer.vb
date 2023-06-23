@@ -31,6 +31,7 @@ Partial Class user_dashboard
         Dim CustomizableEdges70 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges71 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges72 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(user_dashboard))
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -98,7 +99,6 @@ Partial Class user_dashboard
         Dim CustomizableEdges62 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges63 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges64 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(user_dashboard))
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Panel1 = New Panel()
         Label1 = New Label()
@@ -110,10 +110,14 @@ Partial Class user_dashboard
         lblDateTime = New Label()
         iconFromtitle = New PictureBox()
         lblFromTitle = New Label()
-        lblTime = New Label()
         Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
         tabDashboard = New TabPage()
+        Panel3 = New Panel()
+        Label3 = New Label()
+        ImageList1 = New ImageList(components)
         lblDate = New Label()
+        lblTime = New Label()
+        Panel4 = New Panel()
         tabProfile = New TabPage()
         Label27 = New Label()
         Label2 = New Label()
@@ -183,13 +187,14 @@ Partial Class user_dashboard
         txtbxusername = New Guna.UI2.WinForms.Guna2TextBox()
         Label11 = New Label()
         btnUpdate = New Guna.UI2.WinForms.Guna2Button()
-        ImageList1 = New ImageList(components)
         Timer1 = New Timer(components)
+        Timer2 = New Timer(components)
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
         CType(iconFromtitle, ComponentModel.ISupportInitialize).BeginInit()
         Guna2TabControl1.SuspendLayout()
         tabDashboard.SuspendLayout()
+        Panel3.SuspendLayout()
         tabProfile.SuspendLayout()
         CType(userProfile, ComponentModel.ISupportInitialize).BeginInit()
         tabBeneficiary.SuspendLayout()
@@ -347,17 +352,6 @@ Partial Class user_dashboard
         lblFromTitle.Text = "Home"
         lblFromTitle.TextAlign = ContentAlignment.MiddleLeft
         ' 
-        ' lblTime
-        ' 
-        lblTime.Font = New Font("Segoe UI Semibold", 40F, FontStyle.Bold, GraphicsUnit.Point)
-        lblTime.ForeColor = Color.Cyan
-        lblTime.Location = New Point(284, 153)
-        lblTime.Name = "lblTime"
-        lblTime.Size = New Size(431, 72)
-        lblTime.TabIndex = 13
-        lblTime.Text = "10 : 34 : 01 AM"
-        lblTime.TextAlign = ContentAlignment.MiddleCenter
-        ' 
         ' Guna2TabControl1
         ' 
         Guna2TabControl1.Alignment = TabAlignment.Left
@@ -404,8 +398,8 @@ Partial Class user_dashboard
         ' 
         tabDashboard.BackColor = Color.FromArgb(CByte(54), CByte(69), CByte(94))
         tabDashboard.BackgroundImageLayout = ImageLayout.Stretch
-        tabDashboard.Controls.Add(lblDate)
-        tabDashboard.Controls.Add(lblTime)
+        tabDashboard.Controls.Add(Panel3)
+        tabDashboard.Controls.Add(Panel4)
         tabDashboard.Font = New Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point)
         tabDashboard.ImageKey = "welcome-back.png"
         tabDashboard.Location = New Point(254, 4)
@@ -415,16 +409,74 @@ Partial Class user_dashboard
         tabDashboard.TabIndex = 0
         tabDashboard.Text = "Welcome"
         ' 
+        ' Panel3
+        ' 
+        Panel3.Controls.Add(Label3)
+        Panel3.Controls.Add(lblDate)
+        Panel3.Controls.Add(lblTime)
+        Panel3.Location = New Point(3, 3)
+        Panel3.Name = "Panel3"
+        Panel3.Size = New Size(993, 580)
+        Panel3.TabIndex = 15
+        ' 
+        ' Label3
+        ' 
+        Label3.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Label3.ForeColor = Color.WhiteSmoke
+        Label3.ImageAlign = ContentAlignment.MiddleRight
+        Label3.ImageKey = "fast-forward-double-right-arrows-symbol.png"
+        Label3.ImageList = ImageList1
+        Label3.Location = New Point(846, 299)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(142, 45)
+        Label3.TabIndex = 17
+        Label3.Text = "Click here"
+        Label3.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' ImageList1
+        ' 
+        ImageList1.ColorDepth = ColorDepth.Depth32Bit
+        ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), ImageListStreamer)
+        ImageList1.TransparentColor = Color.Transparent
+        ImageList1.Images.SetKeyName(0, "man.png")
+        ImageList1.Images.SetKeyName(1, "beneficiary (2).png")
+        ImageList1.Images.SetKeyName(2, "dashboard (3).png")
+        ImageList1.Images.SetKeyName(3, "house (1).png")
+        ImageList1.Images.SetKeyName(4, "settings.png")
+        ImageList1.Images.SetKeyName(5, "welcome-back.png")
+        ImageList1.Images.SetKeyName(6, "man (1).png")
+        ImageList1.Images.SetKeyName(7, "woman.png")
+        ImageList1.Images.SetKeyName(8, "fast-forward-double-right-arrows-symbol.png")
+        ' 
         ' lblDate
         ' 
         lblDate.Font = New Font("Segoe UI Semibold", 20F, FontStyle.Bold, GraphicsUnit.Point)
         lblDate.ForeColor = Color.FromArgb(CByte(34), CByte(124), CByte(122))
-        lblDate.Location = New Point(284, 219)
+        lblDate.Location = New Point(281, 302)
         lblDate.Name = "lblDate"
         lblDate.Size = New Size(431, 43)
-        lblDate.TabIndex = 14
+        lblDate.TabIndex = 16
         lblDate.Text = "10 : 34 : 01 AM"
         lblDate.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' lblTime
+        ' 
+        lblTime.Font = New Font("Segoe UI Semibold", 40F, FontStyle.Bold, GraphicsUnit.Point)
+        lblTime.ForeColor = Color.Cyan
+        lblTime.Location = New Point(281, 236)
+        lblTime.Name = "lblTime"
+        lblTime.Size = New Size(431, 72)
+        lblTime.TabIndex = 15
+        lblTime.Text = "10 : 34 : 01 AM"
+        lblTime.TextAlign = ContentAlignment.MiddleCenter
+        ' 
+        ' Panel4
+        ' 
+        Panel4.BackColor = Color.FromArgb(CByte(54), CByte(69), CByte(14))
+        Panel4.Location = New Point(3, 3)
+        Panel4.Name = "Panel4"
+        Panel4.Size = New Size(993, 580)
+        Panel4.TabIndex = 0
         ' 
         ' tabProfile
         ' 
@@ -1577,20 +1629,6 @@ Partial Class user_dashboard
         btnUpdate.TabIndex = 131
         btnUpdate.Text = "Update"
         ' 
-        ' ImageList1
-        ' 
-        ImageList1.ColorDepth = ColorDepth.Depth32Bit
-        ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), ImageListStreamer)
-        ImageList1.TransparentColor = Color.Transparent
-        ImageList1.Images.SetKeyName(0, "man.png")
-        ImageList1.Images.SetKeyName(1, "beneficiary (2).png")
-        ImageList1.Images.SetKeyName(2, "dashboard (3).png")
-        ImageList1.Images.SetKeyName(3, "house (1).png")
-        ImageList1.Images.SetKeyName(4, "settings.png")
-        ImageList1.Images.SetKeyName(5, "welcome-back.png")
-        ImageList1.Images.SetKeyName(6, "man (1).png")
-        ImageList1.Images.SetKeyName(7, "woman.png")
-        ' 
         ' Timer1
         ' 
         ' 
@@ -1611,6 +1649,7 @@ Partial Class user_dashboard
         CType(iconFromtitle, ComponentModel.ISupportInitialize).EndInit()
         Guna2TabControl1.ResumeLayout(False)
         tabDashboard.ResumeLayout(False)
+        Panel3.ResumeLayout(False)
         tabProfile.ResumeLayout(False)
         tabProfile.PerformLayout()
         CType(userProfile, ComponentModel.ISupportInitialize).EndInit()
@@ -1707,6 +1746,10 @@ Partial Class user_dashboard
     Friend WithEvents Label2 As Label
     Friend WithEvents lblDateTime As Label
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents lblTime As Label
+    Friend WithEvents Panel3 As Panel
     Friend WithEvents lblDate As Label
+    Friend WithEvents lblTime As Label
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents Timer2 As Timer
+    Friend WithEvents Label3 As Label
 End Class

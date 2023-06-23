@@ -5,6 +5,7 @@ Imports OfficeOpenXml
 Imports OfficeOpenXml.Style
 Imports System.Text.RegularExpressions
 Imports System.Threading
+Imports System.Timers
 
 Public Class user_dashboard
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -25,9 +26,7 @@ Public Class user_dashboard
     Dim benefPath As String = "beneficiary (2).png"
     Dim settingPath As String = "settings.png"
     Dim Home As String = "house (1).png"
-    'Dim men As String = "\man (1).png"
-    'Dim women As String = "\woman.png"
-
+    Dim opacity As Single = 0.5
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick '--------------------TIMER
 
@@ -37,10 +36,25 @@ Public Class user_dashboard
         Dim remainer As Integer
         lblTime.Text = currentdate.Hour - 12 & " : " & currentdate.Minute & " : " & currentdate.Second
     End Sub
+
+    Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
+        Panel3.Left += 40
+
+        If Panel3.Left >= 993 Then
+            Timer1.Stop()
+            Panel3.Left = 993
+        End If
+    End Sub
     Private Sub user_dashboard_load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Start()
         lblDate.Text = Date.Today
         Get_info()
+
+        Label3.ForeColor = Color.FromArgb(CInt(opacity * 255), Label1.ForeColor)
+    End Sub
+
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+        Timer2.Start()
     End Sub
     Private Sub btnLogOut_Click(sender As Object, e As EventArgs) Handles btnLogOut.Click
         Dim AnswerYes As String
