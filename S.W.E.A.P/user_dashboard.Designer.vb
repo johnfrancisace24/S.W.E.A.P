@@ -447,6 +447,7 @@ Partial Class user_dashboard
         ImageList1.Images.SetKeyName(6, "man (1).png")
         ImageList1.Images.SetKeyName(7, "woman.png")
         ImageList1.Images.SetKeyName(8, "fast-forward-double-right-arrows-symbol.png")
+        ImageList1.Images.SetKeyName(9, "arrowheads-of-thin-outline-to-the-left.png")
         ' 
         ' lblDate
         ' 
@@ -1630,6 +1631,9 @@ Partial Class user_dashboard
         btnUpdate.Text = "Update"
         ' 
         ' Timer1
+        ' 
+        ' 
+        ' Timer2
         ' 
         ' 
         ' user_dashboard
