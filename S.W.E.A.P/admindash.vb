@@ -11,7 +11,7 @@ Imports DocumentFormat.OpenXml.Vml.Spreadsheet
 Imports System.Windows.Forms.DataVisualization.Charting
 
 Public Class admindash
-    Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.192.162;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
     Dim selectedId As Integer = 0
     Dim selectedBenId As Integer
@@ -547,4 +547,6 @@ Public Class admindash
             End Try
         End If
     End Sub
+
+
 End Class

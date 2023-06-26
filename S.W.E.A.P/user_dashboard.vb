@@ -51,7 +51,7 @@ Public Class user_dashboard
         Get_info()
 
         Label3.ForeColor = Color.FromArgb(CInt(opacity * 255), Label1.ForeColor)
-        Label25.ForeColor = Color.FromArgb(CInt(opacity * 255), Label1.ForeColor)
+        'Label25.ForeColor = Color.FromArgb(CInt(opacity * 255), Label1.ForeColor)
     End Sub
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
