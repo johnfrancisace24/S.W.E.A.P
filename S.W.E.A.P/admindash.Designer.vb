@@ -2706,6 +2706,7 @@ Partial Class admindash
         Controls.Add(Guna2TabControl1)
         Controls.Add(Panel1)
         FormBorderStyle = FormBorderStyle.None
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "admindash"
         StartPosition = FormStartPosition.CenterScreen
         Text = "admindash"
