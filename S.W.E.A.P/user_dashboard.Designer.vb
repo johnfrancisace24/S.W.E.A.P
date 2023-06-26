@@ -1645,6 +1645,7 @@ Partial Class user_dashboard
         Controls.Add(Panel2)
         Controls.Add(Panel1)
         FormBorderStyle = FormBorderStyle.None
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "user_dashboard"
         StartPosition = FormStartPosition.CenterScreen
         Text = "user_dashboard"

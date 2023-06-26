@@ -92,6 +92,7 @@ Partial Class Loan
         Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Loan))
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         tabconLoan = New Guna.UI2.WinForms.Guna2TabControl()
         addLoan = New TabPage()
@@ -432,13 +433,13 @@ Partial Class Loan
         dateStart.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         dateStart.Format = DateTimePickerFormat.Long
         dateStart.Location = New Point(244, 166)
-        dateStart.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
-        dateStart.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
+        dateStart.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        dateStart.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         dateStart.Name = "dateStart"
         dateStart.ShadowDecoration.CustomizableEdges = CustomizableEdges13
         dateStart.Size = New Size(218, 25)
         dateStart.TabIndex = 3
-        dateStart.Value = New DateTime(2023, 6, 14, 8, 36, 49, 499)
+        dateStart.Value = New Date(2023, 6, 14, 8, 36, 49, 499)
         ' 
         ' Label6
         ' 
@@ -526,7 +527,7 @@ Partial Class Loan
         numXtraP.CustomizableEdges = CustomizableEdges14
         numXtraP.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numXtraP.Location = New Point(244, 197)
-        numXtraP.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
+        numXtraP.Maximum = New Decimal(New Integer() {-727379969, 232, 0, 0})
         numXtraP.Name = "numXtraP"
         numXtraP.ShadowDecoration.CustomizableEdges = CustomizableEdges15
         numXtraP.Size = New Size(218, 25)
@@ -539,7 +540,7 @@ Partial Class Loan
         numPayYears.CustomizableEdges = CustomizableEdges16
         numPayYears.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numPayYears.Location = New Point(244, 134)
-        numPayYears.Maximum = New [Decimal](New Integer() {52, 0, 0, 0})
+        numPayYears.Maximum = New Decimal(New Integer() {52, 0, 0, 0})
         numPayYears.Name = "numPayYears"
         numPayYears.ShadowDecoration.CustomizableEdges = CustomizableEdges17
         numPayYears.Size = New Size(218, 25)
@@ -552,7 +553,7 @@ Partial Class Loan
         numPyears.CustomizableEdges = CustomizableEdges18
         numPyears.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numPyears.Location = New Point(244, 102)
-        numPyears.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
+        numPyears.Maximum = New Decimal(New Integer() {-727379969, 232, 0, 0})
         numPyears.Name = "numPyears"
         numPyears.ShadowDecoration.CustomizableEdges = CustomizableEdges19
         numPyears.Size = New Size(218, 25)
@@ -565,7 +566,7 @@ Partial Class Loan
         numAintRate.CustomizableEdges = CustomizableEdges20
         numAintRate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numAintRate.Location = New Point(244, 71)
-        numAintRate.Maximum = New [Decimal](New Integer() {30, 0, 0, 0})
+        numAintRate.Maximum = New Decimal(New Integer() {30, 0, 0, 0})
         numAintRate.Name = "numAintRate"
         numAintRate.ShadowDecoration.CustomizableEdges = CustomizableEdges21
         numAintRate.Size = New Size(218, 25)
@@ -578,7 +579,7 @@ Partial Class Loan
         numLamount.CustomizableEdges = CustomizableEdges22
         numLamount.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numLamount.Location = New Point(244, 40)
-        numLamount.Maximum = New [Decimal](New Integer() {1215752192, 23, 0, 0})
+        numLamount.Maximum = New Decimal(New Integer() {1215752192, 23, 0, 0})
         numLamount.Name = "numLamount"
         numLamount.ShadowDecoration.CustomizableEdges = CustomizableEdges23
         numLamount.Size = New Size(218, 25)
@@ -1794,6 +1795,7 @@ Partial Class Loan
         Controls.Add(tabconLoan)
         Controls.Add(Label13)
         FormBorderStyle = FormBorderStyle.None
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "Loan"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Form2"

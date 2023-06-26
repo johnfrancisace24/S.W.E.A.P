@@ -604,7 +604,39 @@ Public Class admindash
     End Sub
 
     Private Sub bttnTransferFund_Click(sender As Object, e As EventArgs) Handles bttnTransferFund.Click
+        Dim labelData As String = txtAmount.Text
+        Dim labelname As String = txtName.Text
+        Dim message As String = "Are you sure you want to add fund amounting " & labelData & " to account name: " & labelname & "?"
 
+
+        Dim result As DialogResult = MessageBox.Show(message, "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+        If result = DialogResult.Yes Then
+
+            Dim balance As Integer = lblBalance.Text
+            Dim addFund As Integer = txtAmount.Text
+            Dim sum As Integer = balance + addFund
+            Try
+                conn.Open()
+                Dim cmd As New MySqlCommand("update users set balance = @balance where id=@id ", conn)
+
+                cmd.Parameters.AddWithValue("@balance", sum)
+                cmd.Parameters.AddWithValue("@id", lblUserID.Text)
+
+
+                cmd.ExecuteNonQuery()
+                MessageBox.Show("Fund transferred successfully!", "SUCCESSFULL", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                txtName.Clear()
+                txtAmount.Clear()
+                lblBalance.Text = "__"
+                lblUserID.Text = "__"
+            Catch ex As Exception
+                MessageBox.Show("Fund transfer failed!", "FAILED", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Finally
+                conn.Close()
+            End Try
+            viewMembersFundTransfer("Select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, committee, 
+                                            balance from users left join user_info On users.id = user_info.user_id")
+        End If
     End Sub
 
 
