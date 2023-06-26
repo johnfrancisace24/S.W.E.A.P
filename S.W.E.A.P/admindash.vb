@@ -9,6 +9,7 @@ Imports DocumentFormat.OpenXml.Office2021.Excel.Pivot
 Imports Org.BouncyCastle.Crypto.IO
 Imports DocumentFormat.OpenXml.Vml.Spreadsheet
 Imports System.Windows.Forms.DataVisualization.Charting
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
 Public Class admindash
     Dim conn As New MySqlConnection("server=172.30.192.162;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -23,7 +24,8 @@ Public Class admindash
         LoadChart()
         viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
                                             email from users left join user_info on users.id = user_info.user_id")
-
+        viewMembersFundTransfer("Select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, committee, 
+                                            balance from users left join user_info On users.id = user_info.user_id")
         countmember()
         liveTimer.Start()
         If Guna2TabControl1.SelectedTab Is tabEmployee Then
@@ -139,6 +141,23 @@ Public Class admindash
         End Try
     End Sub
 
+    Public Sub viewMembersFundTransfer(query) '-----------------FOR EMPLOYEES TABLE in Fund Transfer
+        dgMembersFT.Rows.Clear()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand(query, conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                dgMembersFT.Rows.Add(rid.Item("id"), rid.Item("full_name"), rid.Item("office"), rid.Item("position"), rid.Item("committee"), rid.Item("balance"))
+            End While
+        Catch ex As Exception
+        Finally
+            conn.Close()
+        End Try
+    End Sub
+
+
+
     Private Sub btnEditAddBen_Click(sender As Object, e As EventArgs) Handles btnEditAddBen.Click
         countBen()
         If currentBen < 5 Then
@@ -229,6 +248,19 @@ Public Class admindash
                                     "%' or position like '%" & txtSearch.Text & "%' or employment_status like '%" & txtSearch.Text & "%' or email like '%" &
                                      txtSearch.Text & "%'")
     End Sub
+
+
+    Private Sub txtSearchbx_TextChanged(sender As Object, e As EventArgs) Handles txtSearchbx.TextChanged '--------Search name in Fundtransfer
+        viewMembersFundTransfer("Select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, committee, 
+                                            balance from users left join user_info on users.id = user_info.user_id where  first_name like '%" & txtSearchbx.Text & "%' or
+                                            middle_name like '%" & txtSearchbx.Text & "%' or last_name like '%" & txtSearchbx.Text & "%' or office like '%" & txtSearchbx.Text & "%' 
+                                            or position like '%" & txtSearchbx.Text & "%' or committee like '%" & txtSearchbx.Text & "%' or balance like'%" & txtSearchbx.Text & "%' ")
+    End Sub
+
+
+
+
+
 
 
     Private Sub Guna2Button6_Click(sender As Object, e As EventArgs) Handles Guna2Button6.Click
@@ -546,6 +578,33 @@ Public Class admindash
                 conn.Close()
             End Try
         End If
+    End Sub
+
+    Private Sub dgMembersFT_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgMembersFT.CellClick '---------- To display data in transfer fund
+
+        If e.ColumnIndex = 6 AndAlso e.RowIndex >= 0 AndAlso TypeOf dgMembersFT.Rows(e.RowIndex).Cells(e.ColumnIndex) Is DataGridViewImageCell Then
+
+            Dim rowData As DataGridViewRow = dgMembersFT.Rows(e.RowIndex)
+
+            Dim Value1 As String = rowData.Cells(0).Value.ToString()
+            Dim Value2 As String = rowData.Cells(1).Value.ToString()
+            Dim Value3 As String = rowData.Cells(5).Value.ToString()
+
+
+            lblUserID.Text = Value1
+            txtName.Text = Value2
+            lblBalance.Text = Value3
+
+            If Value3 = "" Then
+                lblBalance.Text = "0"
+            End If
+        End If
+
+
+    End Sub
+
+    Private Sub bttnTransferFund_Click(sender As Object, e As EventArgs) Handles bttnTransferFund.Click
+
     End Sub
 
 
