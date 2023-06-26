@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
 
-    <StartupObject>S.W.E.A.P.Form2</StartupObject>
+    <StartupObject>S.W.E.A.P.admindash</StartupObject>
 
 
     <UseWindowsForms>true</UseWindowsForms>
