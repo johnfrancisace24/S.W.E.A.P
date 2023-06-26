@@ -611,6 +611,7 @@ Partial Class ForgotPass
         Controls.Add(Panel1)
         Controls.Add(Guna2TabControl1)
         FormBorderStyle = FormBorderStyle.None
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "ForgotPass"
         StartPosition = FormStartPosition.CenterScreen
         Text = "ForgotPass"

@@ -23,125 +23,125 @@ Partial Class admindash
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges103 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges104 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges105 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges106 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges107 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges108 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges109 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges110 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges117 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges118 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges95 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges96 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges97 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges98 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges99 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges100 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges101 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges102 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(admindash))
-        Dim CustomizableEdges119 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges120 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges111 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges112 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges115 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges116 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges113 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges114 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges131 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges132 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges121 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges122 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim ChartArea2 As DataVisualization.Charting.ChartArea = New DataVisualization.Charting.ChartArea()
-        Dim Legend2 As DataVisualization.Charting.Legend = New DataVisualization.Charting.Legend()
-        Dim Series2 As DataVisualization.Charting.Series = New DataVisualization.Charting.Series()
-        Dim CustomizableEdges125 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges126 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges123 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges124 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges129 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges130 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges127 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges128 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges133 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges134 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle14 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle15 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges135 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges136 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges137 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges138 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges139 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges140 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges141 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges142 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges143 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges144 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges145 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges146 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges147 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges148 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges149 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges150 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges151 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges152 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges153 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges154 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges155 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges156 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges157 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges158 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges159 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges160 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges161 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges162 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges163 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges164 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges165 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges166 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges167 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges168 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle17 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle19 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle20 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges169 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges170 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges171 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges172 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges173 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges174 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges175 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges176 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges177 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges178 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges179 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges180 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges181 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges182 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges183 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges184 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges185 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges186 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges187 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges188 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle21 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle22 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle23 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges195 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges196 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges189 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges190 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges191 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges192 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges193 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges194 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges197 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges198 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges199 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges200 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges201 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges202 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges203 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges204 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim DataGridViewCellStyle24 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle25 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim DataGridViewCellStyle26 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim ChartArea1 As DataVisualization.Charting.ChartArea = New DataVisualization.Charting.ChartArea()
+        Dim Legend1 As DataVisualization.Charting.Legend = New DataVisualization.Charting.Legend()
+        Dim Series1 As DataVisualization.Charting.Series = New DataVisualization.Charting.Series()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges26 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges27 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges28 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges29 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges30 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges31 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges32 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges33 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges34 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges35 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges36 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle4 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges59 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges60 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges61 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges62 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges63 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges64 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges65 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges66 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges67 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges68 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges69 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges70 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges71 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges72 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges73 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges74 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges75 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges76 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges77 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges78 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle8 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges85 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges86 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges79 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges80 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges81 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges82 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges83 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges84 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges87 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges88 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges89 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges90 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges91 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges92 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges93 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges94 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim DataGridViewCellStyle11 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Panel1 = New Panel()
         lblDateTime = New Label()
@@ -374,7 +374,7 @@ Partial Class admindash
         Guna2Button6.Animated = True
         Guna2Button6.BorderRadius = 5
         Guna2Button6.Cursor = Cursors.Hand
-        Guna2Button6.CustomizableEdges = CustomizableEdges103
+        Guna2Button6.CustomizableEdges = CustomizableEdges95
         Guna2Button6.DisabledState.BorderColor = Color.DarkGray
         Guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button6.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -384,7 +384,7 @@ Partial Class admindash
         Guna2Button6.ForeColor = Color.White
         Guna2Button6.Location = New Point(1076, 4)
         Guna2Button6.Name = "Guna2Button6"
-        Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges104
+        Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges96
         Guna2Button6.Size = New Size(92, 31)
         Guna2Button6.TabIndex = 5
         Guna2Button6.Text = "Log out"
@@ -425,14 +425,14 @@ Partial Class admindash
         Guna2ControlBox3.Animated = True
         Guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
         Guna2ControlBox3.Cursor = Cursors.Hand
-        Guna2ControlBox3.CustomizableEdges = CustomizableEdges105
+        Guna2ControlBox3.CustomizableEdges = CustomizableEdges97
         Guna2ControlBox3.Dock = DockStyle.Right
         Guna2ControlBox3.FillColor = Color.Transparent
         Guna2ControlBox3.ForeColor = SystemColors.ControlText
         Guna2ControlBox3.IconColor = Color.WhiteSmoke
         Guna2ControlBox3.Location = New Point(1168, 0)
         Guna2ControlBox3.Name = "Guna2ControlBox3"
-        Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges106
+        Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges98
         Guna2ControlBox3.Size = New Size(40, 40)
         Guna2ControlBox3.TabIndex = 2
         ' 
@@ -441,14 +441,14 @@ Partial Class admindash
         Guna2ControlBox2.Animated = True
         Guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox
         Guna2ControlBox2.Cursor = Cursors.Hand
-        Guna2ControlBox2.CustomizableEdges = CustomizableEdges107
+        Guna2ControlBox2.CustomizableEdges = CustomizableEdges99
         Guna2ControlBox2.Dock = DockStyle.Right
         Guna2ControlBox2.FillColor = Color.Transparent
         Guna2ControlBox2.ForeColor = SystemColors.ControlText
         Guna2ControlBox2.IconColor = Color.WhiteSmoke
         Guna2ControlBox2.Location = New Point(1208, 0)
         Guna2ControlBox2.Name = "Guna2ControlBox2"
-        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges108
+        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges100
         Guna2ControlBox2.Size = New Size(40, 40)
         Guna2ControlBox2.TabIndex = 1
         ' 
@@ -456,7 +456,7 @@ Partial Class admindash
         ' 
         Guna2ControlBox1.Animated = True
         Guna2ControlBox1.Cursor = Cursors.Hand
-        Guna2ControlBox1.CustomizableEdges = CustomizableEdges109
+        Guna2ControlBox1.CustomizableEdges = CustomizableEdges101
         Guna2ControlBox1.Dock = DockStyle.Right
         Guna2ControlBox1.FillColor = Color.Transparent
         Guna2ControlBox1.ForeColor = SystemColors.ControlText
@@ -465,7 +465,7 @@ Partial Class admindash
         Guna2ControlBox1.IconColor = Color.WhiteSmoke
         Guna2ControlBox1.Location = New Point(1248, 0)
         Guna2ControlBox1.Name = "Guna2ControlBox1"
-        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges110
+        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges102
         Guna2ControlBox1.Size = New Size(40, 40)
         Guna2ControlBox1.TabIndex = 0
         ' 
@@ -529,11 +529,11 @@ Partial Class admindash
         pnlHome.Controls.Add(Panel2)
         pnlHome.Controls.Add(Guna2PictureBox5)
         pnlHome.Controls.Add(Guna2Panel4)
-        pnlHome.CustomizableEdges = CustomizableEdges117
+        pnlHome.CustomizableEdges = CustomizableEdges9
         pnlHome.Dock = DockStyle.Fill
         pnlHome.Location = New Point(0, 0)
         pnlHome.Name = "pnlHome"
-        pnlHome.ShadowDecoration.CustomizableEdges = CustomizableEdges118
+        pnlHome.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         pnlHome.Size = New Size(1030, 716)
         pnlHome.TabIndex = 1
         ' 
@@ -601,13 +601,13 @@ Partial Class admindash
         ' Guna2PictureBox4
         ' 
         Guna2PictureBox4.BackgroundImageLayout = ImageLayout.Stretch
-        Guna2PictureBox4.CustomizableEdges = CustomizableEdges119
+        Guna2PictureBox4.CustomizableEdges = CustomizableEdges1
         Guna2PictureBox4.FillColor = Color.Transparent
         Guna2PictureBox4.Image = My.Resources.Resources.image__1_
         Guna2PictureBox4.ImageRotate = 0F
         Guna2PictureBox4.Location = New Point(325, 11)
         Guna2PictureBox4.Name = "Guna2PictureBox4"
-        Guna2PictureBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges120
+        Guna2PictureBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2PictureBox4.Size = New Size(157, 103)
         Guna2PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox4.TabIndex = 15
@@ -627,13 +627,13 @@ Partial Class admindash
         ' Guna2PictureBox5
         ' 
         Guna2PictureBox5.BackgroundImageLayout = ImageLayout.Stretch
-        Guna2PictureBox5.CustomizableEdges = CustomizableEdges111
+        Guna2PictureBox5.CustomizableEdges = CustomizableEdges3
         Guna2PictureBox5.FillColor = Color.Transparent
         Guna2PictureBox5.Image = My.Resources.Resources.ka
         Guna2PictureBox5.ImageRotate = 0F
         Guna2PictureBox5.Location = New Point(17, 153)
         Guna2PictureBox5.Name = "Guna2PictureBox5"
-        Guna2PictureBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges112
+        Guna2PictureBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Guna2PictureBox5.Size = New Size(157, 543)
         Guna2PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox5.TabIndex = 18
@@ -647,10 +647,10 @@ Partial Class admindash
         Guna2Panel4.Controls.Add(lblAdminName)
         Guna2Panel4.Controls.Add(Label28)
         Guna2Panel4.Controls.Add(Guna2PictureBox3)
-        Guna2Panel4.CustomizableEdges = CustomizableEdges115
+        Guna2Panel4.CustomizableEdges = CustomizableEdges7
         Guna2Panel4.Location = New Point(17, 19)
         Guna2Panel4.Name = "Guna2Panel4"
-        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges116
+        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         Guna2Panel4.Size = New Size(996, 117)
         Guna2Panel4.TabIndex = 14
         ' 
@@ -681,12 +681,12 @@ Partial Class admindash
         Guna2PictureBox3.BackColor = Color.Transparent
         Guna2PictureBox3.BackgroundImage = My.Resources.Resources.image_removebg_preview__1_1
         Guna2PictureBox3.BackgroundImageLayout = ImageLayout.Stretch
-        Guna2PictureBox3.CustomizableEdges = CustomizableEdges113
+        Guna2PictureBox3.CustomizableEdges = CustomizableEdges5
         Guna2PictureBox3.FillColor = Color.Transparent
         Guna2PictureBox3.ImageRotate = 0F
         Guna2PictureBox3.Location = New Point(15, 9)
         Guna2PictureBox3.Name = "Guna2PictureBox3"
-        Guna2PictureBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges114
+        Guna2PictureBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         Guna2PictureBox3.Size = New Size(120, 101)
         Guna2PictureBox3.TabIndex = 10
         Guna2PictureBox3.TabStop = False
@@ -713,12 +713,12 @@ Partial Class admindash
         pnlDashboard.Controls.Add(Label27)
         pnlDashboard.Controls.Add(Guna2Panel2)
         pnlDashboard.Controls.Add(Guna2Panel1)
-        pnlDashboard.CustomizableEdges = CustomizableEdges131
+        pnlDashboard.CustomizableEdges = CustomizableEdges21
         pnlDashboard.Dock = DockStyle.Fill
         pnlDashboard.Location = New Point(3, 3)
         pnlDashboard.Margin = New Padding(33, 3, 3, 3)
         pnlDashboard.Name = "pnlDashboard"
-        pnlDashboard.ShadowDecoration.CustomizableEdges = CustomizableEdges132
+        pnlDashboard.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         pnlDashboard.Size = New Size(1024, 710)
         pnlDashboard.TabIndex = 6
         ' 
@@ -729,10 +729,10 @@ Partial Class admindash
         Guna2Panel3.BorderRadius = 10
         Guna2Panel3.BorderThickness = 1
         Guna2Panel3.Controls.Add(ChartMemberCount)
-        Guna2Panel3.CustomizableEdges = CustomizableEdges121
+        Guna2Panel3.CustomizableEdges = CustomizableEdges11
         Guna2Panel3.Location = New Point(54, 294)
         Guna2Panel3.Name = "Guna2Panel3"
-        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges122
+        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         Guna2Panel3.Size = New Size(909, 394)
         Guna2Panel3.TabIndex = 14
         ' 
@@ -740,21 +740,21 @@ Partial Class admindash
         ' 
         ChartMemberCount.BackColor = Color.Transparent
         ChartMemberCount.BorderlineColor = Color.Transparent
-        ChartArea2.Name = "ChartArea1"
-        ChartMemberCount.ChartAreas.Add(ChartArea2)
-        Legend2.IsEquallySpacedItems = True
-        Legend2.Name = "Legend1"
-        ChartMemberCount.Legends.Add(Legend2)
+        ChartArea1.Name = "ChartArea1"
+        ChartMemberCount.ChartAreas.Add(ChartArea1)
+        Legend1.IsEquallySpacedItems = True
+        Legend1.Name = "Legend1"
+        ChartMemberCount.Legends.Add(Legend1)
         ChartMemberCount.Location = New Point(14, 17)
         ChartMemberCount.Name = "ChartMemberCount"
         ChartMemberCount.Palette = DataVisualization.Charting.ChartColorPalette.Excel
-        Series2.ChartArea = "ChartArea1"
-        Series2.ChartType = DataVisualization.Charting.SeriesChartType.Pie
-        Series2.Font = New Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point)
-        Series2.Legend = "Legend1"
-        Series2.MarkerStyle = DataVisualization.Charting.MarkerStyle.Star5
-        Series2.Name = "Series1"
-        ChartMemberCount.Series.Add(Series2)
+        Series1.ChartArea = "ChartArea1"
+        Series1.ChartType = DataVisualization.Charting.SeriesChartType.Pie
+        Series1.Font = New Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point)
+        Series1.Legend = "Legend1"
+        Series1.MarkerStyle = DataVisualization.Charting.MarkerStyle.Star5
+        Series1.Name = "Series1"
+        ChartMemberCount.Series.Add(Series1)
         ChartMemberCount.Size = New Size(881, 360)
         ChartMemberCount.TabIndex = 0
         ' 
@@ -779,10 +779,10 @@ Partial Class admindash
         Guna2Panel2.Controls.Add(lblCntMember)
         Guna2Panel2.Controls.Add(PictureBox2)
         Guna2Panel2.Controls.Add(Label2)
-        Guna2Panel2.CustomizableEdges = CustomizableEdges125
+        Guna2Panel2.CustomizableEdges = CustomizableEdges15
         Guna2Panel2.Location = New Point(54, 93)
         Guna2Panel2.Name = "Guna2Panel2"
-        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges126
+        Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         Guna2Panel2.Size = New Size(364, 179)
         Guna2Panel2.TabIndex = 12
         ' 
@@ -791,7 +791,7 @@ Partial Class admindash
         Guna2Button4.Animated = True
         Guna2Button4.BackColor = Color.Transparent
         Guna2Button4.BorderRadius = 10
-        Guna2Button4.CustomizableEdges = CustomizableEdges123
+        Guna2Button4.CustomizableEdges = CustomizableEdges13
         Guna2Button4.DisabledState.BorderColor = Color.DarkGray
         Guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button4.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -801,7 +801,7 @@ Partial Class admindash
         Guna2Button4.ForeColor = Color.White
         Guna2Button4.Location = New Point(44, 119)
         Guna2Button4.Name = "Guna2Button4"
-        Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges124
+        Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         Guna2Button4.Size = New Size(75, 31)
         Guna2Button4.TabIndex = 11
         Guna2Button4.Text = "View"
@@ -848,10 +848,10 @@ Partial Class admindash
         Guna2Panel1.Controls.Add(Guna2HtmlLabel1)
         Guna2Panel1.Controls.Add(Label18)
         Guna2Panel1.Controls.Add(Guna2PictureBox2)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges129
+        Guna2Panel1.CustomizableEdges = CustomizableEdges19
         Guna2Panel1.Location = New Point(599, 93)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges130
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges20
         Guna2Panel1.Size = New Size(364, 179)
         Guna2Panel1.TabIndex = 11
         ' 
@@ -892,12 +892,12 @@ Partial Class admindash
         ' 
         Guna2PictureBox2.BackgroundImage = CType(resources.GetObject("Guna2PictureBox2.BackgroundImage"), Image)
         Guna2PictureBox2.BackgroundImageLayout = ImageLayout.Stretch
-        Guna2PictureBox2.CustomizableEdges = CustomizableEdges127
+        Guna2PictureBox2.CustomizableEdges = CustomizableEdges17
         Guna2PictureBox2.FillColor = Color.Transparent
         Guna2PictureBox2.ImageRotate = 0F
         Guna2PictureBox2.Location = New Point(237, 9)
         Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges128
+        Guna2PictureBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges18
         Guna2PictureBox2.Size = New Size(124, 167)
         Guna2PictureBox2.TabIndex = 10
         Guna2PictureBox2.TabStop = False
@@ -947,7 +947,7 @@ Partial Class admindash
         pickSex.BackColor = Color.Transparent
         pickSex.BorderColor = Color.DimGray
         pickSex.BorderRadius = 5
-        pickSex.CustomizableEdges = CustomizableEdges133
+        pickSex.CustomizableEdges = CustomizableEdges23
         pickSex.DrawMode = DrawMode.OwnerDrawFixed
         pickSex.DropDownStyle = ComboBoxStyle.DropDownList
         pickSex.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -958,7 +958,7 @@ Partial Class admindash
         pickSex.Items.AddRange(New Object() {"Male", "Female", "Refer not to say"})
         pickSex.Location = New Point(456, 90)
         pickSex.Name = "pickSex"
-        pickSex.ShadowDecoration.CustomizableEdges = CustomizableEdges134
+        pickSex.ShadowDecoration.CustomizableEdges = CustomizableEdges24
         pickSex.Size = New Size(127, 36)
         pickSex.TabIndex = 18
         pickSex.TextAlign = HorizontalAlignment.Center
@@ -967,29 +967,29 @@ Partial Class admindash
         ' 
         dgMembers.AllowUserToAddRows = False
         dgMembers.AllowUserToDeleteRows = False
-        DataGridViewCellStyle14.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
-        dgMembers.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle14
-        DataGridViewCellStyle15.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle15.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
-        DataGridViewCellStyle15.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle15.ForeColor = Color.White
-        DataGridViewCellStyle15.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle15.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle15.WrapMode = DataGridViewTriState.True
-        dgMembers.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle15
+        DataGridViewCellStyle1.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
+        dgMembers.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
+        DataGridViewCellStyle2.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle2.ForeColor = Color.White
+        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
+        dgMembers.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         dgMembers.ColumnHeadersHeight = 32
         dgMembers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         dgMembers.Columns.AddRange(New DataGridViewColumn() {DataGridViewTextBoxColumn1, DataGridViewTextBoxColumn2, DataGridViewTextBoxColumn3, DataGridViewTextBoxColumn4, DataGridViewTextBoxColumn5, DataGridViewTextBoxColumn6, Column1, Column2})
         dgMembers.Cursor = Cursors.Hand
-        DataGridViewCellStyle16.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle16.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
-        DataGridViewCellStyle16.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle16.ForeColor = Color.Black
-        DataGridViewCellStyle16.Padding = New Padding(4)
-        DataGridViewCellStyle16.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
-        DataGridViewCellStyle16.SelectionForeColor = Color.Black
-        DataGridViewCellStyle16.WrapMode = DataGridViewTriState.False
-        dgMembers.DefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
+        DataGridViewCellStyle3.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle3.ForeColor = Color.Black
+        DataGridViewCellStyle3.Padding = New Padding(4)
+        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
+        DataGridViewCellStyle3.SelectionForeColor = Color.Black
+        DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
+        dgMembers.DefaultCellStyle = DataGridViewCellStyle3
         dgMembers.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
         dgMembers.Location = New Point(21, 140)
         dgMembers.Name = "dgMembers"
@@ -1101,7 +1101,7 @@ Partial Class admindash
         ' txtSearch
         ' 
         txtSearch.BorderRadius = 5
-        txtSearch.CustomizableEdges = CustomizableEdges135
+        txtSearch.CustomizableEdges = CustomizableEdges25
         txtSearch.DefaultText = ""
         txtSearch.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtSearch.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1117,7 +1117,7 @@ Partial Class admindash
         txtSearch.PasswordChar = ChrW(0)
         txtSearch.PlaceholderText = ""
         txtSearch.SelectedText = ""
-        txtSearch.ShadowDecoration.CustomizableEdges = CustomizableEdges136
+        txtSearch.ShadowDecoration.CustomizableEdges = CustomizableEdges26
         txtSearch.Size = New Size(323, 36)
         txtSearch.TabIndex = 12
         txtSearch.TextAlign = HorizontalAlignment.Center
@@ -1126,7 +1126,7 @@ Partial Class admindash
         ' 
         pickOffice.BackColor = Color.Transparent
         pickOffice.BorderRadius = 5
-        pickOffice.CustomizableEdges = CustomizableEdges137
+        pickOffice.CustomizableEdges = CustomizableEdges27
         pickOffice.DrawMode = DrawMode.OwnerDrawFixed
         pickOffice.DropDownStyle = ComboBoxStyle.DropDownList
         pickOffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -1137,7 +1137,7 @@ Partial Class admindash
         pickOffice.Items.AddRange(New Object() {"All", "4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
         pickOffice.Location = New Point(681, 90)
         pickOffice.Name = "pickOffice"
-        pickOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges138
+        pickOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges28
         pickOffice.Size = New Size(323, 36)
         pickOffice.TabIndex = 15
         ' 
@@ -1230,7 +1230,7 @@ Partial Class admindash
         ' 
         btnEditBack.BorderRadius = 5
         btnEditBack.Cursor = Cursors.Hand
-        btnEditBack.CustomizableEdges = CustomizableEdges139
+        btnEditBack.CustomizableEdges = CustomizableEdges29
         btnEditBack.DisabledState.BorderColor = Color.DarkGray
         btnEditBack.DisabledState.CustomBorderColor = Color.DarkGray
         btnEditBack.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1240,7 +1240,7 @@ Partial Class admindash
         btnEditBack.ForeColor = Color.White
         btnEditBack.Location = New Point(605, 17)
         btnEditBack.Name = "btnEditBack"
-        btnEditBack.ShadowDecoration.CustomizableEdges = CustomizableEdges140
+        btnEditBack.ShadowDecoration.CustomizableEdges = CustomizableEdges30
         btnEditBack.Size = New Size(169, 34)
         btnEditBack.TabIndex = 5
         btnEditBack.Text = "GO BACK"
@@ -1249,7 +1249,7 @@ Partial Class admindash
         ' 
         btnEditNext.BorderRadius = 5
         btnEditNext.Cursor = Cursors.Hand
-        btnEditNext.CustomizableEdges = CustomizableEdges141
+        btnEditNext.CustomizableEdges = CustomizableEdges31
         btnEditNext.DisabledState.BorderColor = Color.DarkGray
         btnEditNext.DisabledState.CustomBorderColor = Color.DarkGray
         btnEditNext.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1258,7 +1258,7 @@ Partial Class admindash
         btnEditNext.ForeColor = Color.White
         btnEditNext.Location = New Point(789, 17)
         btnEditNext.Name = "btnEditNext"
-        btnEditNext.ShadowDecoration.CustomizableEdges = CustomizableEdges142
+        btnEditNext.ShadowDecoration.CustomizableEdges = CustomizableEdges32
         btnEditNext.Size = New Size(161, 34)
         btnEditNext.TabIndex = 4
         btnEditNext.Text = "NEXT"
@@ -1290,7 +1290,7 @@ Partial Class admindash
         ' txtEditMname
         ' 
         txtEditMname.BorderRadius = 5
-        txtEditMname.CustomizableEdges = CustomizableEdges143
+        txtEditMname.CustomizableEdges = CustomizableEdges33
         txtEditMname.DefaultText = ""
         txtEditMname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditMname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1305,7 +1305,7 @@ Partial Class admindash
         txtEditMname.PasswordChar = ChrW(0)
         txtEditMname.PlaceholderText = ""
         txtEditMname.SelectedText = ""
-        txtEditMname.ShadowDecoration.CustomizableEdges = CustomizableEdges144
+        txtEditMname.ShadowDecoration.CustomizableEdges = CustomizableEdges34
         txtEditMname.Size = New Size(384, 36)
         txtEditMname.TabIndex = 1
         txtEditMname.TextAlign = HorizontalAlignment.Center
@@ -1323,7 +1323,7 @@ Partial Class admindash
         ' txtEditFname
         ' 
         txtEditFname.BorderRadius = 5
-        txtEditFname.CustomizableEdges = CustomizableEdges145
+        txtEditFname.CustomizableEdges = CustomizableEdges35
         txtEditFname.DefaultText = ""
         txtEditFname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditFname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1338,7 +1338,7 @@ Partial Class admindash
         txtEditFname.PasswordChar = ChrW(0)
         txtEditFname.PlaceholderText = ""
         txtEditFname.SelectedText = ""
-        txtEditFname.ShadowDecoration.CustomizableEdges = CustomizableEdges146
+        txtEditFname.ShadowDecoration.CustomizableEdges = CustomizableEdges36
         txtEditFname.Size = New Size(384, 36)
         txtEditFname.TabIndex = 1
         txtEditFname.TextAlign = HorizontalAlignment.Center
@@ -1367,7 +1367,7 @@ Partial Class admindash
         ' 
         pickEditBdate.BorderRadius = 5
         pickEditBdate.Checked = True
-        pickEditBdate.CustomizableEdges = CustomizableEdges147
+        pickEditBdate.CustomizableEdges = CustomizableEdges37
         pickEditBdate.FillColor = Color.White
         pickEditBdate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         pickEditBdate.Format = DateTimePickerFormat.Long
@@ -1375,7 +1375,7 @@ Partial Class admindash
         pickEditBdate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         pickEditBdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         pickEditBdate.Name = "pickEditBdate"
-        pickEditBdate.ShadowDecoration.CustomizableEdges = CustomizableEdges148
+        pickEditBdate.ShadowDecoration.CustomizableEdges = CustomizableEdges38
         pickEditBdate.Size = New Size(384, 36)
         pickEditBdate.TabIndex = 3
         pickEditBdate.TextAlign = HorizontalAlignment.Center
@@ -1384,7 +1384,7 @@ Partial Class admindash
         ' txtEditAddress
         ' 
         txtEditAddress.BorderRadius = 5
-        txtEditAddress.CustomizableEdges = CustomizableEdges149
+        txtEditAddress.CustomizableEdges = CustomizableEdges39
         txtEditAddress.DefaultText = ""
         txtEditAddress.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditAddress.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1399,7 +1399,7 @@ Partial Class admindash
         txtEditAddress.PasswordChar = ChrW(0)
         txtEditAddress.PlaceholderText = ""
         txtEditAddress.SelectedText = ""
-        txtEditAddress.ShadowDecoration.CustomizableEdges = CustomizableEdges150
+        txtEditAddress.ShadowDecoration.CustomizableEdges = CustomizableEdges40
         txtEditAddress.Size = New Size(578, 36)
         txtEditAddress.TabIndex = 1
         txtEditAddress.TextAlign = HorizontalAlignment.Center
@@ -1407,7 +1407,7 @@ Partial Class admindash
         ' txtEditLname
         ' 
         txtEditLname.BorderRadius = 5
-        txtEditLname.CustomizableEdges = CustomizableEdges151
+        txtEditLname.CustomizableEdges = CustomizableEdges41
         txtEditLname.DefaultText = ""
         txtEditLname.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditLname.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1422,7 +1422,7 @@ Partial Class admindash
         txtEditLname.PasswordChar = ChrW(0)
         txtEditLname.PlaceholderText = ""
         txtEditLname.SelectedText = ""
-        txtEditLname.ShadowDecoration.CustomizableEdges = CustomizableEdges152
+        txtEditLname.ShadowDecoration.CustomizableEdges = CustomizableEdges42
         txtEditLname.Size = New Size(384, 36)
         txtEditLname.TabIndex = 1
         txtEditLname.TextAlign = HorizontalAlignment.Center
@@ -1460,7 +1460,7 @@ Partial Class admindash
         ' txtEditEmail
         ' 
         txtEditEmail.BorderRadius = 5
-        txtEditEmail.CustomizableEdges = CustomizableEdges153
+        txtEditEmail.CustomizableEdges = CustomizableEdges43
         txtEditEmail.DefaultText = ""
         txtEditEmail.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditEmail.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1475,7 +1475,7 @@ Partial Class admindash
         txtEditEmail.PasswordChar = ChrW(0)
         txtEditEmail.PlaceholderText = ""
         txtEditEmail.SelectedText = ""
-        txtEditEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges154
+        txtEditEmail.ShadowDecoration.CustomizableEdges = CustomizableEdges44
         txtEditEmail.Size = New Size(384, 36)
         txtEditEmail.TabIndex = 1
         txtEditEmail.TextAlign = HorizontalAlignment.Center
@@ -1483,7 +1483,7 @@ Partial Class admindash
         ' txtEditEducation
         ' 
         txtEditEducation.BorderRadius = 5
-        txtEditEducation.CustomizableEdges = CustomizableEdges155
+        txtEditEducation.CustomizableEdges = CustomizableEdges45
         txtEditEducation.DefaultText = ""
         txtEditEducation.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditEducation.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1498,7 +1498,7 @@ Partial Class admindash
         txtEditEducation.PasswordChar = ChrW(0)
         txtEditEducation.PlaceholderText = ""
         txtEditEducation.SelectedText = ""
-        txtEditEducation.ShadowDecoration.CustomizableEdges = CustomizableEdges156
+        txtEditEducation.ShadowDecoration.CustomizableEdges = CustomizableEdges46
         txtEditEducation.Size = New Size(384, 36)
         txtEditEducation.TabIndex = 1
         txtEditEducation.TextAlign = HorizontalAlignment.Center
@@ -1526,7 +1526,7 @@ Partial Class admindash
         ' txtEditNumber
         ' 
         txtEditNumber.BorderRadius = 5
-        txtEditNumber.CustomizableEdges = CustomizableEdges157
+        txtEditNumber.CustomizableEdges = CustomizableEdges47
         txtEditNumber.DefaultText = ""
         txtEditNumber.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditNumber.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1541,7 +1541,7 @@ Partial Class admindash
         txtEditNumber.PasswordChar = ChrW(0)
         txtEditNumber.PlaceholderText = ""
         txtEditNumber.SelectedText = ""
-        txtEditNumber.ShadowDecoration.CustomizableEdges = CustomizableEdges158
+        txtEditNumber.ShadowDecoration.CustomizableEdges = CustomizableEdges48
         txtEditNumber.Size = New Size(384, 36)
         txtEditNumber.TabIndex = 1
         txtEditNumber.TextAlign = HorizontalAlignment.Center
@@ -1562,7 +1562,7 @@ Partial Class admindash
         ' 
         ' Guna2Button5
         ' 
-        Guna2Button5.CustomizableEdges = CustomizableEdges159
+        Guna2Button5.CustomizableEdges = CustomizableEdges49
         Guna2Button5.DisabledState.BorderColor = Color.DarkGray
         Guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button5.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1571,7 +1571,7 @@ Partial Class admindash
         Guna2Button5.ForeColor = Color.White
         Guna2Button5.Location = New Point(27, 251)
         Guna2Button5.Name = "Guna2Button5"
-        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges160
+        Guna2Button5.ShadowDecoration.CustomizableEdges = CustomizableEdges50
         Guna2Button5.Size = New Size(265, 36)
         Guna2Button5.TabIndex = 4
         Guna2Button5.Text = "Upload Image"
@@ -1589,7 +1589,7 @@ Partial Class admindash
         ' txtEditUsername
         ' 
         txtEditUsername.BorderRadius = 5
-        txtEditUsername.CustomizableEdges = CustomizableEdges161
+        txtEditUsername.CustomizableEdges = CustomizableEdges51
         txtEditUsername.DefaultText = ""
         txtEditUsername.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditUsername.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1604,7 +1604,7 @@ Partial Class admindash
         txtEditUsername.PasswordChar = ChrW(0)
         txtEditUsername.PlaceholderText = ""
         txtEditUsername.SelectedText = ""
-        txtEditUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges162
+        txtEditUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges52
         txtEditUsername.Size = New Size(265, 36)
         txtEditUsername.TabIndex = 1
         txtEditUsername.TextAlign = HorizontalAlignment.Center
@@ -1612,7 +1612,7 @@ Partial Class admindash
         ' txtEditPw
         ' 
         txtEditPw.BorderRadius = 5
-        txtEditPw.CustomizableEdges = CustomizableEdges163
+        txtEditPw.CustomizableEdges = CustomizableEdges53
         txtEditPw.DefaultText = ""
         txtEditPw.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditPw.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1627,7 +1627,7 @@ Partial Class admindash
         txtEditPw.PasswordChar = ChrW(0)
         txtEditPw.PlaceholderText = ""
         txtEditPw.SelectedText = ""
-        txtEditPw.ShadowDecoration.CustomizableEdges = CustomizableEdges164
+        txtEditPw.ShadowDecoration.CustomizableEdges = CustomizableEdges54
         txtEditPw.Size = New Size(265, 36)
         txtEditPw.TabIndex = 1
         txtEditPw.TextAlign = HorizontalAlignment.Center
@@ -1678,7 +1678,7 @@ Partial Class admindash
         ' btnEmBack2
         ' 
         btnEmBack2.BorderRadius = 5
-        btnEmBack2.CustomizableEdges = CustomizableEdges165
+        btnEmBack2.CustomizableEdges = CustomizableEdges55
         btnEmBack2.DisabledState.BorderColor = Color.DarkGray
         btnEmBack2.DisabledState.CustomBorderColor = Color.DarkGray
         btnEmBack2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1688,7 +1688,7 @@ Partial Class admindash
         btnEmBack2.ForeColor = Color.White
         btnEmBack2.Location = New Point(557, 18)
         btnEmBack2.Name = "btnEmBack2"
-        btnEmBack2.ShadowDecoration.CustomizableEdges = CustomizableEdges166
+        btnEmBack2.ShadowDecoration.CustomizableEdges = CustomizableEdges56
         btnEmBack2.Size = New Size(180, 34)
         btnEmBack2.TabIndex = 5
         btnEmBack2.Text = "GO BACK"
@@ -1697,7 +1697,7 @@ Partial Class admindash
         ' 
         btnEditUpdate.BorderRadius = 5
         btnEditUpdate.Cursor = Cursors.Hand
-        btnEditUpdate.CustomizableEdges = CustomizableEdges167
+        btnEditUpdate.CustomizableEdges = CustomizableEdges57
         btnEditUpdate.DisabledState.BorderColor = Color.DarkGray
         btnEditUpdate.DisabledState.CustomBorderColor = Color.DarkGray
         btnEditUpdate.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1707,7 +1707,7 @@ Partial Class admindash
         btnEditUpdate.ForeColor = Color.White
         btnEditUpdate.Location = New Point(743, 18)
         btnEditUpdate.Name = "btnEditUpdate"
-        btnEditUpdate.ShadowDecoration.CustomizableEdges = CustomizableEdges168
+        btnEditUpdate.ShadowDecoration.CustomizableEdges = CustomizableEdges58
         btnEditUpdate.Size = New Size(222, 34)
         btnEditUpdate.TabIndex = 4
         btnEditUpdate.Text = "UPDATE"
@@ -1732,45 +1732,45 @@ Partial Class admindash
         ' dgBeneficiaries
         ' 
         dgBeneficiaries.AllowUserToResizeRows = False
-        DataGridViewCellStyle17.BackColor = Color.White
-        DataGridViewCellStyle17.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle17.ForeColor = SystemColors.ControlText
-        DataGridViewCellStyle17.SelectionBackColor = Color.FromArgb(CByte(203), CByte(250), CByte(249))
-        DataGridViewCellStyle17.SelectionForeColor = Color.Black
-        dgBeneficiaries.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle17
-        DataGridViewCellStyle18.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle18.BackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
-        DataGridViewCellStyle18.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle18.ForeColor = Color.White
-        DataGridViewCellStyle18.SelectionBackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
-        DataGridViewCellStyle18.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle18.WrapMode = DataGridViewTriState.True
-        dgBeneficiaries.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle18
+        DataGridViewCellStyle4.BackColor = Color.White
+        DataGridViewCellStyle4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle4.ForeColor = SystemColors.ControlText
+        DataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(CByte(203), CByte(250), CByte(249))
+        DataGridViewCellStyle4.SelectionForeColor = Color.Black
+        dgBeneficiaries.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
+        DataGridViewCellStyle5.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle5.ForeColor = Color.White
+        DataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(CByte(167), CByte(65), CByte(65))
+        DataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = DataGridViewTriState.True
+        dgBeneficiaries.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle5
         dgBeneficiaries.ColumnHeadersHeight = 32
         dgBeneficiaries.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         dgBeneficiaries.Columns.AddRange(New DataGridViewColumn() {Column8, Column9, Column10, Column11, Column4})
         dgBeneficiaries.Cursor = Cursors.Hand
-        DataGridViewCellStyle19.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle19.BackColor = Color.White
-        DataGridViewCellStyle19.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle19.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle19.Padding = New Padding(3)
-        DataGridViewCellStyle19.SelectionBackColor = Color.FromArgb(CByte(203), CByte(250), CByte(249))
-        DataGridViewCellStyle19.SelectionForeColor = Color.Black
-        DataGridViewCellStyle19.WrapMode = DataGridViewTriState.False
-        dgBeneficiaries.DefaultCellStyle = DataGridViewCellStyle19
+        DataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = Color.White
+        DataGridViewCellStyle6.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle6.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle6.Padding = New Padding(3)
+        DataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(CByte(203), CByte(250), CByte(249))
+        DataGridViewCellStyle6.SelectionForeColor = Color.Black
+        DataGridViewCellStyle6.WrapMode = DataGridViewTriState.False
+        dgBeneficiaries.DefaultCellStyle = DataGridViewCellStyle6
         dgBeneficiaries.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         dgBeneficiaries.Location = New Point(24, 49)
         dgBeneficiaries.Name = "dgBeneficiaries"
         dgBeneficiaries.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle20.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle20.BackColor = Color.White
-        DataGridViewCellStyle20.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle20.ForeColor = SystemColors.WindowText
-        DataGridViewCellStyle20.SelectionBackColor = Color.White
-        DataGridViewCellStyle20.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle20.WrapMode = DataGridViewTriState.True
-        dgBeneficiaries.RowHeadersDefaultCellStyle = DataGridViewCellStyle20
+        DataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle7.BackColor = Color.White
+        DataGridViewCellStyle7.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle7.ForeColor = SystemColors.WindowText
+        DataGridViewCellStyle7.SelectionBackColor = Color.White
+        DataGridViewCellStyle7.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle7.WrapMode = DataGridViewTriState.True
+        dgBeneficiaries.RowHeadersDefaultCellStyle = DataGridViewCellStyle7
         dgBeneficiaries.RowHeadersVisible = False
         dgBeneficiaries.RowTemplate.Height = 26
         dgBeneficiaries.Size = New Size(572, 300)
@@ -1842,7 +1842,7 @@ Partial Class admindash
         ' 
         btnEditAddBen.BorderRadius = 5
         btnEditAddBen.Cursor = Cursors.Hand
-        btnEditAddBen.CustomizableEdges = CustomizableEdges169
+        btnEditAddBen.CustomizableEdges = CustomizableEdges59
         btnEditAddBen.DisabledState.BorderColor = Color.DarkGray
         btnEditAddBen.DisabledState.CustomBorderColor = Color.DarkGray
         btnEditAddBen.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1851,7 +1851,7 @@ Partial Class admindash
         btnEditAddBen.ForeColor = Color.White
         btnEditAddBen.Location = New Point(24, 445)
         btnEditAddBen.Name = "btnEditAddBen"
-        btnEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges170
+        btnEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges60
         btnEditAddBen.Size = New Size(183, 34)
         btnEditAddBen.TabIndex = 4
         btnEditAddBen.Text = "ADD"
@@ -1859,7 +1859,7 @@ Partial Class admindash
         ' txtEditAddBenAge
         ' 
         txtEditAddBenAge.BorderRadius = 5
-        txtEditAddBenAge.CustomizableEdges = CustomizableEdges171
+        txtEditAddBenAge.CustomizableEdges = CustomizableEdges61
         txtEditAddBenAge.DefaultText = ""
         txtEditAddBenAge.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditAddBenAge.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1873,7 +1873,7 @@ Partial Class admindash
         txtEditAddBenAge.PasswordChar = ChrW(0)
         txtEditAddBenAge.PlaceholderText = ""
         txtEditAddBenAge.SelectedText = ""
-        txtEditAddBenAge.ShadowDecoration.CustomizableEdges = CustomizableEdges172
+        txtEditAddBenAge.ShadowDecoration.CustomizableEdges = CustomizableEdges62
         txtEditAddBenAge.Size = New Size(93, 36)
         txtEditAddBenAge.TabIndex = 8
         txtEditAddBenAge.TextAlign = HorizontalAlignment.Center
@@ -1881,7 +1881,7 @@ Partial Class admindash
         ' txtEditAddBenRel
         ' 
         txtEditAddBenRel.BorderRadius = 5
-        txtEditAddBenRel.CustomizableEdges = CustomizableEdges173
+        txtEditAddBenRel.CustomizableEdges = CustomizableEdges63
         txtEditAddBenRel.DefaultText = ""
         txtEditAddBenRel.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditAddBenRel.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1895,7 +1895,7 @@ Partial Class admindash
         txtEditAddBenRel.PasswordChar = ChrW(0)
         txtEditAddBenRel.PlaceholderText = ""
         txtEditAddBenRel.SelectedText = ""
-        txtEditAddBenRel.ShadowDecoration.CustomizableEdges = CustomizableEdges174
+        txtEditAddBenRel.ShadowDecoration.CustomizableEdges = CustomizableEdges64
         txtEditAddBenRel.Size = New Size(169, 36)
         txtEditAddBenRel.TabIndex = 7
         txtEditAddBenRel.TextAlign = HorizontalAlignment.Center
@@ -1903,7 +1903,7 @@ Partial Class admindash
         ' txtEditAddBen
         ' 
         txtEditAddBen.BorderRadius = 5
-        txtEditAddBen.CustomizableEdges = CustomizableEdges175
+        txtEditAddBen.CustomizableEdges = CustomizableEdges65
         txtEditAddBen.DefaultText = ""
         txtEditAddBen.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtEditAddBen.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1917,7 +1917,7 @@ Partial Class admindash
         txtEditAddBen.PasswordChar = ChrW(0)
         txtEditAddBen.PlaceholderText = ""
         txtEditAddBen.SelectedText = ""
-        txtEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges176
+        txtEditAddBen.ShadowDecoration.CustomizableEdges = CustomizableEdges66
         txtEditAddBen.Size = New Size(298, 36)
         txtEditAddBen.TabIndex = 6
         txtEditAddBen.TextAlign = HorizontalAlignment.Center
@@ -1984,7 +1984,7 @@ Partial Class admindash
         ' 
         pickEditUserStat.BackColor = Color.Transparent
         pickEditUserStat.BorderRadius = 5
-        pickEditUserStat.CustomizableEdges = CustomizableEdges177
+        pickEditUserStat.CustomizableEdges = CustomizableEdges67
         pickEditUserStat.DrawMode = DrawMode.OwnerDrawFixed
         pickEditUserStat.DropDownStyle = ComboBoxStyle.DropDownList
         pickEditUserStat.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -1995,7 +1995,7 @@ Partial Class admindash
         pickEditUserStat.Items.AddRange(New Object() {"Administrator", "Default"})
         pickEditUserStat.Location = New Point(23, 407)
         pickEditUserStat.Name = "pickEditUserStat"
-        pickEditUserStat.ShadowDecoration.CustomizableEdges = CustomizableEdges178
+        pickEditUserStat.ShadowDecoration.CustomizableEdges = CustomizableEdges68
         pickEditUserStat.Size = New Size(303, 36)
         pickEditUserStat.TabIndex = 5
         pickEditUserStat.TextAlign = HorizontalAlignment.Center
@@ -2004,7 +2004,7 @@ Partial Class admindash
         ' 
         pickEditComm.BackColor = Color.Transparent
         pickEditComm.BorderRadius = 5
-        pickEditComm.CustomizableEdges = CustomizableEdges179
+        pickEditComm.CustomizableEdges = CustomizableEdges69
         pickEditComm.DrawMode = DrawMode.OwnerDrawFixed
         pickEditComm.DropDownStyle = ComboBoxStyle.DropDownList
         pickEditComm.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -2015,7 +2015,7 @@ Partial Class admindash
         pickEditComm.Items.AddRange(New Object() {"Education, Information & Research", "Organizing & Membership", "Grievances", "Welfare", "Finance", "Sports & Culture"})
         pickEditComm.Location = New Point(23, 314)
         pickEditComm.Name = "pickEditComm"
-        pickEditComm.ShadowDecoration.CustomizableEdges = CustomizableEdges180
+        pickEditComm.ShadowDecoration.CustomizableEdges = CustomizableEdges70
         pickEditComm.Size = New Size(303, 36)
         pickEditComm.TabIndex = 4
         pickEditComm.TextAlign = HorizontalAlignment.Center
@@ -2024,7 +2024,7 @@ Partial Class admindash
         ' 
         pickEditStatus.BackColor = Color.Transparent
         pickEditStatus.BorderRadius = 5
-        pickEditStatus.CustomizableEdges = CustomizableEdges181
+        pickEditStatus.CustomizableEdges = CustomizableEdges71
         pickEditStatus.DrawMode = DrawMode.OwnerDrawFixed
         pickEditStatus.DropDownStyle = ComboBoxStyle.DropDownList
         pickEditStatus.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -2035,7 +2035,7 @@ Partial Class admindash
         pickEditStatus.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
         pickEditStatus.Location = New Point(23, 151)
         pickEditStatus.Name = "pickEditStatus"
-        pickEditStatus.ShadowDecoration.CustomizableEdges = CustomizableEdges182
+        pickEditStatus.ShadowDecoration.CustomizableEdges = CustomizableEdges72
         pickEditStatus.Size = New Size(303, 36)
         pickEditStatus.TabIndex = 3
         pickEditStatus.TextAlign = HorizontalAlignment.Center
@@ -2054,7 +2054,7 @@ Partial Class admindash
         ' 
         pickEditPosition.BackColor = Color.Transparent
         pickEditPosition.BorderRadius = 5
-        pickEditPosition.CustomizableEdges = CustomizableEdges183
+        pickEditPosition.CustomizableEdges = CustomizableEdges73
         pickEditPosition.DrawMode = DrawMode.OwnerDrawFixed
         pickEditPosition.DropDownStyle = ComboBoxStyle.DropDownList
         pickEditPosition.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -2065,7 +2065,7 @@ Partial Class admindash
         pickEditPosition.Items.AddRange(New Object() {"AA I", "AA II", "AA II Pantawid Pamilya RPMO", "AA III", "AA III - Sr.Bookkeeper", "AA III / Information Officer NHTS-PR", "AA III-Munipical Roving Bookkeeper", "AA-II ", "AA-II KALAHI-CIDDS", "AA-II KALAHI-CIDDS NCDDP_AF", "AC-KAASA", "Accountant I", "Accountant I/Officer in charge", "Accountant II", "Accountant III", "Accounting Clerk", "Acting Secretary", "Acting Social Welfare Officer III", "Activity Therapist", "Activity Worker I", "Admin Aide I", "Admin AIDE III", "Admin AIDE IIII", "Admin AIDE IV", "Admin AIDE VI ", "Admin Assistant", "Admin Assistant III", "Admin Assistant III (Computer Operator II)", "Admin Assistant V (Private Secretary I)", "Admin cum Finance Officer", "Admin Officer IV-Head, RROS", "Admin. Aide VI", "Admin.Assitant III/Information Officer (Listahanan)", "Admin.Officer IV/Head", "Admin.Officer V-Unit Head ", "Administrative Aide I", "Administrative Aide II", "Administrative Aide III", "Administrative Aide III (Encoder)", "Administrative Aide IV", "Administrative Aide IV (Clerk II)", "Administrative Aide IV (Driver)", "Administrative Aide IV (Encoder)", "Administrative Aide IV/Encoder", "Administrative Aide V", "Administrative Aide V (Chauffer I)", "Administrative Aide VI", "Administrative Aide VI (Clerk III)", "Administrative Assistant I", "Administrative Assistant II", "Administrative Assistant II (Procurement)", "Administrative Assistant II/SLP", "Administrative Assistant III", "Administrative Assistant III (Cash Clerk)", "Administrative Assistant III - Budget", "Administrative Assistant III (Budget Assistant)", "Administrative Assistant III/Senior Bookkeeper", "Administrative Assistant III/Socpen Accounting", "Administrative Assistant IV", "Administrative Assistant V", "Administrative Assistant V (Private Secretary I)", "Administrative Assistant VI ", "Administrative Cum Finance Officer", "Administrative Officer I", "Administrative Officer II", "Administrative Officer II - Infastructure Assistant", "Administrative Officer II - Property & Asset Officer", "Administrative Officer II/Head", "Administrative Officer III", "Administrative Officer IV", "Administrative Officer IV/KALAHI-CIDSS", "Administrative Officer IV/Encoder", "Administrative Officer IV/Head", "Administrative Officer V", "Administrative Officer V/Budget Officer", "Administrative Officer V/Financial Analyst III", "Administrative Officer V/Head", "Administrative Program Focal (PDO II-municipal link)", "Administrative Staff", "Administrative Support Staff", "AO II", "AO II/Financial Analyst II ", "AO II / PSYCHOMETRICIAN", "AO II-OIC Head, Property, Supply & Asset Mngt.Section", "AO II-Pantawid Property Officer", "AO II-Property Officer", "AO II-Property & Asset Officer", "AO II-Property Officer (Mainstream Staff Pantawid)", "AO IV", "AO IV-Financial Analyst II", "AO IV/Financial Analyst II", "AO IV/OIC-Procurement Unit Head", "AO V", "AO V-CASH HEAD", "AO V/Budget Officer NHTS-PR", "AOV-FMD-Cash-Head", "Architect I", "Architect II", "Architect III", "ARDO", "Area Coordinator", "Area Coordinarot/KALAHI CIDSS", "AREA SUPERVISOR", "Assistant Bureau Director", "Assistant Information Officer", "Assistant Regional Director for Administration (ARDA)", "Assistant Regional Director for Operations (ARDO)", "Assistant Secretary", "Assistant Secretary / OIC-IMB", "Assistant Secretary for OASOPG-Protective Programs ", "Assistant Service Director", "Associate Statistician", "Attorney III", "AttorneyIV", "Attorney V", "Audio-Visual Aids Technician III", "Audio-Visual Equipment Operator II", "AUDIT TEAM LEADER", "AUDIT TEAM MEMBER", "AVRC II Center Head", "BAC SEC & Procurement Service", "BAHAY PAG-ASA NG LAGUNA - CENTER HEAD", "BDM", "Beneficiary Update System Focal - PDO I", "Beneficiary Update System Focal - PDO II", "Bookkeeper", "BTMS-ENCODER", "Budget Assistant", "Budget Officer I", "Budget Officer II", "Budget Officer III", "Bureau Director", "CAD Operator", "Caretaker", "Carpenter", "Case Worker for MCCT (PDOII)", "Cash Clerk", "CASH CLERK / KALAHI-CIDSS", "Cashier II", "CDA II", "CEF - KALAHI CIDSS", "CEF / Executive Assistant", "CENTER HEAD", "CENTERS AND RESIDENTIAL CARE FACILITIES (CRCF)", "Chief", "Chief Account", "Chief Admin.Officer / OIC ARD for Administration", "Chief Administrative Officer", "Chief Administrative Officer V", "Chief Infastructure Engineer", "Child Psychologist for MCCT", "City Link", "City Link Officer", "CIVIL ENGINEER", "CL", "Clerk I", "Clerk II", "Clerk III/ HRMDD", "Clerk/Encoder", "Cluster Beneficiary Data Officer", "Cluster Compliance Verification System Focal", "Cluster Focal Person (BDM)", "Cluster Greivance Redress System Focal", "Cluster Greivance Officer", "CMT I", "CMT II", "CMT II - MCCT", "COA AUDITOR", "Comm. Development Officer III", "Commission on Audit XI", "Communication Equipment Operator I", "Communications Specialist", "Communications Officer IV", "Community Development Assistant", "Community Development Assistant II", "Community Development Officer II", "Community Development Officer III", "COMMUNITY DEVELOPMENT OFFICER III - IT", "COMMUNITY DEVELOPMENT OFFICER IV", "COMMUNITY DEVELOPMENT OFFICER IV/KALAHI CIDSS", "Community Empowerment Facilitator", "Community Empowerment Facilitator - Roving ", "Community Facilitator", "Community Facilitator Aide", "Community Facilitator Assistant", "Community Finance Facilitator", "Community Finance Monitor", "Community Financial Analyst", "Community Infastructure Officer ", "Community Infastructure Officer III", "Community Infastructure Specialist ", "Community Organizer", "Community Organizer III", "Community Procurement Officer ", "Community Procurement Officer 3", "Community Procurement Officer III", "Community Procurement Specialist ", "Computer Encoder", "Computer Maintenance Technologist I", "Computer Maintenance Technologist II", "Computer Operator", "Computer Operator I", "Computer Operator II", "Computer Operator III", "Computer Operator IV", "Computer Programmer I", "Computer Programmer II", "Computer Programmer III", "Concurrent Head", "Concurent National Program Manager", "Concurent OIC", "Consultant", "Convergeance Coordinator", "Cook", "Cook I", "Cook II", "CPO", "CPO IV", "Crative Arts Specialist", "DAC - DEPUTY ARE COORDINATOR", "Data Analyst III", "Data Encoder", "Database Specialist", "Day Care Worker I", "Day Care Worker II", "Default", "Dentist II", "Department Assistant Secretary", "Department Legislative Liaison Specialist", "Department Secretary", "Department Undersecretary", "Deputy Area Coordinator - Electrical Engineer", "Deputy Area Coordinator - Geoditic Engineer", "Deputy Area Coordinator - IT", "Deputy Community Development Specialist", "Deputy Director", "Deputy Nat'l Community - Infra. Engr.", "Deputy National M & E Specialist", "Deputy National Program Manager for Operations", "Deputy National Training Specialist", "Deputy NCBS", "Deputy Program Director", "Deputy Program Manager", "Deputy Program Manager Operation", "Deputy Regional Program Manager", "Deputy Regional Project Manager", "Deputy Technical Facilitator", "Derector", "Director III", "Director IV", "Division Chief", "Dormitory Manager I", "Dormitory Manager II", "DPMO", "DPMO/PROPERTY WAREHOUSE", "DPSC", "DRAFTSMAN", "Driver", "Driver II", "DSWD FO CARAGA", "ECCD Teacher", "Echonomist III", "Electrical Engineer", "Electrician I ", "Electrician II ", "Encoder", "Encoder III", "Encoder-BTMS", "Engineer I", "Engineer II", "Engineer III", "Engineer IV", "Engineer AIDE", "Environtmental Safeguard Specialist", "Executive Assistant ", "Executive Assistant I", "Executive Assistant II", "Executive Assistant III", "Executive Assistant IV", "Executive Assistant V", "Executive Assistant VI", "Executive Secretary/ Senior Administrative Assistant III", "FA - MAGSAYSAY", "FA II", "FA III", "Family Welfare Assistant for MCCT", "FDS Coordinator", "Field Program Manager", "Field Office Coordinator", "Field Program Manager", "Finance Officer Cum Administrative Officer", "Finance Officer III", "Financial Analyst", "Financial Analyst I", "Financial Analyst II", "Financial Analyst III", "Financial Analyst III (Budget Officer)", "Financial Analyst III (Cash Grants)", "Financial Analyst III/KALAHI CIDSS", "Financial Analyst IV", "Financial Analyst V", "Financial Analyst V (Project Accountant)", "Financial Assistant III", "FMD Chief", "FOCAL PERSON FOR OSEC", "FOR STORAGE", "FPC", "Gender Specialist", "Geodetic Engineer", "GIS Specialist", "Governance Specialist", "Goverment Intership Program", "Greivance Redress System Focal", "Greivance, Admin Officer", "Handicaft Worker II", "Head ", "Head Executive Assistant", "Head, Accounting Section", "Head, RAMS", "Heavy Equipment Operator I", "HMO Inlife Customer Service Representative", "House Attendant ", "Household Attendant III", "Houseparent I", "HOUSEPARENT II", "houseparent III", "Houseparent IV", "HR - Learning and Development", "HR Specialist", "HRMDD CHIEF", "Human Relations Officer I ", "Human Resource Officer", "Human Resource Officer I", "Human Resource Officer II", "Information analyst I", "Information Officer", "Information Officer I", "Information Officer I/Social Pension Program", "Information Officer I/UCT", "Information Officer II", "Information Officer III ", "Information Officer III (Social Marketing Officer III)", "Information Officer IV", "Information Officer V", "Information Specialist Analyst", "Information System Analyst", "Information System Analyst I", "Information System Analyst III", "Information Systems Analyst", "Information Technology Officer (Team Leader)", "Information Technology Officer I", "Information Technology Officer II", "Information Technology Officer III", "Institutional Partnership and Development Officer", "Instructor ", "Inter Auditing Assistant", "Internal Auditor I", "Internal Auditor II", "Internal Auditor III", "Internal Auditor IV", "Internal Auditor V", "IO", "IPDO", "JOB ORDER", "Job Placement Officer", "Junior Capacity Building Specialist", "Junior Community Procurement Specialist", "KALAHI CIDSS - Japan Fund for Proverty Reduction", "KM Writer", "Knowledge Management Writer", "Laundry Worker I ", "Laundry Worker II", "Laundry Worker/Cook", "Laundrywoman", "Legal Assistant I", "Legal Assistant II", "LIBRARIAN I", "Librarian II", "Logistic Officer III", "M & E Assistant III", "M & E I", "M & E II", "M & E Specialist", "M & E IV", "M & E V", "M & E Officer III", "Management and Audit Analyst II", "Management Audit Analyst", "Management Audit Analyst II", "Management Audit Analyst IV", "MANPOWER DEVELOPMENT ASSISTANT ", "Manpower Development Officer I", "Manpower Development Officer II", "Manpower Development Officer III", "MCCT Coordinator", "MDO I / PSYCHOMETRICIAN", "Media Officer IV", "Media Production Specialist", "Media Prodcution Specialist III", "MEDICAL OFFICER", "Medical Officer III", "Medical Officer IV", "MFA", "Midwife I", "Minister of Social Service BARMM", "ML PATNANUNGAN", "MOA", "Monitoring & Evaluation Officer I", "Monitoring & Evaluation Officer II", "Monitoring & Evaluation Officer III", "Monitoring & Evaluation III ", "Monitoring & Evaluation Officer ", "Monitoring & Evaluation Officer III (External)", "Monitoring & Evaluation Officer IV", "Monitoring & Evaluation Officer V", "MRB", "Municipal Financial Analyst", "Municipal Financial Analyst/KALAHI-CIDSS", "Municipal Financial Analyst", "Municipal Link", "Minicipal Link Officer", "Municipal Monitoring ", "Municipal Rooving Bookkeeper", "Municipal Roving Bookkeeper", "Municipal Social Welfare Development Officer", "National Capability Building Specialist", "National Community Infrastructure", "National DRRM Support Coordinator", "National Financial Analyst - KCMCC", "National M & E Specialist", "National Training Officer", "NCDS", "NHTO IT-Division Chief/ITO3", "Nurse I", "Nurse II", "Nutritionist-Dietician I", "Nutritionist-Dietician II", "Nutritionist-Dietician III", "Nutritionist-Dietician V", "OASOPG-PP", "ODM Specialist", "OIC ", "OIC - Director IV", "OIC AUDIT TEAM LEADER", "OIC DIVISION Chief - DReMD", "OIC Head, Property & Supply Section", "OIC - Assistant Regional Director for Operations", "OIC - ASEC - OASOSG", "OIC - Assistant Director", "OIC - Assistant Secretary", "OIC - Assistant Service Director", "OIC-Asst. Secretary for OSG", "OIC - Center Head", "OIC - CHIEF", "OIC Director", "OIC - Division Chief", "OIC - GSD", "OIC - Procurement Unit Head", "OIC - Regional Director", "OIC - USEC", "OIC/Chief", "OJT", "On-the-job Trainee", "Operations Program Focal (PDO II - Municipal Link)", "Organizational Development Specialist III", "Organizational Development Specialist IV", "Organizational Training Specialist IV", "Payapa at Masaganang Pamayanan ", "PDO", "PDO I", "PDO I/FMD Cash Grants ", "PDO I/DRMD ", "PDO I/Grievance Officer", "PDO I/provincial Monitoring Evaluation Officer", "PDO II", "PDO II - System coordinator", "PDO II Municipal link", "PDO II (Case Worker)", "PDO II - BUS", "PDO II - BUS Focal Person", "PDO - Coordination to Partner Agencies", "PDO II - CVS", "PDOII - EPAHPH", "PDO II - GAD", "PDO II - GRS", "PDO II - GRS (Cluster) ", "PDO II - Information II", "PDO II - IP", "PDO II - Monitoring & Evaluation Officer", "PDO II - SWAD TL", "PDO II / Capability building ", "PDO II / DRMD CCAM", "PDO II / ML TUAO, CAGAYAN", "PDO II / Municipal Link, Alicia, Isabela", "PDO II / Municipal Link, Ilagan City, Isabela", "PDO II / RMEO", "PDO II / SLP Batanes", "PDO II / SWAD TL", "PDO II / GRS ", "PDO II Municipal Link, Abulug, Cagayan", "PDO II - Institutional Partnership Development Officer", "PDO II - City link, Tuguegarao City, Cagayan", "PDO II - Cluster Benefeciary Data Officer", "PDO II - MCCT Community Facilitator", "PDO II - Municipal Link", "PDO II - Municipal Link Dupax Del Norte,N.V", "PDO II - Municipal Link, Ambaguio", "PDO II - Municipal Link, Buguey, Cagayan", "PDO II - Municipal Link, Diadi, N.V", "PDO II - Municipal Link, Enrile, Cagayan", "PDO II - Municipal Link, Iguig, Cagayan", "PDO II - Municipal Link, Napagtipunan, Quirino", "PDO II - Municipal Link, Saguday, Quirino", "PDO II - Municipal Link, Dupax Del Sur, N.V", "PDO II - Provincial Systems Focal", "PDO II - Regional Monitoring and Evaluation Officer", "PDO II/PMEO SLP ISABELA", "PDO II/Provincial Coordinator", "PDO II/Child Labord Focal Person", "PDO II/DRMD", "PDO II/DRMD CCAM", "PDO II/Geographic Info.System Specialist", "PDO II/Information Officer", "PDO II/LIQUIDATION FOCAL/RMEF", "PDO II/MCCT San Pablo, Isabela", "PDO II/ML APARRI, CAGAYAN", "PDO II/ML TUAO, CAGAYAN", "PDO II/MUNICIPAL LINK", "PDO II/Municipal Link Bambang, NV", "PDO II/Municipal Link Claveri, Cagayan", "PDO II/Municipal Link Diadi, NV", "PDO II/Municipal Link Dinapigue, Isabela", "PDO II/Municipal Link Gattaran, Cagayan", "PDO II/Municipal Link Kayapa, Nueva Viscaya", "PDO II/Municipal Link Pamplano, Cagayan", "PDO II/Municipal Link Peablanca, Cagayan", "PDO II/Municipal Link Quezon, Nueva Viscaya", "PDO II/Municipal LInk Rizal,Cagayan", "PDO II/Municipal Link Roxas,Isabela", "PDO II/Municipal Link San Isidro, Cagayan", "PDO II/Municipal Link San Isidro, Isabela", "PDO II/Municipal Link Sanchez Mira, Cagayan", "PDO II/Municipal Link Solano,NV", "PDO II/Municipal LInk Sta.Fe,NV", "PDO II/Municipal Link Sta.Praxedes,Cagayan", "PDO II/Municipal Link Sto.Nino,Cagayan", "PDO II/Municipal Link Villaverde", "PDO II/Municipal Link, Aparri,Cagayan", "PDO II/Municipal Link, Buguey, Cagayan", "PDO II/Municipal Link, Burgos, Isabela", "PDO II/Municipal Link, Divilacan, Isabela", "PDO II/Municipal Link, Jones,Isabela", "PDO II/Municipal Link,MACONACON, ISABELA", "PDO II/Municipal Link,SAn Agustin,Isabela", "PDo II/Municipal Link,San Mariano,Isabela", "PDO II/Municipal Link,San Mateo,Isabela", "PDO II/Municipal Link,Tumauini,Isabela", "PDO II/Municipal Link,Divilacan,Isabela", "PDO II/Municipal Link,Echague,Isabela", "PDO II/Municipal Link,Maconacon,Isabela", "PDO II/Municipal Link,San Mariano,Isabela", "PDO II/PMEO ISABELA", "PDO II/PMEO NUEVA VIZCAYA", "PDO II/PMEO QUIRINO", "PDO II/Private Sector Partnership Officer", "PDO II/Provincial Coordinator Isabela, Cagayan", "PDO II/Provincial Coordinator SLP Isabela", "PDO II/Provincial Coordinator SLP Quirino", "PDO II/Reports Generation", "PDO III", "PDO III/Area Coordinator", "PDO III/Area Coordinator", "PDO III/Civil Engineer", "PDO III TEchnical Staff/RSCWC", "PDO III/Area Coordinator", "PDO III/Head, CVRRCY", "PDO III/Reg'l Center Coordinator", "PDO III/RSCWC", "PDO IV", "PDO V/ RPC", "PDO V/Division", "PDO V/Regional Field Coordinator UCT", "PDO-I Social Pension", "PDO-II", "PDO-IIDRMMD", "PEO I", "PEO III", "PGO", "Photographer II", "Physical Therapist II", "Planning Officer I", "Planning Officer II", "Planning Officer III", "Planning Officer IV", "Planning Officer V", "Plumber", "PMEO", "PMO-EE", "Policy and Plans Division Chief", "PPG-OSM", "PPO", "Prisedent - SWEAP", "Private Secretary", "Private Secretary I ", "Procurement Assistant", "Procurement Assistant II", "PROCUREMENT ASST.", "Procurement Development Officer III", "Procurement Officer", "Procurement Specialist", "Profect Development Officer II (DRAFTMAN)", "Program Development III", "Project Evaluation Specialist", "Program Manager", "Program Officer", "Project Coordinator", "Project Development Office III", "Project Development Officer", "Project Development Officer I", "Project Development Officer I - KC", "Project Development Officer I - Nurse", "Project Development Officer I - Nutritionist - Dietician I", "Project Development Officer I/CAMP MANAGERS", "Project Development Officer II", "Project Development Officer II (CVS Focal)", "Project Development Officer II - BP2P", "Project Development Officer II - Database Specialist ", "Project Development Officer II - Infrastructure", "Project Development Officer II/SLP", "Project Development Officer II-CVS Focal (POO 2 Isabela)", "Project Development Officer II - MCCT", "Project Development Officer II - MunicipaL Link", "Project Development Officer II/GRS Focal", "Project Development Officer II/SLP", "Project Development Officer III", "Project Development Officer III - FDS Focal", "Project Development Officer III/Centenarian Focal Person", "Project Development Officer III/Regional Program Coordinator", "Project Development Officer IV ", "Project Development Officer V", "Project Development Officer V (Gender Specialist)", "Project Development Officer V (IP Specialist)", "Project Development Officer V - OIC", "Project Evaluation Officer", "Project Evaluation Officer II", "Project Evaluation Officer III", "Project Evaluation Officer IV", "Project Evaluation Officer V", "Project Management Officer", "Project Manager (UCT)", "Project Manager IV", "Project Officer", "Property Officer/Warehouse", "Provincial AA", "Provincial AA II", "Provincial Bus Officer (PDO II)", "PROVINCIAL CL", "Provinvial Coordinator", "Provinvial CVS Officer (PDO II)", "Provincial Grievance Officer", "Provincial Grievance Officer (PDO II)", "Provincial GRS Officer (PDO II)", "Provincial Link", "Psychologist I", "Psychologist II", "Psychologist III", "Psychometrician I", "Public Relations Officer IV", "Quality Management Specialist", "Records Officer ", "Regional Accountant", "Regional bookkeeper", "Regional capability Building Specialist", "Regional Community Development Specialist", "Regional Community Infrastructure Specialist", "Regional Director", "Regional Driver (KC-NCDDP) ", "Regional Executive Assistant ", "Regional Field Coordinator", "Regional Finance Specialist", "Regional Financial Analyst", "Regional Information Officer", "Regional Information Officer II-Head,SMU", "Regional Information Technology Officer ", "Regional Information Technology Officer I", "Regional Information Technology Officer II", "Regional Infrastructure Assistant", "Regional Infrastructure Officer", "Regional Infrastructure Officer II", "Regional Infrastructure Officer III", "Regional Monitoring And Evaluation Specialist", "Regional Procurement Officer", "Regional Procurement For Program", "Regional Procurement Officer For Program Community", "Regional Program coordinator", "Regional Program Coordinator - KALAHI - CIDSS", "Regional Program Coordinator - Operations", "Regional Sub - Committee for the Welfare of Children (RSCWC)", "Regional Training Assistant", "Regional Training Officer", "Regional Training Officer II", "Regional Training Specialist", "Repacker", "Research Officer III", "RIO III", "Roving Area Coordinator", "Roving Municipal Financial Analyst", "Roving technical Facilitator", "RSCWC - Technical Officer", "SA - IV", "SA - IV Audit Team Leader", "SAO", "SAO/DC", "SAO/OIC-DC", "Social Welfare Assistant - MCCT", "Secretary II", "Section Head", "Security Guard I (CT)", "Security Guard I (ICT)", "Security Guard II", "Security Officer II", "Senior Administrative Assistant I", "Senior Administrative Assistant II", "Senior Administrative Assistant III", "Senior Administrative Assistant IV", "Senior Administrative Assistant V", "Senior Administrative Officer", "Senior Bookkeeper", "Senior Bookkeeper (Admin Asst III)", "Senior M & E Assistant V", "Senior MANPOWER DEVELOPMENT OFFICER II", "Senior Statistician IV", "Senior Technical Officer ", "SGV", "Site Engineer", "Social Marketing Officer", "Social Marketing Officer III", "Social Marketing Officer III/KALAHI-CIDSS", "Social Marketing Specialist", "Social Safeguard Officer", "Social Safeguard Specialist", "Social Welfare Aide", "Social Welfare Assistant", "Social Welfare Assistant - CMU", "Social Welfare Assistant - MCCT IP", "Social Welfare Assistant I", "Social Welfare Assistant II", "Social Welfare Assistant - MCCT", "Social Welfare Attache", "Social Welfare Officer I ", "Social Welfare Officer I - OIC Center Head", "Social Welfare Officer II", "Social Welfare Officer II/EO 70 Focal", "Social Welfare Officer II/Family Focal", "Social Welfare Officer II/SWAD Team Leader", "Social Welfare Officer II/Team Leader", "Social Welfare Officer III", "Social Welfare Officer III-Center Head", "Social Welfare Officer III/Act as PL", "Social Welfare Officer III/TARA Focal", "Social Welfare Officer III/Team Leader", "Social Welfare Officer IV", "Social Welfare Officer IV, OIC-Chief,DReMD", "Social Welfare Officer IV - Center Head", "Social Welfare Officer V", "Social Welfare Officer V/OIC ARDO and Concurrent Head PSD", "Special Investigator III", "SPED TEACHER", "Stakeholder Management and Networking Specialist", "State Auditing Examiner", "State Auditing Examiner II", "State Auditor ", "State Auditor and Examiner ", "State Auditor I", "State Auditor II", "State Auditor III", "State Auditor IV", "State Auditor V", "Statistician", "Statistician Aide", "Statistician Aide II", "Statistician I", "Statistician II", "Statistician III", "Statistician IV", "Stockroom/Warehouse", "Storage Room", "Storekeeper", "Sub-Regional Program Coordinator", "Sub-Regional Project Coordinator", "Supervising Administrative I", "Supervising Administrative V", "Supervising Administrative Officer", "Supervising Administrative Officer - KC - NCDDP", "Supervising Administrative Officer/KALAHI - CIDSS", "Supervising Auditor V", "Supervisor", "Supplier", "Supply Officer I", "Supply Procurement Officer I", "SWA", "SWA - Convergence", "SWA AIDE", "SWA San Juan Batangas", "SWA - CMU", "SWI - III", "SWO - I", "SWO - II", "SWO - II/Women Focal Person", "SWO II - SWAD TL", "SWO II - OIC Center Head", "SWO II/Family Focal Person", "SWO II/Older Per & IISO Focal Person", "SWO II/RRPTP", "SWO II/RRPTP,PWD,PLHIV & Youth Focal Person", "SWO II/Women Focal Person", "SWO III", "SWO III/Head, Social Technology Section", "SWO III/Head, Regional Juvenile Justice and Welfare Council", "SWO III/OIC - SLP RPC", "SWO IV", "SWO IV UCT", "SWO V / Chief, Promotive Services Division", "SWO V / Division Chief", "SWO V / OIC ARD for Operations", "System Analyst II", "System Coordinator", "System Coordinator Officer (PDO II)", "System Coordinator Officer PDO II - BUS", "System Coordinator Officer PDO II - CVS", "System Coordinator Officer PDO II - GRS", "Teach for The Philippines Ambasador", "Teacher", "Teacher I", "Team Leader", "Team Leader SWAD Nueva Viscaya", "Techincal Empowerment facilitator", "Technical Facilitator", "Techinal Facilitator/KALAHI-CIDSS", "Technical Specialist", "Technician ", "Training Assistant II", "Training Center Superintendent II", "Training Specialist I", "Training Specialist II", "Training Specialist III", "Training Specialist IV", "TS IV", "UCT - Regional Field Coordinator", "Undersecretary ", "Undersecretary for Administration", "Utility Worker", "Utility Worker I", "Utility Worker II", "WAREHOUSE", "Warehouseman II"})
         pickEditPosition.Location = New Point(23, 231)
         pickEditPosition.Name = "pickEditPosition"
-        pickEditPosition.ShadowDecoration.CustomizableEdges = CustomizableEdges184
+        pickEditPosition.ShadowDecoration.CustomizableEdges = CustomizableEdges74
         pickEditPosition.Size = New Size(303, 36)
         pickEditPosition.TabIndex = 2
         pickEditPosition.TextAlign = HorizontalAlignment.Center
@@ -2084,7 +2084,7 @@ Partial Class admindash
         ' 
         pickEditOffice.BackColor = Color.Transparent
         pickEditOffice.BorderRadius = 5
-        pickEditOffice.CustomizableEdges = CustomizableEdges185
+        pickEditOffice.CustomizableEdges = CustomizableEdges75
         pickEditOffice.DrawMode = DrawMode.OwnerDrawFixed
         pickEditOffice.DropDownStyle = ComboBoxStyle.DropDownList
         pickEditOffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -2095,7 +2095,7 @@ Partial Class admindash
         pickEditOffice.Items.AddRange(New Object() {"4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
         pickEditOffice.Location = New Point(23, 68)
         pickEditOffice.Name = "pickEditOffice"
-        pickEditOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges186
+        pickEditOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges76
         pickEditOffice.Size = New Size(303, 36)
         pickEditOffice.TabIndex = 1
         pickEditOffice.TextAlign = HorizontalAlignment.Center
@@ -2156,11 +2156,11 @@ Partial Class admindash
         Guna2Panel6.Controls.Add(lblUserID)
         Guna2Panel6.Controls.Add(lblBalance)
         Guna2Panel6.Controls.Add(Label41)
-        Guna2Panel6.CustomizableEdges = CustomizableEdges187
+        Guna2Panel6.CustomizableEdges = CustomizableEdges77
         Guna2Panel6.FillColor = Color.FromArgb(CByte(9), CByte(132), CByte(227))
         Guna2Panel6.Location = New Point(428, 90)
         Guna2Panel6.Name = "Guna2Panel6"
-        Guna2Panel6.ShadowDecoration.CustomizableEdges = CustomizableEdges188
+        Guna2Panel6.ShadowDecoration.CustomizableEdges = CustomizableEdges78
         Guna2Panel6.Size = New Size(197, 218)
         Guna2Panel6.TabIndex = 102
         ' 
@@ -2181,11 +2181,12 @@ Partial Class admindash
         lblUserID.BackColor = Color.Transparent
         lblUserID.Font = New Font("Cambria", 18F, FontStyle.Bold, GraphicsUnit.Point)
         lblUserID.ForeColor = Color.FromArgb(CByte(255), CByte(128), CByte(128))
-        lblUserID.Location = New Point(84, 57)
+        lblUserID.Location = New Point(66, 57)
         lblUserID.Name = "lblUserID"
         lblUserID.Size = New Size(30, 28)
         lblUserID.TabIndex = 104
         lblUserID.Text = "__"
+        lblUserID.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' lblBalance
         ' 
@@ -2193,11 +2194,12 @@ Partial Class admindash
         lblBalance.BackColor = Color.Transparent
         lblBalance.Font = New Font("Cambria", 18F, FontStyle.Bold, GraphicsUnit.Point)
         lblBalance.ForeColor = Color.FromArgb(CByte(0), CByte(192), CByte(0))
-        lblBalance.Location = New Point(83, 144)
+        lblBalance.Location = New Point(65, 144)
         lblBalance.Name = "lblBalance"
         lblBalance.Size = New Size(30, 28)
         lblBalance.TabIndex = 102
         lblBalance.Text = "__"
+        lblBalance.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label41
         ' 
@@ -2208,35 +2210,35 @@ Partial Class admindash
         Label41.Name = "Label41"
         Label41.Size = New Size(157, 19)
         Label41.TabIndex = 101
-        Label41.Text = "ACCOUNT BALANCE :"
+        Label41.Text = "CURRENT BALANCE :"
         ' 
         ' dgMembersFT
         ' 
         dgMembersFT.AllowUserToAddRows = False
         dgMembersFT.AllowUserToDeleteRows = False
-        DataGridViewCellStyle21.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
-        dgMembersFT.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle21
-        DataGridViewCellStyle22.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle22.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
-        DataGridViewCellStyle22.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle22.ForeColor = Color.White
-        DataGridViewCellStyle22.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle22.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle22.WrapMode = DataGridViewTriState.True
-        dgMembersFT.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle22
+        DataGridViewCellStyle8.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
+        dgMembersFT.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle9.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
+        DataGridViewCellStyle9.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle9.ForeColor = Color.White
+        DataGridViewCellStyle9.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle9.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle9.WrapMode = DataGridViewTriState.True
+        dgMembersFT.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle9
         dgMembersFT.ColumnHeadersHeight = 32
         dgMembersFT.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         dgMembersFT.Columns.AddRange(New DataGridViewColumn() {DataGridViewTextBoxColumn8, DataGridViewTextBoxColumn9, DataGridViewTextBoxColumn10, DataGridViewTextBoxColumn11, DataGridViewTextBoxColumn12, DataGridViewTextBoxColumn13, Column7})
         dgMembersFT.Cursor = Cursors.Hand
-        DataGridViewCellStyle23.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle23.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
-        DataGridViewCellStyle23.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle23.ForeColor = Color.Black
-        DataGridViewCellStyle23.Padding = New Padding(4)
-        DataGridViewCellStyle23.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
-        DataGridViewCellStyle23.SelectionForeColor = Color.Black
-        DataGridViewCellStyle23.WrapMode = DataGridViewTriState.False
-        dgMembersFT.DefaultCellStyle = DataGridViewCellStyle23
+        DataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle10.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
+        DataGridViewCellStyle10.Font = New Font("Segoe UI Semibold", 9.25F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle10.ForeColor = Color.Black
+        DataGridViewCellStyle10.Padding = New Padding(4)
+        DataGridViewCellStyle10.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
+        DataGridViewCellStyle10.SelectionForeColor = Color.Black
+        DataGridViewCellStyle10.WrapMode = DataGridViewTriState.False
+        dgMembersFT.DefaultCellStyle = DataGridViewCellStyle10
         dgMembersFT.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
         dgMembersFT.Location = New Point(24, 356)
         dgMembersFT.Name = "dgMembersFT"
@@ -2341,18 +2343,18 @@ Partial Class admindash
         Guna2Panel5.Controls.Add(Label40)
         Guna2Panel5.Controls.Add(Label39)
         Guna2Panel5.Controls.Add(txtAmount)
-        Guna2Panel5.CustomizableEdges = CustomizableEdges195
+        Guna2Panel5.CustomizableEdges = CustomizableEdges85
         Guna2Panel5.FillColor = Color.FromArgb(CByte(9), CByte(132), CByte(227))
         Guna2Panel5.Location = New Point(631, 90)
         Guna2Panel5.Name = "Guna2Panel5"
-        Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges196
+        Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges86
         Guna2Panel5.Size = New Size(376, 218)
         Guna2Panel5.TabIndex = 99
         ' 
         ' txtName
         ' 
         txtName.BorderRadius = 5
-        txtName.CustomizableEdges = CustomizableEdges189
+        txtName.CustomizableEdges = CustomizableEdges79
         txtName.DefaultText = ""
         txtName.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtName.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -2368,7 +2370,7 @@ Partial Class admindash
         txtName.PasswordChar = ChrW(0)
         txtName.PlaceholderText = ""
         txtName.SelectedText = ""
-        txtName.ShadowDecoration.CustomizableEdges = CustomizableEdges190
+        txtName.ShadowDecoration.CustomizableEdges = CustomizableEdges80
         txtName.Size = New Size(323, 36)
         txtName.TabIndex = 101
         txtName.TextAlign = HorizontalAlignment.Center
@@ -2378,7 +2380,7 @@ Partial Class admindash
         bttnTransferFund.Animated = True
         bttnTransferFund.BackColor = Color.Transparent
         bttnTransferFund.BorderRadius = 10
-        bttnTransferFund.CustomizableEdges = CustomizableEdges191
+        bttnTransferFund.CustomizableEdges = CustomizableEdges81
         bttnTransferFund.DisabledState.BorderColor = Color.DarkGray
         bttnTransferFund.DisabledState.CustomBorderColor = Color.DarkGray
         bttnTransferFund.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -2388,7 +2390,7 @@ Partial Class admindash
         bttnTransferFund.ForeColor = Color.White
         bttnTransferFund.Location = New Point(116, 170)
         bttnTransferFund.Name = "bttnTransferFund"
-        bttnTransferFund.ShadowDecoration.CustomizableEdges = CustomizableEdges192
+        bttnTransferFund.ShadowDecoration.CustomizableEdges = CustomizableEdges82
         bttnTransferFund.Size = New Size(144, 36)
         bttnTransferFund.TabIndex = 97
         bttnTransferFund.Text = "TRANSFER FUND"
@@ -2418,7 +2420,7 @@ Partial Class admindash
         ' txtAmount
         ' 
         txtAmount.BorderRadius = 5
-        txtAmount.CustomizableEdges = CustomizableEdges193
+        txtAmount.CustomizableEdges = CustomizableEdges83
         txtAmount.DefaultText = ""
         txtAmount.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtAmount.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -2434,7 +2436,7 @@ Partial Class admindash
         txtAmount.PasswordChar = ChrW(0)
         txtAmount.PlaceholderText = ""
         txtAmount.SelectedText = ""
-        txtAmount.ShadowDecoration.CustomizableEdges = CustomizableEdges194
+        txtAmount.ShadowDecoration.CustomizableEdges = CustomizableEdges84
         txtAmount.Size = New Size(323, 36)
         txtAmount.TabIndex = 89
         txtAmount.TextAlign = HorizontalAlignment.Center
@@ -2442,7 +2444,7 @@ Partial Class admindash
         ' txtSearchbx
         ' 
         txtSearchbx.BorderRadius = 5
-        txtSearchbx.CustomizableEdges = CustomizableEdges197
+        txtSearchbx.CustomizableEdges = CustomizableEdges87
         txtSearchbx.DefaultText = ""
         txtSearchbx.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtSearchbx.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -2458,7 +2460,7 @@ Partial Class admindash
         txtSearchbx.PasswordChar = ChrW(0)
         txtSearchbx.PlaceholderText = ""
         txtSearchbx.SelectedText = ""
-        txtSearchbx.ShadowDecoration.CustomizableEdges = CustomizableEdges198
+        txtSearchbx.ShadowDecoration.CustomizableEdges = CustomizableEdges88
         txtSearchbx.Size = New Size(377, 36)
         txtSearchbx.TabIndex = 88
         txtSearchbx.TextAlign = HorizontalAlignment.Center
@@ -2477,12 +2479,12 @@ Partial Class admindash
         ' Guna2PictureBox6
         ' 
         Guna2PictureBox6.BackColor = Color.White
-        Guna2PictureBox6.CustomizableEdges = CustomizableEdges199
+        Guna2PictureBox6.CustomizableEdges = CustomizableEdges89
         Guna2PictureBox6.Image = CType(resources.GetObject("Guna2PictureBox6.Image"), Image)
         Guna2PictureBox6.ImageRotate = 0F
         Guna2PictureBox6.Location = New Point(25, 55)
         Guna2PictureBox6.Name = "Guna2PictureBox6"
-        Guna2PictureBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges200
+        Guna2PictureBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges90
         Guna2PictureBox6.Size = New Size(374, 288)
         Guna2PictureBox6.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox6.TabIndex = 85
@@ -2524,7 +2526,7 @@ Partial Class admindash
         ' 
         ' btnEditContri
         ' 
-        btnEditContri.CustomizableEdges = CustomizableEdges201
+        btnEditContri.CustomizableEdges = CustomizableEdges91
         btnEditContri.DisabledState.BorderColor = Color.DarkGray
         btnEditContri.DisabledState.CustomBorderColor = Color.DarkGray
         btnEditContri.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -2533,14 +2535,14 @@ Partial Class admindash
         btnEditContri.ForeColor = Color.White
         btnEditContri.Location = New Point(826, 233)
         btnEditContri.Name = "btnEditContri"
-        btnEditContri.ShadowDecoration.CustomizableEdges = CustomizableEdges202
+        btnEditContri.ShadowDecoration.CustomizableEdges = CustomizableEdges92
         btnEditContri.Size = New Size(180, 42)
         btnEditContri.TabIndex = 1
         btnEditContri.Text = "EDIT CONTRIBUTION"
         ' 
         ' btnLoan
         ' 
-        btnLoan.CustomizableEdges = CustomizableEdges203
+        btnLoan.CustomizableEdges = CustomizableEdges93
         btnLoan.DisabledState.BorderColor = Color.DarkGray
         btnLoan.DisabledState.CustomBorderColor = Color.DarkGray
         btnLoan.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -2549,7 +2551,7 @@ Partial Class admindash
         btnLoan.ForeColor = Color.White
         btnLoan.Location = New Point(631, 233)
         btnLoan.Name = "btnLoan"
-        btnLoan.ShadowDecoration.CustomizableEdges = CustomizableEdges204
+        btnLoan.ShadowDecoration.CustomizableEdges = CustomizableEdges94
         btnLoan.Size = New Size(180, 42)
         btnLoan.TabIndex = 1
         btnLoan.Text = "VIEW LOAN"
@@ -2558,27 +2560,27 @@ Partial Class admindash
         ' 
         dgContributions.AllowUserToAddRows = False
         dgContributions.AllowUserToDeleteRows = False
-        DataGridViewCellStyle24.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
-        dgContributions.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle24
-        DataGridViewCellStyle25.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle25.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
-        DataGridViewCellStyle25.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle25.ForeColor = Color.White
-        DataGridViewCellStyle25.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle25.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle25.WrapMode = DataGridViewTriState.True
-        dgContributions.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle25
+        DataGridViewCellStyle11.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
+        dgContributions.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle11
+        DataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle12.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
+        DataGridViewCellStyle12.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle12.ForeColor = Color.White
+        DataGridViewCellStyle12.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle12.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle12.WrapMode = DataGridViewTriState.True
+        dgContributions.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle12
         dgContributions.ColumnHeadersHeight = 32
         dgContributions.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         dgContributions.Columns.AddRange(New DataGridViewColumn() {Column3, Column5, Column6, Column13, Column14, Column12, Column15, Column16})
-        DataGridViewCellStyle26.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle26.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
-        DataGridViewCellStyle26.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle26.ForeColor = Color.Black
-        DataGridViewCellStyle26.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
-        DataGridViewCellStyle26.SelectionForeColor = Color.White
-        DataGridViewCellStyle26.WrapMode = DataGridViewTriState.False
-        dgContributions.DefaultCellStyle = DataGridViewCellStyle26
+        DataGridViewCellStyle13.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle13.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
+        DataGridViewCellStyle13.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle13.ForeColor = Color.Black
+        DataGridViewCellStyle13.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
+        DataGridViewCellStyle13.SelectionForeColor = Color.White
+        DataGridViewCellStyle13.WrapMode = DataGridViewTriState.False
+        dgContributions.DefaultCellStyle = DataGridViewCellStyle13
         dgContributions.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
         dgContributions.Location = New Point(26, 300)
         dgContributions.Name = "dgContributions"

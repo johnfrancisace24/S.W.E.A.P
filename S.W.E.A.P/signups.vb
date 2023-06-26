@@ -245,23 +245,23 @@ Public Class signups
         End If
     End Sub
 
-    Private Sub txtBA1_KeyPress(sender As Object, e As EventArgs) Handles txtBA1.KeyPress
+    Private Sub txtBA1_KeyPress(sender As Object, e As EventArgs)
         txtContact_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtBA2_KeyPress(sender As Object, e As EventArgs) Handles txtBA2.KeyPress
+    Private Sub txtBA2_KeyPress(sender As Object, e As EventArgs)
         txtContact_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtBA3_KeyPress(sender As Object, e As EventArgs) Handles txtBA3.KeyPress
+    Private Sub txtBA3_KeyPress(sender As Object, e As EventArgs)
         txtContact_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtBA4_KeyPress(sender As Object, e As EventArgs) Handles txtBA4.KeyPress
+    Private Sub txtBA4_KeyPress(sender As Object, e As EventArgs)
         txtContact_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtBA5_Keypress(sender As Object, e As EventArgs) Handles txtBA5.KeyPress
+    Private Sub txtBA5_Keypress(sender As Object, e As EventArgs)
         txtContact_KeyPress(sender, e)
     End Sub
 
@@ -306,39 +306,39 @@ Public Class signups
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBF2_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF2.KeyPress
+    Private Sub txtbxBF2_KeyPress(sender As Object, e As EventArgs)
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBF3_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF3.KeyPress
+    Private Sub txtbxBF3_KeyPress(sender As Object, e As EventArgs)
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBF4_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF4.KeyPress
+    Private Sub txtbxBF4_KeyPress(sender As Object, e As EventArgs)
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBF5_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF5.KeyPress
+    Private Sub txtbxBF5_KeyPress(sender As Object, e As EventArgs)
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBR1_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR1.KeyPress
+    Private Sub txtbxBR1_KeyPress(sender As Object, e As EventArgs)
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBR2_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR2.KeyPress
+    Private Sub txtbxBR2_KeyPress(sender As Object, e As EventArgs)
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBR3_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR3.KeyPress
+    Private Sub txtbxBR3_KeyPress(sender As Object, e As EventArgs)
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBR4_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR4.KeyPress
+    Private Sub txtbxBR4_KeyPress(sender As Object, e As EventArgs)
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBR5_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR5.KeyPress
+    Private Sub txtbxBR5_KeyPress(sender As Object, e As EventArgs)
         txtFname_KeyPress(sender, e)
     End Sub
 
