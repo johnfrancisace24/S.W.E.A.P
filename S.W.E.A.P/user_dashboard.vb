@@ -11,14 +11,12 @@ Public Class user_dashboard
     Dim conn As New MySqlConnection("server=172.30.192.162;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim dr As MySqlDataReader
 
-
     Dim sourceFilePath As String
     Dim getExtension As String
     Dim locateProject As String = My.Application.Info.DirectoryPath
     Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
     Dim location As String = locateProject.Substring(0, indext)
     Dim destinationPath As String = location & "\Resources\user_profile"
-    'Dim destinationMan As String = location & "\Resources\manAndwoman"
     Dim destinationIconPath As String = location & "\Resources\"
 
     Dim dashPath As String = "dashboard (3).png"
@@ -28,7 +26,6 @@ Public Class user_dashboard
     Dim Home As String = "house (1).png"
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick '--------------------TIMER
-
         Dim timezone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("singapore standard time")
         Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
         Dim currentdate As DateTime = currenttime
@@ -38,22 +35,19 @@ Public Class user_dashboard
 
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
         pnlTime.Left += 100
-
         If pnlTime.Left >= 993 Then
             Timer2.Stop()
             pnlTime.Left = 993
-
         End If
     End Sub
     Private Sub user_dashboard_load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Start()
         lblDate.Text = Date.Today
         Get_info()
+        DG_Load()
 
-        Label3.ForeColor = Color.FromArgb(CInt(opacity * 255), Label1.ForeColor)
-        'Label25.ForeColor = Color.FromArgb(CInt(opacity * 255), Label1.ForeColor)
+        Label3.ForeColor = Color.FromArgb(CInt(Opacity * 255), Label1.ForeColor)
     End Sub
-
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
         Timer2.Start()
         tabDashboard.Text = "Dashboard"
@@ -61,7 +55,7 @@ Public Class user_dashboard
     End Sub
     Private Sub btnLogOut_Click(sender As Object, e As EventArgs) Handles btnLogOut.Click
         Dim AnswerYes As String
-        AnswerYes = MsgBox("Are you sure you want to Log out", vbQuestion + vbYesNo, "Information")
+        AnswerYes = MessageBox.Show("Are you sure you want to Log out?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
 
         If AnswerYes = vbYes Then
             Guna2TabControl1.SelectedTab = tabDashboard
@@ -103,18 +97,15 @@ Public Class user_dashboard
         BeneficiariesDGV.Rows.Clear()
         Try
             conn.Open()
-            Dim cmd As New MySqlCommand("SELECT beneficiaries.user_id, beneficiaries.full_name, beneficiaries.age, beneficiaries.relationship, COUNT(*) AS cnt FROM users 
+            Dim cmd As New MySqlCommand("SELECT beneficiaries.* FROM users 
                                 INNER JOIN beneficiaries ON users.id = beneficiaries.user_id
                                 WHERE users.id = @ID", conn)
 
             cmd.Parameters.AddWithValue("@ID", Form2.log_id)
             dr = cmd.ExecuteReader()
-            If dr.Read() Then
-                Dim count1 As Integer = dr.GetInt32("cnt")
-                'lblCnt.Text = count1.ToString()
-
+            While dr.Read()
                 BeneficiariesDGV.Rows.Add(dr.Item("user_id"), dr.Item("full_name"), dr.Item("age"), dr.Item("relationship"))
-            End If
+            End While
         Catch ex As Exception
             MsgBox(ex.Message)
         Finally
@@ -145,20 +136,15 @@ Public Class user_dashboard
                     lblDateTime.Text = "Mr. " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("last_logout")
                     tabDashboard.ImageIndex = 6
                     tabDashboard.Text = "Mr. " + dr.GetString("first_name")
-                    'ImgProfile.Image = Image.FromFile(destinationMan + men)
                 ElseIf cmboSex.SelectedIndex = 1 Then
                     lblDateTime.Text = "Ms. " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("last_logout")
                     tabDashboard.ImageIndex = 7
                     tabDashboard.Text = "Ms. " + dr.GetString("first_name")
-                    'ImgProfile.Image = Image.FromFile(destinationMan + women)
                 ElseIf cmboSex.SelectedIndex = 2 Then
                     lblDateTime.Text = "Hi " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("last_logout")
                     tabDashboard.ImageIndex = 6
                     tabDashboard.Text = "Hi. " + dr.GetString("first_name")
-                    'ImgProfile.Image = Image.FromFile(destinationMan + men)
                 End If
-
-
                 Pfname.Text = dr.GetString("fullName")
                 Padd.Text = dr.GetString("address")
                 Pcntact.Text = dr.GetString("contact")
@@ -214,7 +200,6 @@ Public Class user_dashboard
         End Try
     End Sub
     Public Sub Update()
-        '----------------------------GETTING IMAGE-------------------------------------------------
         Try
             conn.Open()
             Dim cmd As New MySqlCommand("UPDATE users " &
@@ -222,7 +207,6 @@ Public Class user_dashboard
                                         "SET users.username = @username, users.password = @password, users.first_name = @first, users.middle_name = @mid, users.last_name = @last, users.position = @pos, users.sex = @sex, user_info.address = @adds, user_info.contact = @contact, user_info.email = @email, user_info.educational = @educ, user_info.birthdate = @birthdate, user_info.office = @office, user_info.employment_status = @employ, user_info.committee = @comm " &
                                         "WHERE users.id = @ID", conn)
             cmd.Parameters.Clear()
-            'cmd.Parameters.AddWithValue("@img", imageInput)
             cmd.Parameters.AddWithValue("@ID", Form2.log_id)
             cmd.Parameters.AddWithValue("@username", txtbxusername.Text)
             cmd.Parameters.AddWithValue("@password", txtbxpassword.Text)
@@ -258,6 +242,7 @@ Public Class user_dashboard
         Update()
     End Sub
 
+    'EXPORT TO EXCEL-------------------------------------------------------------------------
     Public Sub SetEPPlusLicenseContext()
         ExcelPackage.LicenseContext = LicenseContext.NonCommercial
     End Sub
@@ -307,22 +292,13 @@ Public Class user_dashboard
             package.SaveAs(fileInfo)
         End Using
 
+        ' Open the folder location of the exported Excel file
         Dim processStartInfo As New ProcessStartInfo()
-        processStartInfo.FileName = filePath
+        processStartInfo.FileName = "explorer.exe"
+        processStartInfo.Arguments = "/select, """ & filePath & """"
         processStartInfo.UseShellExecute = True
         Process.Start(processStartInfo)
     End Sub
-    Private Sub OpenFile(filePath As String)
-        Dim fileName As String = Path.GetFileName(filePath)
-
-        Dim pStartInfo As New ProcessStartInfo()
-        pStartInfo.FileName = "explorer.exe"
-        pStartInfo.Arguments = "/open," & filePath
-
-        Dim p As Process = Process.Start(pStartInfo)
-    End Sub
-    Private Const SW_SHOWDEFAULT As Integer = 10
-
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles btnExport.Click
         Try
             Dim documentsPath As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
@@ -334,6 +310,8 @@ Public Class user_dashboard
             MsgBox(ex.Message)
         End Try
     End Sub
+
+
 
 
     '---------NUMBER ONLY AND LETTER ONLY------------'
@@ -369,9 +347,6 @@ Public Class user_dashboard
         ElseIf Not IsValidEmail(inputEmail) Then
             MessageBox.Show("Invalid email address." & vbCrLf & "Please enter a valid email address.", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Hand)
             e.Cancel = True
-
         End If
     End Sub
-
-
 End Class
