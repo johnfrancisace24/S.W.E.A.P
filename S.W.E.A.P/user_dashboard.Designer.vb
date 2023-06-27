@@ -155,29 +155,17 @@ Partial Class user_dashboard
         Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
         user_Profile = New Guna.UI2.WinForms.Guna2PictureBox()
         cmboSex = New Guna.UI2.WinForms.Guna2ComboBox()
-        Label34 = New Label()
         cmbxoffice = New Guna.UI2.WinForms.Guna2ComboBox()
         cmbxposition = New Guna.UI2.WinForms.Guna2ComboBox()
         txtbxbdate = New Guna.UI2.WinForms.Guna2DateTimePicker()
-        Label18 = New Label()
         cmbxcomm = New Guna.UI2.WinForms.Guna2ComboBox()
-        Label19 = New Label()
-        Label20 = New Label()
         txtbxeduc = New Guna.UI2.WinForms.Guna2TextBox()
-        Label21 = New Label()
         txtbxemail = New Guna.UI2.WinForms.Guna2TextBox()
-        Label22 = New Label()
         txtbxcontact = New Guna.UI2.WinForms.Guna2TextBox()
-        Label23 = New Label()
         txtbxadds = New Guna.UI2.WinForms.Guna2TextBox()
-        Label24 = New Label()
         cmbxemployment = New Guna.UI2.WinForms.Guna2ComboBox()
-        Label17 = New Label()
-        Label16 = New Label()
         txtbxlname = New Guna.UI2.WinForms.Guna2TextBox()
-        Label15 = New Label()
         txtbxmname = New Guna.UI2.WinForms.Guna2TextBox()
-        Label14 = New Label()
         txtbxfname = New Guna.UI2.WinForms.Guna2TextBox()
         Label13 = New Label()
         txtbxpassword = New Guna.UI2.WinForms.Guna2TextBox()
@@ -187,6 +175,18 @@ Partial Class user_dashboard
         btnUpdate = New Guna.UI2.WinForms.Guna2Button()
         Timer1 = New Timer(components)
         Timer2 = New Timer(components)
+        Label14 = New Label()
+        Label15 = New Label()
+        Label25 = New Label()
+        Label20 = New Label()
+        Label24 = New Label()
+        Label23 = New Label()
+        Label22 = New Label()
+        Label16 = New Label()
+        Label26 = New Label()
+        Label18 = New Label()
+        Label17 = New Label()
+        Label19 = New Label()
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
         CType(iconFromtitle, ComponentModel.ISupportInitialize).BeginInit()
@@ -1048,32 +1048,32 @@ Partial Class user_dashboard
         ' tabSetting
         ' 
         tabSetting.BackColor = Color.Transparent
+        tabSetting.Controls.Add(Label19)
+        tabSetting.Controls.Add(Label17)
+        tabSetting.Controls.Add(Label18)
+        tabSetting.Controls.Add(Label26)
+        tabSetting.Controls.Add(Label16)
+        tabSetting.Controls.Add(Label22)
+        tabSetting.Controls.Add(Label23)
+        tabSetting.Controls.Add(Label24)
+        tabSetting.Controls.Add(Label20)
+        tabSetting.Controls.Add(Label25)
+        tabSetting.Controls.Add(Label15)
+        tabSetting.Controls.Add(Label14)
         tabSetting.Controls.Add(Guna2Button4)
         tabSetting.Controls.Add(user_Profile)
         tabSetting.Controls.Add(cmboSex)
-        tabSetting.Controls.Add(Label34)
         tabSetting.Controls.Add(cmbxoffice)
         tabSetting.Controls.Add(cmbxposition)
         tabSetting.Controls.Add(txtbxbdate)
-        tabSetting.Controls.Add(Label18)
         tabSetting.Controls.Add(cmbxcomm)
-        tabSetting.Controls.Add(Label19)
-        tabSetting.Controls.Add(Label20)
         tabSetting.Controls.Add(txtbxeduc)
-        tabSetting.Controls.Add(Label21)
         tabSetting.Controls.Add(txtbxemail)
-        tabSetting.Controls.Add(Label22)
         tabSetting.Controls.Add(txtbxcontact)
-        tabSetting.Controls.Add(Label23)
         tabSetting.Controls.Add(txtbxadds)
-        tabSetting.Controls.Add(Label24)
         tabSetting.Controls.Add(cmbxemployment)
-        tabSetting.Controls.Add(Label17)
-        tabSetting.Controls.Add(Label16)
         tabSetting.Controls.Add(txtbxlname)
-        tabSetting.Controls.Add(Label15)
         tabSetting.Controls.Add(txtbxmname)
-        tabSetting.Controls.Add(Label14)
         tabSetting.Controls.Add(txtbxfname)
         tabSetting.Controls.Add(Label13)
         tabSetting.Controls.Add(txtbxpassword)
@@ -1098,7 +1098,7 @@ Partial Class user_dashboard
         Guna2Button4.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Guna2Button4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2Button4.ForeColor = Color.White
-        Guna2Button4.Location = New Point(59, 168)
+        Guna2Button4.Location = New Point(59, 171)
         Guna2Button4.Name = "Guna2Button4"
         Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges30
         Guna2Button4.Size = New Size(169, 25)
@@ -1110,10 +1110,10 @@ Partial Class user_dashboard
         user_Profile.BorderStyle = BorderStyle.Fixed3D
         user_Profile.CustomizableEdges = CustomizableEdges31
         user_Profile.ImageRotate = 0F
-        user_Profile.Location = New Point(59, 31)
+        user_Profile.Location = New Point(59, 19)
         user_Profile.Name = "user_Profile"
         user_Profile.ShadowDecoration.CustomizableEdges = CustomizableEdges32
-        user_Profile.Size = New Size(169, 131)
+        user_Profile.Size = New Size(169, 143)
         user_Profile.SizeMode = PictureBoxSizeMode.StretchImage
         user_Profile.TabIndex = 162
         user_Profile.TabStop = False
@@ -1133,22 +1133,11 @@ Partial Class user_dashboard
         cmboSex.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         cmboSex.ItemHeight = 30
         cmboSex.Items.AddRange(New Object() {"Male", "Female", "Refer not to say"})
-        cmboSex.Location = New Point(664, 318)
+        cmboSex.Location = New Point(664, 49)
         cmboSex.Name = "cmboSex"
         cmboSex.ShadowDecoration.CustomizableEdges = CustomizableEdges34
         cmboSex.Size = New Size(273, 36)
         cmboSex.TabIndex = 161
-        ' 
-        ' Label34
-        ' 
-        Label34.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        Label34.AutoSize = True
-        Label34.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label34.Location = New Point(664, 289)
-        Label34.Name = "Label34"
-        Label34.Size = New Size(74, 25)
-        Label34.TabIndex = 160
-        Label34.Text = "Gender"
         ' 
         ' cmbxoffice
         ' 
@@ -1165,7 +1154,7 @@ Partial Class user_dashboard
         cmbxoffice.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         cmbxoffice.ItemHeight = 30
         cmbxoffice.Items.AddRange(New Object() {"4Ps, Pantawid Pamilya Pilipino Program Division", "ADRP, Accounting Division for Regular Programs", "AS-BGMD, Building and Grounds Management Division", "AS-GCD, General Services Division", "AS-OD, Administrative Service ", "AS-PSAMD, Property, Supply Asset Management Division", "AS-RAMD, Records and Archive Management Division", "BangUn Project, Bangsamoro umpungan sa Nutrisyon Project", "BDRP, FMS, Budget Division for regular programs", "CANCELLED, FOR CANCELLATION OF INCORRECT QTY IN STOCK CARD", "CDRP, Cash Division for Regular Programs", "CLinic, Clinic", "CO-SWEAP, Social Welfare Employees Association of the philippines", "COA, Commision on Adult", "CPSB, Community Programs and Services Bureau", "DEF, DEFAULT", "DFA Doha Qatar", "DLLO, Department Legislative", "DMG-DRMB, Disaster Response and Management Group", "DSWD AOC, DSWD Agency Operation Centre", "EPAHP-NPMO, Enhanced Partnership Against Hunger and Proverty", "Exhausted EUL, For Properties with Exhausted Useful Live", "FMS-AD, FMS-Accounting Division", "FMS-ADSP, FMS-Accounting Division for Special Program", "FMS-BD, Budget Division", "FMS-CD, Cash Division", "FMS-GDSP, FMS-Grants Division for Special Program", "FMS-MD, FMS-Management Division", "FMS-OASD, FMS-Office of Assistant Service Director", "FMS-OD, Financial Management Service", "FMS-SP, FMS-Special Project", "FMS-SP, FMS-Strengthening System", "For WRITE-OFF, List of Property for WRITE-OFF", "GASSG-HDPRC, Human Development and Proverty Reduction Cluster", "GASSG-LS, Legal Service", "HRMDS, Human Resource Management & Development", "HRMDS-PAD, HRMDS-Personnel Administration Division", "HRPPMD, HRDS, Human Resource Planning and Performance Mgt. Division", "Human Resource Welfare Div., HRWD, HRDS", "ICTMS, ICTMS", "IDG-OUSEC, Office of U/sec for IDG", "INACTIVE, INACTIVE RECORDS", "Inactive Properties, Expired and Exhausted Properties and Supplies", "ISSO, International Social Service Office", "KC-NCDDP, National Community Driven Development Program (KALAHI-CIDSS)", "Learning and Dev't Div., LDD, HRDS", "LOBBY, Properties in Lobby", "NHTO, National Household Targeting Office", "NRLMB, National Resource & Logistic Management Bureau", "Resource Center", "OAS-Administration, OAS-Administration", "OAS-CIOSD, Office of A/Sec for Centers and Institutions and Other Special Directives", "OAS-Finance For GASSG, OAS-Finance for GASSG", "OAS-LA Office of the Assistant Secretary for Luzon Affairs", "OAS-OPG, Protective", "OAS-OSEC, Office of the Assistant Secretary for OSEC", "OAS-OSEC Concerns, Office of the Assistant Secretary for OSEC Concerns", "OAS-PP, Office of the Assistant Secretary for policy and Plans", "OAS-SCBG, Office of the Assistant Secretary for Standards and Capacity Building Group", "OAS-SP, OAS Statutory Programs", "OAS-Special Projects, Office of the Assistant Secretary for Special Project", "OAS-SS, Office of the Assistant Secretary for Support Service", "OAS-SWD, Office of the Assistant Secretary for Social Welfare and Depelopment", "OAS-VA, Office of the Assistant Secretary for Visayas Affairs", "OASDRMG, Office of the Assistant Secretary for Disaster Response Management group", "OASIMHTS, Office of the Assistant Secretary for Information Management and Household", "Targeting System", "OASMA, Office of the Assistant Secretary for Mindanao Affairs", "OASOPG-PP, Office of Asst. Secretary for OPG-Protective Programs", "OASPP-PDPB, Policy Development and Planning Bureau", "OASPP-RMO, Risk Management Office", "OASPPG-(SB-UCT), Standards Bureau and Unconditional Cash Transfer Project Management", "Office", "OASSC-STB, Social Technology Bureau", "OASSCB - SWIDB, Social Welfare Institutional Development Bureau", "OASSCB-SB, Standard Bureau", "OASSPEP, OAS Specialized Programs", "OASSWCC, Office of the Assistant Secretary for Special Women's and Children's Concern", "OFTRO, Office of the Resident Ombudsman", "OIC, U/SEC for GASSG, OIC, Office of the Undersecretary for GASSG", "OPG-NCTSU, National Convergence Technical Support Unit", "OSEC, Office of the Secretary", "OSG, Office of the Secretary Group", "OSG-IAS, Internal Audit Service", "OSG-SMS, Social Marketing Service", "OSM, OFFICE FOR STRATEGY MANAGEMENT", "OUS-EC, Office of the Undersecretary for Exigent concerns", "OUS-LLA, Office of the Undersecretary Legislative Liason Affairs", "OUS-OPG-Protective, OUS-OPG-Protective", "OUS-PPDLLO, Office of the Secretary for Policy and Plans and Deparment Legislative Liaison Office", "OUS-SC, Office of the Under Secretary for Special Concern", "OUS-Special Projects, Office of the Undersecretary for Special Projects", "OUS-SWD, Office of the Undersecretary for Social Welfare and Development", "OUSDRM, Office of the Undersecretary for Disaster Response Management Group", "OUSEC-ADMIN for GASSG, GENERAL ADMINISTRATION AND SUPPORT SERVICES GROUP", "OUSEC-PPG, Office of U/Sec for PPG - DO NOT USE ", "OUSISP, Office of the Undersecretary for Inclusive and Sustainable Peace", "OUSO, Office of the Undersecretary for Operation", "OUSPPG, Office of the Undersecretary for Policy and plans Group", "OUSSCBG, Office of the Undersecretary for Standards and Capacity Building Group", "OUSSPIM, Office of the Undersecretary for Support Programs Infastructure Management", "PMB, Program Management Bureau", "PMD, Procurement Management Division", "PMD-BACSS, Bids and Awards Commitee Secretariat Section", "PMD-CMS, Contract Management Section", "PMD-PPMS, Procurement Planning and Management Section", "PROMOTIVE-OPG, Promotive Operation and Programs Group", "PROPERTY, WAREHOUSE, PROPERTY, WAREHOUSE", "PROTECTIVE-OPG, Protective Operation and Programs Group", "PSB-SWATO, Social Welfare Attche", "PSFMO-CIU, PSFMO-CIU", "RECLASSIFIED PROPERTY, RECLASSIFIED PROPERTY", "RGMO, Resource Generation and Management Office", "Security Guard, Security Guard", "SLP, Sustainable Livelihood Program", "Supplier, DSWD - Supplier", "SWADCAP, Social Welfare And Development Center Asia Pacific", "SWEMC, SWEMC", "SWIDB, (DO NOT USE) Social Welfare Institutional Development Bureau", "TCT,NPMO, Targeted Cash transfer NPMO"})
-        cmbxoffice.Location = New Point(314, 459)
+        cmbxoffice.Location = New Point(314, 469)
         cmbxoffice.Name = "cmbxoffice"
         cmbxoffice.ShadowDecoration.CustomizableEdges = CustomizableEdges36
         cmbxoffice.Size = New Size(344, 36)
@@ -1186,7 +1175,7 @@ Partial Class user_dashboard
         cmbxposition.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         cmbxposition.ItemHeight = 30
         cmbxposition.Items.AddRange(New Object() {"AA I", "AA II", "AA II Pantawid Pamilya RPMO", "AA III", "AA III - Sr.Bookkeeper", "AA III / Information Officer NHTS-PR", "AA III-Munipical Roving Bookkeeper", "AA-II ", "AA-II KALAHI-CIDDS", "AA-II KALAHI-CIDDS NCDDP_AF", "AC-KAASA", "Accountant I", "Accountant I/Officer in charge", "Accountant II", "Accountant III", "Accounting Clerk", "Acting Secretary", "Acting Social Welfare Officer III", "Activity Therapist", "Activity Worker I", "Admin Aide I", "Admin AIDE III", "Admin AIDE IIII", "Admin AIDE IV", "Admin AIDE VI ", "Admin Assistant", "Admin Assistant III", "Admin Assistant III (Computer Operator II)", "Admin Assistant V (Private Secretary I)", "Admin cum Finance Officer", "Admin Officer IV-Head, RROS", "Admin. Aide VI", "Admin.Assitant III/Information Officer (Listahanan)", "Admin.Officer IV/Head", "Admin.Officer V-Unit Head ", "Administrative Aide I", "Administrative Aide II", "Administrative Aide III", "Administrative Aide III (Encoder)", "Administrative Aide IV", "Administrative Aide IV (Clerk II)", "Administrative Aide IV (Driver)", "Administrative Aide IV (Encoder)", "Administrative Aide IV/Encoder", "Administrative Aide V", "Administrative Aide V (Chauffer I)", "Administrative Aide VI", "Administrative Aide VI (Clerk III)", "Administrative Assistant I", "Administrative Assistant II", "Administrative Assistant II (Procurement)", "Administrative Assistant II/SLP", "Administrative Assistant III", "Administrative Assistant III (Cash Clerk)", "Administrative Assistant III - Budget", "Administrative Assistant III (Budget Assistant)", "Administrative Assistant III/Senior Bookkeeper", "Administrative Assistant III/Socpen Accounting", "Administrative Assistant IV", "Administrative Assistant V", "Administrative Assistant V (Private Secretary I)", "Administrative Assistant VI ", "Administrative Cum Finance Officer", "Administrative Officer I", "Administrative Officer II", "Administrative Officer II - Infastructure Assistant", "Administrative Officer II - Property & Asset Officer", "Administrative Officer II/Head", "Administrative Officer III", "Administrative Officer IV", "Administrative Officer IV/KALAHI-CIDSS", "Administrative Officer IV/Encoder", "Administrative Officer IV/Head", "Administrative Officer V", "Administrative Officer V/Budget Officer", "Administrative Officer V/Financial Analyst III", "Administrative Officer V/Head", "Administrative Program Focal (PDO II-municipal link)", "Administrative Staff", "Administrative Support Staff", "AO II", "AO II/Financial Analyst II ", "AO II / PSYCHOMETRICIAN", "AO II-OIC Head, Property, Supply & Asset Mngt.Section", "AO II-Pantawid Property Officer", "AO II-Property Officer", "AO II-Property & Asset Officer", "AO II-Property Officer (Mainstream Staff Pantawid)", "AO IV", "AO IV-Financial Analyst II", "AO IV/Financial Analyst II", "AO IV/OIC-Procurement Unit Head", "AO V", "AO V-CASH HEAD", "AO V/Budget Officer NHTS-PR", "AOV-FMD-Cash-Head", "Architect I", "Architect II", "Architect III", "ARDO", "Area Coordinator", "Area Coordinarot/KALAHI CIDSS", "AREA SUPERVISOR", "Assistant Bureau Director", "Assistant Information Officer", "Assistant Regional Director for Administration (ARDA)", "Assistant Regional Director for Operations (ARDO)", "Assistant Secretary", "Assistant Secretary / OIC-IMB", "Assistant Secretary for OASOPG-Protective Programs ", "Assistant Service Director", "Associate Statistician", "Attorney III", "AttorneyIV", "Attorney V", "Audio-Visual Aids Technician III", "Audio-Visual Equipment Operator II", "AUDIT TEAM LEADER", "AUDIT TEAM MEMBER", "AVRC II Center Head", "BAC SEC & Procurement Service", "BAHAY PAG-ASA NG LAGUNA - CENTER HEAD", "BDM", "Beneficiary Update System Focal - PDO I", "Beneficiary Update System Focal - PDO II", "Bookkeeper", "BTMS-ENCODER", "Budget Assistant", "Budget Officer I", "Budget Officer II", "Budget Officer III", "Bureau Director", "CAD Operator", "Caretaker", "Carpenter", "Case Worker for MCCT (PDOII)", "Cash Clerk", "CASH CLERK / KALAHI-CIDSS", "Cashier II", "CDA II", "CEF - KALAHI CIDSS", "CEF / Executive Assistant", "CENTER HEAD", "CENTERS AND RESIDENTIAL CARE FACILITIES (CRCF)", "Chief", "Chief Account", "Chief Admin.Officer / OIC ARD for Administration", "Chief Administrative Officer", "Chief Administrative Officer V", "Chief Infastructure Engineer", "Child Psychologist for MCCT", "City Link", "City Link Officer", "CIVIL ENGINEER", "CL", "Clerk I", "Clerk II", "Clerk III/ HRMDD", "Clerk/Encoder", "Cluster Beneficiary Data Officer", "Cluster Compliance Verification System Focal", "Cluster Focal Person (BDM)", "Cluster Greivance Redress System Focal", "Cluster Greivance Officer", "CMT I", "CMT II", "CMT II - MCCT", "COA AUDITOR", "Comm. Development Officer III", "Commission on Audit XI", "Communication Equipment Operator I", "Communications Specialist", "Communications Officer IV", "Community Development Assistant", "Community Development Assistant II", "Community Development Officer II", "Community Development Officer III", "COMMUNITY DEVELOPMENT OFFICER III - IT", "COMMUNITY DEVELOPMENT OFFICER IV", "COMMUNITY DEVELOPMENT OFFICER IV/KALAHI CIDSS", "Community Empowerment Facilitator", "Community Empowerment Facilitator - Roving ", "Community Facilitator", "Community Facilitator Aide", "Community Facilitator Assistant", "Community Finance Facilitator", "Community Finance Monitor", "Community Financial Analyst", "Community Infastructure Officer ", "Community Infastructure Officer III", "Community Infastructure Specialist ", "Community Organizer", "Community Organizer III", "Community Procurement Officer ", "Community Procurement Officer 3", "Community Procurement Officer III", "Community Procurement Specialist ", "Computer Encoder", "Computer Maintenance Technologist I", "Computer Maintenance Technologist II", "Computer Operator", "Computer Operator I", "Computer Operator II", "Computer Operator III", "Computer Operator IV", "Computer Programmer I", "Computer Programmer II", "Computer Programmer III", "Concurrent Head", "Concurent National Program Manager", "Concurent OIC", "Consultant", "Convergeance Coordinator", "Cook", "Cook I", "Cook II", "CPO", "CPO IV", "Crative Arts Specialist", "DAC - DEPUTY ARE COORDINATOR", "Data Analyst III", "Data Encoder", "Database Specialist", "Day Care Worker I", "Day Care Worker II", "Default", "Dentist II", "Department Assistant Secretary", "Department Legislative Liaison Specialist", "Department Secretary", "Department Undersecretary", "Deputy Area Coordinator - Electrical Engineer", "Deputy Area Coordinator - Geoditic Engineer", "Deputy Area Coordinator - IT", "Deputy Community Development Specialist", "Deputy Director", "Deputy Nat'l Community - Infra. Engr.", "Deputy National M & E Specialist", "Deputy National Program Manager for Operations", "Deputy National Training Specialist", "Deputy NCBS", "Deputy Program Director", "Deputy Program Manager", "Deputy Program Manager Operation", "Deputy Regional Program Manager", "Deputy Regional Project Manager", "Deputy Technical Facilitator", "Derector", "Director III", "Director IV", "Division Chief", "Dormitory Manager I", "Dormitory Manager II", "DPMO", "DPMO/PROPERTY WAREHOUSE", "DPSC", "DRAFTSMAN", "Driver", "Driver II", "DSWD FO CARAGA", "ECCD Teacher", "Echonomist III", "Electrical Engineer", "Electrician I ", "Electrician II ", "Encoder", "Encoder III", "Encoder-BTMS", "Engineer I", "Engineer II", "Engineer III", "Engineer IV", "Engineer AIDE", "Environtmental Safeguard Specialist", "Executive Assistant ", "Executive Assistant I", "Executive Assistant II", "Executive Assistant III", "Executive Assistant IV", "Executive Assistant V", "Executive Assistant VI", "Executive Secretary/ Senior Administrative Assistant III", "FA - MAGSAYSAY", "FA II", "FA III", "Family Welfare Assistant for MCCT", "FDS Coordinator", "Field Program Manager", "Field Office Coordinator", "Field Program Manager", "Finance Officer Cum Administrative Officer", "Finance Officer III", "Financial Analyst", "Financial Analyst I", "Financial Analyst II", "Financial Analyst III", "Financial Analyst III (Budget Officer)", "Financial Analyst III (Cash Grants)", "Financial Analyst III/KALAHI CIDSS", "Financial Analyst IV", "Financial Analyst V", "Financial Analyst V (Project Accountant)", "Financial Assistant III", "FMD Chief", "FOCAL PERSON FOR OSEC", "FOR STORAGE", "FPC", "Gender Specialist", "Geodetic Engineer", "GIS Specialist", "Governance Specialist", "Goverment Intership Program", "Greivance Redress System Focal", "Greivance, Admin Officer", "Handicaft Worker II", "Head ", "Head Executive Assistant", "Head, Accounting Section", "Head, RAMS", "Heavy Equipment Operator I", "HMO Inlife Customer Service Representative", "House Attendant ", "Household Attendant III", "Houseparent I", "HOUSEPARENT II", "houseparent III", "Houseparent IV", "HR - Learning and Development", "HR Specialist", "HRMDD CHIEF", "Human Relations Officer I ", "Human Resource Officer", "Human Resource Officer I", "Human Resource Officer II", "Information analyst I", "Information Officer", "Information Officer I", "Information Officer I/Social Pension Program", "Information Officer I/UCT", "Information Officer II", "Information Officer III ", "Information Officer III (Social Marketing Officer III)", "Information Officer IV", "Information Officer V", "Information Specialist Analyst", "Information System Analyst", "Information System Analyst I", "Information System Analyst III", "Information Systems Analyst", "Information Technology Officer (Team Leader)", "Information Technology Officer I", "Information Technology Officer II", "Information Technology Officer III", "Institutional Partnership and Development Officer", "Instructor ", "Inter Auditing Assistant", "Internal Auditor I", "Internal Auditor II", "Internal Auditor III", "Internal Auditor IV", "Internal Auditor V", "IO", "IPDO", "JOB ORDER", "Job Placement Officer", "Junior Capacity Building Specialist", "Junior Community Procurement Specialist", "KALAHI CIDSS - Japan Fund for Proverty Reduction", "KM Writer", "Knowledge Management Writer", "Laundry Worker I ", "Laundry Worker II", "Laundry Worker/Cook", "Laundrywoman", "Legal Assistant I", "Legal Assistant II", "LIBRARIAN I", "Librarian II", "Logistic Officer III", "M & E Assistant III", "M & E I", "M & E II", "M & E Specialist", "M & E IV", "M & E V", "M & E Officer III", "Management and Audit Analyst II", "Management Audit Analyst", "Management Audit Analyst II", "Management Audit Analyst IV", "MANPOWER DEVELOPMENT ASSISTANT ", "Manpower Development Officer I", "Manpower Development Officer II", "Manpower Development Officer III", "MCCT Coordinator", "MDO I / PSYCHOMETRICIAN", "Media Officer IV", "Media Production Specialist", "Media Prodcution Specialist III", "MEDICAL OFFICER", "Medical Officer III", "Medical Officer IV", "MFA", "Midwife I", "Minister of Social Service BARMM", "ML PATNANUNGAN", "MOA", "Monitoring & Evaluation Officer I", "Monitoring & Evaluation Officer II", "Monitoring & Evaluation Officer III", "Monitoring & Evaluation III ", "Monitoring & Evaluation Officer ", "Monitoring & Evaluation Officer III (External)", "Monitoring & Evaluation Officer IV", "Monitoring & Evaluation Officer V", "MRB", "Municipal Financial Analyst", "Municipal Financial Analyst/KALAHI-CIDSS", "Municipal Financial Analyst", "Municipal Link", "Minicipal Link Officer", "Municipal Monitoring ", "Municipal Rooving Bookkeeper", "Municipal Roving Bookkeeper", "Municipal Social Welfare Development Officer", "National Capability Building Specialist", "National Community Infrastructure", "National DRRM Support Coordinator", "National Financial Analyst - KCMCC", "National M & E Specialist", "National Training Officer", "NCDS", "NHTO IT-Division Chief/ITO3", "Nurse I", "Nurse II", "Nutritionist-Dietician I", "Nutritionist-Dietician II", "Nutritionist-Dietician III", "Nutritionist-Dietician V", "OASOPG-PP", "ODM Specialist", "OIC ", "OIC - Director IV", "OIC AUDIT TEAM LEADER", "OIC DIVISION Chief - DReMD", "OIC Head, Property & Supply Section", "OIC - Assistant Regional Director for Operations", "OIC - ASEC - OASOSG", "OIC - Assistant Director", "OIC - Assistant Secretary", "OIC - Assistant Service Director", "OIC-Asst. Secretary for OSG", "OIC - Center Head", "OIC - CHIEF", "OIC Director", "OIC - Division Chief", "OIC - GSD", "OIC - Procurement Unit Head", "OIC - Regional Director", "OIC - USEC", "OIC/Chief", "OJT", "On-the-job Trainee", "Operations Program Focal (PDO II - Municipal Link)", "Organizational Development Specialist III", "Organizational Development Specialist IV", "Organizational Training Specialist IV", "Payapa at Masaganang Pamayanan ", "PDO", "PDO I", "PDO I/FMD Cash Grants ", "PDO I/DRMD ", "PDO I/Grievance Officer", "PDO I/provincial Monitoring Evaluation Officer", "PDO II", "PDO II - System coordinator", "PDO II Municipal link", "PDO II (Case Worker)", "PDO II - BUS", "PDO II - BUS Focal Person", "PDO - Coordination to Partner Agencies", "PDO II - CVS", "PDOII - EPAHPH", "PDO II - GAD", "PDO II - GRS", "PDO II - GRS (Cluster) ", "PDO II - Information II", "PDO II - IP", "PDO II - Monitoring & Evaluation Officer", "PDO II - SWAD TL", "PDO II / Capability building ", "PDO II / DRMD CCAM", "PDO II / ML TUAO, CAGAYAN", "PDO II / Municipal Link, Alicia, Isabela", "PDO II / Municipal Link, Ilagan City, Isabela", "PDO II / RMEO", "PDO II / SLP Batanes", "PDO II / SWAD TL", "PDO II / GRS ", "PDO II Municipal Link, Abulug, Cagayan", "PDO II - Institutional Partnership Development Officer", "PDO II - City link, Tuguegarao City, Cagayan", "PDO II - Cluster Benefeciary Data Officer", "PDO II - MCCT Community Facilitator", "PDO II - Municipal Link", "PDO II - Municipal Link Dupax Del Norte,N.V", "PDO II - Municipal Link, Ambaguio", "PDO II - Municipal Link, Buguey, Cagayan", "PDO II - Municipal Link, Diadi, N.V", "PDO II - Municipal Link, Enrile, Cagayan", "PDO II - Municipal Link, Iguig, Cagayan", "PDO II - Municipal Link, Napagtipunan, Quirino", "PDO II - Municipal Link, Saguday, Quirino", "PDO II - Municipal Link, Dupax Del Sur, N.V", "PDO II - Provincial Systems Focal", "PDO II - Regional Monitoring and Evaluation Officer", "PDO II/PMEO SLP ISABELA", "PDO II/Provincial Coordinator", "PDO II/Child Labord Focal Person", "PDO II/DRMD", "PDO II/DRMD CCAM", "PDO II/Geographic Info.System Specialist", "PDO II/Information Officer", "PDO II/LIQUIDATION FOCAL/RMEF", "PDO II/MCCT San Pablo, Isabela", "PDO II/ML APARRI, CAGAYAN", "PDO II/ML TUAO, CAGAYAN", "PDO II/MUNICIPAL LINK", "PDO II/Municipal Link Bambang, NV", "PDO II/Municipal Link Claveri, Cagayan", "PDO II/Municipal Link Diadi, NV", "PDO II/Municipal Link Dinapigue, Isabela", "PDO II/Municipal Link Gattaran, Cagayan", "PDO II/Municipal Link Kayapa, Nueva Viscaya", "PDO II/Municipal Link Pamplano, Cagayan", "PDO II/Municipal Link Peablanca, Cagayan", "PDO II/Municipal Link Quezon, Nueva Viscaya", "PDO II/Municipal LInk Rizal,Cagayan", "PDO II/Municipal Link Roxas,Isabela", "PDO II/Municipal Link San Isidro, Cagayan", "PDO II/Municipal Link San Isidro, Isabela", "PDO II/Municipal Link Sanchez Mira, Cagayan", "PDO II/Municipal Link Solano,NV", "PDO II/Municipal LInk Sta.Fe,NV", "PDO II/Municipal Link Sta.Praxedes,Cagayan", "PDO II/Municipal Link Sto.Nino,Cagayan", "PDO II/Municipal Link Villaverde", "PDO II/Municipal Link, Aparri,Cagayan", "PDO II/Municipal Link, Buguey, Cagayan", "PDO II/Municipal Link, Burgos, Isabela", "PDO II/Municipal Link, Divilacan, Isabela", "PDO II/Municipal Link, Jones,Isabela", "PDO II/Municipal Link,MACONACON, ISABELA", "PDO II/Municipal Link,SAn Agustin,Isabela", "PDo II/Municipal Link,San Mariano,Isabela", "PDO II/Municipal Link,San Mateo,Isabela", "PDO II/Municipal Link,Tumauini,Isabela", "PDO II/Municipal Link,Divilacan,Isabela", "PDO II/Municipal Link,Echague,Isabela", "PDO II/Municipal Link,Maconacon,Isabela", "PDO II/Municipal Link,San Mariano,Isabela", "PDO II/PMEO ISABELA", "PDO II/PMEO NUEVA VIZCAYA", "PDO II/PMEO QUIRINO", "PDO II/Private Sector Partnership Officer", "PDO II/Provincial Coordinator Isabela, Cagayan", "PDO II/Provincial Coordinator SLP Isabela", "PDO II/Provincial Coordinator SLP Quirino", "PDO II/Reports Generation", "PDO III", "PDO III/Area Coordinator", "PDO III/Area Coordinator", "PDO III/Civil Engineer", "PDO III TEchnical Staff/RSCWC", "PDO III/Area Coordinator", "PDO III/Head, CVRRCY", "PDO III/Reg'l Center Coordinator", "PDO III/RSCWC", "PDO IV", "PDO V/ RPC", "PDO V/Division", "PDO V/Regional Field Coordinator UCT", "PDO-I Social Pension", "PDO-II", "PDO-IIDRMMD", "PEO I", "PEO III", "PGO", "Photographer II", "Physical Therapist II", "Planning Officer I", "Planning Officer II", "Planning Officer III", "Planning Officer IV", "Planning Officer V", "Plumber", "PMEO", "PMO-EE", "Policy and Plans Division Chief", "PPG-OSM", "PPO", "Prisedent - SWEAP", "Private Secretary", "Private Secretary I ", "Procurement Assistant", "Procurement Assistant II", "PROCUREMENT ASST.", "Procurement Development Officer III", "Procurement Officer", "Procurement Specialist", "Profect Development Officer II (DRAFTMAN)", "Program Development III", "Project Evaluation Specialist", "Program Manager", "Program Officer", "Project Coordinator", "Project Development Office III", "Project Development Officer", "Project Development Officer I", "Project Development Officer I - KC", "Project Development Officer I - Nurse", "Project Development Officer I - Nutritionist - Dietician I", "Project Development Officer I/CAMP MANAGERS", "Project Development Officer II", "Project Development Officer II (CVS Focal)", "Project Development Officer II - BP2P", "Project Development Officer II - Database Specialist ", "Project Development Officer II - Infrastructure", "Project Development Officer II/SLP", "Project Development Officer II-CVS Focal (POO 2 Isabela)", "Project Development Officer II - MCCT", "Project Development Officer II - MunicipaL Link", "Project Development Officer II/GRS Focal", "Project Development Officer II/SLP", "Project Development Officer III", "Project Development Officer III - FDS Focal", "Project Development Officer III/Centenarian Focal Person", "Project Development Officer III/Regional Program Coordinator", "Project Development Officer IV ", "Project Development Officer V", "Project Development Officer V (Gender Specialist)", "Project Development Officer V (IP Specialist)", "Project Development Officer V - OIC", "Project Evaluation Officer", "Project Evaluation Officer II", "Project Evaluation Officer III", "Project Evaluation Officer IV", "Project Evaluation Officer V", "Project Management Officer", "Project Manager (UCT)", "Project Manager IV", "Project Officer", "Property Officer/Warehouse", "Provincial AA", "Provincial AA II", "Provincial Bus Officer (PDO II)", "PROVINCIAL CL", "Provinvial Coordinator", "Provinvial CVS Officer (PDO II)", "Provincial Grievance Officer", "Provincial Grievance Officer (PDO II)", "Provincial GRS Officer (PDO II)", "Provincial Link", "Psychologist I", "Psychologist II", "Psychologist III", "Psychometrician I", "Public Relations Officer IV", "Quality Management Specialist", "Records Officer ", "Regional Accountant", "Regional bookkeeper", "Regional capability Building Specialist", "Regional Community Development Specialist", "Regional Community Infrastructure Specialist", "Regional Director", "Regional Driver (KC-NCDDP) ", "Regional Executive Assistant ", "Regional Field Coordinator", "Regional Finance Specialist", "Regional Financial Analyst", "Regional Information Officer", "Regional Information Officer II-Head,SMU", "Regional Information Technology Officer ", "Regional Information Technology Officer I", "Regional Information Technology Officer II", "Regional Infrastructure Assistant", "Regional Infrastructure Officer", "Regional Infrastructure Officer II", "Regional Infrastructure Officer III", "Regional Monitoring And Evaluation Specialist", "Regional Procurement Officer", "Regional Procurement For Program", "Regional Procurement Officer For Program Community", "Regional Program coordinator", "Regional Program Coordinator - KALAHI - CIDSS", "Regional Program Coordinator - Operations", "Regional Sub - Committee for the Welfare of Children (RSCWC)", "Regional Training Assistant", "Regional Training Officer", "Regional Training Officer II", "Regional Training Specialist", "Repacker", "Research Officer III", "RIO III", "Roving Area Coordinator", "Roving Municipal Financial Analyst", "Roving technical Facilitator", "RSCWC - Technical Officer", "SA - IV", "SA - IV Audit Team Leader", "SAO", "SAO/DC", "SAO/OIC-DC", "Social Welfare Assistant - MCCT", "Secretary II", "Section Head", "Security Guard I (CT)", "Security Guard I (ICT)", "Security Guard II", "Security Officer II", "Senior Administrative Assistant I", "Senior Administrative Assistant II", "Senior Administrative Assistant III", "Senior Administrative Assistant IV", "Senior Administrative Assistant V", "Senior Administrative Officer", "Senior Bookkeeper", "Senior Bookkeeper (Admin Asst III)", "Senior M & E Assistant V", "Senior MANPOWER DEVELOPMENT OFFICER II", "Senior Statistician IV", "Senior Technical Officer ", "SGV", "Site Engineer", "Social Marketing Officer", "Social Marketing Officer III", "Social Marketing Officer III/KALAHI-CIDSS", "Social Marketing Specialist", "Social Safeguard Officer", "Social Safeguard Specialist", "Social Welfare Aide", "Social Welfare Assistant", "Social Welfare Assistant - CMU", "Social Welfare Assistant - MCCT IP", "Social Welfare Assistant I", "Social Welfare Assistant II", "Social Welfare Assistant - MCCT", "Social Welfare Attache", "Social Welfare Officer I ", "Social Welfare Officer I - OIC Center Head", "Social Welfare Officer II", "Social Welfare Officer II/EO 70 Focal", "Social Welfare Officer II/Family Focal", "Social Welfare Officer II/SWAD Team Leader", "Social Welfare Officer II/Team Leader", "Social Welfare Officer III", "Social Welfare Officer III-Center Head", "Social Welfare Officer III/Act as PL", "Social Welfare Officer III/TARA Focal", "Social Welfare Officer III/Team Leader", "Social Welfare Officer IV", "Social Welfare Officer IV, OIC-Chief,DReMD", "Social Welfare Officer IV - Center Head", "Social Welfare Officer V", "Social Welfare Officer V/OIC ARDO and Concurrent Head PSD", "Special Investigator III", "SPED TEACHER", "Stakeholder Management and Networking Specialist", "State Auditing Examiner", "State Auditing Examiner II", "State Auditor ", "State Auditor and Examiner ", "State Auditor I", "State Auditor II", "State Auditor III", "State Auditor IV", "State Auditor V", "Statistician", "Statistician Aide", "Statistician Aide II", "Statistician I", "Statistician II", "Statistician III", "Statistician IV", "Stockroom/Warehouse", "Storage Room", "Storekeeper", "Sub-Regional Program Coordinator", "Sub-Regional Project Coordinator", "Supervising Administrative I", "Supervising Administrative V", "Supervising Administrative Officer", "Supervising Administrative Officer - KC - NCDDP", "Supervising Administrative Officer/KALAHI - CIDSS", "Supervising Auditor V", "Supervisor", "Supplier", "Supply Officer I", "Supply Procurement Officer I", "SWA", "SWA - Convergence", "SWA AIDE", "SWA San Juan Batangas", "SWA - CMU", "SWI - III", "SWO - I", "SWO - II", "SWO - II/Women Focal Person", "SWO II - SWAD TL", "SWO II - OIC Center Head", "SWO II/Family Focal Person", "SWO II/Older Per & IISO Focal Person", "SWO II/RRPTP", "SWO II/RRPTP,PWD,PLHIV & Youth Focal Person", "SWO II/Women Focal Person", "SWO III", "SWO III/Head, Social Technology Section", "SWO III/Head, Regional Juvenile Justice and Welfare Council", "SWO III/OIC - SLP RPC", "SWO IV", "SWO IV UCT", "SWO V / Chief, Promotive Services Division", "SWO V / Division Chief", "SWO V / OIC ARD for Operations", "System Analyst II", "System Coordinator", "System Coordinator Officer (PDO II)", "System Coordinator Officer PDO II - BUS", "System Coordinator Officer PDO II - CVS", "System Coordinator Officer PDO II - GRS", "Teach for The Philippines Ambasador", "Teacher", "Teacher I", "Team Leader", "Team Leader SWAD Nueva Viscaya", "Techincal Empowerment facilitator", "Technical Facilitator", "Techinal Facilitator/KALAHI-CIDSS", "Technical Specialist", "Technician ", "Training Assistant II", "Training Center Superintendent II", "Training Specialist I", "Training Specialist II", "Training Specialist III", "Training Specialist IV", "TS IV", "UCT - Regional Field Coordinator", "Undersecretary ", "Undersecretary for Administration", "Utility Worker", "Utility Worker I", "Utility Worker II", "WAREHOUSE", "Warehouseman II"})
-        cmbxposition.Location = New Point(664, 459)
+        cmbxposition.Location = New Point(669, 397)
         cmbxposition.Name = "cmbxposition"
         cmbxposition.ShadowDecoration.CustomizableEdges = CustomizableEdges38
         cmbxposition.Size = New Size(273, 36)
@@ -1203,7 +1192,7 @@ Partial Class user_dashboard
         txtbxbdate.Format = DateTimePickerFormat.Long
         txtbxbdate.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxbdate.HoverState.ForeColor = Color.Black
-        txtbxbdate.Location = New Point(664, 386)
+        txtbxbdate.Location = New Point(664, 126)
         txtbxbdate.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
         txtbxbdate.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
         txtbxbdate.Name = "txtbxbdate"
@@ -1211,17 +1200,6 @@ Partial Class user_dashboard
         txtbxbdate.Size = New Size(273, 36)
         txtbxbdate.TabIndex = 157
         txtbxbdate.Value = New DateTime(2023, 6, 6, 13, 54, 41, 766)
-        ' 
-        ' Label18
-        ' 
-        Label18.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        Label18.AutoSize = True
-        Label18.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label18.Location = New Point(314, 429)
-        Label18.Name = "Label18"
-        Label18.Size = New Size(61, 25)
-        Label18.TabIndex = 156
-        Label18.Text = "Office"
         ' 
         ' cmbxcomm
         ' 
@@ -1238,33 +1216,11 @@ Partial Class user_dashboard
         cmbxcomm.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         cmbxcomm.ItemHeight = 30
         cmbxcomm.Items.AddRange(New Object() {"Education, Information & Research", "Organizing & Membership", "Grievances", "Welfare", "Finance", "Sports & Culture"})
-        cmbxcomm.Location = New Point(314, 526)
+        cmbxcomm.Location = New Point(314, 536)
         cmbxcomm.Name = "cmbxcomm"
         cmbxcomm.ShadowDecoration.CustomizableEdges = CustomizableEdges42
         cmbxcomm.Size = New Size(344, 36)
         cmbxcomm.TabIndex = 155
-        ' 
-        ' Label19
-        ' 
-        Label19.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        Label19.AutoSize = True
-        Label19.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label19.Location = New Point(314, 498)
-        Label19.Name = "Label19"
-        Label19.Size = New Size(105, 25)
-        Label19.TabIndex = 154
-        Label19.Text = "Committee"
-        ' 
-        ' Label20
-        ' 
-        Label20.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        Label20.AutoSize = True
-        Label20.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label20.Location = New Point(664, 357)
-        Label20.Name = "Label20"
-        Label20.Size = New Size(90, 25)
-        Label20.TabIndex = 153
-        Label20.Text = "Birthdate"
         ' 
         ' txtbxeduc
         ' 
@@ -1281,7 +1237,7 @@ Partial Class user_dashboard
         txtbxeduc.ForeColor = Color.Black
         txtbxeduc.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxeduc.HoverState.ForeColor = Color.Black
-        txtbxeduc.Location = New Point(56, 459)
+        txtbxeduc.Location = New Point(56, 469)
         txtbxeduc.Name = "txtbxeduc"
         txtbxeduc.PasswordChar = ChrW(0)
         txtbxeduc.PlaceholderText = ""
@@ -1289,17 +1245,6 @@ Partial Class user_dashboard
         txtbxeduc.ShadowDecoration.CustomizableEdges = CustomizableEdges44
         txtbxeduc.Size = New Size(249, 36)
         txtbxeduc.TabIndex = 152
-        ' 
-        ' Label21
-        ' 
-        Label21.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        Label21.AutoSize = True
-        Label21.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label21.Location = New Point(56, 429)
-        Label21.Name = "Label21"
-        Label21.Size = New Size(208, 25)
-        Label21.TabIndex = 151
-        Label21.Text = "Educational Attainment"
         ' 
         ' txtbxemail
         ' 
@@ -1316,7 +1261,7 @@ Partial Class user_dashboard
         txtbxemail.ForeColor = Color.Black
         txtbxemail.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxemail.HoverState.ForeColor = Color.Black
-        txtbxemail.Location = New Point(314, 386)
+        txtbxemail.Location = New Point(314, 396)
         txtbxemail.Name = "txtbxemail"
         txtbxemail.PasswordChar = ChrW(0)
         txtbxemail.PlaceholderText = ""
@@ -1324,17 +1269,6 @@ Partial Class user_dashboard
         txtbxemail.ShadowDecoration.CustomizableEdges = CustomizableEdges46
         txtbxemail.Size = New Size(344, 36)
         txtbxemail.TabIndex = 150
-        ' 
-        ' Label22
-        ' 
-        Label22.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        Label22.AutoSize = True
-        Label22.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label22.Location = New Point(314, 357)
-        Label22.Name = "Label22"
-        Label22.Size = New Size(125, 25)
-        Label22.TabIndex = 149
-        Label22.Text = "Email address"
         ' 
         ' txtbxcontact
         ' 
@@ -1350,7 +1284,7 @@ Partial Class user_dashboard
         txtbxcontact.ForeColor = Color.Black
         txtbxcontact.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxcontact.HoverState.ForeColor = Color.Black
-        txtbxcontact.Location = New Point(56, 387)
+        txtbxcontact.Location = New Point(56, 397)
         txtbxcontact.Name = "txtbxcontact"
         txtbxcontact.PasswordChar = ChrW(0)
         txtbxcontact.PlaceholderText = ""
@@ -1358,16 +1292,6 @@ Partial Class user_dashboard
         txtbxcontact.ShadowDecoration.CustomizableEdges = CustomizableEdges48
         txtbxcontact.Size = New Size(249, 36)
         txtbxcontact.TabIndex = 148
-        ' 
-        ' Label23
-        ' 
-        Label23.AutoSize = True
-        Label23.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label23.Location = New Point(56, 357)
-        Label23.Name = "Label23"
-        Label23.Size = New Size(76, 25)
-        Label23.TabIndex = 147
-        Label23.Text = "Contact"
         ' 
         ' txtbxadds
         ' 
@@ -1389,18 +1313,8 @@ Partial Class user_dashboard
         txtbxadds.PlaceholderText = ""
         txtbxadds.SelectedText = ""
         txtbxadds.ShadowDecoration.CustomizableEdges = CustomizableEdges50
-        txtbxadds.Size = New Size(602, 36)
+        txtbxadds.Size = New Size(886, 36)
         txtbxadds.TabIndex = 146
-        ' 
-        ' Label24
-        ' 
-        Label24.AutoSize = True
-        Label24.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label24.Location = New Point(56, 289)
-        Label24.Name = "Label24"
-        Label24.Size = New Size(79, 25)
-        Label24.TabIndex = 145
-        Label24.Text = "Address"
         ' 
         ' cmbxemployment
         ' 
@@ -1417,33 +1331,11 @@ Partial Class user_dashboard
         cmbxemployment.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         cmbxemployment.ItemHeight = 30
         cmbxemployment.Items.AddRange(New Object() {"MOA/COS", "CASUAL/CONTRACTUAL", "REGULAR", "TEMPORARY"})
-        cmbxemployment.Location = New Point(56, 527)
+        cmbxemployment.Location = New Point(56, 537)
         cmbxemployment.Name = "cmbxemployment"
         cmbxemployment.ShadowDecoration.CustomizableEdges = CustomizableEdges52
         cmbxemployment.Size = New Size(249, 36)
         cmbxemployment.TabIndex = 144
-        ' 
-        ' Label17
-        ' 
-        Label17.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        Label17.AutoSize = True
-        Label17.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label17.Location = New Point(56, 498)
-        Label17.Name = "Label17"
-        Label17.Size = New Size(172, 25)
-        Label17.TabIndex = 143
-        Label17.Text = "Employment status"
-        ' 
-        ' Label16
-        ' 
-        Label16.Anchor = AnchorStyles.Top Or AnchorStyles.Right
-        Label16.AutoSize = True
-        Label16.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label16.Location = New Point(664, 431)
-        Label16.Name = "Label16"
-        Label16.Size = New Size(80, 25)
-        Label16.TabIndex = 142
-        Label16.Text = "Position"
         ' 
         ' txtbxlname
         ' 
@@ -1468,16 +1360,6 @@ Partial Class user_dashboard
         txtbxlname.Size = New Size(278, 36)
         txtbxlname.TabIndex = 141
         ' 
-        ' Label15
-        ' 
-        Label15.AutoSize = True
-        Label15.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label15.Location = New Point(664, 221)
-        Label15.Name = "Label15"
-        Label15.Size = New Size(99, 25)
-        Label15.TabIndex = 140
-        Label15.Text = "Last Name"
-        ' 
         ' txtbxmname
         ' 
         txtbxmname.BorderRadius = 6
@@ -1500,16 +1382,6 @@ Partial Class user_dashboard
         txtbxmname.ShadowDecoration.CustomizableEdges = CustomizableEdges56
         txtbxmname.Size = New Size(344, 36)
         txtbxmname.TabIndex = 139
-        ' 
-        ' Label14
-        ' 
-        Label14.AutoSize = True
-        Label14.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label14.Location = New Point(314, 221)
-        Label14.Name = "Label14"
-        Label14.Size = New Size(125, 25)
-        Label14.TabIndex = 138
-        Label14.Text = "Middle Name"
         ' 
         ' txtbxfname
         ' 
@@ -1537,12 +1409,12 @@ Partial Class user_dashboard
         ' Label13
         ' 
         Label13.AutoSize = True
-        Label13.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label13.Location = New Point(56, 221)
+        Label13.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label13.Location = New Point(56, 222)
         Label13.Name = "Label13"
-        Label13.Size = New Size(102, 25)
+        Label13.Size = New Size(84, 22)
         Label13.TabIndex = 136
-        Label13.Text = "First Name"
+        Label13.Text = "First Name:"
         ' 
         ' txtbxpassword
         ' 
@@ -1624,7 +1496,7 @@ Partial Class user_dashboard
         btnUpdate.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnUpdate.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point)
         btnUpdate.ForeColor = Color.White
-        btnUpdate.Location = New Point(730, 526)
+        btnUpdate.Location = New Point(731, 493)
         btnUpdate.Name = "btnUpdate"
         btnUpdate.ShadowDecoration.CustomizableEdges = CustomizableEdges64
         btnUpdate.Size = New Size(183, 40)
@@ -1636,6 +1508,126 @@ Partial Class user_dashboard
         ' 
         ' Timer2
         ' 
+        ' 
+        ' Label14
+        ' 
+        Label14.AutoSize = True
+        Label14.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label14.Location = New Point(314, 222)
+        Label14.Name = "Label14"
+        Label14.Size = New Size(100, 22)
+        Label14.TabIndex = 164
+        Label14.Text = "Middle Name:"
+        ' 
+        ' Label15
+        ' 
+        Label15.AutoSize = True
+        Label15.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label15.Location = New Point(664, 222)
+        Label15.Name = "Label15"
+        Label15.Size = New Size(83, 22)
+        Label15.TabIndex = 165
+        Label15.Text = "Last Name:"
+        ' 
+        ' Label25
+        ' 
+        Label25.AutoSize = True
+        Label25.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label25.Location = New Point(669, 19)
+        Label25.Name = "Label25"
+        Label25.Size = New Size(58, 22)
+        Label25.TabIndex = 166
+        Label25.Text = "Gender"
+        ' 
+        ' Label20
+        ' 
+        Label20.AutoSize = True
+        Label20.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label20.Location = New Point(669, 97)
+        Label20.Name = "Label20"
+        Label20.Size = New Size(69, 22)
+        Label20.TabIndex = 167
+        Label20.Text = "Birthdate:"
+        ' 
+        ' Label24
+        ' 
+        Label24.AutoSize = True
+        Label24.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label24.Location = New Point(59, 293)
+        Label24.Name = "Label24"
+        Label24.Size = New Size(66, 22)
+        Label24.TabIndex = 168
+        Label24.Text = "Address:"
+        ' 
+        ' Label23
+        ' 
+        Label23.AutoSize = True
+        Label23.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label23.Location = New Point(60, 370)
+        Label23.Name = "Label23"
+        Label23.Size = New Size(61, 22)
+        Label23.TabIndex = 169
+        Label23.Text = "Contact:"
+        ' 
+        ' Label22
+        ' 
+        Label22.AutoSize = True
+        Label22.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label22.Location = New Point(314, 370)
+        Label22.Name = "Label22"
+        Label22.Size = New Size(106, 22)
+        Label22.TabIndex = 170
+        Label22.Text = "Email Address:"
+        ' 
+        ' Label16
+        ' 
+        Label16.AutoSize = True
+        Label16.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label16.Location = New Point(669, 370)
+        Label16.Name = "Label16"
+        Label16.Size = New Size(63, 22)
+        Label16.TabIndex = 171
+        Label16.Text = "Position:"
+        ' 
+        ' Label26
+        ' 
+        Label26.AutoSize = True
+        Label26.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label26.Location = New Point(60, 444)
+        Label26.Name = "Label26"
+        Label26.Size = New Size(157, 22)
+        Label26.TabIndex = 172
+        Label26.Text = "Educational Attainment:"
+        ' 
+        ' Label18
+        ' 
+        Label18.AutoSize = True
+        Label18.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label18.Location = New Point(314, 444)
+        Label18.Name = "Label18"
+        Label18.Size = New Size(49, 22)
+        Label18.TabIndex = 173
+        Label18.Text = "Office:"
+        ' 
+        ' Label17
+        ' 
+        Label17.AutoSize = True
+        Label17.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label17.Location = New Point(60, 509)
+        Label17.Name = "Label17"
+        Label17.Size = New Size(136, 22)
+        Label17.TabIndex = 174
+        Label17.Text = "Employment Status:"
+        ' 
+        ' Label19
+        ' 
+        Label19.AutoSize = True
+        Label19.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label19.Location = New Point(314, 511)
+        Label19.Name = "Label19"
+        Label19.Size = New Size(83, 22)
+        Label19.TabIndex = 175
+        Label19.Text = "Committee:"
         ' 
         ' user_dashboard
         ' 
@@ -1712,29 +1704,17 @@ Partial Class user_dashboard
     Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents user_Profile As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents cmboSex As Guna.UI2.WinForms.Guna2ComboBox
-    Friend WithEvents Label34 As Label
     Friend WithEvents cmbxoffice As Guna.UI2.WinForms.Guna2ComboBox
     Friend WithEvents cmbxposition As Guna.UI2.WinForms.Guna2ComboBox
     Friend WithEvents txtbxbdate As Guna.UI2.WinForms.Guna2DateTimePicker
-    Friend WithEvents Label18 As Label
     Friend WithEvents cmbxcomm As Guna.UI2.WinForms.Guna2ComboBox
-    Friend WithEvents Label19 As Label
-    Friend WithEvents Label20 As Label
     Friend WithEvents txtbxeduc As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Label21 As Label
     Friend WithEvents txtbxemail As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Label22 As Label
     Friend WithEvents txtbxcontact As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Label23 As Label
     Friend WithEvents txtbxadds As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Label24 As Label
     Friend WithEvents cmbxemployment As Guna.UI2.WinForms.Guna2ComboBox
-    Friend WithEvents Label17 As Label
-    Friend WithEvents Label16 As Label
     Friend WithEvents txtbxlname As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Label15 As Label
     Friend WithEvents txtbxmname As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Label14 As Label
     Friend WithEvents txtbxfname As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label13 As Label
     Friend WithEvents txtbxpassword As Guna.UI2.WinForms.Guna2TextBox
@@ -1756,4 +1736,16 @@ Partial Class user_dashboard
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column5 As DataGridViewTextBoxColumn
     Friend WithEvents Column6 As DataGridViewTextBoxColumn
+    Friend WithEvents Label19 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Label26 As Label
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label14 As Label
 End Class
