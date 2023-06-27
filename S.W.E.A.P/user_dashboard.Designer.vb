@@ -931,10 +931,10 @@ Partial Class user_dashboard
         ' 
         ' BeneficiariesDGV
         ' 
-        DataGridViewCellStyle1.BackColor = Color.White
+        DataGridViewCellStyle1.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
         BeneficiariesDGV.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
         DataGridViewCellStyle2.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         DataGridViewCellStyle2.ForeColor = Color.White
         DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
@@ -946,42 +946,43 @@ Partial Class user_dashboard
         BeneficiariesDGV.Columns.AddRange(New DataGridViewColumn() {Column1, Column2, Column5, Column6})
         BeneficiariesDGV.Cursor = Cursors.Hand
         DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = Color.White
+        DataGridViewCellStyle3.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
         DataGridViewCellStyle3.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle3.ForeColor = Color.Black
+        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
+        DataGridViewCellStyle3.SelectionForeColor = Color.Black
         DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
         BeneficiariesDGV.DefaultCellStyle = DataGridViewCellStyle3
         BeneficiariesDGV.Dock = DockStyle.Bottom
-        BeneficiariesDGV.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        BeneficiariesDGV.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
         BeneficiariesDGV.Location = New Point(4, 102)
         BeneficiariesDGV.Name = "BeneficiariesDGV"
         BeneficiariesDGV.RowHeadersVisible = False
         BeneficiariesDGV.RowTemplate.Height = 25
         BeneficiariesDGV.Size = New Size(991, 480)
         BeneficiariesDGV.TabIndex = 36
-        BeneficiariesDGV.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
+        BeneficiariesDGV.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt
+        BeneficiariesDGV.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
         BeneficiariesDGV.ThemeStyle.AlternatingRowsStyle.Font = Nothing
         BeneficiariesDGV.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
         BeneficiariesDGV.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
         BeneficiariesDGV.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
         BeneficiariesDGV.ThemeStyle.BackColor = Color.White
-        BeneficiariesDGV.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        BeneficiariesDGV.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        BeneficiariesDGV.ThemeStyle.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
+        BeneficiariesDGV.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
         BeneficiariesDGV.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
-        BeneficiariesDGV.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        BeneficiariesDGV.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         BeneficiariesDGV.ThemeStyle.HeaderStyle.ForeColor = Color.White
         BeneficiariesDGV.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         BeneficiariesDGV.ThemeStyle.HeaderStyle.Height = 17
         BeneficiariesDGV.ThemeStyle.ReadOnly = False
-        BeneficiariesDGV.ThemeStyle.RowsStyle.BackColor = Color.White
+        BeneficiariesDGV.ThemeStyle.RowsStyle.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
         BeneficiariesDGV.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        BeneficiariesDGV.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        BeneficiariesDGV.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        BeneficiariesDGV.ThemeStyle.RowsStyle.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        BeneficiariesDGV.ThemeStyle.RowsStyle.ForeColor = Color.Black
         BeneficiariesDGV.ThemeStyle.RowsStyle.Height = 25
-        BeneficiariesDGV.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        BeneficiariesDGV.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        BeneficiariesDGV.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
+        BeneficiariesDGV.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black
         ' 
         ' search
         ' 
