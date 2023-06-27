@@ -185,11 +185,7 @@ Partial Class Loan
         Column34 = New DataGridViewTextBoxColumn()
         Column35 = New DataGridViewImageColumn()
         contribution = New TabPage()
-        Guna2DataGridView2 = New Guna.UI2.WinForms.Guna2DataGridView()
-        Column37 = New DataGridViewTextBoxColumn()
-        Column38 = New DataGridViewTextBoxColumn()
-        Column39 = New DataGridViewTextBoxColumn()
-        Column40 = New DataGridViewTextBoxColumn()
+        dgContribution = New Guna.UI2.WinForms.Guna2DataGridView()
         Panel9 = New Panel()
         Guna2TextBox7 = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
@@ -213,6 +209,15 @@ Partial Class Loan
         contriTimer = New Timer(components)
         Panel11 = New Panel()
         lblTime = New Label()
+        Column37 = New DataGridViewTextBoxColumn()
+        Column38 = New DataGridViewTextBoxColumn()
+        Column39 = New DataGridViewTextBoxColumn()
+        Column40 = New DataGridViewTextBoxColumn()
+        Column45 = New DataGridViewTextBoxColumn()
+        Column41 = New DataGridViewTextBoxColumn()
+        Column42 = New DataGridViewTextBoxColumn()
+        Column43 = New DataGridViewTextBoxColumn()
+        Column44 = New DataGridViewTextBoxColumn()
         tabconLoan.SuspendLayout()
         addLoan.SuspendLayout()
         Panel3.SuspendLayout()
@@ -234,7 +239,7 @@ Partial Class Loan
         Panel4.SuspendLayout()
         CType(dgEmList, ComponentModel.ISupportInitialize).BeginInit()
         contribution.SuspendLayout()
-        CType(Guna2DataGridView2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(dgContribution, ComponentModel.ISupportInitialize).BeginInit()
         Panel9.SuspendLayout()
         CType(numContriEditAmount, ComponentModel.ISupportInitialize).BeginInit()
         Panel8.SuspendLayout()
@@ -1467,7 +1472,7 @@ Partial Class Loan
         ' contribution
         ' 
         contribution.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
-        contribution.Controls.Add(Guna2DataGridView2)
+        contribution.Controls.Add(dgContribution)
         contribution.Controls.Add(Panel9)
         contribution.Controls.Add(Panel8)
         contribution.Location = New Point(4, 44)
@@ -1477,85 +1482,62 @@ Partial Class Loan
         contribution.TabIndex = 2
         contribution.Text = "Update Contribution"
         ' 
-        ' Guna2DataGridView2
+        ' dgContribution
         ' 
-        Guna2DataGridView2.AllowUserToAddRows = False
-        Guna2DataGridView2.AllowUserToDeleteRows = False
-        DataGridViewCellStyle16.BackColor = Color.White
-        Guna2DataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle16
-        Guna2DataGridView2.BackgroundColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        dgContribution.AllowUserToAddRows = False
+        dgContribution.AllowUserToDeleteRows = False
+        DataGridViewCellStyle16.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
+        dgContribution.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle16
+        dgContribution.BackgroundColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
         DataGridViewCellStyle17.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle17.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        DataGridViewCellStyle17.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
         DataGridViewCellStyle17.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         DataGridViewCellStyle17.ForeColor = Color.White
         DataGridViewCellStyle17.SelectionBackColor = SystemColors.Highlight
         DataGridViewCellStyle17.SelectionForeColor = SystemColors.HighlightText
         DataGridViewCellStyle17.WrapMode = DataGridViewTriState.True
-        Guna2DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle17
-        Guna2DataGridView2.ColumnHeadersHeight = 17
-        Guna2DataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        Guna2DataGridView2.Columns.AddRange(New DataGridViewColumn() {Column37, Column38, Column39, Column40})
+        dgContribution.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle17
+        dgContribution.ColumnHeadersHeight = 17
+        dgContribution.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        dgContribution.Columns.AddRange(New DataGridViewColumn() {Column37, Column38, Column39, Column40, Column45, Column41, Column42, Column43, Column44})
         DataGridViewCellStyle18.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle18.BackColor = Color.White
+        DataGridViewCellStyle18.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
         DataGridViewCellStyle18.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        DataGridViewCellStyle18.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle18.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        DataGridViewCellStyle18.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle18.ForeColor = Color.Black
+        DataGridViewCellStyle18.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
+        DataGridViewCellStyle18.SelectionForeColor = Color.Black
         DataGridViewCellStyle18.WrapMode = DataGridViewTriState.False
-        Guna2DataGridView2.DefaultCellStyle = DataGridViewCellStyle18
-        Guna2DataGridView2.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        Guna2DataGridView2.Location = New Point(18, 294)
-        Guna2DataGridView2.Name = "Guna2DataGridView2"
-        Guna2DataGridView2.ReadOnly = True
-        Guna2DataGridView2.RowHeadersVisible = False
-        Guna2DataGridView2.RowTemplate.Height = 25
-        Guna2DataGridView2.Size = New Size(1145, 350)
-        Guna2DataGridView2.TabIndex = 1
-        Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
-        Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = Nothing
-        Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
-        Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
-        Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
-        Guna2DataGridView2.ThemeStyle.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Guna2DataGridView2.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        Guna2DataGridView2.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
-        Guna2DataGridView2.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
-        Guna2DataGridView2.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2DataGridView2.ThemeStyle.HeaderStyle.ForeColor = Color.White
-        Guna2DataGridView2.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        Guna2DataGridView2.ThemeStyle.HeaderStyle.Height = 17
-        Guna2DataGridView2.ThemeStyle.ReadOnly = True
-        Guna2DataGridView2.ThemeStyle.RowsStyle.BackColor = Color.White
-        Guna2DataGridView2.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        Guna2DataGridView2.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2DataGridView2.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        Guna2DataGridView2.ThemeStyle.RowsStyle.Height = 25
-        Guna2DataGridView2.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        Guna2DataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        ' 
-        ' Column37
-        ' 
-        Column37.HeaderText = "ID"
-        Column37.Name = "Column37"
-        Column37.ReadOnly = True
-        ' 
-        ' Column38
-        ' 
-        Column38.HeaderText = "Full Name"
-        Column38.Name = "Column38"
-        Column38.ReadOnly = True
-        ' 
-        ' Column39
-        ' 
-        Column39.HeaderText = "Position"
-        Column39.Name = "Column39"
-        Column39.ReadOnly = True
-        ' 
-        ' Column40
-        ' 
-        Column40.HeaderText = "Membership"
-        Column40.Name = "Column40"
-        Column40.ReadOnly = True
+        dgContribution.DefaultCellStyle = DataGridViewCellStyle18
+        dgContribution.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
+        dgContribution.Location = New Point(18, 294)
+        dgContribution.Name = "dgContribution"
+        dgContribution.ReadOnly = True
+        dgContribution.RowHeadersVisible = False
+        dgContribution.RowTemplate.Height = 25
+        dgContribution.Size = New Size(1145, 350)
+        dgContribution.TabIndex = 1
+        dgContribution.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt
+        dgContribution.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
+        dgContribution.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        dgContribution.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
+        dgContribution.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
+        dgContribution.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
+        dgContribution.ThemeStyle.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        dgContribution.ThemeStyle.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
+        dgContribution.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(52), CByte(73), CByte(94))
+        dgContribution.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
+        dgContribution.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        dgContribution.ThemeStyle.HeaderStyle.ForeColor = Color.White
+        dgContribution.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        dgContribution.ThemeStyle.HeaderStyle.Height = 17
+        dgContribution.ThemeStyle.ReadOnly = True
+        dgContribution.ThemeStyle.RowsStyle.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
+        dgContribution.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
+        dgContribution.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        dgContribution.ThemeStyle.RowsStyle.ForeColor = Color.Black
+        dgContribution.ThemeStyle.RowsStyle.Height = 25
+        dgContribution.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
+        dgContribution.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black
         ' 
         ' Panel9
         ' 
@@ -1836,9 +1818,9 @@ Partial Class Loan
         ' 
         Panel11.BackColor = Color.FromArgb(CByte(64), CByte(0), CByte(0))
         Panel11.Controls.Add(lblTime)
-        Panel11.Location = New Point(933, 10)
+        Panel11.Location = New Point(949, 10)
         Panel11.Name = "Panel11"
-        Panel11.Size = New Size(156, 31)
+        Panel11.Size = New Size(127, 31)
         Panel11.TabIndex = 4
         ' 
         ' lblTime
@@ -1846,11 +1828,80 @@ Partial Class Loan
         lblTime.AutoSize = True
         lblTime.Font = New Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point)
         lblTime.ForeColor = Color.Cyan
-        lblTime.Location = New Point(31, 1)
+        lblTime.Location = New Point(17, 3)
         lblTime.Name = "lblTime"
         lblTime.Size = New Size(88, 25)
         lblTime.TabIndex = 5
         lblTime.Text = "12:15:16"
+        ' 
+        ' Column37
+        ' 
+        Column37.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column37.HeaderText = "ID"
+        Column37.Name = "Column37"
+        Column37.ReadOnly = True
+        Column37.Width = 41
+        ' 
+        ' Column38
+        ' 
+        Column38.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column38.HeaderText = "Full Name"
+        Column38.Name = "Column38"
+        Column38.ReadOnly = True
+        ' 
+        ' Column39
+        ' 
+        Column39.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column39.HeaderText = "Position"
+        Column39.Name = "Column39"
+        Column39.ReadOnly = True
+        ' 
+        ' Column40
+        ' 
+        Column40.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column40.HeaderText = "Membership"
+        Column40.Name = "Column40"
+        Column40.ReadOnly = True
+        Column40.Width = 97
+        ' 
+        ' Column45
+        ' 
+        Column45.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column45.HeaderText = "Union Dues"
+        Column45.Name = "Column45"
+        Column45.ReadOnly = True
+        Column45.Width = 91
+        ' 
+        ' Column41
+        ' 
+        Column41.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column41.HeaderText = "BOV"
+        Column41.Name = "Column41"
+        Column41.ReadOnly = True
+        Column41.Width = 53
+        ' 
+        ' Column42
+        ' 
+        Column42.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column42.HeaderText = "Contribution4"
+        Column42.Name = "Column42"
+        Column42.ReadOnly = True
+        Column42.Width = 104
+        ' 
+        ' Column43
+        ' 
+        Column43.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column43.HeaderText = "Contribution5"
+        Column43.Name = "Column43"
+        Column43.ReadOnly = True
+        Column43.Width = 104
+        ' 
+        ' Column44
+        ' 
+        Column44.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column44.HeaderText = "Updated at"
+        Column44.Name = "Column44"
+        Column44.ReadOnly = True
         ' 
         ' Loan
         ' 
@@ -1894,7 +1945,7 @@ Partial Class Loan
         Panel4.PerformLayout()
         CType(dgEmList, ComponentModel.ISupportInitialize).EndInit()
         contribution.ResumeLayout(False)
-        CType(Guna2DataGridView2, ComponentModel.ISupportInitialize).EndInit()
+        CType(dgContribution, ComponentModel.ISupportInitialize).EndInit()
         Panel9.ResumeLayout(False)
         Panel9.PerformLayout()
         CType(numContriEditAmount, ComponentModel.ISupportInitialize).EndInit()
@@ -2034,13 +2085,18 @@ Partial Class Loan
     Friend WithEvents Label28 As Label
     Friend WithEvents numContriEditAmount As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents pickPeriodity As Guna.UI2.WinForms.Guna2ComboBox
-    Friend WithEvents Guna2DataGridView2 As Guna.UI2.WinForms.Guna2DataGridView
+    Friend WithEvents dgContribution As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents Guna2TextBox7 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents contriTimer As Timer
+    Friend WithEvents Panel11 As Panel
+    Friend WithEvents lblTime As Label
     Friend WithEvents Column37 As DataGridViewTextBoxColumn
     Friend WithEvents Column38 As DataGridViewTextBoxColumn
     Friend WithEvents Column39 As DataGridViewTextBoxColumn
     Friend WithEvents Column40 As DataGridViewTextBoxColumn
-    Friend WithEvents contriTimer As Timer
-    Friend WithEvents Panel11 As Panel
-    Friend WithEvents lblTime As Label
+    Friend WithEvents Column45 As DataGridViewTextBoxColumn
+    Friend WithEvents Column41 As DataGridViewTextBoxColumn
+    Friend WithEvents Column42 As DataGridViewTextBoxColumn
+    Friend WithEvents Column43 As DataGridViewTextBoxColumn
+    Friend WithEvents Column44 As DataGridViewTextBoxColumn
 End Class

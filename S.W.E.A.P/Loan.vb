@@ -25,7 +25,7 @@ Public Class Loan
     Dim random As Integer = 0
     Dim i As Integer = 0
     Dim message As String
-    Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.192.162;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
     Dim selectedId As Integer = 0
     '------------------------------------VARIABLE DECLARATION FOR CONTRIBUTIONS----------------------------------------------
@@ -101,6 +101,23 @@ Public Class Loan
         principal = Math.Round(principal, 2)
         endBalance = Math.Round(endBalance, 2)
         CumuInterest = Math.Round(CumuInterest, 2)
+    End Sub
+
+    Public Sub contriGrid()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select user_id, concat(users.first_name, ' ', users.middle_name, ' ', users.last_name) as full_name, users.position, sum(membership_fee) as membership,
+                                        sum(union_dues) as union_due, sum(bereavement) as bereavement, sum(contribution4) as con4, sum(contribution5) as con5, contributions.updated_at from contributions left join users
+                                            on contributions.user_id = users.id group by contributions.user_id", conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                dgContribution.Rows.Add(rid.Item("user_id"), rid.Item("full_name"), rid.Item("position"), rid.Item("membership"), rid.Item("union_due"), rid.Item("bereavement"), rid.Item("con4"), rid.Item("con5"), rid.Item("updated_at"))
+            End While
+        Catch ex As Exception
+            MsgBox("datagrid doesnt wokr!")
+        Finally
+            conn.Close()
+        End Try
     End Sub
     '------------------------------------END OF FUNCTIONS-----------------------------------------------------
 
@@ -268,8 +285,27 @@ Public Class Loan
     End Sub
 
     Private Sub Form2_Load_1(sender As Object, e As EventArgs) Handles MyBase.Load '------------AUTOLOAD
+        contriGrid()
         contriTimer.Start()
         contributions(0) = New class_contribution("Union Dues", "Annually", 0)
+        contributions(1) = New class_contribution("Union Dues", "Weekly", 0)
+        contributions(2) = New class_contribution("Union Dues", "Monthly", 0)
+
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select month(updated_at) as month, year(updated_at) as year, week(updated_at) as week from contributions", conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                updatedMonth = rid.GetInt32("month")
+                updatedYear = rid.GetInt32("year")
+                updatedWeek = rid.GetInt32("week")
+            End While
+        Catch ex As Exception
+        Finally
+            conn.Close()
+        End Try
+
+        MsgBox(updatedMonth & vbNewLine & updatedYear & vbNewLine & updatedWeek)
 
         dgSelectEm.Rows.Clear()
         Try
@@ -285,19 +321,7 @@ Public Class Loan
             conn.Close()
         End Try
 
-        Try
-            conn.Open()
-            Dim cmd As New MySqlCommand("select month(updated_at) as month, year(updated_at) as year, week(updated_at) as week from contributions", conn)
-            rid = cmd.ExecuteReader
-            While rid.Read
-                updatedMonth = rid.GetInt32("month")
-                updatedYear = rid.GetInt32("year")
-                updatedWeek = rid.GetInt32("week")
-            End While
-        Catch ex As Exception
-        Finally
-            conn.Close()
-        End Try
+
 
         btnApprove.Enabled = False
         pnlSelectLender.Visible = False
@@ -365,7 +389,7 @@ Public Class Loan
     '------------------------------------------------------------CONTRIBUTIONS--------------------------------------------------------------------
 
     Dim contriCounter As Integer = 0
-    Public Shared contributions(0) As class_contribution
+    Public Shared contributions(2) As class_contribution
 
     Public Class class_contribution
         Public contriName As String
@@ -399,28 +423,31 @@ Public Class Loan
         Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
         Dim currentdate As DateTime = currenttime
         lblTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
+
+        'If updatedMonth <> currentdate.Month Then
+        '    For Each contribution As class_contribution In contributions
+        '        If contribution.period = "Monthly" Then
+        '            contribution.dueMonth()
+        '        End If
+        '    Next
+        'End If
+        'If updatedYear <> currentdate.Year Then
+        '    For Each contribution As class_contribution In contributions
+        '        If contribution.period = "Annually" Then
+        '            contribution.dueYear()
+        '        End If
+        '    Next
+        'End If
+        'If updatedWeek <> (currentdate.Day / 7) Then
+        '    For Each contribution As class_contribution In contributions
+        '        If contribution.period = "Weekly" Then
+        '            contribution.dueWeek()
+        '        End If
+        '    Next
+        'End If
+
     End Sub
 
-    'if updatedmonth <> currentdate.month then
-    '        for each contribution as class_contribution in contributions
-    '            if contribution.period = "monthly" then
-    '                contribution.duemonth()
-    '            end if
-    '        next
-    '    end if
-    '    if updatedyear <> currentdate.year then
-    '        for each contribution as class_contribution in contributions
-    '            if contribution.period = "annually" then
-    '                contribution.dueyear()
-    '            end if
-    '        next
-    '    end if
-    '    if updatedweek <> (currentdate.day / 7) then
-    '        for each contribution as class_contribution in contributions
-    '            if contribution.period = "weekly" then
-    '                contribution.dueweek()
-    '            end if
-    '        next
-    '    end if
+
 End Class
 
