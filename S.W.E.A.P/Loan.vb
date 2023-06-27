@@ -270,8 +270,7 @@ Public Class Loan
     Private Sub Form2_Load_1(sender As Object, e As EventArgs) Handles MyBase.Load '------------AUTOLOAD
         contriTimer.Start()
         contributions(0) = New class_contribution("Union Dues", "Annually", 0)
-        contributions(1) = New class_contribution("Union Dues", "Weekly", 0)
-        contributions(2) = New class_contribution("Union Dues", "Monthly", 0)
+
         dgSelectEm.Rows.Clear()
         Try
             conn.Open()
