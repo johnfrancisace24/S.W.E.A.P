@@ -305,7 +305,7 @@ Public Class Loan
         Finally
             conn.Close()
         End Try
-        updatedWeek = 50
+
         dgSelectEm.Rows.Clear()
         Try
             conn.Open()
@@ -454,7 +454,7 @@ Public Class Loan
             contriGrid()
 
         End If
-        MsgBox(updatedWeek)
+
         If updatedWeek <> currentweek Then
             For Each contribution As class_contribution In contributions
                 If contribution.period = "Weekly" Then
