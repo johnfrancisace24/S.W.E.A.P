@@ -73,6 +73,9 @@ Partial Class Loan
         Dim DataGridViewCellStyle13 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle14 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle15 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle16 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle17 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle18 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -89,8 +92,6 @@ Partial Class Loan
         Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges53 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Loan))
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
@@ -184,31 +185,34 @@ Partial Class Loan
         Column34 = New DataGridViewTextBoxColumn()
         Column35 = New DataGridViewImageColumn()
         contribution = New TabPage()
+        Guna2DataGridView2 = New Guna.UI2.WinForms.Guna2DataGridView()
+        Column37 = New DataGridViewTextBoxColumn()
+        Column38 = New DataGridViewTextBoxColumn()
+        Column39 = New DataGridViewTextBoxColumn()
+        Column40 = New DataGridViewTextBoxColumn()
         Panel9 = New Panel()
-        Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
+        Guna2TextBox7 = New Guna.UI2.WinForms.Guna2TextBox()
+        Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
+        pickContriEditPeriod = New Guna.UI2.WinForms.Guna2ComboBox()
         Label25 = New Label()
         Label26 = New Label()
-        Guna2NumericUpDown2 = New Guna.UI2.WinForms.Guna2NumericUpDown()
-        Panel10 = New Panel()
-        Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2ComboBox2 = New Guna.UI2.WinForms.Guna2ComboBox()
-        Label24 = New Label()
-        Label29 = New Label()
-        Label31 = New Label()
-        Label30 = New Label()
         Label27 = New Label()
         Label28 = New Label()
-        Guna2NumericUpDown4 = New Guna.UI2.WinForms.Guna2NumericUpDown()
-        Guna2NumericUpDown3 = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        numContriEditAmount = New Guna.UI2.WinForms.Guna2NumericUpDown()
         Panel8 = New Panel()
-        Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Guna2ComboBox1 = New Guna.UI2.WinForms.Guna2ComboBox()
+        txtContriName = New Guna.UI2.WinForms.Guna2TextBox()
+        pickPeriodity = New Guna.UI2.WinForms.Guna2ComboBox()
+        btnCreateContri = New Guna.UI2.WinForms.Guna2Button()
         Label23 = New Label()
+        Label24 = New Label()
         Label22 = New Label()
         Label21 = New Label()
-        Guna2NumericUpDown1 = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        numContriAmount = New Guna.UI2.WinForms.Guna2NumericUpDown()
         Label13 = New Label()
         Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
+        contriTimer = New Timer(components)
+        Panel11 = New Panel()
+        lblTime = New Label()
         tabconLoan.SuspendLayout()
         addLoan.SuspendLayout()
         Panel3.SuspendLayout()
@@ -230,13 +234,12 @@ Partial Class Loan
         Panel4.SuspendLayout()
         CType(dgEmList, ComponentModel.ISupportInitialize).BeginInit()
         contribution.SuspendLayout()
+        CType(Guna2DataGridView2, ComponentModel.ISupportInitialize).BeginInit()
         Panel9.SuspendLayout()
-        CType(Guna2NumericUpDown2, ComponentModel.ISupportInitialize).BeginInit()
-        Panel10.SuspendLayout()
-        CType(Guna2NumericUpDown4, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Guna2NumericUpDown3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(numContriEditAmount, ComponentModel.ISupportInitialize).BeginInit()
         Panel8.SuspendLayout()
-        CType(Guna2NumericUpDown1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(numContriAmount, ComponentModel.ISupportInitialize).BeginInit()
+        Panel11.SuspendLayout()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -433,13 +436,13 @@ Partial Class Loan
         dateStart.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         dateStart.Format = DateTimePickerFormat.Long
         dateStart.Location = New Point(244, 166)
-        dateStart.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
-        dateStart.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        dateStart.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
+        dateStart.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
         dateStart.Name = "dateStart"
         dateStart.ShadowDecoration.CustomizableEdges = CustomizableEdges13
         dateStart.Size = New Size(218, 25)
         dateStart.TabIndex = 3
-        dateStart.Value = New Date(2023, 6, 14, 8, 36, 49, 499)
+        dateStart.Value = New DateTime(2023, 6, 14, 8, 36, 49, 499)
         ' 
         ' Label6
         ' 
@@ -527,7 +530,7 @@ Partial Class Loan
         numXtraP.CustomizableEdges = CustomizableEdges14
         numXtraP.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numXtraP.Location = New Point(244, 197)
-        numXtraP.Maximum = New Decimal(New Integer() {-727379969, 232, 0, 0})
+        numXtraP.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
         numXtraP.Name = "numXtraP"
         numXtraP.ShadowDecoration.CustomizableEdges = CustomizableEdges15
         numXtraP.Size = New Size(218, 25)
@@ -540,7 +543,7 @@ Partial Class Loan
         numPayYears.CustomizableEdges = CustomizableEdges16
         numPayYears.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numPayYears.Location = New Point(244, 134)
-        numPayYears.Maximum = New Decimal(New Integer() {52, 0, 0, 0})
+        numPayYears.Maximum = New [Decimal](New Integer() {52, 0, 0, 0})
         numPayYears.Name = "numPayYears"
         numPayYears.ShadowDecoration.CustomizableEdges = CustomizableEdges17
         numPayYears.Size = New Size(218, 25)
@@ -553,7 +556,7 @@ Partial Class Loan
         numPyears.CustomizableEdges = CustomizableEdges18
         numPyears.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numPyears.Location = New Point(244, 102)
-        numPyears.Maximum = New Decimal(New Integer() {-727379969, 232, 0, 0})
+        numPyears.Maximum = New [Decimal](New Integer() {-727379969, 232, 0, 0})
         numPyears.Name = "numPyears"
         numPyears.ShadowDecoration.CustomizableEdges = CustomizableEdges19
         numPyears.Size = New Size(218, 25)
@@ -566,7 +569,7 @@ Partial Class Loan
         numAintRate.CustomizableEdges = CustomizableEdges20
         numAintRate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numAintRate.Location = New Point(244, 71)
-        numAintRate.Maximum = New Decimal(New Integer() {30, 0, 0, 0})
+        numAintRate.Maximum = New [Decimal](New Integer() {30, 0, 0, 0})
         numAintRate.Name = "numAintRate"
         numAintRate.ShadowDecoration.CustomizableEdges = CustomizableEdges21
         numAintRate.Size = New Size(218, 25)
@@ -579,7 +582,7 @@ Partial Class Loan
         numLamount.CustomizableEdges = CustomizableEdges22
         numLamount.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numLamount.Location = New Point(244, 40)
-        numLamount.Maximum = New Decimal(New Integer() {1215752192, 23, 0, 0})
+        numLamount.Maximum = New [Decimal](New Integer() {1215752192, 23, 0, 0})
         numLamount.Name = "numLamount"
         numLamount.ShadowDecoration.CustomizableEdges = CustomizableEdges23
         numLamount.Size = New Size(218, 25)
@@ -1464,8 +1467,8 @@ Partial Class Loan
         ' contribution
         ' 
         contribution.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
+        contribution.Controls.Add(Guna2DataGridView2)
         contribution.Controls.Add(Panel9)
-        contribution.Controls.Add(Panel10)
         contribution.Controls.Add(Panel8)
         contribution.Location = New Point(4, 44)
         contribution.Name = "contribution"
@@ -1474,162 +1477,181 @@ Partial Class Loan
         contribution.TabIndex = 2
         contribution.Text = "Update Contribution"
         ' 
+        ' Guna2DataGridView2
+        ' 
+        Guna2DataGridView2.AllowUserToAddRows = False
+        Guna2DataGridView2.AllowUserToDeleteRows = False
+        DataGridViewCellStyle16.BackColor = Color.White
+        Guna2DataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle16
+        Guna2DataGridView2.BackgroundColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        DataGridViewCellStyle17.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle17.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        DataGridViewCellStyle17.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle17.ForeColor = Color.White
+        DataGridViewCellStyle17.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle17.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle17.WrapMode = DataGridViewTriState.True
+        Guna2DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle17
+        Guna2DataGridView2.ColumnHeadersHeight = 17
+        Guna2DataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Guna2DataGridView2.Columns.AddRange(New DataGridViewColumn() {Column37, Column38, Column39, Column40})
+        DataGridViewCellStyle18.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle18.BackColor = Color.White
+        DataGridViewCellStyle18.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        DataGridViewCellStyle18.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle18.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        DataGridViewCellStyle18.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle18.WrapMode = DataGridViewTriState.False
+        Guna2DataGridView2.DefaultCellStyle = DataGridViewCellStyle18
+        Guna2DataGridView2.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        Guna2DataGridView2.Location = New Point(18, 294)
+        Guna2DataGridView2.Name = "Guna2DataGridView2"
+        Guna2DataGridView2.ReadOnly = True
+        Guna2DataGridView2.RowHeadersVisible = False
+        Guna2DataGridView2.RowTemplate.Height = 25
+        Guna2DataGridView2.Size = New Size(1145, 350)
+        Guna2DataGridView2.TabIndex = 1
+        Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White
+        Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty
+        Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
+        Guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
+        Guna2DataGridView2.ThemeStyle.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Guna2DataGridView2.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        Guna2DataGridView2.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        Guna2DataGridView2.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
+        Guna2DataGridView2.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2DataGridView2.ThemeStyle.HeaderStyle.ForeColor = Color.White
+        Guna2DataGridView2.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Guna2DataGridView2.ThemeStyle.HeaderStyle.Height = 17
+        Guna2DataGridView2.ThemeStyle.ReadOnly = True
+        Guna2DataGridView2.ThemeStyle.RowsStyle.BackColor = Color.White
+        Guna2DataGridView2.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
+        Guna2DataGridView2.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2DataGridView2.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        Guna2DataGridView2.ThemeStyle.RowsStyle.Height = 25
+        Guna2DataGridView2.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        Guna2DataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        ' 
+        ' Column37
+        ' 
+        Column37.HeaderText = "ID"
+        Column37.Name = "Column37"
+        Column37.ReadOnly = True
+        ' 
+        ' Column38
+        ' 
+        Column38.HeaderText = "Full Name"
+        Column38.Name = "Column38"
+        Column38.ReadOnly = True
+        ' 
+        ' Column39
+        ' 
+        Column39.HeaderText = "Position"
+        Column39.Name = "Column39"
+        Column39.ReadOnly = True
+        ' 
+        ' Column40
+        ' 
+        Column40.HeaderText = "Membership"
+        Column40.Name = "Column40"
+        Column40.ReadOnly = True
+        ' 
         ' Panel9
         ' 
         Panel9.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Panel9.Controls.Add(Guna2Button3)
+        Panel9.Controls.Add(Guna2TextBox7)
+        Panel9.Controls.Add(Guna2Button2)
+        Panel9.Controls.Add(pickContriEditPeriod)
         Panel9.Controls.Add(Label25)
         Panel9.Controls.Add(Label26)
-        Panel9.Controls.Add(Guna2NumericUpDown2)
-        Panel9.Location = New Point(290, 24)
+        Panel9.Controls.Add(Label27)
+        Panel9.Controls.Add(Label28)
+        Panel9.Controls.Add(numContriEditAmount)
+        Panel9.Location = New Point(18, 150)
         Panel9.Name = "Panel9"
-        Panel9.Size = New Size(277, 208)
+        Panel9.Size = New Size(1145, 129)
         Panel9.TabIndex = 0
         ' 
-        ' Guna2Button3
+        ' Guna2TextBox7
         ' 
-        Guna2Button3.CustomizableEdges = CustomizableEdges37
-        Guna2Button3.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button3.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button3.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2Button3.ForeColor = Color.White
-        Guna2Button3.Location = New Point(24, 140)
-        Guna2Button3.Name = "Guna2Button3"
-        Guna2Button3.ShadowDecoration.CustomizableEdges = CustomizableEdges38
-        Guna2Button3.Size = New Size(228, 38)
-        Guna2Button3.TabIndex = 1
-        Guna2Button3.Text = "UPDATE"
-        ' 
-        ' Label25
-        ' 
-        Label25.AutoSize = True
-        Label25.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Label25.Location = New Point(24, 81)
-        Label25.Name = "Label25"
-        Label25.Size = New Size(62, 19)
-        Label25.TabIndex = 3
-        Label25.Text = "Amount:"
-        ' 
-        ' Label26
-        ' 
-        Label26.AutoSize = True
-        Label26.Font = New Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label26.Location = New Point(78, 15)
-        Label26.Name = "Label26"
-        Label26.Size = New Size(124, 25)
-        Label26.TabIndex = 3
-        Label26.Text = "MEMBER FEE"
-        ' 
-        ' Guna2NumericUpDown2
-        ' 
-        Guna2NumericUpDown2.BackColor = Color.Transparent
-        Guna2NumericUpDown2.CustomizableEdges = CustomizableEdges39
-        Guna2NumericUpDown2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2NumericUpDown2.Location = New Point(99, 73)
-        Guna2NumericUpDown2.Name = "Guna2NumericUpDown2"
-        Guna2NumericUpDown2.ShadowDecoration.CustomizableEdges = CustomizableEdges40
-        Guna2NumericUpDown2.Size = New Size(153, 36)
-        Guna2NumericUpDown2.TabIndex = 1
-        ' 
-        ' Panel10
-        ' 
-        Panel10.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Panel10.Controls.Add(Guna2Button2)
-        Panel10.Controls.Add(Guna2ComboBox2)
-        Panel10.Controls.Add(Label24)
-        Panel10.Controls.Add(Label29)
-        Panel10.Controls.Add(Label31)
-        Panel10.Controls.Add(Label30)
-        Panel10.Controls.Add(Label27)
-        Panel10.Controls.Add(Label28)
-        Panel10.Controls.Add(Guna2NumericUpDown4)
-        Panel10.Controls.Add(Guna2NumericUpDown3)
-        Panel10.Location = New Point(882, 24)
-        Panel10.Name = "Panel10"
-        Panel10.Size = New Size(277, 371)
-        Panel10.TabIndex = 0
+        Guna2TextBox7.CustomizableEdges = CustomizableEdges37
+        Guna2TextBox7.DefaultText = ""
+        Guna2TextBox7.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox7.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox7.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox7.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox7.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox7.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox7.Location = New Point(29, 58)
+        Guna2TextBox7.Name = "Guna2TextBox7"
+        Guna2TextBox7.PasswordChar = ChrW(0)
+        Guna2TextBox7.PlaceholderText = ""
+        Guna2TextBox7.SelectedText = ""
+        Guna2TextBox7.ShadowDecoration.CustomizableEdges = CustomizableEdges38
+        Guna2TextBox7.Size = New Size(228, 36)
+        Guna2TextBox7.TabIndex = 4
         ' 
         ' Guna2Button2
         ' 
-        Guna2Button2.CustomizableEdges = CustomizableEdges41
+        Guna2Button2.CustomizableEdges = CustomizableEdges39
         Guna2Button2.DisabledState.BorderColor = Color.DarkGray
         Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Guna2Button2.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
         Guna2Button2.ForeColor = Color.White
-        Guna2Button2.Location = New Point(25, 310)
+        Guna2Button2.Location = New Point(889, 56)
         Guna2Button2.Name = "Guna2Button2"
-        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges42
+        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges40
         Guna2Button2.Size = New Size(228, 38)
         Guna2Button2.TabIndex = 1
         Guna2Button2.Text = "UPDATE"
         ' 
-        ' Guna2ComboBox2
+        ' pickContriEditPeriod
         ' 
-        Guna2ComboBox2.BackColor = Color.Transparent
-        Guna2ComboBox2.CustomizableEdges = CustomizableEdges43
-        Guna2ComboBox2.DrawMode = DrawMode.OwnerDrawFixed
-        Guna2ComboBox2.DropDownStyle = ComboBoxStyle.DropDownList
-        Guna2ComboBox2.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2ComboBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2ComboBox2.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2ComboBox2.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        Guna2ComboBox2.ItemHeight = 30
-        Guna2ComboBox2.Items.AddRange(New Object() {"Daily", "Weekly", "Monthly", "Anually"})
-        Guna2ComboBox2.Location = New Point(98, 246)
-        Guna2ComboBox2.Name = "Guna2ComboBox2"
-        Guna2ComboBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges44
-        Guna2ComboBox2.Size = New Size(153, 36)
-        Guna2ComboBox2.TabIndex = 2
+        pickContriEditPeriod.BackColor = Color.Transparent
+        pickContriEditPeriod.CustomizableEdges = CustomizableEdges41
+        pickContriEditPeriod.DrawMode = DrawMode.OwnerDrawFixed
+        pickContriEditPeriod.DropDownStyle = ComboBoxStyle.DropDownList
+        pickContriEditPeriod.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickContriEditPeriod.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickContriEditPeriod.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        pickContriEditPeriod.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        pickContriEditPeriod.ItemHeight = 30
+        pickContriEditPeriod.Items.AddRange(New Object() {"Daily", "Weekly", "Monthly", "Annually"})
+        pickContriEditPeriod.Location = New Point(691, 58)
+        pickContriEditPeriod.Name = "pickContriEditPeriod"
+        pickContriEditPeriod.ShadowDecoration.CustomizableEdges = CustomizableEdges42
+        pickContriEditPeriod.Size = New Size(153, 36)
+        pickContriEditPeriod.TabIndex = 2
         ' 
-        ' Label24
+        ' Label25
         ' 
-        Label24.AutoSize = True
-        Label24.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Label24.Location = New Point(23, 254)
-        Label24.Name = "Label24"
-        Label24.Size = New Size(50, 19)
-        Label24.TabIndex = 3
-        Label24.Text = "Period:"
+        Label25.AutoSize = True
+        Label25.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Label25.Location = New Point(616, 66)
+        Label25.Name = "Label25"
+        Label25.Size = New Size(50, 19)
+        Label25.TabIndex = 3
+        Label25.Text = "Period:"
         ' 
-        ' Label29
+        ' Label26
         ' 
-        Label29.AutoSize = True
-        Label29.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Label29.Location = New Point(23, 189)
-        Label29.Name = "Label29"
-        Label29.Size = New Size(62, 19)
-        Label29.TabIndex = 3
-        Label29.Text = "Amount:"
-        ' 
-        ' Label31
-        ' 
-        Label31.AutoSize = True
-        Label31.Font = New Font("Segoe UI", 10F, FontStyle.Italic, GraphicsUnit.Point)
-        Label31.Location = New Point(164, 156)
-        Label31.Name = "Label31"
-        Label31.Size = New Size(87, 19)
-        Label31.TabIndex = 3
-        Label31.Text = "DEPENDENT"
-        ' 
-        ' Label30
-        ' 
-        Label30.AutoSize = True
-        Label30.Font = New Font("Segoe UI", 10F, FontStyle.Italic, GraphicsUnit.Point)
-        Label30.Location = New Point(190, 67)
-        Label30.Name = "Label30"
-        Label30.Size = New Size(61, 19)
-        Label30.TabIndex = 3
-        Label30.Text = "MEMBER"
+        Label26.AutoSize = True
+        Label26.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Label26.Location = New Point(77, 36)
+        Label26.Name = "Label26"
+        Label26.Size = New Size(130, 19)
+        Label26.TabIndex = 3
+        Label26.Text = "Contribution Name:"
         ' 
         ' Label27
         ' 
         Label27.AutoSize = True
         Label27.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Label27.Location = New Point(23, 100)
+        Label27.Location = New Point(317, 66)
         Label27.Name = "Label27"
         Label27.Size = New Size(62, 19)
         Label27.TabIndex = 3
@@ -1639,97 +1661,118 @@ Partial Class Loan
         ' 
         Label28.AutoSize = True
         Label28.Font = New Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label28.Location = New Point(108, 15)
+        Label28.Location = New Point(479, 16)
         Label28.Name = "Label28"
-        Label28.Size = New Size(60, 25)
+        Label28.Size = New Size(195, 25)
         Label28.TabIndex = 3
-        Label28.Text = "B.A.P."
+        Label28.Text = "EDIT CONTRIBUTION"
         ' 
-        ' Guna2NumericUpDown4
+        ' numContriEditAmount
         ' 
-        Guna2NumericUpDown4.BackColor = Color.Transparent
-        Guna2NumericUpDown4.CustomizableEdges = CustomizableEdges45
-        Guna2NumericUpDown4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2NumericUpDown4.Location = New Point(98, 181)
-        Guna2NumericUpDown4.Name = "Guna2NumericUpDown4"
-        Guna2NumericUpDown4.ShadowDecoration.CustomizableEdges = CustomizableEdges46
-        Guna2NumericUpDown4.Size = New Size(153, 36)
-        Guna2NumericUpDown4.TabIndex = 1
-        ' 
-        ' Guna2NumericUpDown3
-        ' 
-        Guna2NumericUpDown3.BackColor = Color.Transparent
-        Guna2NumericUpDown3.CustomizableEdges = CustomizableEdges47
-        Guna2NumericUpDown3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2NumericUpDown3.Location = New Point(98, 92)
-        Guna2NumericUpDown3.Name = "Guna2NumericUpDown3"
-        Guna2NumericUpDown3.ShadowDecoration.CustomizableEdges = CustomizableEdges48
-        Guna2NumericUpDown3.Size = New Size(153, 36)
-        Guna2NumericUpDown3.TabIndex = 1
+        numContriEditAmount.BackColor = Color.Transparent
+        numContriEditAmount.CustomizableEdges = CustomizableEdges43
+        numContriEditAmount.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        numContriEditAmount.Location = New Point(392, 58)
+        numContriEditAmount.Name = "numContriEditAmount"
+        numContriEditAmount.ShadowDecoration.CustomizableEdges = CustomizableEdges44
+        numContriEditAmount.Size = New Size(153, 36)
+        numContriEditAmount.TabIndex = 1
         ' 
         ' Panel8
         ' 
         Panel8.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Panel8.Controls.Add(Guna2Button1)
-        Panel8.Controls.Add(Guna2ComboBox1)
+        Panel8.Controls.Add(txtContriName)
+        Panel8.Controls.Add(pickPeriodity)
+        Panel8.Controls.Add(btnCreateContri)
         Panel8.Controls.Add(Label23)
+        Panel8.Controls.Add(Label24)
         Panel8.Controls.Add(Label22)
         Panel8.Controls.Add(Label21)
-        Panel8.Controls.Add(Guna2NumericUpDown1)
-        Panel8.Location = New Point(586, 24)
+        Panel8.Controls.Add(numContriAmount)
+        Panel8.Location = New Point(18, 16)
         Panel8.Name = "Panel8"
-        Panel8.Size = New Size(277, 273)
+        Panel8.Size = New Size(1145, 119)
         Panel8.TabIndex = 0
         ' 
-        ' Guna2Button1
+        ' txtContriName
         ' 
-        Guna2Button1.CustomizableEdges = CustomizableEdges49
-        Guna2Button1.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2Button1.ForeColor = Color.White
-        Guna2Button1.Location = New Point(25, 213)
-        Guna2Button1.Name = "Guna2Button1"
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges50
-        Guna2Button1.Size = New Size(228, 38)
-        Guna2Button1.TabIndex = 1
-        Guna2Button1.Text = "UPDATE"
+        txtContriName.CustomizableEdges = CustomizableEdges45
+        txtContriName.DefaultText = ""
+        txtContriName.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtContriName.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtContriName.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtContriName.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtContriName.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtContriName.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtContriName.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtContriName.Location = New Point(29, 52)
+        txtContriName.Name = "txtContriName"
+        txtContriName.PasswordChar = ChrW(0)
+        txtContriName.PlaceholderText = ""
+        txtContriName.SelectedText = ""
+        txtContriName.ShadowDecoration.CustomizableEdges = CustomizableEdges46
+        txtContriName.Size = New Size(228, 36)
+        txtContriName.TabIndex = 4
         ' 
-        ' Guna2ComboBox1
+        ' pickPeriodity
         ' 
-        Guna2ComboBox1.BackColor = Color.Transparent
-        Guna2ComboBox1.CustomizableEdges = CustomizableEdges51
-        Guna2ComboBox1.DrawMode = DrawMode.OwnerDrawFixed
-        Guna2ComboBox1.DropDownStyle = ComboBoxStyle.DropDownList
-        Guna2ComboBox1.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2ComboBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2ComboBox1.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2ComboBox1.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        Guna2ComboBox1.ItemHeight = 30
-        Guna2ComboBox1.Items.AddRange(New Object() {"Daily", "Weekly", "Monthly", "Anually"})
-        Guna2ComboBox1.Location = New Point(100, 140)
-        Guna2ComboBox1.Name = "Guna2ComboBox1"
-        Guna2ComboBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges52
-        Guna2ComboBox1.Size = New Size(153, 36)
-        Guna2ComboBox1.TabIndex = 2
+        pickPeriodity.BackColor = Color.Transparent
+        pickPeriodity.CustomizableEdges = CustomizableEdges47
+        pickPeriodity.DrawMode = DrawMode.OwnerDrawFixed
+        pickPeriodity.DropDownStyle = ComboBoxStyle.DropDownList
+        pickPeriodity.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickPeriodity.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickPeriodity.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        pickPeriodity.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        pickPeriodity.ItemHeight = 30
+        pickPeriodity.Items.AddRange(New Object() {"Daily", "Weekly", "Monthly", "Annually"})
+        pickPeriodity.Location = New Point(691, 52)
+        pickPeriodity.Name = "pickPeriodity"
+        pickPeriodity.ShadowDecoration.CustomizableEdges = CustomizableEdges48
+        pickPeriodity.Size = New Size(153, 36)
+        pickPeriodity.TabIndex = 2
+        ' 
+        ' btnCreateContri
+        ' 
+        btnCreateContri.CustomizableEdges = CustomizableEdges49
+        btnCreateContri.DisabledState.BorderColor = Color.DarkGray
+        btnCreateContri.DisabledState.CustomBorderColor = Color.DarkGray
+        btnCreateContri.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnCreateContri.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnCreateContri.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnCreateContri.ForeColor = Color.White
+        btnCreateContri.Location = New Point(889, 50)
+        btnCreateContri.Name = "btnCreateContri"
+        btnCreateContri.ShadowDecoration.CustomizableEdges = CustomizableEdges50
+        btnCreateContri.Size = New Size(228, 38)
+        btnCreateContri.TabIndex = 1
+        btnCreateContri.Text = "CREATE"
         ' 
         ' Label23
         ' 
         Label23.AutoSize = True
         Label23.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Label23.Location = New Point(25, 148)
+        Label23.Location = New Point(616, 60)
         Label23.Name = "Label23"
         Label23.Size = New Size(50, 19)
         Label23.TabIndex = 3
         Label23.Text = "Period:"
         ' 
+        ' Label24
+        ' 
+        Label24.AutoSize = True
+        Label24.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Label24.Location = New Point(77, 27)
+        Label24.Name = "Label24"
+        Label24.Size = New Size(130, 19)
+        Label24.TabIndex = 3
+        Label24.Text = "Contribution Name:"
+        ' 
         ' Label22
         ' 
         Label22.AutoSize = True
         Label22.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Label22.Location = New Point(25, 81)
+        Label22.Location = New Point(317, 60)
         Label22.Name = "Label22"
         Label22.Size = New Size(62, 19)
         Label22.TabIndex = 3
@@ -1739,22 +1782,22 @@ Partial Class Loan
         ' 
         Label21.AutoSize = True
         Label21.Font = New Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label21.Location = New Point(78, 15)
+        Label21.Location = New Point(480, 9)
         Label21.Name = "Label21"
-        Label21.Size = New Size(114, 25)
+        Label21.Size = New Size(194, 25)
         Label21.TabIndex = 3
-        Label21.Text = "UNION DUE"
+        Label21.Text = "ADD CONTRIBUTION"
         ' 
-        ' Guna2NumericUpDown1
+        ' numContriAmount
         ' 
-        Guna2NumericUpDown1.BackColor = Color.Transparent
-        Guna2NumericUpDown1.CustomizableEdges = CustomizableEdges53
-        Guna2NumericUpDown1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2NumericUpDown1.Location = New Point(100, 73)
-        Guna2NumericUpDown1.Name = "Guna2NumericUpDown1"
-        Guna2NumericUpDown1.ShadowDecoration.CustomizableEdges = CustomizableEdges54
-        Guna2NumericUpDown1.Size = New Size(153, 36)
-        Guna2NumericUpDown1.TabIndex = 1
+        numContriAmount.BackColor = Color.Transparent
+        numContriAmount.CustomizableEdges = CustomizableEdges51
+        numContriAmount.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        numContriAmount.Location = New Point(392, 52)
+        numContriAmount.Name = "numContriAmount"
+        numContriAmount.ShadowDecoration.CustomizableEdges = CustomizableEdges52
+        numContriAmount.Size = New Size(153, 36)
+        numContriAmount.TabIndex = 1
         ' 
         ' Label13
         ' 
@@ -1785,12 +1828,37 @@ Partial Class Loan
         Guna2CircleButton1.Size = New Size(45, 39)
         Guna2CircleButton1.TabIndex = 3
         ' 
+        ' contriTimer
+        ' 
+        contriTimer.Interval = 1000
+        ' 
+        ' Panel11
+        ' 
+        Panel11.BackColor = Color.FromArgb(CByte(64), CByte(0), CByte(0))
+        Panel11.Controls.Add(lblTime)
+        Panel11.Location = New Point(933, 10)
+        Panel11.Name = "Panel11"
+        Panel11.Size = New Size(156, 31)
+        Panel11.TabIndex = 4
+        ' 
+        ' lblTime
+        ' 
+        lblTime.AutoSize = True
+        lblTime.Font = New Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point)
+        lblTime.ForeColor = Color.Cyan
+        lblTime.Location = New Point(31, 1)
+        lblTime.Name = "lblTime"
+        lblTime.Size = New Size(88, 25)
+        lblTime.TabIndex = 5
+        lblTime.Text = "12:15:16"
+        ' 
         ' Loan
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(167), CByte(41), CByte(36))
         ClientSize = New Size(1190, 764)
+        Controls.Add(Panel11)
         Controls.Add(Guna2CircleButton1)
         Controls.Add(tabconLoan)
         Controls.Add(Label13)
@@ -1826,16 +1894,15 @@ Partial Class Loan
         Panel4.PerformLayout()
         CType(dgEmList, ComponentModel.ISupportInitialize).EndInit()
         contribution.ResumeLayout(False)
+        CType(Guna2DataGridView2, ComponentModel.ISupportInitialize).EndInit()
         Panel9.ResumeLayout(False)
         Panel9.PerformLayout()
-        CType(Guna2NumericUpDown2, ComponentModel.ISupportInitialize).EndInit()
-        Panel10.ResumeLayout(False)
-        Panel10.PerformLayout()
-        CType(Guna2NumericUpDown4, ComponentModel.ISupportInitialize).EndInit()
-        CType(Guna2NumericUpDown3, ComponentModel.ISupportInitialize).EndInit()
+        CType(numContriEditAmount, ComponentModel.ISupportInitialize).EndInit()
         Panel8.ResumeLayout(False)
         Panel8.PerformLayout()
-        CType(Guna2NumericUpDown1, ComponentModel.ISupportInitialize).EndInit()
+        CType(numContriAmount, ComponentModel.ISupportInitialize).EndInit()
+        Panel11.ResumeLayout(False)
+        Panel11.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -1940,28 +2007,40 @@ Partial Class Loan
     Friend WithEvents Label18 As Label
     Friend WithEvents Panel7 As Panel
     Friend WithEvents contribution As TabPage
-    Friend WithEvents Panel9 As Panel
     Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Label25 As Label
-    Friend WithEvents Label26 As Label
     Friend WithEvents Guna2NumericUpDown2 As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents Panel10 As Panel
-    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2ComboBox2 As Guna.UI2.WinForms.Guna2ComboBox
-    Friend WithEvents Label24 As Label
     Friend WithEvents Label29 As Label
     Friend WithEvents Label31 As Label
     Friend WithEvents Label30 As Label
-    Friend WithEvents Label27 As Label
-    Friend WithEvents Label28 As Label
     Friend WithEvents Guna2NumericUpDown4 As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents Guna2NumericUpDown3 As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents Panel8 As Panel
-    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2ComboBox1 As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents btnCreateContri As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Label23 As Label
     Friend WithEvents Label22 As Label
     Friend WithEvents Label21 As Label
-    Friend WithEvents Guna2NumericUpDown1 As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents numContriAmount As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents tabconLoan As Guna.UI2.WinForms.Guna2TabControl
+    Friend WithEvents txtContriName As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Panel9 As Panel
+    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents pickContriEditPeriod As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label26 As Label
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label28 As Label
+    Friend WithEvents numContriEditAmount As Guna.UI2.WinForms.Guna2NumericUpDown
+    Friend WithEvents pickPeriodity As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents Guna2DataGridView2 As Guna.UI2.WinForms.Guna2DataGridView
+    Friend WithEvents Guna2TextBox7 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Column37 As DataGridViewTextBoxColumn
+    Friend WithEvents Column38 As DataGridViewTextBoxColumn
+    Friend WithEvents Column39 As DataGridViewTextBoxColumn
+    Friend WithEvents Column40 As DataGridViewTextBoxColumn
+    Friend WithEvents contriTimer As Timer
+    Friend WithEvents Panel11 As Panel
+    Friend WithEvents lblTime As Label
 End Class

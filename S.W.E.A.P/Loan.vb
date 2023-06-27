@@ -28,6 +28,12 @@ Public Class Loan
     Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
     Dim selectedId As Integer = 0
+    '------------------------------------VARIABLE DECLARATION FOR CONTRIBUTIONS----------------------------------------------
+    Dim updatedMonth As Integer
+    Dim updatedYear As Integer
+    Dim updatedWeek As Integer
+    '-----------------------------------------------END OF CONTRIBUTION'S VARIABLE-------------------------------------------
+
     '-----------------------------------END OF VARIABLE DECLARATION-------------------------------------------
     '--------------------------------------FUNCTIONS----------------------------------------------------------
     Public Sub common_calculation()
@@ -262,6 +268,10 @@ Public Class Loan
     End Sub
 
     Private Sub Form2_Load_1(sender As Object, e As EventArgs) Handles MyBase.Load '------------AUTOLOAD
+        contriTimer.Start()
+        contributions(0) = New class_contribution("Union Dues", "Annually", 0)
+        contributions(1) = New class_contribution("Union Dues", "Weekly", 0)
+        contributions(2) = New class_contribution("Union Dues", "Monthly", 0)
         dgSelectEm.Rows.Clear()
         Try
             conn.Open()
@@ -275,6 +285,21 @@ Public Class Loan
         Finally
             conn.Close()
         End Try
+
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select month(updated_at) as month, year(updated_at) as year, week(updated_at) as week from contributions", conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                updatedMonth = rid.GetInt32("month")
+                updatedYear = rid.GetInt32("year")
+                updatedWeek = rid.GetInt32("week")
+            End While
+        Catch ex As Exception
+        Finally
+            conn.Close()
+        End Try
+
         btnApprove.Enabled = False
         pnlSelectLender.Visible = False
     End Sub
@@ -338,4 +363,65 @@ Public Class Loan
         End If
     End Sub
 
+    '------------------------------------------------------------CONTRIBUTIONS--------------------------------------------------------------------
+
+    Dim contriCounter As Integer = 0
+    Public Shared contributions(0) As class_contribution
+
+    Public Class class_contribution
+        Public contriName As String
+        Public period As String
+        Public amount As Integer
+        Public Sub New(name As String, period As String, amount As Integer)
+            Me.contriName = name
+            Me.period = period
+            Me.amount = amount
+        End Sub
+        Public Sub dueMonth()
+            MsgBox("Hello month")
+        End Sub
+        Public Sub dueYear()
+            MsgBox("Hello Year")
+        End Sub
+        Public Sub dueWeek()
+            MsgBox("Hello Week")
+        End Sub
+    End Class
+
+    Private Sub btnCreateContri_Click(sender As Object, e As EventArgs) Handles btnCreateContri.Click
+        contributions(contriCounter) = New class_contribution(txtContriName.Text, pickPeriodity.SelectedItem, numContriAmount.Value)
+        contriCounter = contriCounter + 1
+        ReDim Preserve contributions(contriCounter)
+        MsgBox(contributions(0).contriName)
+    End Sub
+
+    Private Sub contriTimer_Tick(sender As Object, e As EventArgs) Handles contriTimer.Tick
+        Dim timezone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("singapore standard time")
+        Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
+        Dim currentdate As DateTime = currenttime
+        lblTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
+    End Sub
+
+    'if updatedmonth <> currentdate.month then
+    '        for each contribution as class_contribution in contributions
+    '            if contribution.period = "monthly" then
+    '                contribution.duemonth()
+    '            end if
+    '        next
+    '    end if
+    '    if updatedyear <> currentdate.year then
+    '        for each contribution as class_contribution in contributions
+    '            if contribution.period = "annually" then
+    '                contribution.dueyear()
+    '            end if
+    '        next
+    '    end if
+    '    if updatedweek <> (currentdate.day / 7) then
+    '        for each contribution as class_contribution in contributions
+    '            if contribution.period = "weekly" then
+    '                contribution.dueweek()
+    '            end if
+    '        next
+    '    end if
 End Class
+
