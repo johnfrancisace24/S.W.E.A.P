@@ -145,6 +145,10 @@ Partial Class user_dashboard
         tabBeneficiary = New TabPage()
         btnExport = New Guna.UI2.WinForms.Guna2Button()
         BeneficiariesDGV = New Guna.UI2.WinForms.Guna2DataGridView()
+        Column1 = New DataGridViewTextBoxColumn()
+        Column2 = New DataGridViewTextBoxColumn()
+        Column5 = New DataGridViewTextBoxColumn()
+        Column6 = New DataGridViewTextBoxColumn()
         search = New Guna.UI2.WinForms.Guna2TextBox()
         Label33 = New Label()
         tabSetting = New TabPage()
@@ -183,10 +187,6 @@ Partial Class user_dashboard
         btnUpdate = New Guna.UI2.WinForms.Guna2Button()
         Timer1 = New Timer(components)
         Timer2 = New Timer(components)
-        Column1 = New DataGridViewTextBoxColumn()
-        Column2 = New DataGridViewTextBoxColumn()
-        Column5 = New DataGridViewTextBoxColumn()
-        Column6 = New DataGridViewTextBoxColumn()
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
         CType(iconFromtitle, ComponentModel.ISupportInitialize).BeginInit()
@@ -984,6 +984,33 @@ Partial Class user_dashboard
         BeneficiariesDGV.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
         BeneficiariesDGV.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black
         ' 
+        ' Column1
+        ' 
+        Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column1.HeaderText = "User ID"
+        Column1.Name = "Column1"
+        Column1.Width = 69
+        ' 
+        ' Column2
+        ' 
+        Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column2.HeaderText = "Name"
+        Column2.Name = "Column2"
+        ' 
+        ' Column5
+        ' 
+        Column5.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column5.HeaderText = "Age"
+        Column5.Name = "Column5"
+        Column5.Width = 51
+        ' 
+        ' Column6
+        ' 
+        Column6.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column6.HeaderText = "Relationship"
+        Column6.Name = "Column6"
+        Column6.Width = 95
+        ' 
         ' search
         ' 
         search.Animated = True
@@ -1020,6 +1047,7 @@ Partial Class user_dashboard
         ' 
         ' tabSetting
         ' 
+        tabSetting.BackColor = Color.Transparent
         tabSetting.Controls.Add(Guna2Button4)
         tabSetting.Controls.Add(user_Profile)
         tabSetting.Controls.Add(cmboSex)
@@ -1059,10 +1087,10 @@ Partial Class user_dashboard
         tabSetting.Size = New Size(999, 586)
         tabSetting.TabIndex = 3
         tabSetting.Text = "Account Setting"
-        tabSetting.UseVisualStyleBackColor = True
         ' 
         ' Guna2Button4
         ' 
+        Guna2Button4.BorderRadius = 5
         Guna2Button4.CustomizableEdges = CustomizableEdges29
         Guna2Button4.DisabledState.BorderColor = Color.DarkGray
         Guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray
@@ -1073,7 +1101,7 @@ Partial Class user_dashboard
         Guna2Button4.Location = New Point(59, 168)
         Guna2Button4.Name = "Guna2Button4"
         Guna2Button4.ShadowDecoration.CustomizableEdges = CustomizableEdges30
-        Guna2Button4.Size = New Size(211, 31)
+        Guna2Button4.Size = New Size(169, 25)
         Guna2Button4.TabIndex = 163
         Guna2Button4.Text = "Upload"
         ' 
@@ -1085,7 +1113,7 @@ Partial Class user_dashboard
         user_Profile.Location = New Point(59, 31)
         user_Profile.Name = "user_Profile"
         user_Profile.ShadowDecoration.CustomizableEdges = CustomizableEdges32
-        user_Profile.Size = New Size(211, 131)
+        user_Profile.Size = New Size(169, 131)
         user_Profile.SizeMode = PictureBoxSizeMode.StretchImage
         user_Profile.TabIndex = 162
         user_Profile.TabStop = False
@@ -1176,13 +1204,13 @@ Partial Class user_dashboard
         txtbxbdate.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxbdate.HoverState.ForeColor = Color.Black
         txtbxbdate.Location = New Point(664, 386)
-        txtbxbdate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
-        txtbxbdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        txtbxbdate.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
+        txtbxbdate.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
         txtbxbdate.Name = "txtbxbdate"
         txtbxbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges40
         txtbxbdate.Size = New Size(273, 36)
         txtbxbdate.TabIndex = 157
-        txtbxbdate.Value = New Date(2023, 6, 6, 13, 54, 41, 766)
+        txtbxbdate.Value = New DateTime(2023, 6, 6, 13, 54, 41, 766)
         ' 
         ' Label18
         ' 
@@ -1518,7 +1546,9 @@ Partial Class user_dashboard
         ' 
         ' txtbxpassword
         ' 
+        txtbxpassword.BorderColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
         txtbxpassword.BorderRadius = 6
+        txtbxpassword.BorderThickness = 2
         txtbxpassword.CustomizableEdges = CustomizableEdges59
         txtbxpassword.DefaultText = ""
         txtbxpassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -1530,20 +1560,20 @@ Partial Class user_dashboard
         txtbxpassword.ForeColor = Color.Black
         txtbxpassword.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxpassword.HoverState.ForeColor = Color.Black
-        txtbxpassword.Location = New Point(664, 166)
+        txtbxpassword.Location = New Point(254, 126)
         txtbxpassword.Name = "txtbxpassword"
         txtbxpassword.PasswordChar = ChrW(0)
         txtbxpassword.PlaceholderText = ""
         txtbxpassword.SelectedText = ""
         txtbxpassword.ShadowDecoration.CustomizableEdges = CustomizableEdges60
-        txtbxpassword.Size = New Size(278, 36)
+        txtbxpassword.Size = New Size(344, 36)
         txtbxpassword.TabIndex = 135
         ' 
         ' Label12
         ' 
         Label12.AutoSize = True
         Label12.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label12.Location = New Point(664, 137)
+        Label12.Location = New Point(254, 97)
         Label12.Name = "Label12"
         Label12.Size = New Size(90, 25)
         Label12.TabIndex = 134
@@ -1551,7 +1581,9 @@ Partial Class user_dashboard
         ' 
         ' txtbxusername
         ' 
+        txtbxusername.BorderColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
         txtbxusername.BorderRadius = 6
+        txtbxusername.BorderThickness = 2
         txtbxusername.CustomizableEdges = CustomizableEdges61
         txtbxusername.DefaultText = ""
         txtbxusername.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
@@ -1563,7 +1595,7 @@ Partial Class user_dashboard
         txtbxusername.ForeColor = Color.Black
         txtbxusername.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxusername.HoverState.ForeColor = Color.Black
-        txtbxusername.Location = New Point(314, 167)
+        txtbxusername.Location = New Point(254, 49)
         txtbxusername.Name = "txtbxusername"
         txtbxusername.PasswordChar = ChrW(0)
         txtbxusername.PlaceholderText = ""
@@ -1576,7 +1608,7 @@ Partial Class user_dashboard
         ' 
         Label11.AutoSize = True
         Label11.Font = New Font("Segoe UI Semibold", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label11.Location = New Point(314, 137)
+        Label11.Location = New Point(254, 19)
         Label11.Name = "Label11"
         Label11.Size = New Size(96, 25)
         Label11.TabIndex = 132
@@ -1604,33 +1636,6 @@ Partial Class user_dashboard
         ' 
         ' Timer2
         ' 
-        ' 
-        ' Column1
-        ' 
-        Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column1.HeaderText = "User ID"
-        Column1.Name = "Column1"
-        Column1.Width = 69
-        ' 
-        ' Column2
-        ' 
-        Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column2.HeaderText = "Name"
-        Column2.Name = "Column2"
-        ' 
-        ' Column5
-        ' 
-        Column5.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column5.HeaderText = "Age"
-        Column5.Name = "Column5"
-        Column5.Width = 51
-        ' 
-        ' Column6
-        ' 
-        Column6.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column6.HeaderText = "Relationship"
-        Column6.Name = "Column6"
-        Column6.Width = 95
         ' 
         ' user_dashboard
         ' 
