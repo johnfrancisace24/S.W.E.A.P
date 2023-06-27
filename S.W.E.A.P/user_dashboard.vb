@@ -26,7 +26,6 @@ Public Class user_dashboard
     Dim benefPath As String = "beneficiary (2).png"
     Dim settingPath As String = "settings.png"
     Dim Home As String = "house (1).png"
-    Dim opacity As Single = 0.5
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick '--------------------TIMER
 
@@ -38,11 +37,12 @@ Public Class user_dashboard
     End Sub
 
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
-        Panel3.Left += 40
+        pnlTime.Left += 100
 
-        If Panel3.Left >= 993 Then
+        If pnlTime.Left >= 993 Then
             Timer2.Stop()
-            Panel3.Left = 993
+            pnlTime.Left = 993
+
         End If
     End Sub
     Private Sub user_dashboard_load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -56,6 +56,8 @@ Public Class user_dashboard
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
         Timer2.Start()
+        tabDashboard.Text = "Dashboard"
+        tabDashboard.ImageIndex = 2
     End Sub
     Private Sub btnLogOut_Click(sender As Object, e As EventArgs) Handles btnLogOut.Click
         Dim AnswerYes As String
@@ -89,6 +91,13 @@ Public Class user_dashboard
             lblFromTitle.Text = "Home"
             iconFromtitle.Image = Image.FromFile(destinationIconPath + Home)
         End If
+    End Sub
+    Private Sub Guna2TabControl1_Click(sender As Object, e As EventArgs) Handles Guna2TabControl1.Click
+        If Guna2TabControl1.SelectedTab Is tabDashboard Then
+            pnlTime.Visible = True
+            pnlTime.Left = 0
+        End If
+
     End Sub
     Public Sub DG_Load()
         BeneficiariesDGV.Rows.Clear()
@@ -134,19 +143,22 @@ Public Class user_dashboard
 
                 If cmboSex.SelectedIndex = 0 Then
                     lblDateTime.Text = "Mr. " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("last_logout")
-                    tabDashboard.ImageKey = "man (1).png"
+                    tabDashboard.ImageIndex = 6
+                    tabDashboard.Text = "Mr. " + dr.GetString("first_name")
                     'ImgProfile.Image = Image.FromFile(destinationMan + men)
                 ElseIf cmboSex.SelectedIndex = 1 Then
                     lblDateTime.Text = "Ms. " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("last_logout")
-                    tabDashboard.ImageKey = "women.png"
+                    tabDashboard.ImageIndex = 7
+                    tabDashboard.Text = "Ms. " + dr.GetString("first_name")
                     'ImgProfile.Image = Image.FromFile(destinationMan + women)
                 ElseIf cmboSex.SelectedIndex = 2 Then
                     lblDateTime.Text = "Hi " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("last_logout")
-                    tabDashboard.ImageKey = "man (1).png"
+                    tabDashboard.ImageIndex = 6
+                    tabDashboard.Text = "Hi. " + dr.GetString("first_name")
                     'ImgProfile.Image = Image.FromFile(destinationMan + men)
                 End If
 
-                tabDashboard.Text = dr.GetString("first_name")
+
                 Pfname.Text = dr.GetString("fullName")
                 Padd.Text = dr.GetString("address")
                 Pcntact.Text = dr.GetString("contact")

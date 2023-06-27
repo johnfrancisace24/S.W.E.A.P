@@ -112,12 +112,12 @@ Partial Class user_dashboard
         lblFromTitle = New Label()
         Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
         tabDashboard = New TabPage()
-        Panel3 = New Panel()
+        pnlTime = New Panel()
         Label3 = New Label()
         ImageList1 = New ImageList(components)
         lblDate = New Label()
         lblTime = New Label()
-        Panel4 = New Panel()
+        pnlDashboard = New Panel()
         tabProfile = New TabPage()
         Label27 = New Label()
         Label2 = New Label()
@@ -145,12 +145,6 @@ Partial Class user_dashboard
         tabBeneficiary = New TabPage()
         btnExport = New Guna.UI2.WinForms.Guna2Button()
         BeneficiariesDGV = New Guna.UI2.WinForms.Guna2DataGridView()
-        Column1 = New DataGridViewTextBoxColumn()
-        Column2 = New DataGridViewTextBoxColumn()
-        Column5 = New DataGridViewTextBoxColumn()
-        Column6 = New DataGridViewTextBoxColumn()
-        Column3 = New DataGridViewTextBoxColumn()
-        Column4 = New DataGridViewTextBoxColumn()
         search = New Guna.UI2.WinForms.Guna2TextBox()
         Label33 = New Label()
         tabSetting = New TabPage()
@@ -189,12 +183,16 @@ Partial Class user_dashboard
         btnUpdate = New Guna.UI2.WinForms.Guna2Button()
         Timer1 = New Timer(components)
         Timer2 = New Timer(components)
+        Column1 = New DataGridViewTextBoxColumn()
+        Column2 = New DataGridViewTextBoxColumn()
+        Column5 = New DataGridViewTextBoxColumn()
+        Column6 = New DataGridViewTextBoxColumn()
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
         CType(iconFromtitle, ComponentModel.ISupportInitialize).BeginInit()
         Guna2TabControl1.SuspendLayout()
         tabDashboard.SuspendLayout()
-        Panel3.SuspendLayout()
+        pnlTime.SuspendLayout()
         tabProfile.SuspendLayout()
         CType(userProfile, ComponentModel.ISupportInitialize).BeginInit()
         tabBeneficiary.SuspendLayout()
@@ -398,8 +396,8 @@ Partial Class user_dashboard
         ' 
         tabDashboard.BackColor = Color.FromArgb(CByte(54), CByte(69), CByte(94))
         tabDashboard.BackgroundImageLayout = ImageLayout.Stretch
-        tabDashboard.Controls.Add(Panel3)
-        tabDashboard.Controls.Add(Panel4)
+        tabDashboard.Controls.Add(pnlTime)
+        tabDashboard.Controls.Add(pnlDashboard)
         tabDashboard.Font = New Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point)
         tabDashboard.ImageKey = "welcome-back.png"
         tabDashboard.Location = New Point(254, 4)
@@ -409,15 +407,15 @@ Partial Class user_dashboard
         tabDashboard.TabIndex = 0
         tabDashboard.Text = "Welcome"
         ' 
-        ' Panel3
+        ' pnlTime
         ' 
-        Panel3.Controls.Add(Label3)
-        Panel3.Controls.Add(lblDate)
-        Panel3.Controls.Add(lblTime)
-        Panel3.Location = New Point(3, 3)
-        Panel3.Name = "Panel3"
-        Panel3.Size = New Size(993, 580)
-        Panel3.TabIndex = 15
+        pnlTime.Controls.Add(Label3)
+        pnlTime.Controls.Add(lblDate)
+        pnlTime.Controls.Add(lblTime)
+        pnlTime.Location = New Point(3, 3)
+        pnlTime.Name = "pnlTime"
+        pnlTime.Size = New Size(993, 580)
+        pnlTime.TabIndex = 15
         ' 
         ' Label3
         ' 
@@ -471,13 +469,13 @@ Partial Class user_dashboard
         lblTime.Text = "10 : 34 : 01 AM"
         lblTime.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' Panel4
+        ' pnlDashboard
         ' 
-        Panel4.BackColor = Color.FromArgb(CByte(54), CByte(69), CByte(14))
-        Panel4.Location = New Point(3, 3)
-        Panel4.Name = "Panel4"
-        Panel4.Size = New Size(993, 580)
-        Panel4.TabIndex = 0
+        pnlDashboard.BackColor = Color.FromArgb(CByte(54), CByte(69), CByte(14))
+        pnlDashboard.Location = New Point(3, 3)
+        pnlDashboard.Name = "pnlDashboard"
+        pnlDashboard.Size = New Size(993, 580)
+        pnlDashboard.TabIndex = 0
         ' 
         ' tabProfile
         ' 
@@ -945,7 +943,7 @@ Partial Class user_dashboard
         BeneficiariesDGV.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         BeneficiariesDGV.ColumnHeadersHeight = 17
         BeneficiariesDGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        BeneficiariesDGV.Columns.AddRange(New DataGridViewColumn() {Column1, Column2, Column5, Column6, Column3, Column4})
+        BeneficiariesDGV.Columns.AddRange(New DataGridViewColumn() {Column1, Column2, Column5, Column6})
         BeneficiariesDGV.Cursor = Cursors.Hand
         DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = Color.White
@@ -984,36 +982,6 @@ Partial Class user_dashboard
         BeneficiariesDGV.ThemeStyle.RowsStyle.Height = 25
         BeneficiariesDGV.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
         BeneficiariesDGV.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        ' 
-        ' Column1
-        ' 
-        Column1.HeaderText = "User ID"
-        Column1.Name = "Column1"
-        ' 
-        ' Column2
-        ' 
-        Column2.HeaderText = "Name"
-        Column2.Name = "Column2"
-        ' 
-        ' Column5
-        ' 
-        Column5.HeaderText = "Age"
-        Column5.Name = "Column5"
-        ' 
-        ' Column6
-        ' 
-        Column6.HeaderText = "Relationship"
-        Column6.Name = "Column6"
-        ' 
-        ' Column3
-        ' 
-        Column3.HeaderText = "Date"
-        Column3.Name = "Column3"
-        ' 
-        ' Column4
-        ' 
-        Column4.HeaderText = "Peso"
-        Column4.Name = "Column4"
         ' 
         ' search
         ' 
@@ -1636,6 +1604,33 @@ Partial Class user_dashboard
         ' Timer2
         ' 
         ' 
+        ' Column1
+        ' 
+        Column1.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column1.HeaderText = "User ID"
+        Column1.Name = "Column1"
+        Column1.Width = 69
+        ' 
+        ' Column2
+        ' 
+        Column2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column2.HeaderText = "Name"
+        Column2.Name = "Column2"
+        ' 
+        ' Column5
+        ' 
+        Column5.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column5.HeaderText = "Age"
+        Column5.Name = "Column5"
+        Column5.Width = 51
+        ' 
+        ' Column6
+        ' 
+        Column6.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column6.HeaderText = "Relationship"
+        Column6.Name = "Column6"
+        Column6.Width = 95
+        ' 
         ' user_dashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -1654,7 +1649,7 @@ Partial Class user_dashboard
         CType(iconFromtitle, ComponentModel.ISupportInitialize).EndInit()
         Guna2TabControl1.ResumeLayout(False)
         tabDashboard.ResumeLayout(False)
-        Panel3.ResumeLayout(False)
+        pnlTime.ResumeLayout(False)
         tabProfile.ResumeLayout(False)
         tabProfile.PerformLayout()
         CType(userProfile, ComponentModel.ISupportInitialize).EndInit()
@@ -1705,12 +1700,6 @@ Partial Class user_dashboard
     Friend WithEvents Pfname As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents btnExport As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents BeneficiariesDGV As Guna.UI2.WinForms.Guna2DataGridView
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As DataGridViewTextBoxColumn
-    Friend WithEvents Column5 As DataGridViewTextBoxColumn
-    Friend WithEvents Column6 As DataGridViewTextBoxColumn
-    Friend WithEvents Column3 As DataGridViewTextBoxColumn
-    Friend WithEvents Column4 As DataGridViewTextBoxColumn
     Friend WithEvents search As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label33 As Label
     Friend WithEvents tabSetting As TabPage
@@ -1751,10 +1740,14 @@ Partial Class user_dashboard
     Friend WithEvents Label2 As Label
     Friend WithEvents lblDateTime As Label
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents Panel3 As Panel
+    Friend WithEvents pnlTime As Panel
     Friend WithEvents lblDate As Label
     Friend WithEvents lblTime As Label
-    Friend WithEvents Panel4 As Panel
+    Friend WithEvents pnlDashboard As Panel
     Friend WithEvents Timer2 As Timer
     Friend WithEvents Label3 As Label
+    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As DataGridViewTextBoxColumn
+    Friend WithEvents Column5 As DataGridViewTextBoxColumn
+    Friend WithEvents Column6 As DataGridViewTextBoxColumn
 End Class
