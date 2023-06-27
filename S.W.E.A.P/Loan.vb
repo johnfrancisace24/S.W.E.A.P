@@ -104,6 +104,7 @@ Public Class Loan
     End Sub
 
     Public Sub contriGrid()
+        dgContribution.Rows.Clear()
         Try
             conn.Open()
             Dim cmd As New MySqlCommand("select user_id, concat(users.first_name, ' ', users.middle_name, ' ', users.last_name) as full_name, users.position, sum(membership_fee) as membership,
@@ -288,7 +289,7 @@ Public Class Loan
         contriGrid()
         contriTimer.Start()
         contributions(0) = New class_contribution("Union Dues", "Annually", 0)
-        contributions(1) = New class_contribution("Union Dues", "Weekly", 0)
+        contributions(1) = New class_contribution("contribution4", "Weekly", 30)
         contributions(2) = New class_contribution("Union Dues", "Monthly", 0)
 
         Try
@@ -400,15 +401,26 @@ Public Class Loan
             Me.period = period
             Me.amount = amount
         End Sub
-        Public Sub dueMonth()
-            MsgBox("Hello month")
+        Public Sub insertion()
+            For Each row As DataGridViewRow In Loan.dgContribution.Rows
+                MsgBox(row.Cells(0).Value.ToString())
+                Try
+                    Loan.conn.Open()
+                    Dim columnName As String = Me.contriName
+                    Dim query As String = "insert into contributions(user_id, " & columnName & ", updated_at)values(@ID, @AMOUNT, now())"
+                    Dim cmd As New MySqlCommand(query, Loan.conn)
+                    cmd.Parameters.AddWithValue("@ID", row.Cells(0).Value.ToString())
+                    cmd.Parameters.AddWithValue("@AMOUNT", Me.amount)
+                    cmd.ExecuteNonQuery()
+                    MsgBox("gumana pre!")
+                Catch ex As Exception
+                    MsgBox("Insertion doesn't work")
+                Finally
+                    Loan.conn.Close()
+                End Try
+            Next
         End Sub
-        Public Sub dueYear()
-            MsgBox("Hello Year")
-        End Sub
-        Public Sub dueWeek()
-            MsgBox("Hello Week")
-        End Sub
+
     End Class
 
     Private Sub btnCreateContri_Click(sender As Object, e As EventArgs) Handles btnCreateContri.Click
@@ -424,27 +436,30 @@ Public Class Loan
         Dim currentdate As DateTime = currenttime
         lblTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
 
-        'If updatedMonth <> currentdate.Month Then
-        '    For Each contribution As class_contribution In contributions
-        '        If contribution.period = "Monthly" Then
-        '            contribution.dueMonth()
-        '        End If
-        '    Next
-        'End If
-        'If updatedYear <> currentdate.Year Then
-        '    For Each contribution As class_contribution In contributions
-        '        If contribution.period = "Annually" Then
-        '            contribution.dueYear()
-        '        End If
-        '    Next
-        'End If
-        'If updatedWeek <> (currentdate.Day / 7) Then
-        '    For Each contribution As class_contribution In contributions
-        '        If contribution.period = "Weekly" Then
-        '            contribution.dueWeek()
-        '        End If
-        '    Next
-        'End If
+        If updatedMonth <> currentdate.Month Then
+            For Each contribution As class_contribution In contributions
+                If contribution.period = "Monthly" Then
+                    contribution.insertion()
+                    updatedMonth = currentdate.Month
+                End If
+            Next
+        End If
+        If updatedYear <> currentdate.Year Then
+            For Each contribution As class_contribution In contributions
+                If contribution.period = "Annually" Then
+                    contribution.insertion()
+                    updatedYear = currentdate.Year
+                End If
+            Next
+        End If
+        If updatedWeek <> (currentdate.Day / 7) Then
+            For Each contribution As class_contribution In contributions
+                If contribution.period = "Weekly" Then
+                    contribution.insertion()
+                    updatedWeek = currentdate.Day / 7
+                End If
+            Next
+        End If
 
     End Sub
 
