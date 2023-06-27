@@ -1,11 +1,8 @@
 ﻿Imports System.IO
-Imports System.Drawing
 Imports MySql.Data.MySqlClient
 Imports OfficeOpenXml
 Imports OfficeOpenXml.Style
 Imports System.Text.RegularExpressions
-Imports System.Threading
-Imports System.Timers
 
 Public Class user_dashboard
     Dim conn As New MySqlConnection("server=172.30.192.162;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -282,12 +279,13 @@ Public Class user_dashboard
             dataRange.Style.Fill.BackgroundColor.SetColor(Color.LightGray)
             dataRange.Style.Font.Color.SetColor(Color.Black)
 
+
             worksheet.Column(1).Width = 7.43 ' Column A
-            worksheet.Column(2).Width = 32 ' Column B
+            worksheet.Column(2).Width = 42 ' Column B
             worksheet.Column(3).Width = 8 ' Column C
             worksheet.Column(4).Width = 18.57 ' Column D
-            worksheet.Column(5).Width = 20 ' Column E
-            worksheet.Column(6).Width = 24 ' Column F
+            'worksheet.Column(5).Width = 20 ' Column E
+            'worksheet.Column(6).Width = 24 ' Column F
             Dim fileInfo As New FileInfo(filePath)
             package.SaveAs(fileInfo)
         End Using
