@@ -454,13 +454,14 @@ Public Class Loan
             contriGrid()
 
         End If
+
         If updatedWeek <> currentweek Then
             For Each contribution As class_contribution In contributions
                 If contribution.period = "Weekly" Then
                     contribution.insertion()
                 End If
             Next
-            updatedWeek = currentdate.Day / 7
+            updatedWeek = currentweek
             contriGrid()
         End If
 
