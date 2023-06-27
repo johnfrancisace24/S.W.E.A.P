@@ -8,7 +8,7 @@ Imports System.Threading
 Imports System.Timers
 
 Public Class user_dashboard
-    Dim conn As New MySqlConnection("server=172.30.207.132;port=3306;username=sweapp;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.192.162;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim dr As MySqlDataReader
 
 
