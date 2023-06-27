@@ -186,6 +186,15 @@ Partial Class Loan
         Column35 = New DataGridViewImageColumn()
         contribution = New TabPage()
         dgContribution = New Guna.UI2.WinForms.Guna2DataGridView()
+        Column37 = New DataGridViewTextBoxColumn()
+        Column38 = New DataGridViewTextBoxColumn()
+        Column39 = New DataGridViewTextBoxColumn()
+        Column40 = New DataGridViewTextBoxColumn()
+        Column45 = New DataGridViewTextBoxColumn()
+        Column41 = New DataGridViewTextBoxColumn()
+        Column42 = New DataGridViewTextBoxColumn()
+        Column43 = New DataGridViewTextBoxColumn()
+        Column44 = New DataGridViewTextBoxColumn()
         Panel9 = New Panel()
         Guna2TextBox7 = New Guna.UI2.WinForms.Guna2TextBox()
         Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
@@ -209,15 +218,6 @@ Partial Class Loan
         contriTimer = New Timer(components)
         Panel11 = New Panel()
         lblTime = New Label()
-        Column37 = New DataGridViewTextBoxColumn()
-        Column38 = New DataGridViewTextBoxColumn()
-        Column39 = New DataGridViewTextBoxColumn()
-        Column40 = New DataGridViewTextBoxColumn()
-        Column45 = New DataGridViewTextBoxColumn()
-        Column41 = New DataGridViewTextBoxColumn()
-        Column42 = New DataGridViewTextBoxColumn()
-        Column43 = New DataGridViewTextBoxColumn()
-        Column44 = New DataGridViewTextBoxColumn()
         tabconLoan.SuspendLayout()
         addLoan.SuspendLayout()
         Panel3.SuspendLayout()
@@ -1539,6 +1539,75 @@ Partial Class Loan
         dgContribution.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
         dgContribution.ThemeStyle.RowsStyle.SelectionForeColor = Color.Black
         ' 
+        ' Column37
+        ' 
+        Column37.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column37.HeaderText = "ID"
+        Column37.Name = "Column37"
+        Column37.ReadOnly = True
+        Column37.Width = 41
+        ' 
+        ' Column38
+        ' 
+        Column38.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column38.HeaderText = "Full Name"
+        Column38.Name = "Column38"
+        Column38.ReadOnly = True
+        ' 
+        ' Column39
+        ' 
+        Column39.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column39.HeaderText = "Position"
+        Column39.Name = "Column39"
+        Column39.ReadOnly = True
+        ' 
+        ' Column40
+        ' 
+        Column40.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column40.HeaderText = "Membership"
+        Column40.Name = "Column40"
+        Column40.ReadOnly = True
+        Column40.Width = 97
+        ' 
+        ' Column45
+        ' 
+        Column45.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column45.HeaderText = "Union Dues"
+        Column45.Name = "Column45"
+        Column45.ReadOnly = True
+        Column45.Width = 91
+        ' 
+        ' Column41
+        ' 
+        Column41.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column41.HeaderText = "BOV"
+        Column41.Name = "Column41"
+        Column41.ReadOnly = True
+        Column41.Width = 53
+        ' 
+        ' Column42
+        ' 
+        Column42.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column42.HeaderText = "Contribution4"
+        Column42.Name = "Column42"
+        Column42.ReadOnly = True
+        Column42.Width = 104
+        ' 
+        ' Column43
+        ' 
+        Column43.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column43.HeaderText = "Contribution5"
+        Column43.Name = "Column43"
+        Column43.ReadOnly = True
+        Column43.Width = 104
+        ' 
+        ' Column44
+        ' 
+        Column44.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
+        Column44.HeaderText = "Updated at"
+        Column44.Name = "Column44"
+        Column44.ReadOnly = True
+        ' 
         ' Panel9
         ' 
         Panel9.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
@@ -1828,80 +1897,12 @@ Partial Class Loan
         lblTime.AutoSize = True
         lblTime.Font = New Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point)
         lblTime.ForeColor = Color.Cyan
-        lblTime.Location = New Point(17, 3)
+        lblTime.Location = New Point(19, 3)
         lblTime.Name = "lblTime"
         lblTime.Size = New Size(88, 25)
         lblTime.TabIndex = 5
         lblTime.Text = "12:15:16"
-        ' 
-        ' Column37
-        ' 
-        Column37.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column37.HeaderText = "ID"
-        Column37.Name = "Column37"
-        Column37.ReadOnly = True
-        Column37.Width = 41
-        ' 
-        ' Column38
-        ' 
-        Column38.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column38.HeaderText = "Full Name"
-        Column38.Name = "Column38"
-        Column38.ReadOnly = True
-        ' 
-        ' Column39
-        ' 
-        Column39.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column39.HeaderText = "Position"
-        Column39.Name = "Column39"
-        Column39.ReadOnly = True
-        ' 
-        ' Column40
-        ' 
-        Column40.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column40.HeaderText = "Membership"
-        Column40.Name = "Column40"
-        Column40.ReadOnly = True
-        Column40.Width = 97
-        ' 
-        ' Column45
-        ' 
-        Column45.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column45.HeaderText = "Union Dues"
-        Column45.Name = "Column45"
-        Column45.ReadOnly = True
-        Column45.Width = 91
-        ' 
-        ' Column41
-        ' 
-        Column41.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column41.HeaderText = "BOV"
-        Column41.Name = "Column41"
-        Column41.ReadOnly = True
-        Column41.Width = 53
-        ' 
-        ' Column42
-        ' 
-        Column42.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column42.HeaderText = "Contribution4"
-        Column42.Name = "Column42"
-        Column42.ReadOnly = True
-        Column42.Width = 104
-        ' 
-        ' Column43
-        ' 
-        Column43.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
-        Column43.HeaderText = "Contribution5"
-        Column43.Name = "Column43"
-        Column43.ReadOnly = True
-        Column43.Width = 104
-        ' 
-        ' Column44
-        ' 
-        Column44.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
-        Column44.HeaderText = "Updated at"
-        Column44.Name = "Column44"
-        Column44.ReadOnly = True
+        lblTime.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Loan
         ' 
