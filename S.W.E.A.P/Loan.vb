@@ -306,8 +306,6 @@ Public Class Loan
             conn.Close()
         End Try
 
-        MsgBox(updatedMonth & vbNewLine & updatedYear & vbNewLine & updatedWeek)
-
         dgSelectEm.Rows.Clear()
         Try
             conn.Open()
@@ -403,21 +401,20 @@ Public Class Loan
         End Sub
         Public Sub insertion()
             For Each row As DataGridViewRow In Loan.dgContribution.Rows
-                MsgBox(row.Cells(0).Value.ToString())
-                Try
-                    Loan.conn.Open()
-                    Dim columnName As String = Me.contriName
-                    Dim query As String = "insert into contributions(user_id, " & columnName & ", updated_at)values(@ID, @AMOUNT, now())"
-                    Dim cmd As New MySqlCommand(query, Loan.conn)
-                    cmd.Parameters.AddWithValue("@ID", row.Cells(0).Value.ToString())
-                    cmd.Parameters.AddWithValue("@AMOUNT", Me.amount)
-                    cmd.ExecuteNonQuery()
-                    MsgBox("gumana pre!")
-                Catch ex As Exception
-                    MsgBox("Insertion doesn't work")
-                Finally
-                    Loan.conn.Close()
-                End Try
+                If Not row.IsNewRow Then
+                    Try
+                        Loan.conn.Open()
+                        Dim columnName As String = Me.contriName
+                        Dim query As String = "insert into contributions(user_id, " & columnName & ", updated_at)values(@ID, @AMOUNT, now())"
+                        Dim cmd As New MySqlCommand(query, Loan.conn)
+                        cmd.Parameters.AddWithValue("@ID", row.Cells(0).Value.ToString())
+                        cmd.Parameters.AddWithValue("@AMOUNT", Me.amount)
+                        cmd.ExecuteNonQuery()
+                    Catch ex As Exception
+                    Finally
+                        Loan.conn.Close()
+                    End Try
+                End If
             Next
         End Sub
 
@@ -434,31 +431,37 @@ Public Class Loan
         Dim timezone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("singapore standard time")
         Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
         Dim currentdate As DateTime = currenttime
+        Dim currentweek As Integer = currentdate.DayOfYear / 7
         lblTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
 
         If updatedMonth <> currentdate.Month Then
             For Each contribution As class_contribution In contributions
                 If contribution.period = "Monthly" Then
                     contribution.insertion()
-                    updatedMonth = currentdate.Month
                 End If
             Next
+            updatedMonth = currentdate.Month
+            contriGrid()
+
         End If
         If updatedYear <> currentdate.Year Then
             For Each contribution As class_contribution In contributions
                 If contribution.period = "Annually" Then
                     contribution.insertion()
-                    updatedYear = currentdate.Year
                 End If
             Next
+            updatedYear = currentdate.Year
+            contriGrid()
+
         End If
-        If updatedWeek <> (currentdate.Day / 7) Then
+        If updatedWeek <> currentweek Then
             For Each contribution As class_contribution In contributions
                 If contribution.period = "Weekly" Then
                     contribution.insertion()
-                    updatedWeek = currentdate.Day / 7
                 End If
             Next
+            updatedWeek = currentdate.Day / 7
+            contriGrid()
         End If
 
     End Sub
