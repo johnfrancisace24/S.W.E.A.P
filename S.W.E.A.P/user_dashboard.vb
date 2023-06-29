@@ -32,10 +32,44 @@ Public Class user_dashboard
 
     Private Sub user_dashboard_load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Start()
+        Dashboard()
         Get_info()
         DG_Load()
     End Sub
 
+    Public Sub Dashboard()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("SELECT * FROM users 
+                                INNER JOIN contributions on users.id = contributions.user_id 
+                                WHERE users.id = @id", conn)
+            cmd.Parameters.AddWithValue("@id", Form2.log_id)
+            dr = cmd.ExecuteReader
+            While dr.Read
+                If Not dr.IsDBNull(dr.GetOrdinal("balance")) Then
+                    txtSaving.Text = dr.GetString("balance")
+                Else
+                    txtSaving.Text = ""
+                End If
+
+                If Not dr.IsDBNull(dr.GetOrdinal("union_dues")) Then
+                    txtUdues.Text = dr.GetString("union_dues")
+                Else
+                    txtUdues.Text = ""
+                End If
+
+                If Not dr.IsDBNull(dr.GetOrdinal("bereavement")) Then
+                    txtBreavement.Text = dr.GetString("bereavement")
+                Else
+                    txtBreavement.Text = ""
+                End If
+            End While
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        Finally
+            conn.Close()
+        End Try
+    End Sub
     Private Sub btnLogOut_Click(sender As Object, e As EventArgs) Handles btnLogOut.Click
         Dim AnswerYes As String
         AnswerYes = MessageBox.Show("Are you sure you want to Log out?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
