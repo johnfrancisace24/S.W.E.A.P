@@ -88,10 +88,6 @@ Partial Class Loan
         Dim CustomizableEdges46 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges47 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges48 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges49 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges50 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges51 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges52 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Loan))
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
@@ -196,23 +192,18 @@ Partial Class Loan
         Column43 = New DataGridViewTextBoxColumn()
         Column44 = New DataGridViewTextBoxColumn()
         Panel9 = New Panel()
-        Guna2TextBox7 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
-        pickContriEditPeriod = New Guna.UI2.WinForms.Guna2ComboBox()
-        Label25 = New Label()
-        Label26 = New Label()
-        Label27 = New Label()
-        Label28 = New Label()
-        numContriEditAmount = New Guna.UI2.WinForms.Guna2NumericUpDown()
         Panel8 = New Panel()
-        txtContriName = New Guna.UI2.WinForms.Guna2TextBox()
-        pickPeriodity = New Guna.UI2.WinForms.Guna2ComboBox()
-        btnCreateContri = New Guna.UI2.WinForms.Guna2Button()
-        Label23 = New Label()
-        Label24 = New Label()
-        Label22 = New Label()
+        btnOpenEdit = New Guna.UI2.WinForms.Guna2Button()
+        txtNewContriName = New Guna.UI2.WinForms.Guna2TextBox()
+        pickContriName = New Guna.UI2.WinForms.Guna2ComboBox()
+        numContriEditAmount = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        btnUpdateContriType = New Guna.UI2.WinForms.Guna2Button()
+        Label28 = New Label()
+        pickContriEditPeriod = New Guna.UI2.WinForms.Guna2ComboBox()
+        Label27 = New Label()
+        Label25 = New Label()
         Label21 = New Label()
-        numContriAmount = New Guna.UI2.WinForms.Guna2NumericUpDown()
+        Label26 = New Label()
         Label13 = New Label()
         Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
         contriTimer = New Timer(components)
@@ -240,10 +231,8 @@ Partial Class Loan
         CType(dgEmList, ComponentModel.ISupportInitialize).BeginInit()
         contribution.SuspendLayout()
         CType(dgContribution, ComponentModel.ISupportInitialize).BeginInit()
-        Panel9.SuspendLayout()
-        CType(numContriEditAmount, ComponentModel.ISupportInitialize).BeginInit()
         Panel8.SuspendLayout()
-        CType(numContriAmount, ComponentModel.ISupportInitialize).BeginInit()
+        CType(numContriEditAmount, ComponentModel.ISupportInitialize).BeginInit()
         Panel11.SuspendLayout()
         SuspendLayout()
         ' 
@@ -1611,59 +1600,124 @@ Partial Class Loan
         ' Panel9
         ' 
         Panel9.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Panel9.Controls.Add(Guna2TextBox7)
-        Panel9.Controls.Add(Guna2Button2)
-        Panel9.Controls.Add(pickContriEditPeriod)
-        Panel9.Controls.Add(Label25)
-        Panel9.Controls.Add(Label26)
-        Panel9.Controls.Add(Label27)
-        Panel9.Controls.Add(Label28)
-        Panel9.Controls.Add(numContriEditAmount)
-        Panel9.Location = New Point(18, 150)
+        Panel9.Location = New Point(18, 189)
         Panel9.Name = "Panel9"
-        Panel9.Size = New Size(1145, 129)
+        Panel9.Size = New Size(1145, 90)
         Panel9.TabIndex = 0
         ' 
-        ' Guna2TextBox7
+        ' Panel8
         ' 
-        Guna2TextBox7.CustomizableEdges = CustomizableEdges37
-        Guna2TextBox7.DefaultText = ""
-        Guna2TextBox7.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox7.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox7.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox7.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox7.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2TextBox7.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox7.Location = New Point(29, 58)
-        Guna2TextBox7.Name = "Guna2TextBox7"
-        Guna2TextBox7.PasswordChar = ChrW(0)
-        Guna2TextBox7.PlaceholderText = ""
-        Guna2TextBox7.SelectedText = ""
-        Guna2TextBox7.ShadowDecoration.CustomizableEdges = CustomizableEdges38
-        Guna2TextBox7.Size = New Size(228, 36)
-        Guna2TextBox7.TabIndex = 4
+        Panel8.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel8.Controls.Add(btnOpenEdit)
+        Panel8.Controls.Add(txtNewContriName)
+        Panel8.Controls.Add(pickContriName)
+        Panel8.Controls.Add(numContriEditAmount)
+        Panel8.Controls.Add(btnUpdateContriType)
+        Panel8.Controls.Add(Label28)
+        Panel8.Controls.Add(pickContriEditPeriod)
+        Panel8.Controls.Add(Label27)
+        Panel8.Controls.Add(Label25)
+        Panel8.Controls.Add(Label21)
+        Panel8.Controls.Add(Label26)
+        Panel8.Location = New Point(18, 16)
+        Panel8.Name = "Panel8"
+        Panel8.Size = New Size(1145, 157)
+        Panel8.TabIndex = 0
         ' 
-        ' Guna2Button2
+        ' btnOpenEdit
         ' 
-        Guna2Button2.CustomizableEdges = CustomizableEdges39
-        Guna2Button2.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button2.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2Button2.ForeColor = Color.White
-        Guna2Button2.Location = New Point(889, 56)
-        Guna2Button2.Name = "Guna2Button2"
-        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges40
-        Guna2Button2.Size = New Size(228, 38)
-        Guna2Button2.TabIndex = 1
-        Guna2Button2.Text = "UPDATE"
+        btnOpenEdit.CustomizableEdges = CustomizableEdges37
+        btnOpenEdit.DisabledState.BorderColor = Color.DarkGray
+        btnOpenEdit.DisabledState.CustomBorderColor = Color.DarkGray
+        btnOpenEdit.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnOpenEdit.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnOpenEdit.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnOpenEdit.ForeColor = Color.White
+        btnOpenEdit.Location = New Point(946, 37)
+        btnOpenEdit.Name = "btnOpenEdit"
+        btnOpenEdit.ShadowDecoration.CustomizableEdges = CustomizableEdges38
+        btnOpenEdit.Size = New Size(166, 36)
+        btnOpenEdit.TabIndex = 6
+        btnOpenEdit.Text = "EDIT"
+        ' 
+        ' txtNewContriName
+        ' 
+        txtNewContriName.CustomizableEdges = CustomizableEdges39
+        txtNewContriName.DefaultText = ""
+        txtNewContriName.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        txtNewContriName.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        txtNewContriName.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtNewContriName.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        txtNewContriName.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtNewContriName.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        txtNewContriName.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        txtNewContriName.Location = New Point(293, 92)
+        txtNewContriName.Name = "txtNewContriName"
+        txtNewContriName.PasswordChar = ChrW(0)
+        txtNewContriName.PlaceholderText = ""
+        txtNewContriName.SelectedText = ""
+        txtNewContriName.ShadowDecoration.CustomizableEdges = CustomizableEdges40
+        txtNewContriName.Size = New Size(237, 36)
+        txtNewContriName.TabIndex = 5
+        ' 
+        ' pickContriName
+        ' 
+        pickContriName.BackColor = Color.Transparent
+        pickContriName.CustomizableEdges = CustomizableEdges41
+        pickContriName.DrawMode = DrawMode.OwnerDrawFixed
+        pickContriName.DropDownStyle = ComboBoxStyle.DropDownList
+        pickContriName.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickContriName.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        pickContriName.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        pickContriName.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
+        pickContriName.ItemHeight = 30
+        pickContriName.Location = New Point(38, 92)
+        pickContriName.Name = "pickContriName"
+        pickContriName.ShadowDecoration.CustomizableEdges = CustomizableEdges42
+        pickContriName.Size = New Size(227, 36)
+        pickContriName.TabIndex = 4
+        ' 
+        ' numContriEditAmount
+        ' 
+        numContriEditAmount.BackColor = Color.Transparent
+        numContriEditAmount.CustomizableEdges = CustomizableEdges43
+        numContriEditAmount.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        numContriEditAmount.Location = New Point(557, 92)
+        numContriEditAmount.Name = "numContriEditAmount"
+        numContriEditAmount.ShadowDecoration.CustomizableEdges = CustomizableEdges44
+        numContriEditAmount.Size = New Size(153, 36)
+        numContriEditAmount.TabIndex = 1
+        ' 
+        ' btnUpdateContriType
+        ' 
+        btnUpdateContriType.CustomizableEdges = CustomizableEdges45
+        btnUpdateContriType.DisabledState.BorderColor = Color.DarkGray
+        btnUpdateContriType.DisabledState.CustomBorderColor = Color.DarkGray
+        btnUpdateContriType.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnUpdateContriType.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnUpdateContriType.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnUpdateContriType.ForeColor = Color.White
+        btnUpdateContriType.Location = New Point(946, 92)
+        btnUpdateContriType.Name = "btnUpdateContriType"
+        btnUpdateContriType.ShadowDecoration.CustomizableEdges = CustomizableEdges46
+        btnUpdateContriType.Size = New Size(166, 36)
+        btnUpdateContriType.TabIndex = 1
+        btnUpdateContriType.Text = "UPDATE"
+        ' 
+        ' Label28
+        ' 
+        Label28.AutoSize = True
+        Label28.Font = New Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point)
+        Label28.Location = New Point(478, 14)
+        Label28.Name = "Label28"
+        Label28.Size = New Size(195, 25)
+        Label28.TabIndex = 3
+        Label28.Text = "EDIT CONTRIBUTION"
         ' 
         ' pickContriEditPeriod
         ' 
         pickContriEditPeriod.BackColor = Color.Transparent
-        pickContriEditPeriod.CustomizableEdges = CustomizableEdges41
+        pickContriEditPeriod.CustomizableEdges = CustomizableEdges47
         pickContriEditPeriod.DrawMode = DrawMode.OwnerDrawFixed
         pickContriEditPeriod.DropDownStyle = ComboBoxStyle.DropDownList
         pickContriEditPeriod.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -1672,183 +1726,51 @@ Partial Class Loan
         pickContriEditPeriod.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         pickContriEditPeriod.ItemHeight = 30
         pickContriEditPeriod.Items.AddRange(New Object() {"Daily", "Weekly", "Monthly", "Annually"})
-        pickContriEditPeriod.Location = New Point(691, 58)
+        pickContriEditPeriod.Location = New Point(738, 92)
         pickContriEditPeriod.Name = "pickContriEditPeriod"
-        pickContriEditPeriod.ShadowDecoration.CustomizableEdges = CustomizableEdges42
-        pickContriEditPeriod.Size = New Size(153, 36)
+        pickContriEditPeriod.ShadowDecoration.CustomizableEdges = CustomizableEdges48
+        pickContriEditPeriod.Size = New Size(180, 36)
         pickContriEditPeriod.TabIndex = 2
-        ' 
-        ' Label25
-        ' 
-        Label25.AutoSize = True
-        Label25.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Label25.Location = New Point(616, 66)
-        Label25.Name = "Label25"
-        Label25.Size = New Size(50, 19)
-        Label25.TabIndex = 3
-        Label25.Text = "Period:"
-        ' 
-        ' Label26
-        ' 
-        Label26.AutoSize = True
-        Label26.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Label26.Location = New Point(77, 36)
-        Label26.Name = "Label26"
-        Label26.Size = New Size(130, 19)
-        Label26.TabIndex = 3
-        Label26.Text = "Contribution Name:"
         ' 
         ' Label27
         ' 
         Label27.AutoSize = True
         Label27.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Label27.Location = New Point(317, 66)
+        Label27.Location = New Point(600, 67)
         Label27.Name = "Label27"
         Label27.Size = New Size(62, 19)
         Label27.TabIndex = 3
         Label27.Text = "Amount:"
         ' 
-        ' Label28
+        ' Label25
         ' 
-        Label28.AutoSize = True
-        Label28.Font = New Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label28.Location = New Point(479, 16)
-        Label28.Name = "Label28"
-        Label28.Size = New Size(195, 25)
-        Label28.TabIndex = 3
-        Label28.Text = "EDIT CONTRIBUTION"
-        ' 
-        ' numContriEditAmount
-        ' 
-        numContriEditAmount.BackColor = Color.Transparent
-        numContriEditAmount.CustomizableEdges = CustomizableEdges43
-        numContriEditAmount.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        numContriEditAmount.Location = New Point(392, 58)
-        numContriEditAmount.Name = "numContriEditAmount"
-        numContriEditAmount.ShadowDecoration.CustomizableEdges = CustomizableEdges44
-        numContriEditAmount.Size = New Size(153, 36)
-        numContriEditAmount.TabIndex = 1
-        ' 
-        ' Panel8
-        ' 
-        Panel8.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Panel8.Controls.Add(txtContriName)
-        Panel8.Controls.Add(pickPeriodity)
-        Panel8.Controls.Add(btnCreateContri)
-        Panel8.Controls.Add(Label23)
-        Panel8.Controls.Add(Label24)
-        Panel8.Controls.Add(Label22)
-        Panel8.Controls.Add(Label21)
-        Panel8.Controls.Add(numContriAmount)
-        Panel8.Location = New Point(18, 16)
-        Panel8.Name = "Panel8"
-        Panel8.Size = New Size(1145, 119)
-        Panel8.TabIndex = 0
-        ' 
-        ' txtContriName
-        ' 
-        txtContriName.CustomizableEdges = CustomizableEdges45
-        txtContriName.DefaultText = ""
-        txtContriName.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        txtContriName.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        txtContriName.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtContriName.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        txtContriName.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtContriName.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        txtContriName.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtContriName.Location = New Point(29, 52)
-        txtContriName.Name = "txtContriName"
-        txtContriName.PasswordChar = ChrW(0)
-        txtContriName.PlaceholderText = ""
-        txtContriName.SelectedText = ""
-        txtContriName.ShadowDecoration.CustomizableEdges = CustomizableEdges46
-        txtContriName.Size = New Size(228, 36)
-        txtContriName.TabIndex = 4
-        ' 
-        ' pickPeriodity
-        ' 
-        pickPeriodity.BackColor = Color.Transparent
-        pickPeriodity.CustomizableEdges = CustomizableEdges47
-        pickPeriodity.DrawMode = DrawMode.OwnerDrawFixed
-        pickPeriodity.DropDownStyle = ComboBoxStyle.DropDownList
-        pickPeriodity.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickPeriodity.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        pickPeriodity.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        pickPeriodity.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
-        pickPeriodity.ItemHeight = 30
-        pickPeriodity.Items.AddRange(New Object() {"Daily", "Weekly", "Monthly", "Annually"})
-        pickPeriodity.Location = New Point(691, 52)
-        pickPeriodity.Name = "pickPeriodity"
-        pickPeriodity.ShadowDecoration.CustomizableEdges = CustomizableEdges48
-        pickPeriodity.Size = New Size(153, 36)
-        pickPeriodity.TabIndex = 2
-        ' 
-        ' btnCreateContri
-        ' 
-        btnCreateContri.CustomizableEdges = CustomizableEdges49
-        btnCreateContri.DisabledState.BorderColor = Color.DarkGray
-        btnCreateContri.DisabledState.CustomBorderColor = Color.DarkGray
-        btnCreateContri.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnCreateContri.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnCreateContri.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        btnCreateContri.ForeColor = Color.White
-        btnCreateContri.Location = New Point(889, 50)
-        btnCreateContri.Name = "btnCreateContri"
-        btnCreateContri.ShadowDecoration.CustomizableEdges = CustomizableEdges50
-        btnCreateContri.Size = New Size(228, 38)
-        btnCreateContri.TabIndex = 1
-        btnCreateContri.Text = "CREATE"
-        ' 
-        ' Label23
-        ' 
-        Label23.AutoSize = True
-        Label23.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Label23.Location = New Point(616, 60)
-        Label23.Name = "Label23"
-        Label23.Size = New Size(50, 19)
-        Label23.TabIndex = 3
-        Label23.Text = "Period:"
-        ' 
-        ' Label24
-        ' 
-        Label24.AutoSize = True
-        Label24.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Label24.Location = New Point(77, 27)
-        Label24.Name = "Label24"
-        Label24.Size = New Size(130, 19)
-        Label24.TabIndex = 3
-        Label24.Text = "Contribution Name:"
-        ' 
-        ' Label22
-        ' 
-        Label22.AutoSize = True
-        Label22.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Label22.Location = New Point(317, 60)
-        Label22.Name = "Label22"
-        Label22.Size = New Size(62, 19)
-        Label22.TabIndex = 3
-        Label22.Text = "Amount:"
+        Label25.AutoSize = True
+        Label25.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Label25.Location = New Point(800, 67)
+        Label25.Name = "Label25"
+        Label25.Size = New Size(50, 19)
+        Label25.TabIndex = 3
+        Label25.Text = "Period:"
         ' 
         ' Label21
         ' 
         Label21.AutoSize = True
-        Label21.Font = New Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point)
-        Label21.Location = New Point(480, 9)
+        Label21.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Label21.Location = New Point(327, 67)
         Label21.Name = "Label21"
-        Label21.Size = New Size(194, 25)
+        Label21.Size = New Size(161, 19)
         Label21.TabIndex = 3
-        Label21.Text = "ADD CONTRIBUTION"
+        Label21.Text = "New Contribution Name:"
         ' 
-        ' numContriAmount
+        ' Label26
         ' 
-        numContriAmount.BackColor = Color.Transparent
-        numContriAmount.CustomizableEdges = CustomizableEdges51
-        numContriAmount.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        numContriAmount.Location = New Point(392, 52)
-        numContriAmount.Name = "numContriAmount"
-        numContriAmount.ShadowDecoration.CustomizableEdges = CustomizableEdges52
-        numContriAmount.Size = New Size(153, 36)
-        numContriAmount.TabIndex = 1
+        Label26.AutoSize = True
+        Label26.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        Label26.Location = New Point(85, 67)
+        Label26.Name = "Label26"
+        Label26.Size = New Size(130, 19)
+        Label26.TabIndex = 3
+        Label26.Text = "Contribution Name:"
         ' 
         ' Label13
         ' 
@@ -1947,12 +1869,9 @@ Partial Class Loan
         CType(dgEmList, ComponentModel.ISupportInitialize).EndInit()
         contribution.ResumeLayout(False)
         CType(dgContribution, ComponentModel.ISupportInitialize).EndInit()
-        Panel9.ResumeLayout(False)
-        Panel9.PerformLayout()
-        CType(numContriEditAmount, ComponentModel.ISupportInitialize).EndInit()
         Panel8.ResumeLayout(False)
         Panel8.PerformLayout()
-        CType(numContriAmount, ComponentModel.ISupportInitialize).EndInit()
+        CType(numContriEditAmount, ComponentModel.ISupportInitialize).EndInit()
         Panel11.ResumeLayout(False)
         Panel11.PerformLayout()
         ResumeLayout(False)
@@ -2068,26 +1987,16 @@ Partial Class Loan
     Friend WithEvents Label30 As Label
     Friend WithEvents Guna2NumericUpDown4 As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents Guna2NumericUpDown3 As Guna.UI2.WinForms.Guna2NumericUpDown
-    Friend WithEvents Panel8 As Panel
-    Friend WithEvents btnCreateContri As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Label23 As Label
-    Friend WithEvents Label22 As Label
-    Friend WithEvents Label21 As Label
-    Friend WithEvents numContriAmount As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents tabconLoan As Guna.UI2.WinForms.Guna2TabControl
-    Friend WithEvents txtContriName As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Label24 As Label
     Friend WithEvents Panel9 As Panel
-    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents btnUpdateContriType As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents pickContriEditPeriod As Guna.UI2.WinForms.Guna2ComboBox
     Friend WithEvents Label25 As Label
     Friend WithEvents Label26 As Label
     Friend WithEvents Label27 As Label
     Friend WithEvents Label28 As Label
     Friend WithEvents numContriEditAmount As Guna.UI2.WinForms.Guna2NumericUpDown
-    Friend WithEvents pickPeriodity As Guna.UI2.WinForms.Guna2ComboBox
     Friend WithEvents dgContribution As Guna.UI2.WinForms.Guna2DataGridView
-    Friend WithEvents Guna2TextBox7 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents contriTimer As Timer
     Friend WithEvents Panel11 As Panel
     Friend WithEvents lblTime As Label
@@ -2100,4 +2009,9 @@ Partial Class Loan
     Friend WithEvents Column42 As DataGridViewTextBoxColumn
     Friend WithEvents Column43 As DataGridViewTextBoxColumn
     Friend WithEvents Column44 As DataGridViewTextBoxColumn
+    Friend WithEvents Panel8 As Panel
+    Friend WithEvents pickContriName As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents txtNewContriName As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Label21 As Label
+    Friend WithEvents btnOpenEdit As Guna.UI2.WinForms.Guna2Button
 End Class
