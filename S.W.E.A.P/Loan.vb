@@ -2,6 +2,7 @@
 Imports DocumentFormat.OpenXml.Drawing.Charts
 Imports DocumentFormat.OpenXml.Spreadsheet
 Imports DocumentFormat.OpenXml.Wordprocessing
+Imports OfficeOpenXml
 Imports MySql.Data.MySqlClient
 Public Class Loan
     '-----------------------------------VARIABLE DECLARATION------------------------------------------
@@ -29,6 +30,7 @@ Public Class Loan
     Dim conn As New MySqlConnection("server=172.30.192.162;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
     Dim selectedId As Integer = 0
+    Dim loanSchedId As Integer
     '------------------------------------VARIABLE DECLARATION FOR CONTRIBUTIONS----------------------------------------------
     Dim updatedMonth As Integer
     Dim updatedYear As Integer
@@ -117,7 +119,7 @@ Public Class Loan
                 dgContribution.Rows.Add(rid.Item("user_id"), rid.Item("full_name"), rid.Item("position"), rid.Item("membership"), rid.Item("union_due"), rid.Item("bereavement"), rid.Item("con4"), rid.Item("con5"), rid.Item("updated_at"))
             End While
         Catch ex As Exception
-            MsgBox("datagrid doesnt wokr!")
+            MsgBox("Fetching contribution table doesn't work. Function name contriGrid()")
         Finally
             conn.Close()
         End Try
@@ -132,10 +134,11 @@ Public Class Loan
             rid = cmd.ExecuteReader
             While rid.Read
                 contributions(counter) = New class_contribution(rid.Item("contribution_name"), rid.Item("periodity"), rid.Item("amount"))
+                dgContribution.Columns(3 + counter).HeaderText = rid.Item("alias")
                 counter = counter + 1
             End While
         Catch ex As Exception
-            MsgBox("Fetching of data failed from reset_contributions function")
+            MsgBox("Fetching of data failed from reset_contributions() function")
         Finally
             conn.Close()
         End Try
@@ -148,6 +151,8 @@ Public Class Loan
         txtNewContriName.Enabled = status
         numContriEditAmount.Enabled = status
     End Sub
+
+
     '------------------------------------END OF FUNCTIONS-----------------------------------------------------
 
     Private Sub btnSetSched_Click(sender As Object, e As EventArgs) Handles btnSetSched.Click '-------SET SCHEDULE BUTTON
@@ -347,10 +352,9 @@ Public Class Loan
             conn.Close()
         End Try
 
-
-
         btnApprove.Enabled = False
         pnlSelectLender.Visible = False
+        Guna2Button1.Enabled = False '-------------LOCK BUTTON
     End Sub
 
     Private Sub Guna2CircleButton1_Click(sender As Object, e As EventArgs) Handles Guna2CircleButton1.Click
@@ -375,6 +379,7 @@ Public Class Loan
             dgLoans.Rows.Clear()
             dgLoanSchedule.Rows.Clear()
             idSelect = dgEmList.CurrentRow.Cells(0).Value.ToString()
+            loanSchedId = idSelect
             Try
                 conn.Open()
                 Dim cmd As New MySqlCommand("select * from loan_info where user_id=@ID", conn)
@@ -393,8 +398,10 @@ Public Class Loan
 
     Private Sub dgLoans_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgLoans.CellClick
         Dim idSelect As Integer
+
         If e.ColumnIndex = 7 AndAlso e.RowIndex >= 0 Then '----------------TO SELECT
             idSelect = dgLoans.CurrentRow.Cells(0).Value.ToString()
+
             dgLoanSchedule.Rows.Clear()
             Try
                 conn.Open()
@@ -402,7 +409,7 @@ Public Class Loan
                 cmd.Parameters.AddWithValue("@ID", idSelect)
                 rid = cmd.ExecuteReader
                 While rid.Read
-                    dgLoanSchedule.Rows.Add(rid.Item("pmt_no"), rid.Item("payment_date"), "₱" & rid.Item("beginning_balance"), "₱" & rid.Item("scheduled_payment"), "₱" & rid.Item("extra_payment"), "₱" & rid.Item("total_payment"), "₱" & rid.Item("principal"), "₱" & rid.Item("interest"), "₱" & rid.Item("ending_balance"), "₱" & rid.Item("cumulative_interest"))
+                    dgLoanSchedule.Rows.Add(rid.Item("pmt_no"), rid.Item("payment_date"), rid.Item("beginning_balance"), rid.Item("scheduled_payment"), rid.Item("extra_payment"), rid.Item("total_payment"), rid.Item("principal"), rid.Item("interest"), rid.Item("ending_balance"), rid.Item("cumulative_interest"))
                 End While
             Catch ex As Exception
                 MsgBox("EW error")
@@ -410,6 +417,91 @@ Public Class Loan
                 conn.Close()
             End Try
         End If
+    End Sub
+
+
+    Private Sub btnLoanToExcel_Click(sender As Object, e As EventArgs) Handles btnLoanToExcel.Click '---------CREATE EXCEL FILE
+        Dim filePath As String
+        MsgBox(loanSchedId)
+        ExcelPackage.LicenseContext = LicenseContext.NonCommercial
+
+        Using package As New ExcelPackage()
+            Dim workbook As ExcelWorkbook = package.Workbook
+            Dim worksheet As ExcelWorksheet = workbook.Worksheets.Add("Sheet1") ' Add a worksheet
+            Dim counter As Integer = 13
+            Dim totalXtraP As Integer
+
+            worksheet.Cells("A2").Value = "ENTERED VALUES"
+            worksheet.Cells("A3").Value = "Loan amount"
+            worksheet.Cells("A4").Value = "Annual interest rate"
+            worksheet.Cells("A5").Value = "Loan period in years"
+            worksheet.Cells("A6").Value = "Loan amount"
+            worksheet.Cells("A7").Value = "Annual interest rate"
+            worksheet.Cells("A9").Value = "Loan period in years"
+
+            worksheet.Cells("G2").Value = "LOAN SUMMARY"
+            worksheet.Cells("G3").Value = "Scheduled Payment"
+            worksheet.Cells("G4").Value = "Scheduled number of payments"
+            worksheet.Cells("G5").Value = "Actual number of payments"
+            worksheet.Cells("G6").Value = "Total early payments"
+            worksheet.Cells("G7").Value = "Total Interest"
+            worksheet.Cells("G9").Value = "LENDER NAME"
+
+            Try
+                conn.Open()
+                Dim cmd As New MySqlCommand("select loan_info.*, concat(first_name, ' ', middle_name, ' ', last_name) as fullname, username from loan_info left join users on loan_info.user_id = users.id where user_id=@ID", conn)
+                cmd.Parameters.AddWithValue("@ID", loanSchedId)
+                rid = cmd.ExecuteReader
+                While rid.Read
+                    worksheet.Cells("B3").Value = rid.Item("loan_amount")
+                    worksheet.Cells("B4").Value = rid.Item("anual_interest_rate")
+                    worksheet.Cells("B5").Value = rid.Item("loan_period_years")
+                    worksheet.Cells("B6").Value = rid.Item("no_payments_per_year")
+                    worksheet.Cells("B8").Value = rid.Item("start_date_of_loan")
+                    worksheet.Cells("B9").Value = rid.Item("optional_xtra")
+                    worksheet.Cells("H4").Value = rid.Item("no_payments_per_year") * rid.Item("loan_period_years")
+                    worksheet.Cells("H9").Value = rid.Item("fullname")
+                    filePath = rid.Item("username")
+                End While
+            Catch ex As Exception
+                MsgBox("doesntwork")
+            Finally
+                conn.Close()
+            End Try
+
+            worksheet.Cells("H5").Value = dgLoanSchedule.RowCount
+            worksheet.Cells("A11").Value = dgLoanSchedule.Columns(0).HeaderText
+            worksheet.Cells("B11").Value = dgLoanSchedule.Columns(1).HeaderText
+            worksheet.Cells("C11").Value = dgLoanSchedule.Columns(2).HeaderText
+            worksheet.Cells("D11").Value = dgLoanSchedule.Columns(3).HeaderText
+            worksheet.Cells("E11").Value = dgLoanSchedule.Columns(4).HeaderText
+            worksheet.Cells("F11").Value = dgLoanSchedule.Columns(5).HeaderText
+            worksheet.Cells("G11").Value = dgLoanSchedule.Columns(6).HeaderText
+            worksheet.Cells("H11").Value = dgLoanSchedule.Columns(7).HeaderText
+            worksheet.Cells("I11").Value = dgLoanSchedule.Columns(8).HeaderText
+            worksheet.Cells("I11").Value = dgLoanSchedule.Columns(9).HeaderText
+
+            For Each row As DataGridViewRow In dgLoanSchedule.Rows
+                worksheet.Cells("A" & counter).Value = row.Cells(0).Value
+                worksheet.Cells("B" & counter).Value = row.Cells(1).Value.ToString()
+                worksheet.Cells("C" & counter).Value = row.Cells(2).Value
+                worksheet.Cells("D" & counter).Value = row.Cells(3).Value
+                worksheet.Cells("E" & counter).Value = row.Cells(4).Value
+                worksheet.Cells("F" & counter).Value = row.Cells(5).Value
+                worksheet.Cells("G" & counter).Value = row.Cells(6).Value
+                worksheet.Cells("H" & counter).Value = row.Cells(7).Value
+                worksheet.Cells("I" & counter).Value = row.Cells(8).Value
+                worksheet.Cells("J" & counter).Value = row.Cells(9).Value
+                totalXtraP = totalXtraP + row.Cells(4).Value
+                counter = counter + 1
+                worksheet.Cells("H7").Value = row.Cells(9).Value
+                worksheet.Cells("H3").Value = row.Cells(3).Value
+            Next
+            worksheet.Cells("H6").Value = totalXtraP
+
+            filePath = "C:\wamp64\" & filePath & "_loan_Schedule.xlsx"
+            package.SaveAs(New System.IO.FileInfo(filePath))
+        End Using
     End Sub
 
     '------------------------------------------------------------CONTRIBUTIONS--------------------------------------------------------------------
@@ -513,6 +605,7 @@ Public Class Loan
         Finally
             conn.Close()
         End Try
+        contriEditFields(False)
     End Sub
 
     Private Sub btnOpenEdit_Click(sender As Object, e As EventArgs) Handles btnOpenEdit.Click
@@ -530,6 +623,31 @@ Public Class Loan
         End Try
         contriEditFields(True)
         btnOpenEdit.Enabled = False
+        Guna2Button1.Enabled = True
     End Sub
+
+    Private Sub pickContriName_SelectedIndexChanged(sender As Object, e As EventArgs) Handles pickContriName.SelectedIndexChanged
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select * from contri_types where alias=@NAME", conn)
+            cmd.Parameters.AddWithValue("@NAME", pickContriName.SelectedItem)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                pickContriEditPeriod.SelectedItem = rid.Item("periodity")
+                numContriEditAmount.Value = rid.Item("amount")
+            End While
+        Catch ex As Exception
+            MsgBox("Fetching data failed at pickContriName")
+        Finally
+            conn.Close()
+        End Try
+    End Sub
+
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click '-----------LOCK BUTTON FROM CONTRIBUTION
+        contriEditFields(False)
+        Guna2Button1.Enabled = False
+        btnOpenEdit.Enabled = True
+    End Sub
+
 End Class
 
