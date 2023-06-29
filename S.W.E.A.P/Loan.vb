@@ -499,7 +499,11 @@ Public Class Loan
             Next
             worksheet.Cells("H6").Value = totalXtraP
 
-            filePath = "C:\wamp64\" & filePath & "_loan_Schedule.xlsx"
+            Dim locateProject As String = My.Application.Info.DirectoryPath
+            Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
+            Dim location As String = locateProject.Substring(0, indext)
+
+            filePath = location & "\Resources\Exported_file\" & filePath & "_loan_Schedule.xlsx"
             package.SaveAs(New System.IO.FileInfo(filePath))
         End Using
     End Sub

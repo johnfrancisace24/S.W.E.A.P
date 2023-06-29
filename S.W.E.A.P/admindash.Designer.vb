@@ -135,6 +135,8 @@ Partial Class admindash
         Dim CustomizableEdges88 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges89 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges90 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges91 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges92 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges93 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges94 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges95 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -142,8 +144,6 @@ Partial Class admindash
         Dim DataGridViewCellStyle11 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle12 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle13 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges91 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges92 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Panel1 = New Panel()
         lblDateTime = New Label()
@@ -284,6 +284,7 @@ Partial Class admindash
         Label37 = New Label()
         Guna2PictureBox6 = New Guna.UI2.WinForms.Guna2PictureBox()
         tabContri = New TabPage()
+        Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Label6 = New Label()
         lblTime = New Label()
         btnEditContri = New Guna.UI2.WinForms.Guna2Button()
@@ -300,7 +301,6 @@ Partial Class admindash
         TabPage3 = New TabPage()
         ImageList2 = New ImageList(components)
         liveTimer = New Timer(components)
-        Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Panel1.SuspendLayout()
         Guna2TabControl1.SuspendLayout()
         TabPage6.SuspendLayout()
@@ -1375,14 +1375,14 @@ Partial Class admindash
         pickEditBdate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         pickEditBdate.Format = DateTimePickerFormat.Long
         pickEditBdate.Location = New Point(221, 404)
-        pickEditBdate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
-        pickEditBdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
+        pickEditBdate.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
+        pickEditBdate.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
         pickEditBdate.Name = "pickEditBdate"
         pickEditBdate.ShadowDecoration.CustomizableEdges = CustomizableEdges38
         pickEditBdate.Size = New Size(384, 36)
         pickEditBdate.TabIndex = 3
         pickEditBdate.TextAlign = HorizontalAlignment.Center
-        pickEditBdate.Value = New Date(2023, 6, 6, 9, 2, 45, 794)
+        pickEditBdate.Value = New DateTime(2023, 6, 6, 9, 2, 45, 794)
         ' 
         ' txtEditAddress
         ' 
@@ -2510,6 +2510,22 @@ Partial Class admindash
         tabContri.TabIndex = 4
         tabContri.Text = "Contributions"
         ' 
+        ' Guna2Button1
+        ' 
+        Guna2Button1.CustomizableEdges = CustomizableEdges91
+        Guna2Button1.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Guna2Button1.ForeColor = Color.White
+        Guna2Button1.Location = New Point(26, 233)
+        Guna2Button1.Name = "Guna2Button1"
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges92
+        Guna2Button1.Size = New Size(180, 42)
+        Guna2Button1.TabIndex = 3
+        Guna2Button1.Text = "EXPORT TO EXCEL"
+        ' 
         ' Label6
         ' 
         Label6.AutoSize = True
@@ -2562,7 +2578,6 @@ Partial Class admindash
         ' 
         ' dgContributions
         ' 
-        dgContributions.AllowUserToAddRows = False
         dgContributions.AllowUserToDeleteRows = False
         DataGridViewCellStyle11.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
         dgContributions.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle11
@@ -2579,7 +2594,7 @@ Partial Class admindash
         dgContributions.Columns.AddRange(New DataGridViewColumn() {Column3, Column5, Column6, Column13, Column14, Column12, Column15, Column16})
         DataGridViewCellStyle13.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle13.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
-        DataGridViewCellStyle13.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        DataGridViewCellStyle13.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Regular, GraphicsUnit.Point)
         DataGridViewCellStyle13.ForeColor = Color.Black
         DataGridViewCellStyle13.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
         DataGridViewCellStyle13.SelectionForeColor = Color.White
@@ -2610,7 +2625,7 @@ Partial Class admindash
         dgContributions.ThemeStyle.ReadOnly = True
         dgContributions.ThemeStyle.RowsStyle.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
         dgContributions.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
-        dgContributions.ThemeStyle.RowsStyle.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        dgContributions.ThemeStyle.RowsStyle.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Regular, GraphicsUnit.Point)
         dgContributions.ThemeStyle.RowsStyle.ForeColor = Color.Black
         dgContributions.ThemeStyle.RowsStyle.Height = 25
         dgContributions.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(119), CByte(133), CByte(147))
@@ -2700,22 +2715,6 @@ Partial Class admindash
         ' liveTimer
         ' 
         liveTimer.Interval = 1000
-        ' 
-        ' Guna2Button1
-        ' 
-        Guna2Button1.CustomizableEdges = CustomizableEdges91
-        Guna2Button1.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        Guna2Button1.ForeColor = Color.White
-        Guna2Button1.Location = New Point(26, 233)
-        Guna2Button1.Name = "Guna2Button1"
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges92
-        Guna2Button1.Size = New Size(180, 42)
-        Guna2Button1.TabIndex = 3
-        Guna2Button1.Text = "EXPORT TO EXCEL"
         ' 
         ' admindash
         ' 
