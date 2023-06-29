@@ -112,12 +112,8 @@ Partial Class user_dashboard
         lblFromTitle = New Label()
         Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
         tabDashboard = New TabPage()
-        pnlTime = New Panel()
-        Label3 = New Label()
         ImageList1 = New ImageList(components)
-        lblDate = New Label()
         lblTime = New Label()
-        pnlDashboard = New Panel()
         tabProfile = New TabPage()
         Label27 = New Label()
         Label2 = New Label()
@@ -152,6 +148,18 @@ Partial Class user_dashboard
         search = New Guna.UI2.WinForms.Guna2TextBox()
         Label33 = New Label()
         tabSetting = New TabPage()
+        Label19 = New Label()
+        Label17 = New Label()
+        Label18 = New Label()
+        Label26 = New Label()
+        Label16 = New Label()
+        Label22 = New Label()
+        Label23 = New Label()
+        Label24 = New Label()
+        Label20 = New Label()
+        Label25 = New Label()
+        Label15 = New Label()
+        Label14 = New Label()
         Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
         user_Profile = New Guna.UI2.WinForms.Guna2PictureBox()
         cmboSex = New Guna.UI2.WinForms.Guna2ComboBox()
@@ -175,24 +183,10 @@ Partial Class user_dashboard
         btnUpdate = New Guna.UI2.WinForms.Guna2Button()
         Timer1 = New Timer(components)
         Timer2 = New Timer(components)
-        Label14 = New Label()
-        Label15 = New Label()
-        Label25 = New Label()
-        Label20 = New Label()
-        Label24 = New Label()
-        Label23 = New Label()
-        Label22 = New Label()
-        Label16 = New Label()
-        Label26 = New Label()
-        Label18 = New Label()
-        Label17 = New Label()
-        Label19 = New Label()
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
         CType(iconFromtitle, ComponentModel.ISupportInitialize).BeginInit()
         Guna2TabControl1.SuspendLayout()
-        tabDashboard.SuspendLayout()
-        pnlTime.SuspendLayout()
         tabProfile.SuspendLayout()
         CType(userProfile, ComponentModel.ISupportInitialize).BeginInit()
         tabBeneficiary.SuspendLayout()
@@ -209,6 +203,7 @@ Partial Class user_dashboard
         ' 
         Panel1.BackColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
         Panel1.Controls.Add(Label1)
+        Panel1.Controls.Add(lblTime)
         Panel1.Controls.Add(Guna2ControlBox3)
         Panel1.Controls.Add(Guna2ControlBox2)
         Panel1.Controls.Add(Guna2ControlBox1)
@@ -396,40 +391,14 @@ Partial Class user_dashboard
         ' 
         tabDashboard.BackColor = Color.FromArgb(CByte(54), CByte(69), CByte(94))
         tabDashboard.BackgroundImageLayout = ImageLayout.Stretch
-        tabDashboard.Controls.Add(pnlTime)
-        tabDashboard.Controls.Add(pnlDashboard)
         tabDashboard.Font = New Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point)
-        tabDashboard.ImageKey = "welcome-back.png"
+        tabDashboard.ImageKey = "dashboard (3).png"
         tabDashboard.Location = New Point(254, 4)
         tabDashboard.Name = "tabDashboard"
         tabDashboard.Padding = New Padding(3)
         tabDashboard.Size = New Size(999, 586)
         tabDashboard.TabIndex = 0
-        tabDashboard.Text = "Welcome"
-        ' 
-        ' pnlTime
-        ' 
-        pnlTime.Controls.Add(Label3)
-        pnlTime.Controls.Add(lblDate)
-        pnlTime.Controls.Add(lblTime)
-        pnlTime.Location = New Point(3, 3)
-        pnlTime.Name = "pnlTime"
-        pnlTime.Size = New Size(993, 580)
-        pnlTime.TabIndex = 15
-        ' 
-        ' Label3
-        ' 
-        Label3.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        Label3.ForeColor = Color.WhiteSmoke
-        Label3.ImageAlign = ContentAlignment.MiddleRight
-        Label3.ImageKey = "fast-forward-double-right-arrows-symbol.png"
-        Label3.ImageList = ImageList1
-        Label3.Location = New Point(846, 299)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(142, 45)
-        Label3.TabIndex = 17
-        Label3.Text = "Click here"
-        Label3.TextAlign = ContentAlignment.MiddleCenter
+        tabDashboard.Text = "Dashboard"
         ' 
         ' ImageList1
         ' 
@@ -447,35 +416,16 @@ Partial Class user_dashboard
         ImageList1.Images.SetKeyName(8, "fast-forward-double-right-arrows-symbol.png")
         ImageList1.Images.SetKeyName(9, "arrowheads-of-thin-outline-to-the-left.png")
         ' 
-        ' lblDate
-        ' 
-        lblDate.Font = New Font("Segoe UI Semibold", 20F, FontStyle.Bold, GraphicsUnit.Point)
-        lblDate.ForeColor = Color.FromArgb(CByte(34), CByte(124), CByte(122))
-        lblDate.Location = New Point(281, 302)
-        lblDate.Name = "lblDate"
-        lblDate.Size = New Size(431, 43)
-        lblDate.TabIndex = 16
-        lblDate.Text = "10 : 34 : 01 AM"
-        lblDate.TextAlign = ContentAlignment.MiddleCenter
-        ' 
         ' lblTime
         ' 
-        lblTime.Font = New Font("Segoe UI Semibold", 40F, FontStyle.Bold, GraphicsUnit.Point)
+        lblTime.Font = New Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point)
         lblTime.ForeColor = Color.Cyan
-        lblTime.Location = New Point(281, 236)
+        lblTime.Location = New Point(919, 3)
         lblTime.Name = "lblTime"
-        lblTime.Size = New Size(431, 72)
+        lblTime.Size = New Size(101, 34)
         lblTime.TabIndex = 15
         lblTime.Text = "10 : 34 : 01 AM"
         lblTime.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' pnlDashboard
-        ' 
-        pnlDashboard.BackColor = Color.FromArgb(CByte(54), CByte(69), CByte(14))
-        pnlDashboard.Location = New Point(3, 3)
-        pnlDashboard.Name = "pnlDashboard"
-        pnlDashboard.Size = New Size(993, 580)
-        pnlDashboard.TabIndex = 0
         ' 
         ' tabProfile
         ' 
@@ -1088,6 +1038,126 @@ Partial Class user_dashboard
         tabSetting.TabIndex = 3
         tabSetting.Text = "Account Setting"
         ' 
+        ' Label19
+        ' 
+        Label19.AutoSize = True
+        Label19.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label19.Location = New Point(314, 511)
+        Label19.Name = "Label19"
+        Label19.Size = New Size(83, 22)
+        Label19.TabIndex = 175
+        Label19.Text = "Committee:"
+        ' 
+        ' Label17
+        ' 
+        Label17.AutoSize = True
+        Label17.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label17.Location = New Point(60, 509)
+        Label17.Name = "Label17"
+        Label17.Size = New Size(136, 22)
+        Label17.TabIndex = 174
+        Label17.Text = "Employment Status:"
+        ' 
+        ' Label18
+        ' 
+        Label18.AutoSize = True
+        Label18.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label18.Location = New Point(314, 444)
+        Label18.Name = "Label18"
+        Label18.Size = New Size(49, 22)
+        Label18.TabIndex = 173
+        Label18.Text = "Office:"
+        ' 
+        ' Label26
+        ' 
+        Label26.AutoSize = True
+        Label26.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label26.Location = New Point(60, 444)
+        Label26.Name = "Label26"
+        Label26.Size = New Size(157, 22)
+        Label26.TabIndex = 172
+        Label26.Text = "Educational Attainment:"
+        ' 
+        ' Label16
+        ' 
+        Label16.AutoSize = True
+        Label16.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label16.Location = New Point(669, 370)
+        Label16.Name = "Label16"
+        Label16.Size = New Size(63, 22)
+        Label16.TabIndex = 171
+        Label16.Text = "Position:"
+        ' 
+        ' Label22
+        ' 
+        Label22.AutoSize = True
+        Label22.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label22.Location = New Point(314, 370)
+        Label22.Name = "Label22"
+        Label22.Size = New Size(106, 22)
+        Label22.TabIndex = 170
+        Label22.Text = "Email Address:"
+        ' 
+        ' Label23
+        ' 
+        Label23.AutoSize = True
+        Label23.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label23.Location = New Point(60, 370)
+        Label23.Name = "Label23"
+        Label23.Size = New Size(61, 22)
+        Label23.TabIndex = 169
+        Label23.Text = "Contact:"
+        ' 
+        ' Label24
+        ' 
+        Label24.AutoSize = True
+        Label24.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label24.Location = New Point(59, 293)
+        Label24.Name = "Label24"
+        Label24.Size = New Size(66, 22)
+        Label24.TabIndex = 168
+        Label24.Text = "Address:"
+        ' 
+        ' Label20
+        ' 
+        Label20.AutoSize = True
+        Label20.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label20.Location = New Point(669, 97)
+        Label20.Name = "Label20"
+        Label20.Size = New Size(69, 22)
+        Label20.TabIndex = 167
+        Label20.Text = "Birthdate:"
+        ' 
+        ' Label25
+        ' 
+        Label25.AutoSize = True
+        Label25.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label25.Location = New Point(669, 19)
+        Label25.Name = "Label25"
+        Label25.Size = New Size(58, 22)
+        Label25.TabIndex = 166
+        Label25.Text = "Gender"
+        ' 
+        ' Label15
+        ' 
+        Label15.AutoSize = True
+        Label15.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label15.Location = New Point(664, 222)
+        Label15.Name = "Label15"
+        Label15.Size = New Size(83, 22)
+        Label15.TabIndex = 165
+        Label15.Text = "Last Name:"
+        ' 
+        ' Label14
+        ' 
+        Label14.AutoSize = True
+        Label14.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
+        Label14.Location = New Point(314, 222)
+        Label14.Name = "Label14"
+        Label14.Size = New Size(100, 22)
+        Label14.TabIndex = 164
+        Label14.Text = "Middle Name:"
+        ' 
         ' Guna2Button4
         ' 
         Guna2Button4.BorderRadius = 5
@@ -1193,13 +1263,13 @@ Partial Class user_dashboard
         txtbxbdate.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxbdate.HoverState.ForeColor = Color.Black
         txtbxbdate.Location = New Point(664, 126)
-        txtbxbdate.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
-        txtbxbdate.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
+        txtbxbdate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        txtbxbdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         txtbxbdate.Name = "txtbxbdate"
         txtbxbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges40
         txtbxbdate.Size = New Size(273, 36)
         txtbxbdate.TabIndex = 157
-        txtbxbdate.Value = New DateTime(2023, 6, 6, 13, 54, 41, 766)
+        txtbxbdate.Value = New Date(2023, 6, 6, 13, 54, 41, 766)
         ' 
         ' cmbxcomm
         ' 
@@ -1506,129 +1576,6 @@ Partial Class user_dashboard
         ' Timer1
         ' 
         ' 
-        ' Timer2
-        ' 
-        ' 
-        ' Label14
-        ' 
-        Label14.AutoSize = True
-        Label14.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label14.Location = New Point(314, 222)
-        Label14.Name = "Label14"
-        Label14.Size = New Size(100, 22)
-        Label14.TabIndex = 164
-        Label14.Text = "Middle Name:"
-        ' 
-        ' Label15
-        ' 
-        Label15.AutoSize = True
-        Label15.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label15.Location = New Point(664, 222)
-        Label15.Name = "Label15"
-        Label15.Size = New Size(83, 22)
-        Label15.TabIndex = 165
-        Label15.Text = "Last Name:"
-        ' 
-        ' Label25
-        ' 
-        Label25.AutoSize = True
-        Label25.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label25.Location = New Point(669, 19)
-        Label25.Name = "Label25"
-        Label25.Size = New Size(58, 22)
-        Label25.TabIndex = 166
-        Label25.Text = "Gender"
-        ' 
-        ' Label20
-        ' 
-        Label20.AutoSize = True
-        Label20.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label20.Location = New Point(669, 97)
-        Label20.Name = "Label20"
-        Label20.Size = New Size(69, 22)
-        Label20.TabIndex = 167
-        Label20.Text = "Birthdate:"
-        ' 
-        ' Label24
-        ' 
-        Label24.AutoSize = True
-        Label24.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label24.Location = New Point(59, 293)
-        Label24.Name = "Label24"
-        Label24.Size = New Size(66, 22)
-        Label24.TabIndex = 168
-        Label24.Text = "Address:"
-        ' 
-        ' Label23
-        ' 
-        Label23.AutoSize = True
-        Label23.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label23.Location = New Point(60, 370)
-        Label23.Name = "Label23"
-        Label23.Size = New Size(61, 22)
-        Label23.TabIndex = 169
-        Label23.Text = "Contact:"
-        ' 
-        ' Label22
-        ' 
-        Label22.AutoSize = True
-        Label22.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label22.Location = New Point(314, 370)
-        Label22.Name = "Label22"
-        Label22.Size = New Size(106, 22)
-        Label22.TabIndex = 170
-        Label22.Text = "Email Address:"
-        ' 
-        ' Label16
-        ' 
-        Label16.AutoSize = True
-        Label16.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label16.Location = New Point(669, 370)
-        Label16.Name = "Label16"
-        Label16.Size = New Size(63, 22)
-        Label16.TabIndex = 171
-        Label16.Text = "Position:"
-        ' 
-        ' Label26
-        ' 
-        Label26.AutoSize = True
-        Label26.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label26.Location = New Point(60, 444)
-        Label26.Name = "Label26"
-        Label26.Size = New Size(157, 22)
-        Label26.TabIndex = 172
-        Label26.Text = "Educational Attainment:"
-        ' 
-        ' Label18
-        ' 
-        Label18.AutoSize = True
-        Label18.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label18.Location = New Point(314, 444)
-        Label18.Name = "Label18"
-        Label18.Size = New Size(49, 22)
-        Label18.TabIndex = 173
-        Label18.Text = "Office:"
-        ' 
-        ' Label17
-        ' 
-        Label17.AutoSize = True
-        Label17.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label17.Location = New Point(60, 509)
-        Label17.Name = "Label17"
-        Label17.Size = New Size(136, 22)
-        Label17.TabIndex = 174
-        Label17.Text = "Employment Status:"
-        ' 
-        ' Label19
-        ' 
-        Label19.AutoSize = True
-        Label19.Font = New Font("Arial Narrow", 12.75F, FontStyle.Regular, GraphicsUnit.Point)
-        Label19.Location = New Point(314, 511)
-        Label19.Name = "Label19"
-        Label19.Size = New Size(83, 22)
-        Label19.TabIndex = 175
-        Label19.Text = "Committee:"
-        ' 
         ' user_dashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -1646,8 +1593,6 @@ Partial Class user_dashboard
         Panel2.ResumeLayout(False)
         CType(iconFromtitle, ComponentModel.ISupportInitialize).EndInit()
         Guna2TabControl1.ResumeLayout(False)
-        tabDashboard.ResumeLayout(False)
-        pnlTime.ResumeLayout(False)
         tabProfile.ResumeLayout(False)
         tabProfile.PerformLayout()
         CType(userProfile, ComponentModel.ISupportInitialize).EndInit()
@@ -1726,12 +1671,8 @@ Partial Class user_dashboard
     Friend WithEvents Label2 As Label
     Friend WithEvents lblDateTime As Label
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents pnlTime As Panel
-    Friend WithEvents lblDate As Label
     Friend WithEvents lblTime As Label
-    Friend WithEvents pnlDashboard As Panel
     Friend WithEvents Timer2 As Timer
-    Friend WithEvents Label3 As Label
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column5 As DataGridViewTextBoxColumn
