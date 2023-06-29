@@ -7,6 +7,7 @@ Imports OfficeOpenXml.Style
 Imports System.Text.RegularExpressions
 Imports Microsoft.Office.Interop.Excel
 Imports System.Windows.Forms.DataVisualization.Charting
+Imports System.Diagnostics.Metrics
 
 Public Class admindash
     Dim conn As New MySqlConnection("server=172.30.192.162;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -25,23 +26,33 @@ Public Class admindash
                                             balance from users left join user_info On users.id = user_info.user_id")
         countmember()
         liveTimer.Start()
+
         If Guna2TabControl1.SelectedTab Is tabEmployee Then
             pnlEmployee.Visible = True ' Show the employeepanel
         Else
             tabEdit.Visible = False ' Hide the employeepanel
         End If
 
-
         Try
-            Dim cmd As New MySqlCommand("select * from contri_types where contribution_name = 'Union Due'", conn)
+            conn.Open()
+            Dim counter As Integer
+            Dim cmd As New MySqlCommand("select * from contri_types", conn)
             rid = cmd.ExecuteReader
             While rid.Read
-                unionDue = rid.GetInt32("amount")
+                dgContributions.Columns(3 + counter).HeaderText = rid.Item("alias")
+                counter = counter + 1
             End While
         Catch ex As Exception
+            MsgBox("header doesnt work")
         Finally
             conn.Close()
         End Try
+
+        lblContri1.Text = dgContributions.Columns(3).HeaderText
+        lblContri2.Text = dgContributions.Columns(4).HeaderText
+        lblContri3.Text = dgContributions.Columns(5).HeaderText
+        lblContri4.Text = dgContributions.Columns(6).HeaderText
+        lblContri5.Text = dgContributions.Columns(7).HeaderText
 
         Try
             conn.Open()
@@ -51,22 +62,11 @@ Public Class admindash
                 dgContributions.Rows.Add(rid.Item("user_id"), rid.Item("fullname"), rid.Item("position"), rid.Item("union_dues"), rid.Item("bereavement"), rid.Item("membership_fee"), rid.Item("contribution4"), rid.Item("contribution5"))
             End While
         Catch ex As Exception
-            MsgBox("this doesn't work")
+            MsgBox("contribution data fetching doesn't work")
         Finally
             conn.Close()
         End Try
 
-        'Try
-        '    Dim cmd As New MySqlCommand("select count(id) as members from contributions", conn)
-        '    rid = cmd.ExecuteReader
-        '    While rid.Read
-        '        countMembers = rid.GetInt32("members")
-        '    End While
-        'Catch ex As Exception
-        '    MsgBox("Counting doesn't work")
-        'Finally
-        '    conn.Close()
-        'End Try
     End Sub
 
     Private Sub Guna2Tabcontrol1_Click(sender As Object, e As EventArgs) Handles Guna2TabControl1.Click
