@@ -5,11 +5,8 @@ Imports System.IO
 Imports OfficeOpenXml
 Imports OfficeOpenXml.Style
 Imports System.Text.RegularExpressions
-Imports DocumentFormat.OpenXml.Office2021.Excel.Pivot
-Imports Org.BouncyCastle.Crypto.IO
-Imports DocumentFormat.OpenXml.Vml.Spreadsheet
+Imports Microsoft.Office.Interop.Excel
 Imports System.Windows.Forms.DataVisualization.Charting
-Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
 Public Class admindash
     Dim conn As New MySqlConnection("server=172.30.192.162;port=3306;username=sweapp;password=druguser;database=sweap")
@@ -640,4 +637,81 @@ Public Class admindash
     End Sub
 
 
+    'EXPORT TO EXCEL-------------------------------------------------------------------------
+    Public Sub SetEPPlusLicenseContext()
+        ExcelPackage.LicenseContext = LicenseContext.NonCommercial
+    End Sub
+    Public Sub ExportToExcel(dgContributions As DataGridView, filePath As String)
+
+        SetEPPlusLicenseContext()
+        Using package As New ExcelPackage()
+            Dim worksheet As ExcelWorksheet = package.Workbook.Worksheets.Add("Contributions")
+
+            For j = 0 To dgContributions.Columns.Count - 1
+                worksheet.Cells(1, j + 1).Value = dgContributions.Columns(j).HeaderText
+            Next
+
+            For i = 0 To dgContributions.Rows.Count - 1
+                For j = 0 To dgContributions.Columns.Count - 1
+                    worksheet.Cells(i + 2, j + 1).Value = dgContributions.Rows(i).Cells(j).Value
+                Next
+            Next
+
+            Dim range As ExcelRange = worksheet.Cells(1, 1, dgContributions.Rows.Count + 1, dgContributions.Columns.Count)
+            range.Style.HorizontalAlignment = ExcelHorizontalAlignment.Left
+            range.Style.Font.Bold = True
+            range.Style.Border.Top.Style = ExcelBorderStyle.Thin
+            range.Style.Border.Bottom.Style = ExcelBorderStyle.Thin
+            range.Style.Border.Left.Style = ExcelBorderStyle.Thin
+            range.Style.Border.Right.Style = ExcelBorderStyle.Thin
+
+
+            'background color for header
+            Dim headerRange As ExcelRange = worksheet.Cells(1, 1, 1, dgContributions.Columns.Count)
+            headerRange.Style.Fill.PatternType = ExcelFillStyle.Solid
+            headerRange.Style.Fill.BackgroundColor.SetColor(Color.LightGreen)
+            headerRange.Style.Font.Color.SetColor(Color.Black)
+            headerRange.Style.Border.Top.Style = ExcelBorderStyle.None
+            headerRange.Style.Border.Bottom.Style = ExcelBorderStyle.None
+            headerRange.Style.Border.Left.Style = ExcelBorderStyle.None
+            headerRange.Style.Border.Right.Style = ExcelBorderStyle.None
+
+            'background color for rows
+            Dim dataRange As ExcelRange = worksheet.Cells(2, 1, dgContributions.Rows.Count + 1, dgContributions.Columns.Count)
+            dataRange.Style.Fill.PatternType = ExcelFillStyle.Solid
+            dataRange.Style.Fill.BackgroundColor.SetColor(Color.LightGray)
+            dataRange.Style.Font.Color.SetColor(Color.Black)
+
+            worksheet.Column(1).Width = 7.43 ' Column A
+            worksheet.Column(2).Width = 42 ' Column B
+            worksheet.Column(3).Width = 34.57 ' Column C
+            worksheet.Column(4).Width = 18.57 ' Column D
+            worksheet.Column(5).Width = 18.57 ' Column E
+            worksheet.Column(6).Width = 24 ' Column F
+            worksheet.Column(7).Width = 20 ' Column G
+            worksheet.Column(8).Width = 20 ' Column H
+
+            Dim fileInfo As New FileInfo(filePath)
+            package.SaveAs(fileInfo)
+        End Using
+
+        ' Open the folder location of the exported Excel file
+        Dim processStartInfo As New ProcessStartInfo()
+        processStartInfo.FileName = "explorer.exe"
+        processStartInfo.Arguments = "/select, """ & filePath & """"
+        processStartInfo.UseShellExecute = True
+        Process.Start(processStartInfo)
+    End Sub
+
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
+        Try
+            Dim documentsPath As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
+            Dim filePath As String = Path.Combine(documentsPath, "contributions.xlsx")
+
+            ExportToExcel(dgContributions, filePath)
+            MessageBox.Show("Export complete.", "Excel file", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+    End Sub
 End Class

@@ -23,14 +23,14 @@ Partial Class admindash
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges95 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges96 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges97 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges98 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges99 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges100 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges101 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges102 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges103 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges104 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(admindash))
@@ -135,13 +135,15 @@ Partial Class admindash
         Dim CustomizableEdges88 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges89 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges90 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges91 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges92 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges93 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges94 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges95 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges96 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim DataGridViewCellStyle11 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle12 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle13 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges91 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges92 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Panel1 = New Panel()
         lblDateTime = New Label()
@@ -298,6 +300,7 @@ Partial Class admindash
         TabPage3 = New TabPage()
         ImageList2 = New ImageList(components)
         liveTimer = New Timer(components)
+        Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Panel1.SuspendLayout()
         Guna2TabControl1.SuspendLayout()
         TabPage6.SuspendLayout()
@@ -374,7 +377,7 @@ Partial Class admindash
         Guna2Button6.Animated = True
         Guna2Button6.BorderRadius = 5
         Guna2Button6.Cursor = Cursors.Hand
-        Guna2Button6.CustomizableEdges = CustomizableEdges95
+        Guna2Button6.CustomizableEdges = CustomizableEdges97
         Guna2Button6.DisabledState.BorderColor = Color.DarkGray
         Guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button6.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -384,7 +387,7 @@ Partial Class admindash
         Guna2Button6.ForeColor = Color.White
         Guna2Button6.Location = New Point(1076, 4)
         Guna2Button6.Name = "Guna2Button6"
-        Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges96
+        Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges98
         Guna2Button6.Size = New Size(92, 31)
         Guna2Button6.TabIndex = 5
         Guna2Button6.Text = "Log out"
@@ -425,14 +428,14 @@ Partial Class admindash
         Guna2ControlBox3.Animated = True
         Guna2ControlBox3.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
         Guna2ControlBox3.Cursor = Cursors.Hand
-        Guna2ControlBox3.CustomizableEdges = CustomizableEdges97
+        Guna2ControlBox3.CustomizableEdges = CustomizableEdges99
         Guna2ControlBox3.Dock = DockStyle.Right
         Guna2ControlBox3.FillColor = Color.Transparent
         Guna2ControlBox3.ForeColor = SystemColors.ControlText
         Guna2ControlBox3.IconColor = Color.WhiteSmoke
         Guna2ControlBox3.Location = New Point(1168, 0)
         Guna2ControlBox3.Name = "Guna2ControlBox3"
-        Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges98
+        Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges100
         Guna2ControlBox3.Size = New Size(40, 40)
         Guna2ControlBox3.TabIndex = 2
         ' 
@@ -441,14 +444,14 @@ Partial Class admindash
         Guna2ControlBox2.Animated = True
         Guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox
         Guna2ControlBox2.Cursor = Cursors.Hand
-        Guna2ControlBox2.CustomizableEdges = CustomizableEdges99
+        Guna2ControlBox2.CustomizableEdges = CustomizableEdges101
         Guna2ControlBox2.Dock = DockStyle.Right
         Guna2ControlBox2.FillColor = Color.Transparent
         Guna2ControlBox2.ForeColor = SystemColors.ControlText
         Guna2ControlBox2.IconColor = Color.WhiteSmoke
         Guna2ControlBox2.Location = New Point(1208, 0)
         Guna2ControlBox2.Name = "Guna2ControlBox2"
-        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges100
+        Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges102
         Guna2ControlBox2.Size = New Size(40, 40)
         Guna2ControlBox2.TabIndex = 1
         ' 
@@ -456,7 +459,7 @@ Partial Class admindash
         ' 
         Guna2ControlBox1.Animated = True
         Guna2ControlBox1.Cursor = Cursors.Hand
-        Guna2ControlBox1.CustomizableEdges = CustomizableEdges101
+        Guna2ControlBox1.CustomizableEdges = CustomizableEdges103
         Guna2ControlBox1.Dock = DockStyle.Right
         Guna2ControlBox1.FillColor = Color.Transparent
         Guna2ControlBox1.ForeColor = SystemColors.ControlText
@@ -465,7 +468,7 @@ Partial Class admindash
         Guna2ControlBox1.IconColor = Color.WhiteSmoke
         Guna2ControlBox1.Location = New Point(1248, 0)
         Guna2ControlBox1.Name = "Guna2ControlBox1"
-        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges102
+        Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges104
         Guna2ControlBox1.Size = New Size(40, 40)
         Guna2ControlBox1.TabIndex = 0
         ' 
@@ -2493,6 +2496,7 @@ Partial Class admindash
         ' tabContri
         ' 
         tabContri.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
+        tabContri.Controls.Add(Guna2Button1)
         tabContri.Controls.Add(Label6)
         tabContri.Controls.Add(lblTime)
         tabContri.Controls.Add(btnEditContri)
@@ -2526,7 +2530,7 @@ Partial Class admindash
         ' 
         ' btnEditContri
         ' 
-        btnEditContri.CustomizableEdges = CustomizableEdges91
+        btnEditContri.CustomizableEdges = CustomizableEdges93
         btnEditContri.DisabledState.BorderColor = Color.DarkGray
         btnEditContri.DisabledState.CustomBorderColor = Color.DarkGray
         btnEditContri.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -2535,14 +2539,14 @@ Partial Class admindash
         btnEditContri.ForeColor = Color.White
         btnEditContri.Location = New Point(826, 233)
         btnEditContri.Name = "btnEditContri"
-        btnEditContri.ShadowDecoration.CustomizableEdges = CustomizableEdges92
+        btnEditContri.ShadowDecoration.CustomizableEdges = CustomizableEdges94
         btnEditContri.Size = New Size(180, 42)
         btnEditContri.TabIndex = 1
         btnEditContri.Text = "EDIT CONTRIBUTION"
         ' 
         ' btnLoan
         ' 
-        btnLoan.CustomizableEdges = CustomizableEdges93
+        btnLoan.CustomizableEdges = CustomizableEdges95
         btnLoan.DisabledState.BorderColor = Color.DarkGray
         btnLoan.DisabledState.CustomBorderColor = Color.DarkGray
         btnLoan.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -2551,7 +2555,7 @@ Partial Class admindash
         btnLoan.ForeColor = Color.White
         btnLoan.Location = New Point(631, 233)
         btnLoan.Name = "btnLoan"
-        btnLoan.ShadowDecoration.CustomizableEdges = CustomizableEdges94
+        btnLoan.ShadowDecoration.CustomizableEdges = CustomizableEdges96
         btnLoan.Size = New Size(180, 42)
         btnLoan.TabIndex = 1
         btnLoan.Text = "VIEW LOAN"
@@ -2696,6 +2700,22 @@ Partial Class admindash
         ' liveTimer
         ' 
         liveTimer.Interval = 1000
+        ' 
+        ' Guna2Button1
+        ' 
+        Guna2Button1.CustomizableEdges = CustomizableEdges91
+        Guna2Button1.DisabledState.BorderColor = Color.DarkGray
+        Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        Guna2Button1.ForeColor = Color.White
+        Guna2Button1.Location = New Point(26, 233)
+        Guna2Button1.Name = "Guna2Button1"
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges92
+        Guna2Button1.Size = New Size(180, 42)
+        Guna2Button1.TabIndex = 3
+        Guna2Button1.Text = "EXPORT TO EXCEL"
         ' 
         ' admindash
         ' 
@@ -2926,4 +2946,5 @@ Partial Class admindash
     Friend WithEvents DataGridViewTextBoxColumn12 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn13 As DataGridViewTextBoxColumn
     Friend WithEvents Column7 As DataGridViewImageColumn
+    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
 End Class

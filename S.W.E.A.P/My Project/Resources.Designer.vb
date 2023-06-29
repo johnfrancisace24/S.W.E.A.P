@@ -123,6 +123,17 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property cartoon_gold_philippine_currency_symbol_pesos_sign_vector_29563281_removebg_preview() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("cartoon-gold-philippine-currency-symbol-pesos-sign-vector-29563281-removebg-previ"& _ 
+                        "ew", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property close() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("close", resourceCulture)
@@ -336,6 +347,46 @@ Namespace My.Resources
         Friend ReadOnly Property image_removebg_preview__1_1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("image-removebg-preview (1)1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property image_removebg_preview__2_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("image-removebg-preview (2)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property image_removebg_preview__2_1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("image-removebg-preview (2)1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property image_removebg_preview__3_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("image-removebg-preview (3)", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property image_removebg_preview__4_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("image-removebg-preview (4)", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

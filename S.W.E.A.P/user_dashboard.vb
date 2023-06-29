@@ -30,25 +30,45 @@ Public Class user_dashboard
         lblTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
     End Sub
 
-    Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
-        pnlTime.Left += 100
-        If pnlTime.Left >= 993 Then
-            Timer2.Stop()
-            pnlTime.Left = 993
-        End If
-    End Sub
     Private Sub user_dashboard_load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Start()
-        lblDate.Text = Date.Today
+        Dashboard()
         Get_info()
         DG_Load()
-
-        Label3.ForeColor = Color.FromArgb(CInt(Opacity * 255), Label1.ForeColor)
     End Sub
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-        Timer2.Start()
-        tabDashboard.Text = "Dashboard"
-        tabDashboard.ImageIndex = 2
+
+    Public Sub Dashboard()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("SELECT * FROM users 
+                                INNER JOIN contributions on users.id = contributions.user_id 
+                                WHERE users.id = @id", conn)
+            cmd.Parameters.AddWithValue("@id", Form2.log_id)
+            dr = cmd.ExecuteReader
+            While dr.Read
+                If Not dr.IsDBNull(dr.GetOrdinal("balance")) Then
+                    txtSaving.Text = dr.GetString("balance")
+                Else
+                    txtSaving.Text = ""
+                End If
+
+                If Not dr.IsDBNull(dr.GetOrdinal("union_dues")) Then
+                    txtUdues.Text = dr.GetString("union_dues")
+                Else
+                    txtUdues.Text = ""
+                End If
+
+                If Not dr.IsDBNull(dr.GetOrdinal("bereavement")) Then
+                    txtBreavement.Text = dr.GetString("bereavement")
+                Else
+                    txtBreavement.Text = ""
+                End If
+            End While
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        Finally
+            conn.Close()
+        End Try
     End Sub
     Private Sub btnLogOut_Click(sender As Object, e As EventArgs) Handles btnLogOut.Click
         Dim AnswerYes As String
@@ -82,13 +102,6 @@ Public Class user_dashboard
             lblFromTitle.Text = "Home"
             iconFromtitle.Image = Image.FromFile(destinationIconPath + Home)
         End If
-    End Sub
-    Private Sub Guna2TabControl1_Click(sender As Object, e As EventArgs) Handles Guna2TabControl1.Click
-        If Guna2TabControl1.SelectedTab Is tabDashboard Then
-            pnlTime.Visible = True
-            pnlTime.Left = 0
-        End If
-
     End Sub
     Public Sub DG_Load()
         BeneficiariesDGV.Rows.Clear()
@@ -131,16 +144,10 @@ Public Class user_dashboard
 
                 If cmboSex.SelectedIndex = 0 Then
                     lblDateTime.Text = "Mr. " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("last_logout")
-                    tabDashboard.ImageIndex = 6
-                    tabDashboard.Text = "Mr. " + dr.GetString("first_name")
                 ElseIf cmboSex.SelectedIndex = 1 Then
                     lblDateTime.Text = "Ms. " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("last_logout")
-                    tabDashboard.ImageIndex = 7
-                    tabDashboard.Text = "Ms. " + dr.GetString("first_name")
                 ElseIf cmboSex.SelectedIndex = 2 Then
                     lblDateTime.Text = "Hi " + dr.GetString("first_name") + " Your last log in was " + dr.GetString("last_logout")
-                    tabDashboard.ImageIndex = 6
-                    tabDashboard.Text = "Hi. " + dr.GetString("first_name")
                 End If
                 Pfname.Text = dr.GetString("fullName")
                 Padd.Text = dr.GetString("address")
