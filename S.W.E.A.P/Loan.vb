@@ -1,4 +1,5 @@
-﻿Imports DocumentFormat.OpenXml.Drawing.Charts
+﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement
+Imports DocumentFormat.OpenXml.Drawing.Charts
 Imports DocumentFormat.OpenXml.Spreadsheet
 Imports DocumentFormat.OpenXml.Wordprocessing
 Imports MySql.Data.MySqlClient
@@ -32,6 +33,7 @@ Public Class Loan
     Dim updatedMonth As Integer
     Dim updatedYear As Integer
     Dim updatedWeek As Integer
+    Dim updatedDay As Integer
     '-----------------------------------------------END OF CONTRIBUTION'S VARIABLE-------------------------------------------
 
     '-----------------------------------END OF VARIABLE DECLARATION-------------------------------------------
@@ -103,7 +105,7 @@ Public Class Loan
         CumuInterest = Math.Round(CumuInterest, 2)
     End Sub
 
-    Public Sub contriGrid()
+    Public Sub contriGrid() '--------------------FOR CONTRIBUTION TABLE
         dgContribution.Rows.Clear()
         Try
             conn.Open()
@@ -119,6 +121,32 @@ Public Class Loan
         Finally
             conn.Close()
         End Try
+    End Sub
+
+    Public Sub reset_contributions() '---------------------TO RESET OF CONTRIBUTIONS CLASS
+        Array.Clear(contributions, 0, contributions.Length)
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select * from contri_types", conn)
+            Dim counter As Integer = 0
+            rid = cmd.ExecuteReader
+            While rid.Read
+                contributions(counter) = New class_contribution(rid.Item("contribution_name"), rid.Item("periodity"), rid.Item("amount"))
+                counter = counter + 1
+            End While
+        Catch ex As Exception
+            MsgBox("Fetching of data failed from reset_contributions function")
+        Finally
+            conn.Close()
+        End Try
+    End Sub
+
+    Public Sub contriEditFields(status)
+        btnUpdateContriType.Enabled = status
+        pickContriName.Enabled = status
+        pickContriEditPeriod.Enabled = status
+        txtNewContriName.Enabled = status
+        numContriEditAmount.Enabled = status
     End Sub
     '------------------------------------END OF FUNCTIONS-----------------------------------------------------
 
@@ -286,20 +314,19 @@ Public Class Loan
     End Sub
 
     Private Sub Form2_Load_1(sender As Object, e As EventArgs) Handles MyBase.Load '------------AUTOLOAD
+        contriEditFields(False)
+        reset_contributions()
         contriGrid()
         contriTimer.Start()
-        contributions(0) = New class_contribution("Union Dues", "Annually", 0)
-        contributions(1) = New class_contribution("contribution4", "Weekly", 30)
-        contributions(2) = New class_contribution("Union Dues", "Monthly", 0)
-
         Try
             conn.Open()
-            Dim cmd As New MySqlCommand("select month(updated_at) as month, year(updated_at) as year, week(updated_at) as week from contributions", conn)
+            Dim cmd As New MySqlCommand("select month(updated_at) as month, year(updated_at) as year, week(updated_at) as week, day(updated_at) as day from contributions", conn)
             rid = cmd.ExecuteReader
             While rid.Read
                 updatedMonth = rid.GetInt32("month")
                 updatedYear = rid.GetInt32("year")
                 updatedWeek = rid.GetInt32("week")
+                updatedDay = rid.GetInt32("day")
             End While
         Catch ex As Exception
         Finally
@@ -388,7 +415,7 @@ Public Class Loan
     '------------------------------------------------------------CONTRIBUTIONS--------------------------------------------------------------------
 
     Dim contriCounter As Integer = 0
-    Public Shared contributions(2) As class_contribution
+    Public Shared contributions(4) As class_contribution
 
     Public Class class_contribution
         Public contriName As String
@@ -420,13 +447,6 @@ Public Class Loan
 
     End Class
 
-    Private Sub btnCreateContri_Click(sender As Object, e As EventArgs) Handles btnCreateContri.Click
-        contributions(contriCounter) = New class_contribution(txtContriName.Text, pickPeriodity.SelectedItem, numContriAmount.Value)
-        contriCounter = contriCounter + 1
-        ReDim Preserve contributions(contriCounter)
-        MsgBox(contributions(0).contriName)
-    End Sub
-
     Private Sub contriTimer_Tick(sender As Object, e As EventArgs) Handles contriTimer.Tick
         Dim timezone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("singapore standard time")
         Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
@@ -442,8 +462,8 @@ Public Class Loan
             Next
             updatedMonth = currentdate.Month
             contriGrid()
-
         End If
+
         If updatedYear <> currentdate.Year Then
             For Each contribution As class_contribution In contributions
                 If contribution.period = "Annually" Then
@@ -465,8 +485,51 @@ Public Class Loan
             contriGrid()
         End If
 
+        If updatedDay <> currentdate.DayOfYear Then
+            For Each contribution As class_contribution In contributions
+                If contribution.period = "Daily" Then
+                    contribution.insertion()
+                End If
+            Next
+            updatedDay = currentdate.DayOfYear
+            contriGrid()
+        End If
+
     End Sub
 
+    Private Sub btnUpdateContriType_Click(sender As Object, e As EventArgs) Handles btnUpdateContriType.Click
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("update contri_types set alias = @CN, amount = @AMOUNT, periodity = @PER, updated_at = now() where alias=@OCN;", conn)
+            cmd.Parameters.AddWithValue("@CN", txtNewContriName.Text)
+            cmd.Parameters.AddWithValue("@AMOUNT", numContriEditAmount.Value)
+            cmd.Parameters.AddWithValue("@PER", pickContriEditPeriod.SelectedItem)
+            cmd.Parameters.AddWithValue("@OCN", pickContriName.SelectedItem)
+            cmd.ExecuteNonQuery()
+            MsgBox("Update Successfully")
+            dgContribution.Columns(pickContriName.SelectedIndex + 3).HeaderText = txtNewContriName.Text
+        Catch ex As Exception
+            MsgBox("Update doesn't work")
+        Finally
+            conn.Close()
+        End Try
+    End Sub
 
+    Private Sub btnOpenEdit_Click(sender As Object, e As EventArgs) Handles btnOpenEdit.Click
+        pickContriName.Items.Clear()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select alias from contri_types", conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                pickContriName.Items.Add(rid.Item("alias"))
+            End While
+        Catch ex As Exception
+        Finally
+            conn.Close()
+        End Try
+        contriEditFields(True)
+        btnOpenEdit.Enabled = False
+    End Sub
 End Class
 
