@@ -34,9 +34,7 @@ Public Class user_dashboard
         Timer1.Start()
         Get_info()
         DG_Load()
-        If Guna2TabControl1.SelectedTab Is tabDashboard Then
-            Dashboard()
-        End If
+        Dashboard()
     End Sub
 
     Public Sub Dashboard()
@@ -89,6 +87,7 @@ Public Class user_dashboard
         If Guna2TabControl1.SelectedTab Is tabDashboard Then
             lblFromTitle.Text = "Dashboard"
             iconFromtitle.Image = Image.FromFile(destinationIconPath + dashPath)
+            Dashboard()
         ElseIf Guna2TabControl1.SelectedTab Is tabProfile Then
             lblFromTitle.Text = "Profile"
             iconFromtitle.Image = Image.FromFile(destinationIconPath + profPath)
@@ -356,4 +355,5 @@ Public Class user_dashboard
             e.Cancel = True
         End If
     End Sub
+
 End Class
