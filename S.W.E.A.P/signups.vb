@@ -240,10 +240,9 @@ Public Class signups
 
         opf.Filter = "Choose Image(*.jpg; *.png; *.gif) | * .jpg; *.png; *.gif"
         If opf.ShowDialog = DialogResult.OK Then
-            'imageInput = System.IO.Path.GetFullPath(opf.FileName)
-            sourceFilePath = Path.GetFullPath(opf.FileName)
+            sourceFilePath = System.IO.Path.GetFullPath(opf.FileName)
             pBoxProfile.BackgroundImage = Image.FromFile(sourceFilePath)
-            getExtension = Path.GetExtension(opf.FileName)
+            getExtension = System.IO.Path.GetExtension(opf.FileName)
         End If
     End Sub
 
