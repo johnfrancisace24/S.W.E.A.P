@@ -648,29 +648,25 @@ Public Class admindash
             Next
 
             Dim range As ExcelRange = worksheet.Cells(1, 1, dgContributions.Rows.Count + 1, dgContributions.Columns.Count)
-            range.Style.HorizontalAlignment = ExcelHorizontalAlignment.Left
             range.Style.Font.Bold = True
-            range.Style.Border.Top.Style = ExcelBorderStyle.Thin
-            range.Style.Border.Bottom.Style = ExcelBorderStyle.Thin
-            range.Style.Border.Left.Style = ExcelBorderStyle.Thin
-            range.Style.Border.Right.Style = ExcelBorderStyle.Thin
-
 
             'background color for header
             Dim headerRange As ExcelRange = worksheet.Cells(1, 1, 1, dgContributions.Columns.Count)
             headerRange.Style.Fill.PatternType = ExcelFillStyle.Solid
             headerRange.Style.Fill.BackgroundColor.SetColor(Color.LightGreen)
             headerRange.Style.Font.Color.SetColor(Color.Black)
-            headerRange.Style.Border.Top.Style = ExcelBorderStyle.None
-            headerRange.Style.Border.Bottom.Style = ExcelBorderStyle.None
-            headerRange.Style.Border.Left.Style = ExcelBorderStyle.None
-            headerRange.Style.Border.Right.Style = ExcelBorderStyle.None
+            headerRange.Style.HorizontalAlignment = ExcelHorizontalAlignment.Center
+            headerRange.Style.Border.Bottom.Style = ExcelBorderStyle.Thin
 
             'background color for rows
             Dim dataRange As ExcelRange = worksheet.Cells(2, 1, dgContributions.Rows.Count + 1, dgContributions.Columns.Count)
             dataRange.Style.Fill.PatternType = ExcelFillStyle.Solid
-            dataRange.Style.Fill.BackgroundColor.SetColor(Color.LightGray)
             dataRange.Style.Font.Color.SetColor(Color.Black)
+            dataRange.Style.Fill.BackgroundColor.SetColor(Color.White)
+            dataRange.Style.HorizontalAlignment = ExcelHorizontalAlignment.Left
+            dataRange.Style.Border.Bottom.Style = ExcelBorderStyle.Thin
+            dataRange.Style.Border.Right.Style = ExcelBorderStyle.Thin
+            dataRange.Style.Border.Left.Style = ExcelBorderStyle.Thin
 
             worksheet.Column(1).Width = 7.43 ' Column A
             worksheet.Column(2).Width = 42 ' Column B
@@ -698,8 +694,13 @@ Public Class admindash
             Dim documentsPath As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
             Dim filePath As String = Path.Combine(documentsPath, "contributions.xlsx")
 
-            ExportToExcel(dgContributions, filePath)
-            MessageBox.Show("Export complete.", "Excel file", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            If File.Exists(filePath) Then
+                MessageBox.Show("The file already exists; this is the file location" & vbCrLf & filePath, "Information", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Else
+                ExportToExcel(dgContributions, filePath)
+                MessageBox.Show("Export complete.", "Excel file", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            End If
+
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try

@@ -34,7 +34,6 @@ Public Class user_dashboard
         Timer1.Start()
         Get_info()
         DG_Load()
-        Dashboard()
     End Sub
 
     Public Sub Dashboard()
@@ -49,19 +48,19 @@ Public Class user_dashboard
                 If Not dr.IsDBNull(dr.GetOrdinal("balance")) Then
                     txtSaving.Text = dr.GetString("balance")
                 Else
-                    txtSaving.Text = ""
+                    txtSaving.Text = 0
                 End If
 
                 If Not dr.IsDBNull(dr.GetOrdinal("union_dues")) Then
                     txtUdues.Text = dr.GetString("union_dues")
                 Else
-                    txtUdues.Text = ""
+                    txtUdues.Text = 0
                 End If
 
                 If Not dr.IsDBNull(dr.GetOrdinal("bereavement")) Then
                     txtBreavement.Text = dr.GetString("bereavement")
                 Else
-                    txtBreavement.Text = ""
+                    txtBreavement.Text = 0
                 End If
             End While
         Catch ex As Exception
@@ -310,10 +309,13 @@ Public Class user_dashboard
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles btnExport.Click
         Try
             Dim documentsPath As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
-            Dim filePath As String = Path.Combine(documentsPath, "employee.xlsx")
-
-            ExportToExcel(BeneficiariesDGV, filePath)
-            MessageBox.Show("Export complete.", "Excel file", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Dim filePath As String = Path.Combine(documentsPath, "beneficiary.xlsx")
+            If File.Exists(filePath) Then
+                MessageBox.Show("The file already exists; this is the file location" & vbCrLf & filePath, "Information", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Else
+                ExportToExcel(BeneficiariesDGV, filePath)
+                MessageBox.Show("Export completed." + filePath, "Excel file", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            End If
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
