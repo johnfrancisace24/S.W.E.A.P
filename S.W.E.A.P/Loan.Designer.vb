@@ -1659,7 +1659,8 @@ Partial Class Loan
         btnExtractContri.DisabledState.CustomBorderColor = Color.DarkGray
         btnExtractContri.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnExtractContri.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnExtractContri.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnExtractContri.FillColor = Color.Green
+        btnExtractContri.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
         btnExtractContri.ForeColor = Color.White
         btnExtractContri.Location = New Point(946, 36)
         btnExtractContri.Name = "btnExtractContri"
