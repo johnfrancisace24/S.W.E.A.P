@@ -308,21 +308,27 @@ Public Class user_dashboard
     End Sub
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles btnExport.Click
         Try
-            Dim documentsPath As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
-            Dim filePath As String = Path.Combine(documentsPath, "beneficiary.xlsx")
-            If File.Exists(filePath) Then
-                MessageBox.Show("The file already exists; this is the file location" & vbCrLf & filePath, "Information", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-            Else
-                ExportToExcel(BeneficiariesDGV, filePath)
-                MessageBox.Show("Export completed." + filePath, "Excel file", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            End If
+            conn.Open()
+            Dim cmd As New MySqlCommand("SELECT * FROM users WHERE id=@id", conn)
+            cmd.Parameters.AddWithValue("@id", Form2.log_id)
+            dr = cmd.ExecuteReader
+            While dr.Read
+                Dim documentsPath As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
+                Dim filePath As String = Path.Combine(documentsPath, dr.GetString("first_name") & "_beneficiary.xlsx")
+                Dim fileName As String = dr.GetString("first_name") & "_beneficiary.xlsx"
+                If File.Exists(filePath) Then
+                    MessageBox.Show("The file already exists; this is the file location" & vbCrLf & filePath, "Information", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                Else
+                    ExportToExcel(BeneficiariesDGV, filePath)
+                    MessageBox.Show("Export completed. The file name is " & fileName, "Excel file", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                End If
+            End While
         Catch ex As Exception
             MsgBox(ex.Message)
+        Finally
+            conn.Close()
         End Try
     End Sub
-
-
-
 
     '---------NUMBER ONLY AND LETTER ONLY------------'
     Private Sub txtbxcontact_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtbxcontact.KeyPress
