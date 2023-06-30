@@ -40,6 +40,9 @@ Public Class Loan
     Dim updatedYear As Integer
     Dim updatedWeek As Integer
     Dim updatedDay As Integer
+    Dim query As String = "select user_id, concat(users.first_name, ' ', users.middle_name, ' ', users.last_name) as full_name, users.position, sum(membership_fee) as membership,
+                                        sum(union_dues) as union_due, sum(bereavement) as bereavement, sum(contribution4) as con4, sum(contribution5) as con5, contributions.updated_at from contributions left join users
+                                            on contributions.user_id = users.id group by contributions.user_id"
     '-----------------------------------------------END OF CONTRIBUTION'S VARIABLE-------------------------------------------
 
     '-----------------------------------END OF VARIABLE DECLARATION-------------------------------------------
@@ -116,13 +119,11 @@ Public Class Loan
         CumuInterest = Math.Round(CumuInterest, 2)
     End Sub
 
-    Public Sub contriGrid() '--------------------FOR CONTRIBUTION TABLE
+    Public Sub contriGrid(query) '--------------------FOR CONTRIBUTION TABLE
         dgContribution.Rows.Clear()
         Try
             conn.Open()
-            Dim cmd As New MySqlCommand("select user_id, concat(users.first_name, ' ', users.middle_name, ' ', users.last_name) as full_name, users.position, sum(membership_fee) as membership,
-                                        sum(union_dues) as union_due, sum(bereavement) as bereavement, sum(contribution4) as con4, sum(contribution5) as con5, contributions.updated_at from contributions left join users
-                                            on contributions.user_id = users.id group by contributions.user_id", conn)
+            Dim cmd As New MySqlCommand(query, conn)
             rid = cmd.ExecuteReader
             While rid.Read
                 dgContribution.Rows.Add(rid.Item("user_id"), rid.Item("full_name"), rid.Item("position"), rid.Item("membership"), rid.Item("union_due"), rid.Item("bereavement"), rid.Item("con4"), rid.Item("con5"), rid.Item("updated_at"))
@@ -161,7 +162,36 @@ Public Class Loan
         numContriEditAmount.Enabled = status
     End Sub
 
+    Public Sub forPickBox(input, query, selection)
 
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand(query, conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                input.Items.Add(rid.Item(selection))
+            End While
+        Catch ex As Exception
+        Finally
+            conn.Close()
+        End Try
+    End Sub
+    Public Sub forHeader()
+
+        Dim counter As Integer
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select alias from contri_types", conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                dgContriTotal.Columns(counter).HeaderText = rid.Item("alias")
+                counter = counter + 1
+            End While
+        Catch ex As Exception
+        Finally
+            conn.Close()
+        End Try
+    End Sub
     '------------------------------------END OF FUNCTIONS-----------------------------------------------------
 
     Private Sub btnSetSched_Click(sender As Object, e As EventArgs) Handles btnSetSched.Click '-------SET SCHEDULE BUTTON
@@ -328,10 +358,12 @@ Public Class Loan
     End Sub
 
     Private Sub Form2_Load_1(sender As Object, e As EventArgs) Handles MyBase.Load '------------AUTOLOAD
+        forHeader()
         btnLoanToExcel.Enabled = False
         contriEditFields(False)
         reset_contributions()
-        contriGrid()
+        contriGrid(query)
+        forPickBox(pickContriOffice, "select office from user_info group by office", "office")
         contriTimer.Start()
         Try
             conn.Open()
@@ -635,7 +667,7 @@ Public Class Loan
                     contribution.insertion()
                 End If
             Next
-            contriGrid()
+            contriGrid(query)
         End If
 
         If updatedYear <> currentdate.Year Then
@@ -644,7 +676,7 @@ Public Class Loan
                     contribution.insertion()
                 End If
             Next
-            contriGrid()
+            contriGrid(query)
         End If
 
         If updatedWeek <> currentweek Then
@@ -653,7 +685,7 @@ Public Class Loan
                     contribution.insertion()
                 End If
             Next
-            contriGrid()
+            contriGrid(query)
         End If
 
         If updatedDay <> currentdate.Day Then
@@ -662,7 +694,7 @@ Public Class Loan
                     contribution.insertion()
                 End If
             Next
-            contriGrid()
+            contriGrid(query)
         End If
 
         updatedMonth = currentdate.Month
@@ -693,17 +725,7 @@ Public Class Loan
 
     Private Sub btnOpenEdit_Click(sender As Object, e As EventArgs) Handles btnOpenEdit.Click
         pickContriName.Items.Clear()
-        Try
-            conn.Open()
-            Dim cmd As New MySqlCommand("select alias from contri_types", conn)
-            rid = cmd.ExecuteReader
-            While rid.Read
-                pickContriName.Items.Add(rid.Item("alias"))
-            End While
-        Catch ex As Exception
-        Finally
-            conn.Close()
-        End Try
+        forPickBox(pickContriName, "select alias from contri_types", "alias")
         contriEditFields(True)
         btnOpenEdit.Enabled = False
         Guna2Button1.Enabled = True
@@ -731,6 +753,47 @@ Public Class Loan
         Guna2Button1.Enabled = False
         btnOpenEdit.Enabled = True
     End Sub
+
+    Private Sub pickContriOffice_SelectedIndexChanged(sender As Object, e As EventArgs) Handles pickContriOffice.SelectedIndexChanged
+
+        If pickContriOffice.SelectedItem = "All Members" Then
+            contriGrid(query)
+        Else
+            dgContribution.Rows.Clear()
+            Try
+                conn.Open()
+                Dim cmd As New MySqlCommand("select contributions.user_id, office, concat(users.first_name, ' ', users.middle_name, ' ', users.last_name) as full_name, users.position, sum(membership_fee) as membership,
+                    sum(union_dues) as union_due, sum(bereavement) as bereavement, sum(contribution4) as con4, sum(contribution5) as con5, contributions.updated_at from contributions left join users
+                    on contributions.user_id = users.id left join user_info on contributions.user_id = user_info.user_id  where office = @OFFICE
+                    group by contributions.user_id", conn)
+                cmd.Parameters.AddWithValue("@OFFICE", pickContriOffice.SelectedItem)
+                rid = cmd.ExecuteReader
+                While rid.Read
+                    dgContribution.Rows.Add(rid.Item("user_id"), rid.Item("full_name"), rid.Item("position"), rid.Item("membership"), rid.Item("union_due"), rid.Item("bereavement"), rid.Item("con4"), rid.Item("con5"), rid.Item("updated_at"))
+                End While
+            Catch ex As Exception
+            Finally
+                conn.Close()
+            End Try
+            dgContriTotal.Rows.Clear()
+            Try
+                conn.Open()
+                Dim cmd As New MySqlCommand("select office, sum(membership_fee) as contri1, sum(union_dues) as contri2, sum(bereavement) as contri3, sum(contribution4) as contri4, sum(contribution5) as contri5 from contributions left join user_info on contributions.user_id = user_info.user_id
+                                            where office = @OFFICE", conn)
+                cmd.Parameters.AddWithValue("@OFFICE", pickContriOffice.SelectedItem)
+                rid = cmd.ExecuteReader
+                While rid.Read
+                    dgContriTotal.Rows.Add(rid.Item("contri1"), rid.Item("contri2"), rid.Item("contri3"), rid.Item("contri4"), rid.Item("contri5"))
+                End While
+            Catch ex As Exception
+            Finally
+                conn.Close()
+            End Try
+        End If
+
+    End Sub
+    '----------------------------------------------END OF CONTRIBUTIONS-----------------------------------------------------------
+
 
 End Class
 
