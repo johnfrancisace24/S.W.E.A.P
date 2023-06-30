@@ -1,4 +1,5 @@
-﻿Imports DocumentFormat.OpenXml.Vml.Spreadsheet
+﻿Imports DocumentFormat.OpenXml.Drawing
+Imports DocumentFormat.OpenXml.Vml.Spreadsheet
 Imports MySql.Data.MySqlClient
 Imports OfficeOpenXml.Table.PivotTable
 Imports System.IO
@@ -209,8 +210,8 @@ Public Class signups
             comboEmployStat.SelectedIndex = -1
             comboPos.SelectedIndex = -1
             pBoxProfile.Image = Image.FromFile(location & "\Resources\profile (3).png")
-            pBoxProfile.Image = Nothing
-            pBoxProfile.BackgroundImageLayout = ImageLayout.Stretch
+            pBoxProfile.BackgroundImage = Nothing
+            pBoxProfile.SizeMode = PictureBoxSizeMode.StretchImage
             Form2.Visible = True
             Me.Visible = False
             ClearAllTextboxes(Me)
