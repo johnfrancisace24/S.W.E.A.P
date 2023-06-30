@@ -39,7 +39,7 @@ Public Class user_dashboard
     Public Sub Dashboard()
         Try
             conn.Open()
-            Dim cmd As New MySqlCommand("SELECT * FROM users 
+            Dim cmd As New MySqlCommand("SELECT users.*, SUM(contributions.union_dues) as union_d, SUM(contributions.bereavement) as bereav FROM users 
                                 LEFT JOIN contributions on users.id = contributions.user_id 
                                 WHERE users.id = @id", conn)
             cmd.Parameters.AddWithValue("@id", Form2.log_id)
@@ -51,14 +51,14 @@ Public Class user_dashboard
                     txtSaving.Text = 0
                 End If
 
-                If Not dr.IsDBNull(dr.GetOrdinal("union_dues")) Then
-                    txtUdues.Text = dr.GetString("union_dues")
+                If Not dr.IsDBNull(dr.GetOrdinal("union_d")) Then
+                    txtUdues.Text = dr.GetString("union_d")
                 Else
                     txtUdues.Text = 0
                 End If
 
-                If Not dr.IsDBNull(dr.GetOrdinal("bereavement")) Then
-                    txtBreavement.Text = dr.GetString("bereavement")
+                If Not dr.IsDBNull(dr.GetOrdinal("bereav")) Then
+                    txtBreavement.Text = dr.GetString("bereav")
                 Else
                     txtBreavement.Text = 0
                 End If
