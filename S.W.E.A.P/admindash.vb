@@ -18,7 +18,7 @@ Public Class admindash
     Dim unionDue As Integer
     Dim countMembers As Integer
     Private Sub admindash_Load(sender As Object, e As EventArgs) Handles MyBase.Load '---------------AUTOLOAD
-
+        getname()
         LoadChart()
         viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
                                             email from users left join user_info on users.id = user_info.user_id")
@@ -328,7 +328,6 @@ Public Class admindash
                     Else
                         pBoxEditProfile.BackgroundImage = Nothing
                     End If
-
                     txtEditUsername.Text = rid.GetString("username")
                     txtEditPw.Text = rid.GetString("password")
                     txtEditFname.Text = rid.GetString("first_name")
@@ -374,6 +373,27 @@ Public Class admindash
         viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
                                             email from users left join user_info on users.id = user_info.user_id")
     End Sub
+
+
+
+
+    Public Sub getname()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select * from users  where id=@ID", conn)
+            cmd.Parameters.AddWithValue("@ID", Form2.log_id)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                lblAdminName.Text = rid.GetString("first_name") + "!"
+            End While
+        Catch ex As Exception
+        Finally
+            conn.Close()
+        End Try
+    End Sub
+
+
+
 
 
     Private Sub dgBeneficiaries_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgBeneficiaries.CellClick
