@@ -32,16 +32,18 @@ Public Class user_dashboard
 
     Private Sub user_dashboard_load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Start()
-        Dashboard()
         Get_info()
         DG_Load()
+        If Guna2TabControl1.SelectedTab Is tabDashboard Then
+            Dashboard()
+        End If
     End Sub
 
     Public Sub Dashboard()
         Try
             conn.Open()
             Dim cmd As New MySqlCommand("SELECT * FROM users 
-                                INNER JOIN contributions on users.id = contributions.user_id 
+                                LEFT JOIN contributions on users.id = contributions.user_id 
                                 WHERE users.id = @id", conn)
             cmd.Parameters.AddWithValue("@id", Form2.log_id)
             dr = cmd.ExecuteReader
