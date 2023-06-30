@@ -2577,6 +2577,7 @@ Partial Class admindash
         ' 
         ' btnEditContri
         ' 
+        Me.btnEditContri.BorderRadius = 10
         Me.btnEditContri.CustomizableEdges = CustomizableEdges93
         Me.btnEditContri.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnEditContri.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
@@ -2593,6 +2594,7 @@ Partial Class admindash
         ' 
         ' btnLoan
         ' 
+        Me.btnLoan.BorderRadius = 10
         Me.btnLoan.CustomizableEdges = CustomizableEdges95
         Me.btnLoan.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnLoan.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
@@ -2623,23 +2625,25 @@ Partial Class admindash
         ' 
         ' lblContri5Total
         ' 
-        Me.lblContri5Total.AutoSize = True
+        Me.lblContri5Total.Dock = Global.System.Windows.Forms.DockStyle.Bottom
         Me.lblContri5Total.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 50F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblContri5Total.ForeColor = Global.System.Drawing.Color.DodgerBlue
-        Me.lblContri5Total.Location = New Global.System.Drawing.Point(37, 43)
+        Me.lblContri5Total.ForeColor = Global.System.Drawing.Color.MediumSeaGreen
+        Me.lblContri5Total.Location = New Global.System.Drawing.Point(0, 43)
         Me.lblContri5Total.Name = "lblContri5Total"
-        Me.lblContri5Total.Size = New Global.System.Drawing.Size(112, 89)
+        Me.lblContri5Total.Size = New Global.System.Drawing.Size(180, 102)
         Me.lblContri5Total.TabIndex = 5
         Me.lblContri5Total.Text = "50"
         Me.lblContri5Total.TextAlign = Global.System.Drawing.ContentAlignment.MiddleCenter
         ' 
         ' lblContri5
         ' 
-        Me.lblContri5.AutoSize = True
+        Me.lblContri5.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(69))), CInt(CByte(CByte(90))), CInt(CByte(CByte(125))))
+        Me.lblContri5.Dock = Global.System.Windows.Forms.DockStyle.Top
         Me.lblContri5.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 14.25F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblContri5.Location = New Global.System.Drawing.Point(30, 18)
+        Me.lblContri5.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(214))), CInt(CByte(CByte(185))), CInt(CByte(CByte(0))))
+        Me.lblContri5.Location = New Global.System.Drawing.Point(0, 0)
         Me.lblContri5.Name = "lblContri5"
-        Me.lblContri5.Size = New Global.System.Drawing.Size(121, 25)
+        Me.lblContri5.Size = New Global.System.Drawing.Size(180, 43)
         Me.lblContri5.TabIndex = 5
         Me.lblContri5.Text = "Contribution"
         Me.lblContri5.TextAlign = Global.System.Drawing.ContentAlignment.MiddleCenter
@@ -2660,23 +2664,25 @@ Partial Class admindash
         ' 
         ' lblContri4Total
         ' 
-        Me.lblContri4Total.AutoSize = True
+        Me.lblContri4Total.Dock = Global.System.Windows.Forms.DockStyle.Bottom
         Me.lblContri4Total.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 50F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblContri4Total.ForeColor = Global.System.Drawing.Color.DodgerBlue
-        Me.lblContri4Total.Location = New Global.System.Drawing.Point(37, 43)
+        Me.lblContri4Total.ForeColor = Global.System.Drawing.Color.MediumSeaGreen
+        Me.lblContri4Total.Location = New Global.System.Drawing.Point(0, 43)
         Me.lblContri4Total.Name = "lblContri4Total"
-        Me.lblContri4Total.Size = New Global.System.Drawing.Size(112, 89)
+        Me.lblContri4Total.Size = New Global.System.Drawing.Size(180, 102)
         Me.lblContri4Total.TabIndex = 5
         Me.lblContri4Total.Text = "50"
         Me.lblContri4Total.TextAlign = Global.System.Drawing.ContentAlignment.MiddleCenter
         ' 
         ' lblContri4
         ' 
-        Me.lblContri4.AutoSize = True
+        Me.lblContri4.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(69))), CInt(CByte(CByte(90))), CInt(CByte(CByte(125))))
+        Me.lblContri4.Dock = Global.System.Windows.Forms.DockStyle.Top
         Me.lblContri4.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 14.25F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblContri4.Location = New Global.System.Drawing.Point(30, 18)
+        Me.lblContri4.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(214))), CInt(CByte(CByte(185))), CInt(CByte(CByte(0))))
+        Me.lblContri4.Location = New Global.System.Drawing.Point(0, 0)
         Me.lblContri4.Name = "lblContri4"
-        Me.lblContri4.Size = New Global.System.Drawing.Size(121, 25)
+        Me.lblContri4.Size = New Global.System.Drawing.Size(180, 43)
         Me.lblContri4.TabIndex = 5
         Me.lblContri4.Text = "Contribution"
         Me.lblContri4.TextAlign = Global.System.Drawing.ContentAlignment.MiddleCenter
@@ -2697,23 +2703,25 @@ Partial Class admindash
         ' 
         ' lblContri3Total
         ' 
-        Me.lblContri3Total.AutoSize = True
+        Me.lblContri3Total.Dock = Global.System.Windows.Forms.DockStyle.Bottom
         Me.lblContri3Total.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 50F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblContri3Total.ForeColor = Global.System.Drawing.Color.DodgerBlue
-        Me.lblContri3Total.Location = New Global.System.Drawing.Point(37, 43)
+        Me.lblContri3Total.ForeColor = Global.System.Drawing.Color.MediumSeaGreen
+        Me.lblContri3Total.Location = New Global.System.Drawing.Point(0, 43)
         Me.lblContri3Total.Name = "lblContri3Total"
-        Me.lblContri3Total.Size = New Global.System.Drawing.Size(112, 89)
+        Me.lblContri3Total.Size = New Global.System.Drawing.Size(180, 102)
         Me.lblContri3Total.TabIndex = 5
         Me.lblContri3Total.Text = "50"
         Me.lblContri3Total.TextAlign = Global.System.Drawing.ContentAlignment.MiddleCenter
         ' 
         ' lblContri3
         ' 
-        Me.lblContri3.AutoSize = True
+        Me.lblContri3.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(69))), CInt(CByte(CByte(90))), CInt(CByte(CByte(125))))
+        Me.lblContri3.Dock = Global.System.Windows.Forms.DockStyle.Top
         Me.lblContri3.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 14.25F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblContri3.Location = New Global.System.Drawing.Point(30, 18)
+        Me.lblContri3.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(214))), CInt(CByte(CByte(185))), CInt(CByte(CByte(0))))
+        Me.lblContri3.Location = New Global.System.Drawing.Point(0, 0)
         Me.lblContri3.Name = "lblContri3"
-        Me.lblContri3.Size = New Global.System.Drawing.Size(121, 25)
+        Me.lblContri3.Size = New Global.System.Drawing.Size(180, 43)
         Me.lblContri3.TabIndex = 5
         Me.lblContri3.Text = "Contribution"
         Me.lblContri3.TextAlign = Global.System.Drawing.ContentAlignment.MiddleCenter
@@ -2734,23 +2742,25 @@ Partial Class admindash
         ' 
         ' lblContri2Total
         ' 
-        Me.lblContri2Total.AutoSize = True
+        Me.lblContri2Total.Dock = Global.System.Windows.Forms.DockStyle.Bottom
         Me.lblContri2Total.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 50F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblContri2Total.ForeColor = Global.System.Drawing.Color.DodgerBlue
-        Me.lblContri2Total.Location = New Global.System.Drawing.Point(37, 43)
+        Me.lblContri2Total.ForeColor = Global.System.Drawing.Color.MediumSeaGreen
+        Me.lblContri2Total.Location = New Global.System.Drawing.Point(0, 43)
         Me.lblContri2Total.Name = "lblContri2Total"
-        Me.lblContri2Total.Size = New Global.System.Drawing.Size(112, 89)
+        Me.lblContri2Total.Size = New Global.System.Drawing.Size(180, 102)
         Me.lblContri2Total.TabIndex = 5
         Me.lblContri2Total.Text = "50"
         Me.lblContri2Total.TextAlign = Global.System.Drawing.ContentAlignment.MiddleCenter
         ' 
         ' lblContri2
         ' 
-        Me.lblContri2.AutoSize = True
+        Me.lblContri2.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(69))), CInt(CByte(CByte(90))), CInt(CByte(CByte(125))))
+        Me.lblContri2.Dock = Global.System.Windows.Forms.DockStyle.Top
         Me.lblContri2.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 14.25F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblContri2.Location = New Global.System.Drawing.Point(30, 18)
+        Me.lblContri2.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(214))), CInt(CByte(CByte(185))), CInt(CByte(CByte(0))))
+        Me.lblContri2.Location = New Global.System.Drawing.Point(0, 0)
         Me.lblContri2.Name = "lblContri2"
-        Me.lblContri2.Size = New Global.System.Drawing.Size(121, 25)
+        Me.lblContri2.Size = New Global.System.Drawing.Size(180, 43)
         Me.lblContri2.TabIndex = 5
         Me.lblContri2.Text = "Contribution"
         Me.lblContri2.TextAlign = Global.System.Drawing.ContentAlignment.MiddleCenter
@@ -2771,23 +2781,24 @@ Partial Class admindash
         ' 
         ' lblContri1Total
         ' 
-        Me.lblContri1Total.AutoSize = True
+        Me.lblContri1Total.Dock = Global.System.Windows.Forms.DockStyle.Bottom
         Me.lblContri1Total.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 50F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
-        Me.lblContri1Total.ForeColor = Global.System.Drawing.Color.DodgerBlue
-        Me.lblContri1Total.Location = New Global.System.Drawing.Point(37, 43)
+        Me.lblContri1Total.ForeColor = Global.System.Drawing.Color.MediumSeaGreen
+        Me.lblContri1Total.Location = New Global.System.Drawing.Point(0, 43)
         Me.lblContri1Total.Name = "lblContri1Total"
-        Me.lblContri1Total.Size = New Global.System.Drawing.Size(112, 89)
+        Me.lblContri1Total.Size = New Global.System.Drawing.Size(180, 102)
         Me.lblContri1Total.TabIndex = 5
         Me.lblContri1Total.Text = "50"
         Me.lblContri1Total.TextAlign = Global.System.Drawing.ContentAlignment.MiddleCenter
         ' 
         ' lblContri1
         ' 
+        Me.lblContri1.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(69))), CInt(CByte(CByte(90))), CInt(CByte(CByte(125))))
         Me.lblContri1.Dock = Global.System.Windows.Forms.DockStyle.Top
         Me.lblContri1.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 14.25F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblContri1.ForeColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(214))), CInt(CByte(CByte(185))), CInt(CByte(CByte(0))))
         Me.lblContri1.Location = New Global.System.Drawing.Point(0, 0)
         Me.lblContri1.Name = "lblContri1"
-        Me.lblContri1.Padding = New Global.System.Windows.Forms.Padding(10)
         Me.lblContri1.Size = New Global.System.Drawing.Size(180, 43)
         Me.lblContri1.TabIndex = 5
         Me.lblContri1.Text = "Contribution"
@@ -3010,15 +3021,10 @@ Partial Class admindash
         Me.tabContri.PerformLayout()
         Me.Guna2Panel12.ResumeLayout(False)
         Me.Guna2Panel11.ResumeLayout(False)
-        Me.Guna2Panel11.PerformLayout()
         Me.Guna2Panel10.ResumeLayout(False)
-        Me.Guna2Panel10.PerformLayout()
         Me.Guna2Panel9.ResumeLayout(False)
-        Me.Guna2Panel9.PerformLayout()
         Me.Guna2Panel8.ResumeLayout(False)
-        Me.Guna2Panel8.PerformLayout()
         Me.Guna2Panel7.ResumeLayout(False)
-        Me.Guna2Panel7.PerformLayout()
         CType(Me.dgContributions, Global.System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
     End Sub

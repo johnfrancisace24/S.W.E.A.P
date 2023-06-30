@@ -1,7 +1,7 @@
 ﻿Imports TheArtOfDevHtmlRenderer.Adapters.Entities
 Imports MySql.Data.MySqlClient
 Imports System.IO
-
+Imports Guna.UI2.WinForms
 Imports OfficeOpenXml
 Imports OfficeOpenXml.Style
 Imports System.Text.RegularExpressions
@@ -48,6 +48,8 @@ Public Class admindash
             conn.Close()
         End Try
 
+
+
         lblContri1.Text = dgContributions.Columns(3).HeaderText
         lblContri2.Text = dgContributions.Columns(4).HeaderText
         lblContri3.Text = dgContributions.Columns(5).HeaderText
@@ -59,7 +61,7 @@ Public Class admindash
             Dim cmd As New MySqlCommand("select concat(first_name, ' ', middle_name, ' ', last_name) as fullname, position, contributions.* from users left join contributions on users.id = contributions.user_id", conn)
             rid = cmd.ExecuteReader
             While rid.Read
-                dgContributions.Rows.Add(rid.Item("user_id"), rid.Item("fullname"), rid.Item("position"), rid.Item("union_dues"), rid.Item("bereavement"), rid.Item("membership_fee"), rid.Item("contribution4"), rid.Item("contribution5"))
+                dgContributions.Rows.Add(rid.Item("user_id"), rid.Item("fullname"), rid.Item("position"), rid.Item("membership_fee"), rid.Item("union_dues"), rid.Item("bereavement"), rid.Item("contribution4"), rid.Item("contribution5"))
             End While
         Catch ex As Exception
             MsgBox("contribution data fetching doesn't work")
@@ -466,57 +468,25 @@ Public Class admindash
         Dim currentdate As DateTime = currenttime
         Dim remainer As Integer
         lblDateTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
-        lblTime.Text = "as of " & currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
+        lblTime.Text = "AS OF " & currentdate.Date
 
-        'While countMembers >= 0
-        '    Try
-        '        conn.Open()
-        '        Dim cmd As New MySqlCommand("insert into contributions()", conn)
-        '        cmd.ExecuteNonQuery()
-        '    Catch ex As Exception
-        '        MsgBox("insertion doesn't work")
-        '    Finally
-        '        conn.Close()
-        '    End Try
-        '    countMembers = countMembers - 1
-        'End While
-
-        'Static previousmonth As Integer
-        'Try
-        '    conn.Open()
-        '    Dim cmd As New MySqlCommand("select month(updated_at) as month from contributions", conn) '--------to get the updated date
-        '    rid = cmd.ExecuteReader
-        '    While rid.Read
-        '        previousmonth = rid.GetInt32("month")
-        '    End While
-        '    MsgBox("time worked")
-        'Catch ex As Exception
-        '    MsgBox("time doesn't work")
-        'Finally
-
-        'End Try
-
-        'previousmonth = 5
-        'If currentdate.Month <> previousmonth Then
-        '    remainer = currentdate.Month - previousmonth
-        '    Dim added As Integer
-        '    Try
-
-        '        Dim cmd As New MySqlCommand("select * from contributions", conn)
-        '        rid = cmd.ExecuteReader
-        '        While rid.Read
-        '            added = rid.GetInt32("union_dues") + (unionDue * remainer)
-        '            Dim cmd2 As New MySqlCommand("update contributions set union_dues=@set where user_id=@id", conn)
-        '            cmd.Parameters.AddWithValue("@set", added)
-        '            cmd.Parameters.AddWithValue("@id", rid.GetInt32("id"))
-        '            cmd.ExecuteNonQuery()
-        '            MsgBox("it worked lol")
-        '        End While
-        '    Catch ex As Exception
-        '        MsgBox("everything doesn't work")
-        '    End Try
-        'End If
-        'conn.Close()
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select sum(membership_fee) as membership, sum(union_dues) as unionDue, sum(bereavement) as bov,
+                                        sum(contribution4) as contri4, sum(contribution5) as contri5 from contributions", conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                lblContri1Total.Text = rid.Item("membership")
+                lblContri2Total.Text = rid.Item("unionDue")
+                lblContri3Total.Text = rid.Item("bov")
+                lblContri4Total.Text = rid.Item("contri4")
+                lblContri5Total.Text = rid.Item("contri5")
+            End While
+        Catch ex As Exception
+            MsgBox("contribution dashboard doesn't work.")
+        Finally
+            conn.Close()
+        End Try
     End Sub
 
     Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
