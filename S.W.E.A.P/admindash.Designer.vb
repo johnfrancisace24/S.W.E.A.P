@@ -23,14 +23,14 @@ Partial Class admindash
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New Global.System.ComponentModel.Container()
-        Dim CustomizableEdges109 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges110 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges111 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges112 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges113 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges114 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges115 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges116 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges117 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges118 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges10 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As Global.System.ComponentModel.ComponentResourceManager = New Global.System.ComponentModel.ComponentResourceManager(GetType(Global.S.W.E.A.P.admindash))
@@ -135,16 +135,14 @@ Partial Class admindash
         Dim CustomizableEdges88 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges89 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges90 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges97 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges98 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges91 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges92 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges99 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges100 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges93 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges94 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges95 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges96 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges99 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges100 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges97 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges98 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges101 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges102 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges103 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -153,9 +151,13 @@ Partial Class admindash
         Dim CustomizableEdges106 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges107 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges108 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges109 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges110 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim DataGridViewCellStyle11 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle12 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle13 As Global.System.Windows.Forms.DataGridViewCellStyle = New Global.System.Windows.Forms.DataGridViewCellStyle()
+        Dim CustomizableEdges91 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges92 As Global.Guna.UI2.WinForms.Suite.CustomizableEdges = New Global.Guna.UI2.WinForms.Suite.CustomizableEdges()
         Me.Guna2Elipse1 = New Global.Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Panel1 = New Global.System.Windows.Forms.Panel()
         Me.lblDateTime = New Global.System.Windows.Forms.Label()
@@ -328,43 +330,44 @@ Partial Class admindash
         Me.TabPage3 = New Global.System.Windows.Forms.TabPage()
         Me.ImageList2 = New Global.System.Windows.Forms.ImageList(Me.components)
         Me.liveTimer = New Global.System.Windows.Forms.Timer(Me.components)
+        Me.Guna2Panel13 = New Global.Guna.UI2.WinForms.Guna2Panel()
         Me.Panel1.SuspendLayout()
         Me.Guna2TabControl1.SuspendLayout()
         Me.TabPage6.SuspendLayout()
         Me.pnlHome.SuspendLayout()
         Me.Panel2.SuspendLayout()
-        CType(Me.Guna2PictureBox4, Global.System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.Guna2PictureBox5, Global.System.ComponentModel.ISupportInitialize).BeginInit()
+        (CType(Me.Guna2PictureBox4, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
+        (CType(Me.Guna2PictureBox5, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
         Me.Guna2Panel4.SuspendLayout()
-        CType(Me.Guna2PictureBox3, Global.System.ComponentModel.ISupportInitialize).BeginInit()
+        (CType(Me.Guna2PictureBox3, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
         Me.tabDashboard.SuspendLayout()
         Me.pnlDashboard.SuspendLayout()
         Me.Guna2Panel3.SuspendLayout()
-        CType(Me.ChartMemberCount, Global.System.ComponentModel.ISupportInitialize).BeginInit()
+        (CType(Me.ChartMemberCount, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
         Me.Guna2Panel2.SuspendLayout()
-        CType(Me.PictureBox2, Global.System.ComponentModel.ISupportInitialize).BeginInit()
+        (CType(Me.PictureBox2, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
         Me.Guna2Panel1.SuspendLayout()
-        CType(Me.Guna2PictureBox2, Global.System.ComponentModel.ISupportInitialize).BeginInit()
+        (CType(Me.Guna2PictureBox2, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
         Me.tabEmployee.SuspendLayout()
         Me.pnlEmployee.SuspendLayout()
-        CType(Me.dgMembers, Global.System.ComponentModel.ISupportInitialize).BeginInit()
+        (CType(Me.dgMembers, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
         Me.tabEdit.SuspendLayout()
         Me.tabEditMember.SuspendLayout()
         Me.personal.SuspendLayout()
         Me.Panel5.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.Panel3.SuspendLayout()
-        CType(Me.pBoxEditProfile, Global.System.ComponentModel.ISupportInitialize).BeginInit()
+        (CType(Me.pBoxEditProfile, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
         Me.other.SuspendLayout()
         Me.Panel8.SuspendLayout()
         Me.Panel7.SuspendLayout()
-        CType(Me.dgBeneficiaries, Global.System.ComponentModel.ISupportInitialize).BeginInit()
+        (CType(Me.dgBeneficiaries, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
         Me.Panel6.SuspendLayout()
         Me.tabFund.SuspendLayout()
         Me.Guna2Panel6.SuspendLayout()
-        CType(Me.dgMembersFT, Global.System.ComponentModel.ISupportInitialize).BeginInit()
+        (CType(Me.dgMembersFT, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
         Me.Guna2Panel5.SuspendLayout()
-        CType(Me.Guna2PictureBox6, Global.System.ComponentModel.ISupportInitialize).BeginInit()
+        (CType(Me.Guna2PictureBox6, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
         Me.tabContri.SuspendLayout()
         Me.Guna2Panel12.SuspendLayout()
         Me.Guna2Panel11.SuspendLayout()
@@ -372,7 +375,8 @@ Partial Class admindash
         Me.Guna2Panel9.SuspendLayout()
         Me.Guna2Panel8.SuspendLayout()
         Me.Guna2Panel7.SuspendLayout()
-        CType(Me.dgContributions, Global.System.ComponentModel.ISupportInitialize).BeginInit()
+        (CType(Me.dgContributions, Global.System.ComponentModel.ISupportInitialize)).BeginInit()
+        Me.Guna2Panel13.SuspendLayout()
         Me.SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -410,7 +414,7 @@ Partial Class admindash
         Me.Guna2Button6.Animated = True
         Me.Guna2Button6.BorderRadius = 5
         Me.Guna2Button6.Cursor = Global.System.Windows.Forms.Cursors.Hand
-        Me.Guna2Button6.CustomizableEdges = CustomizableEdges109
+        Me.Guna2Button6.CustomizableEdges = CustomizableEdges111
         Me.Guna2Button6.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
         Me.Guna2Button6.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
         Me.Guna2Button6.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
@@ -420,7 +424,7 @@ Partial Class admindash
         Me.Guna2Button6.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2Button6.Location = New Global.System.Drawing.Point(1076, 4)
         Me.Guna2Button6.Name = "Guna2Button6"
-        Me.Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges110
+        Me.Guna2Button6.ShadowDecoration.CustomizableEdges = CustomizableEdges112
         Me.Guna2Button6.Size = New Global.System.Drawing.Size(92, 31)
         Me.Guna2Button6.TabIndex = 5
         Me.Guna2Button6.Text = "Log out"
@@ -461,14 +465,14 @@ Partial Class admindash
         Me.Guna2ControlBox3.Animated = True
         Me.Guna2ControlBox3.ControlBoxType = Global.Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
         Me.Guna2ControlBox3.Cursor = Global.System.Windows.Forms.Cursors.Hand
-        Me.Guna2ControlBox3.CustomizableEdges = CustomizableEdges111
+        Me.Guna2ControlBox3.CustomizableEdges = CustomizableEdges113
         Me.Guna2ControlBox3.Dock = Global.System.Windows.Forms.DockStyle.Right
         Me.Guna2ControlBox3.FillColor = Global.System.Drawing.Color.Transparent
         Me.Guna2ControlBox3.ForeColor = Global.System.Drawing.SystemColors.ControlText
         Me.Guna2ControlBox3.IconColor = Global.System.Drawing.Color.WhiteSmoke
         Me.Guna2ControlBox3.Location = New Global.System.Drawing.Point(1168, 0)
         Me.Guna2ControlBox3.Name = "Guna2ControlBox3"
-        Me.Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges112
+        Me.Guna2ControlBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges114
         Me.Guna2ControlBox3.Size = New Global.System.Drawing.Size(40, 40)
         Me.Guna2ControlBox3.TabIndex = 2
         ' 
@@ -477,14 +481,14 @@ Partial Class admindash
         Me.Guna2ControlBox2.Animated = True
         Me.Guna2ControlBox2.ControlBoxType = Global.Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox
         Me.Guna2ControlBox2.Cursor = Global.System.Windows.Forms.Cursors.Hand
-        Me.Guna2ControlBox2.CustomizableEdges = CustomizableEdges113
+        Me.Guna2ControlBox2.CustomizableEdges = CustomizableEdges115
         Me.Guna2ControlBox2.Dock = Global.System.Windows.Forms.DockStyle.Right
         Me.Guna2ControlBox2.FillColor = Global.System.Drawing.Color.Transparent
         Me.Guna2ControlBox2.ForeColor = Global.System.Drawing.SystemColors.ControlText
         Me.Guna2ControlBox2.IconColor = Global.System.Drawing.Color.WhiteSmoke
         Me.Guna2ControlBox2.Location = New Global.System.Drawing.Point(1208, 0)
         Me.Guna2ControlBox2.Name = "Guna2ControlBox2"
-        Me.Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges114
+        Me.Guna2ControlBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges116
         Me.Guna2ControlBox2.Size = New Global.System.Drawing.Size(40, 40)
         Me.Guna2ControlBox2.TabIndex = 1
         ' 
@@ -492,7 +496,7 @@ Partial Class admindash
         ' 
         Me.Guna2ControlBox1.Animated = True
         Me.Guna2ControlBox1.Cursor = Global.System.Windows.Forms.Cursors.Hand
-        Me.Guna2ControlBox1.CustomizableEdges = CustomizableEdges115
+        Me.Guna2ControlBox1.CustomizableEdges = CustomizableEdges117
         Me.Guna2ControlBox1.Dock = Global.System.Windows.Forms.DockStyle.Right
         Me.Guna2ControlBox1.FillColor = Global.System.Drawing.Color.Transparent
         Me.Guna2ControlBox1.ForeColor = Global.System.Drawing.SystemColors.ControlText
@@ -501,7 +505,7 @@ Partial Class admindash
         Me.Guna2ControlBox1.IconColor = Global.System.Drawing.Color.WhiteSmoke
         Me.Guna2ControlBox1.Location = New Global.System.Drawing.Point(1248, 0)
         Me.Guna2ControlBox1.Name = "Guna2ControlBox1"
-        Me.Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges116
+        Me.Guna2ControlBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges118
         Me.Guna2ControlBox1.Size = New Global.System.Drawing.Size(40, 40)
         Me.Guna2ControlBox1.TabIndex = 0
         ' 
@@ -2529,13 +2533,13 @@ Partial Class admindash
         ' tabContri
         ' 
         Me.tabContri.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(237))), CInt(CByte(CByte(231))), CInt(CByte(CByte(230))))
+        Me.tabContri.Controls.Add(Me.Guna2Panel13)
         Me.tabContri.Controls.Add(Me.Guna2Panel12)
         Me.tabContri.Controls.Add(Me.Guna2Panel11)
         Me.tabContri.Controls.Add(Me.Guna2Panel10)
         Me.tabContri.Controls.Add(Me.Guna2Panel9)
         Me.tabContri.Controls.Add(Me.Guna2Panel8)
         Me.tabContri.Controls.Add(Me.Guna2Panel7)
-        Me.tabContri.Controls.Add(Me.lblTime)
         Me.tabContri.Controls.Add(Me.dgContributions)
         Me.tabContri.ImageKey = "give-money.png"
         Me.tabContri.Location = New Global.System.Drawing.Point(254, 4)
@@ -2551,17 +2555,17 @@ Partial Class admindash
         Me.Guna2Panel12.Controls.Add(Me.Guna2Button1)
         Me.Guna2Panel12.Controls.Add(Me.btnEditContri)
         Me.Guna2Panel12.Controls.Add(Me.btnLoan)
-        Me.Guna2Panel12.CustomizableEdges = CustomizableEdges97
+        Me.Guna2Panel12.CustomizableEdges = CustomizableEdges99
         Me.Guna2Panel12.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
-        Me.Guna2Panel12.Location = New Global.System.Drawing.Point(26, 211)
+        Me.Guna2Panel12.Location = New Global.System.Drawing.Point(25, 237)
         Me.Guna2Panel12.Name = "Guna2Panel12"
-        Me.Guna2Panel12.ShadowDecoration.CustomizableEdges = CustomizableEdges98
+        Me.Guna2Panel12.ShadowDecoration.CustomizableEdges = CustomizableEdges100
         Me.Guna2Panel12.Size = New Global.System.Drawing.Size(980, 74)
         Me.Guna2Panel12.TabIndex = 5
         ' 
         ' Guna2Button1
         ' 
-        Me.Guna2Button1.CustomizableEdges = CustomizableEdges91
+        Me.Guna2Button1.CustomizableEdges = CustomizableEdges93
         Me.Guna2Button1.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
         Me.Guna2Button1.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
         Me.Guna2Button1.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
@@ -2570,7 +2574,7 @@ Partial Class admindash
         Me.Guna2Button1.ForeColor = Global.System.Drawing.Color.White
         Me.Guna2Button1.Location = New Global.System.Drawing.Point(15, 15)
         Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges92
+        Me.Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges94
         Me.Guna2Button1.Size = New Global.System.Drawing.Size(180, 42)
         Me.Guna2Button1.TabIndex = 3
         Me.Guna2Button1.Text = "EXPORT TO EXCEL"
@@ -2578,7 +2582,7 @@ Partial Class admindash
         ' btnEditContri
         ' 
         Me.btnEditContri.BorderRadius = 10
-        Me.btnEditContri.CustomizableEdges = CustomizableEdges93
+        Me.btnEditContri.CustomizableEdges = CustomizableEdges95
         Me.btnEditContri.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnEditContri.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnEditContri.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
@@ -2587,7 +2591,7 @@ Partial Class admindash
         Me.btnEditContri.ForeColor = Global.System.Drawing.Color.White
         Me.btnEditContri.Location = New Global.System.Drawing.Point(784, 16)
         Me.btnEditContri.Name = "btnEditContri"
-        Me.btnEditContri.ShadowDecoration.CustomizableEdges = CustomizableEdges94
+        Me.btnEditContri.ShadowDecoration.CustomizableEdges = CustomizableEdges96
         Me.btnEditContri.Size = New Global.System.Drawing.Size(180, 42)
         Me.btnEditContri.TabIndex = 1
         Me.btnEditContri.Text = "EDIT CONTRIBUTION"
@@ -2595,7 +2599,7 @@ Partial Class admindash
         ' btnLoan
         ' 
         Me.btnLoan.BorderRadius = 10
-        Me.btnLoan.CustomizableEdges = CustomizableEdges95
+        Me.btnLoan.CustomizableEdges = CustomizableEdges97
         Me.btnLoan.DisabledState.BorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnLoan.DisabledState.CustomBorderColor = Global.System.Drawing.Color.DarkGray
         Me.btnLoan.DisabledState.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(169))), CInt(CByte(CByte(169))), CInt(CByte(CByte(169))))
@@ -2604,7 +2608,7 @@ Partial Class admindash
         Me.btnLoan.ForeColor = Global.System.Drawing.Color.White
         Me.btnLoan.Location = New Global.System.Drawing.Point(589, 16)
         Me.btnLoan.Name = "btnLoan"
-        Me.btnLoan.ShadowDecoration.CustomizableEdges = CustomizableEdges96
+        Me.btnLoan.ShadowDecoration.CustomizableEdges = CustomizableEdges98
         Me.btnLoan.Size = New Global.System.Drawing.Size(180, 42)
         Me.btnLoan.TabIndex = 1
         Me.btnLoan.Text = "VIEW LOAN"
@@ -2615,18 +2619,18 @@ Partial Class admindash
         Me.Guna2Panel11.BorderRadius = 10
         Me.Guna2Panel11.Controls.Add(Me.lblContri5Total)
         Me.Guna2Panel11.Controls.Add(Me.lblContri5)
-        Me.Guna2Panel11.CustomizableEdges = CustomizableEdges99
+        Me.Guna2Panel11.CustomizableEdges = CustomizableEdges101
         Me.Guna2Panel11.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
-        Me.Guna2Panel11.Location = New Global.System.Drawing.Point(826, 51)
+        Me.Guna2Panel11.Location = New Global.System.Drawing.Point(825, 77)
         Me.Guna2Panel11.Name = "Guna2Panel11"
-        Me.Guna2Panel11.ShadowDecoration.CustomizableEdges = CustomizableEdges100
+        Me.Guna2Panel11.ShadowDecoration.CustomizableEdges = CustomizableEdges102
         Me.Guna2Panel11.Size = New Global.System.Drawing.Size(180, 145)
         Me.Guna2Panel11.TabIndex = 4
         ' 
         ' lblContri5Total
         ' 
         Me.lblContri5Total.Dock = Global.System.Windows.Forms.DockStyle.Bottom
-        Me.lblContri5Total.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 50F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblContri5Total.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 40F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblContri5Total.ForeColor = Global.System.Drawing.Color.MediumSeaGreen
         Me.lblContri5Total.Location = New Global.System.Drawing.Point(0, 43)
         Me.lblContri5Total.Name = "lblContri5Total"
@@ -2654,18 +2658,18 @@ Partial Class admindash
         Me.Guna2Panel10.BorderRadius = 10
         Me.Guna2Panel10.Controls.Add(Me.lblContri4Total)
         Me.Guna2Panel10.Controls.Add(Me.lblContri4)
-        Me.Guna2Panel10.CustomizableEdges = CustomizableEdges101
+        Me.Guna2Panel10.CustomizableEdges = CustomizableEdges103
         Me.Guna2Panel10.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
-        Me.Guna2Panel10.Location = New Global.System.Drawing.Point(625, 51)
+        Me.Guna2Panel10.Location = New Global.System.Drawing.Point(624, 77)
         Me.Guna2Panel10.Name = "Guna2Panel10"
-        Me.Guna2Panel10.ShadowDecoration.CustomizableEdges = CustomizableEdges102
+        Me.Guna2Panel10.ShadowDecoration.CustomizableEdges = CustomizableEdges104
         Me.Guna2Panel10.Size = New Global.System.Drawing.Size(180, 145)
         Me.Guna2Panel10.TabIndex = 4
         ' 
         ' lblContri4Total
         ' 
         Me.lblContri4Total.Dock = Global.System.Windows.Forms.DockStyle.Bottom
-        Me.lblContri4Total.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 50F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblContri4Total.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 40F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblContri4Total.ForeColor = Global.System.Drawing.Color.MediumSeaGreen
         Me.lblContri4Total.Location = New Global.System.Drawing.Point(0, 43)
         Me.lblContri4Total.Name = "lblContri4Total"
@@ -2693,18 +2697,18 @@ Partial Class admindash
         Me.Guna2Panel9.BorderRadius = 10
         Me.Guna2Panel9.Controls.Add(Me.lblContri3Total)
         Me.Guna2Panel9.Controls.Add(Me.lblContri3)
-        Me.Guna2Panel9.CustomizableEdges = CustomizableEdges103
+        Me.Guna2Panel9.CustomizableEdges = CustomizableEdges105
         Me.Guna2Panel9.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
-        Me.Guna2Panel9.Location = New Global.System.Drawing.Point(424, 51)
+        Me.Guna2Panel9.Location = New Global.System.Drawing.Point(423, 77)
         Me.Guna2Panel9.Name = "Guna2Panel9"
-        Me.Guna2Panel9.ShadowDecoration.CustomizableEdges = CustomizableEdges104
+        Me.Guna2Panel9.ShadowDecoration.CustomizableEdges = CustomizableEdges106
         Me.Guna2Panel9.Size = New Global.System.Drawing.Size(180, 145)
         Me.Guna2Panel9.TabIndex = 4
         ' 
         ' lblContri3Total
         ' 
         Me.lblContri3Total.Dock = Global.System.Windows.Forms.DockStyle.Bottom
-        Me.lblContri3Total.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 50F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblContri3Total.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 40F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblContri3Total.ForeColor = Global.System.Drawing.Color.MediumSeaGreen
         Me.lblContri3Total.Location = New Global.System.Drawing.Point(0, 43)
         Me.lblContri3Total.Name = "lblContri3Total"
@@ -2732,18 +2736,18 @@ Partial Class admindash
         Me.Guna2Panel8.BorderRadius = 10
         Me.Guna2Panel8.Controls.Add(Me.lblContri2Total)
         Me.Guna2Panel8.Controls.Add(Me.lblContri2)
-        Me.Guna2Panel8.CustomizableEdges = CustomizableEdges105
+        Me.Guna2Panel8.CustomizableEdges = CustomizableEdges107
         Me.Guna2Panel8.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
-        Me.Guna2Panel8.Location = New Global.System.Drawing.Point(225, 51)
+        Me.Guna2Panel8.Location = New Global.System.Drawing.Point(224, 77)
         Me.Guna2Panel8.Name = "Guna2Panel8"
-        Me.Guna2Panel8.ShadowDecoration.CustomizableEdges = CustomizableEdges106
+        Me.Guna2Panel8.ShadowDecoration.CustomizableEdges = CustomizableEdges108
         Me.Guna2Panel8.Size = New Global.System.Drawing.Size(180, 145)
         Me.Guna2Panel8.TabIndex = 4
         ' 
         ' lblContri2Total
         ' 
         Me.lblContri2Total.Dock = Global.System.Windows.Forms.DockStyle.Bottom
-        Me.lblContri2Total.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 50F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblContri2Total.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 40F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblContri2Total.ForeColor = Global.System.Drawing.Color.MediumSeaGreen
         Me.lblContri2Total.Location = New Global.System.Drawing.Point(0, 43)
         Me.lblContri2Total.Name = "lblContri2Total"
@@ -2771,18 +2775,18 @@ Partial Class admindash
         Me.Guna2Panel7.BorderRadius = 10
         Me.Guna2Panel7.Controls.Add(Me.lblContri1Total)
         Me.Guna2Panel7.Controls.Add(Me.lblContri1)
-        Me.Guna2Panel7.CustomizableEdges = CustomizableEdges107
+        Me.Guna2Panel7.CustomizableEdges = CustomizableEdges109
         Me.Guna2Panel7.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
-        Me.Guna2Panel7.Location = New Global.System.Drawing.Point(26, 51)
+        Me.Guna2Panel7.Location = New Global.System.Drawing.Point(25, 77)
         Me.Guna2Panel7.Name = "Guna2Panel7"
-        Me.Guna2Panel7.ShadowDecoration.CustomizableEdges = CustomizableEdges108
+        Me.Guna2Panel7.ShadowDecoration.CustomizableEdges = CustomizableEdges110
         Me.Guna2Panel7.Size = New Global.System.Drawing.Size(180, 145)
         Me.Guna2Panel7.TabIndex = 4
         ' 
         ' lblContri1Total
         ' 
         Me.lblContri1Total.Dock = Global.System.Windows.Forms.DockStyle.Bottom
-        Me.lblContri1Total.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 50F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
+        Me.lblContri1Total.Font = New Global.System.Drawing.Font("Segoe UI Semibold", 40F, Global.System.Drawing.FontStyle.Regular, Global.System.Drawing.GraphicsUnit.Point)
         Me.lblContri1Total.ForeColor = Global.System.Drawing.Color.MediumSeaGreen
         Me.lblContri1Total.Location = New Global.System.Drawing.Point(0, 43)
         Me.lblContri1Total.Name = "lblContri1Total"
@@ -2807,7 +2811,7 @@ Partial Class admindash
         ' lblTime
         ' 
         Me.lblTime.AutoSize = True
-        Me.lblTime.Location = New Global.System.Drawing.Point(465, 15)
+        Me.lblTime.Location = New Global.System.Drawing.Point(446, 9)
         Me.lblTime.Name = "lblTime"
         Me.lblTime.Size = New Global.System.Drawing.Size(68, 25)
         Me.lblTime.TabIndex = 2
@@ -2838,12 +2842,12 @@ Partial Class admindash
         DataGridViewCellStyle13.WrapMode = Global.System.Windows.Forms.DataGridViewTriState.[False]
         Me.dgContributions.DefaultCellStyle = DataGridViewCellStyle13
         Me.dgContributions.GridColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(193))), CInt(CByte(CByte(199))), CInt(CByte(CByte(206))))
-        Me.dgContributions.Location = New Global.System.Drawing.Point(26, 300)
+        Me.dgContributions.Location = New Global.System.Drawing.Point(26, 324)
         Me.dgContributions.Name = "dgContributions"
         Me.dgContributions.[ReadOnly] = True
         Me.dgContributions.RowHeadersVisible = False
         Me.dgContributions.RowTemplate.Height = 25
-        Me.dgContributions.Size = New Global.System.Drawing.Size(980, 389)
+        Me.dgContributions.Size = New Global.System.Drawing.Size(980, 365)
         Me.dgContributions.TabIndex = 0
         Me.dgContributions.Theme = Global.Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt
         Me.dgContributions.ThemeStyle.AlternatingRowsStyle.BackColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(194))), CInt(CByte(CByte(200))), CInt(CByte(CByte(207))))
@@ -2953,6 +2957,18 @@ Partial Class admindash
         ' 
         Me.liveTimer.Interval = 1000
         ' 
+        ' Guna2Panel13
+        ' 
+        Me.Guna2Panel13.BorderRadius = 10
+        Me.Guna2Panel13.Controls.Add(Me.lblTime)
+        Me.Guna2Panel13.CustomizableEdges = CustomizableEdges91
+        Me.Guna2Panel13.FillColor = Global.System.Drawing.Color.FromArgb(CInt(CByte(CByte(255))), CInt(CByte(CByte(251))), CInt(CByte(CByte(250))))
+        Me.Guna2Panel13.Location = New Global.System.Drawing.Point(25, 19)
+        Me.Guna2Panel13.Name = "Guna2Panel13"
+        Me.Guna2Panel13.ShadowDecoration.CustomizableEdges = CustomizableEdges92
+        Me.Guna2Panel13.Size = New Global.System.Drawing.Size(980, 43)
+        Me.Guna2Panel13.TabIndex = 5
+        ' 
         ' admindash
         ' 
         Me.AutoScaleDimensions = New Global.System.Drawing.SizeF(7F, 15F)
@@ -2973,26 +2989,26 @@ Partial Class admindash
         Me.pnlHome.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        CType(Me.Guna2PictureBox4, Global.System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.Guna2PictureBox5, Global.System.ComponentModel.ISupportInitialize).EndInit()
+        (CType(Me.Guna2PictureBox4, Global.System.ComponentModel.ISupportInitialize)).EndInit()
+        (CType(Me.Guna2PictureBox5, Global.System.ComponentModel.ISupportInitialize)).EndInit()
         Me.Guna2Panel4.ResumeLayout(False)
         Me.Guna2Panel4.PerformLayout()
-        CType(Me.Guna2PictureBox3, Global.System.ComponentModel.ISupportInitialize).EndInit()
+        (CType(Me.Guna2PictureBox3, Global.System.ComponentModel.ISupportInitialize)).EndInit()
         Me.tabDashboard.ResumeLayout(False)
         Me.pnlDashboard.ResumeLayout(False)
         Me.pnlDashboard.PerformLayout()
         Me.Guna2Panel3.ResumeLayout(False)
-        CType(Me.ChartMemberCount, Global.System.ComponentModel.ISupportInitialize).EndInit()
+        (CType(Me.ChartMemberCount, Global.System.ComponentModel.ISupportInitialize)).EndInit()
         Me.Guna2Panel2.ResumeLayout(False)
         Me.Guna2Panel2.PerformLayout()
-        CType(Me.PictureBox2, Global.System.ComponentModel.ISupportInitialize).EndInit()
+        (CType(Me.PictureBox2, Global.System.ComponentModel.ISupportInitialize)).EndInit()
         Me.Guna2Panel1.ResumeLayout(False)
         Me.Guna2Panel1.PerformLayout()
-        CType(Me.Guna2PictureBox2, Global.System.ComponentModel.ISupportInitialize).EndInit()
+        (CType(Me.Guna2PictureBox2, Global.System.ComponentModel.ISupportInitialize)).EndInit()
         Me.tabEmployee.ResumeLayout(False)
         Me.pnlEmployee.ResumeLayout(False)
         Me.pnlEmployee.PerformLayout()
-        CType(Me.dgMembers, Global.System.ComponentModel.ISupportInitialize).EndInit()
+        (CType(Me.dgMembers, Global.System.ComponentModel.ISupportInitialize)).EndInit()
         Me.tabEdit.ResumeLayout(False)
         Me.tabEditMember.ResumeLayout(False)
         Me.personal.ResumeLayout(False)
@@ -3001,31 +3017,32 @@ Partial Class admindash
         Me.Panel4.PerformLayout()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
-        CType(Me.pBoxEditProfile, Global.System.ComponentModel.ISupportInitialize).EndInit()
+        (CType(Me.pBoxEditProfile, Global.System.ComponentModel.ISupportInitialize)).EndInit()
         Me.other.ResumeLayout(False)
         Me.Panel8.ResumeLayout(False)
         Me.Panel7.ResumeLayout(False)
         Me.Panel7.PerformLayout()
-        CType(Me.dgBeneficiaries, Global.System.ComponentModel.ISupportInitialize).EndInit()
+        (CType(Me.dgBeneficiaries, Global.System.ComponentModel.ISupportInitialize)).EndInit()
         Me.Panel6.ResumeLayout(False)
         Me.Panel6.PerformLayout()
         Me.tabFund.ResumeLayout(False)
         Me.tabFund.PerformLayout()
         Me.Guna2Panel6.ResumeLayout(False)
         Me.Guna2Panel6.PerformLayout()
-        CType(Me.dgMembersFT, Global.System.ComponentModel.ISupportInitialize).EndInit()
+        (CType(Me.dgMembersFT, Global.System.ComponentModel.ISupportInitialize)).EndInit()
         Me.Guna2Panel5.ResumeLayout(False)
         Me.Guna2Panel5.PerformLayout()
-        CType(Me.Guna2PictureBox6, Global.System.ComponentModel.ISupportInitialize).EndInit()
+        (CType(Me.Guna2PictureBox6, Global.System.ComponentModel.ISupportInitialize)).EndInit()
         Me.tabContri.ResumeLayout(False)
-        Me.tabContri.PerformLayout()
         Me.Guna2Panel12.ResumeLayout(False)
         Me.Guna2Panel11.ResumeLayout(False)
         Me.Guna2Panel10.ResumeLayout(False)
         Me.Guna2Panel9.ResumeLayout(False)
         Me.Guna2Panel8.ResumeLayout(False)
         Me.Guna2Panel7.ResumeLayout(False)
-        CType(Me.dgContributions, Global.System.ComponentModel.ISupportInitialize).EndInit()
+        (CType(Me.dgContributions, Global.System.ComponentModel.ISupportInitialize)).EndInit()
+        Me.Guna2Panel13.ResumeLayout(False)
+        Me.Guna2Panel13.PerformLayout()
         Me.ResumeLayout(False)
     End Sub
 
@@ -3204,4 +3221,5 @@ Partial Class admindash
     Friend WithEvents Guna2Panel7 As Global.Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents lblContri1Total As Global.System.Windows.Forms.Label
     Friend WithEvents lblContri1 As Global.System.Windows.Forms.Label
+    Friend WithEvents Guna2Panel13 As Global.Guna.UI2.WinForms.Guna2Panel
 End Class
