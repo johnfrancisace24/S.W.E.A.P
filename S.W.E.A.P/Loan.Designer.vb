@@ -213,7 +213,6 @@ Partial Class Loan
         Label13 = New Label()
         Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
         contriTimer = New Timer(components)
-        Panel11 = New Panel()
         lblTime = New Label()
         tabconLoan.SuspendLayout()
         addLoan.SuspendLayout()
@@ -240,7 +239,6 @@ Partial Class Loan
         CType(dgContribution, ComponentModel.ISupportInitialize).BeginInit()
         Panel8.SuspendLayout()
         CType(numContriEditAmount, ComponentModel.ISupportInitialize).BeginInit()
-        Panel11.SuspendLayout()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -1823,11 +1821,11 @@ Partial Class Loan
         Label13.AutoSize = True
         Label13.Font = New Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point)
         Label13.ForeColor = Color.FromArgb(CByte(214), CByte(185), CByte(0))
-        Label13.Location = New Point(447, 14)
+        Label13.Location = New Point(349, 13)
         Label13.Name = "Label13"
-        Label13.Size = New Size(314, 25)
+        Label13.Size = New Size(485, 25)
         Label13.TabIndex = 2
-        Label13.Text = "LOAN AMORTIZATION SCHEDULE"
+        Label13.Text = "LOAN AMORTIZATION SCHEDULE / CONTRIBUTIONS" & vbCrLf
         ' 
         ' Guna2CircleButton1
         ' 
@@ -1851,23 +1849,14 @@ Partial Class Loan
         ' 
         contriTimer.Interval = 1000
         ' 
-        ' Panel11
-        ' 
-        Panel11.BackColor = Color.FromArgb(CByte(64), CByte(0), CByte(0))
-        Panel11.Controls.Add(lblTime)
-        Panel11.Location = New Point(949, 10)
-        Panel11.Name = "Panel11"
-        Panel11.Size = New Size(127, 31)
-        Panel11.TabIndex = 4
-        ' 
         ' lblTime
         ' 
         lblTime.AutoSize = True
-        lblTime.Font = New Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point)
+        lblTime.Font = New Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point)
         lblTime.ForeColor = Color.Cyan
-        lblTime.Location = New Point(19, 3)
+        lblTime.Location = New Point(1025, 13)
         lblTime.Name = "lblTime"
-        lblTime.Size = New Size(88, 25)
+        lblTime.Size = New Size(80, 25)
         lblTime.TabIndex = 5
         lblTime.Text = "12:15:16"
         lblTime.TextAlign = ContentAlignment.MiddleCenter
@@ -1878,7 +1867,7 @@ Partial Class Loan
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(167), CByte(41), CByte(36))
         ClientSize = New Size(1190, 764)
-        Controls.Add(Panel11)
+        Controls.Add(lblTime)
         Controls.Add(Guna2CircleButton1)
         Controls.Add(tabconLoan)
         Controls.Add(Label13)
@@ -1919,8 +1908,6 @@ Partial Class Loan
         Panel8.ResumeLayout(False)
         Panel8.PerformLayout()
         CType(numContriEditAmount, ComponentModel.ISupportInitialize).EndInit()
-        Panel11.ResumeLayout(False)
-        Panel11.PerformLayout()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -2045,7 +2032,6 @@ Partial Class Loan
     Friend WithEvents numContriEditAmount As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents dgContribution As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents contriTimer As Timer
-    Friend WithEvents Panel11 As Panel
     Friend WithEvents lblTime As Label
     Friend WithEvents Column37 As DataGridViewTextBoxColumn
     Friend WithEvents Column38 As DataGridViewTextBoxColumn

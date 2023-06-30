@@ -6,6 +6,7 @@ Imports OfficeOpenXml
 Imports MySql.Data.MySqlClient
 Imports DocumentFormat.OpenXml.Office.Word
 Imports OfficeOpenXml.Style
+Imports System.IO
 
 Public Class Loan
     '-----------------------------------VARIABLE DECLARATION------------------------------------------
@@ -43,6 +44,11 @@ Public Class Loan
 
     '-----------------------------------END OF VARIABLE DECLARATION-------------------------------------------
     '--------------------------------------FUNCTIONS----------------------------------------------------------
+
+    Public Function IsFileExists(filePath As String) As Boolean
+        Return File.Exists(filePath)
+    End Function
+
     Public Sub common_calculation()
         totalPayment = scheduledPayment + extraPayment
         interest = beginningBalance * monthlyInterestRate
@@ -322,13 +328,14 @@ Public Class Loan
     End Sub
 
     Private Sub Form2_Load_1(sender As Object, e As EventArgs) Handles MyBase.Load '------------AUTOLOAD
+        btnLoanToExcel.Enabled = False
         contriEditFields(False)
         reset_contributions()
         contriGrid()
         contriTimer.Start()
         Try
             conn.Open()
-            Dim cmd As New MySqlCommand("select month(updated_at) as month, year(updated_at) as year, week(updated_at) as week, day(updated_at) as day from contributions", conn)
+            Dim cmd As New MySqlCommand("select month(updated_at) as month, year(updated_at) as year, week(updated_at) as week, day(updated_at) as day from contributions order by updated_at DESC limit 1", conn)
             rid = cmd.ExecuteReader
             While rid.Read
                 updatedMonth = rid.GetInt32("month")
@@ -340,7 +347,6 @@ Public Class Loan
         Finally
             conn.Close()
         End Try
-
         dgSelectEm.Rows.Clear()
         Try
             conn.Open()
@@ -379,6 +385,7 @@ Public Class Loan
     Private Sub dgEmList_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgEmList.CellClick
         Dim idSelect As Integer
         If e.ColumnIndex = 3 AndAlso e.RowIndex >= 0 Then '----------------TO SELECT
+            btnLoanToExcel.Enabled = False
             dgLoans.Rows.Clear()
             dgLoanSchedule.Rows.Clear()
             idSelect = dgEmList.CurrentRow.Cells(0).Value.ToString()
@@ -404,7 +411,7 @@ Public Class Loan
 
         If e.ColumnIndex = 7 AndAlso e.RowIndex >= 0 Then '----------------TO SELECT
             idSelect = dgLoans.CurrentRow.Cells(0).Value.ToString()
-
+            btnLoanToExcel.Enabled = True
             dgLoanSchedule.Rows.Clear()
             Try
                 conn.Open()
@@ -425,7 +432,6 @@ Public Class Loan
 
     Private Sub btnLoanToExcel_Click(sender As Object, e As EventArgs) Handles btnLoanToExcel.Click '---------CREATE EXCEL FILE
         Dim filePath As String
-        MsgBox(loanSchedId)
         ExcelPackage.LicenseContext = LicenseContext.NonCommercial
 
         Using package As New ExcelPackage()
@@ -569,9 +575,15 @@ Public Class Loan
                 worksheet.Column(columnIndex).Width = 20
             Next
 
-
             filePath = location & "\Resources\Exported_file\" & filePath & "_loan_Schedule.xlsx"
-            package.SaveAs(New System.IO.FileInfo(filePath))
+
+            If IsFileExists(filePath) Then
+                MsgBox("File already exists.")
+            Else
+                package.SaveAs(New System.IO.FileInfo(filePath))
+                MsgBox("File saved to " & filePath)
+            End If
+
         End Using
     End Sub
 
@@ -623,7 +635,6 @@ Public Class Loan
                     contribution.insertion()
                 End If
             Next
-            updatedMonth = currentdate.Month
             contriGrid()
         End If
 
@@ -633,9 +644,7 @@ Public Class Loan
                     contribution.insertion()
                 End If
             Next
-            updatedYear = currentdate.Year
             contriGrid()
-
         End If
 
         If updatedWeek <> currentweek Then
@@ -644,19 +653,22 @@ Public Class Loan
                     contribution.insertion()
                 End If
             Next
-            updatedWeek = currentweek
             contriGrid()
         End If
 
-        If updatedDay <> currentdate.DayOfYear Then
+        If updatedDay <> currentdate.Day Then
             For Each contribution As class_contribution In contributions
                 If contribution.period = "Daily" Then
                     contribution.insertion()
                 End If
             Next
-            updatedDay = currentdate.DayOfYear
             contriGrid()
         End If
+
+        updatedMonth = currentdate.Month
+        updatedYear = currentdate.Year
+        updatedWeek = currentweek
+        updatedDay = currentdate.Day
 
     End Sub
 
