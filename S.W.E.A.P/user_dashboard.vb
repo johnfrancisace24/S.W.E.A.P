@@ -268,24 +268,26 @@ Public Class user_dashboard
             Next
 
             Dim range As ExcelRange = worksheet.Cells(1, 1, BenefeciariesDGV.Rows.Count + 1, BenefeciariesDGV.Columns.Count)
-            range.Style.HorizontalAlignment = ExcelHorizontalAlignment.Center
+
             range.Style.Font.Bold = True
-            range.Style.Border.Top.Style = ExcelBorderStyle.Thin
-            range.Style.Border.Bottom.Style = ExcelBorderStyle.Thin
-            range.Style.Border.Left.Style = ExcelBorderStyle.Thin
-            range.Style.Border.Right.Style = ExcelBorderStyle.Thin
+
+
 
             'background color for header
             Dim headerRange As ExcelRange = worksheet.Cells(1, 1, 1, BenefeciariesDGV.Columns.Count)
             headerRange.Style.Fill.PatternType = ExcelFillStyle.Solid
             headerRange.Style.Fill.BackgroundColor.SetColor(Color.LightGreen)
             headerRange.Style.Font.Color.SetColor(Color.Black)
+            headerRange.Style.HorizontalAlignment = ExcelHorizontalAlignment.Center
+            headerRange.Style.Border.Bottom.Style = ExcelBorderStyle.Thin
 
             'background color for rows
             Dim dataRange As ExcelRange = worksheet.Cells(2, 1, BenefeciariesDGV.Rows.Count + 1, BenefeciariesDGV.Columns.Count)
             dataRange.Style.Fill.PatternType = ExcelFillStyle.Solid
-            dataRange.Style.Fill.BackgroundColor.SetColor(Color.LightGray)
             dataRange.Style.Font.Color.SetColor(Color.Black)
+            dataRange.Style.Fill.BackgroundColor.SetColor(Color.White)
+            dataRange.Style.HorizontalAlignment = ExcelHorizontalAlignment.Left
+            dataRange.Style.Border.Bottom.Style = ExcelBorderStyle.Thin
 
 
             worksheet.Column(1).Width = 7.43 ' Column A
