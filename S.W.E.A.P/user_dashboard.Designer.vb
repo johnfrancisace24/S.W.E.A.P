@@ -31,6 +31,12 @@ Partial Class user_dashboard
         Dim CustomizableEdges80 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges81 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges82 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -103,12 +109,6 @@ Partial Class user_dashboard
         Dim CustomizableEdges73 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges74 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(user_dashboard))
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Panel1 = New Panel()
         Label1 = New Label()
@@ -123,6 +123,21 @@ Partial Class user_dashboard
         lblFromTitle = New Label()
         Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
         tabDashboard = New TabPage()
+        Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
+        Label40 = New Label()
+        Label41 = New Label()
+        Label42 = New Label()
+        PictureBox5 = New PictureBox()
+        Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
+        Label37 = New Label()
+        Label38 = New Label()
+        Label39 = New Label()
+        PictureBox4 = New PictureBox()
+        Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
+        txtBreavement = New Label()
+        Label35 = New Label()
+        Label36 = New Label()
+        PictureBox3 = New PictureBox()
         Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         txtUdues = New Label()
         Label32 = New Label()
@@ -204,26 +219,17 @@ Partial Class user_dashboard
         ImageList1 = New ImageList(components)
         Timer1 = New Timer(components)
         Timer2 = New Timer(components)
-        Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
-        txtBreavement = New Label()
-        Label35 = New Label()
-        Label36 = New Label()
-        PictureBox3 = New PictureBox()
-        Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
-        Label37 = New Label()
-        Label38 = New Label()
-        Label39 = New Label()
-        PictureBox4 = New PictureBox()
-        Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
-        Label40 = New Label()
-        Label41 = New Label()
-        Label42 = New Label()
-        PictureBox5 = New PictureBox()
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
         CType(iconFromtitle, ComponentModel.ISupportInitialize).BeginInit()
         Guna2TabControl1.SuspendLayout()
         tabDashboard.SuspendLayout()
+        Guna2Panel5.SuspendLayout()
+        CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
+        Guna2Panel4.SuspendLayout()
+        CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
+        Guna2Panel3.SuspendLayout()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         Guna2Panel2.SuspendLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         Guna2Panel1.SuspendLayout()
@@ -234,12 +240,6 @@ Partial Class user_dashboard
         CType(BeneficiariesDGV, ComponentModel.ISupportInitialize).BeginInit()
         tabSetting.SuspendLayout()
         CType(user_Profile, ComponentModel.ISupportInitialize).BeginInit()
-        Guna2Panel3.SuspendLayout()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
-        Guna2Panel4.SuspendLayout()
-        CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
-        Guna2Panel5.SuspendLayout()
-        CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -463,6 +463,176 @@ Partial Class user_dashboard
         tabDashboard.Size = New Size(999, 586)
         tabDashboard.TabIndex = 0
         tabDashboard.Text = "Dashboard"
+        ' 
+        ' Guna2Panel5
+        ' 
+        Guna2Panel5.BorderColor = Color.Black
+        Guna2Panel5.BorderRadius = 5
+        Guna2Panel5.BorderThickness = 1
+        Guna2Panel5.Controls.Add(Label40)
+        Guna2Panel5.Controls.Add(Label41)
+        Guna2Panel5.Controls.Add(Label42)
+        Guna2Panel5.Controls.Add(PictureBox5)
+        Guna2Panel5.CustomizableEdges = CustomizableEdges1
+        Guna2Panel5.Location = New Point(664, 348)
+        Guna2Panel5.Name = "Guna2Panel5"
+        Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2Panel5.Size = New Size(317, 205)
+        Guna2Panel5.TabIndex = 6
+        ' 
+        ' Label40
+        ' 
+        Label40.AutoSize = True
+        Label40.ForeColor = Color.Green
+        Label40.Location = New Point(46, 85)
+        Label40.Name = "Label40"
+        Label40.Size = New Size(44, 45)
+        Label40.TabIndex = 4
+        Label40.Text = "..."
+        ' 
+        ' Label41
+        ' 
+        Label41.AutoSize = True
+        Label41.Font = New Font("Arial", 16.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label41.ForeColor = Color.Gray
+        Label41.Location = New Point(14, 171)
+        Label41.Name = "Label41"
+        Label41.Size = New Size(93, 25)
+        Label41.TabIndex = 3
+        Label41.Text = "Reserve"
+        ' 
+        ' Label42
+        ' 
+        Label42.AutoSize = True
+        Label42.Font = New Font("Arial", 22.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label42.Location = New Point(12, 9)
+        Label42.Name = "Label42"
+        Label42.Size = New Size(125, 35)
+        Label42.TabIndex = 2
+        Label42.Text = "Reserve"
+        ' 
+        ' PictureBox5
+        ' 
+        PictureBox5.Location = New Point(185, 65)
+        PictureBox5.Name = "PictureBox5"
+        PictureBox5.Size = New Size(132, 140)
+        PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox5.TabIndex = 0
+        PictureBox5.TabStop = False
+        ' 
+        ' Guna2Panel4
+        ' 
+        Guna2Panel4.BorderColor = Color.Black
+        Guna2Panel4.BorderRadius = 5
+        Guna2Panel4.BorderThickness = 1
+        Guna2Panel4.Controls.Add(Label37)
+        Guna2Panel4.Controls.Add(Label38)
+        Guna2Panel4.Controls.Add(Label39)
+        Guna2Panel4.Controls.Add(PictureBox4)
+        Guna2Panel4.CustomizableEdges = CustomizableEdges3
+        Guna2Panel4.Location = New Point(341, 348)
+        Guna2Panel4.Name = "Guna2Panel4"
+        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Guna2Panel4.Size = New Size(317, 205)
+        Guna2Panel4.TabIndex = 6
+        ' 
+        ' Label37
+        ' 
+        Label37.AutoSize = True
+        Label37.ForeColor = Color.Green
+        Label37.Location = New Point(46, 85)
+        Label37.Name = "Label37"
+        Label37.Size = New Size(44, 45)
+        Label37.TabIndex = 4
+        Label37.Text = "..."
+        ' 
+        ' Label38
+        ' 
+        Label38.AutoSize = True
+        Label38.Font = New Font("Arial", 16.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label38.ForeColor = Color.Gray
+        Label38.Location = New Point(14, 171)
+        Label38.Name = "Label38"
+        Label38.Size = New Size(93, 25)
+        Label38.TabIndex = 3
+        Label38.Text = "Reserve"
+        ' 
+        ' Label39
+        ' 
+        Label39.AutoSize = True
+        Label39.Font = New Font("Arial", 22.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label39.Location = New Point(12, 9)
+        Label39.Name = "Label39"
+        Label39.Size = New Size(125, 35)
+        Label39.TabIndex = 2
+        Label39.Text = "Reserve"
+        ' 
+        ' PictureBox4
+        ' 
+        PictureBox4.Image = My.Resources.Resources.image_removebg_preview__2_
+        PictureBox4.Location = New Point(185, 65)
+        PictureBox4.Name = "PictureBox4"
+        PictureBox4.Size = New Size(132, 140)
+        PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox4.TabIndex = 0
+        PictureBox4.TabStop = False
+        ' 
+        ' Guna2Panel3
+        ' 
+        Guna2Panel3.BorderColor = Color.Black
+        Guna2Panel3.BorderRadius = 5
+        Guna2Panel3.BorderThickness = 1
+        Guna2Panel3.Controls.Add(txtBreavement)
+        Guna2Panel3.Controls.Add(Label35)
+        Guna2Panel3.Controls.Add(Label36)
+        Guna2Panel3.Controls.Add(PictureBox3)
+        Guna2Panel3.CustomizableEdges = CustomizableEdges5
+        Guna2Panel3.Location = New Point(18, 348)
+        Guna2Panel3.Name = "Guna2Panel3"
+        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        Guna2Panel3.Size = New Size(317, 205)
+        Guna2Panel3.TabIndex = 5
+        ' 
+        ' txtBreavement
+        ' 
+        txtBreavement.AutoSize = True
+        txtBreavement.ForeColor = Color.Green
+        txtBreavement.Location = New Point(46, 85)
+        txtBreavement.Name = "txtBreavement"
+        txtBreavement.Size = New Size(44, 45)
+        txtBreavement.TabIndex = 4
+        txtBreavement.Text = "..."
+        ' 
+        ' Label35
+        ' 
+        Label35.AutoSize = True
+        Label35.Font = New Font("Arial", 16.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label35.ForeColor = Color.Gray
+        Label35.Location = New Point(14, 171)
+        Label35.Name = "Label35"
+        Label35.Size = New Size(128, 25)
+        Label35.TabIndex = 3
+        Label35.Text = "Breavement"
+        ' 
+        ' Label36
+        ' 
+        Label36.AutoSize = True
+        Label36.Font = New Font("Arial", 22.25F, FontStyle.Regular, GraphicsUnit.Point)
+        Label36.Location = New Point(12, 9)
+        Label36.Name = "Label36"
+        Label36.Size = New Size(174, 35)
+        Label36.TabIndex = 2
+        Label36.Text = "Breavement"
+        ' 
+        ' PictureBox3
+        ' 
+        PictureBox3.Image = My.Resources.Resources.image_removebg_preview__4_
+        PictureBox3.Location = New Point(185, 65)
+        PictureBox3.Name = "PictureBox3"
+        PictureBox3.Size = New Size(132, 140)
+        PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox3.TabIndex = 0
+        PictureBox3.TabStop = False
         ' 
         ' Guna2Panel2
         ' 
@@ -1423,13 +1593,13 @@ Partial Class user_dashboard
         txtbxbdate.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtbxbdate.HoverState.ForeColor = Color.Black
         txtbxbdate.Location = New Point(664, 126)
-        txtbxbdate.MaxDate = New DateTime(9998, 12, 31, 0, 0, 0, 0)
-        txtbxbdate.MinDate = New DateTime(1753, 1, 1, 0, 0, 0, 0)
+        txtbxbdate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
+        txtbxbdate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         txtbxbdate.Name = "txtbxbdate"
         txtbxbdate.ShadowDecoration.CustomizableEdges = CustomizableEdges50
         txtbxbdate.Size = New Size(273, 36)
         txtbxbdate.TabIndex = 157
-        txtbxbdate.Value = New DateTime(2023, 6, 6, 13, 54, 41, 766)
+        txtbxbdate.Value = New Date(2023, 6, 6, 13, 54, 41, 766)
         ' 
         ' cmbxcomm
         ' 
@@ -1752,177 +1922,6 @@ Partial Class user_dashboard
         ' Timer1
         ' 
         ' 
-        ' Guna2Panel3
-        ' 
-        Guna2Panel3.BorderColor = Color.Black
-        Guna2Panel3.BorderRadius = 5
-        Guna2Panel3.BorderThickness = 1
-        Guna2Panel3.Controls.Add(txtBreavement)
-        Guna2Panel3.Controls.Add(Label35)
-        Guna2Panel3.Controls.Add(Label36)
-        Guna2Panel3.Controls.Add(PictureBox3)
-        Guna2Panel3.CustomizableEdges = CustomizableEdges5
-        Guna2Panel3.Location = New Point(18, 348)
-        Guna2Panel3.Name = "Guna2Panel3"
-        Guna2Panel3.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2Panel3.Size = New Size(317, 205)
-        Guna2Panel3.TabIndex = 5
-        ' 
-        ' txtBreavement
-        ' 
-        txtBreavement.AutoSize = True
-        txtBreavement.ForeColor = Color.Green
-        txtBreavement.Location = New Point(46, 85)
-        txtBreavement.Name = "txtBreavement"
-        txtBreavement.Size = New Size(44, 45)
-        txtBreavement.TabIndex = 4
-        txtBreavement.Text = "..."
-        ' 
-        ' Label35
-        ' 
-        Label35.AutoSize = True
-        Label35.Font = New Font("Arial", 16.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label35.ForeColor = Color.Gray
-        Label35.Location = New Point(14, 171)
-        Label35.Name = "Label35"
-        Label35.Size = New Size(128, 25)
-        Label35.TabIndex = 3
-        Label35.Text = "Breavement"
-        ' 
-        ' Label36
-        ' 
-        Label36.AutoSize = True
-        Label36.Font = New Font("Arial", 22.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label36.Location = New Point(12, 9)
-        Label36.Name = "Label36"
-        Label36.Size = New Size(174, 35)
-        Label36.TabIndex = 2
-        Label36.Text = "Breavement"
-        ' 
-        ' PictureBox3
-        ' 
-        PictureBox3.Image = My.Resources.Resources.image_removebg_preview__4_
-        PictureBox3.Location = New Point(185, 65)
-        PictureBox3.Name = "PictureBox3"
-        PictureBox3.Size = New Size(132, 140)
-        PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox3.TabIndex = 0
-        PictureBox3.TabStop = False
-        ' 
-        ' Guna2Panel4
-        ' 
-        Guna2Panel4.BorderColor = Color.Black
-        Guna2Panel4.BorderRadius = 5
-        Guna2Panel4.BorderThickness = 1
-        Guna2Panel4.Controls.Add(Label37)
-        Guna2Panel4.Controls.Add(Label38)
-        Guna2Panel4.Controls.Add(Label39)
-        Guna2Panel4.Controls.Add(PictureBox4)
-        Guna2Panel4.CustomizableEdges = CustomizableEdges3
-        Guna2Panel4.Location = New Point(341, 348)
-        Guna2Panel4.Name = "Guna2Panel4"
-        Guna2Panel4.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2Panel4.Size = New Size(317, 205)
-        Guna2Panel4.TabIndex = 6
-        ' 
-        ' Label37
-        ' 
-        Label37.AutoSize = True
-        Label37.ForeColor = Color.Green
-        Label37.Location = New Point(46, 85)
-        Label37.Name = "Label37"
-        Label37.Size = New Size(44, 45)
-        Label37.TabIndex = 4
-        Label37.Text = "..."
-        ' 
-        ' Label38
-        ' 
-        Label38.AutoSize = True
-        Label38.Font = New Font("Arial", 16.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label38.ForeColor = Color.Gray
-        Label38.Location = New Point(14, 171)
-        Label38.Name = "Label38"
-        Label38.Size = New Size(93, 25)
-        Label38.TabIndex = 3
-        Label38.Text = "Reserve"
-        ' 
-        ' Label39
-        ' 
-        Label39.AutoSize = True
-        Label39.Font = New Font("Arial", 22.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label39.Location = New Point(12, 9)
-        Label39.Name = "Label39"
-        Label39.Size = New Size(125, 35)
-        Label39.TabIndex = 2
-        Label39.Text = "Reserve"
-        ' 
-        ' PictureBox4
-        ' 
-        PictureBox4.Image = My.Resources.Resources.image_removebg_preview__2_
-        PictureBox4.Location = New Point(185, 65)
-        PictureBox4.Name = "PictureBox4"
-        PictureBox4.Size = New Size(132, 140)
-        PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox4.TabIndex = 0
-        PictureBox4.TabStop = False
-        ' 
-        ' Guna2Panel5
-        ' 
-        Guna2Panel5.BorderColor = Color.Black
-        Guna2Panel5.BorderRadius = 5
-        Guna2Panel5.BorderThickness = 1
-        Guna2Panel5.Controls.Add(Label40)
-        Guna2Panel5.Controls.Add(Label41)
-        Guna2Panel5.Controls.Add(Label42)
-        Guna2Panel5.Controls.Add(PictureBox5)
-        Guna2Panel5.CustomizableEdges = CustomizableEdges1
-        Guna2Panel5.Location = New Point(664, 348)
-        Guna2Panel5.Name = "Guna2Panel5"
-        Guna2Panel5.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2Panel5.Size = New Size(317, 205)
-        Guna2Panel5.TabIndex = 6
-        ' 
-        ' Label40
-        ' 
-        Label40.AutoSize = True
-        Label40.ForeColor = Color.Green
-        Label40.Location = New Point(46, 85)
-        Label40.Name = "Label40"
-        Label40.Size = New Size(44, 45)
-        Label40.TabIndex = 4
-        Label40.Text = "..."
-        ' 
-        ' Label41
-        ' 
-        Label41.AutoSize = True
-        Label41.Font = New Font("Arial", 16.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label41.ForeColor = Color.Gray
-        Label41.Location = New Point(14, 171)
-        Label41.Name = "Label41"
-        Label41.Size = New Size(93, 25)
-        Label41.TabIndex = 3
-        Label41.Text = "Reserve"
-        ' 
-        ' Label42
-        ' 
-        Label42.AutoSize = True
-        Label42.Font = New Font("Arial", 22.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label42.Location = New Point(12, 9)
-        Label42.Name = "Label42"
-        Label42.Size = New Size(125, 35)
-        Label42.TabIndex = 2
-        Label42.Text = "Reserve"
-        ' 
-        ' PictureBox5
-        ' 
-        PictureBox5.Image = My.Resources.Resources.image_removebg_preview__2_1
-        PictureBox5.Location = New Point(185, 65)
-        PictureBox5.Name = "PictureBox5"
-        PictureBox5.Size = New Size(132, 140)
-        PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox5.TabIndex = 0
-        PictureBox5.TabStop = False
-        ' 
         ' user_dashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -1942,6 +1941,15 @@ Partial Class user_dashboard
         Guna2TabControl1.ResumeLayout(False)
         tabDashboard.ResumeLayout(False)
         tabDashboard.PerformLayout()
+        Guna2Panel5.ResumeLayout(False)
+        Guna2Panel5.PerformLayout()
+        CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
+        Guna2Panel4.ResumeLayout(False)
+        Guna2Panel4.PerformLayout()
+        CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
+        Guna2Panel3.ResumeLayout(False)
+        Guna2Panel3.PerformLayout()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         Guna2Panel2.ResumeLayout(False)
         Guna2Panel2.PerformLayout()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
@@ -1957,15 +1965,6 @@ Partial Class user_dashboard
         tabSetting.ResumeLayout(False)
         tabSetting.PerformLayout()
         CType(user_Profile, ComponentModel.ISupportInitialize).EndInit()
-        Guna2Panel3.ResumeLayout(False)
-        Guna2Panel3.PerformLayout()
-        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
-        Guna2Panel4.ResumeLayout(False)
-        Guna2Panel4.PerformLayout()
-        CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
-        Guna2Panel5.ResumeLayout(False)
-        Guna2Panel5.PerformLayout()
-        CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
