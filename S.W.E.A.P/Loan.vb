@@ -4,6 +4,9 @@ Imports DocumentFormat.OpenXml.Spreadsheet
 Imports DocumentFormat.OpenXml.Wordprocessing
 Imports OfficeOpenXml
 Imports MySql.Data.MySqlClient
+Imports DocumentFormat.OpenXml.Office.Word
+Imports OfficeOpenXml.Style
+
 Public Class Loan
     '-----------------------------------VARIABLE DECLARATION------------------------------------------
     Dim loanAmount As Decimal
@@ -439,6 +442,20 @@ Public Class Loan
             worksheet.Cells("A7").Value = "Annual interest rate"
             worksheet.Cells("A9").Value = "Loan period in years"
 
+
+            For columnIndex As Integer = 1 To 8 ' Columns A to H
+                worksheet.Column(columnIndex).Width = 50
+            Next
+
+            Dim columnRangeTops As ExcelRange = worksheet.Cells("A2:A9")
+            columnRangeTops.Style.Fill.PatternType = OfficeOpenXml.Style.ExcelFillStyle.Solid
+            columnRangeTops.Style.Fill.BackgroundColor.SetColor(System.Drawing.Color.White)
+            columnRangeTops.Style.Font.Color.SetColor(System.Drawing.Color.Black)
+            columnRangeTops.Style.Border.Bottom.Style = OfficeOpenXml.Style.ExcelBorderStyle.Thin
+            columnRangeTops.Style.Border.Bottom.Color.SetColor(System.Drawing.Color.Black)
+            columnRangeTops.Style.Font.Bold = True
+
+
             worksheet.Cells("G2").Value = "LOAN SUMMARY"
             worksheet.Cells("G3").Value = "Scheduled Payment"
             worksheet.Cells("G4").Value = "Scheduled number of payments"
@@ -446,6 +463,14 @@ Public Class Loan
             worksheet.Cells("G6").Value = "Total early payments"
             worksheet.Cells("G7").Value = "Total Interest"
             worksheet.Cells("G9").Value = "LENDER NAME"
+
+            Dim columnRangeG As ExcelRange = worksheet.Cells("G2:G9")
+            columnRangeG.Style.Fill.PatternType = OfficeOpenXml.Style.ExcelFillStyle.Solid
+            columnRangeG.Style.Fill.BackgroundColor.SetColor(System.Drawing.Color.White)
+            columnRangeG.Style.Font.Color.SetColor(System.Drawing.Color.Black)
+            columnRangeG.Style.Border.Bottom.Style = OfficeOpenXml.Style.ExcelBorderStyle.Thin
+            columnRangeG.Style.Border.Bottom.Color.SetColor(System.Drawing.Color.Black)
+            columnRangeG.Style.Font.Bold = True
 
             Try
                 conn.Open()
@@ -469,6 +494,14 @@ Public Class Loan
                 conn.Close()
             End Try
 
+            Dim columnRangeB As ExcelRange = worksheet.Cells("B3:H9")
+            columnRangeB.Style.Fill.PatternType = OfficeOpenXml.Style.ExcelFillStyle.Solid
+            columnRangeB.Style.Fill.BackgroundColor.SetColor(System.Drawing.Color.White)
+            columnRangeB.Style.Font.Color.SetColor(System.Drawing.Color.Black)
+            columnRangeB.Style.Border.Bottom.Style = OfficeOpenXml.Style.ExcelBorderStyle.Thin
+            columnRangeB.Style.Border.Bottom.Color.SetColor(System.Drawing.Color.Black)
+            columnRangeB.Style.Font.Bold = True
+
             worksheet.Cells("H5").Value = dgLoanSchedule.RowCount
             worksheet.Cells("A11").Value = dgLoanSchedule.Columns(0).HeaderText
             worksheet.Cells("B11").Value = dgLoanSchedule.Columns(1).HeaderText
@@ -478,8 +511,19 @@ Public Class Loan
             worksheet.Cells("F11").Value = dgLoanSchedule.Columns(5).HeaderText
             worksheet.Cells("G11").Value = dgLoanSchedule.Columns(6).HeaderText
             worksheet.Cells("H11").Value = dgLoanSchedule.Columns(7).HeaderText
-            worksheet.Cells("I11").Value = dgLoanSchedule.Columns(8).HeaderText
+            worksheet.Cells("J11").Value = dgLoanSchedule.Columns(8).HeaderText
             worksheet.Cells("I11").Value = dgLoanSchedule.Columns(9).HeaderText
+
+            Dim columnRange As ExcelRange = worksheet.Cells("A11:J11")
+            columnRange.Style.Fill.PatternType = OfficeOpenXml.Style.ExcelFillStyle.Solid
+            columnRange.Style.Fill.BackgroundColor.SetColor(System.Drawing.Color.Green)
+            columnRange.Style.Font.Color.SetColor(System.Drawing.Color.White)
+            columnRange.Style.HorizontalAlignment = OfficeOpenXml.Style.ExcelHorizontalAlignment.Center
+            columnRange.Style.Font.Bold = True
+
+
+            ' Set column height
+            worksheet.Row(11).Height = 20 ' Set the height of the header row
 
             For Each row As DataGridViewRow In dgLoanSchedule.Rows
                 worksheet.Cells("A" & counter).Value = row.Cells(0).Value
@@ -499,9 +543,32 @@ Public Class Loan
             Next
             worksheet.Cells("H6").Value = totalXtraP
 
+            ' Set fill color and font color for all data rows
+            Dim dataRange As ExcelRange = worksheet.Cells("A13:J" & (counter - 1))
+            Dim fill As ExcelFill = dataRange.Style.Fill
+            fill.PatternType = OfficeOpenXml.Style.ExcelFillStyle.Solid
+            fill.BackgroundColor.SetColor(System.Drawing.Color.White)
+            dataRange.Style.Border.Bottom.Style = OfficeOpenXml.Style.ExcelBorderStyle.Thin
+            dataRange.Style.Border.Bottom.Color.SetColor(System.Drawing.Color.Black)
+            Dim font As ExcelFont = dataRange.Style.Font
+            font.Color.SetColor(System.Drawing.Color.Black)
             Dim locateProject As String = My.Application.Info.DirectoryPath
             Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
             Dim location As String = locateProject.Substring(0, indext)
+
+            For columnIndex As Integer = 1 To 2
+                worksheet.Column(columnIndex).Width = 30
+            Next
+            For columnIndex As Integer = 3 To 6
+                worksheet.Column(columnIndex).Width = 20
+            Next
+            For columnIndex As Integer = 7 To 8
+                worksheet.Column(columnIndex).Width = 30
+            Next
+            For columnIndex As Integer = 9 To 10
+                worksheet.Column(columnIndex).Width = 20
+            Next
+
 
             filePath = location & "\Resources\Exported_file\" & filePath & "_loan_Schedule.xlsx"
             package.SaveAs(New System.IO.FileInfo(filePath))
