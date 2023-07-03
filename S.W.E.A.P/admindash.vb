@@ -10,7 +10,7 @@ Imports System.Windows.Forms.DataVisualization.Charting
 Imports System.Diagnostics.Metrics
 
 Public Class admindash
-    Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=sweapp;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.206.128;port=3306;username=dswdSweap;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
     Dim selectedId As Integer = 0
     Dim selectedBenId As Integer

@@ -1,7 +1,7 @@
 ﻿Imports MySql.Data.MySqlClient
 
 Public Class Form2
-    Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=sweapp;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.206.128;port=3306;username=dswdSweap;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
     Public Shared log_id As Integer
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
