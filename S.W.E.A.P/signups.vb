@@ -5,7 +5,7 @@ Imports OfficeOpenXml.Table.PivotTable
 Imports System.IO
 Imports System.Text.RegularExpressions
 Public Class signups
-    Dim conn As New MySqlConnection("server=172.30.192.162;port=3306;username=sweapp;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=sweapp;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
     Dim error_msg(0) As String
     Dim random As Integer = 0
