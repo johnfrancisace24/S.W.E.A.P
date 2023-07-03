@@ -141,8 +141,8 @@ Public Class signups
     End Sub
 
     Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click '-------SUBMIT BUTTON------------
-        valid_blank(txtbxUser.Text, "Beneficiarie's name", txtbxUser)
-        valid_blank(txtbxPass.Text, "Beneficiarie's relationship", txtbxPass)
+        valid_blank(txtbxUser.Text, "username", txtbxUser)
+        valid_blank(txtbxPass.Text, "password", txtbxPass)
         'valid_blank(pBoxProfile.Image, "Profile", pBoxProfile)
 
         While i < error_msg.Length
@@ -366,5 +366,45 @@ Public Class signups
     Private Sub Guna2Button7_Click(sender As Object, e As EventArgs) Handles Guna2Button7.Click
         Guna2TabControl1.SelectedTab = TabPage2
     End Sub
+
+
+
+    'clicking arrow and enter to next
+    Private Sub dateBday_KeyPress(sender As Object, e As KeyPressEventArgs) Handles dateBday.KeyPress
+        If e.KeyChar = ChrW(Keys.Enter) Then
+            NextForm()
+            e.Handled = True
+        End If
+    End Sub
+    Private Sub Panel3_KeyPress(sender As Object, e As KeyPressEventArgs) Handles Panel3.KeyPress
+        dateBday_KeyPress(sender, e)
+    End Sub
+    Private Sub NextForm()
+        valid_blank(txtFname.Text, "First name", txtFname)
+        valid_blank(txtMname.Text, "Middle name", txtMname)
+        valid_blank(txtLname.Text, "Last name", txtLname)
+        valid_blank(pickSex.SelectedItem, "Sex", pickSex)
+        valid_blank(txtAddress.Text, "Address", txtAddress)
+        valid_blank(txtContact.Text, "Contact", txtContact)
+        valid_blank(txtEmail.Text, "Email", txtEmail)
+        valid_blank(txtEduc.Text, "Educational Attainment", txtEduc)
+
+        While i < error_msg.Length
+            message = message & error_msg(i)
+            i = i + 1
+        End While
+
+        If message = "" Then
+            '----------------------------NEXT-FORM-------2------------------------------------------'
+            Guna2TabControl1.SelectedTab = TabPage2
+            TabPage2.Enabled = True
+        Else
+            MsgBox(message)
+            i = 0
+            message = ""
+            Array.Clear(error_msg, 0, error_msg.Length)
+        End If
+    End Sub
+
 
 End Class
