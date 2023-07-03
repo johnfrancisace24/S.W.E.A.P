@@ -624,7 +624,11 @@ Public Class Loan
             filePath = location & "\Resources\Exported_file\" & filePath & "_loan_Schedule.xlsx"
 
             If IsFileExists(filePath) Then
-                MsgBox("File already exists.")
+                Dim random As New Random()
+                Dim randomNum As Integer = random.Next(1, 501)
+                filePath = location & "\Resources\Exported_file\" & filePath & "_loan_Schedule" & randomNum & ".xlsx"
+                package.SaveAs(New System.IO.FileInfo(filePath))
+                MsgBox("File saved to " & filePath)
             Else
                 package.SaveAs(New System.IO.FileInfo(filePath))
                 MsgBox("File saved to " & filePath)
