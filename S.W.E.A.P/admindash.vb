@@ -520,7 +520,8 @@ Public Class admindash
             .Series.Add("Series1")
         End With
 
-        Dim da As New MySqlDataAdapter("SELECT office, COUNT(*) AS count FROM user_info GROUP BY office", conn)
+        Dim da As New MySqlDataAdapter("select office, sum(contribution1) + sum(contribution2) + sum(contribution3) + sum(contribution4) + sum(contribution5) as contri from contributions left join user_info on
+user_info.user_id = contributions.user_id group by office", conn)
         Dim ds As New DataSet
 
         da.Fill(ds, "Members")
@@ -536,7 +537,7 @@ Public Class admindash
             .Series(0).BorderColor = System.Drawing.Color.Black
 
             .Series(series1.Name).XValueMember = "office"
-            .Series(series1.Name).YValueMembers = "count"
+            .Series(series1.Name).YValueMembers = "contri"
             .Series(0).LabelFormat = "{#,##0}"
             .ChartAreas(0).Area3DStyle.Enable3D = True
             .Series(0).IsValueShownAsLabel = True
@@ -625,5 +626,6 @@ Public Class admindash
                                             balance from users left join user_info On users.id = user_info.user_id")
         End If
     End Sub
+
 
 End Class
