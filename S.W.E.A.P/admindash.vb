@@ -61,7 +61,7 @@ Public Class admindash
             Dim cmd As New MySqlCommand("select concat(first_name, ' ', middle_name, ' ', last_name) as fullname, position, contributions.* from users left join contributions on users.id = contributions.user_id", conn)
             rid = cmd.ExecuteReader
             While rid.Read
-                dgContributions.Rows.Add(rid.Item("user_id"), rid.Item("fullname"), rid.Item("position"), rid.Item("membership_fee"), rid.Item("union_dues"), rid.Item("bereavement"), rid.Item("contribution4"), rid.Item("contribution5"))
+                dgContributions.Rows.Add(rid.Item("user_id"), rid.Item("fullname"), rid.Item("position"), rid.Item("contribution1"), rid.Item("contribution2"), rid.Item("contribution3"), rid.Item("contribution4"), rid.Item("contribution5"))
             End While
         Catch ex As Exception
             MsgBox("contribution data fetching doesn't work")
@@ -492,13 +492,13 @@ Public Class admindash
 
         Try
             conn.Open()
-            Dim cmd As New MySqlCommand("select sum(membership_fee) as membership, sum(union_dues) as unionDue, sum(bereavement) as bov,
+            Dim cmd As New MySqlCommand("select sum(contribution1) as contri1, sum(contribution2) as contri2, sum(contribution3) as contri3,
                                         sum(contribution4) as contri4, sum(contribution5) as contri5 from contributions", conn)
             rid = cmd.ExecuteReader
             While rid.Read
-                lblContri1Total.Text = rid.Item("membership")
-                lblContri2Total.Text = rid.Item("unionDue")
-                lblContri3Total.Text = rid.Item("bov")
+                lblContri1Total.Text = rid.Item("contri1")
+                lblContri2Total.Text = rid.Item("contri2")
+                lblContri3Total.Text = rid.Item("contri3")
                 lblContri4Total.Text = rid.Item("contri4")
                 lblContri5Total.Text = rid.Item("contri5")
             End While

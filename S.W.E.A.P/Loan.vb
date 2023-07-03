@@ -40,8 +40,8 @@ Public Class Loan
     Dim updatedYear As Integer
     Dim updatedWeek As Integer
     Dim updatedDay As Integer
-    Dim query As String = "select user_id, concat(users.first_name, ' ', users.middle_name, ' ', users.last_name) as full_name, users.position, sum(membership_fee) as membership,
-                                        sum(union_dues) as union_due, sum(bereavement) as bereavement, sum(contribution4) as con4, sum(contribution5) as con5, contributions.updated_at from contributions left join users
+    Dim query As String = "select user_id, concat(users.first_name, ' ', users.middle_name, ' ', users.last_name) as full_name, users.position, sum(contribution1) as contribution1,
+                                        sum(contribution2) as contribution2, sum(contribution3) as contribution3, sum(contribution4) as contribution4, sum(contribution5) as contribution5, contributions.updated_at from contributions left join users
                                             on contributions.user_id = users.id group by contributions.user_id"
     '-----------------------------------------------END OF CONTRIBUTION'S VARIABLE-------------------------------------------
 
@@ -126,7 +126,7 @@ Public Class Loan
             Dim cmd As New MySqlCommand(query, conn)
             rid = cmd.ExecuteReader
             While rid.Read
-                dgContribution.Rows.Add(rid.Item("user_id"), rid.Item("full_name"), rid.Item("position"), rid.Item("membership"), rid.Item("union_due"), rid.Item("bereavement"), rid.Item("con4"), rid.Item("con5"), rid.Item("updated_at"))
+                dgContribution.Rows.Add(rid.Item("user_id"), rid.Item("full_name"), rid.Item("position"), rid.Item("contribution1"), rid.Item("contribution2"), rid.Item("contribution3"), rid.Item("contribution4"), rid.Item("contribution5"), rid.Item("updated_at"))
             End While
         Catch ex As Exception
             MsgBox("Fetching contribution table doesn't work. Function name contriGrid()")
@@ -367,7 +367,7 @@ Public Class Loan
         contriTimer.Start()
         Try
             conn.Open()
-            Dim cmd As New MySqlCommand("select month(updated_at) as month, year(updated_at) as year, week(updated_at) as week, day(updated_at) as day from contributions order by updated_at DESC limit 1", conn)
+            Dim cmd As New MySqlCommand("select month(updated_at) as month, year(updated_at) as year, dayofyear(updated_at) / 7 as week, day(updated_at) as day from contributions order by updated_at DESC limit 1", conn)
             rid = cmd.ExecuteReader
             While rid.Read
                 updatedMonth = rid.GetInt32("month")
