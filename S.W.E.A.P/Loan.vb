@@ -358,6 +358,7 @@ Public Class Loan
     End Sub
 
     Private Sub Form2_Load_1(sender As Object, e As EventArgs) Handles MyBase.Load '------------AUTOLOAD
+        pickContriOffice.SelectedIndex = 0
         forHeader()
         btnLoanToExcel.Enabled = False
         contriEditFields(False)
@@ -389,6 +390,19 @@ Public Class Loan
             End While
         Catch ex As Exception
             MsgBox("doesn't work lmao")
+        Finally
+            conn.Close()
+        End Try
+
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select sum(contribution1) as contri1, sum(contribution2) as contri2, sum(contribution3) as contri3, sum(contribution4) as contri4, sum(contribution5) as contri5 from contributions", conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                dgContriTotal.Rows.Add(rid.Item("contri1"), rid.Item("contri2"), rid.Item("contri3"), rid.Item("contri4"), rid.Item("contri5"))
+            End While
+        Catch ex As Exception
+            MsgBox("contriTotal doesn't work")
         Finally
             conn.Close()
         End Try
@@ -610,7 +624,11 @@ Public Class Loan
             filePath = location & "\Resources\Exported_file\" & filePath & "_loan_Schedule.xlsx"
 
             If IsFileExists(filePath) Then
-                MsgBox("File already exists.")
+                Dim random As New Random()
+                Dim randomNum As Integer = random.Next(1, 501)
+                filePath = location & "\Resources\Exported_file\" & filePath & "_loan_Schedule" & randomNum & ".xlsx"
+                package.SaveAs(New System.IO.FileInfo(filePath))
+                MsgBox("File saved to " & filePath)
             Else
                 package.SaveAs(New System.IO.FileInfo(filePath))
                 MsgBox("File saved to " & filePath)
@@ -762,8 +780,8 @@ Public Class Loan
             dgContribution.Rows.Clear()
             Try
                 conn.Open()
-                Dim cmd As New MySqlCommand("select contributions.user_id, office, concat(users.first_name, ' ', users.middle_name, ' ', users.last_name) as full_name, users.position, sum(membership_fee) as membership,
-                    sum(union_dues) as union_due, sum(bereavement) as bereavement, sum(contribution4) as con4, sum(contribution5) as con5, contributions.updated_at from contributions left join users
+                Dim cmd As New MySqlCommand("select contributions.user_id, office, concat(users.first_name, ' ', users.middle_name, ' ', users.last_name) as full_name, users.position, sum(contribution1) as membership,
+                    sum(contribution2) as union_due, sum(contribution3) as bereavement, sum(contribution4) as con4, sum(contribution5) as con5, contributions.updated_at from contributions left join users
                     on contributions.user_id = users.id left join user_info on contributions.user_id = user_info.user_id  where office = @OFFICE
                     group by contributions.user_id", conn)
                 cmd.Parameters.AddWithValue("@OFFICE", pickContriOffice.SelectedItem)
@@ -772,13 +790,14 @@ Public Class Loan
                     dgContribution.Rows.Add(rid.Item("user_id"), rid.Item("full_name"), rid.Item("position"), rid.Item("membership"), rid.Item("union_due"), rid.Item("bereavement"), rid.Item("con4"), rid.Item("con5"), rid.Item("updated_at"))
                 End While
             Catch ex As Exception
+                '  btnExtractContri.Enabled = False
             Finally
                 conn.Close()
             End Try
             dgContriTotal.Rows.Clear()
             Try
                 conn.Open()
-                Dim cmd As New MySqlCommand("select office, sum(membership_fee) as contri1, sum(union_dues) as contri2, sum(bereavement) as contri3, sum(contribution4) as contri4, sum(contribution5) as contri5 from contributions left join user_info on contributions.user_id = user_info.user_id
+                Dim cmd As New MySqlCommand("select office, sum(contribution1) as contri1, sum(contribution2) as contri2, sum(contribution3) as contri3, sum(contribution4) as contri4, sum(contribution5) as contri5 from contributions left join user_info on contributions.user_id = user_info.user_id
                                             where office = @OFFICE", conn)
                 cmd.Parameters.AddWithValue("@OFFICE", pickContriOffice.SelectedItem)
                 rid = cmd.ExecuteReader
@@ -794,63 +813,70 @@ Public Class Loan
     End Sub
 
     Private Sub btnExtractContri_Click(sender As Object, e As EventArgs) Handles btnExtractContri.Click
+
         Dim filePath As String
-        ExcelPackage.LicenseContext = LicenseContext.NonCommercial
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial
 
-        Using package As New ExcelPackage()
-            Dim workbook As ExcelWorkbook = package.Workbook
-            Dim worksheet As ExcelWorksheet = workbook.Worksheets.Add("Sheet1")
-            Dim counter As Integer = 13
-
-
-            worksheet.Cells("A2").Value = "OFFICE"
-            worksheet.Cells("A3").Value = "TOTAL CONTRIBUTIONS"
-            worksheet.Cells("A5").Value = dgContriTotal.Columns(0).HeaderText
-            worksheet.Cells("A6").Value = dgContriTotal.Columns(1).HeaderText
-            worksheet.Cells("A7").Value = dgContriTotal.Columns(2).HeaderText
-            worksheet.Cells("A8").Value = dgContriTotal.Columns(3).HeaderText
-            worksheet.Cells("A9").Value = dgContriTotal.Columns(4).HeaderText
-
-            worksheet.Cells("C2").Value = dgContriTotal.Rows(0).Cells(0).Value
-            worksheet.Cells("C5").Value = dgContriTotal.Rows(0).Cells(0).Value
-            worksheet.Cells("C6").Value = dgContriTotal.Rows(0).Cells(1).Value
-            worksheet.Cells("C7").Value = dgContriTotal.Rows(0).Cells(2).Value
-            worksheet.Cells("C8").Value = dgContriTotal.Rows(0).Cells(3).Value
-            worksheet.Cells("C9").Value = dgContriTotal.Rows(0).Cells(4).Value
-
-            worksheet.Cells("A12").Value = dgContribution.Columns(0).HeaderText
-            worksheet.Cells("B12").Value = dgContribution.Columns(1).HeaderText
-            worksheet.Cells("C12").Value = dgContribution.Columns(2).HeaderText
-            worksheet.Cells("D12").Value = dgContribution.Columns(3).HeaderText
-            worksheet.Cells("E12").Value = dgContribution.Columns(4).HeaderText
-            worksheet.Cells("F12").Value = dgContribution.Columns(5).HeaderText
-            worksheet.Cells("G12").Value = dgContribution.Columns(6).HeaderText
-
-            For Each row As DataGridViewRow In dgContribution.Rows
-                worksheet.Cells("A" & counter).Value = row.Cells(0).Value
-                worksheet.Cells("B" & counter).Value = row.Cells(1).Value
-                worksheet.Cells("C" & counter).Value = row.Cells(2).Value
-                worksheet.Cells("D" & counter).Value = row.Cells(3).Value
-                worksheet.Cells("E" & counter).Value = row.Cells(4).Value
-                worksheet.Cells("F" & counter).Value = row.Cells(5).Value
-                worksheet.Cells("G" & counter).Value = row.Cells(6).Value
-                counter = counter + 1
-            Next
+            Using package As New ExcelPackage()
+                Dim workbook As ExcelWorkbook = package.Workbook
+                Dim worksheet As ExcelWorksheet = workbook.Worksheets.Add("Sheet1")
+                Dim counter As Integer = 13
 
 
-            Dim locateProject As String = My.Application.Info.DirectoryPath
-            Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
-            Dim location As String = locateProject.Substring(0, indext)
+                worksheet.Cells("A2").Value = "OFFICE"
+                worksheet.Cells("A3").Value = "TOTAL CONTRIBUTIONS"
+                worksheet.Cells("A5").Value = dgContriTotal.Columns(0).HeaderText
+                worksheet.Cells("A6").Value = dgContriTotal.Columns(1).HeaderText
+                worksheet.Cells("A7").Value = dgContriTotal.Columns(2).HeaderText
+                worksheet.Cells("A8").Value = dgContriTotal.Columns(3).HeaderText
+                worksheet.Cells("A9").Value = dgContriTotal.Columns(4).HeaderText
 
-            filePath = location & "\Resources\Exported_file\" & pickContriOffice.SelectedItem & "_Contribution.xlsx"
+                worksheet.Cells("C2").Value = dgContriTotal.Rows(0).Cells(0).Value
+                worksheet.Cells("C5").Value = dgContriTotal.Rows(0).Cells(0).Value
+                worksheet.Cells("C6").Value = dgContriTotal.Rows(0).Cells(1).Value
+                worksheet.Cells("C7").Value = dgContriTotal.Rows(0).Cells(2).Value
+                worksheet.Cells("C8").Value = dgContriTotal.Rows(0).Cells(3).Value
+                worksheet.Cells("C9").Value = dgContriTotal.Rows(0).Cells(4).Value
+                
+                worksheet.Cells("A12").Value = dgContribution.Columns(0).HeaderText
+                worksheet.Cells("B12").Value = dgContribution.Columns(1).HeaderText
+                worksheet.Cells("C12").Value = dgContribution.Columns(2).HeaderText
+                worksheet.Cells("D12").Value = dgContribution.Columns(3).HeaderText
+                worksheet.Cells("E12").Value = dgContribution.Columns(4).HeaderText
+                worksheet.Cells("F12").Value = dgContribution.Columns(5).HeaderText
+                worksheet.Cells("G12").Value = dgContribution.Columns(6).HeaderText
+
+                For Each row As DataGridViewRow In dgContribution.Rows
+                    worksheet.Cells("A" & counter).Value = row.Cells(0).Value
+                    worksheet.Cells("B" & counter).Value = row.Cells(1).Value
+                    worksheet.Cells("C" & counter).Value = row.Cells(2).Value
+                    worksheet.Cells("D" & counter).Value = row.Cells(3).Value
+                    worksheet.Cells("E" & counter).Value = row.Cells(4).Value
+                    worksheet.Cells("F" & counter).Value = row.Cells(5).Value
+                    worksheet.Cells("G" & counter).Value = row.Cells(6).Value
+                    counter = counter + 1
+                Next
+
+
+                Dim locateProject As String = My.Application.Info.DirectoryPath
+                Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
+                Dim location As String = locateProject.Substring(0, indext)
+
+                filePath = location & "\Resources\Exported_file\" & pickContriOffice.SelectedItem & "_Contribution.xlsx"
 
             If IsFileExists(filePath) Then
-                MsgBox("File already exists.")
+                Dim random As New Random()
+                Dim randomNum As Integer = random.Next(1, 501)
+                filePath = location & "\Resources\Exported_file\" & pickContriOffice.SelectedItem & "_Contribution" & randomNum & ".xlsx"
+                package.SaveAs(New System.IO.FileInfo(filePath))
+                MsgBox("File saved to " & filePath)
             Else
                 package.SaveAs(New System.IO.FileInfo(filePath))
                 MsgBox("File saved to " & filePath)
             End If
         End Using
+
+
     End Sub
     '----------------------------------------------END OF CONTRIBUTIONS-----------------------------------------------------------
 
