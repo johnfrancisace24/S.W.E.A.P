@@ -165,7 +165,7 @@ Public Class signups
                 Dim cmd As New MySqlCommand("insert into users(username, password, first_name, middle_name, last_name, sex, position, image, is_admin, created_at, updated_at)values(@UNAME, @PW, @FNAME, @MNAME, @LNAME,@sex, @POS, @IMG, 0, now(), now());
                                          insert into user_info(user_id, address, contact, email, educational, birthdate, office, employment_status, committee)values(last_insert_id(), @ADRS, @CONTACT, @EMAIL, @EDUC, @BDAY, @OFFICE, @EMTYPE, @COMM);
                                          insert into beneficiaries(user_id, full_name, relationship, age)values((select id from users where username=@HOOK), @BNAME1, @BREL1, @BAGE1);
-                                         insert into contributions(user_id, membership_fee, union_dues, bereavement, contribution4, contribution5, created_at, updated_at)values((select id from users where username=@UNAME), 50, 0, 0, 0, 0, now(), now())", conn)
+                                         insert into contributions(user_id, contribution1, contribution2, contribution3, contribution4, contribution5, created_at, updated_at)values((select id from users where username=@UNAME), 50, 0, 0, 0, 0, now(), now())", conn)
                 cmd.Parameters.AddWithValue("@UNAME", txtbxUser.Text)
                 cmd.Parameters.AddWithValue("@PW", txtbxPass.Text)
                 cmd.Parameters.AddWithValue("@FNAME", txtFname.Text)
@@ -406,5 +406,7 @@ Public Class signups
         End If
     End Sub
 
+    Private Sub TabPage4_Click(sender As Object, e As EventArgs) Handles TabPage4.Click
 
+    End Sub
 End Class
