@@ -1380,7 +1380,7 @@ Partial Class Loan
         btnLoanToExcel.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         btnLoanToExcel.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         btnLoanToExcel.FillColor = Color.Green
-        btnLoanToExcel.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        btnLoanToExcel.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
         btnLoanToExcel.ForeColor = Color.White
         btnLoanToExcel.Location = New Point(556, 15)
         btnLoanToExcel.Name = "btnLoanToExcel"

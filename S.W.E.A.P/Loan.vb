@@ -815,54 +815,54 @@ Public Class Loan
     Private Sub btnExtractContri_Click(sender As Object, e As EventArgs) Handles btnExtractContri.Click
 
         Dim filePath As String
-            ExcelPackage.LicenseContext = LicenseContext.NonCommercial
+        ExcelPackage.LicenseContext = LicenseContext.NonCommercial
 
-            Using package As New ExcelPackage()
-                Dim workbook As ExcelWorkbook = package.Workbook
-                Dim worksheet As ExcelWorksheet = workbook.Worksheets.Add("Sheet1")
-                Dim counter As Integer = 13
-
-
-                worksheet.Cells("A2").Value = "OFFICE"
-                worksheet.Cells("A3").Value = "TOTAL CONTRIBUTIONS"
-                worksheet.Cells("A5").Value = dgContriTotal.Columns(0).HeaderText
-                worksheet.Cells("A6").Value = dgContriTotal.Columns(1).HeaderText
-                worksheet.Cells("A7").Value = dgContriTotal.Columns(2).HeaderText
-                worksheet.Cells("A8").Value = dgContriTotal.Columns(3).HeaderText
-                worksheet.Cells("A9").Value = dgContriTotal.Columns(4).HeaderText
-
-                worksheet.Cells("C2").Value = dgContriTotal.Rows(0).Cells(0).Value
-                worksheet.Cells("C5").Value = dgContriTotal.Rows(0).Cells(0).Value
-                worksheet.Cells("C6").Value = dgContriTotal.Rows(0).Cells(1).Value
-                worksheet.Cells("C7").Value = dgContriTotal.Rows(0).Cells(2).Value
-                worksheet.Cells("C8").Value = dgContriTotal.Rows(0).Cells(3).Value
-                worksheet.Cells("C9").Value = dgContriTotal.Rows(0).Cells(4).Value
-                
-                worksheet.Cells("A12").Value = dgContribution.Columns(0).HeaderText
-                worksheet.Cells("B12").Value = dgContribution.Columns(1).HeaderText
-                worksheet.Cells("C12").Value = dgContribution.Columns(2).HeaderText
-                worksheet.Cells("D12").Value = dgContribution.Columns(3).HeaderText
-                worksheet.Cells("E12").Value = dgContribution.Columns(4).HeaderText
-                worksheet.Cells("F12").Value = dgContribution.Columns(5).HeaderText
-                worksheet.Cells("G12").Value = dgContribution.Columns(6).HeaderText
-
-                For Each row As DataGridViewRow In dgContribution.Rows
-                    worksheet.Cells("A" & counter).Value = row.Cells(0).Value
-                    worksheet.Cells("B" & counter).Value = row.Cells(1).Value
-                    worksheet.Cells("C" & counter).Value = row.Cells(2).Value
-                    worksheet.Cells("D" & counter).Value = row.Cells(3).Value
-                    worksheet.Cells("E" & counter).Value = row.Cells(4).Value
-                    worksheet.Cells("F" & counter).Value = row.Cells(5).Value
-                    worksheet.Cells("G" & counter).Value = row.Cells(6).Value
-                    counter = counter + 1
-                Next
+        Using package As New ExcelPackage()
+            Dim workbook As ExcelWorkbook = package.Workbook
+            Dim worksheet As ExcelWorksheet = workbook.Worksheets.Add("Sheet1")
+            Dim counter As Integer = 13
 
 
-                Dim locateProject As String = My.Application.Info.DirectoryPath
-                Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
-                Dim location As String = locateProject.Substring(0, indext)
+            worksheet.Cells("A2").Value = "OFFICE"
+            worksheet.Cells("A3").Value = "TOTAL CONTRIBUTIONS"
+            worksheet.Cells("A5").Value = dgContriTotal.Columns(0).HeaderText
+            worksheet.Cells("A6").Value = dgContriTotal.Columns(1).HeaderText
+            worksheet.Cells("A7").Value = dgContriTotal.Columns(2).HeaderText
+            worksheet.Cells("A8").Value = dgContriTotal.Columns(3).HeaderText
+            worksheet.Cells("A9").Value = dgContriTotal.Columns(4).HeaderText
 
-                filePath = location & "\Resources\Exported_file\" & pickContriOffice.SelectedItem & "_Contribution.xlsx"
+            worksheet.Cells("C2").Value = dgContriTotal.Rows(0).Cells(0).Value
+            worksheet.Cells("C5").Value = dgContriTotal.Rows(0).Cells(0).Value
+            worksheet.Cells("C6").Value = dgContriTotal.Rows(0).Cells(1).Value
+            worksheet.Cells("C7").Value = dgContriTotal.Rows(0).Cells(2).Value
+            worksheet.Cells("C8").Value = dgContriTotal.Rows(0).Cells(3).Value
+            worksheet.Cells("C9").Value = dgContriTotal.Rows(0).Cells(4).Value
+
+            worksheet.Cells("A12").Value = dgContribution.Columns(0).HeaderText
+            worksheet.Cells("B12").Value = dgContribution.Columns(1).HeaderText
+            worksheet.Cells("C12").Value = dgContribution.Columns(2).HeaderText
+            worksheet.Cells("D12").Value = dgContribution.Columns(3).HeaderText
+            worksheet.Cells("E12").Value = dgContribution.Columns(4).HeaderText
+            worksheet.Cells("F12").Value = dgContribution.Columns(5).HeaderText
+            worksheet.Cells("G12").Value = dgContribution.Columns(6).HeaderText
+
+            For Each row As DataGridViewRow In dgContribution.Rows
+                worksheet.Cells("A" & counter).Value = row.Cells(0).Value
+                worksheet.Cells("B" & counter).Value = row.Cells(1).Value
+                worksheet.Cells("C" & counter).Value = row.Cells(2).Value
+                worksheet.Cells("D" & counter).Value = row.Cells(3).Value
+                worksheet.Cells("E" & counter).Value = row.Cells(4).Value
+                worksheet.Cells("F" & counter).Value = row.Cells(5).Value
+                worksheet.Cells("G" & counter).Value = row.Cells(6).Value
+                counter = counter + 1
+            Next
+
+
+            Dim locateProject As String = My.Application.Info.DirectoryPath
+            Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
+            Dim location As String = locateProject.Substring(0, indext)
+
+            filePath = location & "\Resources\Exported_file\" & pickContriOffice.SelectedItem & "_Contribution.xlsx"
 
             If IsFileExists(filePath) Then
                 Dim random As New Random()
