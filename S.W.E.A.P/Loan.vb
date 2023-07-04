@@ -7,6 +7,11 @@ Imports MySql.Data.MySqlClient
 Imports DocumentFormat.OpenXml.Office.Word
 Imports OfficeOpenXml.Style
 Imports System.IO
+Imports TheArtOfDevHtmlRenderer.Core.Utils
+Imports System.Net.Sockets
+Imports System.Text
+Imports System.Net
+Imports System.Globalization
 
 Public Class Loan
     '-----------------------------------VARIABLE DECLARATION------------------------------------------
@@ -27,39 +32,39 @@ Public Class Loan
     Dim CumuInterest As Double
     Dim selectedDate As DateTime
     Dim totalEarlyPayment As Integer
-    Dim error_msg(0) As String
-    Dim random As Integer = 0
-    Dim i As Integer = 0
-    Dim message As String
-    Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap")
-    Dim rid As MySqlDataReader
+    Dim error_msg(0) As String '---used for validation, get's all the error messages if the validation function fails
+    Dim random As Integer = 0 '---used to expand the error_msg array
+    Dim errChecker As Integer = 0 '---used to check if the error_msg array is clear
+    Dim message As String '---Validation messages, merging all the error messages from error_msg array to produce one message. Works along with errChecker variable
+    Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap") '---database connection
+    Dim rid As MySqlDataReader '---database data reader
     Dim selectedId As Integer = 0
-    Dim loanSchedId As Integer
+    Dim loanSchedId As Integer '---used in extract to excel loan to get some value to database
     '------------------------------------VARIABLE DECLARATION FOR CONTRIBUTIONS----------------------------------------------
-    Dim updatedMonth As Integer
-    Dim updatedYear As Integer
-    Dim updatedWeek As Integer
-    Dim updatedDay As Integer
+    Dim updatedMonth As Integer '---get the updated month from database contributions
+    Dim updatedYear As Integer '---Year
+    Dim updatedWeek As Integer '---Week
+    Dim updatedDay As Integer '---Day
     Dim query As String = "select user_id, concat(users.first_name, ' ', users.middle_name, ' ', users.last_name) as full_name, users.position, sum(contribution1) as contribution1,
                                         sum(contribution2) as contribution2, sum(contribution3) as contribution3, sum(contribution4) as contribution4, sum(contribution5) as contribution5, contributions.updated_at from contributions left join users
-                                            on contributions.user_id = users.id group by contributions.user_id"
+                                            on contributions.user_id = users.id group by contributions.user_id" '---used for contribution table
     '-----------------------------------------------END OF CONTRIBUTION'S VARIABLE-------------------------------------------
 
     '-----------------------------------END OF VARIABLE DECLARATION-------------------------------------------
     '--------------------------------------FUNCTIONS----------------------------------------------------------
 
-    Public Function IsFileExists(filePath As String) As Boolean
+    Public Function IsFileExists(filePath As String) As Boolean '---used to check if the file exist
         Return File.Exists(filePath)
     End Function
 
-    Public Sub common_calculation()
+    Public Sub common_calculation() '---common calculation from add loan calculation
         totalPayment = scheduledPayment + extraPayment
         interest = beginningBalance * monthlyInterestRate
         principal = totalPayment - interest
         endBalance = beginningBalance - principal
         CumuInterest = CumuInterest + interest
     End Sub
-    Public Sub common_process()
+    Public Sub common_process() '---common process of data passing from add loan calculation
         payment = 1
         selectedDate = dateStart.Value.Date
         extraPayment = numXtraP.Value
@@ -91,7 +96,7 @@ Public Class Loan
         If field <= condition Then
             error_msg(random) = msg & vbNewLine
             random = random + 1
-            ReDim Preserve error_msg(random)
+            ReDim Preserve error_msg(random) 'reseting arrays span every time another error message was added.
         End If
     End Sub
     Public Sub reset()
@@ -160,6 +165,7 @@ Public Class Loan
     End Sub
 
     Public Sub contriEditFields(status)
+        'USED FOR ENABLING/DISABLING OF SOME FIELDS
         btnUpdateContriType.Enabled = status
         pickContriName.Enabled = status
         pickContriEditPeriod.Enabled = status
@@ -209,9 +215,9 @@ Public Class Loan
             random = random + 1
             ReDim Preserve error_msg(random)
         End If
-        While i < error_msg.Length
-            message = message & error_msg(i)
-            i = i + 1
+        While errChecker < error_msg.Length
+            message = message & error_msg(errChecker)
+            errChecker = errChecker + 1
         End While
 
         If message = "" Then
@@ -253,7 +259,7 @@ Public Class Loan
             btnApprove.Enabled = True
         Else
             MessageBox.Show(message, "Invalid Input")
-            i = 0
+            errChecker = 0
             message = ""
             Array.Clear(error_msg, 0, error_msg.Length)
         End If
@@ -880,7 +886,43 @@ Public Class Loan
                 MsgBox("File saved to " & filePath)
             End If
         End Using
+    End Sub
 
+    Private Sub btnUpToDateContri_Click(sender As Object, e As EventArgs) Handles btnUpToDateContri.Click
+        Try
+            Dim ntpServer As String = "pool.ntp.org"
+            Dim ntpPort As Integer = 123
+
+            Dim clientSocket As New UdpClient()
+            Dim endPoint As New IPEndPoint(Dns.GetHostAddresses(ntpServer)(0), ntpPort)
+            clientSocket.Connect(endPoint)
+
+            Dim ntpData As Byte() = New Byte(47) {}
+            ntpData(0) = &H1B ' Set Mode to Client
+
+            clientSocket.Send(ntpData, ntpData.Length)
+
+            Dim responseData As Byte() = clientSocket.Receive(endPoint)
+            clientSocket.Close()
+
+            Array.Reverse(responseData, 40, 4) ' Reverse byte order for timestamp
+
+            Dim intPart As UInteger = BitConverter.ToUInt32(responseData, 40)
+            Dim fracPart As UInteger = BitConverter.ToUInt32(responseData, 44)
+
+            Dim milliseconds = (intPart * 1000) + ((fracPart * 1000) / &H100000000UL)
+
+            Dim baseDateTime As New DateTime(1900, 1, 1)
+            Dim networkDateTime As DateTime = baseDateTime.AddMilliseconds(milliseconds)
+
+            ' Convert to Singapore Standard Time
+            Dim singaporeTimeZone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("Asia/Singapore")
+            Dim singaporeDateTime As DateTime = TimeZoneInfo.ConvertTimeFromUtc(networkDateTime, singaporeTimeZone)
+            MsgBox(singaporeDateTime.DayOfWeek)
+            MessageBox.Show("Internet Time (Singapore Standard Time): " & singaporeDateTime.ToString("yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture))
+        Catch ex As Exception
+            MessageBox.Show("An error occurred while getting the internet time: " & ex.Message)
+        End Try
 
     End Sub
     '----------------------------------------------END OF CONTRIBUTIONS-----------------------------------------------------------

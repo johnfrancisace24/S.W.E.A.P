@@ -78,13 +78,11 @@ Partial Class Loan
         Dim DataGridViewCellStyle16 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle17 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle18 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim DataGridViewCellStyle19 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle20 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle21 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -99,7 +97,11 @@ Partial Class Loan
         Dim CustomizableEdges54 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges55 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges56 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Loan))
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         tabconLoan = New Guna.UI2.WinForms.Guna2TabControl()
@@ -230,6 +232,8 @@ Partial Class Loan
         Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
         contriTimer = New Timer(components)
         lblTime = New Label()
+        Panel11 = New Panel()
+        btnUpToDateContri = New Guna.UI2.WinForms.Guna2Button()
         tabconLoan.SuspendLayout()
         addLoan.SuspendLayout()
         Panel3.SuspendLayout()
@@ -257,6 +261,7 @@ Partial Class Loan
         CType(dgContriTotal, ComponentModel.ISupportInitialize).BeginInit()
         Panel8.SuspendLayout()
         CType(numContriEditAmount, ComponentModel.ISupportInitialize).BeginInit()
+        Panel11.SuspendLayout()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -1503,6 +1508,7 @@ Partial Class Loan
         ' contribution
         ' 
         contribution.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
+        contribution.Controls.Add(Panel11)
         contribution.Controls.Add(dgContribution)
         contribution.Controls.Add(Panel9)
         contribution.Controls.Add(Panel8)
@@ -1642,19 +1648,19 @@ Partial Class Loan
         ' Panel9
         ' 
         Panel9.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Panel9.Controls.Add(btnExtractContri)
         Panel9.Controls.Add(dgContriTotal)
+        Panel9.Controls.Add(btnExtractContri)
         Panel9.Controls.Add(pickContriOffice)
         Panel9.Controls.Add(Label22)
         Panel9.Location = New Point(18, 189)
         Panel9.Name = "Panel9"
-        Panel9.Size = New Size(1145, 90)
+        Panel9.Size = New Size(937, 90)
         Panel9.TabIndex = 0
         ' 
         ' btnExtractContri
         ' 
         btnExtractContri.BorderRadius = 5
-        btnExtractContri.CustomizableEdges = CustomizableEdges39
+        btnExtractContri.CustomizableEdges = CustomizableEdges41
         btnExtractContri.DisabledState.BorderColor = Color.DarkGray
         btnExtractContri.DisabledState.CustomBorderColor = Color.DarkGray
         btnExtractContri.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1662,10 +1668,10 @@ Partial Class Loan
         btnExtractContri.FillColor = Color.Green
         btnExtractContri.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
         btnExtractContri.ForeColor = Color.White
-        btnExtractContri.Location = New Point(946, 36)
+        btnExtractContri.Location = New Point(85, 52)
         btnExtractContri.Name = "btnExtractContri"
-        btnExtractContri.ShadowDecoration.CustomizableEdges = CustomizableEdges40
-        btnExtractContri.Size = New Size(166, 36)
+        btnExtractContri.ShadowDecoration.CustomizableEdges = CustomizableEdges42
+        btnExtractContri.Size = New Size(248, 24)
         btnExtractContri.TabIndex = 5
         btnExtractContri.Text = "EXTRACT TO EXCEL"
         ' 
@@ -1695,12 +1701,12 @@ Partial Class Loan
         DataGridViewCellStyle21.WrapMode = DataGridViewTriState.False
         dgContriTotal.DefaultCellStyle = DataGridViewCellStyle21
         dgContriTotal.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
-        dgContriTotal.Location = New Point(370, 22)
+        dgContriTotal.Location = New Point(355, 15)
         dgContriTotal.Name = "dgContriTotal"
         dgContriTotal.ReadOnly = True
         dgContriTotal.RowHeadersVisible = False
         dgContriTotal.RowTemplate.Height = 25
-        dgContriTotal.Size = New Size(554, 50)
+        dgContriTotal.Size = New Size(554, 61)
         dgContriTotal.TabIndex = 4
         dgContriTotal.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt
         dgContriTotal.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
@@ -1764,7 +1770,7 @@ Partial Class Loan
         ' 
         pickContriOffice.BackColor = Color.Transparent
         pickContriOffice.BorderRadius = 5
-        pickContriOffice.CustomizableEdges = CustomizableEdges41
+        pickContriOffice.CustomizableEdges = CustomizableEdges43
         pickContriOffice.DrawMode = DrawMode.OwnerDrawFixed
         pickContriOffice.DropDownStyle = ComboBoxStyle.DropDownList
         pickContriOffice.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -1773,17 +1779,17 @@ Partial Class Loan
         pickContriOffice.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         pickContriOffice.ItemHeight = 30
         pickContriOffice.Items.AddRange(New Object() {"All Members"})
-        pickContriOffice.Location = New Point(38, 36)
+        pickContriOffice.Location = New Point(85, 15)
         pickContriOffice.Name = "pickContriOffice"
-        pickContriOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges42
-        pickContriOffice.Size = New Size(310, 36)
+        pickContriOffice.ShadowDecoration.CustomizableEdges = CustomizableEdges44
+        pickContriOffice.Size = New Size(248, 36)
         pickContriOffice.TabIndex = 0
         ' 
         ' Label22
         ' 
         Label22.AutoSize = True
         Label22.Font = New Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        Label22.Location = New Point(166, 11)
+        Label22.Location = New Point(24, 22)
         Label22.Name = "Label22"
         Label22.Size = New Size(44, 19)
         Label22.TabIndex = 3
@@ -1812,7 +1818,7 @@ Partial Class Loan
         ' Guna2Button1
         ' 
         Guna2Button1.BorderRadius = 5
-        Guna2Button1.CustomizableEdges = CustomizableEdges43
+        Guna2Button1.CustomizableEdges = CustomizableEdges45
         Guna2Button1.DisabledState.BorderColor = Color.DarkGray
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1823,14 +1829,14 @@ Partial Class Loan
         Guna2Button1.Image = My.Resources.Resources.padlock1
         Guna2Button1.Location = New Point(1068, 50)
         Guna2Button1.Name = "Guna2Button1"
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges44
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges46
         Guna2Button1.Size = New Size(44, 36)
         Guna2Button1.TabIndex = 7
         ' 
         ' btnOpenEdit
         ' 
         btnOpenEdit.BorderRadius = 5
-        btnOpenEdit.CustomizableEdges = CustomizableEdges45
+        btnOpenEdit.CustomizableEdges = CustomizableEdges47
         btnOpenEdit.DisabledState.BorderColor = Color.DarkGray
         btnOpenEdit.DisabledState.CustomBorderColor = Color.DarkGray
         btnOpenEdit.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1839,7 +1845,7 @@ Partial Class Loan
         btnOpenEdit.ForeColor = Color.White
         btnOpenEdit.Location = New Point(946, 50)
         btnOpenEdit.Name = "btnOpenEdit"
-        btnOpenEdit.ShadowDecoration.CustomizableEdges = CustomizableEdges46
+        btnOpenEdit.ShadowDecoration.CustomizableEdges = CustomizableEdges48
         btnOpenEdit.Size = New Size(116, 36)
         btnOpenEdit.TabIndex = 6
         btnOpenEdit.Text = "EDIT"
@@ -1847,7 +1853,7 @@ Partial Class Loan
         ' txtNewContriName
         ' 
         txtNewContriName.BorderRadius = 5
-        txtNewContriName.CustomizableEdges = CustomizableEdges47
+        txtNewContriName.CustomizableEdges = CustomizableEdges49
         txtNewContriName.DefaultText = ""
         txtNewContriName.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtNewContriName.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -1861,7 +1867,7 @@ Partial Class Loan
         txtNewContriName.PasswordChar = ChrW(0)
         txtNewContriName.PlaceholderText = ""
         txtNewContriName.SelectedText = ""
-        txtNewContriName.ShadowDecoration.CustomizableEdges = CustomizableEdges48
+        txtNewContriName.ShadowDecoration.CustomizableEdges = CustomizableEdges50
         txtNewContriName.Size = New Size(237, 36)
         txtNewContriName.TabIndex = 5
         ' 
@@ -1869,7 +1875,7 @@ Partial Class Loan
         ' 
         pickContriName.BackColor = Color.Transparent
         pickContriName.BorderRadius = 5
-        pickContriName.CustomizableEdges = CustomizableEdges49
+        pickContriName.CustomizableEdges = CustomizableEdges51
         pickContriName.DrawMode = DrawMode.OwnerDrawFixed
         pickContriName.DropDownStyle = ComboBoxStyle.DropDownList
         pickContriName.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -1879,7 +1885,7 @@ Partial Class Loan
         pickContriName.ItemHeight = 30
         pickContriName.Location = New Point(38, 92)
         pickContriName.Name = "pickContriName"
-        pickContriName.ShadowDecoration.CustomizableEdges = CustomizableEdges50
+        pickContriName.ShadowDecoration.CustomizableEdges = CustomizableEdges52
         pickContriName.Size = New Size(227, 36)
         pickContriName.TabIndex = 4
         ' 
@@ -1887,18 +1893,18 @@ Partial Class Loan
         ' 
         numContriEditAmount.BackColor = Color.Transparent
         numContriEditAmount.BorderRadius = 5
-        numContriEditAmount.CustomizableEdges = CustomizableEdges51
+        numContriEditAmount.CustomizableEdges = CustomizableEdges53
         numContriEditAmount.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         numContriEditAmount.Location = New Point(557, 92)
         numContriEditAmount.Name = "numContriEditAmount"
-        numContriEditAmount.ShadowDecoration.CustomizableEdges = CustomizableEdges52
+        numContriEditAmount.ShadowDecoration.CustomizableEdges = CustomizableEdges54
         numContriEditAmount.Size = New Size(153, 36)
         numContriEditAmount.TabIndex = 1
         ' 
         ' btnUpdateContriType
         ' 
         btnUpdateContriType.BorderRadius = 5
-        btnUpdateContriType.CustomizableEdges = CustomizableEdges53
+        btnUpdateContriType.CustomizableEdges = CustomizableEdges55
         btnUpdateContriType.DisabledState.BorderColor = Color.DarkGray
         btnUpdateContriType.DisabledState.CustomBorderColor = Color.DarkGray
         btnUpdateContriType.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -1907,7 +1913,7 @@ Partial Class Loan
         btnUpdateContriType.ForeColor = Color.White
         btnUpdateContriType.Location = New Point(946, 92)
         btnUpdateContriType.Name = "btnUpdateContriType"
-        btnUpdateContriType.ShadowDecoration.CustomizableEdges = CustomizableEdges54
+        btnUpdateContriType.ShadowDecoration.CustomizableEdges = CustomizableEdges56
         btnUpdateContriType.Size = New Size(166, 36)
         btnUpdateContriType.TabIndex = 1
         btnUpdateContriType.Text = "UPDATE"
@@ -1926,7 +1932,7 @@ Partial Class Loan
         ' 
         pickContriEditPeriod.BackColor = Color.Transparent
         pickContriEditPeriod.BorderRadius = 5
-        pickContriEditPeriod.CustomizableEdges = CustomizableEdges55
+        pickContriEditPeriod.CustomizableEdges = CustomizableEdges57
         pickContriEditPeriod.DrawMode = DrawMode.OwnerDrawFixed
         pickContriEditPeriod.DropDownStyle = ComboBoxStyle.DropDownList
         pickContriEditPeriod.FocusedColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
@@ -1937,7 +1943,7 @@ Partial Class Loan
         pickContriEditPeriod.Items.AddRange(New Object() {"Daily", "Weekly", "Monthly", "Annually", "One time payment"})
         pickContriEditPeriod.Location = New Point(738, 92)
         pickContriEditPeriod.Name = "pickContriEditPeriod"
-        pickContriEditPeriod.ShadowDecoration.CustomizableEdges = CustomizableEdges56
+        pickContriEditPeriod.ShadowDecoration.CustomizableEdges = CustomizableEdges58
         pickContriEditPeriod.Size = New Size(180, 36)
         pickContriEditPeriod.TabIndex = 2
         ' 
@@ -2026,6 +2032,33 @@ Partial Class Loan
         lblTime.Text = "12:15:16"
         lblTime.TextAlign = ContentAlignment.MiddleCenter
         ' 
+        ' Panel11
+        ' 
+        Panel11.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel11.Controls.Add(btnUpToDateContri)
+        Panel11.Location = New Point(974, 189)
+        Panel11.Name = "Panel11"
+        Panel11.Size = New Size(189, 90)
+        Panel11.TabIndex = 2
+        ' 
+        ' btnUpToDateContri
+        ' 
+        btnUpToDateContri.BorderRadius = 5
+        btnUpToDateContri.CustomizableEdges = CustomizableEdges39
+        btnUpToDateContri.DisabledState.BorderColor = Color.DarkGray
+        btnUpToDateContri.DisabledState.CustomBorderColor = Color.DarkGray
+        btnUpToDateContri.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnUpToDateContri.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnUpToDateContri.FillColor = Color.FromArgb(CByte(0), CByte(192), CByte(192))
+        btnUpToDateContri.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnUpToDateContri.ForeColor = Color.White
+        btnUpToDateContri.Location = New Point(18, 15)
+        btnUpToDateContri.Name = "btnUpToDateContri"
+        btnUpToDateContri.ShadowDecoration.CustomizableEdges = CustomizableEdges40
+        btnUpToDateContri.Size = New Size(152, 61)
+        btnUpToDateContri.TabIndex = 6
+        btnUpToDateContri.Text = "UPDATE CONTRIBUTIONS"
+        ' 
         ' Loan
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -2076,6 +2109,7 @@ Partial Class Loan
         Panel8.ResumeLayout(False)
         Panel8.PerformLayout()
         CType(numContriEditAmount, ComponentModel.ISupportInitialize).EndInit()
+        Panel11.ResumeLayout(False)
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -2226,4 +2260,6 @@ Partial Class Loan
     Friend WithEvents Column50 As DataGridViewTextBoxColumn
     Friend WithEvents pickContriOffice As Guna.UI2.WinForms.Guna2ComboBox
     Friend WithEvents Label22 As Label
+    Friend WithEvents Panel11 As Panel
+    Friend WithEvents btnUpToDateContri As Guna.UI2.WinForms.Guna2Button
 End Class
