@@ -3,9 +3,10 @@ Imports DocumentFormat.OpenXml.Vml.Spreadsheet
 Imports MySql.Data.MySqlClient
 Imports OfficeOpenXml.Table.PivotTable
 Imports System.IO
+Imports System.IO.Packaging
 Imports System.Text.RegularExpressions
 Public Class signups
-    Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweapdswd;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap")
     Dim rid As MySqlDataReader
     Dim error_msg(0) As String
     Dim random As Integer = 0
@@ -33,7 +34,9 @@ Public Class signups
         fieldname.bordercolor = Color.Gray
         fieldname.borderthickness = 1
     End Sub
-
+    Public Function IsFileExists(filePath As String) As Boolean
+        Return File.Exists(filePath)
+    End Function
     Public Sub reset_all()
         invalid_reset(txtbxUser)
         invalid_reset(txtbxPass)
@@ -155,10 +158,20 @@ Public Class signups
             Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
             Dim location As String = locateProject.Substring(0, indext)
             Dim opf As New OpenFileDialog
+            Dim imageInput As String
 
             Dim destinationPath As String = location & "\Resources\user_profile\" & txtbxUser.Text & getExtension
-            File.Copy(sourceFilePath, destinationPath, 0)
-            Dim imageInput As String = "\" & txtbxUser.Text & getExtension
+            If IsFileExists(destinationPath) Then
+                Dim random As New Random()
+                Dim randomNum As Integer = random.Next(1, 501)
+                destinationPath = location & "\Resources\user_profile\" & txtbxUser.Text & randomNum & getExtension
+                File.Copy(sourceFilePath, destinationPath, 0)
+                imageInput = "\" & txtbxUser.Text & randomNum & getExtension
+            Else
+                File.Copy(sourceFilePath, destinationPath, 0)
+                imageInput = "\" & txtbxUser.Text & getExtension
+            End If
+
             '------------------------------------------------------------------------------------------
             Try
                 conn.Open()
