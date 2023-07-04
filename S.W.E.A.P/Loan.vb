@@ -85,6 +85,9 @@ Public Class Loan
     End Sub
 
     Public Sub validation(field, condition, msg)
+        'USED FOR VALIDATIONS
+        'parameters:
+        'field = get the input field to validate / condition
         If field <= condition Then
             error_msg(random) = msg & vbNewLine
             random = random + 1
@@ -92,6 +95,7 @@ Public Class Loan
         End If
     End Sub
     Public Sub reset()
+        'RESET ALL THE CURRENT VALUE OF COMPUTATIONS
         numXtraP.Value = 0
         numLamount.Value = 0
         numAintRate.Value = 0
@@ -111,6 +115,7 @@ Public Class Loan
         txtName.Text = ""
     End Sub
     Public Sub mathing()
+        'TO ROUNDOFF THE DECIMALS..
         beginningBalance = Math.Round(beginningBalance, 2)
         totalPayment = Math.Round(totalPayment, 2)
         interest = Math.Round(interest, 2)
