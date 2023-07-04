@@ -5,7 +5,7 @@ Imports OfficeOpenXml.Style
 Imports System.Text.RegularExpressions
 
 Public Class user_dashboard
-    Dim conn As New MySqlConnection("server=172.30.206.128;port=3306;username=dswdSweap;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.206.128;port=3306;username=dswd;password=sweapdswd;database=sweap")
     Dim dr As MySqlDataReader
 
     Dim sourceFilePath As String
@@ -22,7 +22,7 @@ Public Class user_dashboard
     Dim settingPath As String = "settings.png"
     Dim Home As String = "house (1).png"
 
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick '--------------------TIMER
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick '--------------------TIME
         Dim timezone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("singapore standard time")
         Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
         Dim currentdate As DateTime = currenttime
@@ -34,8 +34,10 @@ Public Class user_dashboard
         Timer1.Start()
         Get_info()
         DG_Load()
+        Dashboard()
     End Sub
 
+    'FETCHED SAVING, UNION DUES, AND CONTRIBUTIONS
     Public Sub Dashboard()
         Try
             conn.Open()
@@ -69,6 +71,8 @@ Public Class user_dashboard
             conn.Close()
         End Try
     End Sub
+
+    'LOG OUT-------------------------
     Private Sub btnLogOut_Click(sender As Object, e As EventArgs) Handles btnLogOut.Click
         Dim AnswerYes As String
         AnswerYes = MessageBox.Show("Are you sure you want to Log out?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
@@ -81,6 +85,7 @@ Public Class user_dashboard
             iconFromtitle.Image = Image.FromFile(destinationIconPath + Home)
         End If
     End Sub
+
 
     Private Sub Guna2TabControl1_Selected(sender As Object, e As TabControlEventArgs) Handles Guna2TabControl1.Selected
         If Guna2TabControl1.SelectedTab Is tabDashboard Then
@@ -103,6 +108,9 @@ Public Class user_dashboard
             iconFromtitle.Image = Image.FromFile(destinationIconPath + Home)
         End If
     End Sub
+
+
+    'FETCHED ALL BENEFICIARY OF USER-------------------------------
     Public Sub DG_Load()
         BeneficiariesDGV.Rows.Clear()
         Try
@@ -123,6 +131,8 @@ Public Class user_dashboard
         End Try
     End Sub
 
+
+    'FETCH ALL INFO OF THE USER------------------------
     Public Sub Get_info()
         Try
             conn.Open()
@@ -186,6 +196,9 @@ Public Class user_dashboard
         End Try
     End Sub
 
+
+
+    'SEARCH FUNCTION-------------------------------------------
     Private Sub search_TextChanged(sender As Object, e As EventArgs) Handles search.TextChanged
         BeneficiariesDGV.Rows.Clear()
         Try
@@ -203,6 +216,10 @@ Public Class user_dashboard
             conn.Close()
         End Try
     End Sub
+
+
+
+    'UPDATE FUNCTION---------------------------------------------
     Public Sub Update()
         Try
             conn.Open()
@@ -231,7 +248,7 @@ Public Class user_dashboard
 
             cmd.ExecuteNonQuery()
             MessageBox.Show("Updated successfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            signups.ClearAllTextboxes(Me)
+            signups.ClearAllTextboxes(Me) 'clear all textboxes
         Catch ex As Exception
             MsgBox("Error: " & ex.Message)
         Finally
@@ -245,6 +262,9 @@ Public Class user_dashboard
     Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles btnUpdate.Click
         Update()
     End Sub
+
+
+
 
     'EXPORT TO EXCEL-------------------------------------------------------------------------
     Public Sub SetEPPlusLicenseContext()
@@ -267,12 +287,9 @@ Public Class user_dashboard
             Next
 
             Dim range As ExcelRange = worksheet.Cells(1, 1, BenefeciariesDGV.Rows.Count + 1, BenefeciariesDGV.Columns.Count)
-
             range.Style.Font.Bold = True
 
-
-
-            'background color for header
+            'background color, font color, and border for header
             Dim headerRange As ExcelRange = worksheet.Cells(1, 1, 1, BenefeciariesDGV.Columns.Count)
             headerRange.Style.Fill.PatternType = ExcelFillStyle.Solid
             headerRange.Style.Fill.BackgroundColor.SetColor(Color.LightGreen)
@@ -280,7 +297,7 @@ Public Class user_dashboard
             headerRange.Style.HorizontalAlignment = ExcelHorizontalAlignment.Center
             headerRange.Style.Border.Bottom.Style = ExcelBorderStyle.Thin
 
-            'background color for rows
+            'background color, font color, and border for rows
             Dim dataRange As ExcelRange = worksheet.Cells(2, 1, BenefeciariesDGV.Rows.Count + 1, BenefeciariesDGV.Columns.Count)
             dataRange.Style.Fill.PatternType = ExcelFillStyle.Solid
             dataRange.Style.Font.Color.SetColor(Color.Black)
@@ -293,8 +310,7 @@ Public Class user_dashboard
             worksheet.Column(2).Width = 42 ' Column B
             worksheet.Column(3).Width = 8 ' Column C
             worksheet.Column(4).Width = 18.57 ' Column D
-            'worksheet.Column(5).Width = 20 ' Column E
-            'worksheet.Column(6).Width = 24 ' Column F
+
             Dim fileInfo As New FileInfo(filePath)
             package.SaveAs(fileInfo)
         End Using
@@ -306,6 +322,8 @@ Public Class user_dashboard
         processStartInfo.UseShellExecute = True
         Process.Start(processStartInfo)
     End Sub
+
+    'EXPORT TO EXCEL BUTTON--------------------------
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles btnExport.Click
         Try
             conn.Open()
@@ -316,7 +334,7 @@ Public Class user_dashboard
                 Dim documentsPath As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
                 Dim filePath As String = Path.Combine(documentsPath, dr.GetString("first_name") & "_beneficiary.xlsx")
                 Dim fileName As String = dr.GetString("first_name") & "_beneficiary.xlsx"
-                If File.Exists(filePath) Then
+                If File.Exists(filePath) Then 'IF FILE EXIST-------
                     MessageBox.Show("The file already exists; this is the file location" & vbCrLf & filePath, "Information", MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 Else
                     ExportToExcel(BeneficiariesDGV, filePath)

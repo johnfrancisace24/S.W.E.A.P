@@ -5,7 +5,7 @@ Imports OfficeOpenXml.Table.PivotTable
 Imports System.IO
 Imports System.Text.RegularExpressions
 Public Class signups
-    Dim conn As New MySqlConnection("server=172.30.206.128;port=3306;username=dswdSweap;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.196.224;port=3306;username=dswd;password=sweapdswd;database=sweap")
     Dim rid As MySqlDataReader
     Dim error_msg(0) As String
     Dim random As Integer = 0
@@ -165,7 +165,7 @@ Public Class signups
                 Dim cmd As New MySqlCommand("insert into users(username, password, first_name, middle_name, last_name, sex, position, image, is_admin, created_at, updated_at)values(@UNAME, @PW, @FNAME, @MNAME, @LNAME,@sex, @POS, @IMG, 0, now(), now());
                                          insert into user_info(user_id, address, contact, email, educational, birthdate, office, employment_status, committee)values(last_insert_id(), @ADRS, @CONTACT, @EMAIL, @EDUC, @BDAY, @OFFICE, @EMTYPE, @COMM);
                                          insert into beneficiaries(user_id, full_name, relationship, age)values((select id from users where username=@HOOK), @BNAME1, @BREL1, @BAGE1);
-                                         insert into contributions(user_id, membership_fee, union_dues, bereavement, contribution4, contribution5, created_at, updated_at)values((select id from users where username=@UNAME), 50, 0, 0, 0, 0, now(), now())", conn)
+                                         insert into contributions(user_id, contribution1, contribution2, contribution3, contribution4, contribution5, created_at, updated_at)values((select id from users where username=@UNAME), 50, 0, 0, 0, 0, now(), now())", conn)
                 cmd.Parameters.AddWithValue("@UNAME", txtbxUser.Text)
                 cmd.Parameters.AddWithValue("@PW", txtbxPass.Text)
                 cmd.Parameters.AddWithValue("@FNAME", txtFname.Text)
@@ -366,45 +366,4 @@ Public Class signups
     Private Sub Guna2Button7_Click(sender As Object, e As EventArgs) Handles Guna2Button7.Click
         Guna2TabControl1.SelectedTab = TabPage2
     End Sub
-
-
-
-    'clicking arrow and enter to next
-    Private Sub dateBday_KeyPress(sender As Object, e As KeyPressEventArgs) Handles dateBday.KeyPress
-        If e.KeyChar = ChrW(Keys.Enter) Then
-            NextForm()
-            e.Handled = True
-        End If
-    End Sub
-    Private Sub Panel3_KeyPress(sender As Object, e As KeyPressEventArgs) Handles Panel3.KeyPress
-        dateBday_KeyPress(sender, e)
-    End Sub
-    Private Sub NextForm()
-        valid_blank(txtFname.Text, "First name", txtFname)
-        valid_blank(txtMname.Text, "Middle name", txtMname)
-        valid_blank(txtLname.Text, "Last name", txtLname)
-        valid_blank(pickSex.SelectedItem, "Sex", pickSex)
-        valid_blank(txtAddress.Text, "Address", txtAddress)
-        valid_blank(txtContact.Text, "Contact", txtContact)
-        valid_blank(txtEmail.Text, "Email", txtEmail)
-        valid_blank(txtEduc.Text, "Educational Attainment", txtEduc)
-
-        While i < error_msg.Length
-            message = message & error_msg(i)
-            i = i + 1
-        End While
-
-        If message = "" Then
-            '----------------------------NEXT-FORM-------2------------------------------------------'
-            Guna2TabControl1.SelectedTab = TabPage2
-            TabPage2.Enabled = True
-        Else
-            MsgBox(message)
-            i = 0
-            message = ""
-            Array.Clear(error_msg, 0, error_msg.Length)
-        End If
-    End Sub
-
-
 End Class
