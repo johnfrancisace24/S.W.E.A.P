@@ -4,6 +4,8 @@ Public Class Form2
     Dim conn As New MySqlConnection("server=172.30.206.128;port=3306;username=dswdSweap;password=druguser;database=sweap")
     Dim rid As MySqlDataReader
     Public Shared log_id As Integer
+
+    'Perform log-in by using enter.
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         PerformLogin()
     End Sub
@@ -73,6 +75,7 @@ Public Class Form2
         End If
     End Sub
 
+    'REGISTER FORM
     Private Sub lblRegister_Click(sender As Object, e As EventArgs) Handles lblRegister.Click
         Me.Hide()
         signups.Show()
@@ -86,6 +89,7 @@ Public Class Form2
         Me.Close()
     End Sub
 
+    'ANOTHER FORM TO CHANGE PASS
     Private Sub lblForgot_Click(sender As Object, e As EventArgs) Handles lblForgot.Click
         ForgotPass.Show()
         Me.Hide()
