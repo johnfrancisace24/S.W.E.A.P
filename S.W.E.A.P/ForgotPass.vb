@@ -7,7 +7,7 @@ Imports System.Text.RegularExpressions
 Imports System.IO
 
 Public Class ForgotPass
-    Dim conn As New MySqlConnection("server=172.30.206.128;port=3306;username=dswdSweap;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap")
     Dim error_msg(0) As String
     Dim random As Integer = 0
     Dim i As Integer = 0

@@ -5,9 +5,9 @@ Imports OfficeOpenXml.Style
 Imports System.Text.RegularExpressions
 
 Public Class user_dashboard
-    Dim conn As New MySqlConnection("server=172.30.206.128;port=3306;username=dswd;password=sweapdswd;database=sweap")
+    '
+    Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap")
     Dim dr As MySqlDataReader
-
     Dim sourceFilePath As String
     Dim getExtension As String
     Dim locateProject As String = My.Application.Info.DirectoryPath
@@ -15,7 +15,6 @@ Public Class user_dashboard
     Dim location As String = locateProject.Substring(0, indext)
     Dim destinationPath As String = location & "\Resources\user_profile"
     Dim destinationIconPath As String = location & "\Resources\"
-
     Dim dashPath As String = "dashboard (3).png"
     Dim profPath As String = "man.png"
     Dim benefPath As String = "beneficiary (2).png"
@@ -326,18 +325,19 @@ Public Class user_dashboard
     'EXPORT TO EXCEL BUTTON--------------------------
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles btnExport.Click
         Try
-            conn.Open()
-            Dim cmd As New MySqlCommand("SELECT * FROM users WHERE id=@id", conn)
-            cmd.Parameters.AddWithValue("@id", Form2.log_id)
-            dr = cmd.ExecuteReader
-            While dr.Read
-                Dim documentsPath As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
-                Dim filePath As String = Path.Combine(documentsPath, dr.GetString("first_name") & "_beneficiary.xlsx")
-                Dim fileName As String = dr.GetString("first_name") & "_beneficiary.xlsx"
-                If File.Exists(filePath) Then 'IF FILE EXIST-------
+            conn.Open() ' Opens a connection to the database.
+            Dim cmd As New MySqlCommand("SELECT * FROM users WHERE id=@id", conn) ' Creates a new MySqlCommand object to retrieve data from the "users" table where the id matches Form2.log_id.
+            cmd.Parameters.AddWithValue("@id", Form2.log_id) ' Passes the log_id from Form2 as a parameter to the query.
+            dr = cmd.ExecuteReader ' Executes the query and populates the DataReader object "dr" with the results.
+            While dr.Read ' While reading the results from the DataReader...
+                Dim documentsPath As String = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) ' Retrieves the path for the My Documents folder.
+                Dim filePath As String = Path.Combine(documentsPath, dr.GetString("first_name") & "_beneficiary.xlsx") ' Combines the My Documents folder path with the user's first name from the query results. This will be the location and name of the output Excel file.
+                Dim fileName As String = dr.GetString("first_name") & "_beneficiary.xlsx" ' The name of the output Excel file based on the user's first name from the query results.
+                If File.Exists(filePath) Then ' IF THE FILE ALREADY EXISTS -------
+                    ' If yes, displays an alert box indicating that the file already exists along with its location.
                     MessageBox.Show("The file already exists; this is the file location" & vbCrLf & filePath, "Information", MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 Else
-                    ExportToExcel(BeneficiariesDGV, filePath)
+                    ExportToExcel(BeneficiariesDGV, filePath) ' If the file doesn't exist yet, performs the export to Excel using the ExportToExcel function. Passes BeneficiariesDGV (DataGridView) and the path of the output file as arguments.
                     MessageBox.Show("Export completed. The file name is " & fileName, "Excel file", MessageBoxButtons.OK, MessageBoxIcon.Information)
                 End If
             End While
