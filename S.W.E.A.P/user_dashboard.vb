@@ -5,7 +5,7 @@ Imports OfficeOpenXml.Style
 Imports System.Text.RegularExpressions
 
 Public Class user_dashboard
-    Dim conn As New MySqlConnection("server=172.30.206.128;port=3306;username=dswdSweap;password=druguser;database=sweap")
+    Dim conn As New MySqlConnection("server=172.30.206.128;port=3306;username=dswd;password=sweapdswd;database=sweap")
     Dim dr As MySqlDataReader
 
     Dim sourceFilePath As String
@@ -34,6 +34,7 @@ Public Class user_dashboard
         Timer1.Start()
         Get_info()
         DG_Load()
+        Dashboard()
     End Sub
 
     'FETCHED SAVING, UNION DUES, AND CONTRIBUTIONS
@@ -286,10 +287,7 @@ Public Class user_dashboard
             Next
 
             Dim range As ExcelRange = worksheet.Cells(1, 1, BenefeciariesDGV.Rows.Count + 1, BenefeciariesDGV.Columns.Count)
-
             range.Style.Font.Bold = True
-
-
 
             'background color, font color, and border for header
             Dim headerRange As ExcelRange = worksheet.Cells(1, 1, 1, BenefeciariesDGV.Columns.Count)
@@ -312,8 +310,7 @@ Public Class user_dashboard
             worksheet.Column(2).Width = 42 ' Column B
             worksheet.Column(3).Width = 8 ' Column C
             worksheet.Column(4).Width = 18.57 ' Column D
-            'worksheet.Column(5).Width = 20 ' Column E
-            'worksheet.Column(6).Width = 24 ' Column F
+
             Dim fileInfo As New FileInfo(filePath)
             package.SaveAs(fileInfo)
         End Using
