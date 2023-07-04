@@ -87,7 +87,7 @@ Public Class Loan
     Public Sub validation(field, condition, msg)
         'USED FOR VALIDATIONS
         'parameters:
-        'field = get the input field to validate / condition
+        'field = get the input field  and its value to validate / condition = value that validates the field / msg = message if the validation fails
         If field <= condition Then
             error_msg(random) = msg & vbNewLine
             random = random + 1
