@@ -7,40 +7,88 @@ Imports System.Text.RegularExpressions
 Public Class user_dashboard
     '
     Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap")
-    Dim dr As MySqlDataReader
-    Dim sourceFilePath As String
-    Dim getExtension As String
-    Dim locateProject As String = My.Application.Info.DirectoryPath
-    Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
-    Dim location As String = locateProject.Substring(0, indext)
-    Dim destinationPath As String = location & "\Resources\user_profile"
-    Dim destinationIconPath As String = location & "\Resources\"
-    Dim dashPath As String = "dashboard (3).png"
-    Dim profPath As String = "man.png"
-    Dim benefPath As String = "beneficiary (2).png"
-    Dim settingPath As String = "settings.png"
-    Dim Home As String = "house (1).png"
+    ' MySqlConnection is used to establish a connection to a MySQL database.
 
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick '--------------------TIME
+    Dim dr As MySqlDataReader
+    ' MySqlDataReader is used to retrieve data from a MySQL database.
+
+    Dim sourceFilePath As String
+    ' This variable is used to store the path of a source file.
+
+    Dim getExtension As String
+    ' This variable is used to store the file extension of a file.
+
+    Dim locateProject As String = My.Application.Info.DirectoryPath
+    ' My.Application.Info.DirectoryPath retrieves the directory path of the current application.
+
+    Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
+    ' IndexOf method is used to find the position of a specific string within another string.
+
+    Dim location As String = locateProject.Substring(0, indext)
+    ' Substring method is used to extract a portion of a string based on the specified start and end indexes.
+
+    Dim destinationPath As String = location & "\Resources\user_profile"
+    ' This variable is used to store the destination path for the user profile.
+
+    Dim destinationIconPath As String = location & "\Resources\"
+    ' This variable is used to store the destination path for icons.
+
+    Dim dashPath As String = "dashboard (3).png"
+    ' This variable stores the file name of the dashboard image.
+
+    Dim profPath As String = "man.png"
+    ' This variable stores the file name of the default profile image.
+
+    Dim benefPath As String = "beneficiary (2).png"
+    ' This variable stores the file name of the beneficiary image.
+
+    Dim settingPath As String = "settings.png"
+    ' This variable stores the file name of the settings image.
+
+    Dim Home As String = "house (1).png"
+    ' This variable stores the file name of the home image.
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        ' Timer1_Tick is an event handler that executes when the Timer1's interval has elapsed.
+
         Dim timezone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("singapore standard time")
+        ' TimeZoneInfo.FindSystemTimeZoneById is used to retrieve the time zone information for the specified time zone identifier.
+
         Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
+        ' TimeZoneInfo.ConvertTime is used to convert the current time to the specified time zone.
+
         Dim currentdate As DateTime = currenttime
+        ' This variable stores the current date and time.
+
         Dim remainer As Integer
+        ' This variable is not used in the provided code.
+
         lblTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
+        ' lblTime.Text is set to display the current time in the format: "hour : minute : second".
     End Sub
 
     Private Sub user_dashboard_load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ' user_dashboard_load is an event handler that executes when the form is loaded.
+
         Timer1.Start()
+        ' The Timer1 is started to initiate the Timer1_Tick event.
+
         Get_info()
+        ' A method or function named Get_info is called.
+
         DG_Load()
+        ' A method or function named DG_Load is called.
+
         Dashboard()
+        ' A method or function named Dashboard is called.
     End Sub
 
-    'FETCHED SAVING, UNION DUES, AND CONTRIBUTIONS
+
+    'FETCHED Balance, Contribution1, and Contribution2 of the user.
     Public Sub Dashboard()
         Try
             conn.Open()  ' Opens a connection to the database.
-            Dim cmd As New MySqlCommand("SELECT users.*, SUM(contributions.union_dues) as union_d, SUM(contributions.bereavement) as bereav FROM users 
+            Dim cmd As New MySqlCommand("SELECT users.*, SUM(contributions.contribution1) as contribute1, SUM(contributions.contribution2) as contribute2 FROM users 
                                 LEFT JOIN contributions on users.id = contributions.user_id 
                                 WHERE users.id = @id", conn)  ' Creates a new MySqlCommand object to retrieve data from the "users" table and calculate the sum of union dues and bereavement contributions using a LEFT JOIN with the "contributions" table. The query filters the results based on the user's id (Form2.log_id).
             cmd.Parameters.AddWithValue("@id", Form2.log_id) ' Passes the log_id from Form2 as a parameter to the query.
@@ -52,16 +100,16 @@ Public Class user_dashboard
                     txtSaving.Text = 0 ' If the "balance" column is null, sets the text of txtSaving TextBox to 0.
                 End If
 
-                If Not dr.IsDBNull(dr.GetOrdinal("union_d")) Then ' Checks if the "union_d" column is not null for the current row.
-                    txtUdues.Text = dr.GetString("union_d") ' Sets the text of txtUdues TextBox to the value of the "union_d" column.
+                If Not dr.IsDBNull(dr.GetOrdinal("contribute1")) Then ' Checks if the "contribution1" column is not null for the current row.
+                    txtContribution1.Text = dr.GetString("contribute1") ' Sets the text of txtContribution1 TextBox to the value of the "contribution1" column.
                 Else
-                    txtUdues.Text = 0 ' If the "union_d" column is null, sets the text of txtUdues TextBox to 0.
+                    txtContribution1.Text = 0 ' If the "contribution1" column is null, sets the text of txtContribution1 TextBox to 0.
                 End If
 
-                If Not dr.IsDBNull(dr.GetOrdinal("bereav")) Then ' Checks if the "bereav" column is not null for the current row.
-                    txtBreavement.Text = dr.GetString("bereav") ' Sets the text of txtBreavement TextBox to the value of the "bereav" column.
+                If Not dr.IsDBNull(dr.GetOrdinal("contribute2")) Then ' Checks if the "contribution2" column is not null for the current row.
+                    txtContribution2.Text = dr.GetString("contribute2") ' Sets the text of txtContribution2 TextBox to the value of the "contribution2" column.
                 Else
-                    txtBreavement.Text = 0 ' If the "bereav" column is null, sets the text of txtBreavement TextBox to 0.
+                    txtContribution2.Text = 0 ' If the "contribution2" column is null, sets the text of txtContribution2 TextBox to 0.
                 End If
             End While
         Catch ex As Exception
