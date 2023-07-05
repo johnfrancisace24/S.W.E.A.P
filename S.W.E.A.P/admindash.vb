@@ -27,7 +27,6 @@ Public Class admindash
         viewMembersFundTransfer("Select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, committee, 
                                             balance from users left join user_info On users.id = user_info.user_id")
         countmember()
-        liveTimer.Start()
 
         If Guna2TabControl1.SelectedTab Is tabEmployee Then
             pnlEmployee.Visible = True ' Show the employeepanel
@@ -55,6 +54,23 @@ Public Class admindash
             conn.Close()
         End Try
 
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select sum(contribution1) as contri1, sum(contribution2) as contri2, sum(contribution3) as contri3,
+                                        sum(contribution4) as contri4, sum(contribution5) as contri5 from contributions", conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                lblContri1Total.Text = rid.Item("contri1")
+                lblContri2Total.Text = rid.Item("contri2")
+                lblContri3Total.Text = rid.Item("contri3")
+                lblContri4Total.Text = rid.Item("contri4")
+                lblContri5Total.Text = rid.Item("contri5")
+            End While
+        Catch ex As Exception
+            MsgBox("contribution dashboard doesn't work.")
+        Finally
+            conn.Close()
+        End Try
     End Sub
 
     Private Sub Guna2Tabcontrol1_Click(sender As Object, e As EventArgs) Handles Guna2TabControl1.Click
@@ -492,35 +508,7 @@ Public Class admindash
         Me.Close()
     End Sub
 
-    Private Sub liveTimer_Tick(sender As Object, e As EventArgs) Handles liveTimer.Tick '--------------------TIMER
-
-        Dim timezone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("singapore standard time")
-        Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
-        Dim currentdate As DateTime = currenttime
-        Dim remainer As Integer
-        lblDateTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
-        lblTime.Text = "AS OF " & currentdate.Date
-
-        Try
-            conn.Open()
-            Dim cmd As New MySqlCommand("select sum(contribution1) as contri1, sum(contribution2) as contri2, sum(contribution3) as contri3,
-                                        sum(contribution4) as contri4, sum(contribution5) as contri5 from contributions", conn)
-            rid = cmd.ExecuteReader
-            While rid.Read
-                lblContri1Total.Text = rid.Item("contri1")
-                lblContri2Total.Text = rid.Item("contri2")
-                lblContri3Total.Text = rid.Item("contri3")
-                lblContri4Total.Text = rid.Item("contri4")
-                lblContri5Total.Text = rid.Item("contri5")
-            End While
-        Catch ex As Exception
-            MsgBox("contribution dashboard doesn't work.")
-        Finally
-            conn.Close()
-        End Try
-    End Sub
-
-    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
+    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click, btnViewContributions.Click
         Guna2TabControl1.SelectedTab = tabEmployee
     End Sub
 
