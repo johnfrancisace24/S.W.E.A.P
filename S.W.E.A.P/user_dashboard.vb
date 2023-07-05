@@ -196,10 +196,10 @@ Public Class user_dashboard
 
                 If File.Exists(imagepathResources) Then ' If the image file exists at the specified path...
                     userProfile.Image = Image.FromFile(imagepathResources) ' Sets the image of the userProfile PictureBox to the image located at the imagepathResources.
-                    user_Profile.Image = Image.FromFile(imagepathResources) ' Sets the image of the user_Profile PictureBox to the image located at the imagepathResources.
+                    user_Profile.BackgroundImage = Image.FromFile(imagepathResources) ' Sets the image of the user_Profile PictureBox to the image located at the imagepathResources.
                 Else ' If the image file does not exist...
                     userProfile.Image = Nothing ' Clears the image of the userProfile PictureBox.
-                    user_Profile.Image = Nothing ' Clears the image of the user_Profile PictureBox.
+                    user_Profile.BackgroundImage = Nothing ' Clears the image of the user_Profile PictureBox.
                 End If
 
                 ' Determines the appropriate greeting based on the selected value of cmboSex ComboBox.
@@ -274,11 +274,46 @@ Public Class user_dashboard
 
     'UPDATE FUNCTION---------------------------------------------
     Public Sub Update()
+        Dim locateProject As String = My.Application.Info.DirectoryPath
+        Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
+        Dim location As String = locateProject.Substring(0, indext)
+        Dim opf As New OpenFileDialog
+
         Try
             conn.Open() ' Opens a connection to the database.
+
+            ' Retrieve Image Filename
+
+            Dim imageFilename As String = String.Empty
+            Dim selectCmd As New MySqlCommand("SELECT image FROM users WHERE id = @ID", conn)
+            selectCmd.Parameters.AddWithValue("@ID", Form2.log_id)
+
+            Dim reader As MySqlDataReader = selectCmd.ExecuteReader()
+
+            If reader.Read() Then
+                imageFilename = reader.GetString("image")
+            End If
+
+            reader.Close()
+
+            System.Threading.Thread.Sleep(500)
+            ' Delete Existing Image
+            Dim imageFilepath As String = Path.Combine(location & "Resources\user_profile" & imageFilename)
+            If File.Exists(imageFilepath) Then
+                File.Delete(imageFilepath)
+
+                MsgBox("Image Deleted: " & imageFilepath)
+            End If
+
+            ' Upload New Image
+            Dim newImageFilename As String = "\" & txtbxusername.Text & getExtension
+            Dim newImageFilepath As String = Path.Combine(location & "Resources\user_profile" & newImageFilename)
+            ' Here you need to provide the logic to upload the new image to the newImageFilepath
+
+            ' Update Database with New Image
             Dim cmd As New MySqlCommand("UPDATE users " &
                                         "INNER JOIN user_info ON users.id = user_info.user_id " &
-                                        "SET users.username = @username, users.password = @password, users.first_name = @first, users.middle_name = @mid, users.last_name = @last, users.position = @pos, users.sex = @sex, user_info.address = @adds, user_info.contact = @contact, user_info.email = @email, user_info.educational = @educ, user_info.birthdate = @birthdate, user_info.office = @office, user_info.employment_status = @employ, user_info.committee = @comm " &
+                                        "SET users.username = @username, users.password = @password, users.first_name = @first, users.middle_name = @mid, users.last_name = @last, users.position = @pos, users.image = @img, users.sex = @sex, user_info.address = @adds, user_info.contact = @contact, user_info.email = @email, user_info.educational = @educ, user_info.birthdate = @birthdate, user_info.office = @office, user_info.employment_status = @employ, user_info.committee = @comm " &
                                         "WHERE users.id = @ID", conn)
             cmd.Parameters.Clear()
             cmd.Parameters.AddWithValue("@ID", Form2.log_id)
@@ -288,6 +323,7 @@ Public Class user_dashboard
             cmd.Parameters.AddWithValue("@mid", txtbxmname.Text)
             cmd.Parameters.AddWithValue("@last", txtbxlname.Text)
             cmd.Parameters.AddWithValue("@pos", cmbxposition.Text)
+            cmd.Parameters.AddWithValue("@img", newImageFilename)
 
             cmd.Parameters.AddWithValue("@adds", txtbxadds.Text)
             cmd.Parameters.AddWithValue("@sex", cmboSex.SelectedItem)
@@ -301,12 +337,14 @@ Public Class user_dashboard
 
             cmd.ExecuteNonQuery()
             MessageBox.Show("Updated successfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            signups.ClearAllTextboxes(Me) 'clear all textboxes
+            signups.ClearAllTextboxes(Me) ' Clear all textboxes
+
         Catch ex As Exception
             MsgBox("Error: " & ex.Message)
         Finally
             conn.Close() ' Closes the connection to the database.
         End Try
+
     End Sub
 
     Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
@@ -449,4 +487,16 @@ Public Class user_dashboard
         End If
     End Sub
 
+    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
+
+        Dim opf As New OpenFileDialog
+
+        opf.Filter = "Choose Image(*.jpg; *.png; *.gif) | * .jpg; *.png; *.gif"
+        If opf.ShowDialog = DialogResult.OK Then
+            sourceFilePath = System.IO.Path.GetFullPath(opf.FileName)
+            MsgBox(sourceFilePath)
+            user_Profile.BackgroundImage = Image.FromFile(sourceFilePath)
+            getExtension = System.IO.Path.GetExtension(opf.FileName)
+        End If
+    End Sub
 End Class
