@@ -388,6 +388,7 @@ Public Class Loan
                 updatedDay = rid.GetInt32("day")
             End While
         Catch ex As Exception
+            MessageBox.Show("Fetching updated date from the database doesn't work", "Response")
         Finally
             conn.Close()
         End Try
@@ -485,7 +486,7 @@ Public Class Loan
             End Try
         End If
         If e.ColumnIndex = 8 AndAlso e.RowIndex >= 0 Then '----------------TO PAID
-            Dim result As DialogResult = MessageBox.Show("Is this loan paid already?" & vbNewLine & "Warning: You cannot change it back.", "Confirmation", MessageBoxButtons.YesNo)
+            Dim result As DialogResult = MessageBox.Show("Is this loan paid already?" & vbNewLine & "Warning: You cannot change it back.", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning)
             If result = DialogResult.Yes Then
                 idSelect = dgLoans.CurrentRow.Cells(0).Value.ToString()
                 Try
@@ -808,51 +809,63 @@ Public Class Loan
         If pickContriOffice.SelectedItem = "All Members" Then
             contriGrid(query)
         Else
+            ' Clear the rows in dgContribution and dgContriTotal
             dgContribution.Rows.Clear()
+            dgContriTotal.Rows.Clear()
+
             Try
                 conn.Open()
-                Dim cmd As New MySqlCommand("select contributions.user_id, office, concat(users.first_name, ' ', users.middle_name, ' ', users.last_name) as full_name, users.position, sum(contribution1) as membership,
-                    sum(contribution2) as union_due, sum(contribution3) as bereavement, sum(contribution4) as con4, sum(contribution5) as con5, contributions.updated_at from contributions left join users
-                    on contributions.user_id = users.id left join user_info on contributions.user_id = user_info.user_id  where office = @OFFICE
-                    group by contributions.user_id", conn)
-                cmd.Parameters.AddWithValue("@OFFICE", pickContriOffice.SelectedItem)
-                rid = cmd.ExecuteReader
+
+                ' Retrieve contribution details for selected office from contributions table
+                Dim contributionCmd As New MySqlCommand("SELECT contributions.user_id, office, CONCAT(users.first_name, ' ', users.middle_name, ' ', users.last_name) AS full_name, users.position, SUM(contribution1) AS membership, 
+                                                            SUM(contribution2) AS union_due, SUM(contribution3) AS bereavement, SUM(contribution4) AS con4, SUM(contribution5) AS con5, contributions.updated_at 
+                                                            FROM contributions 
+                                                            LEFT JOIN users ON contributions.user_id = users.id 
+                                                            LEFT JOIN user_info ON contributions.user_id = user_info.user_id  
+                                                            WHERE office = @OFFICE 
+                                                            GROUP BY contributions.user_id", conn)
+                contributionCmd.Parameters.AddWithValue("@OFFICE", pickContriOffice.SelectedItem)
+                rid = contributionCmd.ExecuteReader
+
+                ' Populate dgContribution with retrieved contribution data
                 While rid.Read
                     dgContribution.Rows.Add(rid.Item("user_id"), rid.Item("full_name"), rid.Item("position"), rid.Item("membership"), rid.Item("union_due"), rid.Item("bereavement"), rid.Item("con4"), rid.Item("con5"), rid.Item("updated_at"))
                 End While
-            Catch ex As Exception
-                '  btnExtractContri.Enabled = False
-            Finally
-                conn.Close()
-            End Try
-            dgContriTotal.Rows.Clear()
-            Try
-                conn.Open()
-                Dim cmd As New MySqlCommand("select office, sum(contribution1) as contri1, sum(contribution2) as contri2, sum(contribution3) as contri3, sum(contribution4) as contri4, sum(contribution5) as contri5 from contributions left join user_info on contributions.user_id = user_info.user_id
-                                            where office = @OFFICE", conn)
-                cmd.Parameters.AddWithValue("@OFFICE", pickContriOffice.SelectedItem)
-                rid = cmd.ExecuteReader
+
+                ' Retrieve total contribution amounts for selected office from contributions table
+                Dim totalContributionCmd As New MySqlCommand("SELECT office, SUM(contribution1) AS contri1, SUM(contribution2) AS contri2, SUM(contribution3) AS contri3, SUM(contribution4) AS contri4, SUM(contribution5) AS contri5 
+                                                                FROM contributions 
+                                                                LEFT JOIN user_info ON contributions.user_id = user_info.user_id 
+                                                                WHERE office = @OFFICE", conn)
+                totalContributionCmd.Parameters.AddWithValue("@OFFICE", pickContriOffice.SelectedItem)
+                rid = totalContributionCmd.ExecuteReader
+
+                ' Populate dgContriTotal with retrieved total contribution amounts
                 While rid.Read
                     dgContriTotal.Rows.Add(rid.Item("contri1"), rid.Item("contri2"), rid.Item("contri3"), rid.Item("contri4"), rid.Item("contri5"))
                 End While
+
             Catch ex As Exception
+                ' Handle any exceptions that occur during database operations
             Finally
                 conn.Close()
             End Try
         End If
 
+
     End Sub
 
     Private Sub btnExtractContri_Click(sender As Object, e As EventArgs) Handles btnExtractContri.Click
-
         Dim filePath As String
         ExcelPackage.LicenseContext = LicenseContext.NonCommercial
 
+        ' Create a new Excel package
         Using package As New ExcelPackage()
             Dim workbook As ExcelWorkbook = package.Workbook
             Dim worksheet As ExcelWorksheet = workbook.Worksheets.Add("Sheet1")
             Dim counter As Integer = 13
 
+            ' Set cell values for headers and data in the worksheet
             worksheet.Cells("A2").Value = "OFFICE"
             worksheet.Cells("A3").Value = "TOTAL CONTRIBUTIONS"
             worksheet.Cells("A5").Value = dgContriTotal.Columns(0).HeaderText
@@ -876,6 +889,7 @@ Public Class Loan
             worksheet.Cells("F12").Value = dgContribution.Columns(5).HeaderText
             worksheet.Cells("G12").Value = dgContribution.Columns(6).HeaderText
 
+            ' Iterate over each row in the DataGridView and populate the worksheet cells
             For Each row As DataGridViewRow In dgContribution.Rows
                 worksheet.Cells("A" & counter).Value = row.Cells(0).Value
                 worksheet.Cells("B" & counter).Value = row.Cells(1).Value
@@ -887,12 +901,14 @@ Public Class Loan
                 counter = counter + 1
             Next
 
+            ' Specify the file path to save the Excel file
             Dim locateProject As String = My.Application.Info.DirectoryPath
             Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
             Dim location As String = locateProject.Substring(0, indext)
 
             filePath = location & "\Resources\Exported_file\" & pickContriOffice.SelectedItem & "_Contribution.xlsx"
 
+            ' Check if the file already exists, if so, add a random number to the file name
             If IsFileExists(filePath) Then
                 Dim random As New Random()
                 Dim randomNum As Integer = random.Next(1, 501)
@@ -907,6 +923,7 @@ Public Class Loan
     End Sub
 
     Public Sub contriTrigger(upDate, currentDate, period)
+        ' This method triggers contribution updates if the given date has changed
         Dim remainder As Integer
         If upDate <> currentDate Then
             remainder = currentDate - upDate
@@ -920,11 +937,16 @@ Public Class Loan
     End Sub
 
     Private Sub btnUpToDateContri_Click(sender As Object, e As EventArgs) Handles btnUpToDateContri.Click
+
+        ' Retrieve contribution data and perform updates
         pickContriOffice.SelectedIndex = 0
         contriGrid(query)
+
         Dim currentdate As DateTime
         Dim currentweek As Integer
+
         Try
+            ' Get the current internet time from an NTP server
             Dim ntpServer As String = "pool.ntp.org"
             Dim ntpPort As Integer = 123
 
@@ -959,16 +981,19 @@ Public Class Loan
         Catch ex As Exception
             MessageBox.Show("An error occurred while getting the internet time: " & ex.Message)
         End Try
-        MsgBox(currentdate.Month & " " & currentdate.Year & " " & currentweek & " " & currentdate.Day & vbNewLine & updatedMonth & " " & updatedYear & " " & updatedWeek & " " & updatedDay)
+
+        ' Trigger the contribution updates based on current date and time
         contriTrigger(updatedMonth, currentdate.Month, "Monthly")
         contriTrigger(updatedYear, currentdate.Year, "Annually")
         contriTrigger(updatedWeek, currentweek, "Weekly")
         contriTrigger(updatedDay, currentdate.Day, "Daily")
 
+        ' Update the updatedMonth, updatedYear, updatedWeek, and updatedDay variables
         updatedMonth = currentdate.Month
         updatedYear = currentdate.Year
         updatedWeek = currentweek
         updatedDay = currentdate.Day
+
         MessageBox.Show("RECORD WAS UPDATED TO " & vbNewLine & currentdate, "Response")
     End Sub
     '----------------------------------------------END OF CONTRIBUTIONS-----------------------------------------------------------

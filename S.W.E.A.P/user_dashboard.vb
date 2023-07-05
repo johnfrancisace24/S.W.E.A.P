@@ -278,43 +278,16 @@ Public Class user_dashboard
         Dim locateProject As String = My.Application.Info.DirectoryPath
         Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
         Dim location As String = locateProject.Substring(0, indext)
-        Dim opf As New OpenFileDialog
+        Dim imageInput As String
+
+        Dim random As New Random()
+        Dim randomNum As Integer = random.Next(1, 501)
+        Dim destinationPath As String = location & "\Resources\user_profile\" & txtbxusername.Text & randomNum & getExtension
+        File.Copy(sourceFilePath, destinationPath, 0)
+        imageInput = "\" & txtbxusername.Text & randomNum & getExtension
 
         Try
             conn.Open() ' Opens a connection to the database.
-
-            ' Retrieve Image Filename
-
-            Dim imageFilename As String = String.Empty
-            Dim selectCmd As New MySqlCommand("SELECT image FROM users WHERE id = @ID", conn)
-            selectCmd.Parameters.AddWithValue("@ID", Form2.log_id)
-
-            Dim reader As MySqlDataReader = selectCmd.ExecuteReader()
-
-            If reader.Read() Then
-                imageFilename = reader.GetString("image")
-            End If
-
-            reader.Close()
-
-            System.Threading.Thread.Sleep(500)
-            ' Delete Existing Image
-            Dim imageFilepath As String = Path.Combine(location & "Resources\user_profile" & imageFilename)
-            If File.Exists(imageFilepath) Then
-                Try
-                    FileSystem.DeleteFile(imageFilepath, UIOption.OnlyErrorDialogs, RecycleOption.DeletePermanently)
-                    MsgBox("Image Deleted: " & imageFilepath)
-                Catch ex As Exception
-                    MsgBox("Error deleting the file: " & ex.Message)
-                End Try
-            End If
-
-            ' Upload New Image
-            Dim newImageFilename As String = "\" & txtbxusername.Text & getExtension
-            Dim newImageFilepath As String = Path.Combine(location & "Resources\user_profile" & newImageFilename)
-            ' Here you need to provide the logic to upload the new image to the newImageFilepath
-
-            ' Update Database with New Image
             Dim cmd As New MySqlCommand("UPDATE users " &
                                         "INNER JOIN user_info ON users.id = user_info.user_id " &
                                         "SET users.username = @username, users.password = @password, users.first_name = @first, users.middle_name = @mid, users.last_name = @last, users.position = @pos, users.image = @img, users.sex = @sex, user_info.address = @adds, user_info.contact = @contact, user_info.email = @email, user_info.educational = @educ, user_info.birthdate = @birthdate, user_info.office = @office, user_info.employment_status = @employ, user_info.committee = @comm " &
@@ -327,7 +300,7 @@ Public Class user_dashboard
             cmd.Parameters.AddWithValue("@mid", txtbxmname.Text)
             cmd.Parameters.AddWithValue("@last", txtbxlname.Text)
             cmd.Parameters.AddWithValue("@pos", cmbxposition.Text)
-            cmd.Parameters.AddWithValue("@img", newImageFilename)
+            cmd.Parameters.AddWithValue("@img", imageInput)
 
             cmd.Parameters.AddWithValue("@adds", txtbxadds.Text)
             cmd.Parameters.AddWithValue("@sex", cmboSex.SelectedItem)
