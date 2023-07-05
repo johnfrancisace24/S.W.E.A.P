@@ -3,6 +3,7 @@ Imports MySql.Data.MySqlClient
 Imports OfficeOpenXml
 Imports OfficeOpenXml.Style
 Imports System.Text.RegularExpressions
+Imports Microsoft.VisualBasic.FileIO
 
 Public Class user_dashboard
     '
@@ -300,9 +301,12 @@ Public Class user_dashboard
             ' Delete Existing Image
             Dim imageFilepath As String = Path.Combine(location & "Resources\user_profile" & imageFilename)
             If File.Exists(imageFilepath) Then
-                File.Delete(imageFilepath)
-
-                MsgBox("Image Deleted: " & imageFilepath)
+                Try
+                    FileSystem.DeleteFile(imageFilepath, UIOption.OnlyErrorDialogs, RecycleOption.DeletePermanently)
+                    MsgBox("Image Deleted: " & imageFilepath)
+                Catch ex As Exception
+                    MsgBox("Error deleting the file: " & ex.Message)
+                End Try
             End If
 
             ' Upload New Image
@@ -494,7 +498,6 @@ Public Class user_dashboard
         opf.Filter = "Choose Image(*.jpg; *.png; *.gif) | * .jpg; *.png; *.gif"
         If opf.ShowDialog = DialogResult.OK Then
             sourceFilePath = System.IO.Path.GetFullPath(opf.FileName)
-            MsgBox(sourceFilePath)
             user_Profile.BackgroundImage = Image.FromFile(sourceFilePath)
             getExtension = System.IO.Path.GetExtension(opf.FileName)
         End If
