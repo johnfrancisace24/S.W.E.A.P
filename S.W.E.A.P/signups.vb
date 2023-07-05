@@ -172,7 +172,7 @@ Public Class signups
                 imageInput = "\" & txtbxUser.Text & getExtension
             End If
 
-            '------------------------------------------------------------------------------------------
+            '---------------------------- Inserting all value in database--------------------------------------------------------------
             Try
                 conn.Open()
                 Dim cmd As New MySqlCommand("insert into users(username, password, first_name, middle_name, last_name, sex, position, image, is_admin, created_at, updated_at)values(@UNAME, @PW, @FNAME, @MNAME, @LNAME,@sex, @POS, @IMG, 0, now(), now());
@@ -264,35 +264,35 @@ Public Class signups
         End If
     End Sub
 
-    '' txt type number only
+    ' --------------- all textbox below can only type number   ----------------
     Private Sub txtContact_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtContact.KeyPress
         If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsDigit(e.KeyChar) Then
             e.Handled = True
         End If
     End Sub
 
-    Private Sub txtBA1_KeyPress(sender As Object, e As EventArgs)
+    Private Sub txtBA1_KeyPress(sender As Object, e As EventArgs) Handles txtBA1.KeyPress
         txtContact_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtBA2_KeyPress(sender As Object, e As EventArgs)
+    Private Sub txtBA2_KeyPress(sender As Object, e As EventArgs) Handles txtBA2.KeyPress
         txtContact_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtBA3_KeyPress(sender As Object, e As EventArgs)
+    Private Sub txtBA3_KeyPress(sender As Object, e As EventArgs) Handles txtBA3.KeyPress
         txtContact_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtBA4_KeyPress(sender As Object, e As EventArgs)
+    Private Sub txtBA4_KeyPress(sender As Object, e As EventArgs) Handles txtBA4.KeyPress
         txtContact_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtBA5_Keypress(sender As Object, e As EventArgs)
+    Private Sub txtBA5_Keypress(sender As Object, e As EventArgs) Handles txtBA5.KeyPress
         txtContact_KeyPress(sender, e)
     End Sub
 
 
-    ''Email validation
+    '-------------- this is for Email validation only read the "@" and "." in the fields -------------
     Private Function IsValidEmail(email As String) As Boolean
         Dim emailRegex As New Regex("^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$")
         Return emailRegex.IsMatch(email)
@@ -313,7 +313,7 @@ Public Class signups
 
 
 
-    '' KEY PRESS LANG TO PRE
+    '----------------- this fields can type text only -----------
     Private Shared Sub txtFname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtFname.KeyPress
         If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsLetter(e.KeyChar) AndAlso Not Char.IsWhiteSpace(e.KeyChar) AndAlso Not Char.IsPunctuation(e.KeyChar) Then
             e.Handled = True
@@ -332,45 +332,45 @@ Public Class signups
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBF2_KeyPress(sender As Object, e As EventArgs)
+    Private Sub txtbxBF2_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF2.KeyPress
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBF3_KeyPress(sender As Object, e As EventArgs)
+    Private Sub txtbxBF3_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF3.KeyPress
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBF4_KeyPress(sender As Object, e As EventArgs)
+    Private Sub txtbxBF4_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF4.KeyPress
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBF5_KeyPress(sender As Object, e As EventArgs)
+    Private Sub txtbxBF5_KeyPress(sender As Object, e As EventArgs) Handles txtbxBF5.KeyPress
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBR1_KeyPress(sender As Object, e As EventArgs)
+    Private Sub txtbxBR1_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR1.KeyPress
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBR2_KeyPress(sender As Object, e As EventArgs)
+    Private Sub txtbxBR2_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR2.KeyPress
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBR3_KeyPress(sender As Object, e As EventArgs)
+    Private Sub txtbxBR3_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR3.KeyPress
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBR4_KeyPress(sender As Object, e As EventArgs)
+    Private Sub txtbxBR4_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR4.KeyPress
         txtFname_KeyPress(sender, e)
     End Sub
 
-    Private Sub txtbxBR5_KeyPress(sender As Object, e As EventArgs)
+    Private Sub txtbxBR5_KeyPress(sender As Object, e As EventArgs) Handles txtbxBR5.KeyPress
         txtFname_KeyPress(sender, e)
     End Sub
 
 
 
-    '----backkkk-------------------------------'
+    '----this section is backkkk buttons -------------------------------'
     Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
         Form2.Show()
         Me.Hide()
@@ -384,4 +384,6 @@ Public Class signups
     Private Sub Guna2Button7_Click(sender As Object, e As EventArgs) Handles Guna2Button7.Click
         Guna2TabControl1.SelectedTab = TabPage2
     End Sub
+
+
 End Class
