@@ -17,6 +17,12 @@ Public Class admindash
     Dim currentBen As Integer
     Dim unionDue As Integer
     Dim countMembers As Integer
+
+    Dim sourceFilePath As String
+    ' This variable is used to store the path of a source file.
+
+    Dim getExtension As String
+    ' This variable is used to store the file extension of a file.
     Private Sub admindash_Load(sender As Object, e As EventArgs) Handles MyBase.Load '---------------AUTOLOAD
 
 
@@ -276,34 +282,57 @@ Public Class admindash
     End Sub
 
     Private Sub btnEditUpdate_Click(sender As Object, e As EventArgs) Handles btnEditUpdate.Click
+        'FOR UPDATE------------------------------------------------------------
         Dim adminValue As Integer
         If pickEditUserStat.SelectedIndex = 0 Then
             adminValue = 1
         Else
             adminValue = 0
         End If
+        Dim locateProject As String = My.Application.Info.DirectoryPath
+        Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
+        Dim location As String = locateProject.Substring(0, indext)
+        Dim imageInput As String
+
+        Dim random As New Random()
+        Dim randomNum As Integer = random.Next(1, 501)
+        Dim destinationPath As String = location & "\Resources\user_profile\" & txtEditUsername.Text & randomNum & getExtension
+        File.Copy(sourceFilePath, destinationPath, 0)
+        imageInput = "\" & txtEditUsername.Text & randomNum & getExtension
         Try
             conn.Open()
-            Dim cmd As New MySqlCommand("update users set username=@USER, password=@PW, first_name=@FNAME, middle_name=@MNAME, last_name=@LNAME, position=@POS,
-                                            is_admin=@ADMIN, updated_at=NOW() where id=@ID", conn)
+            Dim cmd As New MySqlCommand("UPDATE users SET username=@USER, password=@PW, first_name=@FNAME, middle_name=@MNAME, last_name=@LNAME, position=@POS, image=@IMG, is_admin=@ADMIN, updated_at=NOW() WHERE id=@ID;
+                             UPDATE user_info SET address=@ADDR, contact=@CONTCT, email=@EMAIL, educational=@EDUC, birthdate=@BDATE, office=@OFF, employment_status=@EMPLOYMENT,  committee=@COMM WHERE user_id=@ID;", conn)
+
             cmd.Parameters.AddWithValue("@USER", txtEditUsername.Text)
             cmd.Parameters.AddWithValue("@PW", txtEditPw.Text)
             cmd.Parameters.AddWithValue("@FNAME", txtEditFname.Text)
             cmd.Parameters.AddWithValue("@MNAME", txtEditMname.Text)
             cmd.Parameters.AddWithValue("@LNAME", txtEditLname.Text)
             cmd.Parameters.AddWithValue("@POS", pickEditPosition.SelectedItem)
+            cmd.Parameters.AddWithValue("@IMG", imageInput)
+
+            cmd.Parameters.AddWithValue("@ADDR", txtEditAddress.Text)
+            cmd.Parameters.AddWithValue("@CONTCT", txtEditNumber.Text)
+            cmd.Parameters.AddWithValue("@EMAIL", txtEditEmail.Text)
+            cmd.Parameters.AddWithValue("@EDUC", txtEditEducation.Text)
+            cmd.Parameters.AddWithValue("@BDATE", pickEditBdate.Value)
+
+            cmd.Parameters.AddWithValue("@OFF", pickEditOffice.SelectedItem)
+            cmd.Parameters.AddWithValue("@EMPLOYMENT", pickEditStatus.SelectedItem)
+            cmd.Parameters.AddWithValue("@COMM", pickEditComm.SelectedItem)
             cmd.Parameters.AddWithValue("@ADMIN", adminValue)
             cmd.Parameters.AddWithValue("@ID", selectedId)
             cmd.ExecuteNonQuery()
             MsgBox("successfully updated.")
-            pickOffice.SelectedIndex = 0
-            tabEditMember.Hide()
-            pnlEmployee.Show()
+
+            'Guna2TabControl1.SelectedTab = personal
         Catch ex As Exception
-            MsgBox("doesnt work update")
+            MsgBox("Error:" & ex.Message)
         Finally
             conn.Close()
         End Try
+
         viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
                                             email from users left join user_info on users.id = user_info.user_id")
     End Sub
@@ -626,5 +655,23 @@ user_info.user_id = contributions.user_id group by office", conn)
         End If
     End Sub
 
+    Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
+        ' Create a new instance of the OpenFileDialog class
+        Dim opf As New OpenFileDialog
 
+        ' Set the filter to restrict the file types that can be selected
+        opf.Filter = "Choose Image(*.jpg; *.png; *.gif) | * .jpg; *.png; *.gif"
+
+        ' Display the OpenFileDialog and check if the user clicked "OK"
+        If opf.ShowDialog = DialogResult.OK Then
+            ' Retrieve the full path of the selected file
+            sourceFilePath = System.IO.Path.GetFullPath(opf.FileName)
+
+            ' Set the BackgroundImage property of a control to the selected image
+            pBoxEditProfile.BackgroundImage = Image.FromFile(sourceFilePath)
+
+            ' Retrieve the file extension of the selected file
+            getExtension = System.IO.Path.GetExtension(opf.FileName)
+        End If
+    End Sub
 End Class
