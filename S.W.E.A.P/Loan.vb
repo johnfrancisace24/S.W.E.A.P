@@ -553,8 +553,8 @@ Public Class Loan
                 Finally
                     conn.Close()
                 End Try
+                dgLoans.Rows.Clear()
             End If
-            dgLoans.Rows.Clear()
         End If
     End Sub
 
@@ -928,6 +928,7 @@ Public Class Loan
                 package.SaveAs(New System.IO.FileInfo(filePath))
                 MessageBox.Show("File saved to " & filePath, "Response")
             End If
+
         End Using
     End Sub
 
@@ -991,7 +992,10 @@ Public Class Loan
             MessageBox.Show("An error occurred while getting the internet time: " & ex.Message)
         End Try
 
+<<<<<<< HEAD
         ' Trigger the contribution updates based on current date and time
+=======
+>>>>>>> dsad
         contriTrigger(updatedMonth, currentdate.Month, "Monthly")
         contriTrigger(updatedYear, currentdate.Year, "Annually")
         contriTrigger(updatedWeek, currentweek, "Weekly")
