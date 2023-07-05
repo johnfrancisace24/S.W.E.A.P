@@ -89,7 +89,7 @@ Public Class user_dashboard
     Public Sub Dashboard()
         Try
             conn.Open()  ' Opens a connection to the database.
-            Dim cmd As New MySqlCommand("SELECT users.*, SUM(contributions.contribution1) as contribute1, SUM(contributions.contribution2) as contribute2 FROM users 
+            Dim cmd As New MySqlCommand("SELECT * FROM users 
                                 LEFT JOIN contributions on users.id = contributions.user_id 
                                 WHERE users.id = @id", conn)  ' Creates a new MySqlCommand object to retrieve data from the "users" table and calculate the sum of union dues and bereavement contributions using a LEFT JOIN with the "contributions" table. The query filters the results based on the user's id (Form2.log_id).
             cmd.Parameters.AddWithValue("@id", Form2.log_id) ' Passes the log_id from Form2 as a parameter to the query.
@@ -101,16 +101,16 @@ Public Class user_dashboard
                     txtSaving.Text = 0 ' If the "balance" column is null, sets the text of txtSaving TextBox to 0.
                 End If
 
-                If Not dr.IsDBNull(dr.GetOrdinal("contribute1")) Then ' Checks if the "contribution1" column is not null for the current row.
-                    txtContribution1.Text = dr.GetString("contribute1") ' Sets the text of txtContribution1 TextBox to the value of the "contribution1" column.
+                If Not dr.IsDBNull(dr.GetOrdinal("contribution2")) Then ' Checks if the "contribution1" column is not null for the current row.
+                    txtContribution2.Text = dr.GetString("contribution2") ' Sets the text of txtContribution1 TextBox to the value of the "contribution1" column.
                 Else
-                    txtContribution1.Text = 0 ' If the "contribution1" column is null, sets the text of txtContribution1 TextBox to 0.
+                    txtContribution2.Text = 0 ' If the "contribution1" column is null, sets the text of txtContribution1 TextBox to 0.
                 End If
 
-                If Not dr.IsDBNull(dr.GetOrdinal("contribute2")) Then ' Checks if the "contribution2" column is not null for the current row.
-                    txtContribution2.Text = dr.GetString("contribute2") ' Sets the text of txtContribution2 TextBox to the value of the "contribution2" column.
+                If Not dr.IsDBNull(dr.GetOrdinal("contribution3")) Then ' Checks if the "contribution2" column is not null for the current row.
+                    txtContribution3.Text = dr.GetString("contribution3") ' Sets the text of txtContribution2 TextBox to the value of the "contribution2" column.
                 Else
-                    txtContribution2.Text = 0 ' If the "contribution2" column is null, sets the text of txtContribution2 TextBox to 0.
+                    txtContribution3.Text = 0 ' If the "contribution2" column is null, sets the text of txtContribution2 TextBox to 0.
                 End If
             End While
         Catch ex As Exception
