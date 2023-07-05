@@ -325,12 +325,14 @@ Public Class admindash
             cmd.Parameters.AddWithValue("@ID", selectedId)
             cmd.ExecuteNonQuery()
             MsgBox("successfully updated.")
-            tabEdit.SendToBack()
+
+            Guna2TabControl1.SelectedTab = personal
         Catch ex As Exception
             MsgBox("Error:" & ex.Message)
         Finally
             conn.Close()
         End Try
+        pnlEmployee.Show()
         viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
                                             email from users left join user_info on users.id = user_info.user_id")
     End Sub
