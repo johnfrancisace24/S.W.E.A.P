@@ -499,8 +499,8 @@ Public Class Loan
                 Finally
                     conn.Close()
                 End Try
+                dgLoans.Rows.Clear()
             End If
-            dgLoans.Rows.Clear()
         End If
     End Sub
 
@@ -903,6 +903,7 @@ Public Class Loan
                 package.SaveAs(New System.IO.FileInfo(filePath))
                 MessageBox.Show("File saved to " & filePath, "Response")
             End If
+
         End Using
     End Sub
 
@@ -959,7 +960,7 @@ Public Class Loan
         Catch ex As Exception
             MessageBox.Show("An error occurred while getting the internet time: " & ex.Message)
         End Try
-        MsgBox(currentdate.Month & " " & currentdate.Year & " " & currentweek & " " & currentdate.Day & vbNewLine & updatedMonth & " " & updatedYear & " " & updatedWeek & " " & updatedDay)
+
         contriTrigger(updatedMonth, currentdate.Month, "Monthly")
         contriTrigger(updatedYear, currentdate.Year, "Annually")
         contriTrigger(updatedWeek, currentweek, "Weekly")
