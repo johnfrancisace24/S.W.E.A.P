@@ -154,6 +154,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property contriimg() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("contriimg", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property curve() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("curve", resourceCulture)
@@ -507,6 +517,16 @@ Namespace My.Resources
         Friend ReadOnly Property sort_arrows_couple_pointing_up_and_down() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("sort-arrows-couple-pointing-up-and-down", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Team_Work_PNG_Clipart() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Team-Work-PNG-Clipart", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
