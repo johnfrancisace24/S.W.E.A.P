@@ -35,22 +35,6 @@ Public Class admindash
             tabEdit.Visible = False ' Hide the employeepanel
         End If
 
-        Try
-            conn.Open()
-            Dim counter As Integer
-            Dim cmd As New MySqlCommand("select * from contri_types", conn)
-            rid = cmd.ExecuteReader
-            While rid.Read
-                dgContributions.Columns(3 + counter).HeaderText = rid.Item("alias")
-                counter = counter + 1
-            End While
-        Catch ex As Exception
-            MsgBox("header doesnt work")
-        Finally
-            conn.Close()
-        End Try
-
-
 
         lblContri1.Text = dgContributions.Columns(3).HeaderText
         lblContri2.Text = dgContributions.Columns(4).HeaderText
@@ -359,35 +343,41 @@ Public Class admindash
             Dim location As String = locateProject.Substring(0, indext)
             Dim result As DialogResult = MessageBox.Show("Are you sure you want to delete" & dgMembers.CurrentRow.Cells(1).Value.ToString() & "?", "Confirmation", MessageBoxButtons.YesNo)
             If result = DialogResult.Yes Then
-                Dim selectedId As Integer = dgMembers.CurrentRow.Cells(0).Value.ToString()
+                Dim selectedId As Integer = Convert.ToInt32(dgMembers.CurrentRow.Cells(0).Value)
+
                 Try
                     conn.Open()
-                    Dim cmd As New MySqlCommand("delete from users where id=@ID;
-                                                    delete from user_info where user_id=@ID;
-                                                        delete from beneficiaries where user_id=@ID;
-                                                            delete from contributions where user_id=@ID", conn)
 
-                    cmd.Parameters.AddWithValue("@ID", selectedId)
-                    cmd.ExecuteNonQuery()
+                    ' Retrieve Image Filename
+                    Dim imageFilename As String = String.Empty
+                    Dim selectCmd As New MySqlCommand("SELECT image FROM users WHERE id = @ID", conn)
+                    selectCmd.Parameters.AddWithValue("@ID", selectedId)
+
+                    Dim reader As MySqlDataReader = selectCmd.ExecuteReader()
+                    If reader.Read() Then
+                        imageFilename = reader.GetString("image")
+                    End If
+                    reader.Close()
+
+                    ' Delete Database Records
+                    Dim deleteCmd As New MySqlCommand("DELETE FROM users WHERE id = @ID;
+                                            DELETE FROM user_info WHERE user_id = @ID;
+                                            DELETE FROM beneficiaries WHERE user_id = @ID;
+                                            DELETE FROM contributions WHERE user_id = @ID", conn)
+                    deleteCmd.Parameters.AddWithValue("@ID", selectedId)
+                    deleteCmd.ExecuteNonQuery()
 
                     ' File Deletion
-                    Dim imagePath As String = location & "\Resources\user_profile" & rid.GetString("image")
-
+                    Dim imagePath As String = Path.Combine(location & "Resources\user_profile" & imageFilename)
                     If File.Exists(imagePath) Then
                         File.Delete(imagePath)
                         MessageBox.Show("Deleted Successfully!")
-                        MsgBox(imagePath)
-                    Else
-                        MessageBox.Show("File not found!")
                     End If
-                    MsgBox(imagePath)
                 Catch ex As Exception
-
                     MsgBox(ex.Message)
                 Finally
                     conn.Close()
                 End Try
-
             End If
 
         End If
