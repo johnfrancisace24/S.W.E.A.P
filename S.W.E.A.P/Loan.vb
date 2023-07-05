@@ -889,6 +889,10 @@ Public Class Loan
     End Sub
 
     Private Sub btnUpToDateContri_Click(sender As Object, e As EventArgs) Handles btnUpToDateContri.Click
+        pickContriOffice.SelectedIndex = 1
+        contriGrid(query)
+        Dim currentdate As DateTime
+        Dim currentweek As Integer
         Try
             Dim ntpServer As String = "pool.ntp.org"
             Dim ntpPort As Integer = 123
@@ -918,12 +922,55 @@ Public Class Loan
             ' Convert to Singapore Standard Time
             Dim singaporeTimeZone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("Asia/Singapore")
             Dim singaporeDateTime As DateTime = TimeZoneInfo.ConvertTimeFromUtc(networkDateTime, singaporeTimeZone)
+            currentdate = singaporeDateTime
+            currentweek = currentdate.DayOfYear / 7
             MsgBox(singaporeDateTime.DayOfWeek)
             MessageBox.Show("Internet Time (Singapore Standard Time): " & singaporeDateTime.ToString("yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture))
         Catch ex As Exception
             MessageBox.Show("An error occurred while getting the internet time: " & ex.Message)
         End Try
 
+
+        If updatedMonth <> currentdate.Month Then
+            For Each contribution As class_contribution In contributions
+                If contribution.period = "Monthly" Then
+                    contribution.insertion()
+                End If
+            Next
+            contriGrid(query)
+        End If
+
+        If updatedYear <> currentdate.Year Then
+            For Each contribution As class_contribution In contributions
+                If contribution.period = "Annually" Then
+                    contribution.insertion()
+                End If
+            Next
+            contriGrid(query)
+        End If
+
+        If updatedWeek <> currentweek Then
+            For Each contribution As class_contribution In contributions
+                If contribution.period = "Weekly" Then
+                    contribution.insertion()
+                End If
+            Next
+            contriGrid(query)
+        End If
+
+        If updatedDay <> currentdate.Day Then
+            For Each contribution As class_contribution In contributions
+                If contribution.period = "Daily" Then
+                    contribution.insertion()
+                End If
+            Next
+            contriGrid(query)
+        End If
+
+        updatedMonth = currentdate.Month
+        updatedYear = currentdate.Year
+        updatedWeek = currentweek
+        updatedDay = currentdate.Day
     End Sub
     '----------------------------------------------END OF CONTRIBUTIONS-----------------------------------------------------------
 
