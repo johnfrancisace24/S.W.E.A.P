@@ -218,13 +218,18 @@ Public Class signups
             If txtbxBF5.Text <> "" Then
                 add_benefi(txtbxUser.Text, txtbxBF5.Text, txtbxBR5.Text, txtBA5.Text)
             End If
+            TabPage2.Enabled = False
+            TabPage3.Enabled = False
+            TabPage3.Enabled = False
+            TabPage4.Enabled = False
+
             comboOffice.SelectedIndex = -1
             comboCommit.SelectedIndex = -1
             comboEmployStat.SelectedIndex = -1
             comboPos.SelectedIndex = -1
-            pBoxProfile.Image = Image.FromFile(location & "\Resources\profile (3).png")
-            pBoxProfile.BackgroundImage = Nothing
-            pBoxProfile.SizeMode = PictureBoxSizeMode.StretchImage
+            pBoxProfile.BackgroundImage = Image.FromFile(location & "\Resources\profile (3).png")
+            pBoxProfile.BackgroundImageLayout = ImageLayout.Stretch
+            Guna2TabControl1.SelectedTab = TabPage1
             Form2.Visible = True
             Me.Visible = False
             ClearAllTextboxes(Me)

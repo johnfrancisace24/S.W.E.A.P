@@ -352,6 +352,9 @@ Public Class admindash
                 conn.Close()
             End Try
         ElseIf e.ColumnIndex = 7 AndAlso e.RowIndex >= 0 Then '-------------FOR DELETE
+            Dim locateProject As String = My.Application.Info.DirectoryPath
+            Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
+            Dim location As String = locateProject.Substring(0, indext)
             Dim result As DialogResult = MessageBox.Show("Are you sure you want to delete" & dgMembers.CurrentRow.Cells(1).Value.ToString() & "?", "Confirmation", MessageBoxButtons.YesNo)
             If result = DialogResult.Yes Then
                 Dim selectedId As Integer = dgMembers.CurrentRow.Cells(0).Value.ToString()
@@ -360,13 +363,28 @@ Public Class admindash
                     Dim cmd As New MySqlCommand("delete from users where id=@ID;
                                                     delete from user_info where user_id=@ID;
                                                         delete from beneficiaries where user_id=@ID", conn)
+
                     cmd.Parameters.AddWithValue("@ID", selectedId)
                     cmd.ExecuteNonQuery()
+
+                    ' File Deletion
+                    Dim imagePath As String = location & "\Resources\user_profile\" & rid.GetString("image")
+
+                    If File.Exists(imagePath) Then
+                        File.Delete(imagePath)
+                        MessageBox.Show("Deleted Successfully!")
+                        MsgBox(imagePath)
+                    Else
+                        MessageBox.Show("File not found!")
+                    End If
+                    MsgBox(imagePath)
                 Catch ex As Exception
+
+                    MsgBox(ex.Message)
                 Finally
                     conn.Close()
                 End Try
-                MessageBox.Show("Deleted Successfully!")
+
             End If
 
         End If
