@@ -3,6 +3,7 @@ Imports MySql.Data.MySqlClient
 Imports OfficeOpenXml
 Imports OfficeOpenXml.Style
 Imports System.Text.RegularExpressions
+Imports Microsoft.VisualBasic.FileIO
 
 Public Class user_dashboard
     '
@@ -300,9 +301,12 @@ Public Class user_dashboard
             ' Delete Existing Image
             Dim imageFilepath As String = Path.Combine(location & "Resources\user_profile" & imageFilename)
             If File.Exists(imageFilepath) Then
-                File.Delete(imageFilepath)
-
-                MsgBox("Image Deleted: " & imageFilepath)
+                Try
+                    FileSystem.DeleteFile(imageFilepath, UIOption.OnlyErrorDialogs, RecycleOption.DeletePermanently)
+                    MsgBox("Image Deleted: " & imageFilepath)
+                Catch ex As Exception
+                    MsgBox("Error deleting the file: " & ex.Message)
+                End Try
             End If
 
             ' Upload New Image
@@ -338,6 +342,13 @@ Public Class user_dashboard
             cmd.ExecuteNonQuery()
             MessageBox.Show("Updated successfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
             signups.ClearAllTextboxes(Me) ' Clear all textboxes
+
+            'Mawawala ang lahat ng text sa combo box
+            cmboSex.SelectedItem = -1
+            cmbxoffice.SelectedItem = -1
+            cmbxemployment.SelectedItem = -1
+            cmbxposition.SelectedItem = -1
+            cmbxcomm.SelectedItem = -1
 
         Catch ex As Exception
             MsgBox("Error: " & ex.Message)
@@ -472,31 +483,51 @@ Public Class user_dashboard
 
     ''Email Edit Validation
     Private Function IsValidEmail(email As String) As Boolean
+        ' Create a regular expression pattern to validate email addresses
         Dim emailRegex As New Regex("^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$")
+
+        ' Check if the email matches the regular expression pattern
         Return emailRegex.IsMatch(email)
     End Function
 
     Private Sub txtEmail_Validating(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles txtbxemail.Validating
+        ' Get the trimmed input email from the textbox
         Dim inputEmail As String = txtbxemail.Text.Trim()
+
+        ' Check if the textbox is empty
         If txtbxemail.Text = "" Then
             txtbxemail.Text = txtbxemail.Text
+        Else
+            ' Check if the input email is a valid email address using the IsValidEmail function
+            If Not IsValidEmail(inputEmail) Then
+                ' Show a message box indicating an invalid email address
+                MessageBox.Show("Invalid email address." & vbCrLf & "Please enter a valid email address.", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Hand)
 
-        ElseIf Not IsValidEmail(inputEmail) Then
-            MessageBox.Show("Invalid email address." & vbCrLf & "Please enter a valid email address.", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Hand)
-            e.Cancel = True
+                ' Cancel the event to prevent losing focus from the textbox
+                e.Cancel = True
+            End If
         End If
     End Sub
 
-    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
 
+    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
+        ' Create a new instance of the OpenFileDialog class
         Dim opf As New OpenFileDialog
 
+        ' Set the filter to restrict the file types that can be selected
         opf.Filter = "Choose Image(*.jpg; *.png; *.gif) | * .jpg; *.png; *.gif"
+
+        ' Display the OpenFileDialog and check if the user clicked "OK"
         If opf.ShowDialog = DialogResult.OK Then
+            ' Retrieve the full path of the selected file
             sourceFilePath = System.IO.Path.GetFullPath(opf.FileName)
-            MsgBox(sourceFilePath)
+
+            ' Set the BackgroundImage property of a control to the selected image
             user_Profile.BackgroundImage = Image.FromFile(sourceFilePath)
+
+            ' Retrieve the file extension of the selected file
             getExtension = System.IO.Path.GetExtension(opf.FileName)
         End If
     End Sub
+
 End Class
