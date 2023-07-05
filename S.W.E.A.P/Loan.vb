@@ -13,6 +13,15 @@ Imports System.Text
 Imports System.Net
 Imports System.Globalization
 
+'NAMING CONVENTION:
+'btn = buttons
+'pick = comboboxes
+'txt = textboxes
+'num = numberfields
+'dg = datagrids
+'date = datetimefields
+
+
 Public Class Loan
     '-----------------------------------VARIABLE DECLARATION------------------------------------------
     Dim loanAmount As Decimal
@@ -146,15 +155,23 @@ Public Class Loan
     End Sub
 
     Public Sub reset_contributions() '---------------------TO RESET OF CONTRIBUTIONS CLASS
+        ' Clear the contributions array
         Array.Clear(contributions, 0, contributions.Length)
+
         Try
             conn.Open()
+            ' Fetch contribution types from the database
             Dim cmd As New MySqlCommand("select * from contri_types", conn)
             Dim counter As Integer = 0
             rid = cmd.ExecuteReader
             While rid.Read
+                ' Create a new instance of class_contribution and populate it with data from the database
                 contributions(counter) = New class_contribution(rid.Item("contribution_name"), rid.Item("periodity"), rid.Item("amount"))
+
+                ' Update the header text of the corresponding column in the DataGridView
                 dgContribution.Columns(3 + counter).HeaderText = rid.Item("alias")
+
+                ' Increment the counter for the next contribution type
                 counter = counter + 1
             End While
         Catch ex As Exception
@@ -162,6 +179,7 @@ Public Class Loan
         Finally
             conn.Close()
         End Try
+
     End Sub
 
     Public Sub contriEditFields(status)
@@ -199,6 +217,7 @@ Public Class Loan
                 counter = counter + 1
             End While
         Catch ex As Exception
+            MessageBox.Show("forHeader function doesn't work", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally
             conn.Close()
         End Try
@@ -211,54 +230,75 @@ Public Class Loan
         validation(numPyears.Value, 0, "Loan Period in years can't be less than or equal to 0.")
         validation(numPayYears.Value, 11, "Number of payment per year can't be less than 12.")
         If selectedId = 0 Then
+            ' Add an error message for blank lender name
             error_msg(random) = "Lender name can't be blank." & vbNewLine
             random = random + 1
             ReDim Preserve error_msg(random)
         End If
+
+        ' Concatenate all error messages into a single message
         While errChecker < error_msg.Length
             message = message & error_msg(errChecker)
             errChecker = errChecker + 1
         End While
 
         If message = "" Then
+            ' Clear the rows in dgSchedule
             dgSchedule.Rows.Clear()
+
+            ' Perform common process
             common_process()
+
+            ' Perform common calculation
             common_calculation()
+
             While beginningBalance >= 0
                 mathing()
+
                 If beginningBalance < scheduledPayment Or beginningBalance < totalPayment Then
                     extraPayment = 0
                     totalPayment = beginningBalance
                     principal = totalPayment - interest
                     endBalance = 0
                 End If
+
+                ' Add a new row to dgSchedule with calculated values
                 dgSchedule.Rows.Add(payment, selectedDate, "₱" & beginningBalance, "₱" & scheduledPayment, "₱" & extraPayment, "₱" & totalPayment, "₱" & principal, "₱" & interest, "₱" & endBalance, "₱" & CumuInterest)
+
                 If endBalance = 0 Then
                     beginningBalance = 0
                     Exit While
                 End If
+
+                ' Update totalEarlyPayment and selectedDate for the next iteration
                 totalEarlyPayment = totalEarlyPayment + extraPayment
                 selectedDate = selectedDate.AddMonths(1)
+
+                ' Update beginningBalance and perform common calculation
                 beginningBalance = beginningBalance - principal
                 common_calculation()
-                payment = payment + 1
 
+                payment = payment + 1
             End While
 
-            '---------------------------------------------END OF CALCULATION-------------------------------------------------------
+            '-------------------------------END OF CALCULATION-------------------------------
 
-            '--------------------------------------RESULT-------------------------------------------------------
+            '-------------------------------RESULT-------------------------------------------
             txtSnumberPayment.Text = numberOfPaymentsPerYear * loanPeriodInYears
             txtSpayment.Text = scheduledPayment
             txtActualNumPayment.Text = payment
             txtTotalEarlyPayment.Text = totalEarlyPayment
             txtTotalInterest.Text = CumuInterest
             txtName.Text = txtLenderName.Text
-            '-----------------------------------END OF RESULT--------------------------------------------------
+            '-------------------------------END OF RESULT-------------------------------------
+
             btnSetSched.Enabled = False
             btnApprove.Enabled = True
         Else
+            ' Display error message in a MessageBox
             MessageBox.Show(message, "Invalid Input")
+
+            ' Reset variables and arrays
             errChecker = 0
             message = ""
             Array.Clear(error_msg, 0, error_msg.Length)
@@ -267,12 +307,14 @@ Public Class Loan
     End Sub
 
     Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
+        'RESET ALL THE FIELDS SO IS THE VALUE IN LOANS
         reset()
-        btnApprove.Enabled = False
+        btnApprove.Enabled = False '--disable the approve button everytime the reset clicked
     End Sub
 
 
     Private Sub btnSelectName_Click(sender As Object, e As EventArgs) Handles btnSelectName.Click
+        'SHOW THE PANEL WHERE THERE'S A LIST OF USERS TO SELECT WHO'S GOING TO LOAN
         dgSelectEm.Rows.Clear()
         Try
             conn.Open()
@@ -290,9 +332,12 @@ Public Class Loan
     End Sub
 
     Private Sub btnBackPanel_Click(sender As Object, e As EventArgs) Handles btnBackPanel.Click
+        'CLOSE THE PANEL OF USER'S LIST
         pnlSelectLender.Visible = False
     End Sub
     Private Sub btnApprove_Click(sender As Object, e As EventArgs) Handles btnApprove.Click
+        'APPROVE THE CALCULATED SHCHEDULE OF LOAN AND STORE IT TO DATABASE
+        'SAME PROCESS AS SET SCHEDULE BUTTON
         Dim result As DialogResult = MessageBox.Show("Do you want to proceed?", "Confirmation", MessageBoxButtons.YesNo)
 
         If result = DialogResult.Yes Then
@@ -369,7 +414,8 @@ Public Class Loan
     End Sub
 
     Private Sub Form2_Load_1(sender As Object, e As EventArgs) Handles MyBase.Load '------------AUTOLOAD
-        pickContriOffice.SelectedIndex = 0
+        'ALL THE INITIAL VALUES FUNCTIONS GOES HERE.
+        pickContriOffice.SelectedIndex = 0 'set the selected office of contribution to all
         forHeader()
         btnLoanToExcel.Enabled = False
         contriEditFields(False)
@@ -377,7 +423,7 @@ Public Class Loan
         contriGrid(query)
         forPickBox(pickContriOffice, "select office from user_info group by office", "office")
         'contriTimer.Start()
-        Try
+        Try '--fetch the latest date of contribution and store it to updated variables to be triggered to the contribute distribution function
             conn.Open()
             Dim cmd As New MySqlCommand("select month(updated_at) as month, year(updated_at) as year, dayofyear(updated_at) / 7 as week, day(updated_at) as day from contributions order by updated_at DESC limit 1", conn)
             rid = cmd.ExecuteReader
@@ -393,6 +439,8 @@ Public Class Loan
             conn.Close()
         End Try
         dgSelectEm.Rows.Clear()
+
+        'GET THE MEMBER'S DATA FROM THE DATABASE TO DATAGRID EMPLOYEE'S LIST ON LOAN PAGE
         Try
             conn.Open()
             Dim cmd As New MySqlCommand("select concat(first_name, ' ', middle_name, ' ', last_name) as full_name, username, id from users", conn)
@@ -406,6 +454,7 @@ Public Class Loan
             conn.Close()
         End Try
 
+        'GET THE CONTRIBUTIONS FROM THE DATABASE
         Try
             conn.Open()
             Dim cmd As New MySqlCommand("select sum(contribution1) as contri1, sum(contribution2) as contri2, sum(contribution3) as contri3, sum(contribution4) as contri4, sum(contribution5) as contri5 from contributions", conn)
@@ -425,11 +474,13 @@ Public Class Loan
     End Sub
 
     Private Sub Guna2CircleButton1_Click(sender As Object, e As EventArgs) Handles Guna2CircleButton1.Click
+        'CLOSE THE LOAN/CONTRIBUTIONS MODULE AND GO BACK TO ADMIN DASHBOARD
         admindash.Show()
         Me.Close()
     End Sub
 
     Private Sub dgSelectEm_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgSelectEm.CellClick
+        'TRIGGERS IF THE 3RD INDEX IS CLICKED, USED TO SELECT LENDER
         If e.ColumnIndex = 3 AndAlso e.RowIndex >= 0 Then '----------------TO SELECT
             If String.IsNullOrEmpty(dgSelectEm.CurrentRow.Cells(0).Value.ToString()) = False Then
                 selectedId = dgSelectEm.CurrentRow.Cells(0).Value.ToString()
@@ -442,6 +493,7 @@ Public Class Loan
     '-------------------------------------------------------VIEW LOANS---------------------------------------------------------------------------
     Private Sub dgEmList_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgEmList.CellClick
         Dim idSelect As Integer
+        'TRIGGERS IF THE 3RD INDEX IS CLICKED, USED TO SELECT EMPLOYEES LOAN AND DISPLAYS TO ANOTHER DATAGRID BASED ON ITS ID.
         If e.ColumnIndex = 3 AndAlso e.RowIndex >= 0 Then '----------------TO SELECT
             btnLoanToExcel.Enabled = False
             dgLoans.Rows.Clear()
@@ -466,7 +518,7 @@ Public Class Loan
 
     Private Sub dgLoans_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgLoans.CellClick
         Dim idSelect As Integer
-
+        'TRIGGERS IF THE 9TH INDEX IS CLICKED, USED TO SELECT EMPLOYEES LOAN SCHEDULE AND DISPLAYS IT TO ANOTHERR DATAGRID BASED ON ITS ID.
         If e.ColumnIndex = 9 AndAlso e.RowIndex >= 0 Then '----------------TO SELECT
             idSelect = dgLoans.CurrentRow.Cells(0).Value.ToString()
             btnLoanToExcel.Enabled = True
@@ -485,6 +537,7 @@ Public Class Loan
                 conn.Close()
             End Try
         End If
+        'TRIGGERS IF THE 8TH INDEX IS CLICKED, USED TO MARK AS PAID TO THE LOAN
         If e.ColumnIndex = 8 AndAlso e.RowIndex >= 0 Then '----------------TO PAID
             Dim result As DialogResult = MessageBox.Show("Is this loan paid already?" & vbNewLine & "Warning: You cannot change it back.", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning)
             If result = DialogResult.Yes Then
@@ -703,56 +756,6 @@ Public Class Loan
         End Sub
 
     End Class
-
-    ' Private Sub contriTimer_Tick(sender As Object, e As EventArgs) Handles contriTimer.Tick
-    'Dim timezone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("singapore standard time")
-    'Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
-    'Dim currentdate As DateTime = currenttime
-    'Dim currentweek As Integer = currentdate.DayOfYear / 7
-    'lblTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
-
-    'If updatedMonth <> currentdate.Month Then
-    '    For Each contribution As class_contribution In contributions
-    '        If contribution.period = "Monthly" Then
-    '            contribution.insertion()
-    '        End If
-    '    Next
-    '    contriGrid(query)
-    'End If
-
-    'If updatedYear <> currentdate.Year Then
-    '    For Each contribution As class_contribution In contributions
-    '        If contribution.period = "Annually" Then
-    '            contribution.insertion()
-    '        End If
-    '    Next
-    '    contriGrid(query)
-    'End If
-
-    'If updatedWeek <> currentweek Then
-    '    For Each contribution As class_contribution In contributions
-    '        If contribution.period = "Weekly" Then
-    '            contribution.insertion()
-    '        End If
-    '    Next
-    '    contriGrid(query)
-    'End If
-
-    'If updatedDay <> currentdate.Day Then
-    '    For Each contribution As class_contribution In contributions
-    '        If contribution.period = "Daily" Then
-    '            contribution.insertion()
-    '        End If
-    '    Next
-    '    contriGrid(query)
-    'End If
-
-    'updatedMonth = currentdate.Month
-    'updatedYear = currentdate.Year
-    'updatedWeek = currentweek
-    'updatedDay = currentdate.Day
-
-    ' End Sub
 
     Private Sub btnUpdateContriType_Click(sender As Object, e As EventArgs) Handles btnUpdateContriType.Click
         Try
@@ -994,7 +997,7 @@ Public Class Loan
         updatedWeek = currentweek
         updatedDay = currentdate.Day
 
-        MessageBox.Show("RECORD WAS UPDATED TO " & vbNewLine & currentdate, "Response")
+        MessageBox.Show("RECORD IS UP TO DATE " & vbNewLine & vbNewLine & currentdate, "Response", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
     '----------------------------------------------END OF CONTRIBUTIONS-----------------------------------------------------------
 
