@@ -18,6 +18,8 @@ Public Class admindash
     Dim unionDue As Integer
     Dim countMembers As Integer
     Private Sub admindash_Load(sender As Object, e As EventArgs) Handles MyBase.Load '---------------AUTOLOAD
+
+
         getname()
         LoadChart()
         viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
@@ -362,13 +364,14 @@ Public Class admindash
                     conn.Open()
                     Dim cmd As New MySqlCommand("delete from users where id=@ID;
                                                     delete from user_info where user_id=@ID;
-                                                        delete from beneficiaries where user_id=@ID", conn)
+                                                        delete from beneficiaries where user_id=@ID;
+                                                            delete from contributions where user_id=@ID", conn)
 
                     cmd.Parameters.AddWithValue("@ID", selectedId)
                     cmd.ExecuteNonQuery()
 
                     ' File Deletion
-                    Dim imagePath As String = location & "\Resources\user_profile\" & rid.GetString("image")
+                    Dim imagePath As String = location & "\Resources\user_profile" & rid.GetString("image")
 
                     If File.Exists(imagePath) Then
                         File.Delete(imagePath)
