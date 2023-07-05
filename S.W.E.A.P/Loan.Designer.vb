@@ -67,22 +67,24 @@ Partial Class Loan
         Dim DataGridViewCellStyle7 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle8 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle9 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim DataGridViewCellStyle10 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle11 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle12 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges37 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges38 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim DataGridViewCellStyle13 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle14 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle15 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim DataGridViewCellStyle16 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle17 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle18 As DataGridViewCellStyle = New DataGridViewCellStyle()
-        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim DataGridViewCellStyle19 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle20 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Dim DataGridViewCellStyle21 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim CustomizableEdges41 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges42 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges43 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges44 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges45 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -100,8 +102,6 @@ Partial Class Loan
         Dim CustomizableEdges57 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges58 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges39 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges40 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Loan))
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         tabconLoan = New Guna.UI2.WinForms.Guna2TabControl()
@@ -171,8 +171,11 @@ Partial Class Loan
         Column19 = New DataGridViewTextBoxColumn()
         Column20 = New DataGridViewTextBoxColumn()
         Column21 = New DataGridViewTextBoxColumn()
+        Column51 = New DataGridViewTextBoxColumn()
+        Column52 = New DataGridViewImageColumn()
         Column36 = New DataGridViewImageColumn()
         Panel6 = New Panel()
+        btnLoanToExcel = New Guna.UI2.WinForms.Guna2Button()
         Label20 = New Label()
         dgLoanSchedule = New Guna.UI2.WinForms.Guna2DataGridView()
         Column22 = New DataGridViewTextBoxColumn()
@@ -185,8 +188,6 @@ Partial Class Loan
         Column29 = New DataGridViewTextBoxColumn()
         Column30 = New DataGridViewTextBoxColumn()
         Column31 = New DataGridViewTextBoxColumn()
-        Panel5 = New Panel()
-        btnLoanToExcel = New Guna.UI2.WinForms.Guna2Button()
         Panel4 = New Panel()
         Label18 = New Label()
         dgEmList = New Guna.UI2.WinForms.Guna2DataGridView()
@@ -195,6 +196,8 @@ Partial Class Loan
         Column34 = New DataGridViewTextBoxColumn()
         Column35 = New DataGridViewImageColumn()
         contribution = New TabPage()
+        Panel11 = New Panel()
+        btnUpToDateContri = New Guna.UI2.WinForms.Guna2Button()
         dgContribution = New Guna.UI2.WinForms.Guna2DataGridView()
         Column37 = New DataGridViewTextBoxColumn()
         Column38 = New DataGridViewTextBoxColumn()
@@ -206,13 +209,13 @@ Partial Class Loan
         Column43 = New DataGridViewTextBoxColumn()
         Column44 = New DataGridViewTextBoxColumn()
         Panel9 = New Panel()
-        btnExtractContri = New Guna.UI2.WinForms.Guna2Button()
         dgContriTotal = New Guna.UI2.WinForms.Guna2DataGridView()
         Column46 = New DataGridViewTextBoxColumn()
         Column47 = New DataGridViewTextBoxColumn()
         Column48 = New DataGridViewTextBoxColumn()
         Column49 = New DataGridViewTextBoxColumn()
         Column50 = New DataGridViewTextBoxColumn()
+        btnExtractContri = New Guna.UI2.WinForms.Guna2Button()
         pickContriOffice = New Guna.UI2.WinForms.Guna2ComboBox()
         Label22 = New Label()
         Panel8 = New Panel()
@@ -230,10 +233,6 @@ Partial Class Loan
         Label26 = New Label()
         Label13 = New Label()
         Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
-        contriTimer = New Timer(components)
-        lblTime = New Label()
-        Panel11 = New Panel()
-        btnUpToDateContri = New Guna.UI2.WinForms.Guna2Button()
         tabconLoan.SuspendLayout()
         addLoan.SuspendLayout()
         Panel3.SuspendLayout()
@@ -252,16 +251,15 @@ Partial Class Loan
         CType(dgLoans, ComponentModel.ISupportInitialize).BeginInit()
         Panel6.SuspendLayout()
         CType(dgLoanSchedule, ComponentModel.ISupportInitialize).BeginInit()
-        Panel5.SuspendLayout()
         Panel4.SuspendLayout()
         CType(dgEmList, ComponentModel.ISupportInitialize).BeginInit()
         contribution.SuspendLayout()
+        Panel11.SuspendLayout()
         CType(dgContribution, ComponentModel.ISupportInitialize).BeginInit()
         Panel9.SuspendLayout()
         CType(dgContriTotal, ComponentModel.ISupportInitialize).BeginInit()
         Panel8.SuspendLayout()
         CType(numContriEditAmount, ComponentModel.ISupportInitialize).BeginInit()
-        Panel11.SuspendLayout()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -1068,7 +1066,6 @@ Partial Class Loan
         viewLoan.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
         viewLoan.Controls.Add(Panel7)
         viewLoan.Controls.Add(Panel6)
-        viewLoan.Controls.Add(Panel5)
         viewLoan.Controls.Add(Panel4)
         viewLoan.Location = New Point(4, 44)
         viewLoan.Name = "viewLoan"
@@ -1082,9 +1079,9 @@ Partial Class Loan
         Panel7.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
         Panel7.Controls.Add(Label19)
         Panel7.Controls.Add(dgLoans)
-        Panel7.Location = New Point(414, 17)
+        Panel7.Location = New Point(387, 17)
         Panel7.Name = "Panel7"
-        Panel7.Size = New Size(752, 269)
+        Panel7.Size = New Size(779, 269)
         Panel7.TabIndex = 7
         ' 
         ' Label19
@@ -1113,7 +1110,7 @@ Partial Class Loan
         dgLoans.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle8
         dgLoans.ColumnHeadersHeight = 32
         dgLoans.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        dgLoans.Columns.AddRange(New DataGridViewColumn() {Column14, Column16, Column17, Column18, Column19, Column20, Column21, Column36})
+        dgLoans.Columns.AddRange(New DataGridViewColumn() {Column14, Column16, Column17, Column18, Column19, Column20, Column21, Column51, Column52, Column36})
         DataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle9.BackColor = Color.FromArgb(CByte(214), CByte(218), CByte(223))
         DataGridViewCellStyle9.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
@@ -1128,7 +1125,7 @@ Partial Class Loan
         dgLoans.ReadOnly = True
         dgLoans.RowHeadersVisible = False
         dgLoans.RowTemplate.Height = 25
-        dgLoans.Size = New Size(722, 205)
+        dgLoans.Size = New Size(749, 205)
         dgLoans.TabIndex = 1
         dgLoans.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt
         dgLoans.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
@@ -1205,6 +1202,25 @@ Partial Class Loan
         Column21.Name = "Column21"
         Column21.ReadOnly = True
         ' 
+        ' Column51
+        ' 
+        Column51.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
+        Column51.HeaderText = "Status"
+        Column51.Name = "Column51"
+        Column51.ReadOnly = True
+        Column51.Width = 62
+        ' 
+        ' Column52
+        ' 
+        Column52.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
+        Column52.FillWeight = 30F
+        Column52.HeaderText = ""
+        Column52.Image = My.Resources.Resources.paid
+        Column52.ImageLayout = DataGridViewImageCellLayout.Zoom
+        Column52.Name = "Column52"
+        Column52.ReadOnly = True
+        Column52.Width = 30
+        ' 
         ' Column36
         ' 
         Column36.AutoSizeMode = DataGridViewAutoSizeColumnMode.None
@@ -1219,12 +1235,31 @@ Partial Class Loan
         ' Panel6
         ' 
         Panel6.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel6.Controls.Add(btnLoanToExcel)
         Panel6.Controls.Add(Label20)
         Panel6.Controls.Add(dgLoanSchedule)
-        Panel6.Location = New Point(16, 396)
+        Panel6.Location = New Point(16, 306)
         Panel6.Name = "Panel6"
-        Panel6.Size = New Size(1150, 249)
+        Panel6.Size = New Size(1150, 339)
         Panel6.TabIndex = 6
+        ' 
+        ' btnLoanToExcel
+        ' 
+        btnLoanToExcel.BorderRadius = 10
+        btnLoanToExcel.CustomizableEdges = CustomizableEdges37
+        btnLoanToExcel.DisabledState.BorderColor = Color.DarkGray
+        btnLoanToExcel.DisabledState.CustomBorderColor = Color.DarkGray
+        btnLoanToExcel.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnLoanToExcel.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnLoanToExcel.FillColor = Color.Green
+        btnLoanToExcel.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnLoanToExcel.ForeColor = Color.White
+        btnLoanToExcel.Location = New Point(954, 16)
+        btnLoanToExcel.Name = "btnLoanToExcel"
+        btnLoanToExcel.ShadowDecoration.CustomizableEdges = CustomizableEdges38
+        btnLoanToExcel.Size = New Size(180, 25)
+        btnLoanToExcel.TabIndex = 0
+        btnLoanToExcel.Text = "CONVERT TO EXCEL"
         ' 
         ' Label20
         ' 
@@ -1267,7 +1302,7 @@ Partial Class Loan
         dgLoanSchedule.ReadOnly = True
         dgLoanSchedule.RowHeadersVisible = False
         dgLoanSchedule.RowTemplate.Height = 25
-        dgLoanSchedule.Size = New Size(1119, 188)
+        dgLoanSchedule.Size = New Size(1119, 277)
         dgLoanSchedule.TabIndex = 2
         dgLoanSchedule.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt
         dgLoanSchedule.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
@@ -1367,33 +1402,6 @@ Partial Class Loan
         Column31.ReadOnly = True
         Column31.Width = 122
         ' 
-        ' Panel5
-        ' 
-        Panel5.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Panel5.Controls.Add(btnLoanToExcel)
-        Panel5.Location = New Point(414, 303)
-        Panel5.Name = "Panel5"
-        Panel5.Size = New Size(752, 75)
-        Panel5.TabIndex = 5
-        ' 
-        ' btnLoanToExcel
-        ' 
-        btnLoanToExcel.BorderRadius = 10
-        btnLoanToExcel.CustomizableEdges = CustomizableEdges37
-        btnLoanToExcel.DisabledState.BorderColor = Color.DarkGray
-        btnLoanToExcel.DisabledState.CustomBorderColor = Color.DarkGray
-        btnLoanToExcel.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnLoanToExcel.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnLoanToExcel.FillColor = Color.Green
-        btnLoanToExcel.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        btnLoanToExcel.ForeColor = Color.White
-        btnLoanToExcel.Location = New Point(556, 15)
-        btnLoanToExcel.Name = "btnLoanToExcel"
-        btnLoanToExcel.ShadowDecoration.CustomizableEdges = CustomizableEdges38
-        btnLoanToExcel.Size = New Size(180, 45)
-        btnLoanToExcel.TabIndex = 0
-        btnLoanToExcel.Text = "CONVERT TO EXCEL"
-        ' 
         ' Panel4
         ' 
         Panel4.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
@@ -1401,14 +1409,14 @@ Partial Class Loan
         Panel4.Controls.Add(dgEmList)
         Panel4.Location = New Point(16, 17)
         Panel4.Name = "Panel4"
-        Panel4.Size = New Size(381, 361)
+        Panel4.Size = New Size(352, 269)
         Panel4.TabIndex = 4
         ' 
         ' Label18
         ' 
         Label18.AutoSize = True
         Label18.Font = New Font("Segoe UI", 15F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point)
-        Label18.Location = New Point(87, 12)
+        Label18.Location = New Point(70, 12)
         Label18.Name = "Label18"
         Label18.Size = New Size(199, 28)
         Label18.TabIndex = 7
@@ -1440,12 +1448,12 @@ Partial Class Loan
         DataGridViewCellStyle15.WrapMode = DataGridViewTriState.False
         dgEmList.DefaultCellStyle = DataGridViewCellStyle15
         dgEmList.GridColor = Color.FromArgb(CByte(193), CByte(199), CByte(206))
-        dgEmList.Location = New Point(17, 49)
+        dgEmList.Location = New Point(18, 49)
         dgEmList.Name = "dgEmList"
         dgEmList.ReadOnly = True
         dgEmList.RowHeadersVisible = False
         dgEmList.RowTemplate.Height = 25
-        dgEmList.Size = New Size(348, 296)
+        dgEmList.Size = New Size(314, 205)
         dgEmList.TabIndex = 3
         dgEmList.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.WetAsphalt
         dgEmList.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(CByte(194), CByte(200), CByte(207))
@@ -1518,6 +1526,33 @@ Partial Class Loan
         contribution.Size = New Size(1182, 663)
         contribution.TabIndex = 2
         contribution.Text = "Update Contribution"
+        ' 
+        ' Panel11
+        ' 
+        Panel11.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Panel11.Controls.Add(btnUpToDateContri)
+        Panel11.Location = New Point(974, 189)
+        Panel11.Name = "Panel11"
+        Panel11.Size = New Size(189, 90)
+        Panel11.TabIndex = 2
+        ' 
+        ' btnUpToDateContri
+        ' 
+        btnUpToDateContri.BorderRadius = 5
+        btnUpToDateContri.CustomizableEdges = CustomizableEdges39
+        btnUpToDateContri.DisabledState.BorderColor = Color.DarkGray
+        btnUpToDateContri.DisabledState.CustomBorderColor = Color.DarkGray
+        btnUpToDateContri.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnUpToDateContri.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnUpToDateContri.FillColor = Color.FromArgb(CByte(0), CByte(192), CByte(192))
+        btnUpToDateContri.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnUpToDateContri.ForeColor = Color.White
+        btnUpToDateContri.Location = New Point(18, 15)
+        btnUpToDateContri.Name = "btnUpToDateContri"
+        btnUpToDateContri.ShadowDecoration.CustomizableEdges = CustomizableEdges40
+        btnUpToDateContri.Size = New Size(152, 61)
+        btnUpToDateContri.TabIndex = 6
+        btnUpToDateContri.Text = "UPDATE CONTRIBUTIONS"
         ' 
         ' dgContribution
         ' 
@@ -1657,24 +1692,6 @@ Partial Class Loan
         Panel9.Size = New Size(937, 90)
         Panel9.TabIndex = 0
         ' 
-        ' btnExtractContri
-        ' 
-        btnExtractContri.BorderRadius = 5
-        btnExtractContri.CustomizableEdges = CustomizableEdges41
-        btnExtractContri.DisabledState.BorderColor = Color.DarkGray
-        btnExtractContri.DisabledState.CustomBorderColor = Color.DarkGray
-        btnExtractContri.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnExtractContri.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnExtractContri.FillColor = Color.Green
-        btnExtractContri.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        btnExtractContri.ForeColor = Color.White
-        btnExtractContri.Location = New Point(85, 52)
-        btnExtractContri.Name = "btnExtractContri"
-        btnExtractContri.ShadowDecoration.CustomizableEdges = CustomizableEdges42
-        btnExtractContri.Size = New Size(248, 24)
-        btnExtractContri.TabIndex = 5
-        btnExtractContri.Text = "EXTRACT TO EXCEL"
-        ' 
         ' dgContriTotal
         ' 
         dgContriTotal.AllowUserToAddRows = False
@@ -1765,6 +1782,24 @@ Partial Class Loan
         Column50.HeaderText = "Contribution5"
         Column50.Name = "Column50"
         Column50.ReadOnly = True
+        ' 
+        ' btnExtractContri
+        ' 
+        btnExtractContri.BorderRadius = 5
+        btnExtractContri.CustomizableEdges = CustomizableEdges41
+        btnExtractContri.DisabledState.BorderColor = Color.DarkGray
+        btnExtractContri.DisabledState.CustomBorderColor = Color.DarkGray
+        btnExtractContri.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnExtractContri.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnExtractContri.FillColor = Color.Green
+        btnExtractContri.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnExtractContri.ForeColor = Color.White
+        btnExtractContri.Location = New Point(85, 52)
+        btnExtractContri.Name = "btnExtractContri"
+        btnExtractContri.ShadowDecoration.CustomizableEdges = CustomizableEdges42
+        btnExtractContri.Size = New Size(248, 24)
+        btnExtractContri.TabIndex = 5
+        btnExtractContri.Text = "EXTRACT TO EXCEL"
         ' 
         ' pickContriOffice
         ' 
@@ -2016,56 +2051,12 @@ Partial Class Loan
         Guna2CircleButton1.Size = New Size(45, 39)
         Guna2CircleButton1.TabIndex = 3
         ' 
-        ' contriTimer
-        ' 
-        contriTimer.Interval = 1000
-        ' 
-        ' lblTime
-        ' 
-        lblTime.AutoSize = True
-        lblTime.Font = New Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point)
-        lblTime.ForeColor = Color.Cyan
-        lblTime.Location = New Point(1025, 13)
-        lblTime.Name = "lblTime"
-        lblTime.Size = New Size(80, 25)
-        lblTime.TabIndex = 5
-        lblTime.Text = "12:15:16"
-        lblTime.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Panel11
-        ' 
-        Panel11.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
-        Panel11.Controls.Add(btnUpToDateContri)
-        Panel11.Location = New Point(974, 189)
-        Panel11.Name = "Panel11"
-        Panel11.Size = New Size(189, 90)
-        Panel11.TabIndex = 2
-        ' 
-        ' btnUpToDateContri
-        ' 
-        btnUpToDateContri.BorderRadius = 5
-        btnUpToDateContri.CustomizableEdges = CustomizableEdges39
-        btnUpToDateContri.DisabledState.BorderColor = Color.DarkGray
-        btnUpToDateContri.DisabledState.CustomBorderColor = Color.DarkGray
-        btnUpToDateContri.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnUpToDateContri.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnUpToDateContri.FillColor = Color.FromArgb(CByte(0), CByte(192), CByte(192))
-        btnUpToDateContri.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        btnUpToDateContri.ForeColor = Color.White
-        btnUpToDateContri.Location = New Point(18, 15)
-        btnUpToDateContri.Name = "btnUpToDateContri"
-        btnUpToDateContri.ShadowDecoration.CustomizableEdges = CustomizableEdges40
-        btnUpToDateContri.Size = New Size(152, 61)
-        btnUpToDateContri.TabIndex = 6
-        btnUpToDateContri.Text = "UPDATE CONTRIBUTIONS"
-        ' 
         ' Loan
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(167), CByte(41), CByte(36))
         ClientSize = New Size(1190, 764)
-        Controls.Add(lblTime)
         Controls.Add(Guna2CircleButton1)
         Controls.Add(tabconLoan)
         Controls.Add(Label13)
@@ -2097,11 +2088,11 @@ Partial Class Loan
         Panel6.ResumeLayout(False)
         Panel6.PerformLayout()
         CType(dgLoanSchedule, ComponentModel.ISupportInitialize).EndInit()
-        Panel5.ResumeLayout(False)
         Panel4.ResumeLayout(False)
         Panel4.PerformLayout()
         CType(dgEmList, ComponentModel.ISupportInitialize).EndInit()
         contribution.ResumeLayout(False)
+        Panel11.ResumeLayout(False)
         CType(dgContribution, ComponentModel.ISupportInitialize).EndInit()
         Panel9.ResumeLayout(False)
         Panel9.PerformLayout()
@@ -2109,7 +2100,6 @@ Partial Class Loan
         Panel8.ResumeLayout(False)
         Panel8.PerformLayout()
         CType(numContriEditAmount, ComponentModel.ISupportInitialize).EndInit()
-        Panel11.ResumeLayout(False)
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -2194,21 +2184,12 @@ Partial Class Loan
     Friend WithEvents Column33 As DataGridViewTextBoxColumn
     Friend WithEvents Column34 As DataGridViewTextBoxColumn
     Friend WithEvents Column35 As DataGridViewImageColumn
-    Friend WithEvents Column14 As DataGridViewTextBoxColumn
-    Friend WithEvents Column16 As DataGridViewTextBoxColumn
-    Friend WithEvents Column17 As DataGridViewTextBoxColumn
-    Friend WithEvents Column18 As DataGridViewTextBoxColumn
-    Friend WithEvents Column19 As DataGridViewTextBoxColumn
-    Friend WithEvents Column20 As DataGridViewTextBoxColumn
-    Friend WithEvents Column21 As DataGridViewTextBoxColumn
-    Friend WithEvents Column36 As DataGridViewImageColumn
     Friend WithEvents Column11 As DataGridViewTextBoxColumn
     Friend WithEvents Column12 As DataGridViewTextBoxColumn
     Friend WithEvents Column13 As DataGridViewTextBoxColumn
     Friend WithEvents Column15 As DataGridViewImageColumn
     Friend WithEvents Panel4 As Panel
     Friend WithEvents Panel6 As Panel
-    Friend WithEvents Panel5 As Panel
     Friend WithEvents Label20 As Label
     Friend WithEvents Label19 As Label
     Friend WithEvents Label18 As Label
@@ -2233,8 +2214,6 @@ Partial Class Loan
     Friend WithEvents Label28 As Label
     Friend WithEvents numContriEditAmount As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents dgContribution As Guna.UI2.WinForms.Guna2DataGridView
-    Friend WithEvents contriTimer As Timer
-    Friend WithEvents lblTime As Label
     Friend WithEvents Column37 As DataGridViewTextBoxColumn
     Friend WithEvents Column38 As DataGridViewTextBoxColumn
     Friend WithEvents Column39 As DataGridViewTextBoxColumn
@@ -2262,4 +2241,14 @@ Partial Class Loan
     Friend WithEvents Label22 As Label
     Friend WithEvents Panel11 As Panel
     Friend WithEvents btnUpToDateContri As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Column14 As DataGridViewTextBoxColumn
+    Friend WithEvents Column16 As DataGridViewTextBoxColumn
+    Friend WithEvents Column17 As DataGridViewTextBoxColumn
+    Friend WithEvents Column18 As DataGridViewTextBoxColumn
+    Friend WithEvents Column19 As DataGridViewTextBoxColumn
+    Friend WithEvents Column20 As DataGridViewTextBoxColumn
+    Friend WithEvents Column21 As DataGridViewTextBoxColumn
+    Friend WithEvents Column51 As DataGridViewTextBoxColumn
+    Friend WithEvents Column52 As DataGridViewImageColumn
+    Friend WithEvents Column36 As DataGridViewImageColumn
 End Class

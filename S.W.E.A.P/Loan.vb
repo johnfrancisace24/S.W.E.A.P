@@ -302,7 +302,7 @@ Public Class Loan
             Try
                 conn.Open()
                 Dim cmd As New MySqlCommand("insert into loan_info(user_id, loan_amount, anual_interest_rate, loan_period_years, 
-                                            no_payments_per_year, start_date_of_loan, optional_xtra) values(@ID, @ALOAN, @ARATE, @LYEARS, @NOPYEAR, @SDATE, @XTRA);", conn)
+                                            no_payments_per_year, start_date_of_loan, optional_xtra, status) values(@ID, @ALOAN, @ARATE, @LYEARS, @NOPYEAR, @SDATE, @XTRA, 'Ongoing');", conn)
                 cmd.Parameters.AddWithValue("@ID", selectedId)
                 cmd.Parameters.AddWithValue("@ALOAN", numLamount.Value)
                 cmd.Parameters.AddWithValue("@ARATE", numAintRate.Value)
@@ -376,7 +376,7 @@ Public Class Loan
         reset_contributions()
         contriGrid(query)
         forPickBox(pickContriOffice, "select office from user_info group by office", "office")
-        contriTimer.Start()
+        'contriTimer.Start()
         Try
             conn.Open()
             Dim cmd As New MySqlCommand("select month(updated_at) as month, year(updated_at) as year, dayofyear(updated_at) / 7 as week, day(updated_at) as day from contributions order by updated_at DESC limit 1", conn)
@@ -453,7 +453,7 @@ Public Class Loan
                 cmd.Parameters.AddWithValue("@ID", idSelect)
                 rid = cmd.ExecuteReader
                 While rid.Read
-                    dgLoans.Rows.Add(rid.Item("id"), rid.Item("loan_amount"), rid.Item("anual_interest_rate"), rid.Item("loan_period_years"), rid.Item("no_payments_per_year"), rid.Item("start_date_of_loan"), rid.Item("optional_xtra"))
+                    dgLoans.Rows.Add(rid.Item("id"), rid.Item("loan_amount"), rid.Item("anual_interest_rate"), rid.Item("loan_period_years"), rid.Item("no_payments_per_year"), rid.Item("start_date_of_loan"), rid.Item("optional_xtra"), rid.Item("status"))
                 End While
             Catch ex As Exception
                 MsgBox("EW error")
@@ -466,7 +466,7 @@ Public Class Loan
     Private Sub dgLoans_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgLoans.CellClick
         Dim idSelect As Integer
 
-        If e.ColumnIndex = 7 AndAlso e.RowIndex >= 0 Then '----------------TO SELECT
+        If e.ColumnIndex = 9 AndAlso e.RowIndex >= 0 Then '----------------TO SELECT
             idSelect = dgLoans.CurrentRow.Cells(0).Value.ToString()
             btnLoanToExcel.Enabled = True
             dgLoanSchedule.Rows.Clear()
@@ -483,6 +483,24 @@ Public Class Loan
             Finally
                 conn.Close()
             End Try
+        End If
+        If e.ColumnIndex = 8 AndAlso e.RowIndex >= 0 Then '----------------TO PAID
+            Dim result As DialogResult = MessageBox.Show("Is this loan paid already?" & vbNewLine & "Warning: You cannot change it back.", "Confirmation", MessageBoxButtons.YesNo)
+            If result = DialogResult.Yes Then
+                idSelect = dgLoans.CurrentRow.Cells(0).Value.ToString()
+                Try
+                    conn.Open()
+                    Dim cmd As New MySqlCommand("update loan_info set status = 'Paid' where id = @ID", conn)
+                    cmd.Parameters.AddWithValue("@ID", idSelect)
+                    cmd.ExecuteNonQuery()
+                    MessageBox.Show("Record update succeeded!", "Response")
+                Catch ex As Exception
+                    MessageBox.Show("Error updating status!", "Response")
+                Finally
+                    conn.Close()
+                End Try
+            End If
+            dgLoans.Rows.Clear()
         End If
     End Sub
 
@@ -662,76 +680,78 @@ Public Class Loan
             Me.period = period
             Me.amount = amount
         End Sub
-        Public Sub insertion()
-            For Each row As DataGridViewRow In Loan.dgContribution.Rows
-                If Not row.IsNewRow Then
-                    Try
-                        Loan.conn.Open()
-                        Dim columnName As String = Me.contriName
-                        Dim query As String = "insert into contributions(user_id, " & columnName & ", updated_at)values(@ID, @AMOUNT, now())"
-                        Dim cmd As New MySqlCommand(query, Loan.conn)
-                        cmd.Parameters.AddWithValue("@ID", row.Cells(0).Value.ToString())
-                        cmd.Parameters.AddWithValue("@AMOUNT", Me.amount)
-                        cmd.ExecuteNonQuery()
-                    Catch ex As Exception
-                    Finally
-                        Loan.conn.Close()
-                    End Try
-                End If
-            Next
+        Public Sub insertion(remainder)
+            'For Each row As DataGridViewRow In Loan.dgContribution.Rows
+            'If Not row.IsNewRow Then
+            Try
+                Loan.conn.Open()
+                Dim columnName As String = Me.contriName
+                Dim query As String = "update contributions set " & columnName & " = " & columnName & " + @AMOUNT, updated_at = now()"
+                'Dim query As String = "insert into contributions(user_id, " & columnName & ", updated_at)values(@ID, @AMOUNT, now())"
+                Dim cmd As New MySqlCommand(query, Loan.conn)
+                'cmd.Parameters.AddWithValue("@ID", row.Cells(0).Value.ToString())
+                cmd.Parameters.AddWithValue("@AMOUNT", Me.amount * remainder)
+                cmd.ExecuteNonQuery()
+            Catch ex As Exception
+                MsgBox("Insertion of contribution doesn't work")
+            Finally
+                Loan.conn.Close()
+            End Try
+            'End If
+            ' Next
         End Sub
 
     End Class
 
-    Private Sub contriTimer_Tick(sender As Object, e As EventArgs) Handles contriTimer.Tick
-        Dim timezone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("singapore standard time")
-        Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
-        Dim currentdate As DateTime = currenttime
-        Dim currentweek As Integer = currentdate.DayOfYear / 7
-        lblTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
+    ' Private Sub contriTimer_Tick(sender As Object, e As EventArgs) Handles contriTimer.Tick
+    'Dim timezone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("singapore standard time")
+    'Dim currenttime As DateTime = TimeZoneInfo.ConvertTime(DateTime.Now, timezone)
+    'Dim currentdate As DateTime = currenttime
+    'Dim currentweek As Integer = currentdate.DayOfYear / 7
+    'lblTime.Text = currentdate.Hour & " : " & currentdate.Minute & " : " & currentdate.Second
 
-        If updatedMonth <> currentdate.Month Then
-            For Each contribution As class_contribution In contributions
-                If contribution.period = "Monthly" Then
-                    contribution.insertion()
-                End If
-            Next
-            contriGrid(query)
-        End If
+    'If updatedMonth <> currentdate.Month Then
+    '    For Each contribution As class_contribution In contributions
+    '        If contribution.period = "Monthly" Then
+    '            contribution.insertion()
+    '        End If
+    '    Next
+    '    contriGrid(query)
+    'End If
 
-        If updatedYear <> currentdate.Year Then
-            For Each contribution As class_contribution In contributions
-                If contribution.period = "Annually" Then
-                    contribution.insertion()
-                End If
-            Next
-            contriGrid(query)
-        End If
+    'If updatedYear <> currentdate.Year Then
+    '    For Each contribution As class_contribution In contributions
+    '        If contribution.period = "Annually" Then
+    '            contribution.insertion()
+    '        End If
+    '    Next
+    '    contriGrid(query)
+    'End If
 
-        If updatedWeek <> currentweek Then
-            For Each contribution As class_contribution In contributions
-                If contribution.period = "Weekly" Then
-                    contribution.insertion()
-                End If
-            Next
-            contriGrid(query)
-        End If
+    'If updatedWeek <> currentweek Then
+    '    For Each contribution As class_contribution In contributions
+    '        If contribution.period = "Weekly" Then
+    '            contribution.insertion()
+    '        End If
+    '    Next
+    '    contriGrid(query)
+    'End If
 
-        If updatedDay <> currentdate.Day Then
-            For Each contribution As class_contribution In contributions
-                If contribution.period = "Daily" Then
-                    contribution.insertion()
-                End If
-            Next
-            contriGrid(query)
-        End If
+    'If updatedDay <> currentdate.Day Then
+    '    For Each contribution As class_contribution In contributions
+    '        If contribution.period = "Daily" Then
+    '            contribution.insertion()
+    '        End If
+    '    Next
+    '    contriGrid(query)
+    'End If
 
-        updatedMonth = currentdate.Month
-        updatedYear = currentdate.Year
-        updatedWeek = currentweek
-        updatedDay = currentdate.Day
+    'updatedMonth = currentdate.Month
+    'updatedYear = currentdate.Year
+    'updatedWeek = currentweek
+    'updatedDay = currentdate.Day
 
-    End Sub
+    ' End Sub
 
     Private Sub btnUpdateContriType_Click(sender As Object, e As EventArgs) Handles btnUpdateContriType.Click
         Try
@@ -833,7 +853,6 @@ Public Class Loan
             Dim worksheet As ExcelWorksheet = workbook.Worksheets.Add("Sheet1")
             Dim counter As Integer = 13
 
-
             worksheet.Cells("A2").Value = "OFFICE"
             worksheet.Cells("A3").Value = "TOTAL CONTRIBUTIONS"
             worksheet.Cells("A5").Value = dgContriTotal.Columns(0).HeaderText
@@ -868,7 +887,6 @@ Public Class Loan
                 counter = counter + 1
             Next
 
-
             Dim locateProject As String = My.Application.Info.DirectoryPath
             Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
             Dim location As String = locateProject.Substring(0, indext)
@@ -880,16 +898,29 @@ Public Class Loan
                 Dim randomNum As Integer = random.Next(1, 501)
                 filePath = location & "\Resources\Exported_file\" & pickContriOffice.SelectedItem & "_Contribution" & randomNum & ".xlsx"
                 package.SaveAs(New System.IO.FileInfo(filePath))
-                MsgBox("File saved to " & filePath)
+                MessageBox.Show("File saved to " & filePath, "Response")
             Else
                 package.SaveAs(New System.IO.FileInfo(filePath))
-                MsgBox("File saved to " & filePath)
+                MessageBox.Show("File saved to " & filePath, "Response")
             End If
         End Using
     End Sub
 
+    Public Sub contriTrigger(upDate, currentDate, period)
+        Dim remainder As Integer
+        If upDate <> currentDate Then
+            remainder = currentDate - upDate
+            For Each contribution As class_contribution In contributions
+                If contribution.period = period Then
+                    contribution.insertion(remainder)
+                End If
+            Next
+            contriGrid(query)
+        End If
+    End Sub
+
     Private Sub btnUpToDateContri_Click(sender As Object, e As EventArgs) Handles btnUpToDateContri.Click
-        pickContriOffice.SelectedIndex = 1
+        pickContriOffice.SelectedIndex = 0
         contriGrid(query)
         Dim currentdate As DateTime
         Dim currentweek As Integer
@@ -924,53 +955,21 @@ Public Class Loan
             Dim singaporeDateTime As DateTime = TimeZoneInfo.ConvertTimeFromUtc(networkDateTime, singaporeTimeZone)
             currentdate = singaporeDateTime
             currentweek = currentdate.DayOfYear / 7
-            MsgBox(singaporeDateTime.DayOfWeek)
-            MessageBox.Show("Internet Time (Singapore Standard Time): " & singaporeDateTime.ToString("yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture))
+
         Catch ex As Exception
             MessageBox.Show("An error occurred while getting the internet time: " & ex.Message)
         End Try
-
-
-        If updatedMonth <> currentdate.Month Then
-            For Each contribution As class_contribution In contributions
-                If contribution.period = "Monthly" Then
-                    contribution.insertion()
-                End If
-            Next
-            contriGrid(query)
-        End If
-
-        If updatedYear <> currentdate.Year Then
-            For Each contribution As class_contribution In contributions
-                If contribution.period = "Annually" Then
-                    contribution.insertion()
-                End If
-            Next
-            contriGrid(query)
-        End If
-
-        If updatedWeek <> currentweek Then
-            For Each contribution As class_contribution In contributions
-                If contribution.period = "Weekly" Then
-                    contribution.insertion()
-                End If
-            Next
-            contriGrid(query)
-        End If
-
-        If updatedDay <> currentdate.Day Then
-            For Each contribution As class_contribution In contributions
-                If contribution.period = "Daily" Then
-                    contribution.insertion()
-                End If
-            Next
-            contriGrid(query)
-        End If
+        MsgBox(currentdate.Month & " " & currentdate.Year & " " & currentweek & " " & currentdate.Day & vbNewLine & updatedMonth & " " & updatedYear & " " & updatedWeek & " " & updatedDay)
+        contriTrigger(updatedMonth, currentdate.Month, "Monthly")
+        contriTrigger(updatedYear, currentdate.Year, "Annually")
+        contriTrigger(updatedWeek, currentweek, "Weekly")
+        contriTrigger(updatedDay, currentdate.Day, "Daily")
 
         updatedMonth = currentdate.Month
         updatedYear = currentdate.Year
         updatedWeek = currentweek
         updatedDay = currentdate.Day
+        MessageBox.Show("RECORD WAS UPDATED TO " & vbNewLine & currentdate, "Response")
     End Sub
     '----------------------------------------------END OF CONTRIBUTIONS-----------------------------------------------------------
 
