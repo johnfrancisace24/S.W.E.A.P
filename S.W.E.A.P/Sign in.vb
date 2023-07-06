@@ -21,9 +21,9 @@ Public Class Form2
         Dim DateAndTime As String = DateTime.Now.ToString()
 
         If (txtUsername.Text = "") Then
-            MsgBox("Username can't be blank.")
+            MessageBox.Show("Username can't be blank.", "Invalid", MessageBoxButtons.OK, MessageBoxIcon.Error)
         ElseIf (txtPassword.Text = "") Then
-            MsgBox("Password can't be blank.")
+            MessageBox.Show("Password can't be blank.", "Invalid", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Else
             Dim status As Integer = 3
             Try
@@ -47,7 +47,7 @@ Public Class Form2
                     Me.Hide()
                     user_dashboard.Show()
                 Else
-                    MsgBox("Invalid username or password.")
+                    MessageBox.Show("Invalid Username or Password", "Invalid", MessageBoxButtons.OK, MessageBoxIcon.Error)
                 End If
                 rid.Close() ' Close the data reader
 

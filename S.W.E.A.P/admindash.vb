@@ -40,6 +40,20 @@ Public Class admindash
             tabEdit.Visible = False ' Hide the employeepanel
         End If
 
+        Try
+            conn.Open()
+            Dim counter As Integer = 3
+            Dim cmd As New MySqlCommand("select alias from contri_types", conn)
+            rid = cmd.ExecuteReader
+            While rid.Read
+                dgContributions.Columns(counter).HeaderText = rid.Item("alias")
+                counter = counter + 1
+            End While
+        Catch ex As Exception
+            MessageBox.Show("Failed fetching contribution's header text", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            conn.Close()
+        End Try
 
         lblContri1.Text = dgContributions.Columns(3).HeaderText
         lblContri2.Text = dgContributions.Columns(4).HeaderText
