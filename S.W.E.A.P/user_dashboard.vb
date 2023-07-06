@@ -283,11 +283,27 @@ Public Class user_dashboard
         Dim random As New Random()
         Dim randomNum As Integer = random.Next(1, 501)
         Dim destinationPath As String = location & "\Resources\user_profile\" & txtbxusername.Text & randomNum & getExtension
-        File.Copy(sourceFilePath, destinationPath, 0)
-        imageInput = "\" & txtbxusername.Text & randomNum & getExtension
 
         Try
             conn.Open() ' Opens a connection to the database.
+
+            Dim selectCmd As New MySqlCommand("SELECT image from users WHERE id = @ID", conn)
+            selectCmd.Parameters.AddWithValue("@ID", Form2.log_id)
+            Dim dr As MySqlDataReader = selectCmd.ExecuteReader() ' Use a separate variable for the first DataReader
+            Dim imageName As String = ""
+            While dr.Read()
+                imageName = dr.GetString("image")
+            End While
+            dr.Close() ' Close the first DataReader
+
+            ' Check if the source file path is valid and exists
+            If Not String.IsNullOrEmpty(sourceFilePath) AndAlso File.Exists(sourceFilePath) Then
+                File.Copy(sourceFilePath, destinationPath, True)
+                imageInput = "\" & txtbxusername.Text & randomNum & getExtension
+            Else
+                imageInput = imageName
+            End If
+            ' Create an update command to update the database
             Dim cmd As New MySqlCommand("UPDATE users " &
                                         "INNER JOIN user_info ON users.id = user_info.user_id " &
                                         "SET users.username = @username, users.password = @password, users.first_name = @first, users.middle_name = @mid, users.last_name = @last, users.position = @pos, users.image = @img, users.sex = @sex, user_info.address = @adds, user_info.contact = @contact, user_info.email = @email, user_info.educational = @educ, user_info.birthdate = @birthdate, user_info.office = @office, user_info.employment_status = @employ, user_info.committee = @comm " &
@@ -312,16 +328,8 @@ Public Class user_dashboard
             cmd.Parameters.AddWithValue("@employ", cmbxemployment.SelectedItem)
             cmd.Parameters.AddWithValue("@comm", cmbxcomm.SelectedItem)
 
-            cmd.ExecuteNonQuery()
+            cmd.ExecuteNonQuery()  'Execute the update command
             MessageBox.Show("Updated successfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            signups.ClearAllTextboxes(Me) ' Clear all textboxes
-
-            'Mawawala ang lahat ng text sa combo box
-            cmboSex.SelectedItem = -1
-            cmbxoffice.SelectedItem = -1
-            cmbxemployment.SelectedItem = -1
-            cmbxposition.SelectedItem = -1
-            cmbxcomm.SelectedItem = -1
 
         Catch ex As Exception
             MsgBox("Error: " & ex.Message)
