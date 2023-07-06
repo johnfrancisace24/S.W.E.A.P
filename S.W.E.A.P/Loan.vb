@@ -192,19 +192,20 @@ Public Class Loan
     End Sub
 
     Public Sub forPickBox(input, query, selection)
-
         Try
-            conn.Open()
-            Dim cmd As New MySqlCommand(query, conn)
-            rid = cmd.ExecuteReader
-            While rid.Read
-                input.Items.Add(rid.Item(selection))
+            conn.Open() ' Open the database connection
+            Dim cmd As New MySqlCommand(query, conn) ' Create a command with the provided query
+            rid = cmd.ExecuteReader ' Execute the command and obtain a reader to retrieve the data
+            While rid.Read ' Loop through each row of data
+                input.Items.Add(rid.Item(selection)) ' Add the value of the selected column to the items of the input control
             End While
         Catch ex As Exception
+            MessageBox.Show("Fetching data to combobox doesn't work", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally
-            conn.Close()
+            conn.Close() ' Close the database connection
         End Try
     End Sub
+
     Public Sub forHeader()
 
         Dim counter As Integer
@@ -225,13 +226,13 @@ Public Class Loan
     '------------------------------------END OF FUNCTIONS-----------------------------------------------------
 
     Private Sub btnSetSched_Click(sender As Object, e As EventArgs) Handles btnSetSched.Click '-------SET SCHEDULE BUTTON
-        validation(numLamount.Value, 999, "Loan can't be less than 1000.")
-        validation(numAintRate.Value, 0, "Anual Interest rate can't be less than or equal to 0.")
-        validation(numPyears.Value, 0, "Loan Period in years can't be less than or equal to 0.")
-        validation(numPayYears.Value, 11, "Number of payment per year can't be less than 12.")
+        validation(numLamount.Value, 999, "* Loan can't be less than 1000.")
+        validation(numAintRate.Value, 0, "* Anual Interest rate can't be less than or equal to 0.")
+        validation(numPyears.Value, 0, "* Loan Period in years can't be less than or equal to 0.")
+        validation(numPayYears.Value, 11, "* Number of payment per year can't be less than 12.")
         If selectedId = 0 Then
             ' Add an error message for blank lender name
-            error_msg(random) = "Lender name can't be blank." & vbNewLine
+            error_msg(random) = "* Lender name can't be blank." & vbNewLine
             random = random + 1
             ReDim Preserve error_msg(random)
         End If
@@ -296,7 +297,7 @@ Public Class Loan
             btnApprove.Enabled = True
         Else
             ' Display error message in a MessageBox
-            MessageBox.Show(message, "Invalid Input")
+            MessageBox.Show(message, "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Error)
 
             ' Reset variables and arrays
             errChecker = 0
@@ -539,7 +540,31 @@ Public Class Loan
         End If
         'TRIGGERS IF THE 8TH INDEX IS CLICKED, USED TO MARK AS PAID TO THE LOAN
         If e.ColumnIndex = 8 AndAlso e.RowIndex >= 0 Then '----------------TO PAID
-            Dim result As DialogResult = MessageBox.Show("Is this loan paid already?" & vbNewLine & "Warning: You cannot change it back.", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning)
+<<<<<<< HEAD
+            If dgLoans.CurrentRow.Cells(7).Value.ToString() = "Ongoing" Then
+                Dim result As DialogResult = MessageBox.Show("Is this loan paid already?" & vbNewLine & "Warning: You cannot change it back.", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning)
+                If result = DialogResult.Yes Then
+                    idSelect = dgLoans.CurrentRow.Cells(0).Value.ToString()
+                    Try
+                        conn.Open()
+                        Dim cmd As New MySqlCommand("update loan_info set status = 'Paid' where id = @ID", conn)
+                        cmd.Parameters.AddWithValue("@ID", idSelect)
+                        cmd.ExecuteNonQuery()
+                        MessageBox.Show("Record update succeeded!", "Response")
+                    Catch ex As Exception
+                        MessageBox.Show("Error updating status!", "Response")
+                    Finally
+                        conn.Close()
+                    End Try
+                    dgLoans.Rows.Clear()
+
+                End If
+            Else
+                MessageBox.Show("Loan already marked as Paid.", "Response")
+            End If
+
+=======
+            Dim result As DialogResult = MessageBox.Show("Is this loan paid already?" & vbNewLine & "Warning: You cannot change it back.", "Confirmation", MessageBoxButtons.YesNo)
             If result = DialogResult.Yes Then
                 idSelect = dgLoans.CurrentRow.Cells(0).Value.ToString()
                 Try
@@ -553,8 +578,9 @@ Public Class Loan
                 Finally
                     conn.Close()
                 End Try
+                dgLoans.Rows.Clear()
             End If
-            dgLoans.Rows.Clear()
+>>>>>>> 69a69f53e1b17621cc4fd3752ed7058b86b2a225
         End If
     End Sub
 
@@ -780,6 +806,7 @@ Public Class Loan
             conn.Close()
         End Try
         contriEditFields(False)
+        forHeader()
     End Sub
 
     Private Sub btnOpenEdit_Click(sender As Object, e As EventArgs) Handles btnOpenEdit.Click
@@ -792,19 +819,20 @@ Public Class Loan
 
     Private Sub pickContriName_SelectedIndexChanged(sender As Object, e As EventArgs) Handles pickContriName.SelectedIndexChanged
         Try
-            conn.Open()
-            Dim cmd As New MySqlCommand("select * from contri_types where alias=@NAME", conn)
-            cmd.Parameters.AddWithValue("@NAME", pickContriName.SelectedItem)
-            rid = cmd.ExecuteReader
-            While rid.Read
-                pickContriEditPeriod.SelectedItem = rid.Item("periodity")
-                numContriEditAmount.Value = rid.Item("amount")
+            conn.Open() ' Open the database connection
+            Dim cmd As New MySqlCommand("select * from contri_types where alias=@NAME", conn) ' Create a command to select data from the contri_types table
+            cmd.Parameters.AddWithValue("@NAME", pickContriName.SelectedItem) ' Set the parameter value with the selected item
+            rid = cmd.ExecuteReader ' Execute the command and obtain a reader to retrieve the data
+            While rid.Read ' Loop through each row of data
+                pickContriEditPeriod.SelectedItem = rid.Item("periodity") ' Set the selected item of pickContriEditPeriod to the value of the "periodity" column
+                numContriEditAmount.Value = rid.Item("amount") ' Set the value of numContriEditAmount to the value of the "amount" column
             End While
         Catch ex As Exception
-            MsgBox("Fetching data failed at pickContriName")
+            MsgBox("Fetching data failed at pickContriName: " & ex.Message)
         Finally
-            conn.Close()
+            conn.Close() ' Close the database connection
         End Try
+
     End Sub
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click '-----------LOCK BUTTON FROM CONTRIBUTION
@@ -818,48 +846,39 @@ Public Class Loan
         If pickContriOffice.SelectedItem = "All Members" Then
             contriGrid(query)
         Else
-            ' Clear the rows in dgContribution and dgContriTotal
             dgContribution.Rows.Clear()
-            dgContriTotal.Rows.Clear()
-
             Try
                 conn.Open()
-
-                ' Retrieve contribution details for selected office from contributions table
-                Dim contributionCmd As New MySqlCommand("SELECT contributions.user_id, office, CONCAT(users.first_name, ' ', users.middle_name, ' ', users.last_name) AS full_name, users.position, SUM(contribution1) AS membership, 
-                                                            SUM(contribution2) AS union_due, SUM(contribution3) AS bereavement, SUM(contribution4) AS con4, SUM(contribution5) AS con5, contributions.updated_at 
-                                                            FROM contributions 
-                                                            LEFT JOIN users ON contributions.user_id = users.id 
-                                                            LEFT JOIN user_info ON contributions.user_id = user_info.user_id  
-                                                            WHERE office = @OFFICE 
-                                                            GROUP BY contributions.user_id", conn)
-                contributionCmd.Parameters.AddWithValue("@OFFICE", pickContriOffice.SelectedItem)
-                rid = contributionCmd.ExecuteReader
-
-                ' Populate dgContribution with retrieved contribution data
+                Dim cmd As New MySqlCommand("select contributions.user_id, office, concat(users.first_name, ' ', users.middle_name, ' ', users.last_name) as full_name, users.position, sum(contribution1) as membership,
+                    sum(contribution2) as union_due, sum(contribution3) as bereavement, sum(contribution4) as con4, sum(contribution5) as con5, contributions.updated_at from contributions left join users
+                    on contributions.user_id = users.id left join user_info on contributions.user_id = user_info.user_id  where office = @OFFICE
+                    group by contributions.user_id", conn)
+                cmd.Parameters.AddWithValue("@OFFICE", pickContriOffice.SelectedItem)
+                rid = cmd.ExecuteReader
                 While rid.Read
                     dgContribution.Rows.Add(rid.Item("user_id"), rid.Item("full_name"), rid.Item("position"), rid.Item("membership"), rid.Item("union_due"), rid.Item("bereavement"), rid.Item("con4"), rid.Item("con5"), rid.Item("updated_at"))
                 End While
+            Catch ex As Exception
 
-                ' Retrieve total contribution amounts for selected office from contributions table
-                Dim totalContributionCmd As New MySqlCommand("SELECT office, SUM(contribution1) AS contri1, SUM(contribution2) AS contri2, SUM(contribution3) AS contri3, SUM(contribution4) AS contri4, SUM(contribution5) AS contri5 
-                                                                FROM contributions 
-                                                                LEFT JOIN user_info ON contributions.user_id = user_info.user_id 
-                                                                WHERE office = @OFFICE", conn)
-                totalContributionCmd.Parameters.AddWithValue("@OFFICE", pickContriOffice.SelectedItem)
-                rid = totalContributionCmd.ExecuteReader
-
-                ' Populate dgContriTotal with retrieved total contribution amounts
+            Finally
+                conn.Close()
+            End Try
+            dgContriTotal.Rows.Clear()
+            Try
+                conn.Open()
+                Dim cmd As New MySqlCommand("select office, sum(contribution1) as contri1, sum(contribution2) as contri2, sum(contribution3) as contri3, sum(contribution4) as contri4, sum(contribution5) as contri5 from contributions left join user_info on contributions.user_id = user_info.user_id
+                                            where office = @OFFICE", conn)
+                cmd.Parameters.AddWithValue("@OFFICE", pickContriOffice.SelectedItem)
+                rid = cmd.ExecuteReader
                 While rid.Read
                     dgContriTotal.Rows.Add(rid.Item("contri1"), rid.Item("contri2"), rid.Item("contri3"), rid.Item("contri4"), rid.Item("contri5"))
                 End While
-
             Catch ex As Exception
-                ' Handle any exceptions that occur during database operations
             Finally
                 conn.Close()
             End Try
         End If
+
 
 
     End Sub
@@ -928,6 +947,7 @@ Public Class Loan
                 package.SaveAs(New System.IO.FileInfo(filePath))
                 MessageBox.Show("File saved to " & filePath, "Response")
             End If
+
         End Using
     End Sub
 
@@ -990,8 +1010,11 @@ Public Class Loan
         Catch ex As Exception
             MessageBox.Show("An error occurred while getting the internet time: " & ex.Message)
         End Try
+<<<<<<< HEAD
+        'MsgBox(currentdate.Month & " " & currentdate.Year & " " & currentweek & " " & currentdate.Day & vbNewLine & updatedMonth & " " & updatedYear & " " & updatedWeek & " " & updatedDay)
+=======
 
-        ' Trigger the contribution updates based on current date and time
+>>>>>>> 69a69f53e1b17621cc4fd3752ed7058b86b2a225
         contriTrigger(updatedMonth, currentdate.Month, "Monthly")
         contriTrigger(updatedYear, currentdate.Year, "Annually")
         contriTrigger(updatedWeek, currentweek, "Weekly")
