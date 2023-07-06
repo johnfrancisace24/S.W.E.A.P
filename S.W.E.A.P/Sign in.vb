@@ -9,7 +9,7 @@ Public Class Form2
     ' Server change form
     Private serverChange As serverChange
 
-    Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub MainForm_Load(sender As Object, e As EventArgs)
         ' Create the initial connection object
         conn = New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap")
     End Sub
