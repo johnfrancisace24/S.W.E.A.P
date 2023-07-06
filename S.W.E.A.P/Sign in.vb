@@ -2,38 +2,8 @@
 
 Public Class Form2
     ' Connection object
-    Public Shared conn As MySqlConnection
-
-    Private rid As MySqlDataReader
-
-    ' Server change form
-    Private serverChange As serverChange
-
-    Private Sub MainForm_Load(sender As Object, e As EventArgs)
-        ' Create the initial connection object
-        conn = New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap")
-    End Sub
-
-    Private Sub btnChangeServer_Click(sender As Object, e As EventArgs) Handles btnChangeServer.Click
-        ' Create a new instance of the server change form
-        serverChange = New serverChange()
-
-        ' Show the server change form as a dialog
-        If serverChange.ShowDialog() = DialogResult.OK Then
-            ' Retrieve the new server details from the form
-            Dim newServer As String = serverChange.txtServer.Text
-            Dim newPort As Integer = Integer.Parse(serverChange.txtPort.Text)
-
-            ' Update the connection string with the new server details
-            conn.ConnectionString = $"server={newServer};port={newPort};username=dswd;password=sweap123;database=sweap"
-
-            ' Show a message indicating successful server change
-            MessageBox.Show("Server changed successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
-        End If
-
-        ' Dispose the server change form
-        serverChange.Dispose()
-    End Sub
+    Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap")
+    Dim rid As MySqlDataReader
 
     Public Shared log_id As Integer
 

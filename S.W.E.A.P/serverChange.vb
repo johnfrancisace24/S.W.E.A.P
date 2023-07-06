@@ -2,7 +2,6 @@
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
         Me.DialogResult = DialogResult.OK
         Me.Close()
-        Form2.conn.Close()
     End Sub
 
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click

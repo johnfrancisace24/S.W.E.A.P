@@ -715,4 +715,8 @@ user_info.user_id = contributions.user_id group by office", conn)
             getExtension = System.IO.Path.GetExtension(opf.FileName)
         End If
     End Sub
+
+    Private Sub Guna2ControlBox1_Click(sender As Object, e As EventArgs) Handles Guna2ControlBox1.Click
+        Application.Exit()
+    End Sub
 End Class
