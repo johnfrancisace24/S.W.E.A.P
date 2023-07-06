@@ -23,23 +23,24 @@ Partial Class Form2
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges17 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges18 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges19 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Form2))
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         txtPassword = New Guna.UI2.WinForms.Guna2TextBox()
         PictureBox1 = New PictureBox()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        btnChangeServer = New Guna.UI2.WinForms.Guna2Button()
         Label5 = New Label()
         lblRegister = New Label()
         Label2 = New Label()
@@ -51,7 +52,6 @@ Partial Class Form2
         Label4 = New Label()
         Label3 = New Label()
         Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
-        btnChangeServer = New Guna.UI2.WinForms.Guna2Button()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Guna2Panel1.SuspendLayout()
         Panel1.SuspendLayout()
@@ -66,7 +66,7 @@ Partial Class Form2
         ' txtPassword
         ' 
         txtPassword.BorderRadius = 10
-        txtPassword.CustomizableEdges = CustomizableEdges21
+        txtPassword.CustomizableEdges = CustomizableEdges9
         txtPassword.DefaultText = ""
         txtPassword.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtPassword.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -83,7 +83,7 @@ Partial Class Form2
         txtPassword.PlaceholderForeColor = Color.Gray
         txtPassword.PlaceholderText = "PASSWORD"
         txtPassword.SelectedText = ""
-        txtPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges22
+        txtPassword.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         txtPassword.Size = New Size(340, 45)
         txtPassword.TabIndex = 0
         txtPassword.TextAlign = HorizontalAlignment.Center
@@ -111,12 +111,33 @@ Partial Class Form2
         Guna2Panel1.Controls.Add(btnLogin)
         Guna2Panel1.Controls.Add(txtUsername)
         Guna2Panel1.Controls.Add(txtPassword)
-        Guna2Panel1.CustomizableEdges = CustomizableEdges23
+        Guna2Panel1.CustomizableEdges = CustomizableEdges11
         Guna2Panel1.Location = New Point(28, 202)
         Guna2Panel1.Name = "Guna2Panel1"
-        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges24
+        Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         Guna2Panel1.Size = New Size(408, 404)
         Guna2Panel1.TabIndex = 2
+        ' 
+        ' btnChangeServer
+        ' 
+        btnChangeServer.BorderRadius = 10
+        btnChangeServer.Cursor = Cursors.Hand
+        btnChangeServer.CustomizableEdges = CustomizableEdges3
+        btnChangeServer.DisabledState.BorderColor = Color.DarkGray
+        btnChangeServer.DisabledState.CustomBorderColor = Color.DarkGray
+        btnChangeServer.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        btnChangeServer.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        btnChangeServer.FillColor = Color.Transparent
+        btnChangeServer.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnChangeServer.ForeColor = Color.White
+        btnChangeServer.HoverState.FillColor = Color.Transparent
+        btnChangeServer.HoverState.ForeColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
+        btnChangeServer.Location = New Point(34, 310)
+        btnChangeServer.Name = "btnChangeServer"
+        btnChangeServer.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        btnChangeServer.Size = New Size(108, 37)
+        btnChangeServer.TabIndex = 4
+        btnChangeServer.Text = "Change server"
         ' 
         ' Label5
         ' 
@@ -182,7 +203,7 @@ Partial Class Form2
         ' btnLogin
         ' 
         btnLogin.BorderRadius = 10
-        btnLogin.CustomizableEdges = CustomizableEdges17
+        btnLogin.CustomizableEdges = CustomizableEdges5
         btnLogin.DisabledState.BorderColor = Color.DarkGray
         btnLogin.DisabledState.CustomBorderColor = Color.DarkGray
         btnLogin.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
@@ -191,7 +212,7 @@ Partial Class Form2
         btnLogin.ForeColor = Color.White
         btnLogin.Location = New Point(34, 260)
         btnLogin.Name = "btnLogin"
-        btnLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges18
+        btnLogin.ShadowDecoration.CustomizableEdges = CustomizableEdges6
         btnLogin.Size = New Size(340, 44)
         btnLogin.TabIndex = 1
         btnLogin.Text = "LOGIN"
@@ -199,7 +220,7 @@ Partial Class Form2
         ' txtUsername
         ' 
         txtUsername.BorderRadius = 10
-        txtUsername.CustomizableEdges = CustomizableEdges19
+        txtUsername.CustomizableEdges = CustomizableEdges7
         txtUsername.DefaultText = ""
         txtUsername.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtUsername.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -216,7 +237,7 @@ Partial Class Form2
         txtUsername.PlaceholderForeColor = Color.Gray
         txtUsername.PlaceholderText = "USERNAME"
         txtUsername.SelectedText = ""
-        txtUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges20
+        txtUsername.ShadowDecoration.CustomizableEdges = CustomizableEdges8
         txtUsername.Size = New Size(340, 45)
         txtUsername.TabIndex = 0
         txtUsername.TextAlign = HorizontalAlignment.Center
@@ -256,35 +277,16 @@ Partial Class Form2
         ' 
         ' Guna2PictureBox1
         ' 
-        Guna2PictureBox1.CustomizableEdges = CustomizableEdges13
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges1
         Guna2PictureBox1.Image = My.Resources.Resources.close
         Guna2PictureBox1.ImageRotate = 0F
         Guna2PictureBox1.Location = New Point(434, 6)
         Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges14
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2PictureBox1.Size = New Size(24, 24)
         Guna2PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         Guna2PictureBox1.TabIndex = 4
         Guna2PictureBox1.TabStop = False
-        ' 
-        ' btnChangeServer
-        ' 
-        btnChangeServer.BorderRadius = 10
-        btnChangeServer.CustomizableEdges = CustomizableEdges15
-        btnChangeServer.DisabledState.BorderColor = Color.DarkGray
-        btnChangeServer.DisabledState.CustomBorderColor = Color.DarkGray
-        btnChangeServer.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        btnChangeServer.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        btnChangeServer.FillColor = Color.Transparent
-        btnChangeServer.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        btnChangeServer.ForeColor = Color.White
-        btnChangeServer.HoverState.ForeColor = Color.FromArgb(CByte(33), CByte(42), CByte(57))
-        btnChangeServer.Location = New Point(34, 310)
-        btnChangeServer.Name = "btnChangeServer"
-        btnChangeServer.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        btnChangeServer.Size = New Size(108, 37)
-        btnChangeServer.TabIndex = 4
-        btnChangeServer.Text = "Change server"
         ' 
         ' Form2
         ' 

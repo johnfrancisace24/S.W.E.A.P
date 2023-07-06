@@ -214,6 +214,9 @@
   <data name="contriimg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\contriimg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="dashboard (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="beneficiary" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\beneficiary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -244,8 +247,11 @@
   <data name="house (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\house (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="profile (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\profile (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Team-Work-PNG-Clipart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Team-Work-PNG-Clipart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="euro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\euro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -259,13 +265,13 @@
   <data name="house" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\house.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dashboard (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dashboard (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="image-removebg-preview (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image-removebg-preview (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Team-Work-PNG-Clipart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Team-Work-PNG-Clipart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="profile (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profile (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cross-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
