@@ -726,39 +726,44 @@ Public Class Loan
     Public Shared contributions(4) As class_contribution
 
     Public Class class_contribution
+        'This Class represents a contribution With its name, period, And amount. The constructor New initializes the instance variables
+        'With the provided values.
+        'The insertion method performs the database insertion Of the contribution. It opens the database connection, constructs the SQL query,
+        'And uses parameters To prevent SQL injection. The query updates the contribution column With the specified amount multiplied by the
+        'remainder value. Finally, the method executes the query And closes the database connection.
         Public contriName As String
         Public period As String
         Public amount As Integer
+
         Public Sub New(name As String, period As String, amount As Integer)
+            ' Constructor for the class_contribution class
+            ' Initializes the contribution name, period, and amount
             Me.contriName = name
             Me.period = period
             Me.amount = amount
         End Sub
+
         Public Sub insertion(remainder)
-            'For Each row As DataGridViewRow In Loan.dgContribution.Rows
-            'If Not row.IsNewRow Then
+            ' Method to perform the insertion of contribution into the database
             Try
                 Loan.conn.Open()
                 Dim columnName As String = Me.contriName
-                Dim query As String = "update contributions set " & columnName & " = " & columnName & " + @AMOUNT, updated_at = now()"
-                'Dim query As String = "insert into contributions(user_id, " & columnName & ", updated_at)values(@ID, @AMOUNT, now())"
+                Dim query As String = "UPDATE contributions SET " & columnName & " = " & columnName & " + @AMOUNT, updated_at = now()"
                 Dim cmd As New MySqlCommand(query, Loan.conn)
-                'cmd.Parameters.AddWithValue("@ID", row.Cells(0).Value.ToString())
                 cmd.Parameters.AddWithValue("@AMOUNT", Me.amount * remainder)
                 cmd.ExecuteNonQuery()
             Catch ex As Exception
-                MsgBox("Insertion of contribution doesn't work")
+                MsgBox("Insertion of contribution failed: " & ex.Message)
             Finally
                 Loan.conn.Close()
             End Try
-            'End If
-            ' Next
         End Sub
-
     End Class
 
     Private Sub btnUpdateContriType_Click(sender As Object, e As EventArgs) Handles btnUpdateContriType.Click
-        '
+        'This code block performs an update operation on the contri_types table. It opens a database connection And
+        'constructs an SQL query To update the Alias, amount, periodity, And updated_at columns. The @CN, @AMOUNT,
+        '@PER, And @OCN parameters are used to provide values for the update operation.
         Try
             conn.Open()
             Dim cmd As New MySqlCommand("update contri_types set alias = @CN, amount = @AMOUNT, periodity = @PER, updated_at = now() where alias=@OCN;", conn)
