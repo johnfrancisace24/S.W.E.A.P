@@ -560,7 +560,7 @@ Public Class Loan
 
                 End If
             Else
-                MessageBox.Show("Loan already marked as Paid.", "Response")
+                MessageBox.Show("Loan already marked as Paid.", "Response", MessageBoxButtons.OK, MessageBoxIcon.Information)
             End If
         End If
     End Sub

@@ -8,6 +8,7 @@ Imports System.Text.RegularExpressions
 Imports Microsoft.Office.Interop.Excel
 Imports System.Windows.Forms.DataVisualization.Charting
 Imports System.Diagnostics.Metrics
+Imports System.CodeDom
 
 Public Class admindash
     Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap")
@@ -24,8 +25,6 @@ Public Class admindash
     Dim getExtension As String
     ' This variable is used to store the file extension of a file.
     Private Sub admindash_Load(sender As Object, e As EventArgs) Handles MyBase.Load '---------------AUTOLOAD
-
-
         getname()
         LoadChart()
         viewMembers("select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, employment_status, 
@@ -39,6 +38,32 @@ Public Class admindash
         Else
             tabEdit.Visible = False ' Hide the employeepanel
         End If
+
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select sum(contribution1) + sum(contribution2) + sum(contribution3) + sum(contribution4) + sum(contribution5) as overall from contributions", conn)
+            rid = cmd.ExecuteReader
+            If rid.Read Then
+                lblContriOverall.Text = rid.Item("overall")
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Overall contributions fetching failed", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            conn.Close()
+        End Try
+
+        Try
+            conn.Open()
+            Dim cmd As New MySqlCommand("select count(id) as loans from loan_info", conn)
+            rid = cmd.ExecuteReader
+            If rid.Read Then
+                lblLoans.Text = rid.Item("loans")
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Loans fetching failed", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Finally
+            conn.Close()
+        End Try
 
         Try
             conn.Open()
@@ -551,11 +576,13 @@ Public Class admindash
         Me.Close()
     End Sub
 
-    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click, btnViewContributions.Click
+    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
         Guna2TabControl1.SelectedTab = tabEmployee
     End Sub
 
-
+    Private Sub btnViewContributions_Click(sender As Object, e As EventArgs) Handles btnViewContributions.Click, Guna2Button1.Click
+        Guna2TabControl1.SelectedTab = tabContri
+    End Sub
     Sub LoadChart()
         With ChartMemberCount
             .Series.Clear()
