@@ -510,5 +510,4 @@ Public Class user_dashboard
             getExtension = System.IO.Path.GetExtension(opf.FileName)
         End If
     End Sub
-
 End Class
