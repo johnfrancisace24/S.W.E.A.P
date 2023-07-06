@@ -342,14 +342,17 @@ Public Class Loan
         Dim result As DialogResult = MessageBox.Show("Do you want to proceed?", "Confirmation", MessageBoxButtons.YesNo)
 
         If result = DialogResult.Yes Then
+            Dim random As New Random()
+            Dim randomNum As Integer = random.Next(1, 801)
             CumuInterest = 0
             common_process()
             common_calculation()
             Try
                 conn.Open()
-                Dim cmd As New MySqlCommand("insert into loan_info(user_id, loan_amount, anual_interest_rate, loan_period_years, 
-                                            no_payments_per_year, start_date_of_loan, optional_xtra, status) values(@ID, @ALOAN, @ARATE, @LYEARS, @NOPYEAR, @SDATE, @XTRA, 'Ongoing');", conn)
+                Dim cmd As New MySqlCommand("insert into loan_info(user_id, loans_id, loan_amount, anual_interest_rate, loan_period_years, 
+                                            no_payments_per_year, start_date_of_loan, optional_xtra, status) values(@ID, @LID, @ALOAN, @ARATE, @LYEARS, @NOPYEAR, @SDATE, @XTRA, 'Ongoing');", conn)
                 cmd.Parameters.AddWithValue("@ID", selectedId)
+                cmd.Parameters.AddWithValue("@LID", randomNum)
                 cmd.Parameters.AddWithValue("@ALOAN", numLamount.Value)
                 cmd.Parameters.AddWithValue("@ARATE", numAintRate.Value)
                 cmd.Parameters.AddWithValue("@LYEARS", numPyears.Value)
@@ -374,10 +377,10 @@ Public Class Loan
                 Try
                     conn.Open()
                     Dim cmd As New MySqlCommand("INSERT INTO loans(user_id, loan_id, pmt_no, payment_date, beginning_balance, scheduled_payment, extra_payment,
-                                                total_payment, principal, interest, ending_balance, cumulative_interest) VALUES(@ID, (select id from loan_info where loan_amount=@ALOAN and user_id=@UID),@PAYMENT,
+                                                total_payment, principal, interest, ending_balance, cumulative_interest) VALUES(@ID, @LID,@PAYMENT,
                                                     @DATE, @BEGBAL, @SCHEDP, @XTRA, @TPAYMENT, @PRINCIPAL, @INTEREST, @ENDBAL, @CUMINTEREST)", conn)
                     cmd.Parameters.AddWithValue("@ALOAN", numLamount.Value)
-                    cmd.Parameters.AddWithValue("@UID", selectedId)
+                    cmd.Parameters.AddWithValue("@LID", randomNum)
                     cmd.Parameters.AddWithValue("@ID", selectedId)
                     cmd.Parameters.AddWithValue("@PAYMENT", payment)
                     cmd.Parameters.AddWithValue("@DATE", selectedDate)
@@ -407,7 +410,7 @@ Public Class Loan
 
             End While
 
-            MsgBox("Loan added successfully!")
+            MessageBox.Show("Loan added successfully!", "Response", MessageBoxButtons.OK, MessageBoxIcon.Information)
             reset()
         End If
 
@@ -507,7 +510,7 @@ Public Class Loan
                 cmd.Parameters.AddWithValue("@ID", idSelect)
                 rid = cmd.ExecuteReader
                 While rid.Read
-                    dgLoans.Rows.Add(rid.Item("id"), rid.Item("loan_amount"), rid.Item("anual_interest_rate"), rid.Item("loan_period_years"), rid.Item("no_payments_per_year"), rid.Item("start_date_of_loan"), rid.Item("optional_xtra"), rid.Item("status"))
+                    dgLoans.Rows.Add(rid.Item("loans_id"), rid.Item("loan_amount"), rid.Item("anual_interest_rate"), rid.Item("loan_period_years"), rid.Item("no_payments_per_year"), rid.Item("start_date_of_loan"), rid.Item("optional_xtra"), rid.Item("status"))
                 End While
             Catch ex As Exception
                 MsgBox("EW error")
@@ -547,7 +550,7 @@ Public Class Loan
                     idSelect = dgLoans.CurrentRow.Cells(0).Value.ToString()
                     Try
                         conn.Open()
-                        Dim cmd As New MySqlCommand("update loan_info set status = 'Paid' where id = @ID", conn)
+                        Dim cmd As New MySqlCommand("update loan_info set status = 'Paid' where loans_id = @ID", conn)
                         cmd.Parameters.AddWithValue("@ID", idSelect)
                         cmd.ExecuteNonQuery()
                         MessageBox.Show("Record update succeeded!", "Response")
@@ -779,7 +782,7 @@ Public Class Loan
             cmd.Parameters.AddWithValue("@PER", pickContriEditPeriod.SelectedItem)
             cmd.Parameters.AddWithValue("@OCN", pickContriName.SelectedItem)
             cmd.ExecuteNonQuery()
-            MsgBox("Update Successfully")
+            MessageBox.Show("Update Succeeded!", "Response", MessageBoxButtons.OK, MessageBoxIcon.Information)
             dgContribution.Columns(pickContriName.SelectedIndex + 3).HeaderText = txtNewContriName.Text
         Catch ex As Exception
             MsgBox("Update doesn't work")
@@ -992,7 +995,7 @@ Public Class Loan
             MessageBox.Show("An error occurred while getting the internet time: " & ex.Message)
         End Try
         'MsgBox(currentdate.Month & " " & currentdate.Year & " " & currentweek & " " & currentdate.Day & vbNewLine & updatedMonth & " " & updatedYear & " " & updatedWeek & " " & updatedDay)
-
+        updatedMonth = 6
         contriTrigger(updatedMonth, currentdate.Month, "Monthly")
         contriTrigger(updatedYear, currentdate.Year, "Annually")
         contriTrigger(updatedWeek, currentweek, "Weekly")
