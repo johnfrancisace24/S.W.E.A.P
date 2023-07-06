@@ -540,7 +540,7 @@ Public Class Loan
         End If
         'TRIGGERS IF THE 8TH INDEX IS CLICKED, USED TO MARK AS PAID TO THE LOAN
         If e.ColumnIndex = 8 AndAlso e.RowIndex >= 0 Then '----------------TO PAID
-<<<<<<< HEAD
+
             If dgLoans.CurrentRow.Cells(7).Value.ToString() = "Ongoing" Then
                 Dim result As DialogResult = MessageBox.Show("Is this loan paid already?" & vbNewLine & "Warning: You cannot change it back.", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Warning)
                 If result = DialogResult.Yes Then
@@ -562,25 +562,6 @@ Public Class Loan
             Else
                 MessageBox.Show("Loan already marked as Paid.", "Response")
             End If
-
-=======
-            Dim result As DialogResult = MessageBox.Show("Is this loan paid already?" & vbNewLine & "Warning: You cannot change it back.", "Confirmation", MessageBoxButtons.YesNo)
-            If result = DialogResult.Yes Then
-                idSelect = dgLoans.CurrentRow.Cells(0).Value.ToString()
-                Try
-                    conn.Open()
-                    Dim cmd As New MySqlCommand("update loan_info set status = 'Paid' where id = @ID", conn)
-                    cmd.Parameters.AddWithValue("@ID", idSelect)
-                    cmd.ExecuteNonQuery()
-                    MessageBox.Show("Record update succeeded!", "Response")
-                Catch ex As Exception
-                    MessageBox.Show("Error updating status!", "Response")
-                Finally
-                    conn.Close()
-                End Try
-                dgLoans.Rows.Clear()
-            End If
->>>>>>> 69a69f53e1b17621cc4fd3752ed7058b86b2a225
         End If
     End Sub
 
@@ -1010,11 +991,8 @@ Public Class Loan
         Catch ex As Exception
             MessageBox.Show("An error occurred while getting the internet time: " & ex.Message)
         End Try
-<<<<<<< HEAD
         'MsgBox(currentdate.Month & " " & currentdate.Year & " " & currentweek & " " & currentdate.Day & vbNewLine & updatedMonth & " " & updatedYear & " " & updatedWeek & " " & updatedDay)
-=======
 
->>>>>>> 69a69f53e1b17621cc4fd3752ed7058b86b2a225
         contriTrigger(updatedMonth, currentdate.Month, "Monthly")
         contriTrigger(updatedYear, currentdate.Year, "Annually")
         contriTrigger(updatedWeek, currentweek, "Weekly")
