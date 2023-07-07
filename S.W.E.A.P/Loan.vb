@@ -775,23 +775,30 @@ Public Class Loan
         'This code block performs an update operation on the contri_types table. It opens a database connection And
         'constructs an SQL query To update the Alias, amount, periodity, And updated_at columns. The @CN, @AMOUNT,
         '@PER, And @OCN parameters are used to provide values for the update operation.
-        Try
-            conn.Open()
-            Dim cmd As New MySqlCommand("update contri_types set alias = @CN, amount = @AMOUNT, periodity = @PER, updated_at = now() where alias=@OCN;", conn)
-            cmd.Parameters.AddWithValue("@CN", txtNewContriName.Text)
-            cmd.Parameters.AddWithValue("@AMOUNT", numContriEditAmount.Value)
-            cmd.Parameters.AddWithValue("@PER", pickContriEditPeriod.SelectedItem)
-            cmd.Parameters.AddWithValue("@OCN", pickContriName.SelectedItem)
-            cmd.ExecuteNonQuery()
-            MessageBox.Show("Update Succeeded!", "Response", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            dgContribution.Columns(pickContriName.SelectedIndex + 3).HeaderText = txtNewContriName.Text
-        Catch ex As Exception
-            MsgBox("Update doesn't work")
-        Finally
-            conn.Close()
-        End Try
-        contriEditFields(False)
-        forHeader()
+        If pickContriName.Text = "" Then
+            MessageBox.Show("No selected contribution name.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Else
+            Try
+                conn.Open()
+                Dim cmd As New MySqlCommand("update contri_types set alias = @CN, amount = @AMOUNT, periodity = @PER, updated_at = now() where alias=@OCN;", conn)
+                cmd.Parameters.AddWithValue("@CN", txtNewContriName.Text)
+                cmd.Parameters.AddWithValue("@AMOUNT", numContriEditAmount.Value)
+                cmd.Parameters.AddWithValue("@PER", pickContriEditPeriod.SelectedItem)
+                cmd.Parameters.AddWithValue("@OCN", pickContriName.SelectedItem)
+                cmd.ExecuteNonQuery()
+                MessageBox.Show("Update Succeeded!", "Response", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                dgContribution.Columns(pickContriName.SelectedIndex + 3).HeaderText = txtNewContriName.Text
+            Catch ex As Exception
+                MsgBox("Update doesn't work")
+            Finally
+                conn.Close()
+            End Try
+            contriEditFields(False)
+            forHeader()
+            btnOpenEdit.Enabled = True
+            Guna2Button1.Enabled = False
+        End If
+
     End Sub
 
     Private Sub btnOpenEdit_Click(sender As Object, e As EventArgs) Handles btnOpenEdit.Click

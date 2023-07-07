@@ -600,9 +600,16 @@ Public Class admindash
         Guna2TabControl1.SelectedTab = tabEmployee
     End Sub
 
-    Private Sub btnViewContributions_Click(sender As Object, e As EventArgs) Handles btnViewContributions.Click, Guna2Button1.Click
+    Private Sub btnViewContributions_Click(sender As Object, e As EventArgs) Handles btnViewContributions.Click
         Guna2TabControl1.SelectedTab = tabContri
     End Sub
+    Private Sub btnLoansView_Click(sender As Object, e As EventArgs) Handles btnLoansView.Click
+        Loan.Show()
+        Loan.tabconLoan.SelectedTab = Loan.viewLoan
+        Me.Close()
+
+    End Sub
+
     Sub LoadChart()
         With ChartMemberCount
             .Series.Clear()
@@ -680,40 +687,53 @@ user_info.user_id = contributions.user_id group by office", conn)
 
     End Sub
 
+    Private Sub txtAmount_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtAmount.KeyPress
+        If Not Char.IsControl(e.KeyChar) AndAlso Not Char.IsDigit(e.KeyChar) Then
+            e.Handled = True
+        End If
+    End Sub
+
     Private Sub bttnTransferFund_Click(sender As Object, e As EventArgs) Handles bttnTransferFund.Click
         Dim labelData As String = txtAmount.Text
         Dim labelname As String = txtName.Text
-        Dim message As String = "Are you sure you want to add fund amounting " & labelData & " to account name: " & labelname & "?"
+        If txtName.Text = "" Then
+            MessageBox.Show("Name field can't be blank.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        ElseIf txtAmount.Text = "" Then
+            MessageBox.Show("Amount field can't be blank.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Else
+            Dim message As String = "Are you sure you want to add fund amounting " & labelData & " to account name: " & labelname & "?"
 
 
-        Dim result As DialogResult = MessageBox.Show(message, "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
-        If result = DialogResult.Yes Then
+            Dim result As DialogResult = MessageBox.Show(message, "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+            If result = DialogResult.Yes Then
 
-            Dim balance As Integer = lblBalance.Text
-            Dim addFund As Integer = txtAmount.Text
-            Dim sum As Integer = balance + addFund
-            Try
-                conn.Open()
-                Dim cmd As New MySqlCommand("update users set balance = @balance where id=@id ", conn)
+                Dim balance As Integer = lblBalance.Text
+                Dim addFund As Integer = txtAmount.Text
+                Dim sum As Integer = balance + addFund
+                Try
+                    conn.Open()
+                    Dim cmd As New MySqlCommand("update users set balance = @balance where id=@id ", conn)
 
-                cmd.Parameters.AddWithValue("@balance", sum)
-                cmd.Parameters.AddWithValue("@id", lblUserID.Text)
+                    cmd.Parameters.AddWithValue("@balance", sum)
+                    cmd.Parameters.AddWithValue("@id", lblUserID.Text)
 
 
-                cmd.ExecuteNonQuery()
-                MessageBox.Show("Fund transferred successfully!", "SUCCESSFULL", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                txtName.Clear()
-                txtAmount.Clear()
-                lblBalance.Text = "__"
-                lblUserID.Text = "__"
-            Catch ex As Exception
-                MessageBox.Show("Fund transfer failed!", "FAILED", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-            Finally
-                conn.Close()
-            End Try
-            viewMembersFundTransfer("Select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, committee, 
+                    cmd.ExecuteNonQuery()
+                    MessageBox.Show("Fund transferred successfully!", "SUCCESSFULL", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    txtName.Clear()
+                    txtAmount.Clear()
+                    lblBalance.Text = "__"
+                    lblUserID.Text = "__"
+                Catch ex As Exception
+                    MessageBox.Show("Fund transfer failed!", "FAILED", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+                Finally
+                    conn.Close()
+                End Try
+                viewMembersFundTransfer("Select users.id, concat(first_name, ' ', middle_name, ' ', last_name) as full_name, office, position, committee, 
                                             balance from users left join user_info On users.id = user_info.user_id")
+            End If
         End If
+
     End Sub
 
     Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
