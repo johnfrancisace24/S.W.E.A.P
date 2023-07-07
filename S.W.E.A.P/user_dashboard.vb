@@ -7,7 +7,7 @@ Imports Microsoft.VisualBasic.FileIO
 
 Public Class user_dashboard
     '
-    Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap")
+    Dim conn As New MySqlConnection(Form2.query)
     ' MySqlConnection is used to establish a connection to a MySQL database.
 
     Dim dr As MySqlDataReader

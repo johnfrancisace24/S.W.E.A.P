@@ -2,12 +2,11 @@
 
 Public Class Form2
     ' Connection object
-    Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap")
+    Public Shared query As String = "server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap"
+    Public Shared conn As New MySqlConnection(query)
     Dim rid As MySqlDataReader
-
     Public Shared log_id As Integer
 
-    'Perform log-in by using enter.
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         PerformLogin()
     End Sub
@@ -21,7 +20,6 @@ Public Class Form2
 
     Private Sub PerformLogin()
         Dim DateAndTime As String = DateTime.Now.ToString()
-
         If (txtUsername.Text = "") Then
             MessageBox.Show("Username can't be blank.", "Invalid", MessageBoxButtons.OK, MessageBoxIcon.Error)
         ElseIf (txtPassword.Text = "") Then
@@ -83,7 +81,7 @@ Public Class Form2
         signups.Show()
     End Sub
 
-    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load '--------AUTOLOAD
         txtPassword.PasswordChar = "*"
     End Sub
 
@@ -94,6 +92,11 @@ Public Class Form2
     'ANOTHER FORM TO CHANGE PASS
     Private Sub lblForgot_Click(sender As Object, e As EventArgs) Handles lblForgot.Click
         ForgotPass.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub btnChangeServer_Click(sender As Object, e As EventArgs) Handles btnChangeServer.Click
+        serverChange.Show()
         Me.Hide()
     End Sub
 End Class

@@ -6,7 +6,7 @@ Imports System.IO
 Imports System.IO.Packaging
 Imports System.Text.RegularExpressions
 Public Class signups
-    Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap")
+    Dim conn As New MySqlConnection(Form2.query)
     Dim rid As MySqlDataReader
     Dim error_msg(0) As String
     Dim random As Integer = 0

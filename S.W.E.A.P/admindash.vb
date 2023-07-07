@@ -11,7 +11,7 @@ Imports System.Diagnostics.Metrics
 Imports System.CodeDom
 
 Public Class admindash
-    Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap")
+    Dim conn As New MySqlConnection(Form2.query)
     Dim rid As MySqlDataReader
     Dim selectedId As Integer = 0
     Dim selectedBenId As Integer

@@ -45,7 +45,7 @@ Public Class Loan
     Dim random As Integer = 0 '---used to expand the error_msg array
     Dim errChecker As Integer = 0 '---used to check if the error_msg array is clear
     Dim message As String '---Validation messages, merging all the error messages from error_msg array to produce one message. Works along with errChecker variable
-    Dim conn As New MySqlConnection("server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap") '---database connection
+    Dim conn As New MySqlConnection(Form2.query) '---database connection
     Dim rid As MySqlDataReader '---database data reader
     Dim selectedId As Integer = 0
     Dim loanSchedId As Integer '---used in extract to excel loan to get some value to database
