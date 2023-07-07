@@ -996,7 +996,7 @@ Public Class Loan
             MessageBox.Show("An error occurred while getting the internet time: " & ex.Message)
         End Try
         'MsgBox(currentdate.Month & " " & currentdate.Year & " " & currentweek & " " & currentdate.Day & vbNewLine & updatedMonth & " " & updatedYear & " " & updatedWeek & " " & updatedDay)
-        updatedMonth = 6
+
         contriTrigger(updatedMonth, currentdate.Month, "Monthly")
         contriTrigger(updatedYear, currentdate.Year, "Annually")
         contriTrigger(updatedWeek, currentweek, "Weekly")
