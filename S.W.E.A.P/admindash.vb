@@ -328,6 +328,8 @@ Public Class admindash
         Else
             adminValue = 0
         End If
+
+
         Dim locateProject As String = My.Application.Info.DirectoryPath
         Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
         Dim location As String = locateProject.Substring(0, indext)
@@ -336,9 +338,28 @@ Public Class admindash
         Dim random As New Random()
         Dim randomNum As Integer = random.Next(1, 501)
         Dim destinationPath As String = location & "\Resources\user_profile\" & txtEditUsername.Text & randomNum & getExtension
-        File.Copy(sourceFilePath, destinationPath, 0)
-        imageInput = "\" & txtEditUsername.Text & randomNum & getExtension
+
         Try
+            conn.Open() ' Opens a connection to the database.
+
+            Dim selectCmd As New MySqlCommand("SELECT image from users WHERE id = @ID", conn)
+            selectCmd.Parameters.AddWithValue("@ID", Form2.log_id)
+            Dim dr As MySqlDataReader = selectCmd.ExecuteReader() ' Use a separate variable for the first DataReader
+            Dim imageName As String = ""
+            While dr.Read()
+                imageName = dr.GetString("image")
+            End While
+            dr.Close() ' Close the first DataReader
+
+            ' Check if the source file path is valid and exists
+            If Not String.IsNullOrEmpty(sourceFilePath) AndAlso File.Exists(sourceFilePath) Then
+                File.Copy(sourceFilePath, destinationPath, True)
+                imageInput = "\" & txtEditUsername.Text & randomNum & getExtension
+            Else
+                imageInput = imageName
+            End If
+            ' Create an update command to update the database
+            Try
             conn.Open()
             Dim cmd As New MySqlCommand("UPDATE users SET username=@USER, password=@PW, first_name=@FNAME, middle_name=@MNAME, last_name=@LNAME, position=@POS, image=@IMG, is_admin=@ADMIN, updated_at=NOW() WHERE id=@ID;
                              UPDATE user_info SET address=@ADDR, contact=@CONTCT, email=@EMAIL, educational=@EDUC, birthdate=@BDATE, office=@OFF, employment_status=@EMPLOYMENT,  committee=@COMM WHERE user_id=@ID;", conn)
