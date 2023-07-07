@@ -86,8 +86,23 @@ Public Class user_dashboard
         conn.Open()
         Dim cmd As New MySqlCommand("select alias from contri_types", conn)
         dr = cmd.ExecuteReader()
+        Dim rowIndex As Integer = 0
+        While dr.Read() AndAlso rowIndex < 5
+            If rowIndex = 0 Then
+                lblContri1.Text = dr.GetString(0)
+            ElseIf rowIndex = 1 Then
+                lblContri2.Text = dr.GetString(0)
+            ElseIf rowIndex = 2 Then
+                lblContri3.Text = dr.GetString(0)
+            ElseIf rowIndex = 3 Then
+                lblContri4.Text = dr.GetString(0)
+            ElseIf rowIndex = 4 Then
+                lblContri5.Text = dr.GetString(0)
+            End If
 
-
+            rowIndex += 1
+        End While
+        conn.Close()
 
     End Sub
 
@@ -108,26 +123,32 @@ Public Class user_dashboard
                     txtSaving.Text = 0 ' If the "balance" column is null, sets the text of txtSaving TextBox to 0.
                 End If
 
-                If Not dr.IsDBNull(dr.GetOrdinal("contribution2")) Then ' Checks if the "contribution1" column is not null for the current row.
-                    txtContribution2.Text = dr.GetString("contribution2") ' Sets the text of txtContribution1 TextBox to the value of the "contribution1" column.
+                If Not dr.IsDBNull(dr.GetOrdinal("contribution1")) Then ' checks if the "contribution1" column is not null for the current row.
+                    txtContribution1.Text = dr.GetString("contribution1") ' sets the text of txtcontribution1 textbox to the value of the "contribution1" column.
                 Else
-                    txtContribution2.Text = 0 ' If the "contribution1" column is null, sets the text of txtContribution1 TextBox to 0.
+                    txtContribution1.Text = 0 ' if the "contribution1" column is null, sets the text of txtcontribution1 textbox to 0.
+                End If
+
+                If Not dr.IsDBNull(dr.GetOrdinal("contribution2")) Then ' Checks if the "contribution2" column is not null for the current row.
+                    txtContribution2.Text = dr.GetString("contribution2") ' Sets the text of txtContribution2 TextBox to the value of the "contribution2" column.
+                Else
+                    txtContribution2.Text = 0 ' If the "contribution3" column is null, sets the text of txtContribution2 TextBox to 0.
                 End If
 
                 If Not dr.IsDBNull(dr.GetOrdinal("contribution3")) Then ' Checks if the "contribution3" column is not null for the current row.
                     txtContribution3.Text = dr.GetString("contribution3") ' Sets the text of txtContribution3 TextBox to the value of the "contribution3" column.
                 Else
-                    txtContribution3.Text = 0 ' If the "contribution3" column is null, sets the text of txtContribution2 TextBox to 0.
+                    txtContribution3.Text = 0 ' If the "contribution4" column is null, sets the text of txtContribution4 TextBox to 0.
                 End If
 
                 If Not dr.IsDBNull(dr.GetOrdinal("contribution4")) Then ' Checks if the "contribution4" column is not null for the current row.
                     txtContribution4.Text = dr.GetString("contribution4") ' Sets the text of txtContribution4 TextBox to the value of the "contribution4" column.
                 Else
-                    txtContribution4.Text = 0 ' If the "contribution4" column is null, sets the text of txtContribution4 TextBox to 0.
+                    txtContribution4.Text = 0 ' If the "contribution5" column is null, sets the text of txtContribution5 TextBox to 0.
                 End If
 
                 If Not dr.IsDBNull(dr.GetOrdinal("contribution5")) Then ' Checks if the "contribution5" column is not null for the current row.
-                    txtContribution5.Text = dr.GetString("contribution5") ' Sets the text of txtContribution4 TextBox to the value of the "contribution4" column.
+                    txtContribution5.Text = dr.GetString("contribution5") ' Sets the text of txtContribution5 TextBox to the value of the "contribution5" column.
                 Else
                     txtContribution5.Text = 0 ' If the "contribution5" column is null, sets the text of txtContribution5 TextBox to 0.
                 End If
