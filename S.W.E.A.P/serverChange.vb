@@ -1,10 +1,6 @@
-﻿Public Class serverChange
-    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
-        Me.DialogResult = DialogResult.OK
-        Me.Close()
-    End Sub
+﻿Imports MySql.Data.MySqlClient
 
-    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
-        Me.Close()
-    End Sub
+Public Class serverChange
+
+
 End Class
