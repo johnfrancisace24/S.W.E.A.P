@@ -140,7 +140,6 @@ Partial Class user_dashboard
         Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         txtContribution1 = New Label()
         lblContri1 = New Label()
-        Label3 = New Label()
         Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
         txtSaving = New Label()
         Label21 = New Label()
@@ -214,6 +213,7 @@ Partial Class user_dashboard
         btnUpdate = New Guna.UI2.WinForms.Guna2Button()
         ImageList1 = New ImageList(components)
         Timer1 = New Timer(components)
+        lblGreetings = New Label()
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
         CType(iconFromtitle, ComponentModel.ISupportInitialize).BeginInit()
@@ -441,12 +441,12 @@ Partial Class user_dashboard
         ' 
         tabDashboard.BackColor = Color.FromArgb(CByte(237), CByte(231), CByte(230))
         tabDashboard.BackgroundImageLayout = ImageLayout.Stretch
+        tabDashboard.Controls.Add(lblGreetings)
         tabDashboard.Controls.Add(Guna2Panel6)
         tabDashboard.Controls.Add(Guna2Panel5)
         tabDashboard.Controls.Add(Guna2Panel4)
         tabDashboard.Controls.Add(Guna2Panel3)
         tabDashboard.Controls.Add(Guna2Panel2)
-        tabDashboard.Controls.Add(Label3)
         tabDashboard.Controls.Add(Guna2Panel1)
         tabDashboard.Font = New Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point)
         tabDashboard.ImageKey = "dashboard (3).png"
@@ -459,13 +459,15 @@ Partial Class user_dashboard
         ' 
         ' Guna2Panel6
         ' 
+        Guna2Panel6.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Guna2Panel6.BackgroundImageLayout = ImageLayout.Zoom
         Guna2Panel6.BorderColor = Color.Black
-        Guna2Panel6.BorderRadius = 5
-        Guna2Panel6.BorderThickness = 1
+        Guna2Panel6.BorderRadius = 9
+        Guna2Panel6.BorderThickness = 2
         Guna2Panel6.Controls.Add(txtContribution2)
         Guna2Panel6.Controls.Add(lblContri2)
         Guna2Panel6.CustomizableEdges = CustomizableEdges1
-        Guna2Panel6.Location = New Point(664, 97)
+        Guna2Panel6.Location = New Point(664, 127)
         Guna2Panel6.Name = "Guna2Panel6"
         Guna2Panel6.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2Panel6.Size = New Size(317, 205)
@@ -493,9 +495,10 @@ Partial Class user_dashboard
         ' 
         ' Guna2Panel5
         ' 
+        Guna2Panel5.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
         Guna2Panel5.BorderColor = Color.Black
-        Guna2Panel5.BorderRadius = 5
-        Guna2Panel5.BorderThickness = 1
+        Guna2Panel5.BorderRadius = 9
+        Guna2Panel5.BorderThickness = 2
         Guna2Panel5.Controls.Add(txtContribution5)
         Guna2Panel5.Controls.Add(lblContri5)
         Guna2Panel5.CustomizableEdges = CustomizableEdges3
@@ -527,9 +530,11 @@ Partial Class user_dashboard
         ' 
         ' Guna2Panel4
         ' 
+        Guna2Panel4.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Guna2Panel4.BackgroundImageLayout = ImageLayout.Zoom
         Guna2Panel4.BorderColor = Color.Black
-        Guna2Panel4.BorderRadius = 5
-        Guna2Panel4.BorderThickness = 1
+        Guna2Panel4.BorderRadius = 9
+        Guna2Panel4.BorderThickness = 2
         Guna2Panel4.Controls.Add(txtContribution4)
         Guna2Panel4.Controls.Add(lblContri4)
         Guna2Panel4.CustomizableEdges = CustomizableEdges5
@@ -561,9 +566,11 @@ Partial Class user_dashboard
         ' 
         ' Guna2Panel3
         ' 
+        Guna2Panel3.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Guna2Panel3.BackgroundImageLayout = ImageLayout.Zoom
         Guna2Panel3.BorderColor = Color.Black
-        Guna2Panel3.BorderRadius = 5
-        Guna2Panel3.BorderThickness = 1
+        Guna2Panel3.BorderRadius = 9
+        Guna2Panel3.BorderThickness = 2
         Guna2Panel3.Controls.Add(txtContribution3)
         Guna2Panel3.Controls.Add(lblContri3)
         Guna2Panel3.CustomizableEdges = CustomizableEdges7
@@ -595,13 +602,15 @@ Partial Class user_dashboard
         ' 
         ' Guna2Panel2
         ' 
+        Guna2Panel2.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Guna2Panel2.BackgroundImageLayout = ImageLayout.Zoom
         Guna2Panel2.BorderColor = Color.Black
-        Guna2Panel2.BorderRadius = 5
-        Guna2Panel2.BorderThickness = 1
+        Guna2Panel2.BorderRadius = 9
+        Guna2Panel2.BorderThickness = 2
         Guna2Panel2.Controls.Add(txtContribution1)
         Guna2Panel2.Controls.Add(lblContri1)
         Guna2Panel2.CustomizableEdges = CustomizableEdges9
-        Guna2Panel2.Location = New Point(341, 97)
+        Guna2Panel2.Location = New Point(341, 128)
         Guna2Panel2.Name = "Guna2Panel2"
         Guna2Panel2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         Guna2Panel2.Size = New Size(317, 205)
@@ -627,25 +636,18 @@ Partial Class user_dashboard
         lblContri1.TabIndex = 2
         lblContri1.Text = "member"
         ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Location = New Point(6, 12)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(179, 45)
-        Label3.TabIndex = 1
-        Label3.Text = "Dashboard"
-        ' 
         ' Guna2Panel1
         ' 
+        Guna2Panel1.BackColor = Color.FromArgb(CByte(255), CByte(251), CByte(250))
+        Guna2Panel1.BackgroundImageLayout = ImageLayout.Zoom
         Guna2Panel1.BorderColor = Color.Black
-        Guna2Panel1.BorderRadius = 5
-        Guna2Panel1.BorderThickness = 1
+        Guna2Panel1.BorderRadius = 9
+        Guna2Panel1.BorderThickness = 2
         Guna2Panel1.Controls.Add(txtSaving)
         Guna2Panel1.Controls.Add(Label21)
         Guna2Panel1.Controls.Add(PictureBox1)
         Guna2Panel1.CustomizableEdges = CustomizableEdges11
-        Guna2Panel1.Location = New Point(18, 97)
+        Guna2Panel1.Location = New Point(18, 128)
         Guna2Panel1.Name = "Guna2Panel1"
         Guna2Panel1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         Guna2Panel1.Size = New Size(317, 205)
@@ -1850,6 +1852,15 @@ Partial Class user_dashboard
         ' Timer1
         ' 
         ' 
+        ' lblGreetings
+        ' 
+        lblGreetings.AutoSize = True
+        lblGreetings.Location = New Point(18, 33)
+        lblGreetings.Name = "lblGreetings"
+        lblGreetings.Size = New Size(179, 45)
+        lblGreetings.TabIndex = 8
+        lblGreetings.Text = "Dashboard"
+        ' 
         ' user_dashboard
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -1981,7 +1992,6 @@ Partial Class user_dashboard
     Friend WithEvents txtContribution1 As Label
     Friend WithEvents Label32 As Label
     Friend WithEvents lblContri1 As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents txtSaving As Label
     Friend WithEvents Label28 As Label
@@ -2003,4 +2013,5 @@ Partial Class user_dashboard
     Friend WithEvents txtContribution2 As Label
     Friend WithEvents Label34 As Label
     Friend WithEvents lblContri2 As Label
+    Friend WithEvents lblGreetings As Label
 End Class
