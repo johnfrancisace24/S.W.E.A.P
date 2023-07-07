@@ -571,6 +571,7 @@ Public Class Loan
 
     Private Sub btnLoanToExcel_Click(sender As Object, e As EventArgs) Handles btnLoanToExcel.Click '---------CREATE EXCEL FILE
         Dim filePath As String
+        Dim fileOwner As String
         ExcelPackage.LicenseContext = LicenseContext.NonCommercial
 
         Using package As New ExcelPackage()
@@ -631,7 +632,7 @@ Public Class Loan
                     worksheet.Cells("B9").Value = rid.Item("optional_xtra")
                     worksheet.Cells("H4").Value = rid.Item("no_payments_per_year") * rid.Item("loan_period_years")
                     worksheet.Cells("H9").Value = rid.Item("fullname")
-                    filePath = rid.Item("username")
+                    fileOwner = rid.Item("username")
                 End While
             Catch ex As Exception
                 MsgBox("doesntwork")
@@ -714,12 +715,12 @@ Public Class Loan
                 worksheet.Column(columnIndex).Width = 20
             Next
 
-            filePath = location & "\Resources\Exported_file\" & filePath & "_loan_Schedule.xlsx"
+            filePath = location & "\Resources\Exported_file\" & fileOwner & "_loan_Schedule.xlsx"
 
             If IsFileExists(filePath) Then
                 Dim random As New Random()
                 Dim randomNum As Integer = random.Next(1, 501)
-                filePath = location & "\Resources\Exported_file\" & filePath & "_loan_Schedule" & randomNum & ".xlsx"
+                filePath = location & "\Resources\Exported_file\" & fileOwner & "_loan_Schedule" & randomNum & ".xlsx"
                 package.SaveAs(New System.IO.FileInfo(filePath))
                 MsgBox("File saved to " & filePath)
             Else
