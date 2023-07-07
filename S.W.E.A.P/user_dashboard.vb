@@ -82,6 +82,13 @@ Public Class user_dashboard
 
         Dashboard()
         ' A method or function named Dashboard is called.
+
+        conn.Open()
+        Dim cmd As New MySqlCommand("select alias from contri_types", conn)
+        dr = cmd.ExecuteReader()
+
+
+
     End Sub
 
 
@@ -525,5 +532,9 @@ Public Class user_dashboard
 
     Private Sub Guna2ControlBox1_Click(sender As Object, e As EventArgs) Handles Guna2ControlBox1.Click
         Application.Exit()
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+
     End Sub
 End Class
