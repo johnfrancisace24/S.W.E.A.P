@@ -23,15 +23,15 @@ Partial Class serverChange
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
-        Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges16 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(serverChange))
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Label1 = New Label()
         Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
@@ -94,7 +94,7 @@ Partial Class serverChange
         ' 
         ' TabPage1
         ' 
-        TabPage1.BackColor = Color.WhiteSmoke
+        TabPage1.BackColor = Color.FromArgb(CByte(54), CByte(69), CByte(94))
         TabPage1.Controls.Add(txtServer)
         TabPage1.Location = New Point(4, 44)
         TabPage1.Name = "TabPage1"
@@ -107,7 +107,7 @@ Partial Class serverChange
         ' 
         txtServer.BorderColor = Color.Black
         txtServer.BorderThickness = 2
-        txtServer.CustomizableEdges = CustomizableEdges5
+        txtServer.CustomizableEdges = CustomizableEdges13
         txtServer.DefaultText = ""
         txtServer.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtServer.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -116,18 +116,19 @@ Partial Class serverChange
         txtServer.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtServer.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtServer.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtServer.Location = New Point(59, 65)
+        txtServer.Location = New Point(64, 55)
         txtServer.Name = "txtServer"
         txtServer.PasswordChar = ChrW(0)
         txtServer.PlaceholderForeColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
         txtServer.PlaceholderText = "172.18.206.30"
         txtServer.SelectedText = ""
-        txtServer.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        txtServer.ShadowDecoration.CustomizableEdges = CustomizableEdges14
         txtServer.Size = New Size(237, 36)
         txtServer.TabIndex = 0
         ' 
         ' TabPage2
         ' 
+        TabPage2.BackColor = Color.FromArgb(CByte(54), CByte(69), CByte(94))
         TabPage2.Controls.Add(txtPort)
         TabPage2.Location = New Point(4, 44)
         TabPage2.Name = "TabPage2"
@@ -135,13 +136,12 @@ Partial Class serverChange
         TabPage2.Size = New Size(364, 147)
         TabPage2.TabIndex = 1
         TabPage2.Text = "Port"
-        TabPage2.UseVisualStyleBackColor = True
         ' 
         ' txtPort
         ' 
         txtPort.BorderColor = Color.Black
         txtPort.BorderThickness = 2
-        txtPort.CustomizableEdges = CustomizableEdges7
+        txtPort.CustomizableEdges = CustomizableEdges15
         txtPort.DefaultText = ""
         txtPort.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
         txtPort.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
@@ -150,13 +150,13 @@ Partial Class serverChange
         txtPort.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         txtPort.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         txtPort.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        txtPort.Location = New Point(64, 74)
+        txtPort.Location = New Point(64, 55)
         txtPort.Name = "txtPort"
         txtPort.PasswordChar = ChrW(0)
         txtPort.PlaceholderForeColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
         txtPort.PlaceholderText = "3306"
         txtPort.SelectedText = ""
-        txtPort.ShadowDecoration.CustomizableEdges = CustomizableEdges8
+        txtPort.ShadowDecoration.CustomizableEdges = CustomizableEdges16
         txtPort.Size = New Size(237, 36)
         txtPort.TabIndex = 1
         ' 
@@ -174,32 +174,38 @@ Partial Class serverChange
         ' 
         ' Guna2Button1
         ' 
-        Guna2Button1.CustomizableEdges = CustomizableEdges3
+        Guna2Button1.BorderThickness = 2
+        Guna2Button1.CustomizableEdges = CustomizableEdges11
         Guna2Button1.DisabledState.BorderColor = Color.DarkGray
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button1.FillColor = SystemColors.ControlLight
         Guna2Button1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2Button1.ForeColor = Color.White
+        Guna2Button1.ForeColor = Color.Black
+        Guna2Button1.Image = My.Resources.Resources.check1
         Guna2Button1.Location = New Point(252, 402)
         Guna2Button1.Name = "Guna2Button1"
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
         Guna2Button1.Size = New Size(109, 23)
         Guna2Button1.TabIndex = 3
         Guna2Button1.Text = "Save"
         ' 
         ' Guna2Button2
         ' 
-        Guna2Button2.CustomizableEdges = CustomizableEdges1
+        Guna2Button2.BorderThickness = 2
+        Guna2Button2.CustomizableEdges = CustomizableEdges9
         Guna2Button2.DisabledState.BorderColor = Color.DarkGray
         Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2Button2.FillColor = SystemColors.ControlLight
         Guna2Button2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Guna2Button2.ForeColor = Color.White
+        Guna2Button2.ForeColor = Color.Black
+        Guna2Button2.Image = My.Resources.Resources.cross_button1
         Guna2Button2.Location = New Point(137, 402)
         Guna2Button2.Name = "Guna2Button2"
-        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges10
         Guna2Button2.Size = New Size(109, 23)
         Guna2Button2.TabIndex = 4
         Guna2Button2.Text = "Abort"
