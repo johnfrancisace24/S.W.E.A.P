@@ -359,8 +359,7 @@ Public Class admindash
                 imageInput = imageName
             End If
             ' Create an update command to update the database
-            Try
-            conn.Open()
+
             Dim cmd As New MySqlCommand("UPDATE users SET username=@USER, password=@PW, first_name=@FNAME, middle_name=@MNAME, last_name=@LNAME, position=@POS, image=@IMG, is_admin=@ADMIN, updated_at=NOW() WHERE id=@ID;
                              UPDATE user_info SET address=@ADDR, contact=@CONTCT, email=@EMAIL, educational=@EDUC, birthdate=@BDATE, office=@OFF, employment_status=@EMPLOYMENT,  committee=@COMM WHERE user_id=@ID;", conn)
 
