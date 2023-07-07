@@ -1,8 +1,9 @@
-﻿Imports MySql.Data.MySqlClient
+﻿Imports System.Diagnostics.Eventing
+Imports MySql.Data.MySqlClient
 
 Public Class Form2
     ' Connection object
-    Public Shared query As String = "server=172.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap"
+    Public Shared query As String = "server=17232.30.206.180;port=3306;username=dswd;password=sweap123;database=sweap"
     Public Shared conn As New MySqlConnection(query)
     Dim rid As MySqlDataReader
     Public Shared log_id As Integer
@@ -82,6 +83,25 @@ Public Class Form2
     End Sub
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load '--------AUTOLOAD
+        Dim locateProject As String = My.Application.Info.DirectoryPath
+        Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
+        Dim location As String = locateProject.Substring(0, indext)
+        Dim filepath As String = location & "\Resources\lastPort.txt"
+        Dim ip As String
+        Dim port As String
+        Dim username As String
+        Dim password As String
+        Dim db As String
+        Using reader As New System.IO.StreamReader(filePath)
+            ip = reader.ReadLine()
+            port = reader.ReadLine()
+            username = reader.ReadLine()
+            password = reader.ReadLine()
+            db = reader.ReadLine()
+        End Using
+        query = "server=" & ip & ";port=" & port & ";username=" & username & ";password=" & password & ";database=" & db
+        conn.ConnectionString = query
+
         txtPassword.PasswordChar = "*"
     End Sub
 

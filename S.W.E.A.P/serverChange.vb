@@ -7,26 +7,40 @@ Public Class serverChange
 
         Try
             Form2.conn.Open()
-            Dim cmd As New MySqlCommand("insert into connection(ip, port, username, password, db_name, updated_at)values(@IP, @PORT, @UNAME, @PW, @DB, now());", Form2.conn)
-            cmd.Parameters.AddWithValue("@IP", txtIp.Text)
-            cmd.Parameters.AddWithValue("@PORT", txtPort.Text)
-            cmd.Parameters.AddWithValue("@UNAME", txtUsername.Text)
-            cmd.Parameters.AddWithValue("@PW", txtPassword.Text)
-            cmd.Parameters.AddWithValue("@DB", txtDatabase.Text)
-            cmd.ExecuteNonQuery()
+            Dim locateProject As String = My.Application.Info.DirectoryPath
+            Dim indext As Integer = locateProject.IndexOf("bin\Debug\net6.0-windows")
+            Dim location As String = locateProject.Substring(0, indext)
+            Dim filepath As String = location & "\Resources\lastPort.txt"
+            'clears the text file of the last log ports addresses
+            Using writer As New System.IO.StreamWriter(filepath, False)
+                writer.Write(String.Empty)
+            End Using
+            'records the last log ports addresses
+            Using writer As New System.IO.StreamWriter(filepath)
+                writer.WriteLine(txtIp.Text)
+                writer.WriteLine(txtPort.Text)
+                writer.WriteLine(txtUsername.Text)
+                writer.WriteLine(txtPassword.Text)
+                writer.WriteLine(txtDatabase.Text)
+            End Using
             MessageBox.Show("Connected Successfully!", "Response", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Form2.Show()
+            Me.Close()
         Catch ex As Exception
             MessageBox.Show("Connection Failed!", "Response", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally
             Form2.conn.Close()
         End Try
 
-        Form2.Show()
-        Me.Close()
     End Sub
 
-    Private Sub serverChange_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub serverChange_Load(sender As Object, e As EventArgs) Handles MyBase.Load '-----AUTOLOAD
         txtPort.Text = "3306"
         txtDatabase.Text = "sweap"
+    End Sub
+
+    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
+        Form2.Show()
+        Me.Close()
     End Sub
 End Class
