@@ -148,7 +148,7 @@ Public Class Loan
                 dgContribution.Rows.Add(rid.Item("user_id"), rid.Item("full_name"), rid.Item("position"), rid.Item("contribution1"), rid.Item("contribution2"), rid.Item("contribution3"), rid.Item("contribution4"), rid.Item("contribution5"), rid.Item("updated_at"))
             End While
         Catch ex As Exception
-            MsgBox("Fetching contribution table doesn't work. Function name contriGrid()")
+            MessageBox.Show("Fetching contribution table doesn't work. Function name contriGrid()", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally
             conn.Close()
         End Try
@@ -325,7 +325,7 @@ Public Class Loan
                 dgSelectEm.Rows.Add(rid.Item("id"), rid.Item("full_name"), rid.Item("username"))
             End While
         Catch ex As Exception
-            MsgBox("doesn't work lmao")
+            MessageBox.Show("Cannot connect to the database.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally
             conn.Close()
         End Try
@@ -851,7 +851,7 @@ Public Class Loan
                     dgContribution.Rows.Add(rid.Item("user_id"), rid.Item("full_name"), rid.Item("position"), rid.Item("membership"), rid.Item("union_due"), rid.Item("bereavement"), rid.Item("con4"), rid.Item("con5"), rid.Item("updated_at"))
                 End While
             Catch ex As Exception
-
+                MessageBox.Show("Connection failed.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Finally
                 conn.Close()
             End Try
