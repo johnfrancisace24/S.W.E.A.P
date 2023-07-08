@@ -875,6 +875,7 @@ Public Class Loan
 
     End Sub
 
+    'CONTRI2
     Private Sub btnExtractContri_Click(sender As Object, e As EventArgs) Handles btnExtractContri.Click
         Dim filePath As String
         ExcelPackage.LicenseContext = LicenseContext.NonCommercial
@@ -894,12 +895,39 @@ Public Class Loan
             worksheet.Cells("A8").Value = dgContriTotal.Columns(3).HeaderText
             worksheet.Cells("A9").Value = dgContriTotal.Columns(4).HeaderText
 
+            Dim columnRangeA2TOA9 As ExcelRange = worksheet.Cells("A2:A9")
+            columnRangeA2TOA9.Style.Fill.PatternType = OfficeOpenXml.Style.ExcelFillStyle.Solid
+            columnRangeA2TOA9.Style.Fill.BackgroundColor.SetColor(System.Drawing.Color.LightGray)
+            columnRangeA2TOA9.Style.Font.Color.SetColor(System.Drawing.Color.Black)
+            columnRangeA2TOA9.Style.Border.Bottom.Style = OfficeOpenXml.Style.ExcelBorderStyle.Thin
+            columnRangeA2TOA9.Style.Border.Bottom.Color.SetColor(System.Drawing.Color.Black)
+            columnRangeA2TOA9.Style.Font.Italic = True
+            columnRangeA2TOA9.Style.Font.Bold = True
+
+            worksheet.Column(1).Width = 22
+            worksheet.Column(2).Width = 27
+
             worksheet.Cells("C2").Value = dgContriTotal.Rows(0).Cells(0).Value
             worksheet.Cells("C5").Value = dgContriTotal.Rows(0).Cells(0).Value
             worksheet.Cells("C6").Value = dgContriTotal.Rows(0).Cells(1).Value
             worksheet.Cells("C7").Value = dgContriTotal.Rows(0).Cells(2).Value
             worksheet.Cells("C8").Value = dgContriTotal.Rows(0).Cells(3).Value
             worksheet.Cells("C9").Value = dgContriTotal.Rows(0).Cells(4).Value
+
+
+            Dim columnRangeC2TOC9 As ExcelRange = worksheet.Cells("C2:C9")
+            columnRangeC2TOC9.Style.Fill.PatternType = OfficeOpenXml.Style.ExcelFillStyle.Solid
+            columnRangeC2TOC9.Style.Fill.BackgroundColor.SetColor(System.Drawing.Color.LightGray)
+            columnRangeC2TOC9.Style.Font.Color.SetColor(System.Drawing.Color.Black)
+            columnRangeC2TOC9.Style.Border.Bottom.Style = OfficeOpenXml.Style.ExcelBorderStyle.Thin
+            columnRangeC2TOC9.Style.Border.Bottom.Color.SetColor(System.Drawing.Color.Black)
+            columnRangeC2TOC9.Style.Font.Bold = True
+
+            worksheet.Column(3).Width = 27
+            worksheet.Column(4).Width = 15.26
+            worksheet.Column(5).Width = 11.57
+            worksheet.Column(7).Width = 8
+            worksheet.Column(8).Width = 8
 
             worksheet.Cells("A12").Value = dgContribution.Columns(0).HeaderText
             worksheet.Cells("B12").Value = dgContribution.Columns(1).HeaderText
@@ -909,8 +937,21 @@ Public Class Loan
             worksheet.Cells("F12").Value = dgContribution.Columns(5).HeaderText
             worksheet.Cells("G12").Value = dgContribution.Columns(6).HeaderText
 
+            Dim columnRangeTop As ExcelRange = worksheet.Cells("A12:G12")
+            columnRangeTop.Style.Fill.PatternType = OfficeOpenXml.Style.ExcelFillStyle.Solid
+            columnRangeTop.Style.Fill.BackgroundColor.SetColor(System.Drawing.Color.FromArgb(255, 217, 102)) ' RGB values for a similar gold color
+            columnRangeTop.Style.Font.Color.SetColor(System.Drawing.Color.Black)
+            columnRangeTop.Style.HorizontalAlignment = OfficeOpenXml.Style.ExcelHorizontalAlignment.Center
+            columnRangeTop.Style.Font.Bold = True
+
+            Dim isWhite As Boolean = True ' Flag to determine the background color
+
             ' Iterate over each row in the DataGridView and populate the worksheet cells
             For Each row As DataGridViewRow In dgContribution.Rows
+                ' Set the background color based on the flag
+                Dim bgColor As System.Drawing.Color = If(isWhite, System.Drawing.Color.White, System.Drawing.Color.LightGray)
+
+                ' Populate the worksheet cells
                 worksheet.Cells("A" & counter).Value = row.Cells(0).Value
                 worksheet.Cells("B" & counter).Value = row.Cells(1).Value
                 worksheet.Cells("C" & counter).Value = row.Cells(2).Value
@@ -918,7 +959,16 @@ Public Class Loan
                 worksheet.Cells("E" & counter).Value = row.Cells(4).Value
                 worksheet.Cells("F" & counter).Value = row.Cells(5).Value
                 worksheet.Cells("G" & counter).Value = row.Cells(6).Value
+
+                ' Apply the background color to the row
+                Dim rowRange As ExcelRange = worksheet.Cells("A" & counter & ":G" & counter)
+                rowRange.Style.Fill.PatternType = OfficeOpenXml.Style.ExcelFillStyle.Solid
+                rowRange.Style.Fill.BackgroundColor.SetColor(bgColor)
+                rowRange.Style.Border.Bottom.Style = OfficeOpenXml.Style.ExcelBorderStyle.Thin
+                rowRange.Style.Border.Bottom.Color.SetColor(System.Drawing.Color.Black)
+
                 counter = counter + 1
+                isWhite = Not isWhite ' Toggle the flag for the next row
             Next
 
             ' Specify the file path to save the Excel file
@@ -935,9 +985,17 @@ Public Class Loan
                 filePath = location & "\Resources\Exported_file\" & pickContriOffice.SelectedItem & "_Contribution" & randomNum & ".xlsx"
                 package.SaveAs(New System.IO.FileInfo(filePath))
                 MessageBox.Show("File saved to " & filePath, "Response")
+
+                ' Open the folder location
+                Dim folderPath As String = System.IO.Path.GetDirectoryName(filePath)
+                Process.Start("explorer.exe", folderPath)
             Else
                 package.SaveAs(New System.IO.FileInfo(filePath))
                 MessageBox.Show("File saved to " & filePath, "Response")
+
+                ' Open the folder location
+                Dim folderPath As String = System.IO.Path.GetDirectoryName(filePath)
+                Process.Start("explorer.exe", folderPath)
             End If
 
         End Using
